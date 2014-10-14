@@ -27,6 +27,7 @@ import java.util.zip.GZIPOutputStream;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -65,6 +66,7 @@ public class GathererScraperUi {
 	private JProgressBar		mExpansionProgressBar;
 	private JLabel				mLastCardScraped;
 	private JRadioButton		mRdbtnOverwriteManifests;
+	private JTable				mTable;
 
 	private ExpansionTableModel	mExpansionTableModel;
 	private LegalityListModel	mLegalityListModel;
@@ -195,7 +197,6 @@ public class GathererScraperUi {
 
 		});
 
-		JTable table;
 		/* Create the models and scraper objects */
 		mExpansionTableModel = new ExpansionTableModel();
 		mLegalityListModel = new LegalityListModel();
@@ -227,7 +228,7 @@ public class GathererScraperUi {
 			}
 		}
 		catch (IOException e) {
-			table = new JTable();
+			mTable = new JTable();
 		}
 
 		mExpansionProgressBar = new JProgressBar();
@@ -265,13 +266,13 @@ public class GathererScraperUi {
 		gbc_scrollPane.gridx = 0;
 		gbc_scrollPane.gridy = 2;
 		frame.getContentPane().add(scrollPane, gbc_scrollPane);
-		table = new JTable(mExpansionTableModel);
-		table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+		mTable = new JTable(mExpansionTableModel);
+		mTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
 
-		TableColumnAdjuster tca = new TableColumnAdjuster(table);
+		TableColumnAdjuster tca = new TableColumnAdjuster(mTable);
 		tca.adjustColumns();
 
-		scrollPane.setViewportView(table);
+		scrollPane.setViewportView(mTable);
 
 		JButton btnScrape = new JButton("Scrape!");
 		btnScrape.addActionListener(new ActionListener() {
@@ -486,6 +487,29 @@ public class GathererScraperUi {
 		gbc_btnScrape.gridx = 2;
 		gbc_btnScrape.gridy = 3;
 		frame.getContentPane().add(btnScrape, gbc_btnScrape);
+
+		JCheckBox chckbxSelectAll = new JCheckBox("Select All");
+		GridBagConstraints gbc_chckbxSelectAll = new GridBagConstraints();
+		gbc_chckbxSelectAll.gridx = 3;
+		gbc_chckbxSelectAll.gridy = 3;
+		frame.getContentPane().add(chckbxSelectAll, gbc_chckbxSelectAll);
+		chckbxSelectAll.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				if (chckbxSelectAll.isSelected()) {
+					for (Expansion exp : mExpansionTableModel.mExpansions) {
+						exp.mChecked = true;
+					}
+				}
+				else {
+					for (Expansion exp : mExpansionTableModel.mExpansions) {
+						exp.mChecked = false;
+					}
+				}
+				mTable.repaint();
+			}
+		});
 
 		frame.setVisible(true);
 	}
