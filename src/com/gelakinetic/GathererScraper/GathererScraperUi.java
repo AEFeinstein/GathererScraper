@@ -156,7 +156,7 @@ public class GathererScraperUi {
 			return;
 		}
 
-		JFrame frame = new JFrame();
+		final JFrame frame = new JFrame();
 		frame.setVisible(false);
 		frame.setBounds(100, 100, 930, 512);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -443,7 +443,7 @@ public class GathererScraperUi {
 		gbc_scrollPane_1.gridy = 2;
 		frame.getContentPane().add(scrollPane_1, gbc_scrollPane_1);
 
-		JList<String> list = new JList<String>(mLegalityListModel);
+		final JList<String> list = new JList<String>(mLegalityListModel);
 		scrollPane_1.setViewportView(list);
 
 		/*
@@ -488,7 +488,7 @@ public class GathererScraperUi {
 		gbc_btnScrape.gridy = 3;
 		frame.getContentPane().add(btnScrape, gbc_btnScrape);
 
-		JCheckBox chckbxSelectAll = new JCheckBox("Select All");
+		final JCheckBox chckbxSelectAll = new JCheckBox("Select All");
 		GridBagConstraints gbc_chckbxSelectAll = new GridBagConstraints();
 		gbc_chckbxSelectAll.gridx = 3;
 		gbc_chckbxSelectAll.gridy = 3;
