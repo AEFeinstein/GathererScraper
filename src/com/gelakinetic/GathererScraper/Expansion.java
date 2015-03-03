@@ -1,5 +1,6 @@
 package com.gelakinetic.GathererScraper;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 import org.json.simple.JSONObject;
@@ -10,14 +11,16 @@ import org.json.simple.JSONObject;
  * @author AEFeinstein
  *
  */
-public class Expansion {
+public class Expansion implements Comparable<Expansion>{
 
+	private static final String SUBSET_DIVIDER	= "##";
 	private static final String	KEY_NAME		= "name";
 	private static final String	KEY_CODE		= "code";
 	private static final String	KEY_MTGI		= "mtgi";
 	private static final String	KEY_TCGP		= "tcgp";
 	private static final String	KEY_MKM			= "mkm";
 	private static final String	KEY_DATE		= "date";
+	private static final String	KEY_SUBSETS		= "subsets";
 
 	/** Name used by Gatherer */
 	public String				mName_gatherer	= "";
@@ -35,6 +38,9 @@ public class Expansion {
 	/** To scrape, or not to scrape ? */
 	public Boolean				mChecked		= false;
 
+	/** Subsets for duel decks anthology */
+	public ArrayList<String> mSubSets			= new ArrayList<String>();
+	
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
 	 * 
@@ -43,6 +49,7 @@ public class Expansion {
 	 */
 	public Expansion(String name_gatherer) {
 		mName_gatherer = name_gatherer;
+		this.mSubSets.add(name_gatherer);
 	}
 
 	/**
@@ -68,6 +75,26 @@ public class Expansion {
 		catch (Exception e) {
 			mDate = (String) jo.get(KEY_DATE);
 		}
+		
+		try {
+			String subsets[] = ((String) jo.get(KEY_SUBSETS)).split(SUBSET_DIVIDER);
+			for (String subset : subsets) {
+				mSubSets.add(subset);
+			}
+		}
+		catch(Exception e) {
+			/* info DNE */
+		}
+	}
+
+	/**
+	 * TODO
+	 * @param string
+	 * @param ownText
+	 */
+	public Expansion(String string, String ownText) {
+		this.mName_gatherer = string;
+		this.mSubSets.add(ownText);
 	}
 
 	/**
@@ -92,6 +119,13 @@ public class Expansion {
 			obj.put(KEY_DATE, "");
 
 		}
+		
+		String allSubsets = "";
+		for(String subset : mSubSets) {
+			allSubsets += subset + SUBSET_DIVIDER;
+		}
+		obj.put(KEY_SUBSETS, allSubsets);
+		
 		return obj;
 	}
 
@@ -111,4 +145,23 @@ public class Expansion {
 		c.set(year, month - 1, 1, 0, 0, 0);
 		return c.getTimeInMillis();
 	}
+
+	@Override
+	public int compareTo(Expansion o) {
+		return this.mName_gatherer.compareTo(o.mName_gatherer);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Expansion) {
+			return this.mName_gatherer.equals(((Expansion)obj).mName_gatherer);
+		}
+		return false;
+	}
+
+	public void addSubSet(String ownText) {
+		mSubSets.add(ownText);
+	}
+	
+	
 }

@@ -38,7 +38,22 @@ public class GathererScraper {
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					expansions.add(new Expansion(e.ownText()));
+					if(e.ownText().contains("Duel Decks Anthology")) {
+						boolean exists = false;
+						for(Expansion exp : expansions) {
+							if(exp.equals(new Expansion("Duel Decks Anthology"))) {
+								exists = true;
+								exp.addSubSet(e.ownText());
+							}
+						}
+						
+						if(!exists) {
+							expansions.add(new Expansion("Duel Decks Anthology", e.ownText()));							
+						}
+					}
+					else {
+						expansions.add(new Expansion(e.ownText()));
+					}
 				}
 			}
 		}
@@ -62,32 +77,36 @@ public class GathererScraper {
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
 		/* Look for normal cards */
-		int pageNum = 0;
-		boolean loop = true;
-		while (loop) {
-
-			String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
-					+ "&output=compact&action=advanced&special=true&set=+%5b%22"
-					+ (new PercentEscaper("", true)).escape(exp.mName_gatherer) + "%22%5d";
-
-			Document individualExpansion = Jsoup.connect(urlStr).get();
-
-			Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
-			if (cards.size() == 0) {
-				loop = false;
-			}
-			for (int i = 0; i < cards.size(); i++) {
-				Element e = cards.get(i);
-				Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
-
-				if (cardsArray.contains(card)) {
+		for(int subSetNum = 0; subSetNum < exp.mSubSets.size(); subSetNum++) {
+			int pageNum = 0;
+			boolean loop = true;
+			while (loop) {
+	
+				String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
+						+ "&output=compact&action=advanced&special=true&set=+%5b%22"
+						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d";
+	
+				System.out.println(urlStr);
+				
+				Document individualExpansion = Jsoup.connect(urlStr).get();
+	
+				Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
+				if (cards.size() == 0) {
 					loop = false;
 				}
-				else {
-					cardsArray.add(card);
+				for (int i = 0; i < cards.size(); i++) {
+					Element e = cards.get(i);
+					Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
+	
+					if (cardsArray.contains(card)) {
+						loop = false;
+					}
+					else {
+						cardsArray.add(card);
+					}
 				}
+				pageNum++;
 			}
-			pageNum++;
 		}
 
 		for (Card c : cardsArray) {
