@@ -28,7 +28,7 @@ public class GathererChecker {
 	 */
 	public static void main(String[] args) {
 		try {
-			File rssFile = new File("GathererExpansions.rss");
+			File rssFile = new File(args[0]);
 			
 			boolean changes = false;
 			/* Read in the current RSS file */
