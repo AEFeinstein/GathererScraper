@@ -6,11 +6,14 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.jsoup.Jsoup;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -41,9 +44,18 @@ public class GathererChecker {
 				/* See if it's already in the RSS file */
 				if(!entries.contains(exp)) {
 					/* If it isn't, add it to the file. Null GUID and date will be populated */
-					entries.add(new RssEntry(exp.mName_gatherer, null, null));
+					entries.add(new RssEntry(exp.mName_gatherer, null, null, null));
 					changes = true;
 				}
+			}
+
+			/* Get the latest rules, and make an RssEntry for it */
+			RssEntry latestRules = GetLatestRules();
+			/* If the entries to not have the latest rules */
+			if(!entries.contains(latestRules)) {
+				/* Add them */
+				entries.add(latestRules);
+				changes = true;
 			}
 
 			/* If there are changes, write the new RSS file */
@@ -122,7 +134,8 @@ public class GathererChecker {
 					rssEntries.add(new RssEntry(
 							eElement.getElementsByTagName(RssEntry.TITLE).item(0).getTextContent(),
 							eElement.getElementsByTagName(RssEntry.GUID).item(0).getTextContent(),
-							eElement.getElementsByTagName(RssEntry.PUBDATE).item(0).getTextContent()));
+							eElement.getElementsByTagName(RssEntry.PUBDATE).item(0).getTextContent(),
+							null));
 				}
 			}
 		}
@@ -130,5 +143,24 @@ public class GathererChecker {
 			/* eat it */
 		}
 		return rssEntries;
+	}
+	
+	public static RssEntry GetLatestRules () throws IOException {
+		/* One big line to get the webpage, then the element, then the attribute for the comprehensive rules url */
+		String url = Jsoup.connect("http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules").get()
+				.getElementsByAttributeValueContaining("href", "txt").get(0)
+				.attr("href");
+
+		/* Pick the date out of the link */
+		String dateSubStr = url.substring(url.length() - 12, url.length() - 4);
+		Calendar cal = Calendar.getInstance();
+		cal.clear();
+		cal.set(Integer.parseInt(dateSubStr.substring(0, 4)),
+				Integer.parseInt(dateSubStr.substring(4, 6)) - 1,
+				Integer.parseInt(dateSubStr.substring(6, 8)));
+		String dateStr = new SimpleDateFormat("MM/dd/yyyy").format(cal.getTime());
+		
+		/* Make the RssEntry and return it */
+		return new RssEntry("Comprehensive Rules " + dateStr, null, dateStr, url);
 	}
 }
