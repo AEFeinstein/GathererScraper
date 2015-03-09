@@ -2,7 +2,6 @@ package com.gelakinetic.GathererChecker;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.UUID;
 
@@ -43,7 +42,7 @@ public class RssEntry {
 		}
 		if(pubDate == null) {
 			Calendar rightNow = Calendar.getInstance();
-			mPubDate = new SimpleDateFormat("yyyy/MM/dd HH:mm").format(rightNow.getTime());
+			mPubDate = GathererChecker.GetRfc822Date(rightNow.getTime());
 		}
 		else {
 			mPubDate = pubDate;

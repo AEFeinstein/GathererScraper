@@ -9,6 +9,8 @@ import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -100,15 +102,24 @@ public class GathererChecker {
 	 * @return a UTF-8 encoded header for an RSS file
 	 */
 	public static ByteBuffer GetRssHeader() {
+		Calendar rightNow = Calendar.getInstance();
+		String date = GetRfc822Date(rightNow.getTime());
+		
 		return Charset
 			.forName("UTF-8")
 			.encode("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
 				+ "<rss version=\"2.0\">\n"
 				+ "<channel>\n"
 				+ "\t<title>Gatherer's Available Sets</title>\n"
+				+ "\t<lastBuildDate>"+date+"</lastBuildDate>\n"
+				+ "\t<pubDate>"+date+"</pubDate>\n"
 				+ "\t<link>http://gatherer.wizards.com/Pages/Default.aspx</link>\n"
 				+ "\t<description>A dinky little feed to notify me when new sets are posted to Gatherer"
 				+ "</description>\n");
+	}
+
+	public static String GetRfc822Date(Date time) {
+		return new SimpleDateFormat("EEE', 'dd' 'MMM' 'yyyy' 'HH:mm:ss' 'Z", Locale.US).format(time);
 	}
 
 	/**
@@ -176,7 +187,7 @@ public class GathererChecker {
 		cal.set(Integer.parseInt(dateSubStr.substring(0, 4)),
 				Integer.parseInt(dateSubStr.substring(4, 6)) - 1,
 				Integer.parseInt(dateSubStr.substring(6, 8)));
-		String dateStr = new SimpleDateFormat("yyyy/MM/dd HH:mm").format(cal.getTime());
+		String dateStr = GetRfc822Date(cal.getTime());
 
 		/* Make the RssEntry and return it */
 		return new RssEntry("Comprehensive Rules " + dateStr, null, dateStr, url);
@@ -240,7 +251,7 @@ public class GathererChecker {
 			Calendar cal = Calendar.getInstance();
 			cal.clear();
 			cal.set(Integer.parseInt(dateParts[2]), month, Integer.parseInt(dateParts[0]));
-			dateStr = new SimpleDateFormat("yyyy/MM/dd HH:mm").format(cal.getTime());
+			dateStr = GetRfc822Date(cal.getTime());
 		}
 		catch (Exception e) {
 			/* In case parsing fails */
