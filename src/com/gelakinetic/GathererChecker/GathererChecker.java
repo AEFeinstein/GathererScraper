@@ -177,7 +177,7 @@ public class GathererChecker {
 	 */
 	public static RssEntry GetLatestRules() throws IOException {
 		/* One big line to get the webpage, then the element, then the attribute for the comprehensive rules url */
-		String url = Jsoup.connect("http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules").get()
+		String url = GathererScraper.ConnectWithRetries("http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules")
 				.getElementsByAttributeValueContaining("href", "txt").get(0).attr("href");
 
 		/* Pick the date out of the link */
@@ -201,7 +201,7 @@ public class GathererChecker {
 	 */
 	public static ArrayList<RssEntry> GetJudgeDocs() throws IOException {
 		/* Pick the date out of the bluewizard website */
-		String date = Jsoup.connect("http://www.bluewizard.net/judgeDocs.html").get()
+		String date = GathererScraper.ConnectWithRetries("http://www.bluewizard.net/judgeDocs.html")
 				.getElementsByAttributeValueContaining("class", "media-body").get(0).text();
 
 		/* Try real hard to prettify the date. Not really necessary */

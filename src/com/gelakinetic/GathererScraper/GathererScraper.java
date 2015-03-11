@@ -32,7 +32,7 @@ public class GathererScraper {
 	 */
 	public static ArrayList<Expansion> scrapeExpansionList() throws IOException {
 		ArrayList<Expansion> expansions = new ArrayList<Expansion>();
-		Document gathererMain = Jsoup.connect("http://gatherer.wizards.com/Pages/Default.aspx").get();
+		Document gathererMain = ConnectWithRetries("http://gatherer.wizards.com/Pages/Default.aspx");
 		Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
 
 		for (int i = 0; i < expansionElements.size(); i++) {
@@ -86,10 +86,8 @@ public class GathererScraper {
 						+ "&output=compact&action=advanced&special=true&set=+%5b%22"
 						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d";
 	
-				System.out.println(urlStr);
+				Document individualExpansion = ConnectWithRetries(urlStr);
 				
-				Document individualExpansion = Jsoup.connect(urlStr).get();
-	
 				Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
 				if (cards.size() == 0) {
 					loop = false;
@@ -110,7 +108,7 @@ public class GathererScraper {
 		}
 
 		for (Card c : cardsArray) {
-			scrapeCard(c);
+			scrapeCard(c, exp);
 			ui.setLastCardScraped(c.mExpansion + ": " + c.mName);
 		}
 
@@ -125,16 +123,36 @@ public class GathererScraper {
 	}
 
 	/**
+	 * A little wrapper function to overcome any network hiccups
+	 * 
+	 * @param urlStr The URL to get a Document from
+	 * @return A Document, or null
+	 */
+	public static Document ConnectWithRetries(String urlStr) {
+		int retries = 0;
+		while (retries < 20) {
+			try {
+				return Jsoup.connect(urlStr).get();
+			}
+			catch(Exception e) {
+				retries++;
+			}
+		}
+		return null;
+	}
+
+	/**
 	 * Scrapes an individual card
 	 * 
 	 * @param card
 	 *            The card to scrape and populate
+	 * @param exp 
 	 * @return The card that was scraped, same as the input
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	private static Card scrapeCard(Card card) throws IOException {
-		Document cardPage = Jsoup.connect(card.getUrl()).get();
+	private static Card scrapeCard(Card card, Expansion exp) throws IOException {
+		Document cardPage = ConnectWithRetries(card.getUrl());
 
 		/* Get the list of cards and ids for split cards */
 		String id = getCardId(card.mName, cardPage);
@@ -205,6 +223,30 @@ public class GathererScraper {
 
 		/* Number */
 		card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
+		
+		/* If the number does not exist, grab it from magiccards.info. More accurate than trying to calculate it */
+		if(card.mNumber == null) {
+			try {
+				/* This line gets the image URL from a name and set code */
+				String url = ConnectWithRetries("http://magiccards.info/query?q=" + card.mName.replace(" ", "+") +
+						"+e%3A"+exp.mCode_mtgi+"%2Fen")
+						.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
+				
+				/* This picks the number out of the URL */
+				card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+				
+				/* Some simple validation, DELETE LATER */
+				try {
+					Integer.parseInt(card.mNumber);
+				}
+				catch(NumberFormatException e) {
+					System.err.println(card.mName + ", " + card.mNumber + " Number format exception");
+				}
+			}
+			catch(Exception e) {
+				System.err.println(card.mName + ", " + card.mExpansion + " " + e.toString());
+			}
+		}
 
 		/* artist */
 		card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
