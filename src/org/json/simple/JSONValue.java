@@ -121,14 +121,14 @@ public class JSONValue {
 	public static void writeJSONString(Object value, Writer out) throws IOException {
 		if(value == null){
 			out.write("null");
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof String){		
             out.write('\"');
 			out.write(escape((String)value));
             out.write('\"');
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Double){
@@ -136,7 +136,7 @@ public class JSONValue {
 				out.write("null");
 			else
 				out.write(value.toString());
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Float){
@@ -144,85 +144,85 @@ public class JSONValue {
 				out.write("null");
 			else
 				out.write(value.toString());
-			return;
+			out.write('\n'); return;
 		}		
 		
 		if(value instanceof Number){
 			out.write(value.toString());
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Boolean){
 			out.write(value.toString());
-			return;
+			out.write('\n'); return;
 		}
 		
 		if((value instanceof JSONStreamAware)){
 			((JSONStreamAware)value).writeJSONString(out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if((value instanceof JSONAware)){
 			out.write(((JSONAware)value).toJSONString());
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Map<?, ?>){
 			JSONObject.writeJSONString((Map<String, Object>)value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Collection<?>){
 			JSONArray.writeJSONString((Collection<Object>)value, out);
-            return;
+            out.write('\n'); return;
 		}
 		
 		if(value instanceof byte[]){
 			JSONArray.writeJSONString((byte[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof short[]){
 			JSONArray.writeJSONString((short[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof int[]){
 			JSONArray.writeJSONString((int[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof long[]){
 			JSONArray.writeJSONString((long[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof float[]){
 			JSONArray.writeJSONString((float[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof double[]){
 			JSONArray.writeJSONString((double[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof boolean[]){
 			JSONArray.writeJSONString((boolean[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof char[]){
 			JSONArray.writeJSONString((char[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
 		if(value instanceof Object[]){
 			JSONArray.writeJSONString((Object[])value, out);
-			return;
+			out.write('\n'); return;
 		}
 		
-		out.write(value.toString());
+		out.write(value.toString() + "\n");
 	}
 
 	/**
