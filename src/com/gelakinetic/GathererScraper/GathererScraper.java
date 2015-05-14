@@ -66,13 +66,14 @@ public class GathererScraper {
 	 * 
 	 * @param exp
 	 *            The expansion to scrape
+	 * @param allMultiverseId 
 	 * @param gathererScraperUi
 	 *            The UI to post updates to
 	 * @return An ArrayList of Card objects for all cards scraped
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui) throws IOException {
+	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui, ArrayList<Integer> allMultiverseId) throws IOException {
 
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
@@ -101,6 +102,7 @@ public class GathererScraper {
 					}
 					else {
 						cardsArray.add(card);
+						allMultiverseId.add(card.mMultiverseId);
 					}
 				}
 				pageNum++;

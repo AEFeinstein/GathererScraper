@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
@@ -336,6 +337,7 @@ public class GathererScraperUi {
 						MkmFile.put("Date", date);
 						MkmFile.put("Sets", mMkmNamesArray);
 
+						ArrayList<Integer> allMultiverseId = new ArrayList<Integer>();
 						/*
 						 * Make a thread pool to scrape each set in it's own
 						 * thread
@@ -359,7 +361,7 @@ public class GathererScraperUi {
 										try {
 											JSONObject patchInfo;
 											patchInfo = writeJsonPatchFile(exp,
-													GathererScraper.scrapeExpansion(exp, GathererScraperUi.this));
+													GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, allMultiverseId));
 											addToArray(mPatchesArray, patchInfo);
 
 											JSONObject tcgname = new JSONObject();
@@ -421,11 +423,26 @@ public class GathererScraperUi {
 							e.printStackTrace();
 						}
 
+						try {
+							BufferedWriter bw = new BufferedWriter(new FileWriter("appmap.xml"));
+							bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+							bw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">");
+							for(int multiverseId : allMultiverseId) {
+								bw.write("<url>");
+								bw.write("  <loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc>");
+								bw.write("</url>");
+							}
+							bw.write("</urlset>");
+							bw.close();
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+
 						/* Just a little feedback on how long the operation took */
 						long time = System.currentTimeMillis() - startTime;
 						JOptionPane.showMessageDialog(frame, "Done in " + time + "ms", "Complete",
 								JOptionPane.PLAIN_MESSAGE);
-
+						
 						/* Reenable the cursor */
 						frame.setEnabled(true);
 						frame.setCursor(Cursor.getDefaultCursor());
