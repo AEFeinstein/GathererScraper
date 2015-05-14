@@ -3,6 +3,7 @@ package com.gelakinetic.GathererScraper;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.jsoup.Jsoup;
@@ -66,14 +67,14 @@ public class GathererScraper {
 	 * 
 	 * @param exp
 	 *            The expansion to scrape
-	 * @param allMultiverseId 
+	 * @param mAllMultiverseIds 
 	 * @param gathererScraperUi
 	 *            The UI to post updates to
 	 * @return An ArrayList of Card objects for all cards scraped
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui, ArrayList<Integer> allMultiverseId) throws IOException {
+	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) throws IOException {
 
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
@@ -102,7 +103,7 @@ public class GathererScraper {
 					}
 					else {
 						cardsArray.add(card);
-						allMultiverseId.add(card.mMultiverseId);
+						mAllMultiverseIds.add(card.mMultiverseId);
 					}
 				}
 				pageNum++;

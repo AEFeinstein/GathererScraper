@@ -11,8 +11,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -21,9 +23,12 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashSet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.zip.GZIPOutputStream;
 
 import javax.swing.ButtonGroup;
@@ -63,6 +68,7 @@ public class GathererScraperUi {
 	private static final String	MKM_FILE_NAME		= "mkmnames.json";
 	private static final String	EXPANSION_FILE_NAME	= "expansions.json";
 	public static final String	LEGAL_FILE_NAME		= "legality.json";
+	private static final String	APPMAP_FILE_NAME	= "appmap-com.gelakinetic.mtgfam.xml";
 
 	private JProgressBar		mExpansionProgressBar;
 	private JLabel				mLastCardScraped;
@@ -78,11 +84,13 @@ public class GathererScraperUi {
 	File						mPatchesFile		= null;
 	File						mLegalityFile		= null;
 	File						mExpansionsFile		= null;
-
+	File						mAppmapFile			= null;
+	
 	private JSONArray			mPatchesArray		= new JSONArray();
 	private JSONArray			mTcgNamesArray		= new JSONArray();
 	private JSONArray			mMkmNamesArray		= new JSONArray();
-
+	private HashSet<Integer>	mAllMultiverseIds;
+	
 	private int					mNumExpansions;
 	private int					mExpansionsProcessed;
 
@@ -137,6 +145,7 @@ public class GathererScraperUi {
 		mTcgNamesFile = new File(mFilesPath, TCG_FILE_NAME);
 		mMkmNamesFile = new File(mFilesPath, MKM_FILE_NAME);
 		mLegalityFile = new File(mFilesPath, LEGAL_FILE_NAME);
+		mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
 
 		/*
 		 * If the expansion file isn't found, don't bother running the
@@ -222,6 +231,10 @@ public class GathererScraperUi {
 				}
 				if (mLegalityFile.exists()) {
 					mLegalityListModel.loadLegalities(mLegalityFile);
+				}
+				mAllMultiverseIds = new HashSet<Integer>();
+				if(mAppmapFile.exists()) {
+					loadMultiverseIds(mAppmapFile, mAllMultiverseIds);
 				}
 			}
 			catch (ParseException e) {
@@ -337,7 +350,6 @@ public class GathererScraperUi {
 						MkmFile.put("Date", date);
 						MkmFile.put("Sets", mMkmNamesArray);
 
-						ArrayList<Integer> allMultiverseId = new ArrayList<Integer>();
 						/*
 						 * Make a thread pool to scrape each set in it's own
 						 * thread
@@ -361,7 +373,7 @@ public class GathererScraperUi {
 										try {
 											JSONObject patchInfo;
 											patchInfo = writeJsonPatchFile(exp,
-													GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, allMultiverseId));
+													GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds));
 											addToArray(mPatchesArray, patchInfo);
 
 											JSONObject tcgname = new JSONObject();
@@ -424,15 +436,16 @@ public class GathererScraperUi {
 						}
 
 						try {
-							BufferedWriter bw = new BufferedWriter(new FileWriter("appmap.xml"));
-							bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-							bw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">");
-							for(int multiverseId : allMultiverseId) {
-								bw.write("<url>");
-								bw.write("  <loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc>");
-								bw.write("</url>");
+							if(mAppmapFile.exists()) {
+								mAppmapFile.delete();
 							}
-							bw.write("</urlset>");
+							BufferedWriter bw = new BufferedWriter(new FileWriter(new File(mFilesPath, APPMAP_FILE_NAME)));
+							bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+							bw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
+							for(int multiverseId : mAllMultiverseIds) {
+								bw.write("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
+							}
+							bw.write("</urlset>\n");
 							bw.close();
 						} catch (IOException e) {
 							e.printStackTrace();
@@ -529,6 +542,40 @@ public class GathererScraperUi {
 		});
 
 		frame.setVisible(true);
+	}
+
+	/**
+	 * Reads in all the multiverse IDs from an appmap
+	 * 
+	 * @param appmapFile The file to read from
+	 * @param allMultiverseIds A HashSet to store all the IDs
+	 */
+	private void loadMultiverseIds(File appmapFile,
+			HashSet<Integer> allMultiverseIds) {
+		try {
+			// String to be scanned to find the pattern.
+			String pattern = "multiverseid/([0-9]+)";
+
+			BufferedReader br = new BufferedReader(new FileReader(appmapFile));
+			String line;
+			while ((line = br.readLine()) != null) {
+
+				// Create a Pattern object
+				Pattern r = Pattern.compile(pattern);
+
+				// Now create matcher object.
+				Matcher m = r.matcher(line);
+				if (m.find()) {
+					int mId = Integer.parseInt(m.group().split("/")[1]);
+					allMultiverseIds.add(mId);
+				}
+			}
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**
