@@ -1,4 +1,4 @@
-{"Date":"05\/13\/2015"
+{"Date":"07\/08\/2015"
 ,"Sets":[{"TCGName":"Alara Reborn"
 ,"Code":"ARB"
 }
@@ -406,6 +406,9 @@
 }
 ,{"TCGName":"Modern Masters 2015"
 ,"Code":"MM2"
+}
+,{"TCGName":"Magic Origins"
+,"Code":"ORI"
 }
 ]
 }

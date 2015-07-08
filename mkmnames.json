@@ -1,4 +1,4 @@
-{"Date":"05\/13\/2015"
+{"Date":"07\/08\/2015"
 ,"Sets":[{"Code":"ARB"
 ,"MKMName":"Alara Reborn"
 }
@@ -406,6 +406,9 @@
 }
 ,{"Code":"MM2"
 ,"MKMName":"Modern Masters 2015"
+}
+,{"Code":"ORI"
+,"MKMName":"Magic Origins"
 }
 ]
 }
