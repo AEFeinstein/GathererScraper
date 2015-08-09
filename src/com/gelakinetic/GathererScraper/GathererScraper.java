@@ -197,9 +197,6 @@ public class GathererScraper {
 			card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
 
 			/* Flavor */
-			if(card.mName.equals("Lambholt Elder")) {
-				System.out.println("break");
-			}
 			card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false);
 			if(card.mFlavor == null || card.mFlavor.equals("")) {
 				card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "cardtextbox", false);
