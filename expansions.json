@@ -190,12 +190,36 @@
 ,"code":"DTK"
 ,"date":1425186000000
 }
-,{"subsets":"Duel Decks Anthology, Divine vs. Demonic##Duel Decks Anthology, Elves vs. Goblins##Duel Decks Anthology, Garruk vs. Liliana##Duel Decks Anthology, Jace vs. Chandra##"
+,{"subsets":"Duel Decks Anthology, Divine vs. Demonic##"
 ,"mkm":"Duel Decks: Anthology"
 ,"tcgp":"Duel Decks: Anthology"
-,"mtgi":"DD3"
-,"name":"Duel Decks Anthology"
-,"code":"DD3"
+,"mtgi":"DDADVD"
+,"name":"Duel Decks Anthology, Divine vs. Demonic"
+,"code":"DD3DVD"
+,"date":1417410000000
+}
+,{"subsets":"Duel Decks Anthology, Elves vs. Goblins##"
+,"mkm":"Duel Decks: Anthology"
+,"tcgp":"Duel Decks: Anthology"
+,"mtgi":"DDAEVG"
+,"name":"Duel Decks Anthology, Elves vs. Goblins"
+,"code":"DD3EVG"
+,"date":1417410000000
+}
+,{"subsets":"Duel Decks Anthology, Garruk vs. Liliana##"
+,"mkm":"Duel Decks: Anthology"
+,"tcgp":"Duel Decks: Anthology"
+,"mtgi":"DDAGVL"
+,"name":"Duel Decks Anthology, Garruk vs. Liliana"
+,"code":"DD3GVL"
+,"date":1417410000000
+}
+,{"subsets":"Duel Decks Anthology, Jace vs. Chandra##"
+,"mkm":"Duel Decks: Anthology"
+,"tcgp":"Duel Decks: Anthology"
+,"mtgi":"DDAJVC"
+,"name":"Duel Decks Anthology, Jace vs. Chandra"
+,"code":"DD3JVC"
 ,"date":1417410000000
 }
 ,{"subsets":"Duel Decks: Ajani vs. Nicol Bolas##"

@@ -1,8 +1,13 @@
+<<<<<<< HEAD
+{"Date":"08\/08\/2015"
+,"Sets":[{"TCGName":"Arabian Nights"
+=======
 {"Date":"07\/08\/2015"
 ,"Sets":[{"TCGName":"Alara Reborn"
 ,"Code":"ARB"
 }
 ,{"TCGName":"Arabian Nights"
+>>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 ,"Code":"AN"
 }
 ,{"TCGName":"Antiquities"
@@ -11,14 +16,14 @@
 ,{"TCGName":"Battle Royale Box Set"
 ,"Code":"BR"
 }
+,{"TCGName":"Apocalypse"
+,"Code":"AP"
+}
 ,{"TCGName":"Alara Reborn"
 ,"Code":"ARB"
 }
 ,{"TCGName":"Alliances"
 ,"Code":"AL"
-}
-,{"TCGName":"Apocalypse"
-,"Code":"AP"
 }
 ,{"TCGName":"Beatdown Box Set"
 ,"Code":"BD"
@@ -47,53 +52,74 @@
 ,{"TCGName":"Conflux"
 ,"Code":"CFX"
 }
-,{"TCGName":"Champions of Kamigawa"
-,"Code":"CHK"
+,{"TCGName":"Dark Ascension"
+,"Code":"DKA"
 }
 ,{"TCGName":"Darksteel"
 ,"Code":"DS"
 }
-,{"TCGName":"Dark Ascension"
-,"Code":"DKA"
-}
-,{"TCGName":"Dissension"
-,"Code":"DIS"
+,{"TCGName":"Champions of Kamigawa"
+,"Code":"CHK"
 }
 ,{"TCGName":"Classic Sixth Edition"
 ,"Code":"6E"
 }
-,{"TCGName":"Duel Decks: Ajani vs. Nicol Bolas"
-,"Code":"AVB"
+,{"TCGName":"Duel Decks: Anthology"
+,"Code":"DD3EVG"
 }
-,{"TCGName":"Dragon's Maze"
-,"Code":"DGM"
+,{"TCGName":"Duel Decks: Anthology"
+,"Code":"DD3DVD"
 }
-,{"TCGName":"Duel Decks: Divine vs. Demonic"
-,"Code":"DVD"
-}
-,{"TCGName":"Duel Decks: Elves vs. Goblins"
-,"Code":"EVG"
-}
-,{"TCGName":"Duel Decks: Elspeth vs. Tezzeret"
-,"Code":"EVT"
-}
-,{"TCGName":"Duel Decks: Garruk vs. Liliana"
-,"Code":"GVL"
-}
-,{"TCGName":"Duel Decks: Jace vs. Chandra"
-,"Code":"JVC"
+,{"TCGName":"Dissension"
+,"Code":"DIS"
 }
 ,{"TCGName":"Commander 2013"
 ,"Code":"C13"
 }
+,{"TCGName":"Duel Decks: Anthology"
+,"Code":"DD3GVL"
+}
+,{"TCGName":"Duel Decks: Anthology"
+,"Code":"DD3JVC"
+}
+,{"TCGName":"Commander 2014"
+,"Code":"C14"
+}
+,{"TCGName":"Duel Decks: Divine vs. Demonic"
+,"Code":"DVD"
+}
+,{"TCGName":"Dragon's Maze"
+,"Code":"DGM"
+}
+,{"TCGName":"Duel Decks: Ajani vs. Nicol Bolas"
+,"Code":"AVB"
+}
+,{"TCGName":"Duel Decks: Elspeth vs. Kiora"
+,"Code":"DDO"
+}
+,{"TCGName":"Duel Decks: Elves vs. Goblins"
+,"Code":"EVG"
+}
+,{"TCGName":"Duel Decks: Garruk vs. Liliana"
+,"Code":"GVL"
+}
+,{"TCGName":"Duel Decks: Elspeth vs. Tezzeret"
+,"Code":"EVT"
+}
 ,{"TCGName":"Duel Decks: Heroes vs. Monsters"
 ,"Code":"HVM"
 }
-,{"TCGName":"Duel Decks: Jace vs. Vraska"
-,"Code":"DDM"
+,{"TCGName":"Duel Decks: Jace vs. Chandra"
+,"Code":"JVC"
 }
 ,{"TCGName":"Duel Decks: Izzet vs. Golgari"
 ,"Code":"IVG"
+}
+,{"TCGName":"Dragons of Tarkir"
+,"Code":"DTK"
+}
+,{"TCGName":"Duel Decks: Jace vs. Vraska"
+,"Code":"DDM"
 }
 ,{"TCGName":"Duel Decks: Knights vs. Dragons"
 ,"Code":"KVD"
@@ -104,14 +130,20 @@
 ,{"TCGName":"Duel Decks: Sorin vs. Tibalt"
 ,"Code":"SVT"
 }
-,{"TCGName":"Duel Decks: Venser vs. Koth"
-,"Code":"VVK"
-}
 ,{"TCGName":"Duel Decks: Speed vs. Cunning"
 ,"Code":"DDN"
 }
+,{"TCGName":"Duel Decks: Venser vs. Koth"
+,"Code":"VVK"
+}
+,{"TCGName":"Fallen Empires"
+,"Code":"FE"
+}
 ,{"TCGName":"From the Vault: Annihilation"
 ,"Code":"V14"
+}
+,{"TCGName":"Exodus"
+,"Code":"EX"
 }
 ,{"TCGName":"From the Vault: Dragons"
 ,"Code":"DRG"
@@ -119,23 +151,11 @@
 ,{"TCGName":"From the Vault: Exiled"
 ,"Code":"EXL"
 }
-,{"TCGName":"Fallen Empires"
-,"Code":"FE"
-}
 ,{"TCGName":"From the Vault: Legends"
 ,"Code":"LEG"
 }
 ,{"TCGName":"From the Vault: Realms"
 ,"Code":"RLM"
-}
-,{"TCGName":"From the Vault: Relics"
-,"Code":"RLC"
-}
-,{"TCGName":"Exodus"
-,"Code":"EX"
-}
-,{"TCGName":"From the Vault: Twenty"
-,"Code":"V13"
 }
 ,{"TCGName":"Eventide"
 ,"Code":"EVE"
@@ -143,17 +163,26 @@
 ,{"TCGName":"Fifth Dawn"
 ,"Code":"FD"
 }
+,{"TCGName":"From the Vault: Relics"
+,"Code":"RLC"
+}
+,{"TCGName":"From the Vault: Twenty"
+,"Code":"V13"
+}
+,{"TCGName":"Fate Reforged"
+,"Code":"FRF"
+}
 ,{"TCGName":"Homelands"
 ,"Code":"HL"
 }
-,{"TCGName":"Future Sight"
-,"Code":"FUT"
+,{"TCGName":"8th Edition"
+,"Code":"8E"
 }
 ,{"TCGName":"Guildpact"
 ,"Code":"GP"
 }
-,{"TCGName":"8th Edition"
-,"Code":"8E"
+,{"TCGName":"Future Sight"
+,"Code":"FUT"
 }
 ,{"TCGName":"Gatecrash"
 ,"Code":"GTC"
@@ -170,14 +199,17 @@
 ,{"TCGName":"Journey Into Nyx"
 ,"Code":"JOU"
 }
-,{"TCGName":"Legions"
-,"Code":"LE"
+,{"TCGName":"Innistrad"
+,"Code":"ISD"
 }
 ,{"TCGName":"Ice Age"
 ,"Code":"IA"
 }
-,{"TCGName":"Innistrad"
-,"Code":"ISD"
+,{"TCGName":"Legions"
+,"Code":"LE"
+}
+,{"TCGName":"Khans of Tarkir"
+,"Code":"KTK"
 }
 ,{"TCGName":"Invasion"
 ,"Code":"IN"
@@ -185,23 +217,23 @@
 ,{"TCGName":"Legends"
 ,"Code":"LG"
 }
-,{"TCGName":"Alpha Edition"
-,"Code":"A"
-}
 ,{"TCGName":"Beta Edition"
 ,"Code":"B"
 }
-,{"TCGName":"Lorwyn"
-,"Code":"LRW"
+,{"TCGName":"Alpha Edition"
+,"Code":"A"
 }
 ,{"TCGName":"Magic 2010 (M10)"
 ,"Code":"M10"
 }
-,{"TCGName":"Magic 2012 (M12)"
-,"Code":"M12"
+,{"TCGName":"Lorwyn"
+,"Code":"LRW"
 }
 ,{"TCGName":"Magic 2011 (M11)"
 ,"Code":"M11"
+}
+,{"TCGName":"Magic 2012 (M12)"
+,"Code":"M12"
 }
 ,{"TCGName":"Magic 2013 (M13)"
 ,"Code":"M13"
@@ -209,35 +241,38 @@
 ,{"TCGName":"Magic 2014 (M14)"
 ,"Code":"M14"
 }
+,{"TCGName":"Magic 2015 (M15)"
+,"Code":"M15"
+}
+,{"TCGName":"Magic Origins"
+,"Code":"ORI"
+}
 ,{"TCGName":"Magic Modern Event Deck"
 ,"Code":"MD1"
 }
 ,{"TCGName":"Conspiracy"
 ,"Code":"CNS"
 }
-,{"TCGName":"Magic 2015 (M15)"
-,"Code":"M15"
+,{"TCGName":"Mirrodin Besieged"
+,"Code":"MBS"
 }
 ,{"TCGName":"Commander"
 ,"Code":"CMD"
 }
-,{"TCGName":"Mirrodin Besieged"
-,"Code":"MBS"
+,{"TCGName":"Mercadian Masques"
+,"Code":"MM"
 }
 ,{"TCGName":"Mirrodin"
 ,"Code":"MR"
 }
-,{"TCGName":"Mercadian Masques"
-,"Code":"MM"
-}
 ,{"TCGName":"Morningtide"
 ,"Code":"MOR"
 }
-,{"TCGName":"Nemesis"
-,"Code":"NE"
-}
 ,{"TCGName":"Mirage"
 ,"Code":"MI"
+}
+,{"TCGName":"Nemesis"
+,"Code":"NE"
 }
 ,{"TCGName":"Modern Masters"
 ,"Code":"MMA"
@@ -245,44 +280,47 @@
 ,{"TCGName":"New Phyrexia"
 ,"Code":"NPH"
 }
+,{"TCGName":"Modern Masters 2015"
+,"Code":"MM2"
+}
 ,{"TCGName":"Planar Chaos"
 ,"Code":"PLC"
 }
 ,{"TCGName":"Planeshift"
 ,"Code":"PS"
 }
-,{"TCGName":"Planechase"
-,"Code":"PCH"
-}
 ,{"TCGName":"Planechase 2012"
 ,"Code":"PC2"
 }
-,{"TCGName":"Premium Deck Series: Graveborn"
-,"Code":"GRV"
+,{"TCGName":"Planechase"
+,"Code":"PCH"
 }
 ,{"TCGName":"Premium Deck Series: Fire and Lightning"
 ,"Code":"FAL"
 }
-,{"TCGName":"Media Promos"
-,"Code":"MBP"
+,{"TCGName":"Premium Deck Series: Graveborn"
+,"Code":"GRV"
 }
 ,{"TCGName":"Premium Deck Series: Slivers"
 ,"Code":"SLI"
 }
-,{"TCGName":"9th Edition"
-,"Code":"9E"
+,{"TCGName":"Media Promos"
+,"Code":"MBP"
 }
 ,{"TCGName":"Portal"
 ,"Code":"PT"
 }
-,{"TCGName":"Portal Second Age"
-,"Code":"P2"
+,{"TCGName":"9th Edition"
+,"Code":"9E"
+}
+,{"TCGName":"Odyssey"
+,"Code":"OD"
 }
 ,{"TCGName":"Onslaught"
 ,"Code":"ON"
 }
-,{"TCGName":"Odyssey"
-,"Code":"OD"
+,{"TCGName":"Portal Second Age"
+,"Code":"P2"
 }
 ,{"TCGName":"Portal Three Kingdoms"
 ,"Code":"P3"
@@ -296,23 +334,23 @@
 ,{"TCGName":"Scourge"
 ,"Code":"SC"
 }
-,{"TCGName":"Return to Ravnica"
-,"Code":"RTR"
-}
 ,{"TCGName":"Rise of the Eldrazi"
 ,"Code":"ROE"
 }
-,{"TCGName":"Scars of Mirrodin"
-,"Code":"SOM"
+,{"TCGName":"Return to Ravnica"
+,"Code":"RTR"
 }
 ,{"TCGName":"Ravnica"
 ,"Code":"RAV"
 }
-,{"TCGName":"Revised Edition"
-,"Code":"R"
+,{"TCGName":"Scars of Mirrodin"
+,"Code":"SOM"
 }
 ,{"TCGName":"Starter 2000"
 ,"Code":"S2"
+}
+,{"TCGName":"Revised Edition"
+,"Code":"R"
 }
 ,{"TCGName":"Starter 1999"
 ,"Code":"ST"
@@ -320,23 +358,26 @@
 ,{"TCGName":"Stronghold"
 ,"Code":"SH"
 }
+,{"TCGName":"Shards of Alara"
+,"Code":"ALA"
+}
 ,{"TCGName":"The Dark"
 ,"Code":"DK"
 }
 ,{"TCGName":"7th Edition"
 ,"Code":"7E"
 }
-,{"TCGName":"Shards of Alara"
-,"Code":"ALA"
-}
 ,{"TCGName":"Shadowmoor"
 ,"Code":"SHM"
 }
-,{"TCGName":"Timeshifted"
-,"Code":"TSB"
+,{"TCGName":"Ugin's Fate Promos"
+,"Code":"UFP"
 }
 ,{"TCGName":"Unglued"
 ,"Code":"UG"
+}
+,{"TCGName":"Timeshifted"
+,"Code":"TSB"
 }
 ,{"TCGName":"Torment"
 ,"Code":"TO"
@@ -344,20 +385,14 @@
 ,{"TCGName":"Theros"
 ,"Code":"THS"
 }
-,{"TCGName":"Tempest"
-,"Code":"TE"
-}
 ,{"TCGName":"Unhinged"
 ,"Code":"UNH"
 }
+,{"TCGName":"Tempest"
+,"Code":"TE"
+}
 ,{"TCGName":"10th Edition"
 ,"Code":"10E"
-}
-,{"TCGName":"Urza's Destiny"
-,"Code":"UD"
-}
-,{"TCGName":"Urza's Legacy"
-,"Code":"UL"
 }
 ,{"TCGName":"Time Spiral"
 ,"Code":"TSP"
@@ -365,47 +400,29 @@
 ,{"TCGName":"Vanguard"
 ,"Code":"VNG"
 }
+,{"TCGName":"Urza's Destiny"
+,"Code":"UD"
+}
+,{"TCGName":"Urza's Legacy"
+,"Code":"UL"
+}
 ,{"TCGName":"Visions"
 ,"Code":"VI"
 }
 ,{"TCGName":"Weatherlight"
 ,"Code":"WL"
 }
-,{"TCGName":"Unlimited Edition"
-,"Code":"U"
-}
 ,{"TCGName":"Worldwake"
 ,"Code":"WWK"
 }
-,{"TCGName":"Zendikar"
-,"Code":"ZEN"
+,{"TCGName":"Unlimited Edition"
+,"Code":"U"
 }
 ,{"TCGName":"Urza's Saga"
 ,"Code":"US"
 }
-,{"TCGName":"Khans of Tarkir"
-,"Code":"KTK"
-}
-,{"TCGName":"Commander 2014"
-,"Code":"C14"
-}
-,{"TCGName":"Fate Reforged"
-,"Code":"FRF"
-}
-,{"TCGName":"Ugin's Fate Promos"
-,"Code":"UFP"
-}
-,{"TCGName":"Duel Decks: Elspeth vs. Kiora"
-,"Code":"DDO"
-}
-,{"TCGName":"Duel Decks: Anthology"
-,"Code":"DD3"
-}
-,{"TCGName":"Dragons of Tarkir"
-,"Code":"DTK"
-}
-,{"TCGName":"Modern Masters 2015"
-,"Code":"MM2"
+,{"TCGName":"Zendikar"
+,"Code":"ZEN"
 }
 ,{"TCGName":"Magic Origins"
 ,"Code":"ORI"
