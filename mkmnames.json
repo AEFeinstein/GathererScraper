@@ -1,29 +1,21 @@
-<<<<<<< HEAD
-{"Date":"08\/08\/2015"
-,"Sets":[{"Code":"AN"
-=======
-{"Date":"07\/08\/2015"
-,"Sets":[{"Code":"ARB"
-,"MKMName":"Alara Reborn"
+{"Date":"08\/09\/2015"
+,"Sets":[{"Code":"AQ"
+,"MKMName":"Antiquities"
 }
 ,{"Code":"AN"
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 ,"MKMName":"Arabian Nights"
-}
-,{"Code":"AQ"
-,"MKMName":"Antiquities"
 }
 ,{"Code":"BR"
 ,"MKMName":"Battle Royale"
-}
-,{"Code":"AP"
-,"MKMName":"Apocalypse"
 }
 ,{"Code":"ARB"
 ,"MKMName":"Alara Reborn"
 }
 ,{"Code":"AL"
 ,"MKMName":"Alliances"
+}
+,{"Code":"AP"
+,"MKMName":"Apocalypse"
 }
 ,{"Code":"BD"
 ,"MKMName":"Beatdown"
@@ -49,11 +41,11 @@
 ,{"Code":"CS"
 ,"MKMName":"Coldsnap"
 }
-,{"Code":"CFX"
-,"MKMName":"Conflux"
-}
 ,{"Code":"DKA"
 ,"MKMName":"Dark Ascension"
+}
+,{"Code":"CFX"
+,"MKMName":"Conflux"
 }
 ,{"Code":"DS"
 ,"MKMName":"Darksteel"
@@ -70,41 +62,41 @@
 ,{"Code":"DD3DVD"
 ,"MKMName":"Duel Decks: Anthology"
 }
-,{"Code":"DIS"
-,"MKMName":"Dissension"
-}
 ,{"Code":"C13"
 ,"MKMName":"Commander 2013"
 }
-,{"Code":"DD3GVL"
-,"MKMName":"Duel Decks: Anthology"
+,{"Code":"DIS"
+,"MKMName":"Dissension"
 }
-,{"Code":"DD3JVC"
+,{"Code":"DD3GVL"
 ,"MKMName":"Duel Decks: Anthology"
 }
 ,{"Code":"C14"
 ,"MKMName":"Commander 2014"
 }
+,{"Code":"DD3JVC"
+,"MKMName":"Duel Decks: Anthology"
+}
 ,{"Code":"DVD"
 ,"MKMName":"Duel Decks: Divine vs. Demonic"
-}
-,{"Code":"DGM"
-,"MKMName":"Dragon's Maze"
-}
-,{"Code":"AVB"
-,"MKMName":"Duel Decks: Ajani vs. Nicol Bolas"
 }
 ,{"Code":"DDO"
 ,"MKMName":"Duel Decks: Elspeth vs. Kiora"
 }
+,{"Code":"AVB"
+,"MKMName":"Duel Decks: Ajani vs. Nicol Bolas"
+}
 ,{"Code":"EVG"
 ,"MKMName":"Duel Decks: Elves vs. Goblins"
 }
-,{"Code":"GVL"
-,"MKMName":"Duel Decks: Garruk vs. Liliana"
-}
 ,{"Code":"EVT"
 ,"MKMName":"Duel Decks: Elspeth vs. Tezzeret"
+}
+,{"Code":"DGM"
+,"MKMName":"Dragon's Maze"
+}
+,{"Code":"GVL"
+,"MKMName":"Duel Decks: Garruk vs. Liliana"
 }
 ,{"Code":"HVM"
 ,"MKMName":"Duel Decks: Heroes vs. Monsters"
@@ -112,14 +104,11 @@
 ,{"Code":"JVC"
 ,"MKMName":"Duel Decks: Jace vs. Chandra"
 }
-,{"Code":"IVG"
-,"MKMName":"Duel Decks: Izzet vs. Golgari"
-}
 ,{"Code":"DTK"
 ,"MKMName":"Dragons of Tarkir"
 }
-,{"Code":"DDM"
-,"MKMName":"Duel Decks: Jace vs. Vraska"
+,{"Code":"IVG"
+,"MKMName":"Duel Decks: Izzet vs. Golgari"
 }
 ,{"Code":"KVD"
 ,"MKMName":"Duel Decks: Knights vs. Dragons"
@@ -129,6 +118,9 @@
 }
 ,{"Code":"SVT"
 ,"MKMName":"Duel Decks: Sorin vs. Tibalt"
+}
+,{"Code":"DDM"
+,"MKMName":"Duel Decks: Jace vs. Vraska"
 }
 ,{"Code":"DDN"
 ,"MKMName":"Duel Decks: Speed vs. Cunning"
@@ -157,14 +149,14 @@
 ,{"Code":"RLM"
 ,"MKMName":"From the Vault: Realms"
 }
-,{"Code":"EVE"
-,"MKMName":"Eventide"
-}
 ,{"Code":"FD"
 ,"MKMName":"Fifth Dawn"
 }
 ,{"Code":"RLC"
 ,"MKMName":"From the Vault: Relics"
+}
+,{"Code":"EVE"
+,"MKMName":"Eventide"
 }
 ,{"Code":"V13"
 ,"MKMName":"From the Vault: Twenty"
@@ -217,20 +209,20 @@
 ,{"Code":"LG"
 ,"MKMName":"Legends"
 }
-,{"Code":"B"
-,"MKMName":"Beta"
-}
 ,{"Code":"A"
 ,"MKMName":"Alpha"
+}
+,{"Code":"B"
+,"MKMName":"Beta"
 }
 ,{"Code":"M10"
 ,"MKMName":"Magic 2010"
 }
-,{"Code":"LRW"
-,"MKMName":"Lorwyn"
-}
 ,{"Code":"M11"
 ,"MKMName":"Magic 2011"
+}
+,{"Code":"LRW"
+,"MKMName":"Lorwyn"
 }
 ,{"Code":"M12"
 ,"MKMName":"Magic 2012"
@@ -247,41 +239,41 @@
 ,{"Code":"ORI"
 ,"MKMName":"Magic Origins"
 }
-,{"Code":"MD1"
-,"MKMName":"Modern Event Deck 2014"
-}
 ,{"Code":"CNS"
 ,"MKMName":"Conspiracy"
 }
-,{"Code":"MBS"
-,"MKMName":"Mirrodin Besieged"
+,{"Code":"MD1"
+,"MKMName":"Modern Event Deck 2014"
 }
 ,{"Code":"CMD"
 ,"MKMName":"Commander"
 }
+,{"Code":"MBS"
+,"MKMName":"Mirrodin Besieged"
+}
 ,{"Code":"MM"
 ,"MKMName":"Mercadian Masques"
-}
-,{"Code":"MR"
-,"MKMName":"Mirrodin"
 }
 ,{"Code":"MOR"
 ,"MKMName":"Morningtide"
 }
-,{"Code":"MI"
-,"MKMName":"Mirage"
-}
-,{"Code":"NE"
-,"MKMName":"Nemesis"
+,{"Code":"MR"
+,"MKMName":"Mirrodin"
 }
 ,{"Code":"MMA"
 ,"MKMName":"Modern Masters"
 }
-,{"Code":"NPH"
-,"MKMName":"New Phyrexia"
+,{"Code":"NE"
+,"MKMName":"Nemesis"
+}
+,{"Code":"MI"
+,"MKMName":"Mirage"
 }
 ,{"Code":"MM2"
 ,"MKMName":"Modern Masters 2015"
+}
+,{"Code":"NPH"
+,"MKMName":"New Phyrexia"
 }
 ,{"Code":"PLC"
 ,"MKMName":"Planar Chaos"
@@ -289,11 +281,11 @@
 ,{"Code":"PS"
 ,"MKMName":"Planeshift"
 }
-,{"Code":"PC2"
-,"MKMName":"Planechase 2012"
-}
 ,{"Code":"PCH"
 ,"MKMName":"Planechase"
+}
+,{"Code":"PC2"
+,"MKMName":"Planechase 2012"
 }
 ,{"Code":"FAL"
 ,"MKMName":"Premium Deck Series: Fire & Lightning"
@@ -301,14 +293,14 @@
 ,{"Code":"GRV"
 ,"MKMName":"Premium Deck Series: Graveborn"
 }
-,{"Code":"SLI"
-,"MKMName":"Premium Deck Series: Slivers"
+,{"Code":"PT"
+,"MKMName":"Portal"
 }
 ,{"Code":"MBP"
 ,"MKMName":"Harper Prism Promos"
 }
-,{"Code":"PT"
-,"MKMName":"Portal"
+,{"Code":"SLI"
+,"MKMName":"Premium Deck Series: Slivers"
 }
 ,{"Code":"9E"
 ,"MKMName":"Ninth Edition"
@@ -328,11 +320,11 @@
 ,{"Code":"PY"
 ,"MKMName":"Prophecy"
 }
-,{"Code":"SOK"
-,"MKMName":"Saviors of Kamigawa"
-}
 ,{"Code":"SC"
 ,"MKMName":"Scourge"
+}
+,{"Code":"SOK"
+,"MKMName":"Saviors of Kamigawa"
 }
 ,{"Code":"ROE"
 ,"MKMName":"Rise of the Eldrazi"
@@ -340,17 +332,17 @@
 ,{"Code":"RTR"
 ,"MKMName":"Return to Ravnica"
 }
-,{"Code":"RAV"
-,"MKMName":"Ravnica: City of Guilds"
-}
 ,{"Code":"SOM"
 ,"MKMName":"Scars of Mirrodin"
 }
-,{"Code":"S2"
-,"MKMName":"Starter 2000"
+,{"Code":"RAV"
+,"MKMName":"Ravnica: City of Guilds"
 }
 ,{"Code":"R"
 ,"MKMName":"Revised"
+}
+,{"Code":"S2"
+,"MKMName":"Starter 2000"
 }
 ,{"Code":"ST"
 ,"MKMName":"Starter 1999"
@@ -358,29 +350,32 @@
 ,{"Code":"SH"
 ,"MKMName":"Stronghold"
 }
-,{"Code":"ALA"
-,"MKMName":"Shards of Alara"
+,{"Code":"7E"
+,"MKMName":"Seventh Edition"
 }
 ,{"Code":"DK"
 ,"MKMName":"The Dark"
 }
-,{"Code":"7E"
-,"MKMName":"Seventh Edition"
-}
-,{"Code":"SHM"
-,"MKMName":"Shadowmoor"
+,{"Code":"ALA"
+,"MKMName":"Shards of Alara"
 }
 ,{"Code":"UFP"
 ,"MKMName":"Ugin's Fate Promos"
 }
-,{"Code":"UG"
-,"MKMName":"Unglued"
+,{"Code":"SHM"
+,"MKMName":"Shadowmoor"
 }
 ,{"Code":"TSB"
 ,"MKMName":"Time Spiral"
 }
+,{"Code":"UG"
+,"MKMName":"Unglued"
+}
 ,{"Code":"TO"
 ,"MKMName":"Torment"
+}
+,{"Code":"TE"
+,"MKMName":"Tempest"
 }
 ,{"Code":"THS"
 ,"MKMName":"Theros"
@@ -388,23 +383,20 @@
 ,{"Code":"UNH"
 ,"MKMName":"Unhinged"
 }
-,{"Code":"TE"
-,"MKMName":"Tempest"
-}
 ,{"Code":"10E"
 ,"MKMName":"Tenth Edition"
 }
 ,{"Code":"TSP"
 ,"MKMName":"Time Spiral"
 }
-,{"Code":"VNG"
-,"MKMName":"Vanguard"
+,{"Code":"UL"
+,"MKMName":"Urza's Legacy"
 }
 ,{"Code":"UD"
 ,"MKMName":"Urza's Destiny"
 }
-,{"Code":"UL"
-,"MKMName":"Urza's Legacy"
+,{"Code":"VNG"
+,"MKMName":"Vanguard"
 }
 ,{"Code":"VI"
 ,"MKMName":"Visions"
@@ -423,9 +415,6 @@
 }
 ,{"Code":"ZEN"
 ,"MKMName":"Zendikar"
-}
-,{"Code":"ORI"
-,"MKMName":"Magic Origins"
 }
 ]
 }

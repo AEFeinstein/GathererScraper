@@ -2848,7 +2848,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1895</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1898</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1901</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1903</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1906</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/1908</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/198519</loc></url>
@@ -6491,7 +6490,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201794</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398407</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5185</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398407</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201793</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234561</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5186</loc></url>
@@ -6499,7 +6497,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234560</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398405</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5187</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398405</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234567</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5188</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5189</loc></url>
@@ -6508,34 +6505,20 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5191</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398414</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5192</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398415</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398414</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5193</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398415</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201801</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5194</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201800</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234568</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398413</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5195</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398410</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5196</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398411</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5197</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398408</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398413</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5196</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398410</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5197</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398411</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5198</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398408</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5199</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398409</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5200</loc></url>
@@ -6545,121 +6528,85 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201809</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398420</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5202</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398420</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5203</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398418</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5204</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398419</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398418</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5205</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136279</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398419</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201813</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398416</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5206</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398416</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201812</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5207</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398417</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201819</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398430</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136282</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398430</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5209</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136283</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201817</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398428</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5210</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398428</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201816</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398429</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5211</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398426</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398429</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5212</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136286</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398426</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201822</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398427</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5213</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398427</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201821</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398424</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5214</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136284</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398424</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201820</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5215</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136285</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398438</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136290</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398438</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201826</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398439</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5217</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136291</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398436</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398439</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5218</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136288</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398436</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201824</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398437</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5219</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136289</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398437</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201831</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398434</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5220</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398434</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201830</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5221</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398435</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201829</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398432</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5222</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398433</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398432</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5223</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398433</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201835</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398446</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5224</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398446</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201834</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398447</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398444</loc></url>
-=======
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5226</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398444</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201832</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5227</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398445</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201839</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398442</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5228</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398442</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201838</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5229</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398443</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201837</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398440</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5230</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398440</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201836</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5231</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398441</loc></url>
@@ -6667,31 +6614,18 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201842</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398455</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5233</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398452</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398455</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5234</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398452</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201840</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398453</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5235</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398450</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5236</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398451</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398453</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5236</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398450</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5237</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398451</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201845</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398448</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5238</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398449</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5239</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398462</loc></url>
@@ -6718,39 +6652,9 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398466</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5252</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398467</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398448</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5239</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398449</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398462</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5241</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398463</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5242</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398460</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5243</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398461</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398458</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5245</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398459</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5246</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398456</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5247</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398457</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398470</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5249</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398471</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5250</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398468</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5251</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398469</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5252</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398466</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5253</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398467</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5254</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398464</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398465</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5255</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398478</loc></url>
@@ -6758,30 +6662,15 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398479</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5257</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398476</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5255</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398465</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5256</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398478</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5257</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398479</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5258</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398476</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5259</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398474</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5260</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398475</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398474</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5261</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398475</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5262</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398473</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5263</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398486</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5264</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398487</loc></url>
@@ -6798,36 +6687,13 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398481</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5271</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398494</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398473</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5264</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398486</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5265</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398487</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398484</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5267</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398485</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5268</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398482</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5269</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398483</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5270</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398480</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5271</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398481</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5272</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398494</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201882</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5273</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398495</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201881</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398492</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/5274</loc></url>
-<<<<<<< HEAD
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398492</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398493</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398491</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398488</loc></url>
@@ -6841,7 +6707,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398496</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398497</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398510</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398511</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201898</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398508</loc></url>
@@ -6849,15 +6714,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398506</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398504</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201901</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201898</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398511</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398508</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398509</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398506</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201901</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398504</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398505</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398518</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398519</loc></url>
@@ -6882,7 +6738,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398531</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398528</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398529</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398542</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234699</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398543</loc></url>
@@ -6895,25 +6750,10 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398536</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234701</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398537</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234699</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398542</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234698</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398543</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398540</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234703</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398538</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234702</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398539</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234701</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398536</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234700</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398537</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234707</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398551</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234706</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398548</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234705</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398549</loc></url>
@@ -6949,50 +6789,11 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234721</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398565</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234720</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398551</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234705</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398548</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234704</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398549</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234711</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398546</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234710</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398547</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234709</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398544</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398545</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234715</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398558</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234714</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398559</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234713</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398556</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234712</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398557</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234719</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398554</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234718</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398555</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234717</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398552</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234716</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398553</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234723</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398566</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234722</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398567</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234721</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398564</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234720</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398565</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398562</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398563</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398560</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398561</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398574</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398575</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201962</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398572</loc></url>
@@ -7018,33 +6819,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398590</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398591</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201978</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201962</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398575</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398572</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398573</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201967</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398570</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398571</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398568</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201964</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398569</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234739</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398582</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398583</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234737</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398580</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/234736</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398581</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398578</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398579</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398576</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201972</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398577</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398590</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/201978</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398591</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398588</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398589</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398586</loc></url>
@@ -7113,7 +6887,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398650</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398651</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398648</loc></url>
-<<<<<<< HEAD
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398649</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136509</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398662</loc></url>
@@ -7127,21 +6900,6 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398659</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398656</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136516</loc></url>
-=======
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136509</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398649</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136514</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398662</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136515</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398663</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398660</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136513</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398661</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398658</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398659</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/136516</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398656</loc></url>
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398657</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398670</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/398671</loc></url>
@@ -14009,8 +13767,8 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14717</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/80255</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14718</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14719</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/80254</loc></url>
+<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14719</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14720</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/80256</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/14721</loc></url>
@@ -14488,8 +14246,8 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/15393</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/179235</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/15394</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/244768</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/48163</loc></url>
+<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/244768</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/15397</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/179239</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/15398</loc></url>
@@ -23324,8 +23082,8 @@
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/226901</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/226900</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/226906</loc></url>
-<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/226905</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/259673</loc></url>
+<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/226905</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/259679</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/259677</loc></url>
 <url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/259676</loc></url>

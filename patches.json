@@ -1,18 +1,14 @@
-{"Patches":[{"Name":"Arabian Nights"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AN.json.gzip"
-,"Code":"AN"
-}
-,{"Name":"Antiquities"
+{"Patches":[{"Name":"Antiquities"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AQ.json.gzip"
 ,"Code":"AQ"
+}
+,{"Name":"Arabian Nights"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AN.json.gzip"
+,"Code":"AN"
 }
 ,{"Name":"Battle Royale Box Set"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BR.json.gzip"
 ,"Code":"BR"
-}
-,{"Name":"Apocalypse"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AP.json.gzip"
-,"Code":"AP"
 }
 ,{"Name":"Alara Reborn"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ARB.json.gzip"
@@ -21,6 +17,10 @@
 ,{"Name":"Alliances"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AL.json.gzip"
 ,"Code":"AL"
+}
+,{"Name":"Apocalypse"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AP.json.gzip"
+,"Code":"AP"
 }
 ,{"Name":"Beatdown Box Set"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BD.json.gzip"
@@ -54,13 +54,13 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CS.json.gzip"
 ,"Code":"CS"
 }
-,{"Name":"Conflux"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CFX.json.gzip"
-,"Code":"CFX"
-}
 ,{"Name":"Dark Ascension"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DKA.json.gzip"
 ,"Code":"DKA"
+}
+,{"Name":"Conflux"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CFX.json.gzip"
+,"Code":"CFX"
 }
 ,{"Name":"Darksteel"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DS.json.gzip"
@@ -82,53 +82,53 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3DVD.json.gzip"
 ,"Code":"DD3DVD"
 }
-,{"Name":"Dissension"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DIS.json.gzip"
-,"Code":"DIS"
-}
 ,{"Name":"Commander 2013 Edition"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/C13.json.gzip"
 ,"Code":"C13"
+}
+,{"Name":"Dissension"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DIS.json.gzip"
+,"Code":"DIS"
 }
 ,{"Name":"Duel Decks Anthology, Garruk vs. Liliana"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3GVL.json.gzip"
 ,"Code":"DD3GVL"
 }
-,{"Name":"Duel Decks Anthology, Jace vs. Chandra"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3JVC.json.gzip"
-,"Code":"DD3JVC"
-}
 ,{"Name":"Commander 2014"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/C14.json.gzip"
 ,"Code":"C14"
+}
+,{"Name":"Duel Decks Anthology, Jace vs. Chandra"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3JVC.json.gzip"
+,"Code":"DD3JVC"
 }
 ,{"Name":"Duel Decks: Divine vs. Demonic"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DVD.json.gzip"
 ,"Code":"DVD"
 }
-,{"Name":"Dragon's Maze"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DGM.json.gzip"
-,"Code":"DGM"
+,{"Name":"Duel Decks: Elspeth vs. Kiora"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDO.json.gzip"
+,"Code":"DDO"
 }
 ,{"Name":"Duel Decks: Ajani vs. Nicol Bolas"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AVB.json.gzip"
 ,"Code":"AVB"
 }
-,{"Name":"Duel Decks: Elspeth vs. Kiora"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDO.json.gzip"
-,"Code":"DDO"
-}
 ,{"Name":"Duel Decks: Elves vs. Goblins"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVG.json.gzip"
 ,"Code":"EVG"
 }
-,{"Name":"Duel Decks: Garruk vs. Liliana"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GVL.json.gzip"
-,"Code":"GVL"
-}
 ,{"Name":"Duel Decks: Elspeth vs. Tezzeret"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVT.json.gzip"
 ,"Code":"EVT"
+}
+,{"Name":"Dragon's Maze"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DGM.json.gzip"
+,"Code":"DGM"
+}
+,{"Name":"Duel Decks: Garruk vs. Liliana"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GVL.json.gzip"
+,"Code":"GVL"
 }
 ,{"Name":"Duel Decks: Heroes vs. Monsters"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/HVM.json.gzip"
@@ -138,17 +138,13 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/JVC.json.gzip"
 ,"Code":"JVC"
 }
-,{"Name":"Duel Decks: Izzet vs. Golgari"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/IVG.json.gzip"
-,"Code":"IVG"
-}
 ,{"Name":"Dragons of Tarkir"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DTK.json.gzip"
 ,"Code":"DTK"
 }
-,{"Name":"Duel Decks: Jace vs. Vraska"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDM.json.gzip"
-,"Code":"DDM"
+,{"Name":"Duel Decks: Izzet vs. Golgari"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/IVG.json.gzip"
+,"Code":"IVG"
 }
 ,{"Name":"Duel Decks: Knights vs. Dragons"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/KVD.json.gzip"
@@ -161,6 +157,10 @@
 ,{"Name":"Duel Decks: Sorin vs. Tibalt"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SVT.json.gzip"
 ,"Code":"SVT"
+}
+,{"Name":"Duel Decks: Jace vs. Vraska"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDM.json.gzip"
+,"Code":"DDM"
 }
 ,{"Name":"Duel Decks: Speed vs. Cunning"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDN.json.gzip"
@@ -198,10 +198,6 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RLM.json.gzip"
 ,"Code":"RLM"
 }
-,{"Name":"Eventide"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVE.json.gzip"
-,"Code":"EVE"
-}
 ,{"Name":"Fifth Dawn"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FD.json.gzip"
 ,"Code":"FD"
@@ -209,6 +205,10 @@
 ,{"Name":"From the Vault: Relics"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RLC.json.gzip"
 ,"Code":"RLC"
+}
+,{"Name":"Eventide"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVE.json.gzip"
+,"Code":"EVE"
 }
 ,{"Name":"From the Vault: Twenty"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/V13.json.gzip"
@@ -278,25 +278,25 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LG.json.gzip"
 ,"Code":"LG"
 }
-,{"Name":"Limited Edition Beta"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/B.json.gzip"
-,"Code":"B"
-}
 ,{"Name":"Limited Edition Alpha"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/A.json.gzip"
 ,"Code":"A"
+}
+,{"Name":"Limited Edition Beta"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/B.json.gzip"
+,"Code":"B"
 }
 ,{"Name":"Magic 2010"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M10.json.gzip"
 ,"Code":"M10"
 }
-,{"Name":"Lorwyn"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LRW.json.gzip"
-,"Code":"LRW"
-}
 ,{"Name":"Magic 2011"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M11.json.gzip"
 ,"Code":"M11"
+}
+,{"Name":"Lorwyn"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LRW.json.gzip"
+,"Code":"LRW"
 }
 ,{"Name":"Magic 2012"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M12.json.gzip"
@@ -318,53 +318,53 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ORI.json.gzip"
 ,"Code":"ORI"
 }
-,{"Name":"Modern Event Deck 2014"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MD1.json.gzip"
-,"Code":"MD1"
-}
 ,{"Name":"Magic: The Gathering\u2014Conspiracy"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CNS.json.gzip"
 ,"Code":"CNS"
 }
-,{"Name":"Mirrodin Besieged"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MBS.json.gzip"
-,"Code":"MBS"
+,{"Name":"Modern Event Deck 2014"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MD1.json.gzip"
+,"Code":"MD1"
 }
 ,{"Name":"Magic: The Gathering-Commander"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CMD.json.gzip"
 ,"Code":"CMD"
 }
+,{"Name":"Mirrodin Besieged"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MBS.json.gzip"
+,"Code":"MBS"
+}
 ,{"Name":"Mercadian Masques"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MM.json.gzip"
 ,"Code":"MM"
-}
-,{"Name":"Mirrodin"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MR.json.gzip"
-,"Code":"MR"
 }
 ,{"Name":"Morningtide"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MOR.json.gzip"
 ,"Code":"MOR"
 }
-,{"Name":"Mirage"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MI.json.gzip"
-,"Code":"MI"
-}
-,{"Name":"Nemesis"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NE.json.gzip"
-,"Code":"NE"
+,{"Name":"Mirrodin"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MR.json.gzip"
+,"Code":"MR"
 }
 ,{"Name":"Modern Masters"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MMA.json.gzip"
 ,"Code":"MMA"
 }
-,{"Name":"New Phyrexia"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NPH.json.gzip"
-,"Code":"NPH"
+,{"Name":"Nemesis"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NE.json.gzip"
+,"Code":"NE"
+}
+,{"Name":"Mirage"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MI.json.gzip"
+,"Code":"MI"
 }
 ,{"Name":"Modern Masters 2015 Edition"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MM2.json.gzip"
 ,"Code":"MM2"
+}
+,{"Name":"New Phyrexia"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NPH.json.gzip"
+,"Code":"NPH"
 }
 ,{"Name":"Planar Chaos"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PLC.json.gzip"
@@ -374,13 +374,13 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PS.json.gzip"
 ,"Code":"PS"
 }
-,{"Name":"Planechase 2012 Edition"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PC2.json.gzip"
-,"Code":"PC2"
-}
 ,{"Name":"Planechase"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PCH.json.gzip"
 ,"Code":"PCH"
+}
+,{"Name":"Planechase 2012 Edition"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PC2.json.gzip"
+,"Code":"PC2"
 }
 ,{"Name":"Premium Deck Series: Fire and Lightning"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FAL.json.gzip"
@@ -390,17 +390,17 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GRV.json.gzip"
 ,"Code":"GRV"
 }
-,{"Name":"Premium Deck Series: Slivers"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SLI.json.gzip"
-,"Code":"SLI"
+,{"Name":"Portal"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PT.json.gzip"
+,"Code":"PT"
 }
 ,{"Name":"Promo set for Gatherer"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MBP.json.gzip"
 ,"Code":"MBP"
 }
-,{"Name":"Portal"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PT.json.gzip"
-,"Code":"PT"
+,{"Name":"Premium Deck Series: Slivers"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SLI.json.gzip"
+,"Code":"SLI"
 }
 ,{"Name":"Ninth Edition"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/9E.json.gzip"
@@ -426,13 +426,13 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PY.json.gzip"
 ,"Code":"PY"
 }
-,{"Name":"Saviors of Kamigawa"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOK.json.gzip"
-,"Code":"SOK"
-}
 ,{"Name":"Scourge"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SC.json.gzip"
 ,"Code":"SC"
+}
+,{"Name":"Saviors of Kamigawa"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOK.json.gzip"
+,"Code":"SOK"
 }
 ,{"Name":"Rise of the Eldrazi"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ROE.json.gzip"
@@ -442,21 +442,21 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RTR.json.gzip"
 ,"Code":"RTR"
 }
-,{"Name":"Ravnica: City of Guilds"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RAV.json.gzip"
-,"Code":"RAV"
-}
 ,{"Name":"Scars of Mirrodin"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOM.json.gzip"
 ,"Code":"SOM"
 }
-,{"Name":"Starter 2000"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/S2.json.gzip"
-,"Code":"S2"
+,{"Name":"Ravnica: City of Guilds"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RAV.json.gzip"
+,"Code":"RAV"
 }
 ,{"Name":"Revised Edition"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/R.json.gzip"
 ,"Code":"R"
+}
+,{"Name":"Starter 2000"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/S2.json.gzip"
+,"Code":"S2"
 }
 ,{"Name":"Starter 1999"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ST.json.gzip"
@@ -466,37 +466,41 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SH.json.gzip"
 ,"Code":"SH"
 }
-,{"Name":"Shards of Alara"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ALA.json.gzip"
-,"Code":"ALA"
+,{"Name":"Seventh Edition"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/7E.json.gzip"
+,"Code":"7E"
 }
 ,{"Name":"The Dark"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DK.json.gzip"
 ,"Code":"DK"
 }
-,{"Name":"Seventh Edition"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/7E.json.gzip"
-,"Code":"7E"
-}
-,{"Name":"Shadowmoor"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SHM.json.gzip"
-,"Code":"SHM"
+,{"Name":"Shards of Alara"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ALA.json.gzip"
+,"Code":"ALA"
 }
 ,{"Name":"Ugin's Fate promos"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UFP.json.gzip"
 ,"Code":"UFP"
 }
-,{"Name":"Unglued"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UG.json.gzip"
-,"Code":"UG"
+,{"Name":"Shadowmoor"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SHM.json.gzip"
+,"Code":"SHM"
 }
 ,{"Name":"Time Spiral \"Timeshifted\""
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TSB.json.gzip"
 ,"Code":"TSB"
 }
+,{"Name":"Unglued"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UG.json.gzip"
+,"Code":"UG"
+}
 ,{"Name":"Torment"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TO.json.gzip"
 ,"Code":"TO"
+}
+,{"Name":"Tempest"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TE.json.gzip"
+,"Code":"TE"
 }
 ,{"Name":"Theros"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/THS.json.gzip"
@@ -506,10 +510,6 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UNH.json.gzip"
 ,"Code":"UNH"
 }
-,{"Name":"Tempest"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TE.json.gzip"
-,"Code":"TE"
-}
 ,{"Name":"Tenth Edition"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/10E.json.gzip"
 ,"Code":"10E"
@@ -518,17 +518,17 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TSP.json.gzip"
 ,"Code":"TSP"
 }
-,{"Name":"Vanguard"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VNG.json.gzip"
-,"Code":"VNG"
+,{"Name":"Urza's Legacy"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UL.json.gzip"
+,"Code":"UL"
 }
 ,{"Name":"Urza's Destiny"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UD.json.gzip"
 ,"Code":"UD"
 }
-,{"Name":"Urza's Legacy"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UL.json.gzip"
-,"Code":"UL"
+,{"Name":"Vanguard"
+,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VNG.json.gzip"
+,"Code":"VNG"
 }
 ,{"Name":"Visions"
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VI.json.gzip"
@@ -554,14 +554,6 @@
 ,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ZEN.json.gzip"
 ,"Code":"ZEN"
 }
-,{"Name":"Magic Origins"
-,"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ORI.json.gzip"
-,"Code":"ORI"
-}
 ]
-<<<<<<< HEAD
-,"Date":"08\/08\/2015"
-=======
-,"Date":"07\/08\/2015"
->>>>>>> 51c31f6bb1a1de4b6f36ff483cd09578823f4977
+,"Date":"08\/09\/2015"
 }
