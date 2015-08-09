@@ -3,6 +3,7 @@ package com.gelakinetic.GathererScraper;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 
 import org.apache.commons.lang3.StringEscapeUtils;
@@ -39,22 +40,7 @@ public class GathererScraper {
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					if(e.ownText().contains("Duel Decks Anthology")) {
-						boolean exists = false;
-						for(Expansion exp : expansions) {
-							if(exp.equals(new Expansion("Duel Decks Anthology"))) {
-								exists = true;
-								exp.addSubSet(e.ownText());
-							}
-						}
-						
-						if(!exists) {
-							expansions.add(new Expansion("Duel Decks Anthology", e.ownText()));							
-						}
-					}
-					else {
-						expansions.add(new Expansion(e.ownText()));
-					}
+					expansions.add(new Expansion(e.ownText()));
 				}
 			}
 		}
@@ -78,6 +64,8 @@ public class GathererScraper {
 
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
+		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
+		
 		/* Look for normal cards */
 		for(int subSetNum = 0; subSetNum < exp.mSubSets.size(); subSetNum++) {
 			int pageNum = 0;
@@ -97,7 +85,8 @@ public class GathererScraper {
 				for (int i = 0; i < cards.size(); i++) {
 					Element e = cards.get(i);
 					Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
-	
+					multiverseMap.put(card.mName, card.mMultiverseId);
+					
 					if (cardsArray.contains(card)) {
 						loop = false;
 					}
@@ -110,19 +99,39 @@ public class GathererScraper {
 			}
 		}
 
+		ArrayList<Card> scrapedCards = new ArrayList<Card>(cardsArray.size());
 		for (Card c : cardsArray) {
-			scrapeCard(c, exp);
+			
+			ArrayList<Card> tmpScrapedCards = scrapePage(c.getUrl(), exp, multiverseMap);
+			for(Card tmpCard : tmpScrapedCards) {
+				if(!scrapedCards.contains(tmpCard)) {
+					scrapedCards.add(tmpCard);
+				}
+			}
 			ui.setLastCardScraped(c.mExpansion + ": " + c.mName);
 		}
 
-		if (cardsArray.get(0).mNumber.length() < 1) {
-			Collections.sort(cardsArray);
-			for (int i = 0; i < cardsArray.size(); i++) {
-				cardsArray.get(i).mNumber = "" + (i + 1);
+		if (scrapedCards.get(0).mNumber.length() < 1) {
+			Collections.sort(scrapedCards);
+			for (int i = 0; i < scrapedCards.size(); i++) {
+				scrapedCards.get(i).mNumber = "" + (i + 1);
 			}
 		}
 
-		return cardsArray;
+		/* Look for duplicate card numbers */
+		Collections.sort(scrapedCards);
+		for (int i = 0; i < scrapedCards.size() - 1; i++) {
+			if(scrapedCards.get(i).mNumber.equals(scrapedCards.get(i+1).mNumber)) {
+				System.out.println(String.format("Same number: [%s] %s & [%s] %s: %s",						
+						scrapedCards.get(i).mExpansion,
+						scrapedCards.get(i).mName,
+						scrapedCards.get(i+1).mExpansion,
+						scrapedCards.get(i+1).mName,
+						scrapedCards.get(i).mNumber));
+			}
+		}
+		
+		return scrapedCards;
 	}
 
 	/**
@@ -145,196 +154,239 @@ public class GathererScraper {
 	}
 
 	/**
-	 * Scrapes an individual card
-	 * 
-	 * @param card
-	 *            The card to scrape and populate
-	 * @param exp 
-	 * @return The card that was scraped, same as the input
-	 * @throws IOException
-	 *             Thrown if the Internet breaks
+	 * Scrape all cards off a given page
+	 * @param cardUrl	The page to scrape
+	 * @param exp		The expansion of the cards on this page
+	 * @param multiverseMap	A map of card names to multiverse IDs
+	 * @return	An array list of scraped cards
+	 * @throws IOException Thrown if the Internet breaks
 	 */
-	private static Card scrapeCard(Card card, Expansion exp) throws IOException {
-		Document cardPage = ConnectWithRetries(card.getUrl());
-
-		/* Get the list of cards and ids for split cards */
-		String id = getCardId(card.mName, cardPage);
-
-		/* Mana Cost */
-		card.mManaCost = getTextFromAttribute(cardPage, id + "manaRow", "value", true);
-
-		/* Converted Mana Cost */
-		try {
-			card.mCmc = Integer.parseInt(getTextFromAttribute(cardPage, id + "cmcRow", "value", true));
-		}
-		catch (NumberFormatException e) {
-			card.mCmc = 0;
-		}
-
-		/* Type */
-		card.mType = getTextFromAttribute(cardPage, id + "typeRow", "value", true);
-
-		/* Ability Text */
-		card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
-
-		/* Flavor */
-		card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "cardtextbox", false);
-
-		/* PT */
-		String pt = getTextFromAttribute(cardPage, id + "ptRow", "value", true);
-
-		if (card.mExpansion.equals("VNG")) {
-			/* this row is the life & hand modifier for vanguard */
-			card.mText += "<br><br><br>" + pt;
-			card.mPower = null;
-			card.mToughness = null;
-			card.mLoyalty = null;
-		}
-		else {
-			if (pt != null) {
-				if (pt.contains("/")) {
-					card.mPower = pt.split("/")[0].trim();
-					card.mToughness = pt.split("/")[1].trim();
-				}
-				else {
-					card.mLoyalty = pt.trim();
-				}
-			}
-		}
-
-		/* Rarity */
-		card.mRarity = getTextFromAttribute(cardPage, id + "rarityRow", "value", true);
-		if (card.mExpansion.equals("TSB")) {
-			/* They say Special, I say Timeshifted */
-			card.mRarity = "Timeshifted";
-		}
-		else if (card.mRarity.isEmpty()) {
-			/* Edge case for promotional cards */
-			card.mRarity = "Rare";
-		}
-		else if (card.mRarity.equalsIgnoreCase("Land")) {
-			/*
-			 * Basic lands aren't technically common, but the app doesn't
-			 * understand "Land"
-			 */
-			card.mRarity = "Common";
-		}
-		else if (card.mRarity.equalsIgnoreCase("Special")) {
-			/* Planechase, Promos, Vanguards */
-			card.mRarity = "Rare";
-		}
-
-		/* Number */
-		card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
+	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp, HashMap<String, Integer> multiverseMap) throws IOException {
 		
-		/* If the number does not exist, grab it from magiccards.info. More accurate than trying to calculate it */
-		if(card.mNumber == null) {
+		Document cardPage = ConnectWithRetries(cardUrl);
+
+		/* Put all cards from this page into this ArrayList */
+		ArrayList<Card> scrapedCards = new ArrayList<Card>();
+		
+		/* Get all cards on this page */
+		HashMap<String, String> ids = getCardIds(cardPage);
+
+		/* For all cards on this page, grab their information */
+		for(String name : ids.keySet()) {
+			/* Pick the multiverseID out of the hashmap built from the card list */
+			Card card = new Card(name, exp.mCode_gatherer, multiverseMap.get(name));
+			
+			/* Get the ID for this card's information */
+			String id = ids.get(name);
+			
+			/* Mana Cost */
+			card.mManaCost = getTextFromAttribute(cardPage, id + "manaRow", "value", true);
+
+			/* Converted Mana Cost */
 			try {
-				/* This line gets the image URL from a name and set code */
-				String url = ConnectWithRetries("http://magiccards.info/query?q=" + card.mName.replace(" ", "+") +
-						"+e%3A"+exp.mCode_mtgi+"%2Fen")
-						.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-				
-				/* This picks the number out of the URL */
-				card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-				
-				/* Some simple validation, DELETE LATER */
+				card.mCmc = Integer.parseInt(getTextFromAttribute(cardPage, id + "cmcRow", "value", true));
+			}
+			catch (NumberFormatException e) {
+				card.mCmc = 0;
+			}
+
+			/* Type */
+			card.mType = getTextFromAttribute(cardPage, id + "typeRow", "value", true);
+
+			/* Ability Text */
+			card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
+
+			/* Flavor */
+			card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "cardtextbox", false);
+
+			/* PT */
+			String pt = getTextFromAttribute(cardPage, id + "ptRow", "value", true);
+
+			if (card.mExpansion.equals("VNG")) {
+				/* this row is the life & hand modifier for vanguard */
+				card.mText += "<br><br><br>" + pt;
+				card.mPower = null;
+				card.mToughness = null;
+				card.mLoyalty = null;
+			}
+			else {
+				if (pt != null) {
+					if (pt.contains("/")) {
+						card.mPower = pt.split("/")[0].trim();
+						card.mToughness = pt.split("/")[1].trim();
+					}
+					else {
+						card.mLoyalty = pt.trim();
+					}
+				}
+			}
+
+			/* Rarity */
+			card.mRarity = getTextFromAttribute(cardPage, id + "rarityRow", "value", true);
+			if (card.mExpansion.equals("TSB")) {
+				/* They say Special, I say Timeshifted */
+				card.mRarity = "Timeshifted";
+			}
+			else if (card.mRarity.isEmpty()) {
+				/* Edge case for promotional cards */
+				card.mRarity = "Rare";
+			}
+			else if (card.mRarity.equalsIgnoreCase("Land")) {
+				/* Basic lands aren't technically common, but the app doesn't
+				 * understand "Land"
+				 */
+				card.mRarity = "Common";
+			}
+			else if (card.mRarity.equalsIgnoreCase("Special")) {
+				/* Planechase, Promos, Vanguards */
+				card.mRarity = "Rare";
+			}
+
+			/* Number */
+			card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
+			
+			/* If the number does not exist, grab it from magiccards.info. More accurate than trying to calculate it */
+			if(card.mNumber == null) {
 				try {
-					Integer.parseInt(card.mNumber);
+					/* This line gets the image URL from a name and set code */
+					String url = ConnectWithRetries("http://magiccards.info/query?q=" + card.mName.replace(" ", "+") +
+							"+e%3A"+exp.mCode_mtgi+"%2Fen")
+							.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
+					
+					/* This picks the number out of the URL */
+					card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+					
+					/* Some simple validation, DELETE LATER */
+					try {
+						Integer.parseInt(card.mNumber);
+					}
+					catch(NumberFormatException e) {
+						System.err.println(card.mName + ", " + card.mNumber + " Number format exception");
+					}
 				}
-				catch(NumberFormatException e) {
-					System.err.println(card.mName + ", " + card.mNumber + " Number format exception");
+				catch(Exception e) {
+					System.err.println(card.mName + ", " + card.mExpansion + " " + e.toString());
 				}
 			}
-			catch(Exception e) {
-				System.err.println(card.mName + ", " + card.mExpansion + " " + e.toString());
+			
+			/* Things Gatherer gets wrong. D'oh */
+			if(card.mName.equals("Phyrexian Colossus") && card.mExpansion.equals("US")) {
+				card.mNumber = "305";
 			}
-		}
+			else if(card.mName.equals("Trained Cheetah") && card.mExpansion.equals("P3")) {
+				card.mNumber = "154";
+			}
+			else if(card.mName.equals("Trained Jackal") && card.mExpansion.equals("P3")) {
+				card.mNumber = "155";
+			}
+			else if(card.mName.equals("Trip Wire") && card.mExpansion.equals("P3")) {
+				card.mNumber = "156";
+			}
 
-		/* artist */
-		card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
+			/* artist */
+			card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 
-		/* color, calculated */
-		String color = getTextFromAttribute(cardPage, id + "colorIndicatorRow", "value", true);
-		card.mColor = "";
-		if (card.mType.contains("Artifact")) {
-			card.mColor += "A";
-		}
-		if (card.mType.contains("Land")) {
-			card.mColor += "L";
-		}
-		if (color != null) {
-			if (color.contains("White")) {
-				card.mColor += "W";
+			/* color, calculated */
+			String color = getTextFromAttribute(cardPage, id + "colorIndicatorRow", "value", true);
+			card.mColor = "";
+			if (card.mType.contains("Artifact")) {
+				card.mColor += "A";
 			}
-			if (color.contains("Blue")) {
-				card.mColor += "U";
+			if (card.mType.contains("Land")) {
+				card.mColor += "L";
 			}
-			if (color.contains("Black")) {
-				card.mColor += "B";
+			if (color != null) {
+				if (color.contains("White")) {
+					card.mColor += "W";
+				}
+				if (color.contains("Blue")) {
+					card.mColor += "U";
+				}
+				if (color.contains("Black")) {
+					card.mColor += "B";
+				}
+				if (color.contains("Red")) {
+					card.mColor += "R";
+				}
+				if (color.contains("Green")) {
+					card.mColor += "G";
+				}
 			}
-			if (color.contains("Red")) {
-				card.mColor += "R";
+			else if (card.mManaCost != null) {
+				if (card.mManaCost.contains("W")) {
+					card.mColor += "W";
+				}
+				if (card.mManaCost.contains("U")) {
+					card.mColor += "U";
+				}
+				if (card.mManaCost.contains("B")) {
+					card.mColor += "B";
+				}
+				if (card.mManaCost.contains("R")) {
+					card.mColor += "R";
+				}
+				if (card.mManaCost.contains("G")) {
+					card.mColor += "G";
+				}
 			}
-			if (color.contains("Green")) {
-				card.mColor += "G";
+			if (card.mColor.isEmpty() || card.mName.equals("Ghostfire")) {
+				card.mColor = "C";
 			}
-		}
-		else if (card.mManaCost != null) {
-			if (card.mManaCost.contains("W")) {
-				card.mColor += "W";
+			
+			/* Because the ORI walkers don't have color listed... */
+			if(card.mExpansion.equals("ORI")) {
+				if(card.mName.contains("Gideon, Battle-Forged")) {
+					card.mColor = "W";
+				}
+				else if(card.mName.contains("Jace, Telepath Unbound")) {
+					card.mColor = "U";
+				}
+				else if(card.mName.contains("Liliana, Defiant Necromancer")) {
+					card.mColor = "B";
+				}
+				else if(card.mName.contains("Chandra, Roaring Flame")) {
+					card.mColor = "R";
+				}
+				else if(card.mName.contains("Nissa, Sage Animist")) {
+					card.mColor = "G";
+				}
 			}
-			if (card.mManaCost.contains("U")) {
-				card.mColor += "U";
-			}
-			if (card.mManaCost.contains("B")) {
-				card.mColor += "B";
-			}
-			if (card.mManaCost.contains("R")) {
-				card.mColor += "R";
-			}
-			if (card.mManaCost.contains("G")) {
-				card.mColor += "G";
-			}
-		}
-		if (card.mColor.isEmpty() || card.mName.equals("Ghostfire")) {
-			card.mColor = "C";
-		}
 
-		card.clearNulls();
-		return card;
+			card.clearNulls();
+			scrapedCards.add(card);
+		}
+		return scrapedCards;
 	}
 
 	/**
-	 * Get's the given card's ID from a Document. This is relevant when there
-	 * are two halves of a split card on the same page, and you don't want to
-	 * mix up what you scrape
+	 * Get all IDs for all cards on a given page. This usually returns one ID
+	 * in the HashMap, but will return two for split, double faced, or flip cards
 	 * 
-	 * @param cardname
-	 *            The name of the card to extract an ID for
 	 * @param cardPage
 	 *            The Document to extract an ID from
-	 * @return The string ID
+	 * @return All the IDs on this page
 	 */
-	private static String getCardId(String cardname, Document cardPage) {
+	private static HashMap<String, String> getCardIds(Document cardPage) {
 
+		HashMap<String, String> ids = new HashMap<String, String>(2);
+
+		/* Get all names on this page */
 		Elements names = cardPage.getElementsByAttributeValueContaining("id", "nameRow");
 
-		if (names.size() == 1) {
-			return "";
-		}
-
+		/* For each name, get the ID */
 		for (int i = 0; i < names.size(); i++) {
+			/* Get the actual ID */
 			String id = names.get(i).getElementsByAttribute("id").first().attr("id");
 			id = id.substring(id.length() - 14, id.length() - 7);
 
+			/* Get the actual card name */
 			Elements e2 = names.get(i).getElementsByAttributeValueContaining("class", "value");
-			String text = cleanHtml(e2.outerHtml(), true);
-			if (cardname.equalsIgnoreCase(text)) {
-				return id;
-			}
+			String name = cleanHtml(e2.outerHtml(), true);
+
+			/* Store the name & ID combo */
+			ids.put(name, id);
 		}
-		return "";
+		return ids;
 	}
 
 	/**
