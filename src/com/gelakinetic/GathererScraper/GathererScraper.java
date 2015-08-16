@@ -246,46 +246,29 @@ public class GathererScraper {
 			}
 
 			/* Number */
-			card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
-			
-			/* If the number does not exist, grab it from magiccards.info. More accurate than trying to calculate it */
-			if(card.mNumber == null) {
+			/* Try grabbing the number from magiccards.info first. It's more accurate than Gatherer */
+			if(card.mNumber == null || card.mNumber.equals("")) {
 				try {
 					/* This line gets the image URL from a name and set code */
-					String url = ConnectWithRetries("http://magiccards.info/query?q=" + card.mName.replace(" ", "+") +
-							"+e%3A"+exp.mCode_mtgi+"%2Fen")
+					String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
+							"\"+e%3A"+exp.mCode_mtgi+"%2Fen")
 							.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
 					
 					/* This picks the number out of the URL */
 					card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-					
-					/* Some simple validation, DELETE LATER */
-					try {
-						Integer.parseInt(card.mNumber);
-					}
-					catch(NumberFormatException e) {
-						System.err.println(card.mName + ", " + card.mNumber + " Number format exception");
-					}
 				}
 				catch(Exception e) {
-					System.err.println(card.mName + ", " + card.mExpansion + " " + e.toString());
+					/* Eat it */
 				}
 			}
 			
-			/* Things Gatherer gets wrong. D'oh */
-			if(card.mName.equals("Phyrexian Colossus") && card.mExpansion.equals("US")) {
-				card.mNumber = "305";
+			/* If the mtgi lookup failed, try gatherer second */
+			if(card.mNumber == null || card.mNumber.equals("")) {
+				System.out.print(String.format("[%s] number problem %s, ", card.mExpansion, card.mName));
+				card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
+				System.out.print(String.format("fixed? %s\n", card.mNumber));
 			}
-			else if(card.mName.equals("Trained Cheetah") && card.mExpansion.equals("P3")) {
-				card.mNumber = "154";
-			}
-			else if(card.mName.equals("Trained Jackal") && card.mExpansion.equals("P3")) {
-				card.mNumber = "155";
-			}
-			else if(card.mName.equals("Trip Wire") && card.mExpansion.equals("P3")) {
-				card.mNumber = "156";
-			}
-
+			
 			/* artist */
 			card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 
