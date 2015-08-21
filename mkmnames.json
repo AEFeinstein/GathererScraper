@@ -1,4 +1,4 @@
-{"Date":"08\/09\/2015"
+{"Date":"08\/21\/2015"
 ,"Sets":[{"Code":"AQ"
 ,"MKMName":"Antiquities"
 }
@@ -415,6 +415,9 @@
 }
 ,{"Code":"ZEN"
 ,"MKMName":"Zendikar"
+}
+,{"Code":"V15"
+,"MKMName":"From the Vault: Angels"
 }
 ]
 }
