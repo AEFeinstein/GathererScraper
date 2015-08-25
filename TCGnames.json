@@ -1,4 +1,4 @@
-{"Date":"08\/21\/2015"
+{"Date":"08\/25\/2015"
 ,"Sets":[{"TCGName":"Antiquities"
 ,"Code":"AQ"
 }
@@ -418,6 +418,9 @@
 }
 ,{"TCGName":"From the Vault: Angels"
 ,"Code":"V15"
+}
+,{"TCGName":"Duel Decks: Anthology"
+,"Code":"DD3"
 }
 ]
 }
