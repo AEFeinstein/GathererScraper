@@ -22,7 +22,9 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -189,11 +191,28 @@ public class GathererScraperUi {
 			 */
 			@Override
 			public void windowClosing(java.awt.event.WindowEvent arg0) {
+				/* Get today's date */
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Calendar cal = Calendar.getInstance();
+				String date = dateFormat.format(cal.getTime());
+				
+				/* Write the legality information first */
+				try {
+					if (!mLegalityListModel.writeJsonToFile(frame, mFilesPath, date)) {
+						frame.setEnabled(true);
+						frame.setCursor(Cursor.getDefaultCursor());
+					}
+				}
+				catch (IOException e1) {
+					e1.printStackTrace();
+				}
+				
 				JSONArray expansions = new JSONArray();
 				for (Expansion e : mExpansionTableModel.mExpansions) {
 					expansions.add(e.toJsonObject());
 				}
 				try {
+					Collections.sort(expansions, JSONArray.getComparator());
 					FileWriter fw = new FileWriter(new File(EXPANSION_FILE_NAME));
 					fw.write(expansions.toJSONString());
 					fw.close();
@@ -416,16 +435,19 @@ public class GathererScraperUi {
 							/* Write the patches manifest */
 							FileWriter file;
 
+							Collections.sort(mPatchesArray, JSONArray.getComparator());
 							file = new FileWriter(new File(mFilesPath, PATCH_FILE_NAME));
 							file.write(patchFile.toJSONString());
 							file.flush();
 							file.close();
 
+							Collections.sort(mTcgNamesArray, JSONArray.getComparator());
 							file = new FileWriter(new File(mFilesPath, TCG_FILE_NAME));
 							file.write(TcgFile.toJSONString());
 							file.flush();
 							file.close();
 
+							Collections.sort(mMkmNamesArray, JSONArray.getComparator());
 							file = new FileWriter(new File(mFilesPath, MKM_FILE_NAME));
 							file.write(MkmFile.toJSONString());
 							file.flush();
@@ -439,10 +461,13 @@ public class GathererScraperUi {
 							if(mAppmapFile.exists()) {
 								mAppmapFile.delete();
 							}
+							Integer multiverseIdsArray[] = new Integer[mAllMultiverseIds.size()];
+							mAllMultiverseIds.toArray(multiverseIdsArray);
+							Arrays.sort(multiverseIdsArray);
 							BufferedWriter bw = new BufferedWriter(new FileWriter(new File(mFilesPath, APPMAP_FILE_NAME)));
 							bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
 							bw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
-							for(int multiverseId : mAllMultiverseIds) {
+							for(int multiverseId : multiverseIdsArray) {
 								bw.write("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
 							}
 							bw.write("</urlset>\n");

@@ -7,6 +7,7 @@ package org.json.simple;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -54,6 +55,7 @@ public class JSONObject extends HashMap<String, Object> implements Map<String, O
         out.write('{');
         
         Object[] keyset = map.keySet().toArray();
+        Arrays.sort(keyset);
         for(int i = keyset.length-1; i >= 0; i--) {
             if(first)
                 first = false;

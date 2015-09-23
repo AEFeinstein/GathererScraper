@@ -8,7 +8,9 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.Iterator;
 
 /**
@@ -103,6 +105,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -133,6 +136,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -163,6 +167,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -193,6 +198,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -223,6 +229,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -253,6 +260,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			out.write(String.valueOf(array[0]));
 			
@@ -313,6 +321,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[\"");
 			out.write(String.valueOf(array[0]));
 			
@@ -343,6 +352,7 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 		} else if(array.length == 0) {
 			out.write("[]");
 		} else {
+			Arrays.sort(array);
 			out.write("[");
 			JSONValue.writeJSONString(array[0], out);
 			
@@ -377,5 +387,18 @@ public class JSONArray extends ArrayList<Object> implements JSONAware, JSONStrea
 	 */
 	public String toString() {
 		return toJSONString();
+	}
+
+	public static Comparator<Object> getComparator() {
+		return new Comparator<Object>() {
+
+			@Override
+			public int compare(Object o1, Object o2) {
+				if(o1 instanceof JSONObject && o2 instanceof JSONObject) {
+					return ((JSONObject)o1).toJSONString().compareTo(((JSONObject)o2).toJSONString());
+				}
+				return o1.toString().compareTo(o2.toString());
+			}
+		};
 	}
 }
