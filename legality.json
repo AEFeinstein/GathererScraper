@@ -1,30 +1,4 @@
-{"Date":"08\/26\/2015"
-,"Formats":{"Vintage":{"Banlist":["Advantageous Proclamation"
-,"Amulet of Quoz"
-,"Backup Plan"
-,"Brago's Favor"
-,"Bronze Tablet"
-,"Chaos Orb"
-,"Contract from Below"
-,"Darkpact"
-,"Demonic Attorney"
-,"Double Stroke"
-,"Falling Star"
-,"Immediate Action"
-,"Iterative Analysis"
-,"Jeweled Bird"
-,"Muzzio's Preparations"
-,"Power Play"
-,"Rebirth"
-,"Secret Summoning"
-,"Secrets of Paradise"
-,"Sentinel Dispatch"
-,"Shahrazad"
-,"Tempest Efreet"
-,"Timmerian Fiends"
-,"Unexpected Potential"
-,"Worldknit"
-]
+{"Formats":{"Vintage":{"Sets":[]
 ,"Restrictedlist":["Ancestral Recall"
 ,"Balance"
 ,"Black Lotus"
@@ -67,43 +41,43 @@
 ,"Yawgmoth's Bargain"
 ,"Yawgmoth's Will"
 ]
-,"Sets":[]
+,"Banlist":["Advantageous Proclamation"
+,"Amulet of Quoz"
+,"Backup Plan"
+,"Brago's Favor"
+,"Bronze Tablet"
+,"Chaos Orb"
+,"Contract from Below"
+,"Darkpact"
+,"Demonic Attorney"
+,"Double Stroke"
+,"Falling Star"
+,"Immediate Action"
+,"Iterative Analysis"
+,"Jeweled Bird"
+,"Muzzio's Preparations"
+,"Power Play"
+,"Rebirth"
+,"Secret Summoning"
+,"Secrets of Paradise"
+,"Sentinel Dispatch"
+,"Shahrazad"
+,"Tempest Efreet"
+,"Timmerian Fiends"
+,"Unexpected Potential"
+,"Worldknit"
+]
 }
-,"Modern":{"Banlist":["Ancestral Vision"
-,"Ancient Den"
-,"Birthing Pod"
-,"Blazing Shoal"
-,"Bloodbraid Elf"
-,"Chrome Mox"
-,"Cloudpost"
-,"Dark Depths"
-,"Deathrite Shaman"
-,"Dig Through Time"
-,"Dread Return"
-,"Glimpse of Nature"
-,"Great Furnace"
-,"Green Sun's Zenith"
-,"Hypergenesis"
-,"Jace, the Mind Sculptor"
-,"Mental Misstep"
-,"Ponder"
-,"Preordain"
-,"Punishing Fire"
-,"Rite of Flame"
-,"Seat of the Synod"
-,"Second Sunrise"
-,"Seething Song"
-,"Sensei's Divining Top"
-,"Stoneforge Mystic"
-,"Skullclamp"
-,"Sword of the Meek"
-,"Treasure Cruise"
-,"Tree of Tales"
-,"Umezawa's Jitte"
-,"Vault of Whispers"
+,"Standard":{"Sets":["KTK"
+,"FRF"
+,"DTK"
+,"ORI"
+,"BFZ"
 ]
 ,"Restrictedlist":[]
-,"Sets":["8E"
+,"Banlist":[]
+}
+,"Modern":{"Sets":["8E"
 ,"MR"
 ,"DS"
 ,"FD"
@@ -154,47 +128,46 @@
 ,"DTK"
 ,"MM2"
 ,"ORI"
+,"BFZ"
 ]
-}
-,"Standard":{"Banlist":[]
 ,"Restrictedlist":[]
-,"Sets":["THS"
-,"BNG"
-,"JOU"
-,"M15"
-,"KTK"
-,"FRF"
-,"DTK"
-,"ORI"
-]
-}
-,"Block":{"Banlist":[]
-,"Restrictedlist":[]
-,"Sets":["KTK"
-,"FRF"
-,"DTK"
-]
-}
-,"Extended":{"Banlist":["Mental Misstep"
+,"Banlist":["Ancestral Vision"
+,"Ancient Den"
+,"Birthing Pod"
+,"Blazing Shoal"
+,"Bloodbraid Elf"
+,"Chrome Mox"
+,"Cloudpost"
+,"Dark Depths"
+,"Deathrite Shaman"
+,"Dig Through Time"
+,"Dread Return"
+,"Glimpse of Nature"
+,"Great Furnace"
+,"Green Sun's Zenith"
+,"Hypergenesis"
+,"Jace, the Mind Sculptor"
+,"Mental Misstep"
 ,"Ponder"
-]
-,"Restrictedlist":[]
-,"Sets":["SOM"
-,"MBS"
-,"NPH"
-,"M12"
-,"ISD"
-,"DKA"
-,"AVR"
-,"M13"
-,"RTR"
-,"GTC"
-,"DGM"
-,"M14"
-,"THS"
+,"Preordain"
+,"Punishing Fire"
+,"Rite of Flame"
+,"Seat of the Synod"
+,"Second Sunrise"
+,"Seething Song"
+,"Sensei's Divining Top"
+,"Stoneforge Mystic"
+,"Skullclamp"
+,"Sword of the Meek"
+,"Treasure Cruise"
+,"Tree of Tales"
+,"Umezawa's Jitte"
+,"Vault of Whispers"
 ]
 }
-,"Legacy":{"Banlist":["Advantageous Proclamation"
+,"Legacy":{"Sets":[]
+,"Restrictedlist":[]
+,"Banlist":["Advantageous Proclamation"
 ,"Amulet of Quoz"
 ,"Ancestral Recall"
 ,"Backup Plan"
@@ -268,10 +241,29 @@
 ,"Yawgmoth's Bargain"
 ,"Yawgmoth's Will"
 ]
-,"Restrictedlist":[]
-,"Sets":[]
 }
-,"Commander":{"Banlist":["Advantageous Proclamation"
+,"Extended":{"Sets":["SOM"
+,"MBS"
+,"NPH"
+,"M12"
+,"ISD"
+,"DKA"
+,"AVR"
+,"M13"
+,"RTR"
+,"GTC"
+,"DGM"
+,"M14"
+,"THS"
+]
+,"Restrictedlist":[]
+,"Banlist":["Mental Misstep"
+,"Ponder"
+]
+}
+,"Commander":{"Sets":[]
+,"Restrictedlist":[]
+,"Banlist":["Advantageous Proclamation"
 ,"Amulet of Quoz"
 ,"Ancestral Recall"
 ,"Backup Plan"
@@ -334,8 +326,12 @@
 ,"Worldknit"
 ,"Yawgmoth's Bargain"
 ]
+}
+,"Block":{"Sets":["BFZ"
+]
 ,"Restrictedlist":[]
-,"Sets":[]
+,"Banlist":[]
 }
 }
+,"Date":"09\/23\/2015"
 }
