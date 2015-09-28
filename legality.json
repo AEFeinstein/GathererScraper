@@ -3,9 +3,11 @@
 ,"Balance"
 ,"Black Lotus"
 ,"Brainstorm"
+,"Chalice of the Void"
 ,"Channel"
 ,"Demonic Consultation"
 ,"Demonic Tutor"
+,"Dig Through Time"
 ,"Fastbond"
 ,"Flash"
 ,"Imperial Seal"
@@ -27,7 +29,6 @@
 ,"Ponder"
 ,"Sol Ring"
 ,"Strip Mine"
-,"Thirst for Knowledge"
 ,"Time Vault"
 ,"Time Walk"
 ,"Timetwister"
@@ -174,7 +175,6 @@
 ,"Balance"
 ,"Bazaar of Baghdad"
 ,"Black Lotus"
-,"Black Vise"
 ,"Brago's Favor"
 ,"Bronze Tablet"
 ,"Channel"
@@ -184,6 +184,7 @@
 ,"Demonic Attorney"
 ,"Demonic Consultation"
 ,"Demonic Tutor"
+,"Dig Through Time"
 ,"Double Stroke"
 ,"Earthcraft"
 ,"Falling Star"
@@ -333,5 +334,5 @@
 ,"Banlist":[]
 }
 }
-,"Date":"09\/23\/2015"
+,"Date":"09\/28\/2015"
 }
