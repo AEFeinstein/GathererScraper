@@ -19,6 +19,8 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -272,6 +274,35 @@ public class GathererScraperUi {
 		gbc_progressBar_1.gridx = 0;
 		gbc_progressBar_1.gridy = 0;
 		frame.getContentPane().add(mExpansionProgressBar, gbc_progressBar_1);
+		
+		JButton btnCleanRules = new JButton("Clean Rules");
+		btnCleanRules.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				File rulesFile = askForFile("Comprehensive Rules to Clean?", null);
+				try {
+					String problemLines = GathererScraper.cleanRules(rulesFile);
+					if(problemLines.length() > 0) {
+						JOptionPane.showMessageDialog(frame, "Rules Cleaned\r\n" + problemLines, "Warning",
+								JOptionPane.PLAIN_MESSAGE);
+					}
+					else {
+						JOptionPane.showMessageDialog(frame, "Rules Cleaned", "Complete",
+								JOptionPane.PLAIN_MESSAGE);						
+					}
+				} catch (IOException e) {
+					StringWriter sw = new StringWriter();
+					PrintWriter pw = new PrintWriter(sw);
+					e.printStackTrace(pw);
+					JOptionPane.showMessageDialog(frame, sw.toString(), "ERROR",
+							JOptionPane.ERROR_MESSAGE);						
+				}
+			}
+		});
+		GridBagConstraints gbc_btnCleanRules = new GridBagConstraints();
+		gbc_btnCleanRules.insets = new Insets(0, 0, 5, 0);
+		gbc_btnCleanRules.gridx = 3;
+		gbc_btnCleanRules.gridy = 0;
+		frame.getContentPane().add(btnCleanRules, gbc_btnCleanRules);
 
 		mLastCardScraped = new JLabel("");
 		GridBagConstraints gbc_lblNewLabel = new GridBagConstraints();
@@ -701,7 +732,9 @@ public class GathererScraperUi {
 		chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 
 		chooser.setDialogTitle(title);
-		chooser.setFileFilter(filter);
+		if(filter != null) {
+			chooser.setFileFilter(filter);
+		}
 		int returnVal = chooser.showOpenDialog(null);
 		if (returnVal == JFileChooser.APPROVE_OPTION) {
 			return chooser.getSelectedFile();

@@ -90,16 +90,6 @@ public class Expansion implements Comparable<Expansion>{
 	}
 
 	/**
-	 * TODO
-	 * @param string
-	 * @param ownText
-	 */
-	public Expansion(String string, String ownText) {
-		this.mName_gatherer = string;
-		this.mSubSets.add(ownText);
-	}
-
-	/**
 	 * Create a JSON representation of this expansion, to be used to save
 	 * expansion information between sessions
 	 * 

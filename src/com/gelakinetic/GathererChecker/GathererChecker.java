@@ -260,11 +260,11 @@ public class GathererChecker {
 		/* Make RssEntries for each of the three judge documents */
 		ArrayList<RssEntry> entries = new ArrayList<RssEntry>();
 		entries.add(new RssEntry("Magic Infraction Guide, " + date, null, dateStr,
-				"http://www.bluewizard.net/docs/epub/MagicInfractionGuide.epub"));
+				"http://www.bluewizard.net/docs/html/MagicInfractionGuide.html"));
 		entries.add(new RssEntry("Magic Tournament Rules, " + date, null, dateStr,
-				"http://www.bluewizard.net/docs/epub/MagicTournamentRules.epub"));
+				"http://www.bluewizard.net/docs/html/MagicTournamentRules.html"));
 		entries.add(new RssEntry("Judging At Regular, " + date, null, dateStr,
-				"http://www.bluewizard.net/docs/epub/JudgingAtRegular.epub"));
+				"http://www.bluewizard.net/docs/html/JudgingAtRegular.html"));
 
 		return entries;
 	}

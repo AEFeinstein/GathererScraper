@@ -1,5 +1,9 @@
 package com.gelakinetic.GathererScraper;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -495,5 +499,63 @@ public class GathererScraper {
 		.replaceAll("\\}\\s+\\{", "\\}\\{")
 		/* replace silly divider, planeswalker minus */
 		.replaceAll("—", "-").replaceAll("−", "-"));
+	}
+
+	/**
+	 * Clean up a comprehensive rules file. Wizards likes non-ascii chars
+	 * 
+	 * @param rulesFile		The file to clean
+	 * @throws IOException 	Thrown if something goes wrong
+	 */
+	public static String cleanRules(File rulesFile) throws IOException {
+		/* Save any post-formatting lines with non-ascii chars here */
+		StringBuilder problematicLines = new StringBuilder();
+		/* Open up file in & out */
+		BufferedReader br = new BufferedReader(new FileReader(rulesFile));
+		FileWriter fw = new FileWriter(rulesFile.getAbsolutePath() + ".clean");
+		/* Read the file, one line at a time */
+		String line;
+		while ((line = br.readLine()) != null) {
+			/* Clean and write the line */
+			line = removeNonAscii(line);
+			fw.write(line + "\r\n");
+			/* If the line still has any non-ascii chars, note it */
+			if(line.matches(".*[^\\x00-\\x7F].*")) {
+				problematicLines.append(line + "\r\n");
+			};
+		}
+		/* Clean up */
+		fw.close();
+		br.close();
+		/* Return any lines with non-ascii chars */
+		return problematicLines.toString();
+	}
+
+	/**
+	 * Replaces known non-ascii chars in a string with ascii equivalents
+	 * @param line	The string to clean up
+	 * @return		The cleaned up string
+	 */
+	private static String removeNonAscii(String line) {
+		String replacements[][] =
+			{{"’", "'"},
+			{"®", "(R)"},
+			{"™", "(TM)"},
+			{"“", "\""},
+			{"”", "\""},
+			{"—", "-"},
+			{"–", "-"},
+			{"‘", "'"},
+			{"â", "a"},
+			{"á", "a"},
+			{"ú", "u"},
+			{"û", "u"},
+			{"Æ", "Ae"},
+			{"©", "(C)"}};
+		/* Loop through all the known replacements and perform them */
+		for(String[] replaceSet : replacements) {
+			line = line.replaceAll(replaceSet[0], replaceSet[1]);
+		}
+		return line;
 	}
 }
