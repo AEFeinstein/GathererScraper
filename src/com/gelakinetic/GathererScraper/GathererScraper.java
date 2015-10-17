@@ -22,7 +22,7 @@ import com.google.common.net.PercentEscaper;
  * This class is filled with static functions which do the actual scraping from
  * Gatherer. It first gets a list of expansions, then gets lists of cards for
  * the expansions, and finally scrapes the individual cards.
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -30,7 +30,7 @@ public class GathererScraper {
 
 	/**
 	 * This function scrapes a list of all expansions from Gatherer
-	 * 
+	 *
 	 * @return An ArrayList of Expansion objects for all potential expansions to
 	 *         scrape
 	 * @throws IOException
@@ -54,10 +54,10 @@ public class GathererScraper {
 	/**
 	 * This function scrapes all cards from a given expansion and posts updated
 	 * to UI
-	 * 
+	 *
 	 * @param exp
 	 *            The expansion to scrape
-	 * @param mAllMultiverseIds 
+	 * @param mAllMultiverseIds
 	 * @param gathererScraperUi
 	 *            The UI to post updates to
 	 * @return An ArrayList of Card objects for all cards scraped
@@ -69,19 +69,19 @@ public class GathererScraper {
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
 		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
-		
+
 		/* Look for normal cards */
 		for(int subSetNum = 0; subSetNum < exp.mSubSets.size(); subSetNum++) {
 			int pageNum = 0;
 			boolean loop = true;
 			while (loop) {
-	
+
 				String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
 						+ "&output=compact&action=advanced&special=true&set=+%5b%22"
 						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d";
-	
+
 				Document individualExpansion = ConnectWithRetries(urlStr);
-				
+
 				Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
 				if (cards.size() == 0) {
 					loop = false;
@@ -90,7 +90,7 @@ public class GathererScraper {
 					Element e = cards.get(i);
 					Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
 					multiverseMap.put(card.mName, card.mMultiverseId);
-					
+
 					if (cardsArray.contains(card)) {
 						loop = false;
 					}
@@ -105,7 +105,7 @@ public class GathererScraper {
 
 		ArrayList<Card> scrapedCards = new ArrayList<Card>(cardsArray.size());
 		for (Card c : cardsArray) {
-			
+
 			ArrayList<Card> tmpScrapedCards = scrapePage(c.getUrl(), exp, multiverseMap);
 			for(Card tmpCard : tmpScrapedCards) {
 				if(!scrapedCards.contains(tmpCard)) {
@@ -126,7 +126,7 @@ public class GathererScraper {
 		Collections.sort(scrapedCards);
 		for (int i = 0; i < scrapedCards.size() - 1; i++) {
 			if(scrapedCards.get(i).mNumber.equals(scrapedCards.get(i+1).mNumber)) {
-				System.out.println(String.format("Same number: [%s] %s & [%s] %s: %s",						
+				System.out.println(String.format("Same number: [%s] %s & [%s] %s: %s",
 						scrapedCards.get(i).mExpansion,
 						scrapedCards.get(i).mName,
 						scrapedCards.get(i+1).mExpansion,
@@ -134,13 +134,13 @@ public class GathererScraper {
 						scrapedCards.get(i).mNumber));
 			}
 		}
-		
+
 		return scrapedCards;
 	}
 
 	/**
 	 * A little wrapper function to overcome any network hiccups
-	 * 
+	 *
 	 * @param urlStr The URL to get a Document from
 	 * @return A Document, or null
 	 */
@@ -166,12 +166,12 @@ public class GathererScraper {
 	 * @throws IOException Thrown if the Internet breaks
 	 */
 	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp, HashMap<String, Integer> multiverseMap) throws IOException {
-		
+
 		Document cardPage = ConnectWithRetries(cardUrl);
 
 		/* Put all cards from this page into this ArrayList */
 		ArrayList<Card> scrapedCards = new ArrayList<Card>();
-		
+
 		/* Get all cards on this page */
 		HashMap<String, String> ids = getCardIds(cardPage);
 
@@ -179,10 +179,10 @@ public class GathererScraper {
 		for(String name : ids.keySet()) {
 			/* Pick the multiverseID out of the hashmap built from the card list */
 			Card card = new Card(name, exp.mCode_gatherer, multiverseMap.get(name));
-			
+
 			/* Get the ID for this card's information */
 			String id = ids.get(name);
-			
+
 			/* Mana Cost */
 			card.mManaCost = getTextFromAttribute(cardPage, id + "manaRow", "value", true);
 
@@ -205,7 +205,7 @@ public class GathererScraper {
 			if(card.mFlavor == null || card.mFlavor.equals("")) {
 				card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "cardtextbox", false);
 			}
-			
+
 			/* PT */
 			String pt = getTextFromAttribute(cardPage, id + "ptRow", "value", true);
 
@@ -257,7 +257,7 @@ public class GathererScraper {
 					String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
 							"\"+e%3A"+exp.mCode_mtgi+"%2Fen")
 							.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-					
+
 					/* This picks the number out of the URL */
 					card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 				}
@@ -265,14 +265,14 @@ public class GathererScraper {
 					/* Eat it */
 				}
 			}
-			
+
 			/* If the mtgi lookup failed, try gatherer second */
 			if(card.mNumber == null || card.mNumber.equals("")) {
 				System.out.print(String.format("[%s] number problem %s, ", card.mExpansion, card.mName));
 				card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
 				System.out.print(String.format("fixed? %s\n", card.mNumber));
 			}
-			
+
 			/* artist */
 			card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 
@@ -322,7 +322,7 @@ public class GathererScraper {
 			if (card.mColor.isEmpty() || card.mName.equals("Ghostfire")) {
 				card.mColor = "C";
 			}
-			
+
 			/* Because the ORI walkers don't have color listed... */
 			if(card.mExpansion.equals("ORI")) {
 				if(card.mName.contains("Gideon, Battle-Forged")) {
@@ -351,7 +351,7 @@ public class GathererScraper {
 	/**
 	 * Get all IDs for all cards on a given page. This usually returns one ID
 	 * in the HashMap, but will return two for split, double faced, or flip cards
-	 * 
+	 *
 	 * @param cardPage
 	 *            The Document to extract an ID from
 	 * @return All the IDs on this page
@@ -382,7 +382,7 @@ public class GathererScraper {
 	/**
 	 * This function scrapes one field of a card at a time. Fields are denoted
 	 * by attributeVal and subAttributeVal
-	 * 
+	 *
 	 * @param cardPage
 	 *            The Document to scrape part of the card from
 	 * @param attributeVal
@@ -415,7 +415,7 @@ public class GathererScraper {
 	 * for a patch file. This includes maybe removing newlines, definitely
 	 * removing whitespace, changing embedded images into {mana symbols}, and
 	 * normalizing dashes
-	 * 
+	 *
 	 * @param html
 	 *            A String of HTML to clean
 	 * @param removeNewlines
@@ -503,7 +503,7 @@ public class GathererScraper {
 
 	/**
 	 * Clean up a comprehensive rules file. Wizards likes non-ascii chars
-	 * 
+	 *
 	 * @param rulesFile		The file to clean
 	 * @throws IOException 	Thrown if something goes wrong
 	 */

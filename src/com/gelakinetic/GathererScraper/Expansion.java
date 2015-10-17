@@ -9,7 +9,7 @@ import com.gelakinetic.GathererChecker.RssEntry;
 
 /**
  * This class contains all information about an expansion to be parsed
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -42,10 +42,10 @@ public class Expansion implements Comparable<Expansion>{
 
 	/** Subsets for duel decks anthology */
 	public ArrayList<String> mSubSets			= new ArrayList<String>();
-	
+
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
-	 * 
+	 *
 	 * @param name_gatherer
 	 *            The name of this expansion on Gatherer
 	 */
@@ -57,7 +57,7 @@ public class Expansion implements Comparable<Expansion>{
 	/**
 	 * Create an expansion from a JSONObject. This is used when reading the
 	 * expansions back from the expansion file
-	 * 
+	 *
 	 * @param jo
 	 *            A JSONObject containing the information about the expansion
 	 */
@@ -77,7 +77,7 @@ public class Expansion implements Comparable<Expansion>{
 		catch (Exception e) {
 			mDate = (String) jo.get(KEY_DATE);
 		}
-		
+
 		try {
 			String subsets[] = ((String) jo.get(KEY_SUBSETS)).split(SUBSET_DIVIDER);
 			for (String subset : subsets) {
@@ -92,7 +92,7 @@ public class Expansion implements Comparable<Expansion>{
 	/**
 	 * Create a JSON representation of this expansion, to be used to save
 	 * expansion information between sessions
-	 * 
+	 *
 	 * @return a JSONObject containing this expansion's information
 	 */
 	public JSONObject toJsonObject() {
@@ -111,20 +111,20 @@ public class Expansion implements Comparable<Expansion>{
 			obj.put(KEY_DATE, "");
 
 		}
-		
+
 		String allSubsets = "";
 		for(String subset : mSubSets) {
 			allSubsets += subset + SUBSET_DIVIDER;
 		}
 		obj.put(KEY_SUBSETS, allSubsets);
-		
+
 		return obj;
 	}
 
 	/**
 	 * Returns the date of this expansion, in ms since the epoch, as parsed from
 	 * the string date
-	 * 
+	 *
 	 * @return the date of this expansion, in ms since the epoch
 	 * @throws NumberFormatException
 	 *             If the date can't be parsed, this is thrown
@@ -149,7 +149,7 @@ public class Expansion implements Comparable<Expansion>{
 			return this.mName_gatherer.equals(((Expansion)obj).mName_gatherer);
 		}
 		else if(obj instanceof RssEntry) {
-			return this.mName_gatherer.equals(((RssEntry)obj).getTitle());			
+			return this.mName_gatherer.equals(((RssEntry)obj).getTitle());
 		}
 		return false;
 	}
@@ -157,6 +157,6 @@ public class Expansion implements Comparable<Expansion>{
 	public void addSubSet(String ownText) {
 		mSubSets.add(ownText);
 	}
-	
-	
+
+
 }

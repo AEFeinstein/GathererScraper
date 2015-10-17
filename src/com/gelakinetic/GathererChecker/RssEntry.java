@@ -11,22 +11,22 @@ import com.gelakinetic.GathererScraper.Expansion;
 import com.google.common.net.PercentEscaper;
 
 public class RssEntry {
-	
+
 	public static final String TITLE = "title";
 	public static final String DESCRIPTION = "description";
 	public static final String GUID = "guid";
 	public static final String PUBDATE = "pubDate";
 	public static final String LINK = "link";
-	
+
 	private String mTitle;
 	private String mDescription;
 	private String mGuid;
 	private String mPubDate;
 	private String	mUrl;
-	
+
 	/**
 	 * Creates a new RSS entry
-	 * 
+	 *
 	 * @param title		The expansion's name
 	 * @param guid		The entry's GUID, or null if a new one should be created
 	 * @param pubDate	The entry's publication date, or null if it is today
@@ -56,7 +56,7 @@ public class RssEntry {
 			mUrl = StringEscapeUtils.escapeHtml4(url);
 		}
 	}
-	
+
 	/**
 	 * Returns a string of XML for this entry
 	 * @return A String of XML
@@ -75,7 +75,7 @@ public class RssEntry {
 
 	/**
 	 * Compares an RssEntry to another RssEntry or Expansion, based on title / name
-	 * 
+	 *
 	 * @return true if the objects are equal, false otherwise.
 	 */
 	@Override
@@ -84,14 +84,14 @@ public class RssEntry {
 			return this.mTitle.equals(((Expansion)obj).mName_gatherer);
 		}
 		else if(obj instanceof RssEntry) {
-			return this.mTitle.equals(((RssEntry)obj).mTitle);			
+			return this.mTitle.equals(((RssEntry)obj).mTitle);
 		}
 		return false;
 	}
 
 	/**
 	 * Returns this entry's title. Used for Expansion's .equals()
-	 * 
+	 *
 	 * @return This entry's title
 	 */
 	public String getTitle() {

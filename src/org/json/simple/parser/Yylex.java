@@ -20,26 +20,26 @@ class Yylex {
    *                  at the beginning of a line
    * l is of the form l = 2*k, k a non negative integer
    */
-  private static final int ZZ_LEXSTATE[] = { 
+  private static final int ZZ_LEXSTATE[] = {
      0,  0,  1, 1
   };
 
-  /** 
+  /**
    * Translates characters to character classes
    */
-  private static final String ZZ_CMAP_PACKED = 
+  private static final String ZZ_CMAP_PACKED =
     "\11\0\1\7\1\7\2\0\1\7\22\0\1\7\1\0\1\11\10\0"+
     "\1\6\1\31\1\2\1\4\1\12\12\3\1\32\6\0\4\1\1\5"+
     "\1\1\24\0\1\27\1\10\1\30\3\0\1\22\1\13\2\1\1\21"+
     "\1\14\5\0\1\23\1\0\1\15\3\0\1\16\1\24\1\17\1\20"+
     "\5\0\1\25\1\0\1\26\uff82\0";
 
-  /** 
+  /**
    * Translates characters to character classes
    */
   private static final char [] ZZ_CMAP = zzUnpackCMap(ZZ_CMAP_PACKED);
 
-  /** 
+  /**
    * Translates DFA states to action switch labels.
    */
   private static final int [] ZZ_ACTION = zzUnpackAction();
@@ -71,7 +71,7 @@ class Yylex {
   }
 
 
-  /** 
+  /**
    * Translates a state to a row index in the transition table
    */
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
@@ -102,78 +102,78 @@ class Yylex {
     return j;
   }
 
-  /** 
+  /**
    * The transition table of the DFA
    */
   private static final int ZZ_TRANS [] = {
-    2, 2, 3, 4, 2, 2, 2, 5, 2, 6, 
-    2, 2, 7, 8, 2, 9, 2, 2, 2, 2, 
-    2, 10, 11, 12, 13, 14, 15, 16, 16, 16, 
-    16, 16, 16, 16, 16, 17, 18, 16, 16, 16, 
-    16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 
-    16, 16, 16, 16, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, 4, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, 4, 19, 20, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, 20, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, 5, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    21, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, 22, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    23, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, 16, 16, 16, 16, 16, 16, 16, 
-    16, -1, -1, 16, 16, 16, 16, 16, 16, 16, 
-    16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 
-    -1, -1, -1, -1, -1, -1, -1, -1, 24, 25, 
-    26, 27, 28, 29, 30, 31, 32, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    33, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, 34, 35, -1, -1, 
-    34, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    36, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, 37, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, 38, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, 39, -1, 39, -1, 39, -1, -1, 
-    -1, -1, -1, 39, 39, -1, -1, -1, -1, 39, 
-    39, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, 33, -1, 20, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, 20, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, 35, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, 38, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, 40, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, 41, -1, -1, -1, -1, -1, 
-    -1, -1, -1, -1, -1, 42, -1, 42, -1, 42, 
-    -1, -1, -1, -1, -1, 42, 42, -1, -1, -1, 
-    -1, 42, 42, -1, -1, -1, -1, -1, -1, -1, 
-    -1, -1, 43, -1, 43, -1, 43, -1, -1, -1, 
-    -1, -1, 43, 43, -1, -1, -1, -1, 43, 43, 
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, 44, 
-    -1, 44, -1, 44, -1, -1, -1, -1, -1, 44, 
-    44, -1, -1, -1, -1, 44, 44, -1, -1, -1, 
-    -1, -1, -1, -1, -1, 
+    2, 2, 3, 4, 2, 2, 2, 5, 2, 6,
+    2, 2, 7, 8, 2, 9, 2, 2, 2, 2,
+    2, 10, 11, 12, 13, 14, 15, 16, 16, 16,
+    16, 16, 16, 16, 16, 17, 18, 16, 16, 16,
+    16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+    16, 16, 16, 16, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, 4, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, 4, 19, 20, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, 20, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, 5, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    21, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, 22, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    23, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, 16, 16, 16, 16, 16, 16, 16,
+    16, -1, -1, 16, 16, 16, 16, 16, 16, 16,
+    16, 16, 16, 16, 16, 16, 16, 16, 16, 16,
+    -1, -1, -1, -1, -1, -1, -1, -1, 24, 25,
+    26, 27, 28, 29, 30, 31, 32, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    33, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, 34, 35, -1, -1,
+    34, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    36, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, 37, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, 38, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, 39, -1, 39, -1, 39, -1, -1,
+    -1, -1, -1, 39, 39, -1, -1, -1, -1, 39,
+    39, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, 33, -1, 20, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, 20, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, 35,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, 38, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, 40,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, 41, -1, -1, -1, -1, -1,
+    -1, -1, -1, -1, -1, 42, -1, 42, -1, 42,
+    -1, -1, -1, -1, -1, 42, 42, -1, -1, -1,
+    -1, 42, 42, -1, -1, -1, -1, -1, -1, -1,
+    -1, -1, 43, -1, 43, -1, 43, -1, -1, -1,
+    -1, -1, 43, 43, -1, -1, -1, -1, 43, 43,
+    -1, -1, -1, -1, -1, -1, -1, -1, -1, 44,
+    -1, 44, -1, 44, -1, -1, -1, -1, -1, 44,
+    44, -1, -1, -1, -1, 44, 44, -1, -1, -1,
+    -1, -1, -1, -1, -1,
   };
 
   /* error codes */
@@ -278,7 +278,7 @@ int getPosition(){
     this(new java.io.InputStreamReader(in));
   }
 
-  /** 
+  /**
    * Unpacks the compressed character translation table.
    *
    * @param packed   the packed character translation table
@@ -301,7 +301,7 @@ int getPosition(){
    * Refills the input buffer.
    *
    * @return      <code>false</code>, iff there was new input.
-   * 
+   *
    * @exception   java.io.IOException  if any I/O-Error occurs
    */
   private boolean zzRefill() throws java.io.IOException {
@@ -335,7 +335,7 @@ int getPosition(){
       zzEndRead+= numRead;
       return false;
     }
-    // unlikely but not impossible: read 0 characters, but not at end of stream    
+    // unlikely but not impossible: read 0 characters, but not at end of stream
     if (numRead == 0) {
       int c = zzReader.read();
       if (c == -1) {
@@ -343,14 +343,14 @@ int getPosition(){
       } else {
         zzBuffer[zzEndRead++] = (char) c;
         return false;
-      }     
+      }
     }
 
 	// numRead < 0
     return true;
   }
 
-    
+
   /**
    * Closes the input stream.
    */
@@ -367,11 +367,11 @@ int getPosition(){
    * Resets the scanner to read from a new input stream.
    * Does not close the old reader.
    *
-   * All internal variables are reset, the old input stream 
+   * All internal variables are reset, the old input stream
    * <b>cannot</b> be reused (internal buffer is discarded and lost).
    * Lexical state is set to <tt>ZZ_INITIAL</tt>.
    *
-   * @param reader   the new input stream 
+   * @param reader   the new input stream
    */
   public final void yyreset(java.io.Reader reader) {
     zzReader = reader;
@@ -410,12 +410,12 @@ int getPosition(){
 
 
   /**
-   * Returns the character at position <tt>pos</tt> from the 
-   * matched text. 
-   * 
+   * Returns the character at position <tt>pos</tt> from the
+   * matched text.
+   *
    * It is equivalent to yytext().charAt(pos), but faster
    *
-   * @param pos the position of the character to fetch. 
+   * @param pos the position of the character to fetch.
    *            A value from 0 to yylength()-1.
    *
    * @return the character at position pos
@@ -436,8 +436,8 @@ int getPosition(){
   /**
    * Reports an error that occured while scanning.
    *
-   * In a wellformed scanner (no or only correct usage of 
-   * yypushback(int) and a match-all fallback rule) this method 
+   * In a wellformed scanner (no or only correct usage of
+   * yypushback(int) and a match-all fallback rule) this method
    * will only be called with things that "Can't Possibly Happen".
    * If this method is called, something is seriously wrong
    * (e.g. a JFlex bug producing a faulty scanner etc.).
@@ -457,7 +457,7 @@ int getPosition(){
     }
 
     throw new Error(message);
-  } 
+  }
 
 
   /**
@@ -506,13 +506,13 @@ int getPosition(){
       zzAction = -1;
 
       zzCurrentPosL = zzCurrentPos = zzStartRead = zzMarkedPosL;
-  
+
       zzState = ZZ_LEXSTATE[zzLexicalState];
 
 
       zzForAction: {
         while (true) {
-    
+
           if (zzCurrentPosL < zzEndReadL)
             zzInput = zzBufferL[zzCurrentPosL++];
           else if (zzAtEOF) {
@@ -555,75 +555,75 @@ int getPosition(){
       zzMarkedPos = zzMarkedPosL;
 
       switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
-        case 11: 
+        case 11:
           { sb.append(yytext());
           }
         case 25: break;
-        case 4: 
+        case 4:
           { sb = null; sb = new StringBuffer(); yybegin(STRING_BEGIN);
           }
         case 26: break;
-        case 16: 
+        case 16:
           { sb.append('\b');
           }
         case 27: break;
-        case 6: 
+        case 6:
           { return new Yytoken(Yytoken.TYPE_RIGHT_BRACE,null);
           }
         case 28: break;
-        case 23: 
+        case 23:
           { Boolean val=Boolean.valueOf(yytext()); return new Yytoken(Yytoken.TYPE_VALUE, val);
           }
         case 29: break;
-        case 22: 
+        case 22:
           { return new Yytoken(Yytoken.TYPE_VALUE, null);
           }
         case 30: break;
-        case 13: 
+        case 13:
           { yybegin(YYINITIAL);return new Yytoken(Yytoken.TYPE_VALUE, sb.toString());
           }
         case 31: break;
-        case 12: 
+        case 12:
           { sb.append('\\');
           }
         case 32: break;
-        case 21: 
+        case 21:
           { Double val=Double.valueOf(yytext()); return new Yytoken(Yytoken.TYPE_VALUE, val);
           }
         case 33: break;
-        case 1: 
+        case 1:
           { throw new ParseException(yychar, ParseException.ERROR_UNEXPECTED_CHAR, new Character(yycharat(0)));
           }
         case 34: break;
-        case 8: 
+        case 8:
           { return new Yytoken(Yytoken.TYPE_RIGHT_SQUARE,null);
           }
         case 35: break;
-        case 19: 
+        case 19:
           { sb.append('\r');
           }
         case 36: break;
-        case 15: 
+        case 15:
           { sb.append('/');
           }
         case 37: break;
-        case 10: 
+        case 10:
           { return new Yytoken(Yytoken.TYPE_COLON,null);
           }
         case 38: break;
-        case 14: 
+        case 14:
           { sb.append('"');
           }
         case 39: break;
-        case 5: 
+        case 5:
           { return new Yytoken(Yytoken.TYPE_LEFT_BRACE,null);
           }
         case 40: break;
-        case 17: 
+        case 17:
           { sb.append('\f');
           }
         case 41: break;
-        case 24: 
+        case 24:
           { try{
 														int ch=Integer.parseInt(yytext().substring(2),16);
 														sb.append((char)ch);
@@ -633,35 +633,35 @@ int getPosition(){
 													}
           }
         case 42: break;
-        case 20: 
+        case 20:
           { sb.append('\t');
           }
         case 43: break;
-        case 7: 
+        case 7:
           { return new Yytoken(Yytoken.TYPE_LEFT_SQUARE,null);
           }
         case 44: break;
-        case 2: 
+        case 2:
           { Long val=Long.valueOf(yytext()); return new Yytoken(Yytoken.TYPE_VALUE, val);
           }
         case 45: break;
-        case 18: 
+        case 18:
           { sb.append('\n');
           }
         case 46: break;
-        case 9: 
+        case 9:
           { return new Yytoken(Yytoken.TYPE_COMMA,null);
           }
         case 47: break;
-        case 3: 
-          { 
+        case 3:
+          {
           }
         case 48: break;
-        default: 
+        default:
           if (zzInput == YYEOF && zzStartRead == zzCurrentPos) {
             zzAtEOF = true;
             return null;
-          } 
+          }
           else {
             zzScanError(ZZ_NO_MATCH);
           }

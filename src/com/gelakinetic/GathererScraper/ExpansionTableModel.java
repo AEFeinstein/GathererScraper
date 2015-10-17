@@ -16,7 +16,7 @@ import org.json.simple.parser.ParseException;
 /**
  * This class contains the table model to display information about expansions
  * ripe for the scraping
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -56,7 +56,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 
 	/**
 	 * Returns the value of a particular cell
-	 * 
+	 *
 	 * @param row
 	 *            The index of the cell's row
 	 * @param col
@@ -95,7 +95,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 * JTable uses this method to determine the default renderer/ editor for
 	 * each cell. If we didn't implement this method, then the last column would
 	 * contain text ("true"/"false"), rather than a check box.
-	 * 
+	 *
 	 * @param col
 	 *            The index of the cell's column
 	 * @return The class of the value in that cell
@@ -111,7 +111,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 
 	/**
 	 * Returns if a cell is editable or not
-	 * 
+	 *
 	 * @param row
 	 *            The row of the cell to check
 	 * @param col
@@ -133,7 +133,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 
 	/**
 	 * Sets the value of a given cell to the given value
-	 * 
+	 *
 	 * @param value
 	 *            The value to assign to the cell
 	 * @param row
@@ -176,7 +176,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 
 	/**
 	 * Returns column names for display
-	 * 
+	 *
 	 * @param col
 	 *            the index of the column
 	 * @return the name of the column
@@ -214,7 +214,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	/**
 	 * Reads expansion information from a json file of expansions. If the
 	 * expansion names match, update the entry we already have.
-	 * 
+	 *
 	 * @param JsonExpansions
 	 *            The file to read expansion information from
 	 * @throws FileNotFoundException

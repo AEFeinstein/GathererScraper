@@ -61,7 +61,7 @@ import com.camick.TableColumnAdjuster;
 
 /**
  * This class handles the UI for the application, as well as some file I/O
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -89,18 +89,18 @@ public class GathererScraperUi {
 	File						mLegalityFile		= null;
 	File						mExpansionsFile		= null;
 	File						mAppmapFile			= null;
-	
+
 	private JSONArray			mPatchesArray		= new JSONArray();
 	private JSONArray			mTcgNamesArray		= new JSONArray();
 	private JSONArray			mMkmNamesArray		= new JSONArray();
 	private HashSet<Integer>	mAllMultiverseIds;
-	
+
 	private int					mNumExpansions;
 	private int					mExpansionsProcessed;
 
 	/**
 	 * Launch the application.
-	 * 
+	 *
 	 * @param args
 	 *            Command line arguments, unused
 	 */
@@ -186,7 +186,7 @@ public class GathererScraperUi {
 			/**
 			 * When the program closes, make a JSONArray of all the expansions,
 			 * and then write it to a file.
-			 * 
+			 *
 			 * @param arg0
 			 *            An event that indicates this window has changed it's
 			 *            status
@@ -197,7 +197,7 @@ public class GathererScraperUi {
 				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 				Calendar cal = Calendar.getInstance();
 				String date = dateFormat.format(cal.getTime());
-				
+
 				/* Write the legality information first */
 				try {
 					if (!mLegalityListModel.writeJsonToFile(frame, mFilesPath, date)) {
@@ -208,7 +208,7 @@ public class GathererScraperUi {
 				catch (IOException e1) {
 					e1.printStackTrace();
 				}
-				
+
 				JSONArray expansions = new JSONArray();
 				for (Expansion e : mExpansionTableModel.mExpansions) {
 					expansions.add(e.toJsonObject());
@@ -274,7 +274,7 @@ public class GathererScraperUi {
 		gbc_progressBar_1.gridx = 0;
 		gbc_progressBar_1.gridy = 0;
 		frame.getContentPane().add(mExpansionProgressBar, gbc_progressBar_1);
-		
+
 		JButton btnCleanRules = new JButton("Clean Rules");
 		btnCleanRules.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -287,14 +287,14 @@ public class GathererScraperUi {
 					}
 					else {
 						JOptionPane.showMessageDialog(frame, "Rules Cleaned", "Complete",
-								JOptionPane.PLAIN_MESSAGE);						
+								JOptionPane.PLAIN_MESSAGE);
 					}
 				} catch (IOException e) {
 					StringWriter sw = new StringWriter();
 					PrintWriter pw = new PrintWriter(sw);
 					e.printStackTrace(pw);
 					JOptionPane.showMessageDialog(frame, sw.toString(), "ERROR",
-							JOptionPane.ERROR_MESSAGE);						
+							JOptionPane.ERROR_MESSAGE);
 				}
 			}
 		});
@@ -511,7 +511,7 @@ public class GathererScraperUi {
 						long time = System.currentTimeMillis() - startTime;
 						JOptionPane.showMessageDialog(frame, "Done in " + time + "ms", "Complete",
 								JOptionPane.PLAIN_MESSAGE);
-						
+
 						/* Reenable the cursor */
 						frame.setEnabled(true);
 						frame.setCursor(Cursor.getDefaultCursor());
@@ -602,7 +602,7 @@ public class GathererScraperUi {
 
 	/**
 	 * Reads in all the multiverse IDs from an appmap
-	 * 
+	 *
 	 * @param appmapFile The file to read from
 	 * @param allMultiverseIds A HashSet to store all the IDs
 	 */
@@ -637,7 +637,7 @@ public class GathererScraperUi {
 	/**
 	 * This function builds and writes a patch file which contains all the
 	 * scraped information.
-	 * 
+	 *
 	 * @param exp
 	 *            The expansion to make write this file for
 	 * @param allCards
@@ -719,7 +719,7 @@ public class GathererScraperUi {
 
 	/**
 	 * A helper function display a JFileChooser asking the user to select a file
-	 * 
+	 *
 	 * @param title
 	 *            The title of the file chooser
 	 * @param filter
@@ -745,7 +745,7 @@ public class GathererScraperUi {
 	/**
 	 * A synchronized wrapper to add a JSONObject to a JSONArray. This is used
 	 * by threads which scrape cards and save data
-	 * 
+	 *
 	 * @param array
 	 *            The array to add the object to
 	 * @param obj
@@ -765,7 +765,7 @@ public class GathererScraperUi {
 
 	/**
 	 * A synchronized wrapper to print to the UI what the last card scraped was
-	 * 
+	 *
 	 * @param str
 	 *            A string representation of the last card scraped
 	 */

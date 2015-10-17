@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * This class contains all information about a scraped card
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -44,7 +44,7 @@ public class Card implements Serializable, Comparable<Card> {
 	/**
 	 * Creates a card object with the basic information. The rest will be
 	 * scraped later
-	 * 
+	 *
 	 * @param name
 	 *            The name of the card
 	 * @param expansion
@@ -60,7 +60,7 @@ public class Card implements Serializable, Comparable<Card> {
 
 	/**
 	 * Returns a string URL for this card's gatherer page
-	 * 
+	 *
 	 * @return A string of the URL for this card's gatherer page
 	 */
 	public String getUrl() {
@@ -115,7 +115,7 @@ public class Card implements Serializable, Comparable<Card> {
 	/**
 	 * Two cards are equal if their multiverseId is the same, and their name is
 	 * the same. Halves of split cards do not satisfy this
-	 * 
+	 *
 	 * @return true if the cards are the same, false if they are different
 	 */
 	@Override
@@ -168,7 +168,7 @@ public class Card implements Serializable, Comparable<Card> {
 	/**
 	 * Returns a number used for sorting by color. This is different for
 	 * Beatdown because magiccards.info is weird
-	 * 
+	 *
 	 * @return A number indicating how the card's color is sorted
 	 */
 	private int getNumFromColor() {

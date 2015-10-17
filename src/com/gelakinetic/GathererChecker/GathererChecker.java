@@ -27,7 +27,7 @@ public class GathererChecker {
 	/**
 	 * Main function. It reads in an RSS file, scrapes a list of sets from
 	 * Gatherer, and writes a new RSS file if anything changed
-	 * 
+	 *
 	 * @param args
 	 *            unused
 	 */
@@ -103,7 +103,7 @@ public class GathererChecker {
 	public static ByteBuffer GetRssHeader() {
 		Calendar rightNow = Calendar.getInstance();
 		String date = GetRfc822Date(rightNow.getTime());
-		
+
 		return Charset
 			.forName("UTF-8")
 			.encode("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
@@ -130,7 +130,7 @@ public class GathererChecker {
 
 	/**
 	 * Reads the given RSS file and returns an ArrayList of it's contents
-	 * 
+	 *
 	 * @param rssFile
 	 *            The RSS file to read in
 	 * @return An ArrayList<RssEntry> with the given file's information
@@ -170,7 +170,7 @@ public class GathererChecker {
 	/**
 	 * Look at the page that has the comprehensive rules, get the url, pick the date out of it, make an RssEntry for it
 	 * and return it
-	 * 
+	 *
 	 * @return An RssEntry for the latest comprehensive rules
 	 * @throws IOException If the program has trouble reading the webpage
 	 */
@@ -194,7 +194,7 @@ public class GathererChecker {
 
 	/**
 	 * Look at the page that has the judge documents, get the date, make RssEntries for the documents, and return them
-	 * 
+	 *
 	 * @return An ArrayList of RssEntries for all the judge documents
 	 * @throws IOException
 	 */

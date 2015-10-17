@@ -27,7 +27,7 @@ import org.json.simple.parser.ParseException;
  * double clicked, which brings up a dialog where valid sets and banned or
  * restricted cards can be populated for that format. It also handles loading
  * and saving from json files
- * 
+ *
  * @author AEFeinstein
  *
  */
@@ -51,7 +51,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
 	/**
 	 * Returns the format at the given index
-	 * 
+	 *
 	 * @return The string name of the format
 	 */
 	@Override
@@ -61,7 +61,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
 	/**
 	 * Returns the number of formats in this model
-	 * 
+	 *
 	 * @return the number of formats in this model
 	 */
 	@Override
@@ -71,7 +71,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
 	/**
 	 * Sets the list of expansions to check input against
-	 * 
+	 *
 	 * @param expansions
 	 *            A list of all expansions
 	 */
@@ -81,7 +81,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
 	/**
 	 * Load all information about legality from a json file into this object
-	 * 
+	 *
 	 * @param legalJson
 	 *            The file to read from
 	 * @throws FileNotFoundException
@@ -103,7 +103,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	/**
 	 * This file writes all legality information collected in the dialogs into a
 	 * single json file
-	 * 
+	 *
 	 * @param frame
 	 *            If an error dialog needs to be shown, this frame will manage
 	 *            it
@@ -159,7 +159,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 * allowed expansions, banned cards, and restricted cards. This function creates,
 	 * fills, and displays the dialog. It also handles saving information when
 	 * the dialog is closed.
-	 * 
+	 *
 	 * @param index
 	 *            The index of the format to display
 	 * @wbp.parser.entryPoint
@@ -265,7 +265,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 			 * save it. The information is written to the final variables
 			 * expansionJson, bannedJson, and restrictedJson, which are all
 			 * references into mLegalityJson
-			 * 
+			 *
 			 * @param windowEvent
 			 *            An event that indicates this window has changed it's
 			 *            status
