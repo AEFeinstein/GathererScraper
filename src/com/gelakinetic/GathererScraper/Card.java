@@ -2,6 +2,8 @@ package com.gelakinetic.GathererScraper;
 
 import java.io.Serializable;
 
+import org.apache.commons.lang3.SerializationUtils;
+
 /**
  * This class contains all information about a scraped card
  *
@@ -231,5 +233,12 @@ public class Card implements Serializable, Comparable<Card> {
 			}
 		}
 		return 8;
+	}
+
+	/**
+	 * @return The byte array representation of this object
+	 */
+	public byte[] getBytes() {
+		return SerializationUtils.serialize(this);
 	}
 }

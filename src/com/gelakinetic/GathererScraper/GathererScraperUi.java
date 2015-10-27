@@ -422,8 +422,8 @@ public class GathererScraperUi {
 									public void run() {
 										try {
 											JSONObject patchInfo;
-											patchInfo = writeJsonPatchFile(exp,
-													GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds));
+											ArrayList<Card> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
+											patchInfo = writeJsonPatchFile(exp, cards);
 											addToArray(mPatchesArray, patchInfo);
 
 											JSONObject tcgname = new JSONObject();
@@ -689,6 +689,7 @@ public class GathererScraperUi {
 			jsonExpansion.put("a", exp.mName_gatherer); /* name */
 			jsonExpansion.put("q", exp.mCode_gatherer); /* code */
 			jsonExpansion.put("y", exp.getDateMs()); /* date */
+			jsonExpansion.put("z", exp.mDigest); /* md5 hash */
 			jsonAllExpansions.add(jsonExpansion);
 
 			expansions.put("b", jsonAllExpansions);

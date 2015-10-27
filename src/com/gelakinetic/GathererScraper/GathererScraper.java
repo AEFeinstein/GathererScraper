@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -66,6 +68,14 @@ public class GathererScraper {
 	 */
 	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) throws IOException {
 
+		MessageDigest messageDigest = null;
+		try {
+			messageDigest = MessageDigest.getInstance("MD5");
+		} catch (NoSuchAlgorithmException e) {
+			/* This should never happen */
+			return null;
+		}
+		
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
 
 		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
@@ -134,7 +144,11 @@ public class GathererScraper {
 						scrapedCards.get(i).mNumber));
 			}
 		}
-
+		
+		for(Card c : scrapedCards) {
+			messageDigest.update(c.getBytes());
+		}
+		exp.mDigest = messageDigest.digest();
 		return scrapedCards;
 	}
 

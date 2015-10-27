@@ -23,7 +23,8 @@ public class Expansion implements Comparable<Expansion>{
 	private static final String	KEY_MKM			= "mkm";
 	private static final String	KEY_DATE		= "date";
 	private static final String	KEY_SUBSETS		= "subsets";
-
+	private static final String KEY_DIGEST		= "digest";
+	
 	/** Name used by Gatherer */
 	public String				mName_gatherer	= "";
 	/** expansion code used by Gatherer */
@@ -42,6 +43,8 @@ public class Expansion implements Comparable<Expansion>{
 
 	/** Subsets for duel decks anthology */
 	public ArrayList<String> mSubSets			= new ArrayList<String>();
+	/** MD5 digest for scraped cards, to see when things change */
+	public byte[]				mDigest 		= null;
 
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
@@ -103,6 +106,7 @@ public class Expansion implements Comparable<Expansion>{
 		obj.put(KEY_MTGI, mCode_mtgi);
 		obj.put(KEY_TCGP, mName_tcgp);
 		obj.put(KEY_MKM, mName_mkm);
+		obj.put(KEY_DIGEST, mDigest);
 
 		try {
 			obj.put(KEY_DATE, getDateMs());
