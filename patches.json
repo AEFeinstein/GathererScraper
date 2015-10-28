@@ -1,575 +1,718 @@
 {"Patches":[{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/10E.json.gzip"
 ,"Name":"Tenth Edition"
+,"Digest":[-95,-58,-30,-23,-6,4,8,10,14,35,36,61,67,86,98,118]
 ,"Code":"10E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/4E.json.gzip"
 ,"Name":"Fourth Edition"
+,"Digest":[-117,-96,-63,-54,-50,-20,-7,7,16,31,54,69,93,100,120,125]
 ,"Code":"4E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/5E.json.gzip"
 ,"Name":"Fifth Edition"
+,"Digest":[-113,-100,-87,-83,-71,-59,-56,-54,9,9,34,47,53,77,92,122]
 ,"Code":"5E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/6E.json.gzip"
 ,"Name":"Classic Sixth Edition"
+,"Digest":[-121,-113,-104,-60,-47,-47,-32,-19,-5,21,51,67,82,105,108,124]
 ,"Code":"6E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/7E.json.gzip"
 ,"Name":"Seventh Edition"
+,"Digest":[-77,-54,-51,-39,-18,-7,-1,2,29,34,37,39,85,97,109,117]
 ,"Code":"7E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/8E.json.gzip"
 ,"Name":"Eighth Edition"
+,"Digest":[-127,-123,-109,-58,-54,-45,-38,-32,-29,-18,40,87,90,90,101,123]
 ,"Code":"8E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/9E.json.gzip"
 ,"Name":"Ninth Edition"
+,"Digest":[-122,-106,-103,-96,-94,-93,-92,-13,-4,51,55,69,82,83,96,120]
 ,"Code":"9E"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/A.json.gzip"
 ,"Name":"Limited Edition Alpha"
+,"Digest":[-88,-80,-79,-74,-41,-2,25,34,41,62,75,90,92,106,126,127]
 ,"Code":"A"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AL.json.gzip"
 ,"Name":"Alliances"
+,"Digest":[-125,-115,-113,-95,-92,-90,-64,-64,-59,-1,1,12,22,24,74,94]
 ,"Code":"AL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ALA.json.gzip"
 ,"Name":"Shards of Alara"
+,"Digest":[-93,-81,-71,-65,-61,-56,-11,-9,4,42,49,59,59,109,112,126]
 ,"Code":"ALA"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AN.json.gzip"
 ,"Name":"Arabian Nights"
+,"Digest":[-116,-113,-110,-103,-91,-50,-48,-46,-45,-44,-25,-14,51,53,99,121]
 ,"Code":"AN"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AP.json.gzip"
 ,"Name":"Apocalypse"
+,"Digest":[-110,-105,-78,-73,-66,-32,-20,-13,-8,19,26,43,58,64,74,83]
 ,"Code":"AP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AQ.json.gzip"
 ,"Name":"Antiquities"
+,"Digest":[-112,-103,-95,-67,-45,-33,-9,-3,32,48,50,57,62,95,115,124]
 ,"Code":"AQ"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ARB.json.gzip"
 ,"Name":"Alara Reborn"
+,"Digest":[-96,-73,-57,-50,-48,-34,-23,-17,-4,50,54,55,60,81,109,114]
 ,"Code":"ARB"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ARC.json.gzip"
 ,"Name":"Archenemy"
+,"Digest":[-128,-102,-94,-56,-39,-26,-25,39,45,51,90,90,94,105,121,127]
 ,"Code":"ARC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AVB.json.gzip"
 ,"Name":"Duel Decks: Ajani vs. Nicol Bolas"
+,"Digest":[-121,-108,-88,-38,-13,9,13,17,27,64,69,78,91,92,110,118]
 ,"Code":"AVB"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AVR.json.gzip"
 ,"Name":"Avacyn Restored"
+,"Digest":[-123,-111,-81,-63,-51,-47,-38,-19,-15,4,11,42,45,99,107,109]
 ,"Code":"AVR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/B.json.gzip"
 ,"Name":"Limited Edition Beta"
+,"Digest":[-116,-99,-98,-96,-90,-83,-37,-24,3,6,9,30,65,70,104,116]
 ,"Code":"B"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BD.json.gzip"
 ,"Name":"Beatdown Box Set"
+,"Digest":[-113,-93,-90,-77,-65,-56,-56,-13,0,3,22,52,53,94,112,113]
 ,"Code":"BD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BFZ.json.gzip"
 ,"Name":"Battle for Zendikar"
+,"Digest":[-89,-76,-75,-62,-41,-31,-27,7,22,25,32,65,75,84,103,116]
 ,"Code":"BFZ"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BNG.json.gzip"
 ,"Name":"Born of the Gods"
+,"Digest":[-108,-102,-87,-77,-25,-21,-7,-1,3,17,32,32,42,44,58,77]
 ,"Code":"BNG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BOK.json.gzip"
 ,"Name":"Betrayers of Kamigawa"
+,"Digest":[-126,-105,-104,-76,-43,-22,-5,2,30,43,66,76,81,94,99,103]
 ,"Code":"BOK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/BR.json.gzip"
 ,"Name":"Battle Royale Box Set"
+,"Digest":[-107,-101,-66,-54,-43,-37,-32,-27,-16,-11,7,10,17,36,36,102]
 ,"Code":"BR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/C13.json.gzip"
 ,"Name":"Commander 2013 Edition"
+,"Digest":[-94,-90,-90,-85,-58,-50,-39,-37,-34,-32,6,58,61,69,75,100]
 ,"Code":"C13"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/C14.json.gzip"
 ,"Name":"Commander 2014"
+,"Digest":[-115,-111,-103,-59,-52,-31,-27,-17,-5,11,65,65,72,79,87,90]
 ,"Code":"C14"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CFX.json.gzip"
 ,"Name":"Conflux"
+,"Digest":[-120,-119,-115,-113,-102,-42,-37,-2,-1,7,25,28,47,54,75,117]
 ,"Code":"CFX"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CH.json.gzip"
 ,"Name":"Chronicles"
+,"Digest":[-112,-84,-73,-62,-46,-39,-34,-13,-12,5,7,24,25,59,70,107]
 ,"Code":"CH"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CHK.json.gzip"
 ,"Name":"Champions of Kamigawa"
+,"Digest":[-119,-106,-69,-27,-22,-8,1,6,6,14,30,44,53,59,85,118]
 ,"Code":"CHK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CMD.json.gzip"
 ,"Name":"Magic: The Gathering-Commander"
+,"Digest":[-126,-109,-101,-81,-74,-53,-39,8,15,32,44,55,57,86,105,116]
 ,"Code":"CMD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CNS.json.gzip"
 ,"Name":"Magic: The Gathering\u2014Conspiracy"
+,"Digest":[-120,-118,-104,-89,-66,-55,-49,-38,-3,42,46,50,55,63,76,114]
 ,"Code":"CNS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CRS.json.gzip"
 ,"Name":"Commander's Arsenal"
+,"Digest":[-95,-84,-76,-75,-61,-21,31,34,36,40,54,68,72,78,81,94]
 ,"Code":"CRS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CS.json.gzip"
 ,"Name":"Coldsnap"
+,"Digest":[-120,-113,-91,-74,-65,-43,-31,-15,-5,9,30,50,64,70,94,113]
 ,"Code":"CS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3DVD.json.gzip"
 ,"Name":"Duel Decks Anthology, Divine vs. Demonic"
+,"Digest":[-123,-113,-110,-83,-79,-74,-67,-54,-54,-2,4,6,22,35,63,63]
 ,"Code":"DD3DVD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3EVG.json.gzip"
 ,"Name":"Duel Decks Anthology, Elves vs. Goblins"
+,"Digest":[-125,-122,-92,-83,-67,-63,-40,-15,-9,28,39,43,78,94,109,111]
 ,"Code":"DD3EVG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3GVL.json.gzip"
 ,"Name":"Duel Decks Anthology, Garruk vs. Liliana"
+,"Digest":[-119,-98,-94,-91,-90,-50,-14,3,3,10,25,29,47,67,105,109]
 ,"Code":"DD3GVL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DD3JVC.json.gzip"
 ,"Name":"Duel Decks Anthology, Jace vs. Chandra"
+,"Digest":[-97,-88,-87,-85,-75,-61,-55,-49,-39,-22,0,8,43,93,94,126]
 ,"Code":"DD3JVC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDM.json.gzip"
 ,"Name":"Duel Decks: Jace vs. Vraska"
+,"Digest":[-120,-117,-114,-103,-90,-85,-81,-77,-38,-25,-24,-12,-6,-5,31,79]
 ,"Code":"DDM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDN.json.gzip"
 ,"Name":"Duel Decks: Speed vs. Cunning"
+,"Digest":[-119,-118,-53,-49,-46,-40,-10,-5,-2,15,28,63,86,89,100,115]
 ,"Code":"DDN"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDO.json.gzip"
 ,"Name":"Duel Decks: Elspeth vs. Kiora"
+,"Digest":[-127,-120,-100,-100,-31,-23,15,36,44,50,74,94,96,97,111,114]
 ,"Code":"DDO"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDP.json.gzip"
 ,"Name":"Duel Decks: Zendikar vs. Eldrazi"
+,"Digest":[-99,-78,-31,-30,-13,3,5,27,28,31,48,48,82,85,91,104]
 ,"Code":"DDP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DGM.json.gzip"
 ,"Name":"Dragon's Maze"
+,"Digest":[-107,-94,-85,-78,-76,-53,-44,-43,-27,-19,-15,35,41,70,100,100]
 ,"Code":"DGM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DIS.json.gzip"
 ,"Name":"Dissension"
+,"Digest":[-102,-96,-46,-45,-45,-40,-20,-20,-6,15,17,65,73,100,109,123]
 ,"Code":"DIS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DK.json.gzip"
 ,"Name":"The Dark"
+,"Digest":[-98,-88,-62,-52,-46,-42,-33,-5,20,21,43,60,76,85,97,99]
 ,"Code":"DK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DKA.json.gzip"
 ,"Name":"Dark Ascension"
+,"Digest":[-99,-97,-92,-87,-68,-62,-61,-41,1,11,44,44,49,53,106,118]
 ,"Code":"DKA"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DRG.json.gzip"
 ,"Name":"From the Vault: Dragons"
+,"Digest":[-123,-98,-84,-74,-73,-54,-53,-19,-14,-13,6,38,88,96,113,118]
 ,"Code":"DRG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DS.json.gzip"
 ,"Name":"Darksteel"
+,"Digest":[-96,-88,-83,-66,-31,-13,15,16,37,39,46,52,59,59,96,114]
 ,"Code":"DS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DTK.json.gzip"
 ,"Name":"Dragons of Tarkir"
+,"Digest":[-121,-88,-82,-56,-54,-41,-17,17,18,19,39,59,75,82,84,126]
 ,"Code":"DTK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DVD.json.gzip"
 ,"Name":"Duel Decks: Divine vs. Demonic"
+,"Digest":[-117,-106,-105,-72,-71,-60,-44,38,55,59,78,85,89,92,103,110]
 ,"Code":"DVD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVE.json.gzip"
 ,"Name":"Eventide"
+,"Digest":[-115,-115,-57,-38,-36,-36,-5,10,27,27,37,52,54,62,89,114]
 ,"Code":"EVE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVG.json.gzip"
 ,"Name":"Duel Decks: Elves vs. Goblins"
+,"Digest":[-128,-121,-95,-84,-60,-59,-45,-41,-26,13,22,40,56,94,106,120]
 ,"Code":"EVG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVT.json.gzip"
 ,"Name":"Duel Decks: Elspeth vs. Tezzeret"
+,"Digest":[-115,-105,-51,-44,-39,-39,-5,-1,4,9,10,34,84,86,106,110]
 ,"Code":"EVT"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EX.json.gzip"
 ,"Name":"Exodus"
+,"Digest":[-114,-110,-95,-94,-78,-55,-42,-27,-13,-4,-1,27,32,81,89,89]
 ,"Code":"EX"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EXL.json.gzip"
 ,"Name":"From the Vault: Exiled"
+,"Digest":[-102,-84,-50,-43,-31,-18,3,11,21,49,72,91,105,114,117,120]
 ,"Code":"EXL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EXP.json.gzip"
 ,"Name":"Zendikar Expeditions"
+,"Digest":[-127,-110,-109,-77,-66,-56,-44,-28,25,40,54,69,88,88,90,119]
 ,"Code":"EXP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FAL.json.gzip"
 ,"Name":"Premium Deck Series: Fire and Lightning"
+,"Digest":[-113,-81,-66,-52,-23,-13,-8,6,7,9,25,54,56,84,113,126]
 ,"Code":"FAL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FD.json.gzip"
 ,"Name":"Fifth Dawn"
+,"Digest":[-125,-114,-97,-90,-76,-41,-27,-27,-18,-11,-3,7,39,62,67,125]
 ,"Code":"FD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FE.json.gzip"
 ,"Name":"Fallen Empires"
+,"Digest":[-76,-32,-32,-22,-15,-15,19,45,54,54,70,71,85,86,90,126]
 ,"Code":"FE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FRF.json.gzip"
 ,"Name":"Fate Reforged"
+,"Digest":[-112,-71,-57,-23,-12,-9,-6,10,54,73,95,95,103,110,115,125]
 ,"Code":"FRF"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/FUT.json.gzip"
 ,"Name":"Future Sight"
+,"Digest":[-126,-110,-103,-103,-79,-78,-71,-59,-57,-50,23,26,39,80,80,92]
 ,"Code":"FUT"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GP.json.gzip"
 ,"Name":"Guildpact"
+,"Digest":[-116,-91,-54,-37,-17,2,2,18,43,80,80,84,84,86,104,124]
 ,"Code":"GP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GRV.json.gzip"
 ,"Name":"Premium Deck Series: Graveborn"
+,"Digest":[-110,-98,-25,-20,-17,-5,0,13,28,38,39,72,89,91,100,127]
 ,"Code":"GRV"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GTC.json.gzip"
 ,"Name":"Gatecrash"
+,"Digest":[-125,-116,-108,-105,-70,-67,-32,-27,-23,-23,4,36,36,59,78,85]
 ,"Code":"GTC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/GVL.json.gzip"
 ,"Name":"Duel Decks: Garruk vs. Liliana"
+,"Digest":[-79,-75,-66,-57,-23,-19,-16,0,13,37,38,47,48,78,108,121]
 ,"Code":"GVL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/HL.json.gzip"
 ,"Name":"Homelands"
+,"Digest":[-128,-115,-104,-98,-86,-84,-76,-68,-61,-34,-8,23,27,36,73,117]
 ,"Code":"HL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/HVM.json.gzip"
 ,"Name":"Duel Decks: Heroes vs. Monsters"
+,"Digest":[-107,-96,-93,-88,-43,-5,3,7,29,63,68,73,75,99,100,108]
 ,"Code":"HVM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/IA.json.gzip"
 ,"Name":"Ice Age"
+,"Digest":[-128,-118,-111,-87,-83,-65,-50,-38,-26,5,8,9,21,69,106,126]
 ,"Code":"IA"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/IN.json.gzip"
 ,"Name":"Invasion"
+,"Digest":[-124,-123,-104,-83,-78,-62,-61,-44,-40,27,37,63,70,86,112,115]
 ,"Code":"IN"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ISD.json.gzip"
 ,"Name":"Innistrad"
+,"Digest":[-124,-118,-103,-99,-94,-73,-72,-60,-30,-28,7,18,37,38,54,126]
 ,"Code":"ISD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/IVG.json.gzip"
 ,"Name":"Duel Decks: Izzet vs. Golgari"
+,"Digest":[-124,-123,-111,-78,-48,-40,-11,-7,9,14,21,34,52,56,95,96]
 ,"Code":"IVG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/JOU.json.gzip"
 ,"Name":"Journey into Nyx"
+,"Digest":[-108,-85,-79,-43,-33,10,13,20,45,61,78,83,86,99,115,122]
 ,"Code":"JOU"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/JU.json.gzip"
 ,"Name":"Judgment"
+,"Digest":[-104,-87,-79,-70,-64,-63,-31,3,8,35,35,85,111,121,123,127]
 ,"Code":"JU"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/JVC.json.gzip"
 ,"Name":"Duel Decks: Jace vs. Chandra"
+,"Digest":[-100,-78,-46,-27,-25,-22,-21,-21,-18,5,6,9,66,88,98,120]
 ,"Code":"JVC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/KTK.json.gzip"
 ,"Name":"Khans of Tarkir"
+,"Digest":[-96,-88,-79,-70,-26,-10,13,68,69,79,84,85,90,108,126,126]
 ,"Code":"KTK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/KVD.json.gzip"
 ,"Name":"Duel Decks: Knights vs. Dragons"
+,"Digest":[-81,-68,-68,-63,-63,-51,-44,-42,-40,-28,-9,6,18,61,97,113]
 ,"Code":"KVD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LE.json.gzip"
 ,"Name":"Legions"
+,"Digest":[-128,-121,-119,-76,-70,-60,-51,-25,-4,6,10,35,41,80,87,98]
 ,"Code":"LE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LEG.json.gzip"
 ,"Name":"From the Vault: Legends"
+,"Digest":[-126,-95,-87,-81,-67,-49,-10,-3,49,65,82,84,94,103,115,121]
 ,"Code":"LEG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LG.json.gzip"
 ,"Name":"Legends"
+,"Digest":[-120,-113,-85,-67,-57,-56,1,9,12,59,82,86,92,103,104,104]
 ,"Code":"LG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/LRW.json.gzip"
 ,"Name":"Lorwyn"
+,"Digest":[-117,-98,-65,-38,-36,-25,-17,15,55,80,82,91,91,103,116,122]
 ,"Code":"LRW"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M10.json.gzip"
 ,"Name":"Magic 2010"
+,"Digest":[-123,-113,-104,-103,-73,-67,-31,-28,-22,-15,3,17,31,50,68,103]
 ,"Code":"M10"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M11.json.gzip"
 ,"Name":"Magic 2011"
+,"Digest":[-71,-59,-25,-22,5,6,24,31,60,60,73,75,83,94,102,108]
 ,"Code":"M11"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M12.json.gzip"
 ,"Name":"Magic 2012"
+,"Digest":[-120,-101,-89,-56,-53,-51,-22,14,29,34,35,41,74,79,108,109]
 ,"Code":"M12"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M13.json.gzip"
 ,"Name":"Magic 2013"
+,"Digest":[-124,-109,-106,-100,-95,-84,-81,1,14,18,28,36,42,77,121,126]
 ,"Code":"M13"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M14.json.gzip"
 ,"Name":"Magic 2014 Core Set"
+,"Digest":[-123,-118,-105,-86,-81,-80,-50,-10,20,34,38,54,61,88,101,108]
 ,"Code":"M14"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/M15.json.gzip"
 ,"Name":"Magic 2015 Core Set"
+,"Digest":[-125,-105,-97,-90,-88,-49,-47,-10,25,30,55,60,65,96,116,125]
 ,"Code":"M15"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MBP.json.gzip"
 ,"Name":"Promo set for Gatherer"
+,"Digest":[-113,-101,-90,-85,-69,10,16,20,29,39,56,66,67,68,91,91]
 ,"Code":"MBP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MBS.json.gzip"
 ,"Name":"Mirrodin Besieged"
+,"Digest":[-121,-107,-72,-71,-63,-61,-53,-33,2,4,26,75,104,108,110,111]
 ,"Code":"MBS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MD1.json.gzip"
 ,"Name":"Modern Event Deck 2014"
+,"Digest":[-122,-118,-110,-67,29,37,37,38,43,62,84,90,96,103,116,127]
 ,"Code":"MD1"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MI.json.gzip"
 ,"Name":"Mirage"
+,"Digest":[-113,-95,-93,-72,-52,-38,-23,-10,-4,52,65,65,93,96,97,106]
 ,"Code":"MI"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MM.json.gzip"
 ,"Name":"Mercadian Masques"
+,"Digest":[-128,-108,-105,-100,-59,-36,-29,-24,-23,-1,9,42,93,102,109,115]
 ,"Code":"MM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MM2.json.gzip"
 ,"Name":"Modern Masters 2015 Edition"
+,"Digest":[-96,-88,-65,-46,11,20,33,33,33,39,43,50,68,81,96,113]
 ,"Code":"MM2"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MMA.json.gzip"
 ,"Name":"Modern Masters"
+,"Digest":[-76,-68,-58,-43,-22,-8,1,19,29,41,49,55,59,102,103,124]
 ,"Code":"MMA"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MOR.json.gzip"
 ,"Name":"Morningtide"
+,"Digest":[-128,-107,-107,-90,-61,-39,-31,-28,8,36,40,75,88,89,93,110]
 ,"Code":"MOR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MR.json.gzip"
 ,"Name":"Mirrodin"
+,"Digest":[-111,-108,-105,-79,-78,-61,-47,-31,-28,-20,17,38,50,108,108,117]
 ,"Code":"MR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NE.json.gzip"
 ,"Name":"Nemesis"
+,"Digest":[-106,-97,-71,-58,-35,-28,-4,24,24,35,54,60,71,98,99,102]
 ,"Code":"NE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/NPH.json.gzip"
 ,"Name":"New Phyrexia"
+,"Digest":[-68,-63,-49,-45,-43,-14,-10,2,8,18,20,20,48,70,85,97]
 ,"Code":"NPH"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/OD.json.gzip"
 ,"Name":"Odyssey"
+,"Digest":[-126,-110,-80,-27,-25,10,11,17,36,46,57,68,76,112,114,115]
 ,"Code":"OD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ON.json.gzip"
 ,"Name":"Onslaught"
+,"Digest":[-107,-91,-81,-67,-1,10,20,43,44,48,63,65,89,103,104,112]
 ,"Code":"ON"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ORI.json.gzip"
 ,"Name":"Magic Origins"
+,"Digest":[-123,-121,-118,-118,-98,-96,-70,-62,-4,10,11,29,39,62,72,72]
 ,"Code":"ORI"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/P2.json.gzip"
 ,"Name":"Portal Second Age"
+,"Digest":[-115,-115,-113,-112,-98,-69,-54,-39,-18,-6,-6,10,22,77,85,116]
 ,"Code":"P2"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/P3.json.gzip"
 ,"Name":"Portal Three Kingdoms"
+,"Digest":[-103,-97,-74,-63,-55,-40,-39,-35,-1,19,29,45,87,92,118,126]
 ,"Code":"P3"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PC2.json.gzip"
 ,"Name":"Planechase 2012 Edition"
+,"Digest":[-122,-89,-80,-80,-60,-47,-16,18,20,35,41,53,57,65,96,101]
 ,"Code":"PC2"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PCH.json.gzip"
 ,"Name":"Planechase"
+,"Digest":[-123,-109,-108,-87,-33,-8,22,65,71,72,78,85,86,97,100,126]
 ,"Code":"PCH"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PLC.json.gzip"
 ,"Name":"Planar Chaos"
+,"Digest":[-126,-116,-110,-98,-76,-29,-19,6,6,14,36,44,52,57,88,123]
 ,"Code":"PLC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PS.json.gzip"
 ,"Name":"Planeshift"
+,"Digest":[-104,-93,-50,-39,-39,-30,-27,0,38,40,42,89,92,96,104,125]
 ,"Code":"PS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PT.json.gzip"
 ,"Name":"Portal"
+,"Digest":[-112,-102,-98,-90,-89,-63,1,2,42,66,68,72,84,88,112,121]
 ,"Code":"PT"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PVC.json.gzip"
 ,"Name":"Duel Decks: Phyrexia vs. the Coalition"
+,"Digest":[-99,-97,-64,-59,-51,-49,14,24,26,45,55,70,82,98,114,127]
 ,"Code":"PVC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PY.json.gzip"
 ,"Name":"Prophecy"
+,"Digest":[-116,-81,-81,-58,-52,-22,-8,29,53,62,65,93,109,114,121,127]
 ,"Code":"PY"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/R.json.gzip"
 ,"Name":"Revised Edition"
+,"Digest":[-118,-108,-80,-65,-59,-44,-40,-38,8,29,72,79,94,95,122,122]
 ,"Code":"R"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RAV.json.gzip"
 ,"Name":"Ravnica: City of Guilds"
+,"Digest":[-121,-100,-96,-68,-49,-23,4,28,36,45,54,89,89,98,104,110]
 ,"Code":"RAV"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RLC.json.gzip"
 ,"Name":"From the Vault: Relics"
+,"Digest":[-120,-116,-100,-99,-97,-81,-72,-64,-40,-9,13,57,61,80,92,97]
 ,"Code":"RLC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RLM.json.gzip"
 ,"Name":"From the Vault: Realms"
+,"Digest":[-121,-99,-90,-82,-82,-76,-71,-63,-54,-23,-22,3,18,25,45,123]
 ,"Code":"RLM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ROE.json.gzip"
 ,"Name":"Rise of the Eldrazi"
+,"Digest":[-118,-117,-79,-68,-6,19,31,40,41,49,58,60,69,71,81,105]
 ,"Code":"ROE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/RTR.json.gzip"
 ,"Name":"Return to Ravnica"
+,"Digest":[-116,-107,-90,-32,-17,-4,5,32,34,44,51,61,76,82,112,126]
 ,"Code":"RTR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/S2.json.gzip"
 ,"Name":"Starter 2000"
+,"Digest":[-127,-94,-89,-89,-56,-45,-43,-27,-22,26,27,55,68,90,92,107]
 ,"Code":"S2"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SC.json.gzip"
 ,"Name":"Scourge"
+,"Digest":[-120,-98,-75,-67,-40,-33,-25,-16,-12,2,9,23,56,96,111,113]
 ,"Code":"SC"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SH.json.gzip"
 ,"Name":"Stronghold"
+,"Digest":[-128,-113,-112,-101,-93,-66,-38,-31,-25,-16,11,16,16,18,43,91]
 ,"Code":"SH"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SHM.json.gzip"
 ,"Name":"Shadowmoor"
+,"Digest":[-127,-108,-95,-64,-48,-30,26,36,64,78,88,92,96,104,109,114]
 ,"Code":"SHM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SLI.json.gzip"
 ,"Name":"Premium Deck Series: Slivers"
+,"Digest":[-124,-92,-67,-48,-48,-30,2,13,18,27,44,49,95,96,107,116]
 ,"Code":"SLI"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOK.json.gzip"
 ,"Name":"Saviors of Kamigawa"
+,"Digest":[-108,-88,-76,-41,-34,-32,-25,8,25,35,38,66,106,109,122,127]
 ,"Code":"SOK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOM.json.gzip"
 ,"Name":"Scars of Mirrodin"
+,"Digest":[-115,-114,-89,-86,-81,-64,-56,-20,-16,2,6,26,33,63,69,84]
 ,"Code":"SOM"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ST.json.gzip"
 ,"Name":"Starter 1999"
+,"Digest":[-119,-113,-111,-89,-34,-31,-26,0,3,6,7,14,18,22,70,112]
 ,"Code":"ST"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SVT.json.gzip"
 ,"Name":"Duel Decks: Sorin vs. Tibalt"
+,"Digest":[-119,-109,-109,-89,-70,-9,12,17,28,33,38,58,71,73,93,127]
 ,"Code":"SVT"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TE.json.gzip"
 ,"Name":"Tempest"
+,"Digest":[-98,-58,-58,-41,-38,-35,-29,-18,7,14,23,23,42,65,65,111]
 ,"Code":"TE"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/THS.json.gzip"
 ,"Name":"Theros"
+,"Digest":[-124,-120,-116,-108,-91,-90,-85,-82,-38,-33,-10,11,26,31,89,108]
 ,"Code":"THS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TO.json.gzip"
 ,"Name":"Torment"
+,"Digest":[-119,-107,-106,-91,-89,-53,-37,-11,1,16,77,87,98,100,109,122]
 ,"Code":"TO"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TSB.json.gzip"
 ,"Name":"Time Spiral \"Timeshifted\""
+,"Digest":[-125,-89,-83,-75,-38,-31,-12,-3,14,44,71,73,91,100,108,119]
 ,"Code":"TSB"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/TSP.json.gzip"
 ,"Name":"Time Spiral"
+,"Digest":[-127,-121,-79,-61,-49,-6,-5,0,24,40,52,65,68,77,87,99]
 ,"Code":"TSP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/U.json.gzip"
 ,"Name":"Unlimited Edition"
+,"Digest":[-106,-95,-84,-47,-32,-11,-6,6,7,13,27,34,41,55,59,106]
 ,"Code":"U"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UD.json.gzip"
 ,"Name":"Urza's Destiny"
+,"Digest":[-54,-54,-7,-7,0,4,36,42,44,49,59,81,82,113,120,123]
 ,"Code":"UD"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UFP.json.gzip"
 ,"Name":"Ugin's Fate promos"
+,"Digest":[-98,-94,-91,-68,-67,-54,-35,-30,-18,39,43,63,94,106,115,123]
 ,"Code":"UFP"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UG.json.gzip"
 ,"Name":"Unglued"
+,"Digest":[-120,-97,-92,-79,-62,-56,-46,-45,25,27,39,50,67,72,109,117]
 ,"Code":"UG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UL.json.gzip"
 ,"Name":"Urza's Legacy"
+,"Digest":[-126,-122,-27,-8,41,52,55,63,65,74,80,95,106,118,122,127]
 ,"Code":"UL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/UNH.json.gzip"
 ,"Name":"Unhinged"
+,"Digest":[-124,-102,-10,9,9,14,21,38,39,63,68,73,82,102,104,111]
 ,"Code":"UNH"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/US.json.gzip"
 ,"Name":"Urza's Saga"
+,"Digest":[-128,-120,-88,-81,-78,-76,-69,-66,-53,-18,-11,32,56,85,97,117]
 ,"Code":"US"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/V13.json.gzip"
 ,"Name":"From the Vault: Twenty"
+,"Digest":[-114,-88,-82,-59,-43,-21,18,19,25,32,64,90,90,97,99,112]
 ,"Code":"V13"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/V14.json.gzip"
 ,"Name":"From the Vault: Annihilation (2014)"
+,"Digest":[-115,-104,-47,-1,7,17,32,32,35,40,50,62,69,101,111,122]
 ,"Code":"V14"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/V15.json.gzip"
 ,"Name":"From the Vault: Angels"
+,"Digest":[-117,-85,-64,-63,-52,-44,-23,-19,31,52,58,58,72,92,101,117]
 ,"Code":"V15"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VI.json.gzip"
 ,"Name":"Visions"
+,"Digest":[-66,-64,-30,-21,-21,32,37,44,56,60,62,91,96,106,120,121]
 ,"Code":"VI"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VNG.json.gzip"
 ,"Name":"Vanguard"
+,"Digest":[-117,-115,-111,-97,-94,-55,-44,-38,4,38,40,41,77,79,98,101]
 ,"Code":"VNG"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VVK.json.gzip"
 ,"Name":"Duel Decks: Venser vs. Koth"
+,"Digest":[-116,-106,-91,-68,-35,-31,-13,-5,41,57,59,74,92,100,111,117]
 ,"Code":"VVK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/WL.json.gzip"
 ,"Name":"Weatherlight"
+,"Digest":[-128,-95,-64,-52,-6,0,16,19,29,65,75,75,96,112,114,122]
 ,"Code":"WL"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/WWK.json.gzip"
 ,"Name":"Worldwake"
+,"Digest":[-113,-79,-75,-53,-46,-43,-32,-29,-24,12,30,43,69,99,118,119]
 ,"Code":"WWK"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ZEN.json.gzip"
 ,"Name":"Zendikar"
+,"Digest":[-87,-78,-72,-61,-27,-17,-15,0,8,10,15,20,42,53,64,76]
 ,"Code":"ZEN"
 }
 ]
-,"Date":"10\/23\/2015"
+,"Date":"10\/27\/2015"
 }
