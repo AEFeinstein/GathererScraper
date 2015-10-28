@@ -162,5 +162,16 @@ public class Expansion implements Comparable<Expansion>{
 		mSubSets.add(ownText);
 	}
 
+	/**
+	 * @return A string representation of the MD5 digest for this expansion
+	 */
+	public String getStringDigest() {
+		StringBuilder sb = new StringBuilder();
+		for(byte b : mDigest) {
+			sb.append(String.format("%02x", b));
+		}
+		return sb.toString();
+	}
+
 
 }

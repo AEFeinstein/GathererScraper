@@ -72,6 +72,7 @@ public class GathererScraperUi {
 	private static final String	MKM_FILE_NAME		= "mkmnames.json";
 	private static final String	EXPANSION_FILE_NAME	= "expansions.json";
 	public static final String	LEGAL_FILE_NAME		= "legality.json";
+	private static final String DIGESTS_FILE_NAME	= "digests.json";
 	private static final String	APPMAP_FILE_NAME	= "appmap-com.gelakinetic.mtgfam.xml";
 
 	private JProgressBar		mExpansionProgressBar;
@@ -89,10 +90,12 @@ public class GathererScraperUi {
 	File						mLegalityFile		= null;
 	File						mExpansionsFile		= null;
 	File						mAppmapFile			= null;
+	File						mDigestsFile		= null;
 
 	private JSONArray			mPatchesArray		= new JSONArray();
 	private JSONArray			mTcgNamesArray		= new JSONArray();
 	private JSONArray			mMkmNamesArray		= new JSONArray();
+	private JSONArray			mDigestsArray		= new JSONArray();
 	private HashSet<Integer>	mAllMultiverseIds;
 
 	private int					mNumExpansions;
@@ -150,6 +153,7 @@ public class GathererScraperUi {
 		mMkmNamesFile = new File(mFilesPath, MKM_FILE_NAME);
 		mLegalityFile = new File(mFilesPath, LEGAL_FILE_NAME);
 		mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
+		mDigestsFile = new File(mFilesPath, DIGESTS_FILE_NAME);
 
 		/*
 		 * If the expansion file isn't found, don't bother running the
@@ -252,6 +256,9 @@ public class GathererScraperUi {
 				}
 				if (mLegalityFile.exists()) {
 					mLegalityListModel.loadLegalities(mLegalityFile);
+				}
+				if (mDigestsFile.exists()) {
+					mDigestsArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mDigestsFile))).get("Digests");
 				}
 				mAllMultiverseIds = new HashSet<Integer>();
 				if(mAppmapFile.exists()) {
@@ -369,6 +376,7 @@ public class GathererScraperUi {
 							mPatchesArray.clear();
 							mTcgNamesArray.clear();
 							mMkmNamesArray.clear();
+							mDigestsArray.clear();
 						}
 
 						/* Get today's date */
@@ -399,6 +407,10 @@ public class GathererScraperUi {
 						JSONObject MkmFile = new JSONObject();
 						MkmFile.put("Date", date);
 						MkmFile.put("Sets", mMkmNamesArray);
+						
+						JSONObject DigestsFile = new JSONObject();
+						DigestsFile.put("Date", date);
+						DigestsFile.put("Digests", mDigestsArray);
 
 						/*
 						 * Make a thread pool to scrape each set in it's own
@@ -435,6 +447,11 @@ public class GathererScraperUi {
 											mkmname.put("Code", exp.mCode_gatherer);
 											mkmname.put("MKMName", exp.mName_mkm);
 											addToArray(mMkmNamesArray, mkmname);
+											
+											JSONObject digest = new JSONObject();
+											digest.put("Code", exp.mCode_gatherer);
+											digest.put("Digest", exp.getStringDigest());
+											addToArray(mDigestsArray, digest);
 										}
 										catch (Exception e) {
 											e.printStackTrace();
@@ -481,6 +498,12 @@ public class GathererScraperUi {
 							Collections.sort(mMkmNamesArray, JSONArray.getComparator());
 							file = new FileWriter(new File(mFilesPath, MKM_FILE_NAME));
 							file.write(MkmFile.toJSONString());
+							file.flush();
+							file.close();
+							
+							Collections.sort(mDigestsArray, JSONArray.getComparator());
+							file = new FileWriter(new File(mFilesPath, DIGESTS_FILE_NAME));
+							file.write(DigestsFile.toJSONString());
 							file.flush();
 							file.close();
 						}
@@ -711,10 +734,10 @@ public class GathererScraperUi {
 			e.printStackTrace();
 		}
 		JSONObject patchInfo = new JSONObject();
+		/* Note, new fields cannot be added to this JSON object. It breaks old updaters */
 		patchInfo.put("Name", exp.mName_gatherer);
 		patchInfo.put("URL", "https://sites.google.com/site/mtgfamiliar/patches/" + exp.mCode_gatherer + ".json.gzip");
 		patchInfo.put("Code", exp.mCode_gatherer);
-		patchInfo.put("Digest", exp.mDigest);
 		return patchInfo;
 	}
 
