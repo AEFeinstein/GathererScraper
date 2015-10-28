@@ -689,7 +689,6 @@ public class GathererScraperUi {
 			jsonExpansion.put("a", exp.mName_gatherer); /* name */
 			jsonExpansion.put("q", exp.mCode_gatherer); /* code */
 			jsonExpansion.put("y", exp.getDateMs()); /* date */
-			jsonExpansion.put("z", exp.mDigest); /* md5 hash */
 			jsonAllExpansions.add(jsonExpansion);
 
 			expansions.put("b", jsonAllExpansions);
@@ -715,6 +714,7 @@ public class GathererScraperUi {
 		patchInfo.put("Name", exp.mName_gatherer);
 		patchInfo.put("URL", "https://sites.google.com/site/mtgfamiliar/patches/" + exp.mCode_gatherer + ".json.gzip");
 		patchInfo.put("Code", exp.mCode_gatherer);
+		patchInfo.put("Digest", exp.mDigest);
 		return patchInfo;
 	}
 
