@@ -117,6 +117,7 @@ public class GathererScraper {
 		for (Card c : cardsArray) {
 
 			ArrayList<Card> tmpScrapedCards = scrapePage(c.getUrl(), exp, multiverseMap);
+			
 			for(Card tmpCard : tmpScrapedCards) {
 				if(!scrapedCards.contains(tmpCard)) {
 					scrapedCards.add(tmpCard);
@@ -131,7 +132,7 @@ public class GathererScraper {
 				scrapedCards.get(i).mNumber = "" + (i + 1);
 			}
 		}
-
+		
 		/* Look for duplicate card numbers */
 		Collections.sort(scrapedCards);
 		for (int i = 0; i < scrapedCards.size() - 1; i++) {
@@ -181,6 +182,8 @@ public class GathererScraper {
 	 */
 	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp, HashMap<String, Integer> multiverseMap) throws IOException {
 
+		boolean numberLookupFailed = false;
+		
 		Document cardPage = ConnectWithRetries(cardUrl);
 
 		/* Put all cards from this page into this ArrayList */
@@ -285,6 +288,7 @@ public class GathererScraper {
 				System.out.print(String.format("[%s] number problem %s, ", card.mExpansion, card.mName));
 				card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
 				System.out.print(String.format("fixed? %s\n", card.mNumber));
+				numberLookupFailed = true;
 			}
 
 			/* artist */
@@ -358,6 +362,18 @@ public class GathererScraper {
 
 			card.clearNulls();
 			scrapedCards.add(card);
+		}
+		
+		/*
+		 * Since Gatherer seems to be non-deterministic, if we are using their
+		 * numbers, and this is a multicard, sort the card parts and renumber
+		 * the letters alphabetically 
+		 */
+		if(scrapedCards.size() > 1 && numberLookupFailed) {
+			Collections.sort(scrapedCards, Card.getNameComparator());
+			for(int i = 0; i < scrapedCards.size(); i++) {
+				scrapedCards.get(i).mNumber = scrapedCards.get(i).mNumber.replaceAll("[A-Za-z]", ((char)('a' + i)) + "");
+			}
 		}
 		return scrapedCards;
 	}

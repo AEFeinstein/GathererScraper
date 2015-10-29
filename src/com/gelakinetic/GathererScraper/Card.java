@@ -1,6 +1,7 @@
 package com.gelakinetic.GathererScraper;
 
 import java.io.Serializable;
+import java.util.Comparator;
 
 import org.apache.commons.lang3.SerializationUtils;
 
@@ -240,5 +241,18 @@ public class Card implements Serializable, Comparable<Card> {
 	 */
 	public byte[] getBytes() {
 		return SerializationUtils.serialize(this);
+	}
+
+	/**
+	 * @return A comparator to sort cards by name
+	 */
+	public static Comparator<Card> getNameComparator() {
+		return new Comparator<Card>() {
+
+			@Override
+			public int compare(Card o1, Card o2) {
+				return o1.mName.compareTo(o2.mName);
+			}
+		};
 	}
 }
