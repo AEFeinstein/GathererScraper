@@ -723,7 +723,7 @@ public class GathererScraperUi {
 			Calendar cal = Calendar.getInstance();
 			mtg_carddatabase.put("v", dateFormat.format(cal.getTime())); /* bdd_date */
 
-			File gzipout = new File(mFilesPath, exp.mCode_gatherer + ".json.gzip");
+			File gzipout = new File(new File(mFilesPath, "patches"), exp.mCode_gatherer + ".json.gzip");
 			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));
 			gos.write(topLevel.toJSONString().getBytes());
 			gos.flush();
