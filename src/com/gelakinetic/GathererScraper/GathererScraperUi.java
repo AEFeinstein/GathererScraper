@@ -296,7 +296,7 @@ public class GathererScraperUi {
 						JOptionPane.showMessageDialog(frame, "Rules Cleaned", "Complete",
 								JOptionPane.PLAIN_MESSAGE);
 					}
-				} catch (IOException e) {
+				} catch (IOException | NullPointerException e) {
 					StringWriter sw = new StringWriter();
 					PrintWriter pw = new PrintWriter(sw);
 					e.printStackTrace(pw);
@@ -701,7 +701,7 @@ public class GathererScraperUi {
 			topLevel.put("t", mtg_carddatabase);
 
 			mtg_carddatabase.put("w", jsonAllCards.size()); /* num_cards */
-			mtg_carddatabase.put("u", "1.00"); /* bdd_version */
+//			mtg_carddatabase.put("u", "1.00"); /* bdd_version */
 
 			mtg_carddatabase.put("s", expansions);
 
@@ -719,9 +719,9 @@ public class GathererScraperUi {
 			mtg_carddatabase.put("p", cards);
 			cards.put("o", jsonAllCards);
 
-			DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
-			Calendar cal = Calendar.getInstance();
-			mtg_carddatabase.put("v", dateFormat.format(cal.getTime())); /* bdd_date */
+//			DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+//			Calendar cal = Calendar.getInstance();
+//			mtg_carddatabase.put("v", dateFormat.format(cal.getTime())); /* bdd_date */
 
 			File gzipout = new File(new File(mFilesPath, "patches"), exp.mCode_gatherer + ".json.gzip");
 			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));

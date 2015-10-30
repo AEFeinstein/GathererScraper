@@ -537,7 +537,7 @@ public class GathererScraper {
 	 * @param rulesFile		The file to clean
 	 * @throws IOException 	Thrown if something goes wrong
 	 */
-	public static String cleanRules(File rulesFile) throws IOException {
+	public static String cleanRules(File rulesFile) throws IOException, NullPointerException {
 		/* Save any post-formatting lines with non-ascii chars here */
 		StringBuilder problematicLines = new StringBuilder();
 		/* Open up file in & out */
