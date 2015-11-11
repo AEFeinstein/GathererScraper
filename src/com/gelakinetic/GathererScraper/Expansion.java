@@ -3,6 +3,7 @@ package com.gelakinetic.GathererScraper;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import com.gelakinetic.GathererChecker.RssEntry;
@@ -44,7 +45,7 @@ public class Expansion implements Comparable<Expansion>{
 	/** Subsets for duel decks anthology */
 	public ArrayList<String> mSubSets			= new ArrayList<String>();
 	/** MD5 digest for scraped cards, to see when things change */
-	public byte[]				mDigest 		= null;
+	public byte[]				mDigest 		= new byte[16];
 
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
@@ -89,6 +90,17 @@ public class Expansion implements Comparable<Expansion>{
 		}
 		catch(Exception e) {
 			/* info DNE */
+		}
+		
+		try {
+			JSONArray digest = (JSONArray) jo.get(KEY_DIGEST);
+			int i = 0;
+			for(Object o : digest) {
+				this.mDigest[i++] = (byte) (((Long)o).byteValue() & 0xFF);
+			}
+		}
+		catch (Exception e) {
+			/* Eat it */
 		}
 	}
 

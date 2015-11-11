@@ -233,6 +233,9 @@ public class ExpansionTableModel extends AbstractTableModel {
 			Expansion e = new Expansion((JSONObject) jo);
 			for (Expansion existing : mExpansions) {
 				if (existing.mName_gatherer.equals(e.mName_gatherer)) {
+					if (e.mDigest != null) {
+						System.arraycopy(e.mDigest, 0, existing.mDigest, 0, e.mDigest.length);						
+					}
 					existing.mCode_gatherer = e.mCode_gatherer;
 					existing.mCode_mtgi = e.mCode_mtgi;
 					existing.mName_mkm = e.mName_mkm;
