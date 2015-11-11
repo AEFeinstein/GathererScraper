@@ -3,7 +3,7 @@
 ,"name":"Masters Edition II"
 ,"mtgi":"ME2"
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1220241600000
 ,"code":"ME2"
 }
@@ -12,7 +12,7 @@
 ,"name":"Masters Edition III"
 ,"mtgi":"ME3"
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1251777600000
 ,"code":"ME3"
 }
@@ -21,7 +21,7 @@
 ,"name":"Masters Edition IV"
 ,"mtgi":"ME4"
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1293858000000
 ,"code":"ME4"
 }
@@ -30,7 +30,7 @@
 ,"name":"Masters Edition"
 ,"mtgi":"MED"
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1188619200000
 ,"code":"ME"
 }
@@ -39,7 +39,7 @@
 ,"name":"Tempest Remastered"
 ,"mtgi":""
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":""
 ,"code":""
 }
@@ -48,7 +48,7 @@
 ,"name":"Vintage Masters"
 ,"mtgi":"VMA"
 ,"mkm":""
-,"digest":null
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1401595200000
 ,"code":"VMA"
 }
@@ -267,6 +267,15 @@
 ,"digest":[-115,-111,-103,-59,-52,-31,-27,-17,-5,11,65,65,72,79,87,90]
 ,"date":1414814400000
 ,"code":"C14"
+}
+,{"tcgp":"Commander 2015"
+,"subsets":"Commander 2015##"
+,"name":"Commander 2015"
+,"mtgi":"C15"
+,"mkm":"Commander 2015"
+,"digest":[-122,-118,-109,-80,-79,-47,-17,3,14,18,18,22,47,78,121,122]
+,"date":1446350400000
+,"code":"C15"
 }
 ,{"tcgp":"Commander"
 ,"subsets":"Magic: The Gathering-Commander##"

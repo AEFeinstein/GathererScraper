@@ -70,6 +70,9 @@
 ,{"TCGName":"Commander 2014"
 ,"Code":"C14"
 }
+,{"TCGName":"Commander 2015"
+,"Code":"C15"
+}
 ,{"TCGName":"Commander"
 ,"Code":"CMD"
 }
@@ -428,5 +431,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"09\/23\/2015"
+,"Date":"11\/11\/2015"
 }
