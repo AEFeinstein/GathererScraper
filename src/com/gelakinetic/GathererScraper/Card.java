@@ -66,8 +66,8 @@ public class Card implements Serializable, Comparable<Card> {
 	 *
 	 * @return A string of the URL for this card's gatherer page
 	 */
-	public String getUrl() {
-		return "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + mMultiverseId;
+	public static String getUrl(int multiverseId) {
+		return "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + multiverseId;
 	}
 
 	/**
@@ -139,7 +139,28 @@ public class Card implements Serializable, Comparable<Card> {
 	public int compareTo(Card other) {
 		/* Sort by collector's number */
 		if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
-			return this.mNumber.compareTo(other.mNumber);
+			
+			int this_num = this.getNumberInteger();
+			int other_num = other.getNumberInteger();
+			if(this_num > other_num) {
+				return 1;
+			}
+			else if(this_num < other_num) {
+				return -1;
+			}
+			else {
+				char thisChar = this.getNumberChar();
+				char otherChar = other.getNumberChar();
+				if(thisChar > otherChar) {
+					return 1;
+				}
+				else if (thisChar < otherChar) {
+					return -1;
+				}
+				else {
+					return 0;
+				}
+			}
 		}
 
 		/* Battle Royale is pure alphabetical, except for basics, why not */
@@ -254,5 +275,21 @@ public class Card implements Serializable, Comparable<Card> {
 				return o1.mName.compareTo(o2.mName);
 			}
 		};
+	}
+
+	public int getNumberInteger() {
+		try {
+			return Integer.parseInt(this.mNumber);
+		} catch (NumberFormatException e) {
+			return 0;
+		}
+	}
+	
+	public char getNumberChar() {
+		char c = this.mNumber.charAt(this.mNumber.length() - 1);
+		if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
+			return c;
+		}
+		return 0;
 	}
 }
