@@ -106,7 +106,6 @@ public class GathererScraper {
 					}
 					else {
 						cardsArray.add(card);
-						mAllMultiverseIds.add(card.mMultiverseId);
 					}
 				}
 				pageNum++;
@@ -122,6 +121,7 @@ public class GathererScraper {
 				for(Card tmpCard : tmpScrapedCards) {
 					if(!scrapedCards.contains(tmpCard)) {
 						scrapedCards.add(tmpCard);
+						mAllMultiverseIds.add(tmpCard.mMultiverseId);
 					}
 				}
 				ui.setLastCardScraped(c.mExpansion + ": " + c.mName);
