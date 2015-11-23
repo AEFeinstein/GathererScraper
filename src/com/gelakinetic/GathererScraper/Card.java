@@ -279,7 +279,11 @@ public class Card implements Serializable, Comparable<Card> {
 
 	public int getNumberInteger() {
 		try {
-			return Integer.parseInt(this.mNumber);
+			char c = this.mNumber.charAt(this.mNumber.length() - 1);
+			if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
+				return Integer.parseInt(this.mNumber.substring(0, this.mNumber.length() - 1));
+			}
+			return Integer.parseInt(this.mNumber);			
 		} catch (NumberFormatException e) {
 			return 0;
 		}
