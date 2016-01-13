@@ -436,7 +436,10 @@ public class GathererScraper {
 						card.mColor += "G";
 					}
 				}
-				if (card.mColor.isEmpty() || card.mName.equals("Ghostfire")) {
+				
+				/* If the card has no color, or it's Ghostfire, or it has Devoid */
+				if (card.mColor.isEmpty() || card.mName.equals("Ghostfire") ||
+						(card.mText != null && card.mText.contains("(This card has no color.)"))) {
 					card.mColor = "C";
 				}
 	
