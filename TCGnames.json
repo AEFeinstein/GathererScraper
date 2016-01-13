@@ -298,6 +298,9 @@
 ,{"TCGName":"New Phyrexia"
 ,"Code":"NPH"
 }
+,{"TCGName":"Oath of the Gatewatch"
+,"Code":"OGW"
+}
 ,{"TCGName":"Odyssey"
 ,"Code":"OD"
 }
@@ -431,5 +434,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/11\/2015"
+,"Date":"01\/13\/2016"
 }

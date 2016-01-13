@@ -74,6 +74,7 @@
 ,"DTK"
 ,"ORI"
 ,"BFZ"
+,"OGW"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
@@ -131,6 +132,7 @@
 ,"ORI"
 ,"BFZ"
 ,"EXP"
+,"OGW"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancestral Vision"
@@ -330,10 +332,11 @@
 ]
 }
 ,"Block":{"Sets":["BFZ"
+,"OGW"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
 }
 }
-,"Date":"10\/23\/2015"
+,"Date":"01\/13\/2016"
 }

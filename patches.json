@@ -386,6 +386,10 @@
 ,"Name":"Odyssey"
 ,"Code":"OD"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/OGW.json.gzip"
+,"Name":"Oath of the Gatewatch"
+,"Code":"OGW"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/ON.json.gzip"
 ,"Name":"Onslaught"
 ,"Code":"ON"
@@ -575,5 +579,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/11\/2015"
+,"Date":"01\/13\/2016"
 }
