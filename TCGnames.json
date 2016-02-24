@@ -115,6 +115,9 @@
 ,{"TCGName":"Duel Decks: Anthology"
 ,"Code":"DD3JVC"
 }
+,{"TCGName":"Duel Decks: Blessed vs. Cursed"
+,"Code":"DDQ"
+}
 ,{"TCGName":"Duel Decks: Divine vs. Demonic"
 ,"Code":"DVD"
 }
@@ -434,5 +437,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"01\/13\/2016"
+,"Date":"02\/24\/2016"
 }

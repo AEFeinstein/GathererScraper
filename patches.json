@@ -162,6 +162,10 @@
 ,"Name":"Duel Decks: Zendikar vs. Eldrazi"
 ,"Code":"DDP"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DDQ.json.gzip"
+,"Name":"Duel Decks: Blessed vs. Cursed"
+,"Code":"DDQ"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/DGM.json.gzip"
 ,"Name":"Dragon's Maze"
 ,"Code":"DGM"
@@ -579,5 +583,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"01\/13\/2016"
+,"Date":"02\/24\/2016"
 }
