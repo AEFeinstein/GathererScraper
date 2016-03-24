@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -609,25 +610,75 @@ public class GathererScraper {
 						String symbol = substr.split("&")[0];
 						if (symbol.equalsIgnoreCase("tap")) {
 							symbol = "T";
-						}
-						else if (symbol.equalsIgnoreCase("untap")) {
+						} else if (symbol.equalsIgnoreCase("untap")) {
 							symbol = "Q";
-						}
-						else if (symbol.equalsIgnoreCase("snow")) {
+						} else if (symbol.equalsIgnoreCase("snow")) {
 							symbol = "S";
-						}
-						else if (symbol.equalsIgnoreCase("halfr")) {
+						} else if (symbol.equalsIgnoreCase("halfr")) {
 							symbol = "HR";
-						}
-						else if (symbol.equalsIgnoreCase("halfw")) {
+						} else if (symbol.equalsIgnoreCase("halfw")
+								|| symbol.equalsIgnoreCase("500")) {
 							symbol = "HW";
-						}
-						else if (symbol.equalsIgnoreCase("infinity")) {
+						} else if (symbol.equalsIgnoreCase("infinity")) {
 							symbol = "+oo";
+						} else if (symbol.equalsIgnoreCase("w")) {
+						} else if (symbol.equalsIgnoreCase("u")) {
+						} else if (symbol.equalsIgnoreCase("b")) {
+						} else if (symbol.equalsIgnoreCase("r")) {
+						} else if (symbol.equalsIgnoreCase("g")) {
+						} else if (symbol.equalsIgnoreCase("wu")
+								|| symbol.equalsIgnoreCase("uw")) {
+						} else if (symbol.equalsIgnoreCase("ub")
+								|| symbol.equalsIgnoreCase("bu")) {
+						} else if (symbol.equalsIgnoreCase("br")
+								|| symbol.equalsIgnoreCase("rb")) {
+						} else if (symbol.equalsIgnoreCase("rg")
+								|| symbol.equalsIgnoreCase("gr")) {
+						} else if (symbol.equalsIgnoreCase("gw")
+								|| symbol.equalsIgnoreCase("wg")) {
+						} else if (symbol.equalsIgnoreCase("wb")
+								|| symbol.equalsIgnoreCase("bw")) {
+						} else if (symbol.equalsIgnoreCase("bg")
+								|| symbol.equalsIgnoreCase("gb")) {
+						} else if (symbol.equalsIgnoreCase("gu")
+								|| symbol.equalsIgnoreCase("ug")) {
+						} else if (symbol.equalsIgnoreCase("ur")
+								|| symbol.equalsIgnoreCase("ru")) {
+						} else if (symbol.equalsIgnoreCase("rw")
+								|| symbol.equalsIgnoreCase("wr")) {
+						} else if (symbol.equalsIgnoreCase("2w")
+								|| symbol.equalsIgnoreCase("w2")) {
+						} else if (symbol.equalsIgnoreCase("2u")
+								|| symbol.equalsIgnoreCase("u2")) {
+						} else if (symbol.equalsIgnoreCase("2b")
+								|| symbol.equalsIgnoreCase("b2")) {
+						} else if (symbol.equalsIgnoreCase("2r")
+								|| symbol.equalsIgnoreCase("r2")) {
+						} else if (symbol.equalsIgnoreCase("2g")
+								|| symbol.equalsIgnoreCase("g2")) {
+						} else if (symbol.equalsIgnoreCase("pw")
+								|| symbol.equalsIgnoreCase("wp")) {
+						} else if (symbol.equalsIgnoreCase("pu")
+								|| symbol.equalsIgnoreCase("up")) {
+						} else if (symbol.equalsIgnoreCase("pb")
+								|| symbol.equalsIgnoreCase("bp")) {
+						} else if (symbol.equalsIgnoreCase("pr")
+								|| symbol.equalsIgnoreCase("rp")) {
+						} else if (symbol.equalsIgnoreCase("pg")
+								|| symbol.equalsIgnoreCase("gp")) {
+						} else if (symbol.equalsIgnoreCase("p")) {
+						} else if (symbol.equalsIgnoreCase("c")) {
+						} else if (symbol.equalsIgnoreCase("chaos")) {
+						} else if (symbol.equalsIgnoreCase("z")) {
+						} else if (symbol.equalsIgnoreCase("y")) {
+						} else if (symbol.equalsIgnoreCase("x")) {
+						} else if (symbol.equalsIgnoreCase("h")) {
+						} else if (symbol.equalsIgnoreCase("pwk")) {
+						} else if (StringUtils.isNumeric(symbol)) {
+						} else {
+							System.out.println("Unknown symbol: " + symbol);
 						}
-						else if (symbol.toLowerCase().contains("chaos")) {
-							symbol = "c";
-						}
+						
 						output.append("{" + symbol + "}");
 					}
 					/* clear the tag */
