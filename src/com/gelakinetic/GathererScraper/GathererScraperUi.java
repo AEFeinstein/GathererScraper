@@ -108,6 +108,7 @@ public class GathererScraperUi {
 	 *            Command line arguments, unused
 	 */
 	public static void main(String[] args) {
+		System.setProperty("http.agent", "");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
