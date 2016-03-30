@@ -52,6 +52,15 @@
 ,"date":1401595200000
 ,"code":"VMA"
 }
+,{"tcgp":""
+,"subsets":"Welcome Deck 2016##"
+,"name":"Welcome Deck 2016"
+,"mtgi":""
+,"mkm":""
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+,"date":""
+,"code":""
+}
 ,{"tcgp":"10th Edition"
 ,"subsets":"Tenth Edition##"
 ,"name":"Tenth Edition"
@@ -1158,6 +1167,15 @@
 ,"digest":[-112,-89,-80,-72,-56,-44,-38,-20,-13,6,61,72,103,105,109,109]
 ,"date":1207022400000
 ,"code":"SHM"
+}
+,{"tcgp":"Shadows over Innistrad"
+,"subsets":"Shadows over Innistrad##"
+,"name":"Shadows over Innistrad"
+,"mtgi":"SOI"
+,"mkm":"Shadows over Innistrad"
+,"digest":[-113,-107,-51,-29,-26,-9,16,19,25,31,41,63,76,82,112,115]
+,"date":1456808400000
+,"code":"SOI"
 }
 ,{"tcgp":"Shards of Alara"
 ,"subsets":"Shards of Alara##"

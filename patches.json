@@ -482,6 +482,10 @@
 ,"Name":"Premium Deck Series: Slivers"
 ,"Code":"SLI"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOI.json.gzip"
+,"Name":"Shadows over Innistrad"
+,"Code":"SOI"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/SOK.json.gzip"
 ,"Name":"Saviors of Kamigawa"
 ,"Code":"SOK"
@@ -583,5 +587,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"02\/24\/2016"
+,"Date":"03\/30\/2016"
 }

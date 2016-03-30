@@ -69,12 +69,11 @@
 ,"Worldknit"
 ]
 }
-,"Standard":{"Sets":["KTK"
-,"FRF"
-,"DTK"
+,"Standard":{"Sets":["DTK"
 ,"ORI"
 ,"BFZ"
 ,"OGW"
+,"SOI"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
@@ -132,6 +131,7 @@
 ,"ORI"
 ,"BFZ"
 ,"OGW"
+,"SOI"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancestral Vision"
@@ -332,12 +332,11 @@
 ,"Yawgmoth's Bargain"
 ]
 }
-,"Block":{"Sets":["BFZ"
-,"OGW"
+,"Block":{"Sets":["SOI"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
 }
 }
-,"Date":"01\/17\/2016"
+,"Date":"03\/30\/2016"
 }
