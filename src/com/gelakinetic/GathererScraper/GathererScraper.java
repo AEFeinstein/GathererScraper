@@ -82,7 +82,7 @@ public class GathererScraper {
 		}
 		
 		/* Get the card numbers from the old patch, just in case */
-		HashMap<Integer, String> cachedCollectorsNumbers = null;
+		HashMap<String, String> cachedCollectorsNumbers = null;
 		try {
 			File oldPatchFile = new File("./patches/" + exp.mCode_gatherer + ".json.gzip");
 			FileInputStream oldFileInputStream = new FileInputStream(oldPatchFile);
@@ -90,10 +90,10 @@ public class GathererScraper {
 			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream);
 			JsonPatch patch = (new Gson()).fromJson(oldInputStreamReader, JsonPatch.class);
 					
-			cachedCollectorsNumbers = new HashMap<Integer, String>();
+			cachedCollectorsNumbers = new HashMap<String, String>();
 			for(JsonCard jCard : patch.t.p.o) {
 				/* Name is the key, collectors number is the value */
-				cachedCollectorsNumbers.put(jCard.x, jCard.m);
+				cachedCollectorsNumbers.put(jCard.x + jCard.a, jCard.m);
 			}
 		}
 		catch(Exception e) {
@@ -243,13 +243,13 @@ public class GathererScraper {
 	 * @param cardUrl	The page to scrape
 	 * @param exp		The expansion of the cards on this page
 	 * @param multiverseMap	A map of card names to multiverse IDs
-	 * @param cachedCollectorsNumbers  A map of card names to collector's numbers
+	 * @param cachedCollectorsNumbers  A map of card names + multiverseID to collector's numbers
 	 * @return	An array list of scraped cards
 	 * @throws IOException Thrown if the Internet breaks
 	 */
 	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp,
 			HashMap<String, Integer> multiverseMap,
-			HashMap<Integer, String> cachedCollectorsNumbers) throws IOException {
+			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
 
 		boolean usingGathererNumbers = false;
 
@@ -378,7 +378,7 @@ public class GathererScraper {
 				/* Number */
 				/* Try pulling the card number out of the cache first */
 				if(cachedCollectorsNumbers != null) {
-					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId);
+					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
 				}
 				
 				/* If that didn't work, try getting it from Gatherer */
