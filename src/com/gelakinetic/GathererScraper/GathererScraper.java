@@ -82,7 +82,7 @@ public class GathererScraper {
 		}
 		
 		/* Get the card numbers from the old patch, just in case */
-		HashMap<String, String> cachedCollectorsNumbers = null;
+		HashMap<Integer, String> cachedCollectorsNumbers = null;
 		try {
 			File oldPatchFile = new File("./patches/" + exp.mCode_gatherer + ".json.gzip");
 			FileInputStream oldFileInputStream = new FileInputStream(oldPatchFile);
@@ -90,10 +90,10 @@ public class GathererScraper {
 			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream);
 			JsonPatch patch = (new Gson()).fromJson(oldInputStreamReader, JsonPatch.class);
 					
-			cachedCollectorsNumbers = new HashMap<String, String>();
+			cachedCollectorsNumbers = new HashMap<Integer, String>();
 			for(JsonCard jCard : patch.t.p.o) {
 				/* Name is the key, collectors number is the value */
-				cachedCollectorsNumbers.put(jCard.a, jCard.m);
+				cachedCollectorsNumbers.put(jCard.x, jCard.m);
 			}
 		}
 		catch(Exception e) {
@@ -249,7 +249,7 @@ public class GathererScraper {
 	 */
 	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp,
 			HashMap<String, Integer> multiverseMap,
-			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
+			HashMap<Integer, String> cachedCollectorsNumbers) throws IOException {
 
 		boolean usingGathererNumbers = false;
 
@@ -378,7 +378,7 @@ public class GathererScraper {
 				/* Number */
 				/* Try pulling the card number out of the cache first */
 				if(cachedCollectorsNumbers != null) {
-					card.mNumber = cachedCollectorsNumbers.get(card.mName);
+					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId);
 				}
 				
 				/* If that didn't work, try getting it from Gatherer */

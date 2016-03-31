@@ -40,5 +40,5 @@ class JsonCard {
 	String l; /* mArtist */
 	String m; /* mNumber */
 	String n; /* mColor */
-	String x; /* mMultiverseId */
+	int x; /* mMultiverseId */
 }
