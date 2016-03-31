@@ -52,6 +52,9 @@
 ,{"Digest":"1b0ad33e04289950172f25748d0a89d9"
 ,"Code":"C14"
 }
+,{"Digest":"1b38859fb86b976aff931a9ffb495899"
+,"Code":"SOI"
+}
 ,{"Digest":"1e475932811451d73b8a4a7003a7514e"
 ,"Code":"LEG"
 }
@@ -396,9 +399,6 @@
 }
 ,{"Digest":"e648e11612472dcef55ab73e7e5f458f"
 ,"Code":"ROE"
-}
-,{"Digest":"e67095193f8fe313cd527329f74c1f10"
-,"Code":"SOI"
 }
 ,{"Digest":"e8a77a78187d54ac1bb8eec6926cf938"
 ,"Code":"AL"
