@@ -2,15 +2,18 @@ package com.gelakinetic.GathererScraper;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.zip.GZIPInputStream;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -20,6 +23,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.google.common.net.PercentEscaper;
+import com.google.gson.Gson;
 
 /**
  * This class is filled with static functions which do the actual scraping from
@@ -53,7 +57,7 @@ public class GathererScraper {
 		}
 		return expansions;
 	}
-
+	
 	/**
 	 * This function scrapes all cards from a given expansion and posts updated
 	 * to UI
@@ -75,6 +79,25 @@ public class GathererScraper {
 		} catch (NoSuchAlgorithmException e) {
 			/* This should never happen */
 			return null;
+		}
+		
+		/* Get the card numbers from the old patch, just in case */
+		HashMap<String, String> cachedCollectorsNumbers = null;
+		try {
+			File oldPatchFile = new File("./patches/" + exp.mCode_gatherer + ".json.gzip");
+			FileInputStream oldFileInputStream = new FileInputStream(oldPatchFile);
+			GZIPInputStream oldGZIPInputStream = new GZIPInputStream(oldFileInputStream);
+			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream);
+			JsonPatch patch = (new Gson()).fromJson(oldInputStreamReader, JsonPatch.class);
+					
+			cachedCollectorsNumbers = new HashMap<String, String>();
+			for(JsonCard jCard : patch.t.p.o) {
+				/* Name is the key, collectors number is the value */
+				cachedCollectorsNumbers.put(jCard.a, jCard.m);
+			}
+		}
+		catch(Exception e) {
+			/* Eat it */
 		}
 		
 		ArrayList<Card> cardsArray = new ArrayList<Card>();
@@ -116,7 +139,7 @@ public class GathererScraper {
 		ArrayList<Card> scrapedCards = new ArrayList<Card>(cardsArray.size());
 		for (Card c : cardsArray) {
 
-			ArrayList<Card> tmpScrapedCards = scrapePage(Card.getUrl(c.mMultiverseId), exp, multiverseMap);
+			ArrayList<Card> tmpScrapedCards = scrapePage(Card.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
 			
 			if(tmpScrapedCards != null) {
 				for(Card tmpCard : tmpScrapedCards) {
@@ -220,10 +243,13 @@ public class GathererScraper {
 	 * @param cardUrl	The page to scrape
 	 * @param exp		The expansion of the cards on this page
 	 * @param multiverseMap	A map of card names to multiverse IDs
+	 * @param cachedCollectorsNumbers  A map of card names to collector's numbers
 	 * @return	An array list of scraped cards
 	 * @throws IOException Thrown if the Internet breaks
 	 */
-	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp, HashMap<String, Integer> multiverseMap) throws IOException {
+	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp,
+			HashMap<String, Integer> multiverseMap,
+			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
 
 		boolean usingGathererNumbers = false;
 
@@ -350,44 +376,18 @@ public class GathererScraper {
 				card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 	
 				/* Number */
-//				/* Try grabbing the number from magiccards.info first. It's more accurate than Gatherer */
-//				if(card.mNumber == null || card.mNumber.equals("")) {
-//					try {
-//						/* This line gets the image URL from a name, set code, and artist */
-//						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
-//								"\"+e%3A"+exp.mCode_mtgi+"%2Fen+a%3A\"" + card.mArtist.replace(" ", "+") + "\"")
-//								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-//	
-//						/* This picks the number out of the URL */
-//						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-//					}
-//					catch(Exception e) {
-//						/* Eat it */
-//					}
-//				}
-//				
-//				/* If that fails, try again, but without the artist this time */
-//				if(card.mNumber == null || card.mNumber.equals("")) {
-//					try {
-//						/* This line gets the image URL from a name, set code */
-//						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
-//								"\"+e%3A"+exp.mCode_mtgi+"%2Fen")
-//								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-//	
-//						/* This picks the number out of the URL */
-//						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-//					}
-//					catch(Exception e) {
-//						/* Eat it */
-//					}
-//				}
-	
-				/* If the mtgi lookup failed, try gatherer second */
+				/* Try pulling the card number out of the cache first */
+				if(cachedCollectorsNumbers != null) {
+					card.mNumber = cachedCollectorsNumbers.get(card.mName);
+				}
+				
+				/* If that didn't work, try getting it from Gatherer */
 				if(card.mNumber == null || card.mNumber.equals("")) {
 					card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
 					usingGathererNumbers = true;
 				}
 	
+				/* If that didn't work, print a warning */
 				if(card.mNumber == null || card.mNumber.equals("")) {
 					System.out.println(String.format("[%3s]\t%s\tNo Number Found",
 							card.mExpansion,
