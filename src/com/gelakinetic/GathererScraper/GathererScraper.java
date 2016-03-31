@@ -350,37 +350,37 @@ public class GathererScraper {
 				card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 	
 				/* Number */
-				/* Try grabbing the number from magiccards.info first. It's more accurate than Gatherer */
-				if(card.mNumber == null || card.mNumber.equals("")) {
-					try {
-						/* This line gets the image URL from a name, set code, and artist */
-						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
-								"\"+e%3A"+exp.mCode_mtgi+"%2Fen+a%3A\"" + card.mArtist.replace(" ", "+") + "\"")
-								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-	
-						/* This picks the number out of the URL */
-						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-					}
-					catch(Exception e) {
-						/* Eat it */
-					}
-				}
-				
-				/* If that fails, try again, but without the artist this time */
-				if(card.mNumber == null || card.mNumber.equals("")) {
-					try {
-						/* This line gets the image URL from a name, set code */
-						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
-								"\"+e%3A"+exp.mCode_mtgi+"%2Fen")
-								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
-	
-						/* This picks the number out of the URL */
-						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
-					}
-					catch(Exception e) {
-						/* Eat it */
-					}
-				}
+//				/* Try grabbing the number from magiccards.info first. It's more accurate than Gatherer */
+//				if(card.mNumber == null || card.mNumber.equals("")) {
+//					try {
+//						/* This line gets the image URL from a name, set code, and artist */
+//						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
+//								"\"+e%3A"+exp.mCode_mtgi+"%2Fen+a%3A\"" + card.mArtist.replace(" ", "+") + "\"")
+//								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
+//	
+//						/* This picks the number out of the URL */
+//						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+//					}
+//					catch(Exception e) {
+//						/* Eat it */
+//					}
+//				}
+//				
+//				/* If that fails, try again, but without the artist this time */
+//				if(card.mNumber == null || card.mNumber.equals("")) {
+//					try {
+//						/* This line gets the image URL from a name, set code */
+//						String url = ConnectWithRetries("http://magiccards.info/query?q=\"" + card.mName.replace(" ", "+") +
+//								"\"+e%3A"+exp.mCode_mtgi+"%2Fen")
+//								.getElementsByAttributeValue("alt", card.mName).get(0).attr("src");
+//	
+//						/* This picks the number out of the URL */
+//						card.mNumber = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+//					}
+//					catch(Exception e) {
+//						/* Eat it */
+//					}
+//				}
 	
 				/* If the mtgi lookup failed, try gatherer second */
 				if(card.mNumber == null || card.mNumber.equals("")) {
