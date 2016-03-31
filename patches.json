@@ -574,6 +574,10 @@
 ,"Name":"Duel Decks: Venser vs. Koth"
 ,"Code":"VVK"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/W16.json.gzip"
+,"Name":"Welcome Deck 2016"
+,"Code":"W16"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/WL.json.gzip"
 ,"Name":"Weatherlight"
 ,"Code":"WL"
@@ -587,5 +591,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"03\/30\/2016"
+,"Date":"03\/31\/2016"
 }

@@ -74,6 +74,7 @@
 ,"BFZ"
 ,"OGW"
 ,"SOI"
+,"W16"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
@@ -132,6 +133,7 @@
 ,"BFZ"
 ,"OGW"
 ,"SOI"
+,"W16"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancestral Vision"
@@ -338,5 +340,5 @@
 ,"Banlist":[]
 }
 }
-,"Date":"03\/30\/2016"
+,"Date":"03\/31\/2016"
 }

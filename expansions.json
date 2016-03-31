@@ -52,15 +52,6 @@
 ,"date":1401595200000
 ,"code":"VMA"
 }
-,{"tcgp":""
-,"subsets":"Welcome Deck 2016##"
-,"name":"Welcome Deck 2016"
-,"mtgi":""
-,"mkm":""
-,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-,"date":""
-,"code":""
-}
 ,{"tcgp":"10th Edition"
 ,"subsets":"Tenth Edition##"
 ,"name":"Tenth Edition"
@@ -1356,6 +1347,15 @@
 ,"digest":[-87,-74,-61,-58,-17,-3,16,45,61,67,81,91,95,121,122,125]
 ,"date":862459200000
 ,"code":"WL"
+}
+,{"tcgp":"Welcome Deck 2016"
+,"subsets":"Welcome Deck 2016##"
+,"name":"Welcome Deck 2016"
+,"mtgi":"W16"
+,"mkm":"Welcome Deck 2016"
+,"digest":[-128,-111,-102,-76,-36,-28,-6,5,10,23,46,49,54,66,122,124]
+,"date":1456808400000
+,"code":"W16"
 }
 ,{"tcgp":"Worldwake"
 ,"subsets":"Worldwake##"
