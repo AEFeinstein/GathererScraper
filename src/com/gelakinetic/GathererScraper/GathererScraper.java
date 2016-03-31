@@ -444,22 +444,114 @@ public class GathererScraper {
 					card.mColor = "C";
 				}
 	
-				/* Because the ORI walkers don't have color listed... */
+				/* Because Wizards stopped listing color for backface cards... */
 				if(card.mExpansion.equals("ORI")) {
-					if(card.mName.contains("Gideon, Battle-Forged")) {
+					if(card.mName.equals("Gideon, Battle-Forged")) {
 						card.mColor = "W";
 					}
-					else if(card.mName.contains("Jace, Telepath Unbound")) {
+					else if(card.mName.equals("Jace, Telepath Unbound")) {
 						card.mColor = "U";
 					}
-					else if(card.mName.contains("Liliana, Defiant Necromancer")) {
+					else if(card.mName.equals("Liliana, Defiant Necromancer")) {
 						card.mColor = "B";
 					}
-					else if(card.mName.contains("Chandra, Roaring Flame")) {
+					else if(card.mName.equals("Chandra, Roaring Flame")) {
 						card.mColor = "R";
 					}
-					else if(card.mName.contains("Nissa, Sage Animist")) {
+					else if(card.mName.equals("Nissa, Sage Animist")) {
 						card.mColor = "G";
+					}
+				}
+				else if (card.mExpansion.equals("SOI")) {
+					if (card.mName.equals("Ancient of the Equinox")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Arlinn, Embraced by the Moon")) {
+						card.mColor = "RG";
+					}
+					else if (card.mName.equals("Avacyn, the Purifier")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Awoken Horror")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Bearer of Overwhelming Truths")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Branded Howler")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Demon-Possessed Witch")) {
+						card.mColor = "B";
+					}
+					else if (card.mName.equals("Flameheart Werewolf")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Gatstaf Ravagers")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Heir to the Night")) {
+						card.mColor = "B";
+					}
+					else if (card.mName.equals("Incited Rabble")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Infectious Curse")) {
+						card.mColor = "B";
+					}
+					else if (card.mName.equals("Insidious Mist")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Krallenhorde Howler")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Lambholt Butcher")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Lone Wolf of the Natterknolls")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Lunarch Inquisitors")) {
+						card.mColor = "W";
+					}
+					else if (card.mName.equals("Moonrise Intruder")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Neck Breaker")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("One of the Pack")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Ormendahl, Profane Prince")) {
+						card.mColor = "B";
+					}
+					else if (card.mName.equals("Perfected Form")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Persistent Nightmare")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Skin Shedder")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Timber Shredder")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Unimpeded Trespasser")) {
+						card.mColor = "U";
+					}
+					else if (card.mName.equals("Vildin-Pack Alpha")) {
+						card.mColor = "R";
+					}
+					else if (card.mName.equals("Wayward Disciple")) {
+						card.mColor = "B";
+					}
+					else if (card.mName.equals("Werewolf of Ancient Hunger")) {
+						card.mColor = "G";
+					}
+					else if (card.mName.equals("Westvale Cult Leader")) {
+						card.mColor = "W";
 					}
 				}
 	
