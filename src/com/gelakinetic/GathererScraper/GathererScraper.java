@@ -564,13 +564,14 @@ public class GathererScraper {
 			 * numbers, and this is a multicard, sort the card parts and renumber
 			 * the letters alphabetically 
 			 */
+			/* Edit: Seems to be better now, commenting out instead of deleting just in case
 			if(scrapedCards.size() > 1 && usingGathererNumbers) {
 				Collections.sort(scrapedCards, Card.getNameComparator());
 				for(int i = 0; i < scrapedCards.size(); i++) {
 					scrapedCards.get(i).mNumber = scrapedCards.get(i).mNumber.replaceAll("[A-Za-z]", ((char)('a' + i)) + "");
 				}
 			}
-			
+			*/
 			scrapedCardsAllPages.addAll(scrapedCards);
 		}
 		return scrapedCardsAllPages;
