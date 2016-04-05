@@ -13,6 +13,7 @@
 ,"Imperial Seal"
 ,"Library of Alexandria"
 ,"Lion's Eye Diamond"
+,"Lodestone Golem"
 ,"Lotus Petal"
 ,"Mana Crypt"
 ,"Mana Vault"
@@ -134,8 +135,7 @@
 ,"SOI"
 ]
 ,"Restrictedlist":[]
-,"Banlist":["Ancestral Vision"
-,"Ancient Den"
+,"Banlist":["Ancient Den"
 ,"Birthing Pod"
 ,"Blazing Shoal"
 ,"Bloodbraid Elf"
@@ -145,6 +145,7 @@
 ,"Deathrite Shaman"
 ,"Dig Through Time"
 ,"Dread Return"
+,"Eye of Ugin"
 ,"Glimpse of Nature"
 ,"Great Furnace"
 ,"Green Sun's Zenith"
@@ -163,7 +164,6 @@
 ,"Skullclamp"
 ,"Splinter Twin"
 ,"Summer Bloom"
-,"Sword of the Meek"
 ,"Treasure Cruise"
 ,"Tree of Tales"
 ,"Umezawa's Jitte"
@@ -338,5 +338,5 @@
 ,"Banlist":[]
 }
 }
-,"Date":"03\/30\/2016"
+,"Date":"04\/04\/2016"
 }
