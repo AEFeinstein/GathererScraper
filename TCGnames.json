@@ -163,6 +163,9 @@
 ,{"TCGName":"Duel Decks: Zendikar vs. Eldrazi"
 ,"Code":"DDP"
 }
+,{"TCGName":"Eternal Masters"
+,"Code":"EMA"
+}
 ,{"TCGName":"Eventide"
 ,"Code":"EVE"
 }
@@ -443,5 +446,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"03\/31\/2016"
+,"Date":"06\/07\/2016"
 }

@@ -198,6 +198,10 @@
 ,"Name":"Duel Decks: Divine vs. Demonic"
 ,"Code":"DVD"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EMA.json.gzip"
+,"Name":"Eternal Masters"
+,"Code":"EMA"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/EVE.json.gzip"
 ,"Name":"Eventide"
 ,"Code":"EVE"
@@ -591,5 +595,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"03\/31\/2016"
+,"Date":"06\/07\/2016"
 }

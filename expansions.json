@@ -547,6 +547,15 @@
 ,"date":1438401600000
 ,"code":"DDP"
 }
+,{"tcgp":"Eternal Masters"
+,"subsets":"Eternal Masters##"
+,"name":"Eternal Masters"
+,"mtgi":"EMA"
+,"mkm":"Eternal Masters"
+,"digest":[-126,-122,-98,-80,-66,-60,-22,-20,-17,23,44,54,76,78,100,116]
+,"date":1464753600000
+,"code":"EMA"
+}
 ,{"tcgp":"Eventide"
 ,"subsets":"Eventide##"
 ,"name":"Eventide"
