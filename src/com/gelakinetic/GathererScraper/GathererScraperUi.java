@@ -73,6 +73,7 @@ public class GathererScraperUi {
 	private static final String	EXPANSION_FILE_NAME	= "expansions.json";
 	public static final String	LEGAL_FILE_NAME		= "legality.json";
 	private static final String DIGESTS_FILE_NAME	= "digests.json";
+	private static final String FOIL_FILE_NAME		= "canBeFoil.json";
 	private static final String	APPMAP_FILE_NAME	= "appmap-com.gelakinetic.mtgfam.xml";
 
 	private JProgressBar		mExpansionProgressBar;
@@ -91,11 +92,13 @@ public class GathererScraperUi {
 	File						mExpansionsFile		= null;
 	File						mAppmapFile			= null;
 	File						mDigestsFile		= null;
+	File						mFoilsFile			= null;
 
 	private JSONArray			mPatchesArray		= new JSONArray();
 	private JSONArray			mTcgNamesArray		= new JSONArray();
 	private JSONArray			mMkmNamesArray		= new JSONArray();
 	private JSONArray			mDigestsArray		= new JSONArray();
+	private JSONArray			mCanBeFoilArray		= new JSONArray();
 	private HashSet<Integer>	mAllMultiverseIds;
 
 	private int					mNumExpansions;
@@ -155,6 +158,7 @@ public class GathererScraperUi {
 		mLegalityFile = new File(mFilesPath, LEGAL_FILE_NAME);
 		mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
 		mDigestsFile = new File(mFilesPath, DIGESTS_FILE_NAME);
+		mFoilsFile = new File(mFilesPath, FOIL_FILE_NAME);
 
 		/*
 		 * If the expansion file isn't found, don't bother running the
@@ -260,6 +264,9 @@ public class GathererScraperUi {
 				}
 				if (mDigestsFile.exists()) {
 					mDigestsArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mDigestsFile))).get("Digests");
+				}
+				if(mFoilsFile.exists()) {
+					mCanBeFoilArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mFoilsFile))).get("CanBeFoil");
 				}
 				mAllMultiverseIds = new HashSet<Integer>();
 				if(mAppmapFile.exists()) {
@@ -378,6 +385,7 @@ public class GathererScraperUi {
 							mTcgNamesArray.clear();
 							mMkmNamesArray.clear();
 							mDigestsArray.clear();
+							mCanBeFoilArray.clear();
 						}
 
 						/* Get today's date */
@@ -412,6 +420,10 @@ public class GathererScraperUi {
 						JSONObject DigestsFile = new JSONObject();
 						DigestsFile.put("Date", date);
 						DigestsFile.put("Digests", mDigestsArray);
+
+						JSONObject CanBeFoilFile = new JSONObject();
+						CanBeFoilFile.put("Date", date);
+						CanBeFoilFile.put("CanBeFoil", mCanBeFoilArray);
 
 						/*
 						 * Make a thread pool to scrape each set in it's own
@@ -453,6 +465,11 @@ public class GathererScraperUi {
 											digest.put("Code", exp.mCode_gatherer);
 											digest.put("Digest", exp.getStringDigest());
 											addToArray(mDigestsArray, digest);
+											
+											JSONObject canBeFoil = new JSONObject();
+											canBeFoil.put("Code", exp.mCode_gatherer);
+											canBeFoil.put("canBeFoil", exp.mCanBeFoil);
+											addToArray(mCanBeFoilArray, canBeFoil);
 										}
 										catch (Exception e) {
 											e.printStackTrace();
@@ -505,6 +522,12 @@ public class GathererScraperUi {
 							Collections.sort(mDigestsArray, JSONArray.getComparator());
 							file = new FileWriter(new File(mFilesPath, DIGESTS_FILE_NAME));
 							file.write(DigestsFile.toJSONString());
+							file.flush();
+							file.close();
+							
+							Collections.sort(mCanBeFoilArray, JSONArray.getComparator());
+							file = new FileWriter(new File(mFilesPath, FOIL_FILE_NAME));
+							file.write(CanBeFoilFile.toJSONString());
 							file.flush();
 							file.close();
 						}
