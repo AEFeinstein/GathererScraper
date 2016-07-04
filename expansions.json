@@ -3,6 +3,7 @@
 ,"name":"Masters Edition II"
 ,"mtgi":"ME2"
 ,"mkm":""
+,"foil":true
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1220241600000
 ,"code":"ME2"
@@ -12,6 +13,7 @@
 ,"name":"Masters Edition III"
 ,"mtgi":"ME3"
 ,"mkm":""
+,"foil":true
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1251777600000
 ,"code":"ME3"
@@ -21,6 +23,7 @@
 ,"name":"Masters Edition IV"
 ,"mtgi":"ME4"
 ,"mkm":""
+,"foil":true
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1293858000000
 ,"code":"ME4"
@@ -30,6 +33,7 @@
 ,"name":"Masters Edition"
 ,"mtgi":"MED"
 ,"mkm":"  "
+,"foil":true
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1188619200000
 ,"code":"ME"
@@ -39,6 +43,7 @@
 ,"name":"Tempest Remastered"
 ,"mtgi":""
 ,"mkm":""
+,"foil":false
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":""
 ,"code":""
@@ -48,6 +53,7 @@
 ,"name":"Vintage Masters"
 ,"mtgi":"VMA"
 ,"mkm":""
+,"foil":true
 ,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ,"date":1401595200000
 ,"code":"VMA"
@@ -57,6 +63,7 @@
 ,"name":"Tenth Edition"
 ,"mtgi":"10E"
 ,"mkm":"Tenth Edition"
+,"foil":true
 ,"digest":[-119,-116,-99,-72,-71,-47,-27,-3,28,44,69,76,97,98,98,109]
 ,"date":1183262400000
 ,"code":"10E"
@@ -66,6 +73,7 @@
 ,"name":"Seventh Edition"
 ,"mtgi":"7E"
 ,"mkm":"Seventh Edition"
+,"foil":true
 ,"digest":[-120,-114,-105,-97,-68,-65,-50,-10,28,37,49,50,53,53,56,64]
 ,"date":986101200000
 ,"code":"7E"
@@ -75,6 +83,7 @@
 ,"name":"Eighth Edition"
 ,"mtgi":"8E"
 ,"mkm":"Eighth Edition"
+,"foil":true
 ,"digest":[-124,-111,-50,-38,5,8,21,26,28,46,49,59,65,71,101,127]
 ,"date":1057032000000
 ,"code":"8E"
@@ -84,6 +93,7 @@
 ,"name":"Ninth Edition"
 ,"mtgi":"9E"
 ,"mkm":"Ninth Edition"
+,"foil":true
 ,"digest":[-125,-104,-103,-99,-94,-75,-25,-15,-3,8,13,21,54,71,79,89]
 ,"date":1120190400000
 ,"code":"9E"
@@ -93,6 +103,7 @@
 ,"name":"Alara Reborn"
 ,"mtgi":"ARB"
 ,"mkm":"Alara Reborn"
+,"foil":true
 ,"digest":[-112,-105,-98,-75,-55,-44,-23,15,39,39,40,44,50,50,124,124]
 ,"date":1238558400000
 ,"code":"ARB"
@@ -102,6 +113,7 @@
 ,"name":"Alliances"
 ,"mtgi":"AI"
 ,"mkm":"Alliances"
+,"foil":false
 ,"digest":[-110,-89,-84,-72,-58,-24,-18,-7,24,27,56,84,108,120,122,125]
 ,"date":833601600000
 ,"code":"AL"
@@ -111,6 +123,7 @@
 ,"name":"Limited Edition Alpha"
 ,"mtgi":"AL"
 ,"mkm":"Alpha"
+,"foil":false
 ,"digest":[-114,-93,-80,-72,-70,-61,-27,-10,9,45,51,65,78,81,107,111]
 ,"date":744177600000
 ,"code":"A"
@@ -120,6 +133,7 @@
 ,"name":"Antiquities"
 ,"mtgi":"AQ"
 ,"mkm":"Antiquities"
+,"foil":false
 ,"digest":[-125,-102,-93,-61,-54,-42,-41,-22,-4,2,57,84,90,98,99,122]
 ,"date":765176400000
 ,"code":"AQ"
@@ -129,6 +143,7 @@
 ,"name":"Apocalypse"
 ,"mtgi":"AP"
 ,"mkm":"Apocalypse"
+,"foil":true
 ,"digest":[-115,-113,-110,-108,-101,-101,-83,-25,-9,13,26,56,65,84,95,111]
 ,"date":988689600000
 ,"code":"AP"
@@ -138,6 +153,7 @@
 ,"name":"Arabian Nights"
 ,"mtgi":"AN"
 ,"mkm":"Arabian Nights"
+,"foil":false
 ,"digest":[-120,-120,-120,-113,-110,-107,-78,-45,-24,13,53,75,86,95,122,123]
 ,"date":754722000000
 ,"code":"AN"
@@ -147,6 +163,7 @@
 ,"name":"Archenemy"
 ,"mtgi":"ARC"
 ,"mkm":"Archenemy"
+,"foil":false
 ,"digest":[-127,-103,-99,-93,-86,-80,-74,-51,-41,-5,-4,55,63,87,89,94]
 ,"date":1275364800000
 ,"code":"ARC"
@@ -156,6 +173,7 @@
 ,"name":"Avacyn Restored"
 ,"mtgi":"AVR"
 ,"mkm":"Avacyn Restored"
+,"foil":true
 ,"digest":[-120,-115,-99,-63,-33,-2,13,17,25,43,47,86,89,96,100,111]
 ,"date":1335844800000
 ,"code":"AVR"
@@ -165,6 +183,7 @@
 ,"name":"Battle Royale Box Set"
 ,"mtgi":"BR"
 ,"mkm":"Battle Royale"
+,"foil":false
 ,"digest":[-118,-94,-83,-40,-35,-30,-24,-2,1,35,52,63,76,89,108,110]
 ,"date":941432400000
 ,"code":"BR"
@@ -174,6 +193,7 @@
 ,"name":"Battle for Zendikar"
 ,"mtgi":"BFZ"
 ,"mkm":"Battle for Zendikar"
+,"foil":true
 ,"digest":[-127,-124,-102,-67,-61,-13,2,3,4,36,37,42,66,71,86,126]
 ,"date":1441080000000
 ,"code":"BFZ"
@@ -183,6 +203,7 @@
 ,"name":"Beatdown Box Set"
 ,"mtgi":"BD"
 ,"mkm":"Beatdown"
+,"foil":false
 ,"digest":[-127,-92,-89,-83,-71,-59,-54,-31,-28,-24,-9,17,45,65,84,106]
 ,"date":975646800000
 ,"code":"BD"
@@ -192,6 +213,7 @@
 ,"name":"Limited Edition Beta"
 ,"mtgi":"BE"
 ,"mkm":"Beta"
+,"foil":false
 ,"digest":[-94,-78,-77,-30,-21,-8,-7,-7,7,13,42,46,83,107,108,117]
 ,"date":749448000000
 ,"code":"B"
@@ -201,6 +223,7 @@
 ,"name":"Betrayers of Kamigawa"
 ,"mtgi":"BOK"
 ,"mkm":"Betrayers of Kamigawa"
+,"foil":true
 ,"digest":[-118,-115,-109,-93,-80,-54,-53,-41,-31,-19,39,44,97,97,98,114]
 ,"date":1104555600000
 ,"code":"BOK"
@@ -210,6 +233,7 @@
 ,"name":"Born of the Gods"
 ,"mtgi":"BNG"
 ,"mkm":"Born of the Gods"
+,"foil":true
 ,"digest":[-125,-113,-107,-81,-25,-13,12,43,51,63,64,66,76,92,98,114]
 ,"date":1391230800000
 ,"code":"BNG"
@@ -219,6 +243,7 @@
 ,"name":"Champions of Kamigawa"
 ,"mtgi":"CHK"
 ,"mkm":"Champions of Kamigawa"
+,"foil":true
 ,"digest":[-121,-112,-84,-56,-43,-16,-5,14,15,16,32,56,78,95,102,112]
 ,"date":1094011200000
 ,"code":"CHK"
@@ -228,6 +253,7 @@
 ,"name":"Chronicles"
 ,"mtgi":"CH"
 ,"mkm":"Chronicles"
+,"foil":false
 ,"digest":[-115,-108,-91,-82,-25,-24,5,8,8,19,60,62,76,111,121,125]
 ,"date":804571200000
 ,"code":"CH"
@@ -237,6 +263,7 @@
 ,"name":"Classic Sixth Edition"
 ,"mtgi":"6E"
 ,"mkm":"Sixth Edition"
+,"foil":false
 ,"digest":[-128,-127,-127,-116,-104,-95,-82,-72,-37,-24,-15,-9,-8,24,76,102]
 ,"date":922942800000
 ,"code":"6E"
@@ -246,6 +273,7 @@
 ,"name":"Coldsnap"
 ,"mtgi":"CS"
 ,"mkm":"Coldsnap"
+,"foil":true
 ,"digest":[-104,-90,-86,-84,-76,-57,-43,-37,-25,-18,-18,30,55,64,92,125]
 ,"date":1149134400000
 ,"code":"CS"
@@ -255,6 +283,7 @@
 ,"name":"Commander 2013 Edition"
 ,"mtgi":"C13"
 ,"mkm":"Commander 2013"
+,"foil":false
 ,"digest":[-116,-70,-49,-48,-34,-11,-10,8,16,53,54,57,64,65,74,84]
 ,"date":1383278400000
 ,"code":"C13"
@@ -264,6 +293,7 @@
 ,"name":"Commander 2014"
 ,"mtgi":"C14"
 ,"mkm":"Commander 2014"
+,"foil":false
 ,"digest":[-119,-115,-103,-45,-39,4,10,10,23,27,37,40,47,62,80,116]
 ,"date":1414814400000
 ,"code":"C14"
@@ -273,6 +303,7 @@
 ,"name":"Commander 2015"
 ,"mtgi":"C15"
 ,"mkm":"Commander 2015"
+,"foil":false
 ,"digest":[-100,-92,-88,-86,-84,-64,-47,-43,44,54,68,68,70,83,95,126]
 ,"date":1446350400000
 ,"code":"C15"
@@ -282,6 +313,7 @@
 ,"name":"Magic: The Gathering-Commander"
 ,"mtgi":"CMD"
 ,"mkm":"Commander"
+,"foil":false
 ,"digest":[-119,-116,-107,-89,-73,-18,2,22,47,62,69,74,79,90,96,120]
 ,"date":1306900800000
 ,"code":"CMD"
@@ -291,6 +323,7 @@
 ,"name":"Commander's Arsenal"
 ,"mtgi":"CMA"
 ,"mkm":"Commander's Arsenal"
+,"foil":false
 ,"digest":[-122,-109,-99,-50,-35,-32,-27,-14,-6,13,43,49,50,80,97,124]
 ,"date":1351742400000
 ,"code":"CRS"
@@ -300,6 +333,7 @@
 ,"name":"Conflux"
 ,"mtgi":"CFX"
 ,"mkm":"Conflux"
+,"foil":true
 ,"digest":[-123,-107,-77,-74,-72,-20,-16,-10,-10,-9,-3,50,64,75,117,122]
 ,"date":1230786000000
 ,"code":"CFX"
@@ -309,6 +343,7 @@
 ,"name":"Magic: The Gathering\u2014Conspiracy"
 ,"mtgi":"CNS"
 ,"mkm":"Conspiracy"
+,"foil":true
 ,"digest":[-127,-119,-113,-87,-83,-76,-65,-60,-59,-42,-1,32,53,97,109,118]
 ,"date":1401595200000
 ,"code":"CNS"
@@ -318,6 +353,7 @@
 ,"name":"Dark Ascension"
 ,"mtgi":"DKA"
 ,"mkm":"Dark Ascension"
+,"foil":true
 ,"digest":[-128,-125,-93,-59,-24,-15,12,15,16,49,56,61,74,87,90,104]
 ,"date":1328072400000
 ,"code":"DKA"
@@ -327,6 +363,7 @@
 ,"name":"Darksteel"
 ,"mtgi":"DS"
 ,"mkm":"Darksteel"
+,"foil":true
 ,"digest":[-121,-121,-81,-76,-71,-46,-43,-37,-23,3,15,54,55,60,93,113]
 ,"date":1072933200000
 ,"code":"DS"
@@ -336,6 +373,7 @@
 ,"name":"Dissension"
 ,"mtgi":"DI"
 ,"mkm":"Dissension"
+,"foil":true
 ,"digest":[-118,-110,-101,-80,6,22,35,37,56,63,82,85,109,110,110,125]
 ,"date":1143867600000
 ,"code":"DIS"
@@ -345,6 +383,7 @@
 ,"name":"Dragon's Maze"
 ,"mtgi":"DGM"
 ,"mkm":"Dragon's Maze"
+,"foil":true
 ,"digest":[-120,-98,-83,-59,-59,-45,-42,-30,-13,-9,-2,15,23,33,60,92]
 ,"date":1367380800000
 ,"code":"DGM"
@@ -354,6 +393,7 @@
 ,"name":"Dragons of Tarkir"
 ,"mtgi":"DTK"
 ,"mkm":"Dragons of Tarkir"
+,"foil":true
 ,"digest":[-117,-115,-114,-103,-98,-30,-30,-16,18,50,60,60,75,81,84,119]
 ,"date":1425186000000
 ,"code":"DTK"
@@ -363,6 +403,7 @@
 ,"name":"Duel Decks: Ajani vs. Nicol Bolas"
 ,"mtgi":"DDH"
 ,"mkm":"Duel Decks: Ajani vs. Nicol Bolas"
+,"foil":false
 ,"digest":[-98,-97,-75,-75,-75,-68,-53,-34,-18,-10,12,54,77,80,90,105]
 ,"date":1312171200000
 ,"code":"AVB"
@@ -372,6 +413,7 @@
 ,"name":"Duel Decks Anthology, Divine vs. Demonic"
 ,"mtgi":"DDADVD"
 ,"mkm":"Duel Decks: Anthology"
+,"foil":false
 ,"digest":[-122,-118,-117,-107,-102,-61,-31,-6,5,14,53,55,59,64,76,97]
 ,"date":1417410000000
 ,"code":"DD3DVD"
@@ -381,6 +423,7 @@
 ,"name":"Duel Decks Anthology, Elves vs. Goblins"
 ,"mtgi":"DDAEVG"
 ,"mkm":"Duel Decks: Anthology"
+,"foil":false
 ,"digest":[-98,-83,-67,-48,-41,0,1,10,21,43,55,59,65,100,115,121]
 ,"date":1417410000000
 ,"code":"DD3EVG"
@@ -390,6 +433,7 @@
 ,"name":"Duel Decks Anthology, Garruk vs. Liliana"
 ,"mtgi":"DDAGVL"
 ,"mkm":"Duel Decks: Anthology"
+,"foil":false
 ,"digest":[-124,-117,-105,-77,-58,-34,-27,-26,-17,17,23,43,44,53,82,125]
 ,"date":1417410000000
 ,"code":"DD3GVL"
@@ -399,6 +443,7 @@
 ,"name":"Duel Decks Anthology, Jace vs. Chandra"
 ,"mtgi":"DDAJVC"
 ,"mkm":"Duel Decks: Anthology"
+,"foil":false
 ,"digest":[-120,-112,-105,-80,-70,-57,-44,-29,4,10,17,25,35,70,88,121]
 ,"date":1417410000000
 ,"code":"DD3JVC"
@@ -408,6 +453,7 @@
 ,"name":"Duel Decks: Blessed vs. Cursed"
 ,"mtgi":"DDQ"
 ,"mkm":"Duel Decks: Blessed vs. Cursed"
+,"foil":false
 ,"digest":[-111,-77,-48,-42,-26,-19,17,34,39,54,73,90,91,91,107,123]
 ,"date":1454302800000
 ,"code":"DDQ"
@@ -417,6 +463,7 @@
 ,"name":"Duel Decks: Divine vs. Demonic"
 ,"mtgi":"DVD"
 ,"mkm":"Duel Decks: Divine vs. Demonic"
+,"foil":false
 ,"digest":[-120,-115,-109,-93,-92,-87,-75,-54,-7,-2,2,4,26,92,95,104]
 ,"date":1238558400000
 ,"code":"DVD"
@@ -426,6 +473,7 @@
 ,"name":"Duel Decks: Elspeth vs. Kiora"
 ,"mtgi":"DDO"
 ,"mkm":"Duel Decks: Elspeth vs. Kiora"
+,"foil":false
 ,"digest":[-99,-90,-78,-48,-48,-46,-35,-34,-20,16,25,42,56,90,103,117]
 ,"date":1422766800000
 ,"code":"DDO"
@@ -435,6 +483,7 @@
 ,"name":"Duel Decks: Elspeth vs. Tezzeret"
 ,"mtgi":"DDF"
 ,"mkm":"Duel Decks: Elspeth vs. Tezzeret"
+,"foil":false
 ,"digest":[-124,-111,-110,-105,-97,-72,-70,-35,-16,-15,-5,27,69,103,124,126]
 ,"date":1283313600000
 ,"code":"EVT"
@@ -444,6 +493,7 @@
 ,"name":"Duel Decks: Elves vs. Goblins"
 ,"mtgi":"EVG"
 ,"mkm":"Duel Decks: Elves vs. Goblins"
+,"foil":false
 ,"digest":[-127,-123,-120,-117,-98,-88,-68,-38,-20,-6,4,38,40,75,123,124]
 ,"date":1193889600000
 ,"code":"EVG"
@@ -453,6 +503,7 @@
 ,"name":"Duel Decks: Garruk vs. Liliana"
 ,"mtgi":"GVL"
 ,"mkm":"Duel Decks: Garruk vs. Liliana"
+,"foil":false
 ,"digest":[-122,-114,-64,-60,-52,-46,-21,-20,-7,24,43,54,81,113,121,122]
 ,"date":1254369600000
 ,"code":"GVL"
@@ -462,6 +513,7 @@
 ,"name":"Duel Decks: Heroes vs. Monsters"
 ,"mtgi":"DDL"
 ,"mkm":"Duel Decks: Heroes vs. Monsters"
+,"foil":false
 ,"digest":[-105,-91,-86,-57,-47,-38,-25,-21,1,2,45,86,100,115,122,126]
 ,"date":1378008000000
 ,"code":"HVM"
@@ -471,6 +523,7 @@
 ,"name":"Duel Decks: Izzet vs. Golgari"
 ,"mtgi":"DDJ"
 ,"mkm":"Duel Decks: Izzet vs. Golgari"
+,"foil":false
 ,"digest":[-119,-81,-72,-59,-42,-28,2,9,24,25,28,84,84,96,99,101]
 ,"date":1346472000000
 ,"code":"IVG"
@@ -480,6 +533,7 @@
 ,"name":"Duel Decks: Jace vs. Chandra"
 ,"mtgi":"JVC"
 ,"mkm":"Duel Decks: Jace vs. Chandra"
+,"foil":false
 ,"digest":[-107,-86,-49,-18,0,17,24,25,47,56,58,64,68,90,100,105]
 ,"date":1225512000000
 ,"code":"JVC"
@@ -489,6 +543,7 @@
 ,"name":"Duel Decks: Jace vs. Vraska"
 ,"mtgi":"DDM"
 ,"mkm":"Duel Decks: Jace vs. Vraska"
+,"foil":false
 ,"digest":[-127,-124,-103,-69,-65,-64,-64,-60,-19,-19,-16,0,37,54,98,102]
 ,"date":1393650000000
 ,"code":"DDM"
@@ -498,6 +553,7 @@
 ,"name":"Duel Decks: Knights vs. Dragons"
 ,"mtgi":"DDG"
 ,"mkm":"Duel Decks: Knights vs. Dragons"
+,"foil":false
 ,"digest":[-123,-73,-68,-58,-57,-28,-15,0,2,42,67,86,98,119,122,127]
 ,"date":1301630400000
 ,"code":"KVD"
@@ -507,6 +563,7 @@
 ,"name":"Duel Decks: Phyrexia vs. the Coalition"
 ,"mtgi":"PVC"
 ,"mkm":"Duel Decks: Phyrexia vs. The Coalition"
+,"foil":false
 ,"digest":[-126,-119,-110,-101,-88,-84,-25,2,29,36,45,61,97,111,122,125]
 ,"date":1267419600000
 ,"code":"PVC"
@@ -516,6 +573,7 @@
 ,"name":"Duel Decks: Sorin vs. Tibalt"
 ,"mtgi":"DDK"
 ,"mkm":"Duel Decks: Sorin vs. Tibalt"
+,"foil":false
 ,"digest":[-95,-69,-52,-32,38,41,54,56,56,60,61,90,95,107,114,121]
 ,"date":1362114000000
 ,"code":"SVT"
@@ -525,6 +583,7 @@
 ,"name":"Duel Decks: Speed vs. Cunning"
 ,"mtgi":"DDN"
 ,"mkm":"Duel Decks: Speed vs. Cunning"
+,"foil":false
 ,"digest":[-83,-73,-69,-43,-38,-30,-25,-24,-14,28,60,70,71,96,97,116]
 ,"date":1409544000000
 ,"code":"DDN"
@@ -534,6 +593,7 @@
 ,"name":"Duel Decks: Venser vs. Koth"
 ,"mtgi":"DDI"
 ,"mkm":"Duel Decks: Venser vs. Koth"
+,"foil":false
 ,"digest":[-117,-115,-86,-73,-53,-45,-29,-28,-13,5,26,67,85,91,95,121]
 ,"date":1333252800000
 ,"code":"VVK"
@@ -543,6 +603,7 @@
 ,"name":"Duel Decks: Zendikar vs. Eldrazi"
 ,"mtgi":"DDP"
 ,"mkm":"Duel Decks: Zendikar vs. Eldrazi"
+,"foil":false
 ,"digest":[-120,-103,-50,-25,-19,-10,4,13,13,52,67,90,93,100,104,117]
 ,"date":1438401600000
 ,"code":"DDP"
@@ -552,6 +613,7 @@
 ,"name":"Eternal Masters"
 ,"mtgi":"EMA"
 ,"mkm":"Eternal Masters"
+,"foil":true
 ,"digest":[-126,-122,-98,-80,-66,-60,-22,-20,-17,23,44,54,76,78,100,116]
 ,"date":1464753600000
 ,"code":"EMA"
@@ -561,6 +623,7 @@
 ,"name":"Eventide"
 ,"mtgi":"EVE"
 ,"mkm":"Eventide"
+,"foil":true
 ,"digest":[-109,-88,-74,-67,-59,-53,-34,-13,-7,8,22,23,37,58,111,118]
 ,"date":1214884800000
 ,"code":"EVE"
@@ -570,6 +633,7 @@
 ,"name":"Exodus"
 ,"mtgi":"EX"
 ,"mkm":"Exodus"
+,"foil":false
 ,"digest":[-127,-97,-72,-52,-25,-9,-1,5,20,36,55,62,63,83,90,108]
 ,"date":896673600000
 ,"code":"EX"
@@ -579,6 +643,7 @@
 ,"name":"Fallen Empires"
 ,"mtgi":"FE"
 ,"mkm":"Fallen Empires"
+,"foil":false
 ,"digest":[-114,-107,-58,-23,-7,7,40,59,61,63,64,101,101,112,114,121]
 ,"date":780984000000
 ,"code":"FE"
@@ -588,6 +653,7 @@
 ,"name":"Fate Reforged"
 ,"mtgi":"FRF"
 ,"mkm":"Fate Reforged"
+,"foil":true
 ,"digest":[-113,-105,-90,-63,-60,-51,-44,-37,-5,-2,36,54,65,78,92,102]
 ,"date":1420088400000
 ,"code":"FRF"
@@ -597,6 +663,7 @@
 ,"name":"Fifth Dawn"
 ,"mtgi":"5DN"
 ,"mkm":"Fifth Dawn"
+,"foil":true
 ,"digest":[-127,-121,-103,-96,-89,-64,-64,-62,-57,-42,3,38,66,80,87,105]
 ,"date":1083384000000
 ,"code":"FD"
@@ -606,6 +673,7 @@
 ,"name":"Fifth Edition"
 ,"mtgi":"5E"
 ,"mkm":"Fifth Edition"
+,"foil":false
 ,"digest":[-106,-105,-81,-59,-50,-30,-14,1,15,40,50,51,62,69,95,113]
 ,"date":857192400000
 ,"code":"5E"
@@ -615,6 +683,7 @@
 ,"name":"Fourth Edition"
 ,"mtgi":"4E"
 ,"mkm":"Fourth Edition"
+,"foil":false
 ,"digest":[-119,-87,-74,-69,-66,-54,-45,-33,-3,9,21,30,46,86,89,91]
 ,"date":796712400000
 ,"code":"4E"
@@ -624,6 +693,7 @@
 ,"name":"From the Vault: Angels"
 ,"mtgi":"V15"
 ,"mkm":"From the Vault: Angels"
+,"foil":false
 ,"digest":[-118,-115,-112,-66,-60,-14,-10,4,5,49,57,67,76,96,106,107]
 ,"date":1438401600000
 ,"code":"V15"
@@ -633,6 +703,7 @@
 ,"name":"From the Vault: Annihilation (2014)"
 ,"mtgi":"V14"
 ,"mkm":"From the Vault: Annihilation"
+,"foil":false
 ,"digest":[-121,-113,-93,-90,-82,-41,-36,14,28,28,30,39,46,56,77,116]
 ,"date":1406865600000
 ,"code":"V14"
@@ -642,6 +713,7 @@
 ,"name":"From the Vault: Dragons"
 ,"mtgi":"FVD"
 ,"mkm":"From the Vault: Dragons"
+,"foil":false
 ,"digest":[-124,-109,-64,-29,-23,-10,1,36,64,95,102,105,109,113,125,127]
 ,"date":1217563200000
 ,"code":"DRG"
@@ -651,6 +723,7 @@
 ,"name":"From the Vault: Exiled"
 ,"mtgi":"FVE"
 ,"mkm":"From the Vault: Exiled"
+,"foil":false
 ,"digest":[-122,-108,-103,-86,-70,-69,-33,-33,-25,39,65,86,90,103,121,121]
 ,"date":1249099200000
 ,"code":"EXL"
@@ -660,6 +733,7 @@
 ,"name":"From the Vault: Legends"
 ,"mtgi":"FVL"
 ,"mkm":"From the Vault: Legends"
+,"foil":false
 ,"digest":[-127,-118,-89,-41,3,20,30,50,59,71,74,78,81,81,89,112]
 ,"date":1312171200000
 ,"code":"LEG"
@@ -669,6 +743,7 @@
 ,"name":"From the Vault: Realms"
 ,"mtgi":"V12"
 ,"mkm":"From the Vault: Realms"
+,"foil":false
 ,"digest":[-120,-85,-77,-74,-73,-65,-65,-55,-33,-20,-1,1,30,36,84,86]
 ,"date":1343793600000
 ,"code":"RLM"
@@ -678,6 +753,7 @@
 ,"name":"From the Vault: Relics"
 ,"mtgi":"FVR"
 ,"mkm":"From the Vault: Relics"
+,"foil":false
 ,"digest":[-119,-112,-97,-40,-17,-15,7,18,20,22,33,76,84,117,122,123]
 ,"date":1280635200000
 ,"code":"RLC"
@@ -687,6 +763,7 @@
 ,"name":"From the Vault: Twenty"
 ,"mtgi":"V13"
 ,"mkm":"From the Vault: Twenty"
+,"foil":false
 ,"digest":[-88,-59,-50,-42,-40,-30,-17,1,12,15,16,41,63,65,84,115]
 ,"date":1375329600000
 ,"code":"V13"
@@ -696,6 +773,7 @@
 ,"name":"Future Sight"
 ,"mtgi":"FUT"
 ,"mkm":"Future Sight"
+,"foil":true
 ,"digest":[-122,-121,-111,-92,-58,-24,-17,-10,-5,16,22,27,54,70,70,79]
 ,"date":1177992000000
 ,"code":"FUT"
@@ -705,6 +783,7 @@
 ,"name":"Gatecrash"
 ,"mtgi":"GTC"
 ,"mkm":"Gatecrash"
+,"foil":true
 ,"digest":[-121,-109,-80,-57,-55,-18,-4,-2,11,12,62,93,97,106,120,124]
 ,"date":1357016400000
 ,"code":"GTC"
@@ -714,6 +793,7 @@
 ,"name":"Guildpact"
 ,"mtgi":"GP"
 ,"mkm":"Guildpact"
+,"foil":true
 ,"digest":[-120,-111,-106,-92,-80,-34,-26,1,2,10,14,27,45,69,77,82]
 ,"date":1136091600000
 ,"code":"GP"
@@ -723,6 +803,7 @@
 ,"name":"Homelands"
 ,"mtgi":"HL"
 ,"mkm":"Homelands"
+,"foil":false
 ,"digest":[-127,-119,-118,-111,-105,-92,-90,-52,-11,-9,22,22,39,47,54,55]
 ,"date":812520000000
 ,"code":"HL"
@@ -732,6 +813,7 @@
 ,"name":"Ice Age"
 ,"mtgi":"IA"
 ,"mkm":"Ice Age"
+,"foil":false
 ,"digest":[-111,-87,-71,-61,-45,-44,-27,-8,15,18,23,77,93,93,101,122]
 ,"date":801979200000
 ,"code":"IA"
@@ -741,6 +823,7 @@
 ,"name":"Innistrad"
 ,"mtgi":"ISD"
 ,"mkm":"Innistrad"
+,"foil":true
 ,"digest":[-125,-106,-87,-45,-44,-27,-20,-18,-13,-6,0,27,48,56,62,113]
 ,"date":1314849600000
 ,"code":"ISD"
@@ -750,6 +833,7 @@
 ,"name":"Invasion"
 ,"mtgi":"IN"
 ,"mkm":"Invasion"
+,"foil":true
 ,"digest":[-93,-83,-64,-48,-43,-28,-27,-15,-15,8,23,73,77,98,104,115]
 ,"date":967780800000
 ,"code":"IN"
@@ -759,6 +843,7 @@
 ,"name":"Journey into Nyx"
 ,"mtgi":"JOU"
 ,"mkm":"Journey into Nyx"
+,"foil":true
 ,"digest":[-117,-110,-107,-98,-86,-74,-69,-60,-44,-2,30,47,52,89,99,110]
 ,"date":1398916800000
 ,"code":"JOU"
@@ -768,6 +853,7 @@
 ,"name":"Judgment"
 ,"mtgi":"JU"
 ,"mkm":"Judgment"
+,"foil":true
 ,"digest":[-114,-108,-95,-90,-81,-80,-33,22,27,52,59,62,76,77,81,105]
 ,"date":1020225600000
 ,"code":"JU"
@@ -777,6 +863,7 @@
 ,"name":"Khans of Tarkir"
 ,"mtgi":"KTK"
 ,"mkm":"Khans of Tarkir"
+,"foil":true
 ,"digest":[-127,-64,-53,-51,-24,-14,-1,9,13,31,33,56,86,91,93,113]
 ,"date":1409544000000
 ,"code":"KTK"
@@ -786,6 +873,7 @@
 ,"name":"Legends"
 ,"mtgi":"LG"
 ,"mkm":"Legends"
+,"foil":false
 ,"digest":[-89,-88,-84,-47,-39,-36,-35,-32,24,47,52,74,85,86,96,98]
 ,"date":770443200000
 ,"code":"LG"
@@ -795,6 +883,7 @@
 ,"name":"Legions"
 ,"mtgi":"LE"
 ,"mkm":"Legions"
+,"foil":true
 ,"digest":[-121,-96,-95,-66,-62,-49,-10,-4,12,39,39,49,93,93,124,124]
 ,"date":1041397200000
 ,"code":"LE"
@@ -804,6 +893,7 @@
 ,"name":"Lorwyn"
 ,"mtgi":"LW"
 ,"mkm":"Lorwyn"
+,"foil":true
 ,"digest":[-93,-92,-65,-31,5,20,25,25,44,61,100,111,111,125,126,127]
 ,"date":1188619200000
 ,"code":"LRW"
@@ -813,6 +903,7 @@
 ,"name":"Magic 2010"
 ,"mtgi":"M10"
 ,"mkm":"Magic 2010"
+,"foil":true
 ,"digest":[-101,-88,-68,-58,-39,-26,-23,7,28,29,32,57,60,68,91,111]
 ,"date":1246420800000
 ,"code":"M10"
@@ -822,6 +913,7 @@
 ,"name":"Magic 2011"
 ,"mtgi":"M11"
 ,"mkm":"Magic 2011"
+,"foil":true
 ,"digest":[-106,-97,-97,-94,-79,-74,-72,-44,19,21,54,56,74,75,90,113]
 ,"date":1277956800000
 ,"code":"M11"
@@ -831,6 +923,7 @@
 ,"name":"Magic 2012"
 ,"mtgi":"M12"
 ,"mkm":"Magic 2012"
+,"foil":true
 ,"digest":[-80,-76,-67,-63,-47,-41,-26,20,36,53,59,73,75,79,83,127]
 ,"date":1309492800000
 ,"code":"M12"
@@ -840,6 +933,7 @@
 ,"name":"Magic 2013"
 ,"mtgi":"M13"
 ,"mkm":"Magic 2013"
+,"foil":true
 ,"digest":[-81,-60,-48,-38,-20,-18,28,33,44,45,67,77,94,100,106,111]
 ,"date":1341115200000
 ,"code":"M13"
@@ -849,6 +943,7 @@
 ,"name":"Magic 2014 Core Set"
 ,"mtgi":"M14"
 ,"mkm":"Magic 2014"
+,"foil":true
 ,"digest":[-86,-78,-46,-40,-18,-17,-16,6,7,24,30,71,78,95,109,113]
 ,"date":1372651200000
 ,"code":"M14"
@@ -858,6 +953,7 @@
 ,"name":"Magic 2015 Core Set"
 ,"mtgi":"M15"
 ,"mkm":"Magic 2015"
+,"foil":true
 ,"digest":[-124,-122,-118,-107,-106,-101,-87,-70,-50,-44,-7,29,70,99,112,123]
 ,"date":1404187200000
 ,"code":"M15"
@@ -867,6 +963,7 @@
 ,"name":"Modern Event Deck 2014"
 ,"mtgi":"MD1"
 ,"mkm":"Modern Event Deck 2014"
+,"foil":false
 ,"digest":[-121,-118,-97,-69,-67,-38,-37,-34,-10,8,16,57,74,83,109,124]
 ,"date":1398916800000
 ,"code":"MD1"
@@ -876,6 +973,7 @@
 ,"name":"Magic Origins"
 ,"mtgi":"ORI"
 ,"mkm":"Magic Origins"
+,"foil":true
 ,"digest":[-115,-107,-101,-98,-97,-54,-42,-37,-37,-24,36,50,69,80,86,113]
 ,"date":1435723200000
 ,"code":"ORI"
@@ -885,6 +983,7 @@
 ,"name":"Promo set for Gatherer"
 ,"mtgi":"MBP"
 ,"mkm":"Harper Prism Promos"
+,"foil":false
 ,"digest":[-119,-103,-90,-76,-66,-60,-20,0,24,53,54,66,71,78,89,93]
 ,"date":738907200000
 ,"code":"MBP"
@@ -894,6 +993,7 @@
 ,"name":"Mercadian Masques"
 ,"mtgi":"MM"
 ,"mkm":"Mercadian Masques"
+,"foil":true
 ,"digest":[-109,-106,-83,-72,-64,-58,-49,-43,15,18,20,33,36,44,51,80]
 ,"date":936158400000
 ,"code":"MM"
@@ -903,6 +1003,7 @@
 ,"name":"Mirage"
 ,"mtgi":"MR"
 ,"mkm":"Mirage"
+,"foil":false
 ,"digest":[-123,-115,-110,-102,-87,-82,-68,-61,-56,-55,-33,-8,13,81,91,114]
 ,"date":844142400000
 ,"code":"MI"
@@ -912,6 +1013,7 @@
 ,"name":"Mirrodin Besieged"
 ,"mtgi":"MBS"
 ,"mkm":"Mirrodin Besieged"
+,"foil":true
 ,"digest":[-124,-109,-64,-30,-28,15,26,37,57,61,85,94,102,114,116,126]
 ,"date":1293858000000
 ,"code":"MBS"
@@ -921,6 +1023,7 @@
 ,"name":"Mirrodin"
 ,"mtgi":"MI"
 ,"mkm":"Mirrodin"
+,"foil":true
 ,"digest":[-65,-62,-51,-47,-46,-33,-21,3,8,26,32,32,81,86,92,107]
 ,"date":1062388800000
 ,"code":"MR"
@@ -930,6 +1033,7 @@
 ,"name":"Modern Masters 2015 Edition"
 ,"mtgi":"MM2"
 ,"mkm":"Modern Masters 2015"
+,"foil":true
 ,"digest":[-109,-105,-98,-84,-47,-11,-4,1,2,5,20,41,58,83,104,126]
 ,"date":1430452800000
 ,"code":"MM2"
@@ -939,6 +1043,7 @@
 ,"name":"Modern Masters"
 ,"mtgi":"MMA"
 ,"mkm":"Modern Masters"
+,"foil":true
 ,"digest":[-98,-66,-42,-37,-36,-31,-2,2,9,14,33,55,68,89,102,126]
 ,"date":1370059200000
 ,"code":"MMA"
@@ -948,6 +1053,7 @@
 ,"name":"Morningtide"
 ,"mtgi":"MT"
 ,"mkm":"Morningtide"
+,"foil":true
 ,"digest":[-104,-54,-17,-12,45,52,54,74,81,94,101,102,103,114,118,123]
 ,"date":1199163600000
 ,"code":"MOR"
@@ -957,6 +1063,7 @@
 ,"name":"Nemesis"
 ,"mtgi":"NE"
 ,"mkm":"Nemesis"
+,"foil":true
 ,"digest":[-114,-107,-97,-78,-74,-66,-43,-35,-18,2,20,21,70,92,93,104]
 ,"date":949381200000
 ,"code":"NE"
@@ -966,6 +1073,7 @@
 ,"name":"New Phyrexia"
 ,"mtgi":"NPH"
 ,"mkm":"New Phyrexia"
+,"foil":true
 ,"digest":[-123,-114,-93,-72,-50,-48,-44,-25,6,16,21,57,88,97,120,122]
 ,"date":1304222400000
 ,"code":"NPH"
@@ -975,6 +1083,7 @@
 ,"name":"Oath of the Gatewatch"
 ,"mtgi":"OGW"
 ,"mkm":"Oath of the Gatewatch"
+,"foil":true
 ,"digest":[-123,-59,-24,-18,-7,-5,1,21,28,29,32,76,88,91,101,102]
 ,"date":1451624400000
 ,"code":"OGW"
@@ -984,6 +1093,7 @@
 ,"name":"Odyssey"
 ,"mtgi":"OD"
 ,"mkm":"Odyssey"
+,"foil":true
 ,"digest":[-103,-82,-69,-67,-62,-4,5,14,27,31,52,58,66,112,119,121]
 ,"date":999316800000
 ,"code":"OD"
@@ -993,6 +1103,7 @@
 ,"name":"Onslaught"
 ,"mtgi":"ON"
 ,"mkm":"Onslaught"
+,"foil":true
 ,"digest":[-123,-116,-110,-110,-88,-85,-83,-73,-58,-23,-17,42,58,82,121,125]
 ,"date":1030852800000
 ,"code":"ON"
@@ -1002,6 +1113,7 @@
 ,"name":"Planar Chaos"
 ,"mtgi":"PC"
 ,"mkm":"Planar Chaos"
+,"foil":true
 ,"digest":[-112,-80,-66,-23,4,18,29,37,42,66,71,86,92,110,118,119]
 ,"date":1167627600000
 ,"code":"PLC"
@@ -1011,6 +1123,7 @@
 ,"name":"Planechase 2012 Edition"
 ,"mtgi":"PC2"
 ,"mkm":"Planechase 2012"
+,"foil":false
 ,"digest":[-126,-101,-95,-92,-89,-88,-67,-61,-53,23,31,31,74,94,122,125]
 ,"date":1338523200000
 ,"code":"PC2"
@@ -1020,6 +1133,7 @@
 ,"name":"Planechase"
 ,"mtgi":"PCH"
 ,"mkm":"Planechase"
+,"foil":false
 ,"digest":[-116,-94,-54,-38,-28,-20,-19,-1,0,10,15,88,94,113,114,119]
 ,"date":1251777600000
 ,"code":"PCH"
@@ -1029,6 +1143,7 @@
 ,"name":"Planeshift"
 ,"mtgi":"PS"
 ,"mkm":"Planeshift"
+,"foil":true
 ,"digest":[-128,-112,-89,-87,-61,-52,-8,1,9,16,22,25,47,52,71,122]
 ,"date":978325200000
 ,"code":"PS"
@@ -1038,6 +1153,7 @@
 ,"name":"Portal Second Age"
 ,"mtgi":"PO2"
 ,"mkm":"Portal Second Age"
+,"foil":false
 ,"digest":[-108,-97,-52,-46,-44,-37,23,50,58,65,74,89,90,99,114,125]
 ,"date":896673600000
 ,"code":"P2"
@@ -1047,6 +1163,7 @@
 ,"name":"Portal Three Kingdoms"
 ,"mtgi":"P3K"
 ,"mkm":"Portal Three Kingdoms"
+,"foil":false
 ,"digest":[-114,-113,-85,-44,-25,-18,17,17,20,25,29,35,47,57,79,102]
 ,"date":928209600000
 ,"code":"P3"
@@ -1056,6 +1173,7 @@
 ,"name":"Portal"
 ,"mtgi":"PO"
 ,"mkm":"Portal"
+,"foil":false
 ,"digest":[-119,-117,-78,-66,-42,-27,-8,-6,2,21,43,53,106,116,125,126]
 ,"date":865137600000
 ,"code":"PT"
@@ -1065,6 +1183,7 @@
 ,"name":"Premium Deck Series: Fire and Lightning"
 ,"mtgi":"PD2"
 ,"mkm":"Premium Deck Series: Fire & Lightning"
+,"foil":false
 ,"digest":[-95,-51,-49,-30,-21,-18,-13,29,40,46,60,80,82,86,99,127]
 ,"date":1288584000000
 ,"code":"FAL"
@@ -1074,6 +1193,7 @@
 ,"name":"Premium Deck Series: Graveborn"
 ,"mtgi":"PD3"
 ,"mkm":"Premium Deck Series: Graveborn"
+,"foil":false
 ,"digest":[-127,-119,-72,-40,-32,-30,10,13,23,28,30,64,77,90,116,124]
 ,"date":1320120000000
 ,"code":"GRV"
@@ -1083,6 +1203,7 @@
 ,"name":"Premium Deck Series: Slivers"
 ,"mtgi":"PDS"
 ,"mkm":"Premium Deck Series: Slivers"
+,"foil":false
 ,"digest":[-120,-83,-81,-79,-64,-51,-48,-33,-26,8,42,50,51,88,115,124]
 ,"date":1257048000000
 ,"code":"SLI"
@@ -1092,6 +1213,7 @@
 ,"name":"Prophecy"
 ,"mtgi":"PR"
 ,"mkm":"Prophecy"
+,"foil":true
 ,"digest":[-116,-113,-78,-70,-69,-63,-51,-36,-19,-4,68,72,97,109,118,125]
 ,"date":957153600000
 ,"code":"PY"
@@ -1101,6 +1223,7 @@
 ,"name":"Ravnica: City of Guilds"
 ,"mtgi":"RAV"
 ,"mkm":"Ravnica: City of Guilds"
+,"foil":true
 ,"digest":[-117,-109,-92,-80,-57,-55,-41,-10,3,3,9,14,61,112,113,124]
 ,"date":1125547200000
 ,"code":"RAV"
@@ -1110,6 +1233,7 @@
 ,"name":"Return to Ravnica"
 ,"mtgi":"RTR"
 ,"mkm":"Return to Ravnica"
+,"foil":true
 ,"digest":[-125,-85,-9,-1,4,17,35,41,42,54,57,62,63,69,97,115]
 ,"date":1349064000000
 ,"code":"RTR"
@@ -1119,6 +1243,7 @@
 ,"name":"Revised Edition"
 ,"mtgi":"RV"
 ,"mkm":"Revised"
+,"foil":false
 ,"digest":[-120,-110,-109,-109,-106,-80,-14,-12,2,21,23,46,61,66,87,94]
 ,"date":765176400000
 ,"code":"R"
@@ -1128,6 +1253,7 @@
 ,"name":"Rise of the Eldrazi"
 ,"mtgi":"ROE"
 ,"mkm":"Rise of the Eldrazi"
+,"foil":true
 ,"digest":[-113,-73,-50,-31,-26,-11,18,22,45,62,69,71,72,90,95,126]
 ,"date":1270094400000
 ,"code":"ROE"
@@ -1137,6 +1263,7 @@
 ,"name":"Saviors of Kamigawa"
 ,"mtgi":"SOK"
 ,"mkm":"Saviors of Kamigawa"
+,"foil":true
 ,"digest":[-124,-118,-101,-94,-60,-53,-8,18,19,36,50,56,57,101,117,117]
 ,"date":1114920000000
 ,"code":"SOK"
@@ -1146,6 +1273,7 @@
 ,"name":"Scars of Mirrodin"
 ,"mtgi":"SOM"
 ,"mkm":"Scars of Mirrodin"
+,"foil":true
 ,"digest":[-109,-102,-100,-65,-38,-23,-17,-9,-9,-8,31,51,62,65,73,111]
 ,"date":1283313600000
 ,"code":"SOM"
@@ -1155,6 +1283,7 @@
 ,"name":"Scourge"
 ,"mtgi":"SC"
 ,"mkm":"Scourge"
+,"foil":true
 ,"digest":[-123,-114,-113,-51,-42,-36,-33,-20,-6,-4,-1,18,29,41,98,109]
 ,"date":1051761600000
 ,"code":"SC"
@@ -1164,6 +1293,7 @@
 ,"name":"Shadowmoor"
 ,"mtgi":"SHM"
 ,"mkm":"Shadowmoor"
+,"foil":true
 ,"digest":[-112,-89,-80,-72,-56,-44,-38,-20,-13,6,61,72,103,105,109,109]
 ,"date":1207022400000
 ,"code":"SHM"
@@ -1173,6 +1303,7 @@
 ,"name":"Shadows over Innistrad"
 ,"mtgi":"SOI"
 ,"mkm":"Shadows over Innistrad"
+,"foil":true
 ,"digest":[-118,-113,-110,-102,-84,-76,-43,-5,20,21,82,86,91,106,109,122]
 ,"date":1456808400000
 ,"code":"SOI"
@@ -1182,6 +1313,7 @@
 ,"name":"Shards of Alara"
 ,"mtgi":"ALA"
 ,"mkm":"Shards of Alara"
+,"foil":true
 ,"digest":[-104,-102,-98,-84,-74,-53,-45,-38,-27,-4,4,57,60,74,84,123]
 ,"date":1220241600000
 ,"code":"ALA"
@@ -1191,6 +1323,7 @@
 ,"name":"Starter 1999"
 ,"mtgi":"ST"
 ,"mkm":"Starter 1999"
+,"foil":false
 ,"digest":[-87,-81,-73,-28,-21,24,33,49,60,74,84,96,101,109,118,127]
 ,"date":930801600000
 ,"code":"ST"
@@ -1200,6 +1333,7 @@
 ,"name":"Starter 2000"
 ,"mtgi":"ST2K"
 ,"mkm":"Starter 2000"
+,"foil":false
 ,"digest":[-121,-59,-53,-45,-38,-28,2,2,10,45,54,57,61,85,102,120]
 ,"date":962424000000
 ,"code":"S2"
@@ -1209,6 +1343,7 @@
 ,"name":"Stronghold"
 ,"mtgi":"SH"
 ,"mkm":"Stronghold"
+,"foil":false
 ,"digest":[-128,-125,-98,-97,-69,-50,-17,-14,86,89,92,115,117,119,127,127]
 ,"date":886309200000
 ,"code":"SH"
@@ -1218,6 +1353,7 @@
 ,"name":"Tempest"
 ,"mtgi":"TP"
 ,"mkm":"Tempest"
+,"foil":false
 ,"digest":[-113,-88,-63,-5,-2,0,2,9,20,26,55,66,81,94,115,126]
 ,"date":875678400000
 ,"code":"TE"
@@ -1227,6 +1363,7 @@
 ,"name":"The Dark"
 ,"mtgi":"DK"
 ,"mkm":"The Dark"
+,"foil":false
 ,"digest":[-108,-71,-65,-40,-28,-22,5,7,8,35,53,100,116,119,120,122]
 ,"date":775713600000
 ,"code":"DK"
@@ -1236,6 +1373,7 @@
 ,"name":"Theros"
 ,"mtgi":"THS"
 ,"mkm":"Theros"
+,"foil":true
 ,"digest":[-123,-98,-97,-96,-85,-83,-78,-41,-30,-30,-29,-9,10,20,33,127]
 ,"date":1378008000000
 ,"code":"THS"
@@ -1245,6 +1383,7 @@
 ,"name":"Time Spiral"
 ,"mtgi":"TS"
 ,"mkm":"Time Spiral"
+,"foil":true
 ,"digest":[-125,-85,-77,-73,-64,-46,-46,-12,20,28,35,44,53,53,81,101]
 ,"date":1157083200000
 ,"code":"TSP"
@@ -1254,6 +1393,7 @@
 ,"name":"Time Spiral \"Timeshifted\""
 ,"mtgi":"TSTS"
 ,"mkm":"Time Spiral"
+,"foil":true
 ,"digest":[-126,-111,-85,-70,-44,-30,-20,0,7,23,44,46,78,83,98,120]
 ,"date":1157083200000
 ,"code":"TSB"
@@ -1263,6 +1403,7 @@
 ,"name":"Torment"
 ,"mtgi":"TR"
 ,"mkm":"Torment"
+,"foil":true
 ,"digest":[-107,-101,-92,-87,-66,-43,-33,-24,-23,-8,8,40,41,45,115,122]
 ,"date":1009861200000
 ,"code":"TO"
@@ -1272,6 +1413,7 @@
 ,"name":"Ugin's Fate promos"
 ,"mtgi":"UFP"
 ,"mkm":"Ugin's Fate Promos"
+,"foil":false
 ,"digest":[-99,-89,-85,-83,-27,-18,-9,1,12,20,24,26,37,42,65,112]
 ,"date":1417410000000
 ,"code":"UFP"
@@ -1281,6 +1423,7 @@
 ,"name":"Unglued"
 ,"mtgi":"UG"
 ,"mkm":"Unglued"
+,"foil":false
 ,"digest":[-116,-109,-74,-56,-43,-37,-30,-8,25,35,65,70,91,100,110,121]
 ,"date":901944000000
 ,"code":"UG"
@@ -1290,6 +1433,7 @@
 ,"name":"Unhinged"
 ,"mtgi":"UH"
 ,"mkm":"Unhinged"
+,"foil":true
 ,"digest":[-112,-109,-100,-100,-94,-88,-72,-28,-25,-5,48,76,86,91,101,101]
 ,"date":1099285200000
 ,"code":"UNH"
@@ -1299,6 +1443,7 @@
 ,"name":"Unlimited Edition"
 ,"mtgi":"UN"
 ,"mkm":"Unlimited"
+,"foil":false
 ,"digest":[-92,-41,-29,-18,11,21,42,43,44,53,58,88,98,100,123,124]
 ,"date":754722000000
 ,"code":"U"
@@ -1308,6 +1453,7 @@
 ,"name":"Urza's Destiny"
 ,"mtgi":"UD"
 ,"mkm":"Urza's Destiny"
+,"foil":true
 ,"digest":[-105,-99,-89,-89,-53,-20,2,8,31,34,36,46,88,102,106,125]
 ,"date":925531200000
 ,"code":"UD"
@@ -1317,6 +1463,7 @@
 ,"name":"Urza's Legacy"
 ,"mtgi":"UL"
 ,"mkm":"Urza's Legacy"
+,"foil":true
 ,"digest":[-110,-63,-51,-33,-18,-14,-8,-4,5,21,50,76,80,95,102,126]
 ,"date":917845200000
 ,"code":"UL"
@@ -1326,6 +1473,7 @@
 ,"name":"Urza's Saga"
 ,"mtgi":"US"
 ,"mkm":"Urza's Saga"
+,"foil":false
 ,"digest":[-128,-122,-114,-104,-102,-84,-65,-29,-11,-4,11,43,46,82,92,126]
 ,"date":907214400000
 ,"code":"US"
@@ -1335,6 +1483,7 @@
 ,"name":"Vanguard"
 ,"mtgi":"VNG"
 ,"mkm":"Vanguard"
+,"foil":false
 ,"digest":[-69,-62,-61,-49,-43,-12,0,1,11,28,34,47,53,84,96,111]
 ,"date":741499200000
 ,"code":"VNG"
@@ -1344,6 +1493,7 @@
 ,"name":"Visions"
 ,"mtgi":"VI"
 ,"mkm":"Visions"
+,"foil":false
 ,"digest":[-123,-122,-104,-95,-90,-87,-7,2,3,10,19,57,67,82,83,120]
 ,"date":854773200000
 ,"code":"VI"
@@ -1353,6 +1503,7 @@
 ,"name":"Weatherlight"
 ,"mtgi":"WL"
 ,"mkm":"Weatherlight"
+,"foil":false
 ,"digest":[-87,-74,-61,-58,-17,-3,16,45,61,67,81,91,95,121,122,125]
 ,"date":862459200000
 ,"code":"WL"
@@ -1362,6 +1513,7 @@
 ,"name":"Welcome Deck 2016"
 ,"mtgi":"W16"
 ,"mkm":"Welcome Deck 2016"
+,"foil":false
 ,"digest":[-128,-111,-102,-76,-36,-28,-6,5,10,23,46,49,54,66,122,124]
 ,"date":1456808400000
 ,"code":"W16"
@@ -1371,6 +1523,7 @@
 ,"name":"Worldwake"
 ,"mtgi":"WWK"
 ,"mkm":"Worldwake"
+,"foil":true
 ,"digest":[-108,-69,-64,-60,-55,-41,-19,-3,17,33,37,51,55,71,84,100]
 ,"date":1262322000000
 ,"code":"WWK"
@@ -1380,6 +1533,7 @@
 ,"name":"Zendikar Expeditions"
 ,"mtgi":"EXP"
 ,"mkm":"Zendikar Expeditions"
+,"foil":false
 ,"digest":[-110,-100,-76,-54,-39,-28,-9,9,17,24,55,106,113,116,125,126]
 ,"date":1441080000000
 ,"code":"EXP"
@@ -1389,6 +1543,7 @@
 ,"name":"Zendikar"
 ,"mtgi":"ZEN"
 ,"mkm":"Zendikar"
+,"foil":true
 ,"digest":[-122,-102,-88,-54,-50,-34,-24,-12,-2,2,14,14,18,70,88,110]
 ,"date":1251777600000
 ,"code":"ZEN"
