@@ -42,4 +42,5 @@ class JsonCard {
 	String m; /* mNumber */
 	String n; /* mColor */
 	int x; /* mMultiverseId */
+	String exp; /* mColorIdentity */
 }

@@ -694,6 +694,7 @@ public class GathererScraperUi {
 				jsonCard.put("m", c.mNumber);
 				jsonCard.put("n", c.mColor);
 				jsonCard.put("x", c.mMultiverseId);
+				jsonCard.put("!", c.mColorIdentity);
 				jsonAllCards.add(jsonCard);
 			}
 		}

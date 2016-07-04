@@ -213,6 +213,10 @@ public class GathererScraper {
 		}
 		
 		for(Card c : scrapedCards) {
+			c.calcColorIdentity(scrapedCards);
+		}
+		
+		for(Card c : scrapedCards) {
 			messageDigest.update(c.getBytes());
 		}
 		exp.mDigest = messageDigest.digest();
