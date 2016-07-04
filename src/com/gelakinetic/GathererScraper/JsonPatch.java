@@ -19,7 +19,6 @@ class JsonExpansion {
 	String r; /* code_magiccards */
 	String q; /* code */
 	String a; /* name */
-	Boolean z; /* can be foil */
 }
 
 class JsonCards {
@@ -42,5 +41,4 @@ class JsonCard {
 	String m; /* mNumber */
 	String n; /* mColor */
 	int x; /* mMultiverseId */
-	String aa; /* mColorIdentity */
 }

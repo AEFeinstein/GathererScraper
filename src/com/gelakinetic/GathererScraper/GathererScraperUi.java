@@ -694,7 +694,6 @@ public class GathererScraperUi {
 				jsonCard.put("m", c.mNumber);
 				jsonCard.put("n", c.mColor);
 				jsonCard.put("x", c.mMultiverseId);
-				jsonCard.put("aa", c.mColorIdentity);
 				jsonAllCards.add(jsonCard);
 			}
 		}
@@ -714,7 +713,6 @@ public class GathererScraperUi {
 			jsonExpansion.put("a", exp.mName_gatherer); /* name */
 			jsonExpansion.put("q", exp.mCode_gatherer); /* code */
 			jsonExpansion.put("y", exp.getDateMs()); /* date */
-			jsonExpansion.put("z", exp.mCanBeFoil); /* can be foil */
 			jsonAllExpansions.add(jsonExpansion);
 
 			expansions.put("b", jsonAllExpansions);
