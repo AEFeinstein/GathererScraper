@@ -30,10 +30,19 @@ public class ExpansionTableModel extends AbstractTableModel {
 	private static final int	COLUMN_TCGPLAYER_NAME	= 3;
 	private static final int	COLUMN_MKM_NAME			= 4;
 	private static final int	COLUMN_DATE				= 5;
-	private static final int	COLUMN_CHECKED			= 6;
+	private static final int	COLUMN_FOIL				= 6;
+	private static final int	COLUMN_CHECKED			= 7;
 
-	private static final int[]	COLUMNS					= { COLUMN_NAME, COLUMN_MTGINFO_NAME, COLUMN_TCGPLAYER_NAME,
-			COLUMN_MKM_NAME, COLUMN_DATE, COLUMN_CHECKED, COLUMN_CODE };
+	private static final int[]	COLUMNS					= {
+		COLUMN_NAME,
+		COLUMN_MTGINFO_NAME,
+		COLUMN_TCGPLAYER_NAME,
+		COLUMN_MKM_NAME,
+		COLUMN_DATE,
+		COLUMN_CHECKED,
+		COLUMN_CODE,
+		COLUMN_FOIL
+	};
 
 	/** A list of expansions prime for the scraping */
 	ArrayList<Expansion>		mExpansions				= new ArrayList<Expansion>();
@@ -86,6 +95,9 @@ public class ExpansionTableModel extends AbstractTableModel {
 			}
 			case COLUMN_CHECKED: {
 				return mExpansions.get(row).mChecked;
+			}
+			case COLUMN_FOIL: {
+				return mExpansions.get(row).mCanBeFoil;
 			}
 		}
 		return null;
@@ -171,6 +183,10 @@ public class ExpansionTableModel extends AbstractTableModel {
 				mExpansions.get(row).mChecked = (Boolean) value;
 				break;
 			}
+			case COLUMN_FOIL: {
+				mExpansions.get(row).mCanBeFoil = (Boolean) value;
+				break;
+			}
 		}
 	}
 
@@ -204,6 +220,9 @@ public class ExpansionTableModel extends AbstractTableModel {
 			}
 			case COLUMN_CHECKED: {
 				return "Scrape?";
+			}
+			case COLUMN_FOIL: {
+				return "Can be Foil?";
 			}
 			default: {
 				return "";
@@ -241,6 +260,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 					existing.mName_mkm = e.mName_mkm;
 					existing.mName_tcgp = e.mName_tcgp;
 					existing.mDate = e.mDate;
+					existing.mCanBeFoil = e.mCanBeFoil;
 				}
 			}
 		}

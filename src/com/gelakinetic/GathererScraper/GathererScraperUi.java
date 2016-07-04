@@ -177,7 +177,7 @@ public class GathererScraperUi {
 
 		final JFrame frame = new JFrame();
 		frame.setVisible(false);
-		frame.setBounds(100, 100, 930, 512);
+		frame.setBounds(100, 100, 1160, 512);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		GridBagLayout gridBagLayout = new GridBagLayout();
 		gridBagLayout.columnWidths = new int[] { 0, 0, 278, 80, 0 };
@@ -713,6 +713,7 @@ public class GathererScraperUi {
 			jsonExpansion.put("a", exp.mName_gatherer); /* name */
 			jsonExpansion.put("q", exp.mCode_gatherer); /* code */
 			jsonExpansion.put("y", exp.getDateMs()); /* date */
+			jsonExpansion.put("z", exp.mCanBeFoil); /* can be foil */
 			jsonAllExpansions.add(jsonExpansion);
 
 			expansions.put("b", jsonAllExpansions);

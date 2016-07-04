@@ -25,6 +25,7 @@ public class Expansion implements Comparable<Expansion>{
 	private static final String	KEY_DATE		= "date";
 	private static final String	KEY_SUBSETS		= "subsets";
 	private static final String KEY_DIGEST		= "digest";
+	private static final String KEY_FOIL		= "foil";
 	
 	/** Name used by Gatherer */
 	public String				mName_gatherer	= "";
@@ -38,6 +39,8 @@ public class Expansion implements Comparable<Expansion>{
 	public String				mName_mkm		= "";
 	/** Date the expansion was released */
 	public String				mDate			= "";
+	/** Whether or not this expansion has foil cards */
+	public boolean				mCanBeFoil		= false;
 
 	/** To scrape, or not to scrape ? */
 	public Boolean				mChecked		= false;
@@ -46,7 +49,7 @@ public class Expansion implements Comparable<Expansion>{
 	public ArrayList<String> mSubSets			= new ArrayList<String>();
 	/** MD5 digest for scraped cards, to see when things change */
 	public byte[]				mDigest 		= new byte[16];
-
+	
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
 	 *
@@ -102,6 +105,14 @@ public class Expansion implements Comparable<Expansion>{
 		catch (Exception e) {
 			/* Eat it */
 		}
+		
+		try {
+			mCanBeFoil = (Boolean) jo.get(KEY_FOIL);
+		}
+		catch (Exception e) {
+			/* Eat it */
+			mCanBeFoil = false;
+		}
 	}
 
 	/**
@@ -119,6 +130,7 @@ public class Expansion implements Comparable<Expansion>{
 		obj.put(KEY_TCGP, mName_tcgp);
 		obj.put(KEY_MKM, mName_mkm);
 		obj.put(KEY_DIGEST, mDigest);
+		obj.put(KEY_FOIL, mCanBeFoil);
 
 		try {
 			obj.put(KEY_DATE, getDateMs());

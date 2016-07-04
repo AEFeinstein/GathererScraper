@@ -19,6 +19,7 @@ class JsonExpansion {
 	String r; /* code_magiccards */
 	String q; /* code */
 	String a; /* name */
+	Boolean z; /* can be foil */
 }
 
 class JsonCards {
