@@ -1,4 +1,4 @@
-{"Date":"07\/04\/2016"
+{"Date":"07\/13\/2016"
 ,"CanBeFoil":[{"canBeFoil":false
 ,"Code":"4E"
 }
@@ -292,6 +292,9 @@
 }
 ,{"canBeFoil":true
 ,"Code":"EMA"
+}
+,{"canBeFoil":true
+,"Code":"EMN"
 }
 ,{"canBeFoil":true
 ,"Code":"EVE"

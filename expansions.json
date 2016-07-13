@@ -608,6 +608,16 @@
 ,"date":1438401600000
 ,"code":"DDP"
 }
+,{"tcgp":"Eldritch Moon"
+,"subsets":"Eldritch Moon##"
+,"name":"Eldritch Moon"
+,"mtgi":"EMN"
+,"mkm":"Eldritch Moon"
+,"foil":true
+,"digest":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+,"date":1467345600000
+,"code":"EMN"
+}
 ,{"tcgp":"Eternal Masters"
 ,"subsets":"Eternal Masters##"
 ,"name":"Eternal Masters"
