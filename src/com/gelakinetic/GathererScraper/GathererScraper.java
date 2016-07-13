@@ -322,6 +322,7 @@ public class GathererScraper {
 	
 				/* Ability Text */
 				card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
+				card.mText = linkifyText(card.mText);
 	
 				/* Flavor */
 				card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false);
@@ -575,6 +576,33 @@ public class GathererScraper {
 			scrapedCardsAllPages.addAll(scrapedCards);
 		}
 		return scrapedCardsAllPages;
+	}
+
+	/**
+	 * Add links to the text to handle meld cards
+	 * @param mText The card text without links
+	 * @return The card text with links
+	 */
+	private static String linkifyText(String mText) {
+		if(mText == null) {
+			return null;
+		}
+		mText = mText.replace("Bruna, the Fading Light", uriLink("Bruna, the Fading Light", 414304));
+		mText = mText.replace("Gisela, the Broken Blade", uriLink("Gisela, the Broken Blade", 414319));
+		mText = mText.replace("Brisela, Voice of Nightmares", uriLink("Brisela, Voice of Nightmares", 414305));
+
+		mText = mText.replace("Graf Rats", uriLink("Graf Rats", 414386));
+		mText = mText.replace("Midnight Scavengers", uriLink("Midnight Scavengers", 414391));
+		mText = mText.replace("Chittering Host", uriLink("Chittering Host", 414392));
+
+		mText = mText.replace("Hanweir Battlements", uriLink("Hanweir Battlements", 414511));
+		mText = mText.replace("Hanweir Garrison", uriLink("Hanweir Garrison", 414428));
+		mText = mText.replace("Hanweir, the Writhing Township", uriLink("Hanweir, the Writhing Township", 414429));
+		return mText;
+	}
+
+	private static CharSequence uriLink(String string, int i) {
+		return "<a href=\"android-app://com.gelakinetic.mtgfam/card/multiverseid/" + i + "\">" + string + "</a>";
 	}
 
 	/**
