@@ -76,7 +76,6 @@
 ,"OGW"
 ,"SOI"
 ,"W16"
-,"EMN"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
@@ -136,7 +135,6 @@
 ,"OGW"
 ,"SOI"
 ,"W16"
-,"EMN"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancient Den"
@@ -338,7 +336,6 @@
 ]
 }
 ,"Block":{"Sets":["SOI"
-,"EMN"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
