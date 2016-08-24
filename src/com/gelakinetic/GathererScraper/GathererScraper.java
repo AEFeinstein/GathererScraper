@@ -602,7 +602,7 @@ public class GathererScraper {
 	}
 
 	private static CharSequence uriLink(String string, int i) {
-		return "<a href=\"android-app://com.gelakinetic.mtgfam/card/multiverseid/" + i + "\">" + string + "</a>";
+		return "<a href=\"card://multiverseid/internal/" + i + "\">" + string + "</a>";
 	}
 
 	/**
