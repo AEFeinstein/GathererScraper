@@ -348,6 +348,16 @@
 ,"date":1401595200000
 ,"code":"CNS"
 }
+,{"tcgp":"Conspiracy: Take the Crown"
+,"subsets":"Conspiracy: Take the Crown##"
+,"name":"Conspiracy: Take the Crown"
+,"mtgi":"CN2"
+,"mkm":"Conspiracy: Take the Crown"
+,"foil":true
+,"digest":[-119,-114,-88,-81,-62,-6,9,44,55,55,63,85,99,106,107,117]
+,"date":1470024000000
+,"code":"CN2"
+}
 ,{"tcgp":"Dark Ascension"
 ,"subsets":"Dark Ascension##"
 ,"name":"Dark Ascension"
@@ -747,6 +757,16 @@
 ,"digest":[-127,-118,-89,-41,3,20,30,50,59,71,74,78,81,81,89,112]
 ,"date":1312171200000
 ,"code":"LEG"
+}
+,{"tcgp":"From the Vault: Lore"
+,"subsets":"From the Vault: Lore##"
+,"name":"From the Vault: Lore"
+,"mtgi":"V16"
+,"mkm":"From the Vault: Lore"
+,"foil":false
+,"digest":[-128,-122,-103,-86,-67,-42,-34,-8,29,43,44,64,80,86,106,115]
+,"date":1470024000000
+,"code":"V16"
 }
 ,{"tcgp":"From the Vault: Realms"
 ,"subsets":"From the Vault: Realms##"
