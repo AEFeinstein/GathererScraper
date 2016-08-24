@@ -118,6 +118,10 @@
 ,"Name":"Magic: The Gathering-Commander"
 ,"Code":"CMD"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CN2.json.gzip"
+,"Name":"Conspiracy: Take the Crown"
+,"Code":"CN2"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CNS.json.gzip"
 ,"Name":"Magic: The Gathering\u2014Conspiracy"
 ,"Code":"CNS"
@@ -570,6 +574,10 @@
 ,"Name":"From the Vault: Angels"
 ,"Code":"V15"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/V16.json.gzip"
+,"Name":"From the Vault: Lore"
+,"Code":"V16"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VI.json.gzip"
 ,"Name":"Visions"
 ,"Code":"VI"
@@ -599,5 +607,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"07\/13\/2016"
+,"Date":"08\/24\/2016"
 }

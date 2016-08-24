@@ -85,6 +85,9 @@
 ,{"TCGName":"Conspiracy"
 ,"Code":"CNS"
 }
+,{"TCGName":"Conspiracy: Take the Crown"
+,"Code":"CN2"
+}
 ,{"TCGName":"Dark Ascension"
 ,"Code":"DKA"
 }
@@ -204,6 +207,9 @@
 }
 ,{"TCGName":"From the Vault: Legends"
 ,"Code":"LEG"
+}
+,{"TCGName":"From the Vault: Lore"
+,"Code":"V16"
 }
 ,{"TCGName":"From the Vault: Realms"
 ,"Code":"RLM"
@@ -449,5 +455,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"07\/13\/2016"
+,"Date":"08\/24\/2016"
 }

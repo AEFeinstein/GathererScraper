@@ -70,6 +70,9 @@
 ,{"MKMName":"Conspiracy"
 ,"Code":"CNS"
 }
+,{"MKMName":"Conspiracy: Take the Crown"
+,"Code":"CN2"
+}
 ,{"MKMName":"Dark Ascension"
 ,"Code":"DKA"
 }
@@ -192,6 +195,9 @@
 }
 ,{"MKMName":"From the Vault: Legends"
 ,"Code":"LEG"
+}
+,{"MKMName":"From the Vault: Lore"
+,"Code":"V16"
 }
 ,{"MKMName":"From the Vault: Realms"
 ,"Code":"RLM"
@@ -449,5 +455,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"07\/13\/2016"
+,"Date":"08\/24\/2016"
 }

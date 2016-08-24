@@ -1,4 +1,4 @@
-{"Date":"07\/13\/2016"
+{"Date":"08\/24\/2016"
 ,"CanBeFoil":[{"canBeFoil":false
 ,"Code":"4E"
 }
@@ -216,6 +216,9 @@
 ,"Code":"V15"
 }
 ,{"canBeFoil":false
+,"Code":"V16"
+}
+,{"canBeFoil":false
 ,"Code":"VI"
 }
 ,{"canBeFoil":false
@@ -268,6 +271,9 @@
 }
 ,{"canBeFoil":true
 ,"Code":"CHK"
+}
+,{"canBeFoil":true
+,"Code":"CN2"
 }
 ,{"canBeFoil":true
 ,"Code":"CNS"
