@@ -842,7 +842,7 @@ public class GathererScraper {
 		/* Save any post-formatting lines with non-ascii chars here */
 		StringBuilder problematicLines = new StringBuilder();
 		/* Open up file in & out */
-		BufferedReader br = new BufferedReader(new FileReader(rulesFile));
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(rulesFile), "UTF8"));
 		FileWriter fw = new FileWriter(rulesFile.getAbsolutePath() + ".clean");
 		/* Read the file, one line at a time */
 		String line;
