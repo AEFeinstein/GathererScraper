@@ -1,4 +1,4 @@
-{"Date":"08\/24\/2016"
+{"Date":"08\/31\/2016"
 ,"CanBeFoil":[{"canBeFoil":false
 ,"Code":"4E"
 }
@@ -79,6 +79,9 @@
 }
 ,{"canBeFoil":false
 ,"Code":"DDQ"
+}
+,{"canBeFoil":false
+,"Code":"DDR"
 }
 ,{"canBeFoil":false
 ,"Code":"DK"

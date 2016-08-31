@@ -136,6 +136,9 @@
 ,{"MKMName":"Duel Decks: Knights vs. Dragons"
 ,"Code":"KVD"
 }
+,{"MKMName":"Duel Decks: Nissa vs. Ob Nixilis"
+,"Code":"DDR"
+}
 ,{"MKMName":"Duel Decks: Phyrexia vs. The Coalition"
 ,"Code":"PVC"
 }
@@ -455,5 +458,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"08\/24\/2016"
+,"Date":"08\/31\/2016"
 }

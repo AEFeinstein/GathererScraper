@@ -151,6 +151,9 @@
 ,{"TCGName":"Duel Decks: Knights vs. Dragons"
 ,"Code":"KVD"
 }
+,{"TCGName":"Duel Decks: Nissa vs. Ob Nixilis"
+,"Code":"DDR"
+}
 ,{"TCGName":"Duel Decks: Phyrexia vs. the Coalition"
 ,"Code":"PVC"
 }
@@ -455,5 +458,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"08\/24\/2016"
+,"Date":"08\/31\/2016"
 }
