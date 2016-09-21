@@ -3,7 +3,6 @@ package com.gelakinetic.GathererScraper;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -870,21 +869,21 @@ public class GathererScraper {
 	 */
 	private static String removeNonAscii(String line) {
 		String replacements[][] =
-			{{"í", "'"},
-			{"Æ", "(R)"},
-			{"ô", "(TM)"},
-			{"ì", "\""},
-			{"î", "\""},
-			{"ó", "-"},
-			{"ñ", "-"},
-			{"ë", "'"},
-			{"‚", "a"},
-			{"·", "a"},
-			{"˙", "u"},
-			{"˚", "u"},
-			{"∆", "Ae"},
-			{"©", "(C)"}};
-		/* Loop through all the known replacements and perform them */
+			{{"‚Äô", "'"},
+			 {"¬Æ", "(R)"},
+			 {"‚Ñ¢", "(TM)"},
+			 {"‚Äú", "\""},
+			 {"‚Äù", "\""},
+			 {"‚Äî", "-"},
+			 {"‚Äì", "-"},
+			 {"‚Äò", "'"},
+			 {"√¢", "a"},
+			 {"√°", "a"},
+			 {"√∫", "u"},
+			 {"√ª", "u"},
+			 {"√Ü", "Ae"},
+			 {"¬©", "(C)"}};
+			 /* Loop through all the known replacements and perform them */
 		for(String[] replaceSet : replacements) {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);
 		}
