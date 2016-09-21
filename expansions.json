@@ -898,6 +898,16 @@
 ,"date":1020225600000
 ,"code":"JU"
 }
+,{"tcgp":"Kaladesh"
+,"subsets":"Kaladesh##"
+,"name":"Kaladesh"
+,"mtgi":"KLD"
+,"mkm":"Kaladesh"
+,"foil":true
+,"digest":[-127,-67,-60,-30,-17,-16,-11,0,18,33,41,67,71,120,121,122]
+,"date":1567310400000
+,"code":"KLD"
+}
 ,{"tcgp":"Khans of Tarkir"
 ,"subsets":"Khans of Tarkir##"
 ,"name":"Khans of Tarkir"
@@ -1017,6 +1027,16 @@
 ,"digest":[-115,-107,-101,-98,-97,-54,-42,-37,-37,-24,36,50,69,80,86,113]
 ,"date":1435723200000
 ,"code":"ORI"
+}
+,{"tcgp":"Masterpiece Series: Kaladesh Inventions"
+,"subsets":"Kaladesh Inventions##"
+,"name":"Kaladesh Inventions"
+,"mtgi":"MPS"
+,"mkm":"Kaladesh Inventions"
+,"foil":false
+,"digest":[-123,-117,-98,-17,-16,-8,-3,31,49,59,64,81,86,96,121,124]
+,"date":1472702400000
+,"code":"MPS"
 }
 ,{"tcgp":"Media Promos"
 ,"subsets":"Promo set for Gatherer##"

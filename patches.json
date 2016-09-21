@@ -310,6 +310,10 @@
 ,"Name":"Duel Decks: Jace vs. Chandra"
 ,"Code":"JVC"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/KLD.json.gzip"
+,"Name":"Kaladesh"
+,"Code":"KLD"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/KTK.json.gzip"
 ,"Name":"Khans of Tarkir"
 ,"Code":"KTK"
@@ -389,6 +393,10 @@
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MOR.json.gzip"
 ,"Name":"Morningtide"
 ,"Code":"MOR"
+}
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MPS.json.gzip"
+,"Name":"Kaladesh Inventions"
+,"Code":"MPS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MR.json.gzip"
 ,"Name":"Mirrodin"
@@ -611,5 +619,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"08\/31\/2016"
+,"Date":"09\/21\/2016"
 }

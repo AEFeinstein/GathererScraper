@@ -111,7 +111,7 @@ public class GathererScraper {
 			while (loop) {
 
 				String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
-						+ "&output=compact&action=advanced&special=true&set=+%5b%22"
+						+ "&output=compact&special=true&set=%5b%22"
 						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d";
 
 				Document individualExpansion = ConnectWithRetries(urlStr);
@@ -795,6 +795,7 @@ public class GathererScraper {
 						} else if (symbol.equalsIgnoreCase("x")) {
 						} else if (symbol.equalsIgnoreCase("h")) {
 						} else if (symbol.equalsIgnoreCase("pwk")) {
+						} else if (symbol.equalsIgnoreCase("e")) {
 						} else if (StringUtils.isNumeric(symbol)) {
 						} else {
 							System.out.println("Unknown symbol: " + symbol);
@@ -869,20 +870,20 @@ public class GathererScraper {
 	 */
 	private static String removeNonAscii(String line) {
 		String replacements[][] =
-			{{"‚Äô", "'"},
-			{"¬Æ", "(R)"},
-			{"‚Ñ¢", "(TM)"},
-			{"‚Äú", "\""},
-			{"‚Äù", "\""},
-			{"‚Äî", "-"},
-			{"‚Äì", "-"},
-			{"‚Äò", "'"},
-			{"√¢", "a"},
-			{"√°", "a"},
-			{"√∫", "u"},
-			{"√ª", "u"},
-			{"√Ü", "Ae"},
-			{"¬©", "(C)"}};
+			{{"í", "'"},
+			{"Æ", "(R)"},
+			{"ô", "(TM)"},
+			{"ì", "\""},
+			{"î", "\""},
+			{"ó", "-"},
+			{"ñ", "-"},
+			{"ë", "'"},
+			{"‚", "a"},
+			{"·", "a"},
+			{"˙", "u"},
+			{"˚", "u"},
+			{"∆", "Ae"},
+			{"©", "(C)"}};
 		/* Loop through all the known replacements and perform them */
 		for(String[] replaceSet : replacements) {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);

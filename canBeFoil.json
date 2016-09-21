@@ -1,4 +1,4 @@
-{"Date":"08\/31\/2016"
+{"Date":"09\/21\/2016"
 ,"CanBeFoil":[{"canBeFoil":false
 ,"Code":"4E"
 }
@@ -151,6 +151,9 @@
 }
 ,{"canBeFoil":false
 ,"Code":"MI"
+}
+,{"canBeFoil":false
+,"Code":"MPS"
 }
 ,{"canBeFoil":false
 ,"Code":"P2"
@@ -334,6 +337,9 @@
 }
 ,{"canBeFoil":true
 ,"Code":"JU"
+}
+,{"canBeFoil":true
+,"Code":"KLD"
 }
 ,{"canBeFoil":true
 ,"Code":"KTK"

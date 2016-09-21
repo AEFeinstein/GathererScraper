@@ -70,13 +70,12 @@
 ,"Worldknit"
 ]
 }
-,"Standard":{"Sets":["DTK"
-,"ORI"
-,"BFZ"
+,"Standard":{"Sets":["BFZ"
 ,"OGW"
 ,"SOI"
 ,"W16"
 ,"EMN"
+,"KLD"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
@@ -137,6 +136,7 @@
 ,"SOI"
 ,"W16"
 ,"EMN"
+,"KLD"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancient Den"
@@ -337,12 +337,11 @@
 ,"Yawgmoth's Bargain"
 ]
 }
-,"Block":{"Sets":["SOI"
-,"EMN"
+,"Block":{"Sets":["KLD"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
 }
 }
-,"Date":"09\/17\/2016"
+,"Date":"09\/21\/2016"
 }
