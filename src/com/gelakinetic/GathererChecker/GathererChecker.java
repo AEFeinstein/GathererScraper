@@ -27,7 +27,7 @@ public class GathererChecker {
 	/**
 	 * Main function. It reads in an RSS file, scrapes a list of sets from
 	 * Gatherer, and writes a new RSS file if anything changed
-	 *
+	 * 
 	 * @param args
 	 *            unused
 	 */
@@ -103,7 +103,7 @@ public class GathererChecker {
 	public static ByteBuffer GetRssHeader() {
 		Calendar rightNow = Calendar.getInstance();
 		String date = GetRfc822Date(rightNow.getTime());
-
+		
 		return Charset
 			.forName("UTF-8")
 			.encode("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
@@ -130,7 +130,7 @@ public class GathererChecker {
 
 	/**
 	 * Reads the given RSS file and returns an ArrayList of it's contents
-	 *
+	 * 
 	 * @param rssFile
 	 *            The RSS file to read in
 	 * @return An ArrayList<RssEntry> with the given file's information
@@ -170,7 +170,7 @@ public class GathererChecker {
 	/**
 	 * Look at the page that has the comprehensive rules, get the url, pick the date out of it, make an RssEntry for it
 	 * and return it
-	 *
+	 * 
 	 * @return An RssEntry for the latest comprehensive rules
 	 * @throws IOException If the program has trouble reading the webpage
 	 */
@@ -194,7 +194,7 @@ public class GathererChecker {
 
 	/**
 	 * Look at the page that has the judge documents, get the date, make RssEntries for the documents, and return them
-	 *
+	 * 
 	 * @return An ArrayList of RssEntries for all the judge documents
 	 * @throws IOException
 	 */
@@ -204,67 +204,81 @@ public class GathererChecker {
 				.getElementsByAttributeValueContaining("class", "media-body").get(0).text();
 
 		/* Try real hard to prettify the date. Not really necessary */
-		String dateStr;
+		String pubDate;
 		try {
 			date = date.substring(date.indexOf("(") + 1, date.indexOf(")"));
 			String dateParts[] = date.split("\\s+");
 			int month = 0;
-			switch (dateParts[1]) {
-				case "January":
+			switch (dateParts[1].toLowerCase()) {
+				case "jan":
+				case "january":
 					month = 0;
 					break;
-				case "February":
+				case "feb":
+				case "february":
 					month = 1;
 					break;
-				case "March":
+				case "mar":
+				case "march":
 					month = 2;
 					break;
-				case "April":
+				case "apr":
+				case "april":
 					month = 3;
 					break;
-				case "May":
+				case "may":
 					month = 4;
 					break;
-				case "June":
+				case "jun":
+				case "june":
 					month = 5;
 					break;
-				case "July":
+				case "jul":
+				case "july":
 					month = 6;
 					break;
-				case "August":
+				case "aug":
+				case "august":
 					month = 7;
 					break;
-				case "September":
+				case "sep":
+				case "september":
 					month = 8;
 					break;
-				case "October":
+				case "oct":
+				case "october":
 					month = 9;
 					break;
-				case "November":
+				case "nov":
+				case "november":
 					month = 10;
 					break;
-				case "December":
+				case "dec":
+				case "december":
 					month = 11;
 					break;
+				default:
+					throw new Exception("Invalid month: " + dateParts[1]);
 			}
 			Calendar cal = Calendar.getInstance();
 			cal.clear();
 			cal.set(Integer.parseInt(dateParts[2]), month, Integer.parseInt(dateParts[0]));
-			dateStr = GetRfc822Date(cal.getTime());
+			pubDate = GetRfc822Date(cal.getTime());
+			
 		}
 		catch (Exception e) {
 			/* In case parsing fails */
-			dateStr = date;
+			pubDate = null;
 		}
 
 		/* Make RssEntries for each of the three judge documents */
 		ArrayList<RssEntry> entries = new ArrayList<RssEntry>();
-		entries.add(new RssEntry("Magic Infraction Guide, " + date, null, dateStr,
+		entries.add(new RssEntry("Magic Infraction Guide, " + date, null, pubDate,
 				"http://www.bluewizard.net/docs/html/MagicInfractionGuide.html"));
-		entries.add(new RssEntry("Magic Tournament Rules, " + date, null, dateStr,
+		entries.add(new RssEntry("Magic Tournament Rules, " + date, null, pubDate,
 				"http://www.bluewizard.net/docs/html/MagicTournamentRules.html"));
-		entries.add(new RssEntry("Judging At Regular, " + date, null, dateStr,
-				"http://www.bluewizard.net/docs/html/JudgingAtRegular.html"));
+		entries.add(new RssEntry("Judging At Regular, " + date, null, pubDate,
+				"http://www.bluewizard.net/docs/epub/JudgingAtRegular.epub"));
 
 		return entries;
 	}
