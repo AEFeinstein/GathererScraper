@@ -110,8 +110,8 @@ public class GathererScraper {
 			while (loop) {
 
 				String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
-						+ "&output=compact&special=true&set=%5b%22"
-						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d";
+						+ "&output=compact&action=advanced&set=%5b%22"
+						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d&special=true";
 
 				Document individualExpansion = ConnectWithRetries(urlStr);
 
