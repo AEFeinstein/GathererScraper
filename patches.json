@@ -102,6 +102,10 @@
 ,"Name":"Commander 2015"
 ,"Code":"C15"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/C16.json.gzip"
+,"Name":"Commander 2016"
+,"Code":"C16"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/CFX.json.gzip"
 ,"Name":"Conflux"
 ,"Code":"CFX"
@@ -395,7 +399,7 @@
 ,"Code":"MOR"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MPS.json.gzip"
-,"Name":"Kaladesh Inventions"
+,"Name":"Masterpiece Series: Kaladesh Inventions"
 ,"Code":"MPS"
 }
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MR.json.gzip"
@@ -594,10 +598,6 @@
 ,"Name":"Visions"
 ,"Code":"VI"
 }
-,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VNG.json.gzip"
-,"Name":"Vanguard"
-,"Code":"VNG"
-}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/VVK.json.gzip"
 ,"Name":"Duel Decks: Venser vs. Koth"
 ,"Code":"VVK"
@@ -619,5 +619,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"09\/21\/2016"
+,"Date":"11\/09\/2016"
 }

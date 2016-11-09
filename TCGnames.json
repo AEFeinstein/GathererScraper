@@ -73,6 +73,9 @@
 ,{"TCGName":"Commander 2015"
 ,"Code":"C15"
 }
+,{"TCGName":"Commander 2016"
+,"Code":"C16"
+}
 ,{"TCGName":"Commander"
 ,"Code":"CMD"
 }
@@ -442,9 +445,6 @@
 ,{"TCGName":"Urza's Saga"
 ,"Code":"US"
 }
-,{"TCGName":"Vanguard"
-,"Code":"VNG"
-}
 ,{"TCGName":"Visions"
 ,"Code":"VI"
 }
@@ -464,5 +464,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"09\/21\/2016"
+,"Date":"11\/09\/2016"
 }

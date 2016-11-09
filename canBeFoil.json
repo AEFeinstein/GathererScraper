@@ -1,4 +1,4 @@
-{"Date":"09\/21\/2016"
+{"Date":"11\/09\/2016"
 ,"CanBeFoil":[{"canBeFoil":false
 ,"Code":"4E"
 }
@@ -43,6 +43,9 @@
 }
 ,{"canBeFoil":false
 ,"Code":"C15"
+}
+,{"canBeFoil":false
+,"Code":"C16"
 }
 ,{"canBeFoil":false
 ,"Code":"CH"
@@ -228,9 +231,6 @@
 ,"Code":"VI"
 }
 ,{"canBeFoil":false
-,"Code":"VNG"
-}
-,{"canBeFoil":false
 ,"Code":"VVK"
 }
 ,{"canBeFoil":false
@@ -372,18 +372,6 @@
 ,"Code":"MBS"
 }
 ,{"canBeFoil":true
-,"Code":"ME"
-}
-,{"canBeFoil":true
-,"Code":"ME2"
-}
-,{"canBeFoil":true
-,"Code":"ME3"
-}
-,{"canBeFoil":true
-,"Code":"ME4"
-}
-,{"canBeFoil":true
 ,"Code":"MM"
 }
 ,{"canBeFoil":true
@@ -469,9 +457,6 @@
 }
 ,{"canBeFoil":true
 ,"Code":"UNH"
-}
-,{"canBeFoil":true
-,"Code":"VMA"
 }
 ,{"canBeFoil":true
 ,"Code":"WWK"
