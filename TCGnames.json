@@ -340,6 +340,9 @@
 ,{"TCGName":"Planechase 2012"
 ,"Code":"PC2"
 }
+,{"TCGName":"Planechase Anthology"
+,"Code":"PCA"
+}
 ,{"TCGName":"Planechase"
 ,"Code":"PCH"
 }
@@ -467,5 +470,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/09\/2016"
+,"Date":"11\/23\/2016"
 }

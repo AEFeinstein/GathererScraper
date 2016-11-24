@@ -1198,6 +1198,16 @@
 ,"date":1338523200000
 ,"code":"PC2"
 }
+,{"tcgp":"Planechase Anthology"
+,"subsets":"Planechase Anthology##"
+,"name":"Planechase Anthology"
+,"mtgi":"PCA"
+,"mkm":"Planechase Anthology"
+,"foil":false
+,"digest":[-123,-112,-97,-90,-72,-46,-34,-26,-25,-15,-7,10,53,60,99,115]
+,"date":1477972800000
+,"code":"PCA"
+}
 ,{"tcgp":"Planechase"
 ,"subsets":"Planechase##"
 ,"name":"Planechase"

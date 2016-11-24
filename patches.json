@@ -442,6 +442,10 @@
 ,"Name":"Planechase 2012 Edition"
 ,"Code":"PC2"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PCA.json.gzip"
+,"Name":"Planechase Anthology"
+,"Code":"PCA"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/PCH.json.gzip"
 ,"Name":"Planechase"
 ,"Code":"PCH"
@@ -623,5 +627,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/09\/2016"
+,"Date":"11\/23\/2016"
 }
