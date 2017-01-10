@@ -226,12 +226,18 @@ public class GathererScraper {
 	 */
 	public static Document ConnectWithRetries(String urlStr) {
 		int retries = 0;
-		while (retries < 20) {
+		while (retries < Integer.MAX_VALUE - 1) {
 			try {
-				return Jsoup.connect(urlStr).get();
+				return Jsoup.connect(urlStr).timeout(0).get();
 			}
 			catch(Exception e) {
 				retries++;
+				try {
+					Thread.sleep(1000 * retries);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 			}
 		}
 		return null;
