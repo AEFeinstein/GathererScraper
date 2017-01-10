@@ -78,7 +78,10 @@
 ,"KLD"
 ]
 ,"Restrictedlist":[]
-,"Banlist":[]
+,"Banlist":["Emrakul, the Promised End"
+,"Smuggler's Copter"
+,"Reflector Mage"
+]
 }
 ,"Modern":{"Sets":["8E"
 ,"MR"
@@ -150,7 +153,9 @@
 ,"Dig Through Time"
 ,"Dread Return"
 ,"Eye of Ugin"
+,"Gitaxian Probe"
 ,"Glimpse of Nature"
+,"Golgari Grave-Troll"
 ,"Great Furnace"
 ,"Green Sun's Zenith"
 ,"Hypergenesis"
@@ -343,5 +348,5 @@
 ,"Banlist":[]
 }
 }
-,"Date":"09\/21\/2016"
+,"Date":"01\/09\/2017"
 }
