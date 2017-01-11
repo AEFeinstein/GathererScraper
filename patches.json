@@ -30,6 +30,10 @@
 ,"Name":"Limited Edition Alpha"
 ,"Code":"A"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AER.json.gzip"
+,"Name":"Aether Revolt"
+,"Code":"AER"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/AL.json.gzip"
 ,"Name":"Alliances"
 ,"Code":"AL"
@@ -627,5 +631,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/23\/2016"
+,"Date":"01\/11\/2017"
 }

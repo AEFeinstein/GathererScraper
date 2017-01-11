@@ -76,6 +76,7 @@
 ,"W16"
 ,"EMN"
 ,"KLD"
+,"AER"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Emrakul, the Promised End"
@@ -140,6 +141,7 @@
 ,"W16"
 ,"EMN"
 ,"KLD"
+,"AER"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":["Ancient Den"
@@ -343,10 +345,11 @@
 ]
 }
 ,"Block":{"Sets":["KLD"
+,"AER"
 ]
 ,"Restrictedlist":[]
 ,"Banlist":[]
 }
 }
-,"Date":"01\/09\/2017"
+,"Date":"01\/11\/2017"
 }

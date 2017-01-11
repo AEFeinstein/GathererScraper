@@ -1,4 +1,7 @@
-{"Sets":[{"MKMName":"Alara Reborn"
+{"Sets":[{"MKMName":"Aether Revolt"
+,"Code":"AER"
+}
+,{"MKMName":"Alara Reborn"
 ,"Code":"ARB"
 }
 ,{"MKMName":"Alliances"
@@ -470,5 +473,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/23\/2016"
+,"Date":"01\/11\/2017"
 }

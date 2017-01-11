@@ -304,6 +304,9 @@
 ,{"Digest":"9bed3e995bd516e2d213a4594bfa7d11"
 ,"Code":"BOK"
 }
+,{"Digest":"9ce17aab7339a56e8717717e39460427"
+,"Code":"AER"
+}
 ,{"Digest":"9da4e92944bce88f144a585d3812aaae"
 ,"Code":"UD"
 }
@@ -470,5 +473,5 @@
 ,"Code":"IVG"
 }
 ]
-,"Date":"01\/09\/2017"
+,"Date":"01\/11\/2017"
 }

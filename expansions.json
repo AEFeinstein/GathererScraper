@@ -98,6 +98,16 @@
 ,"date":1120190400000
 ,"code":"9E"
 }
+,{"tcgp":"Aether Revolt"
+,"subsets":"Aether Revolt##"
+,"name":"Aether Revolt"
+,"mtgi":"AER"
+,"mkm":"Aether Revolt"
+,"foil":true
+,"digest":[-121,-100,-91,-85,-31,4,23,39,57,57,70,110,113,115,122,126]
+,"date":1483246800000
+,"code":"AER"
+}
 ,{"tcgp":"Alara Reborn"
 ,"subsets":"Alara Reborn##"
 ,"name":"Alara Reborn"

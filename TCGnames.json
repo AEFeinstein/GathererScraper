@@ -10,6 +10,9 @@
 ,{"TCGName":"9th Edition"
 ,"Code":"9E"
 }
+,{"TCGName":"Aether Revolt"
+,"Code":"AER"
+}
 ,{"TCGName":"Alara Reborn"
 ,"Code":"ARB"
 }
@@ -470,5 +473,5 @@
 ,"Code":"ZEN"
 }
 ]
-,"Date":"11\/23\/2016"
+,"Date":"01\/11\/2017"
 }
