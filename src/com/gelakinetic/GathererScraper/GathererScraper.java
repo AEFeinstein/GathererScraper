@@ -214,7 +214,14 @@ public class GathererScraper {
 		for(Card c : scrapedCards) {
 			messageDigest.update(c.getBytes());
 		}
-		exp.mDigest = messageDigest.digest();
+		
+		byte byteDigest[] = messageDigest.digest();
+		StringBuilder sb = new StringBuilder();
+		for(byte b : byteDigest) {
+			sb.append(String.format("%02x", b));
+		}
+		exp.mDigest = sb.toString();
+		
 		return scrapedCards;
 	}
 

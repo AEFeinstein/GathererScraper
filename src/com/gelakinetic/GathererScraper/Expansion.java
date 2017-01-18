@@ -48,7 +48,8 @@ public class Expansion implements Comparable<Expansion>{
 	/** Subsets for duel decks anthology */
 	public ArrayList<String> mSubSets			= new ArrayList<String>();
 	/** MD5 digest for scraped cards, to see when things change */
-	public byte[]				mDigest 		= new byte[16];
+//	public byte[]				mDigest 		= new byte[16];
+	public String				mDigest 		= "";
 	
 	/**
 	 * The most basic constructor for an expansion. Only sets the gatherer name
@@ -95,16 +96,7 @@ public class Expansion implements Comparable<Expansion>{
 			/* info DNE */
 		}
 		
-		try {
-			JSONArray digest = (JSONArray) jo.get(KEY_DIGEST);
-			int i = 0;
-			for(Object o : digest) {
-				this.mDigest[i++] = (byte) (((Long)o).byteValue() & 0xFF);
-			}
-		}
-		catch (Exception e) {
-			/* Eat it */
-		}
+		mDigest = (String) jo.get(KEY_DIGEST);
 		
 		try {
 			mCanBeFoil = (Boolean) jo.get(KEY_FOIL);
@@ -184,17 +176,6 @@ public class Expansion implements Comparable<Expansion>{
 
 	public void addSubSet(String ownText) {
 		mSubSets.add(ownText);
-	}
-
-	/**
-	 * @return A string representation of the MD5 digest for this expansion
-	 */
-	public String getStringDigest() {
-		StringBuilder sb = new StringBuilder();
-		for(byte b : mDigest) {
-			sb.append(String.format("%02x", b));
-		}
-		return sb.toString();
 	}
 
 	/**

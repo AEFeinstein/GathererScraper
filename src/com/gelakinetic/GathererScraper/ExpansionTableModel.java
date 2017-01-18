@@ -249,6 +249,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 *             If the data in the file is corrupted
 	 */
 	public void readInfo(File JsonExpansions) throws FileNotFoundException, IOException, ParseException {
+
 		JSONParser parser = new JSONParser();
 
 		JSONArray exps = (JSONArray) parser.parse(new FileReader(JsonExpansions));
@@ -257,9 +258,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 			Expansion e = new Expansion((JSONObject) jo);
 			for (Expansion existing : mExpansions) {
 				if (existing.mName_gatherer.equals(e.mName_gatherer)) {
-					if (e.mDigest != null) {
-						System.arraycopy(e.mDigest, 0, existing.mDigest, 0, e.mDigest.length);						
-					}
+					existing.mDigest = e.mDigest;
 					existing.mCode_gatherer = e.mCode_gatherer;
 					existing.mCode_mtgi = e.mCode_mtgi;
 					existing.mName_mkm = e.mName_mkm;
@@ -399,7 +398,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 			if (exp.isScraped()) {
 				JSONObject digest = new JSONObject();
 				digest.put("Code", exp.mCode_gatherer);
-				digest.put("Digest", exp.getStringDigest());
+				digest.put("Digest", exp.mDigest);
 				digestsArray.add(digest);
 			}
 		}
