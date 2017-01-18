@@ -147,7 +147,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 			FileWriter file;
 
 			file = new FileWriter(new File(path, GathererScraperUi.LEGAL_FILE_NAME));
-			file.write(topLevel.toJSONString());
+			file.write(topLevel.toJSONString().replace("\r",""));
 			file.flush();
 			file.close();
 			return true;

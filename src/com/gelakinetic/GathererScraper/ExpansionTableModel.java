@@ -9,7 +9,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Collections;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -312,7 +311,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		patchFile.put("Patches", patchesArray);
 
 		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(patchFile.toJSONString());
+		fileWriter.write(patchFile.toJSONString().replace("\r",""));
 		fileWriter.flush();
 		fileWriter.close();
 	}
@@ -343,7 +342,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		TcgFile.put("Sets", tcgNamesArray);
 
 		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(TcgFile.toJSONString());
+		fileWriter.write(TcgFile.toJSONString().replace("\r",""));
 		fileWriter.flush();
 		fileWriter.close();
 	}
@@ -375,7 +374,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		MkmFile.put("Sets", mkmNamesArray);
 
 		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(MkmFile.toJSONString());
+		fileWriter.write(MkmFile.toJSONString().replace("\r",""));
 		fileWriter.flush();
 		fileWriter.close();
 	}
@@ -405,7 +404,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		DigestsFile.put("Digests", digestsArray);
 
 		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(DigestsFile.toJSONString());
+		fileWriter.write(DigestsFile.toJSONString().replace("\r",""));
 		fileWriter.flush();
 		fileWriter.close();
 	}
@@ -435,7 +434,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		CanBeFoilFile.put("CanBeFoil", canBeFoilArray);
 
 		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(CanBeFoilFile.toJSONString());
+		fileWriter.write(CanBeFoilFile.toJSONString().replace("\r",""));
 		fileWriter.flush();
 		fileWriter.close();
 	}

@@ -3,7 +3,6 @@ package com.gelakinetic.GathererScraper;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import com.gelakinetic.GathererChecker.RssEntry;

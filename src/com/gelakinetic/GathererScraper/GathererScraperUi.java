@@ -206,7 +206,7 @@ public class GathererScraperUi {
 				try {
 					Collections.sort(expansions, JSONArray.getComparator());
 					FileWriter fw = new FileWriter(new File(EXPANSION_FILE_NAME));
-					fw.write(expansions.toJSONString());
+					fw.write(expansions.toJSONString().replace("\r",""));
 					fw.close();
 				}
 				catch (IOException e1) {
