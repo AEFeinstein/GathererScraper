@@ -400,6 +400,37 @@ public class GathererScraper {
 							card.mName));
 				}
 				
+				/* Manually override some numbers because Gatherer is trash */
+				switch (card.mName) {
+				case "Bruna, the Fading Light":
+					card.mNumber = "15a";
+					break;
+				case "Gisela, the Broken Blade":
+					card.mNumber = "28a";
+					break;
+				case "Brisela, Voice of Nightmares":
+					card.mNumber = "28b";
+					break;
+				case "Graf Rats":
+					card.mNumber = "91a";
+					break;
+				case "Midnight Scavengers":
+					card.mNumber = "96a";
+					break;
+				case "Chittering Host":
+					card.mNumber = "91b";
+					break;
+				case "Hanweir Battlements":
+					card.mNumber = "204a";
+					break;
+				case "Hanweir Garrison":
+					card.mNumber = "130a";
+					break;
+				case "Hanweir, the Writhing Township":
+					card.mNumber = "204b";
+					break;
+				}
+				
 				/* color, calculated */
 				String color = getTextFromAttribute(cardPage, id + "colorIndicatorRow", "value", true);
 				card.mColor = "";
