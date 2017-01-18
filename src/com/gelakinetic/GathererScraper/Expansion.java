@@ -197,5 +197,14 @@ public class Expansion implements Comparable<Expansion>{
 		return sb.toString();
 	}
 
+	/**
+	 * Use the Gatherer code as a proxy if this expansion was scraped or not
+	 * 
+	 * @return true if the gatherer code exists, false if it does not
+	 */
+	public boolean isScraped() {
+		return mCode_gatherer != null && !mCode_gatherer.isEmpty();
+	}
+
 
 }

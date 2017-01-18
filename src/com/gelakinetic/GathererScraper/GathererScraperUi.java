@@ -35,7 +35,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPOutputStream;
 
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
@@ -44,7 +43,6 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JProgressBar;
-import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ScrollPaneConstants;
@@ -54,7 +52,6 @@ import javax.swing.filechooser.FileFilter;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import com.camick.TableColumnAdjuster;
@@ -78,27 +75,16 @@ public class GathererScraperUi {
 
 	private JProgressBar		mExpansionProgressBar;
 	private JLabel				mLastCardScraped;
-	private JRadioButton		mRdbtnOverwriteManifests;
 	private JTable				mTable;
 
 	private ExpansionTableModel	mExpansionTableModel;
 	private LegalityListModel	mLegalityListModel;
 	private String				mFilesPath;
 
-	File						mTcgNamesFile		= null;
-	File						mMkmNamesFile		= null;
-	File						mPatchesFile		= null;
 	File						mLegalityFile		= null;
 	File						mExpansionsFile		= null;
 	File						mAppmapFile			= null;
-	File						mDigestsFile		= null;
-	File						mFoilsFile			= null;
 
-	private JSONArray			mPatchesArray		= new JSONArray();
-	private JSONArray			mTcgNamesArray		= new JSONArray();
-	private JSONArray			mMkmNamesArray		= new JSONArray();
-	private JSONArray			mDigestsArray		= new JSONArray();
-	private JSONArray			mCanBeFoilArray		= new JSONArray();
 	private HashSet<Integer>	mAllMultiverseIds;
 
 	private int					mNumExpansions;
@@ -152,13 +138,8 @@ public class GathererScraperUi {
 
 		/* Make some files to be opened later */
 		mExpansionsFile = new File(mFilesPath, EXPANSION_FILE_NAME);
-		mPatchesFile = new File(mFilesPath, PATCH_FILE_NAME);
-		mTcgNamesFile = new File(mFilesPath, TCG_FILE_NAME);
-		mMkmNamesFile = new File(mFilesPath, MKM_FILE_NAME);
 		mLegalityFile = new File(mFilesPath, LEGAL_FILE_NAME);
 		mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
-		mDigestsFile = new File(mFilesPath, DIGESTS_FILE_NAME);
-		mFoilsFile = new File(mFilesPath, FOIL_FILE_NAME);
 
 		/*
 		 * If the expansion file isn't found, don't bother running the
@@ -248,25 +229,8 @@ public class GathererScraperUi {
 				/* Then add the extra data from the expansions file */
 				mExpansionTableModel.readInfo(mExpansionsFile);
 
-				JSONParser parser = new JSONParser();
-				if (mPatchesFile.exists()) {
-					mPatchesArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mPatchesFile)))
-							.get("Patches");
-				}
-				if (mTcgNamesFile.exists()) {
-					mTcgNamesArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mTcgNamesFile))).get("Sets");
-				}
-				if (mMkmNamesFile.exists()) {
-					mMkmNamesArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mMkmNamesFile))).get("Sets");
-				}
 				if (mLegalityFile.exists()) {
 					mLegalityListModel.loadLegalities(mLegalityFile);
-				}
-				if (mDigestsFile.exists()) {
-					mDigestsArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mDigestsFile))).get("Digests");
-				}
-				if(mFoilsFile.exists()) {
-					mCanBeFoilArray = (JSONArray) ((JSONObject) parser.parse(new FileReader(mFoilsFile))).get("CanBeFoil");
 				}
 				mAllMultiverseIds = new HashSet<Integer>();
 				if(mAppmapFile.exists()) {
@@ -379,15 +343,6 @@ public class GathererScraperUi {
 						frame.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 						frame.setEnabled(false);
 
-						/* Should we append or overwrite the manifest files? */
-						if (mRdbtnOverwriteManifests.isSelected()) {
-							mPatchesArray.clear();
-							mTcgNamesArray.clear();
-							mMkmNamesArray.clear();
-							mDigestsArray.clear();
-							mCanBeFoilArray.clear();
-						}
-
 						/* Get today's date */
 						DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 						Calendar cal = Calendar.getInstance();
@@ -404,26 +359,6 @@ public class GathererScraperUi {
 						catch (IOException e1) {
 							e1.printStackTrace();
 						}
-
-						JSONObject patchFile = new JSONObject();
-						patchFile.put("Date", date);
-						patchFile.put("Patches", mPatchesArray);
-
-						JSONObject TcgFile = new JSONObject();
-						TcgFile.put("Date", date);
-						TcgFile.put("Sets", mTcgNamesArray);
-
-						JSONObject MkmFile = new JSONObject();
-						MkmFile.put("Date", date);
-						MkmFile.put("Sets", mMkmNamesArray);
-						
-						JSONObject DigestsFile = new JSONObject();
-						DigestsFile.put("Date", date);
-						DigestsFile.put("Digests", mDigestsArray);
-
-						JSONObject CanBeFoilFile = new JSONObject();
-						CanBeFoilFile.put("Date", date);
-						CanBeFoilFile.put("CanBeFoil", mCanBeFoilArray);
 
 						/*
 						 * Make a thread pool to scrape each set in it's own
@@ -446,30 +381,8 @@ public class GathererScraperUi {
 									@Override
 									public void run() {
 										try {
-											JSONObject patchInfo;
 											ArrayList<Card> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
-											patchInfo = writeJsonPatchFile(exp, cards);
-											addToArray(mPatchesArray, patchInfo);
-
-											JSONObject tcgname = new JSONObject();
-											tcgname.put("Code", exp.mCode_gatherer);
-											tcgname.put("TCGName", exp.mName_tcgp);
-											addToArray(mTcgNamesArray, tcgname);
-
-											JSONObject mkmname = new JSONObject();
-											mkmname.put("Code", exp.mCode_gatherer);
-											mkmname.put("MKMName", exp.mName_mkm);
-											addToArray(mMkmNamesArray, mkmname);
-											
-											JSONObject digest = new JSONObject();
-											digest.put("Code", exp.mCode_gatherer);
-											digest.put("Digest", exp.getStringDigest());
-											addToArray(mDigestsArray, digest);
-											
-											JSONObject canBeFoil = new JSONObject();
-											canBeFoil.put("Code", exp.mCode_gatherer);
-											canBeFoil.put("canBeFoil", exp.mCanBeFoil);
-											addToArray(mCanBeFoilArray, canBeFoil);
+											writeJsonPatchFile(exp, cards);
 										}
 										catch (Exception e) {
 											e.printStackTrace();
@@ -499,37 +412,12 @@ public class GathererScraperUi {
 
 						try {
 							/* Write the patches manifest */
-							FileWriter file;
 
-							Collections.sort(mPatchesArray, JSONArray.getComparator());
-							file = new FileWriter(new File(mFilesPath, PATCH_FILE_NAME));
-							file.write(patchFile.toJSONString());
-							file.flush();
-							file.close();
-
-							Collections.sort(mTcgNamesArray, JSONArray.getComparator());
-							file = new FileWriter(new File(mFilesPath, TCG_FILE_NAME));
-							file.write(TcgFile.toJSONString());
-							file.flush();
-							file.close();
-
-							Collections.sort(mMkmNamesArray, JSONArray.getComparator());
-							file = new FileWriter(new File(mFilesPath, MKM_FILE_NAME));
-							file.write(MkmFile.toJSONString());
-							file.flush();
-							file.close();
-							
-							Collections.sort(mDigestsArray, JSONArray.getComparator());
-							file = new FileWriter(new File(mFilesPath, DIGESTS_FILE_NAME));
-							file.write(DigestsFile.toJSONString());
-							file.flush();
-							file.close();
-							
-							Collections.sort(mCanBeFoilArray, JSONArray.getComparator());
-							file = new FileWriter(new File(mFilesPath, FOIL_FILE_NAME));
-							file.write(CanBeFoilFile.toJSONString());
-							file.flush();
-							file.close();
+							mExpansionTableModel.writePatchesFile(new File(mFilesPath, PATCH_FILE_NAME));
+							mExpansionTableModel.writeTcgNamesFile(new File(mFilesPath, TCG_FILE_NAME));
+							mExpansionTableModel.writeMkmNamesFile(new File(mFilesPath, MKM_FILE_NAME));
+							mExpansionTableModel.writeDigestsFile(new File(mFilesPath, DIGESTS_FILE_NAME));
+							mExpansionTableModel.writeCanBeFoilFile(new File(mFilesPath, FOIL_FILE_NAME));
 						}
 						catch (IOException e) {
 							e.printStackTrace();
@@ -595,29 +483,11 @@ public class GathererScraperUi {
 			}
 		});
 
-		JRadioButton rdbtnAppendManifests = new JRadioButton("Append Manifests");
-		rdbtnAppendManifests.setSelected(true);
-		GridBagConstraints gbc_rdbtnAppendManifests = new GridBagConstraints();
-		gbc_rdbtnAppendManifests.insets = new Insets(0, 0, 0, 5);
-		gbc_rdbtnAppendManifests.gridx = 0;
-		gbc_rdbtnAppendManifests.gridy = 3;
-		frame.getContentPane().add(rdbtnAppendManifests, gbc_rdbtnAppendManifests);
-
-		mRdbtnOverwriteManifests = new JRadioButton("Overwrite Manifests");
-		GridBagConstraints gbc_rdbtnOverwriteManifests = new GridBagConstraints();
-		gbc_rdbtnOverwriteManifests.insets = new Insets(0, 0, 0, 5);
-		gbc_rdbtnOverwriteManifests.gridx = 1;
-		gbc_rdbtnOverwriteManifests.gridy = 3;
-		frame.getContentPane().add(mRdbtnOverwriteManifests, gbc_rdbtnOverwriteManifests);
-
-		ButtonGroup group = new ButtonGroup();
-		group.add(rdbtnAppendManifests);
-		group.add(mRdbtnOverwriteManifests);
-
 		GridBagConstraints gbc_btnScrape = new GridBagConstraints();
+		gbc_btnScrape.gridwidth = 3;
 		gbc_btnScrape.fill = GridBagConstraints.BOTH;
 		gbc_btnScrape.insets = new Insets(0, 0, 0, 5);
-		gbc_btnScrape.gridx = 2;
+		gbc_btnScrape.gridx = 0;
 		gbc_btnScrape.gridy = 3;
 		frame.getContentPane().add(btnScrape, gbc_btnScrape);
 
@@ -692,7 +562,7 @@ public class GathererScraperUi {
 	 * @return a JSONObject containing metadata about the patch. This is used to
 	 *         build a patch manifest
 	 */
-	public JSONObject writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
+	public void writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
 		JSONObject topLevel = new JSONObject();
 		JSONObject mtg_carddatabase = new JSONObject();
 		JSONObject cards = new JSONObject();
@@ -757,12 +627,6 @@ public class GathererScraperUi {
 		catch (IOException e) {
 			e.printStackTrace();
 		}
-		JSONObject patchInfo = new JSONObject();
-		/* Note, new fields cannot be added to this JSON object. It breaks old updaters */
-		patchInfo.put("Name", exp.mName_gatherer);
-		patchInfo.put("URL", "https://sites.google.com/site/mtgfamiliar/patches/" + exp.mCode_gatherer + ".json.gzip");
-		patchInfo.put("Code", exp.mCode_gatherer);
-		return patchInfo;
 	}
 
 	/**
@@ -788,19 +652,6 @@ public class GathererScraperUi {
 			return chooser.getSelectedFile();
 		}
 		return null;
-	}
-
-	/**
-	 * A synchronized wrapper to add a JSONObject to a JSONArray. This is used
-	 * by threads which scrape cards and save data
-	 *
-	 * @param array
-	 *            The array to add the object to
-	 * @param obj
-	 *            The object to add to the array
-	 */
-	public synchronized void addToArray(JSONArray array, JSONObject obj) {
-		array.add(obj);
 	}
 
 	/**

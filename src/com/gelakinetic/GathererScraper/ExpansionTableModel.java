@@ -3,8 +3,13 @@ package com.gelakinetic.GathererScraper;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -264,5 +269,180 @@ public class ExpansionTableModel extends AbstractTableModel {
 				}
 			}
 		}
+	}
+
+	/**
+	 * @return Today's date, in String form
+	 */
+	private String getDateString() {
+		/* Get today's date */
+		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+		Calendar cal = Calendar.getInstance();
+		return dateFormat.format(cal.getTime());
+	}
+	
+	/**
+	 * Writes the patches manifest out to a file from the ExpansionTableModel
+	 * 
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             If the write failed
+	 */
+	public void writePatchesFile(File outFile) throws IOException {
+
+		/* Build an array of patches */
+		JSONArray patchesArray = new JSONArray();
+		for (Expansion exp : mExpansions) {
+			/*
+			 * Note, new fields cannot be added to this JSON object. It breaks
+			 * old updaters
+			 */
+			if (exp.isScraped()) {
+				JSONObject patchInfo = new JSONObject();
+				patchInfo.put("Name", exp.mName_gatherer);
+				patchInfo.put("URL", "https://sites.google.com/site/mtgfamiliar/patches/" + exp.mCode_gatherer
+						+ ".json.gzip");
+				patchInfo.put("Code", exp.mCode_gatherer);
+				patchesArray.add(patchInfo);
+			}
+		}
+
+		JSONObject patchFile = new JSONObject();
+		patchFile.put("Date", getDateString());
+		patchFile.put("Patches", patchesArray);
+
+		Collections.sort(patchesArray, JSONArray.getComparator());
+		FileWriter fileWriter = new FileWriter(outFile);
+		fileWriter.write(patchFile.toJSONString());
+		fileWriter.flush();
+		fileWriter.close();
+	}
+	
+	/**
+	 * Writes the TCGPlayer.com names out to a file from the ExpansionTableModel
+	 * 
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             If the write failed
+	 */
+	public void writeTcgNamesFile(File outFile) throws IOException {
+
+		JSONArray tcgNamesArray = new JSONArray();
+
+		for (Expansion exp : mExpansions) {
+			if (exp.isScraped()) {
+				JSONObject tcgname = new JSONObject();
+				tcgname.put("Code", exp.mCode_gatherer);
+				tcgname.put("TCGName", exp.mName_tcgp);
+				tcgNamesArray.add(tcgname);
+			}
+		}
+
+		JSONObject TcgFile = new JSONObject();
+		TcgFile.put("Date", getDateString());
+		TcgFile.put("Sets", tcgNamesArray);
+
+		Collections.sort(tcgNamesArray, JSONArray.getComparator());
+		FileWriter fileWriter = new FileWriter(outFile);
+		fileWriter.write(TcgFile.toJSONString());
+		fileWriter.flush();
+		fileWriter.close();
+	}
+
+	/**
+	 * Writes the magiccardmarket.eu names out to a file from the
+	 * ExpansionTableModel
+	 * 
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             If the write failed
+	 */
+	public void writeMkmNamesFile(File outFile) throws IOException {
+
+		JSONArray mkmNamesArray = new JSONArray();
+
+		for (Expansion exp : mExpansions) {
+			if (exp.isScraped()) {
+				JSONObject mkmname = new JSONObject();
+				mkmname.put("Code", exp.mCode_gatherer);
+				mkmname.put("MKMName", exp.mName_mkm);
+				mkmNamesArray.add(mkmname);
+			}
+		}
+
+		JSONObject MkmFile = new JSONObject();
+		MkmFile.put("Date", getDateString());
+		MkmFile.put("Sets", mkmNamesArray);
+
+		Collections.sort(mkmNamesArray, JSONArray.getComparator());
+		FileWriter fileWriter = new FileWriter(outFile);
+		fileWriter.write(MkmFile.toJSONString());
+		fileWriter.flush();
+		fileWriter.close();
+	}
+
+	/**
+	 * Writes the expansion digests out to a file from the ExpansionTableModel
+	 * 
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             If the write failed
+	 */
+	public void writeDigestsFile(File outFile) throws IOException {
+		JSONArray digestsArray = new JSONArray();
+
+		for (Expansion exp : mExpansions) {
+			if (exp.isScraped()) {
+				JSONObject digest = new JSONObject();
+				digest.put("Code", exp.mCode_gatherer);
+				digest.put("Digest", exp.getStringDigest());
+				digestsArray.add(digest);
+			}
+		}
+
+		JSONObject DigestsFile = new JSONObject();
+		DigestsFile.put("Date", getDateString());
+		DigestsFile.put("Digests", digestsArray);
+
+		Collections.sort(digestsArray, JSONArray.getComparator());
+		FileWriter fileWriter = new FileWriter(outFile);
+		fileWriter.write(DigestsFile.toJSONString());
+		fileWriter.flush();
+		fileWriter.close();
+	}
+
+	/**
+	 * Writes the "can be foil"s out to a file from the ExpansionTableModel
+	 * 
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             If the write failed
+	 */
+	public void writeCanBeFoilFile(File outFile) throws IOException {
+		JSONArray canBeFoilArray = new JSONArray();
+
+		for (Expansion exp : mExpansions) {
+			if (exp.isScraped()) {
+				JSONObject canBeFoil = new JSONObject();
+				canBeFoil.put("Code", exp.mCode_gatherer);
+				canBeFoil.put("canBeFoil", exp.mCanBeFoil);
+				canBeFoilArray.add(canBeFoil);
+			}
+		}
+
+		JSONObject CanBeFoilFile = new JSONObject();
+		CanBeFoilFile.put("Date", getDateString());
+		CanBeFoilFile.put("CanBeFoil", canBeFoilArray);
+
+		Collections.sort(canBeFoilArray, JSONArray.getComparator());
+		FileWriter fileWriter = new FileWriter(outFile);
+		fileWriter.write(CanBeFoilFile.toJSONString());
+		fileWriter.flush();
+		fileWriter.close();
 	}
 }
