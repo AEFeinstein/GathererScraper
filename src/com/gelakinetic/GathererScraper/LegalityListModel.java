@@ -5,9 +5,11 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 import javax.swing.AbstractListModel;
@@ -144,12 +146,13 @@ public class LegalityListModel extends AbstractListModel<String> {
 			topLevel.put("Date", date);
 			topLevel.put("Formats", mLegalityJson);
 
-			FileWriter file;
-
-			file = new FileWriter(new File(path, GathererScraperUi.LEGAL_FILE_NAME));
-			file.write(topLevel.toJSONString().replace("\r",""));
-			file.flush();
-			file.close();
+			System.setProperty("line.separator", "\n");
+			OutputStreamWriter osw = new OutputStreamWriter(
+					new FileOutputStream(new File(path, GathererScraperUi.LEGAL_FILE_NAME)), Charset.forName("UTF-8"));
+			osw.write(topLevel.toJSONString().replace("\r", ""));
+			osw.flush();
+			osw.close();
+			
 			return true;
 		}
 	}
