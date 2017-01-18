@@ -413,6 +413,7 @@ public class GathererScraperUi {
 						try {
 							/* Write the patches manifest */
 
+							Collections.sort(mExpansionTableModel.mExpansions);
 							mExpansionTableModel.writePatchesFile(new File(mFilesPath, PATCH_FILE_NAME));
 							mExpansionTableModel.writeTcgNamesFile(new File(mFilesPath, TCG_FILE_NAME));
 							mExpansionTableModel.writeMkmNamesFile(new File(mFilesPath, MKM_FILE_NAME));

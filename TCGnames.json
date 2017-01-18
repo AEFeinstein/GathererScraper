@@ -1,16 +1,4 @@
-{"Sets":[{"TCGName":"10th Edition"
-,"Code":"10E"
-}
-,{"TCGName":"7th Edition"
-,"Code":"7E"
-}
-,{"TCGName":"8th Edition"
-,"Code":"8E"
-}
-,{"TCGName":"9th Edition"
-,"Code":"9E"
-}
-,{"TCGName":"Aether Revolt"
+{"Sets":[{"TCGName":"Aether Revolt"
 ,"Code":"AER"
 }
 ,{"TCGName":"Alara Reborn"
@@ -18,9 +6,6 @@
 }
 ,{"TCGName":"Alliances"
 ,"Code":"AL"
-}
-,{"TCGName":"Alpha Edition"
-,"Code":"A"
 }
 ,{"TCGName":"Antiquities"
 ,"Code":"AQ"
@@ -45,9 +30,6 @@
 }
 ,{"TCGName":"Beatdown Box Set"
 ,"Code":"BD"
-}
-,{"TCGName":"Beta Edition"
-,"Code":"B"
 }
 ,{"TCGName":"Betrayers of Kamigawa"
 ,"Code":"BOK"
@@ -79,17 +61,11 @@
 ,{"TCGName":"Commander 2016"
 ,"Code":"C16"
 }
-,{"TCGName":"Commander"
-,"Code":"CMD"
-}
 ,{"TCGName":"Commander's Arsenal"
 ,"Code":"CRS"
 }
 ,{"TCGName":"Conflux"
 ,"Code":"CFX"
-}
-,{"TCGName":"Conspiracy"
-,"Code":"CNS"
 }
 ,{"TCGName":"Conspiracy: Take the Crown"
 ,"Code":"CN2"
@@ -109,9 +85,6 @@
 ,{"TCGName":"Dragons of Tarkir"
 ,"Code":"DTK"
 }
-,{"TCGName":"Duel Decks: Ajani vs. Nicol Bolas"
-,"Code":"AVB"
-}
 ,{"TCGName":"Duel Decks: Anthology"
 ,"Code":"DD3DVD"
 }
@@ -123,6 +96,9 @@
 }
 ,{"TCGName":"Duel Decks: Anthology"
 ,"Code":"DD3JVC"
+}
+,{"TCGName":"Duel Decks: Ajani vs. Nicol Bolas"
+,"Code":"AVB"
 }
 ,{"TCGName":"Duel Decks: Blessed vs. Cursed"
 ,"Code":"DDQ"
@@ -174,6 +150,9 @@
 }
 ,{"TCGName":"Duel Decks: Zendikar vs. Eldrazi"
 ,"Code":"DDP"
+}
+,{"TCGName":"8th Edition"
+,"Code":"8E"
 }
 ,{"TCGName":"Eldritch Moon"
 ,"Code":"EMN"
@@ -268,6 +247,12 @@
 ,{"TCGName":"Legions"
 ,"Code":"LE"
 }
+,{"TCGName":"Alpha Edition"
+,"Code":"A"
+}
+,{"TCGName":"Beta Edition"
+,"Code":"B"
+}
 ,{"TCGName":"Lorwyn"
 ,"Code":"LRW"
 }
@@ -289,17 +274,17 @@
 ,{"TCGName":"Magic 2015 (M15)"
 ,"Code":"M15"
 }
-,{"TCGName":"Magic Modern Event Deck"
-,"Code":"MD1"
-}
 ,{"TCGName":"Magic Origins"
 ,"Code":"ORI"
 }
+,{"TCGName":"Commander"
+,"Code":"CMD"
+}
+,{"TCGName":"Conspiracy"
+,"Code":"CNS"
+}
 ,{"TCGName":"Masterpiece Series: Kaladesh Inventions"
 ,"Code":"MPS"
-}
-,{"TCGName":"Media Promos"
-,"Code":"MBP"
 }
 ,{"TCGName":"Mercadian Masques"
 ,"Code":"MM"
@@ -307,17 +292,20 @@
 ,{"TCGName":"Mirage"
 ,"Code":"MI"
 }
-,{"TCGName":"Mirrodin Besieged"
-,"Code":"MBS"
-}
 ,{"TCGName":"Mirrodin"
 ,"Code":"MR"
 }
-,{"TCGName":"Modern Masters 2015"
-,"Code":"MM2"
+,{"TCGName":"Mirrodin Besieged"
+,"Code":"MBS"
+}
+,{"TCGName":"Magic Modern Event Deck"
+,"Code":"MD1"
 }
 ,{"TCGName":"Modern Masters"
 ,"Code":"MMA"
+}
+,{"TCGName":"Modern Masters 2015"
+,"Code":"MM2"
 }
 ,{"TCGName":"Morningtide"
 ,"Code":"MOR"
@@ -327,6 +315,9 @@
 }
 ,{"TCGName":"New Phyrexia"
 ,"Code":"NPH"
+}
+,{"TCGName":"9th Edition"
+,"Code":"9E"
 }
 ,{"TCGName":"Oath of the Gatewatch"
 ,"Code":"OGW"
@@ -340,26 +331,26 @@
 ,{"TCGName":"Planar Chaos"
 ,"Code":"PLC"
 }
+,{"TCGName":"Planechase"
+,"Code":"PCH"
+}
 ,{"TCGName":"Planechase 2012"
 ,"Code":"PC2"
 }
 ,{"TCGName":"Planechase Anthology"
 ,"Code":"PCA"
 }
-,{"TCGName":"Planechase"
-,"Code":"PCH"
-}
 ,{"TCGName":"Planeshift"
 ,"Code":"PS"
+}
+,{"TCGName":"Portal"
+,"Code":"PT"
 }
 ,{"TCGName":"Portal Second Age"
 ,"Code":"P2"
 }
 ,{"TCGName":"Portal Three Kingdoms"
 ,"Code":"P3"
-}
-,{"TCGName":"Portal"
-,"Code":"PT"
 }
 ,{"TCGName":"Premium Deck Series: Fire and Lightning"
 ,"Code":"FAL"
@@ -369,6 +360,9 @@
 }
 ,{"TCGName":"Premium Deck Series: Slivers"
 ,"Code":"SLI"
+}
+,{"TCGName":"Media Promos"
+,"Code":"MBP"
 }
 ,{"TCGName":"Prophecy"
 ,"Code":"PY"
@@ -394,6 +388,9 @@
 ,{"TCGName":"Scourge"
 ,"Code":"SC"
 }
+,{"TCGName":"7th Edition"
+,"Code":"7E"
+}
 ,{"TCGName":"Shadowmoor"
 ,"Code":"SHM"
 }
@@ -414,6 +411,9 @@
 }
 ,{"TCGName":"Tempest"
 ,"Code":"TE"
+}
+,{"TCGName":"10th Edition"
+,"Code":"10E"
 }
 ,{"TCGName":"The Dark"
 ,"Code":"DK"
@@ -466,12 +466,12 @@
 ,{"TCGName":"Worldwake"
 ,"Code":"WWK"
 }
-,{"TCGName":"Zendikar Expeditions"
-,"Code":"EXP"
-}
 ,{"TCGName":"Zendikar"
 ,"Code":"ZEN"
 }
+,{"TCGName":"Zendikar Expeditions"
+,"Code":"EXP"
+}
 ]
-,"Date":"01\/11\/2017"
+,"Date":"01\/18\/2017"
 }

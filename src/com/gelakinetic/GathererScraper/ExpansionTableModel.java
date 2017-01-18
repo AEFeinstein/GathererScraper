@@ -311,7 +311,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 		patchFile.put("Date", getDateString());
 		patchFile.put("Patches", patchesArray);
 
-		Collections.sort(patchesArray, JSONArray.getComparator());
 		FileWriter fileWriter = new FileWriter(outFile);
 		fileWriter.write(patchFile.toJSONString());
 		fileWriter.flush();
@@ -343,7 +342,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 		TcgFile.put("Date", getDateString());
 		TcgFile.put("Sets", tcgNamesArray);
 
-		Collections.sort(tcgNamesArray, JSONArray.getComparator());
 		FileWriter fileWriter = new FileWriter(outFile);
 		fileWriter.write(TcgFile.toJSONString());
 		fileWriter.flush();
@@ -376,7 +374,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 		MkmFile.put("Date", getDateString());
 		MkmFile.put("Sets", mkmNamesArray);
 
-		Collections.sort(mkmNamesArray, JSONArray.getComparator());
 		FileWriter fileWriter = new FileWriter(outFile);
 		fileWriter.write(MkmFile.toJSONString());
 		fileWriter.flush();
@@ -407,7 +404,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 		DigestsFile.put("Date", getDateString());
 		DigestsFile.put("Digests", digestsArray);
 
-		Collections.sort(digestsArray, JSONArray.getComparator());
 		FileWriter fileWriter = new FileWriter(outFile);
 		fileWriter.write(DigestsFile.toJSONString());
 		fileWriter.flush();
@@ -438,7 +434,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 		CanBeFoilFile.put("Date", getDateString());
 		CanBeFoilFile.put("CanBeFoil", canBeFoilArray);
 
-		Collections.sort(canBeFoilArray, JSONArray.getComparator());
 		FileWriter fileWriter = new FileWriter(outFile);
 		fileWriter.write(CanBeFoilFile.toJSONString());
 		fileWriter.flush();
