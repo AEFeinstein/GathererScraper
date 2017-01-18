@@ -503,7 +503,12 @@ public class GathererScraperUi {
 			public void actionPerformed(ActionEvent e) {
 				if (chckbxSelectAll.isSelected()) {
 					for (Expansion exp : mExpansionTableModel.mExpansions) {
-						exp.mChecked = true;
+						if(exp.isScraped()) {
+							exp.mChecked = true;
+						}
+						else {
+							exp.mChecked = false;
+						}
 					}
 				}
 				else {
