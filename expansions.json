@@ -1,42 +1,42 @@
 [{"tcgp":""
 ,"subsets":"Masters Edition II##"
 ,"name":"Masters Edition II"
-,"mtgi":"ME2"
+,"mtgi":""
 ,"mkm":""
-,"foil":true
+,"foil":false
 ,"digest":""
 ,"date":1220241600000
-,"code":"ME2"
+,"code":""
 }
 ,{"tcgp":""
 ,"subsets":"Masters Edition III##"
 ,"name":"Masters Edition III"
-,"mtgi":"ME3"
+,"mtgi":""
 ,"mkm":""
-,"foil":true
+,"foil":false
 ,"digest":""
 ,"date":1251777600000
-,"code":"ME3"
+,"code":""
 }
 ,{"tcgp":""
 ,"subsets":"Masters Edition IV##"
 ,"name":"Masters Edition IV"
-,"mtgi":"ME4"
+,"mtgi":""
 ,"mkm":""
-,"foil":true
+,"foil":false
 ,"digest":""
 ,"date":1293858000000
-,"code":"ME4"
+,"code":""
 }
 ,{"tcgp":""
 ,"subsets":"Masters Edition##"
 ,"name":"Masters Edition"
-,"mtgi":"MED"
+,"mtgi":""
 ,"mkm":"  "
-,"foil":true
+,"foil":false
 ,"digest":""
 ,"date":1188619200000
-,"code":"ME"
+,"code":""
 }
 ,{"tcgp":""
 ,"subsets":"Tempest Remastered##"
@@ -56,7 +56,7 @@
 ,"foil":true
 ,"digest":""
 ,"date":1401595200000
-,"code":"VMA"
+,"code":""
 }
 ,{"tcgp":"10th Edition"
 ,"subsets":"Tenth Edition##"
