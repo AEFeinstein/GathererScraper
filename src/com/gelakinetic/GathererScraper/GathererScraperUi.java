@@ -12,15 +12,15 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -205,9 +205,12 @@ public class GathererScraperUi {
 				}
 				try {
 					Collections.sort(expansions, JSONArray.getComparator());
-					FileWriter fw = new FileWriter(new File(EXPANSION_FILE_NAME));
-					fw.write(expansions.toJSONString().replace("\r",""));
-					fw.close();
+					System.setProperty("line.separator", "\n");
+					OutputStreamWriter osw = new OutputStreamWriter(
+							new FileOutputStream(new File(EXPANSION_FILE_NAME)), Charset.forName("UTF-8"));
+					osw.write(expansions.toJSONString().replace("\r",""));
+					osw.flush();
+					osw.close();
 				}
 				catch (IOException e1) {
 					e1.printStackTrace();
@@ -431,14 +434,18 @@ public class GathererScraperUi {
 							Integer multiverseIdsArray[] = new Integer[mAllMultiverseIds.size()];
 							mAllMultiverseIds.toArray(multiverseIdsArray);
 							Arrays.sort(multiverseIdsArray);
-							BufferedWriter bw = new BufferedWriter(new FileWriter(new File(mFilesPath, APPMAP_FILE_NAME)));
-							bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-							bw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
+							System.setProperty("line.separator", "\n");
+							OutputStreamWriter osw = new OutputStreamWriter(
+									new FileOutputStream(new File(mFilesPath, APPMAP_FILE_NAME)), Charset.forName("UTF-8"));
+
+							osw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+							osw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
 							for(int multiverseId : multiverseIdsArray) {
-								bw.write("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
+								osw.write("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
 							}
-							bw.write("</urlset>\n");
-							bw.close();
+							osw.write("</urlset>\n");
+							osw.flush();
+							osw.close();
 						} catch (IOException e) {
 							e.printStackTrace();
 						}

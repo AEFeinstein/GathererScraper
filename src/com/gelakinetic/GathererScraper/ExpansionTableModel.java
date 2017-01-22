@@ -2,9 +2,11 @@ package com.gelakinetic.GathererScraper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -310,10 +312,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		patchFile.put("Date", getDateString());
 		patchFile.put("Patches", patchesArray);
 
-		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(patchFile.toJSONString().replace("\r",""));
-		fileWriter.flush();
-		fileWriter.close();
+		writeFile(patchFile, outFile);
 	}
 	
 	/**
@@ -341,10 +340,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		TcgFile.put("Date", getDateString());
 		TcgFile.put("Sets", tcgNamesArray);
 
-		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(TcgFile.toJSONString().replace("\r",""));
-		fileWriter.flush();
-		fileWriter.close();
+		writeFile(TcgFile, outFile);
 	}
 
 	/**
@@ -373,10 +369,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		MkmFile.put("Date", getDateString());
 		MkmFile.put("Sets", mkmNamesArray);
 
-		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(MkmFile.toJSONString().replace("\r",""));
-		fileWriter.flush();
-		fileWriter.close();
+		writeFile(MkmFile, outFile);
 	}
 
 	/**
@@ -403,10 +396,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		DigestsFile.put("Date", getDateString());
 		DigestsFile.put("Digests", digestsArray);
 
-		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(DigestsFile.toJSONString().replace("\r",""));
-		fileWriter.flush();
-		fileWriter.close();
+		writeFile(DigestsFile, outFile);
 	}
 
 	/**
@@ -433,9 +423,27 @@ public class ExpansionTableModel extends AbstractTableModel {
 		CanBeFoilFile.put("Date", getDateString());
 		CanBeFoilFile.put("CanBeFoil", canBeFoilArray);
 
-		FileWriter fileWriter = new FileWriter(outFile);
-		fileWriter.write(CanBeFoilFile.toJSONString().replace("\r",""));
-		fileWriter.flush();
-		fileWriter.close();
+		writeFile(CanBeFoilFile, outFile);
 	}
+	
+	/**
+	 * Write the json object to a json file, UTF-8, Unix line endings
+	 * 
+	 * @param json
+	 *            The JSON object to write
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             Thrown if the write fails
+	 */
+	private void writeFile(JSONObject json, File outFile) throws IOException {
+		System.setProperty("line.separator", "\n");
+		OutputStreamWriter osw = new OutputStreamWriter(
+				new FileOutputStream(outFile), Charset.forName("UTF-8"));
+		osw.write(json.toJSONString().replace("\r", ""));
+		osw.flush();
+		osw.close();
+	}
+	
 }
+
