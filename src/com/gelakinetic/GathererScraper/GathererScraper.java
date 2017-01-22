@@ -1,11 +1,13 @@
 package com.gelakinetic.GathererScraper;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -885,8 +887,8 @@ public class GathererScraper {
 		/* Save any post-formatting lines with non-ascii chars here */
 		StringBuilder problematicLines = new StringBuilder();
 		/* Open up file in & out */
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(rulesFile), "UTF8"));
-		FileWriter fw = new FileWriter(rulesFile.getAbsolutePath() + ".clean");
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(rulesFile), "Cp1252"));
+		BufferedWriter fw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(rulesFile.getAbsolutePath() + ".clean"), "UTF8"));
 		/* Read the file, one line at a time */
 		String line;
 		while ((line = br.readLine()) != null) {
