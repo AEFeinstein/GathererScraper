@@ -1,7 +1,5 @@
 package com.gelakinetic.GathererScraper;
 
-import com.gelakinetic.GathererChecker.RssEntry;
-
 /**
  * This class contains all information about an expansion to be parsed
  *
@@ -51,9 +49,6 @@ public class Expansion implements Comparable<Expansion>{
 	public boolean equals(Object obj) {
 		if (obj instanceof Expansion) {
 			return this.mName_gatherer.equals(((Expansion)obj).mName_gatherer);
-		}
-		else if(obj instanceof RssEntry) {
-			return this.mName_gatherer.equals(((RssEntry)obj).getTitle());
 		}
 		return false;
 	}
