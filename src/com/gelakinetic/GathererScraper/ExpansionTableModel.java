@@ -3,10 +3,11 @@ package com.gelakinetic.GathererScraper;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -16,8 +17,10 @@ import javax.swing.table.AbstractTableModel;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * This class contains the table model to display information about expansions
@@ -249,14 +252,17 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 * @throws ParseException
 	 *             If the data in the file is corrupted
 	 */
-	public void readInfo(File JsonExpansions) throws FileNotFoundException, IOException, ParseException {
+	public void readInfo(File JsonExpansions) throws FileNotFoundException, IOException {
 
-		JSONParser parser = new JSONParser();
-
-		JSONArray exps = (JSONArray) parser.parse(new FileReader(JsonExpansions));
-
-		for (Object jo : exps) {
-			Expansion e = new Expansion((JSONObject) jo);
+		GsonBuilder builder = new GsonBuilder();
+		builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
+		builder.disableHtmlEscaping();
+		Gson gson = builder.create();
+		
+		String jsonContent = new String(Files.readAllBytes(Paths.get(JsonExpansions.getPath())));
+		Expansion[] expansions = gson.fromJson(jsonContent, Expansion[].class);
+		
+		for (Expansion e : expansions) {
 			for (Expansion existing : mExpansions) {
 				if (existing.mName_gatherer.equals(e.mName_gatherer)) {
 					existing.mDigest = e.mDigest;

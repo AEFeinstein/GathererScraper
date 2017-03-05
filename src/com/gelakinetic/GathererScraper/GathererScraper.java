@@ -106,35 +106,33 @@ public class GathererScraper {
 		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
 		
 		/* Look for normal cards */
-		for(int subSetNum = 0; subSetNum < exp.mSubSets.size(); subSetNum++) {
-			int pageNum = 0;
-			boolean loop = true;
-			while (loop) {
+		int pageNum = 0;
+		boolean loop = true;
+		while (loop) {
 
-				String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
-						+ "&output=compact&action=advanced&set=%5b%22"
-						+ (new PercentEscaper("", true)).escape(exp.mSubSets.get(subSetNum)) + "%22%5d&special=true";
+			String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
+					+ "&output=compact&action=advanced&set=%5b%22"
+					+ (new PercentEscaper("", true)).escape(exp.mName_gatherer) + "%22%5d&special=true";
 
-				Document individualExpansion = ConnectWithRetries(urlStr);
+			Document individualExpansion = ConnectWithRetries(urlStr);
 
-				Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
-				if (cards.size() == 0) {
+			Elements cards = individualExpansion.getElementsByAttributeValueContaining("id", "cardTitle");
+			if (cards.size() == 0) {
+				loop = false;
+			}
+			for (int i = 0; i < cards.size(); i++) {
+				Element e = cards.get(i);
+				Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
+				multiverseMap.put(card.mName, card.mMultiverseId);
+				
+				if (cardsArray.contains(card)) {
 					loop = false;
 				}
-				for (int i = 0; i < cards.size(); i++) {
-					Element e = cards.get(i);
-					Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
-					multiverseMap.put(card.mName, card.mMultiverseId);
-					
-					if (cardsArray.contains(card)) {
-						loop = false;
-					}
-					else {
-						cardsArray.add(card);
-					}
+				else {
+					cardsArray.add(card);
 				}
-				pageNum++;
 			}
+			pageNum++;
 		}
 
 		ArrayList<Card> scrapedCards = new ArrayList<Card>(cardsArray.size());
@@ -263,8 +261,6 @@ public class GathererScraper {
 	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp,
 			HashMap<String, Integer> multiverseMap,
 			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
-
-		boolean usingGathererNumbers = false;
 
 		/* Put all cards from all pages into this ArrayList */
 		ArrayList<Card> scrapedCardsAllPages = new ArrayList<Card>();
@@ -398,7 +394,6 @@ public class GathererScraper {
 				/* If that didn't work, try getting it from Gatherer */
 				if(card.mNumber == null || card.mNumber.equals("")) {
 					card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
-					usingGathererNumbers = true;
 				}
 	
 				/* If that didn't work, print a warning */
