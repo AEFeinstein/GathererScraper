@@ -1,1651 +1,1642 @@
-[{"tcgp":""
-,"subsets":"Masters Edition II##"
-,"name":"Masters Edition II"
-,"mtgi":""
-,"mkm":""
-,"foil":false
-,"digest":""
-,"date":1220241600000
-,"code":""
-}
-,{"tcgp":""
-,"subsets":"Masters Edition III##"
-,"name":"Masters Edition III"
-,"mtgi":""
-,"mkm":""
-,"foil":false
-,"digest":""
-,"date":1251777600000
-,"code":""
-}
-,{"tcgp":""
-,"subsets":"Masters Edition IV##"
-,"name":"Masters Edition IV"
-,"mtgi":""
-,"mkm":""
-,"foil":false
-,"digest":""
-,"date":1293858000000
-,"code":""
-}
-,{"tcgp":""
-,"subsets":"Masters Edition##"
-,"name":"Masters Edition"
-,"mtgi":""
-,"mkm":"  "
-,"foil":false
-,"digest":""
-,"date":1188619200000
-,"code":""
-}
-,{"tcgp":""
-,"subsets":"Tempest Remastered##"
-,"name":"Tempest Remastered"
-,"mtgi":""
-,"mkm":""
-,"foil":false
-,"digest":""
-,"date":""
-,"code":""
-}
-,{"tcgp":""
-,"subsets":"Vintage Masters##"
-,"name":"Vintage Masters"
-,"mtgi":""
-,"mkm":""
-,"foil":false
-,"digest":""
-,"date":""
-,"code":""
-}
-,{"tcgp":"10th Edition"
-,"subsets":"Tenth Edition##"
-,"name":"Tenth Edition"
-,"mtgi":"10E"
-,"mkm":"Tenth Edition"
-,"foil":true
-,"digest":"84cd8b524282d21489b684066da3cf1c"
-,"date":1183262400000
-,"code":"10E"
-}
-,{"tcgp":"7th Edition"
-,"subsets":"Seventh Edition##"
-,"name":"Seventh Edition"
-,"mtgi":"7E"
-,"mkm":"Seventh Edition"
-,"foil":true
-,"digest":"9fe2efbcfbbb8df09c3086aacffda0b8"
-,"date":986101200000
-,"code":"7E"
-}
-,{"tcgp":"8th Edition"
-,"subsets":"Eighth Edition##"
-,"name":"Eighth Edition"
-,"mtgi":"8E"
-,"mkm":"Eighth Edition"
-,"foil":true
-,"digest":"835cb9158367708ddd62cfe10d7f5ec3"
-,"date":1057032000000
-,"code":"8E"
-}
-,{"tcgp":"9th Edition"
-,"subsets":"Ninth Edition##"
-,"name":"Ninth Edition"
-,"mtgi":"9E"
-,"mkm":"Ninth Edition"
-,"foil":true
-,"digest":"d5a45dd40ae4f1dda0af08d97bf665e6"
-,"date":1120190400000
-,"code":"9E"
-}
-,{"tcgp":"Aether Revolt"
-,"subsets":"Aether Revolt##"
-,"name":"Aether Revolt"
-,"mtgi":"AER"
-,"mkm":"Aether Revolt"
-,"foil":true
-,"digest":"9ce17aab7339a56e8717717e39460427"
-,"date":1483246800000
-,"code":"AER"
-}
-,{"tcgp":"Alara Reborn"
-,"subsets":"Alara Reborn##"
-,"name":"Alara Reborn"
-,"mtgi":"ARB"
-,"mkm":"Alara Reborn"
-,"foil":true
-,"digest":"801b0225a96b359a9bf8e2e3afb09c95"
-,"date":1238558400000
-,"code":"ARB"
-}
-,{"tcgp":"Alliances"
-,"subsets":"Alliances##"
-,"name":"Alliances"
-,"mtgi":"AI"
-,"mkm":"Alliances"
-,"foil":false
-,"digest":"16bf9ef459907e072bb54abe7f957c17"
-,"date":833601600000
-,"code":"AL"
-}
-,{"tcgp":"Alpha Edition"
-,"subsets":"Limited Edition Alpha##"
-,"name":"Limited Edition Alpha"
-,"mtgi":"AL"
-,"mkm":"Alpha"
-,"foil":false
-,"digest":"b2b5a0dec15574e6aa1324f8c6c33d89"
-,"date":744177600000
-,"code":"A"
-}
-,{"tcgp":"Antiquities"
-,"subsets":"Antiquities##"
-,"name":"Antiquities"
-,"mtgi":"AQ"
-,"mkm":"Antiquities"
-,"foil":false
-,"digest":"9d944cba0f3d4b116fb519445dcf836d"
-,"date":765176400000
-,"code":"AQ"
-}
-,{"tcgp":"Apocalypse"
-,"subsets":"Apocalypse##"
-,"name":"Apocalypse"
-,"mtgi":"AP"
-,"mkm":"Apocalypse"
-,"foil":true
-,"digest":"6cbf50ce99abe1684d9a4ea091492aac"
-,"date":988689600000
-,"code":"AP"
-}
-,{"tcgp":"Arabian Nights"
-,"subsets":"Arabian Nights##"
-,"name":"Arabian Nights"
-,"mtgi":"AN"
-,"mkm":"Arabian Nights"
-,"foil":false
-,"digest":"7914afbbaf60b994e3063a6719beae8d"
-,"date":754722000000
-,"code":"AN"
-}
-,{"tcgp":"Archenemy"
-,"subsets":"Archenemy##"
-,"name":"Archenemy"
-,"mtgi":"ARC"
-,"mkm":"Archenemy"
-,"foil":false
-,"digest":"3328cddd960ce1456e6432f21ce93726"
-,"date":1275364800000
-,"code":"ARC"
-}
-,{"tcgp":"Avacyn Restored"
-,"subsets":"Avacyn Restored##"
-,"name":"Avacyn Restored"
-,"mtgi":"AVR"
-,"mkm":"Avacyn Restored"
-,"foil":true
-,"digest":"5ea07951fcac30bd36c83d0f72b43edb"
-,"date":1335844800000
-,"code":"AVR"
-}
-,{"tcgp":"Battle Royale Box Set"
-,"subsets":"Battle Royale Box Set##"
-,"name":"Battle Royale Box Set"
-,"mtgi":"BR"
-,"mkm":"Battle Royale"
-,"foil":false
-,"digest":"4c34adfe3fe8596cdd236e018ae2a2d8"
-,"date":941432400000
-,"code":"BR"
-}
-,{"tcgp":"Battle for Zendikar"
-,"subsets":"Battle for Zendikar##"
-,"name":"Battle for Zendikar"
-,"mtgi":"BFZ"
-,"mkm":"Battle for Zendikar"
-,"foil":true
-,"digest":"ce7ba53f93704a49418c049e7156c60f"
-,"date":1441080000000
-,"code":"BFZ"
-}
-,{"tcgp":"Beatdown Box Set"
-,"subsets":"Beatdown Box Set##"
-,"name":"Beatdown Box Set"
-,"mtgi":"BD"
-,"mkm":"Beatdown"
-,"foil":false
-,"digest":"35cc0d04bc0305fc44397c38505830c3"
-,"date":975646800000
-,"code":"BD"
-}
-,{"tcgp":"Beta Edition"
-,"subsets":"Limited Edition Beta##"
-,"name":"Limited Edition Beta"
-,"mtgi":"BE"
-,"mkm":"Beta"
-,"foil":false
-,"digest":"d7739d874de959755ae4b81a5bd6cbca"
-,"date":749448000000
-,"code":"B"
-}
-,{"tcgp":"Betrayers of Kamigawa"
-,"subsets":"Betrayers of Kamigawa##"
-,"name":"Betrayers of Kamigawa"
-,"mtgi":"BOK"
-,"mkm":"Betrayers of Kamigawa"
-,"foil":true
-,"digest":"59faeb7999bc34741ceeede23474290a"
-,"date":1104555600000
-,"code":"BOK"
-}
-,{"tcgp":"Born of the Gods"
-,"subsets":"Born of the Gods##"
-,"name":"Born of the Gods"
-,"mtgi":"BNG"
-,"mkm":"Born of the Gods"
-,"foil":true
-,"digest":"c44881d522cf946ecc055ad0bd937695"
-,"date":1391230800000
-,"code":"BNG"
-}
-,{"tcgp":"Champions of Kamigawa"
-,"subsets":"Champions of Kamigawa##"
-,"name":"Champions of Kamigawa"
-,"mtgi":"CHK"
-,"mkm":"Champions of Kamigawa"
-,"foil":true
-,"digest":"7a9f544e5420ce4fbed165ca40161fb5"
-,"date":1094011200000
-,"code":"CHK"
-}
-,{"tcgp":"Chronicles"
-,"subsets":"Chronicles##"
-,"name":"Chronicles"
-,"mtgi":"CH"
-,"mkm":"Chronicles"
-,"foil":false
-,"digest":"25483c511fd8cd2ce3bceb4df15be3a8"
-,"date":804571200000
-,"code":"CH"
-}
-,{"tcgp":"Classic Sixth Edition"
-,"subsets":"Classic Sixth Edition##"
-,"name":"Classic Sixth Edition"
-,"mtgi":"6E"
-,"mkm":"Sixth Edition"
-,"foil":false
-,"digest":"c63310f0eb0c9a2df4efa1dba728524a"
-,"date":922942800000
-,"code":"6E"
-}
-,{"tcgp":"Coldsnap"
-,"subsets":"Coldsnap##"
-,"name":"Coldsnap"
-,"mtgi":"CS"
-,"mkm":"Coldsnap"
-,"foil":true
-,"digest":"ad34816ec49a0aedd61da9b5e28900d3"
-,"date":1149134400000
-,"code":"CS"
-}
-,{"tcgp":"Commander 2013"
-,"subsets":"Commander 2013 Edition##"
-,"name":"Commander 2013 Edition"
-,"mtgi":"C13"
-,"mkm":"Commander 2013"
-,"foil":false
-,"digest":"a17f5b9c0053737ef2a3cc349867c77f"
-,"date":1383278400000
-,"code":"C13"
-}
-,{"tcgp":"Commander 2014"
-,"subsets":"Commander 2014##"
-,"name":"Commander 2014"
-,"mtgi":"C14"
-,"mkm":"Commander 2014"
-,"foil":false
-,"digest":"b692ae79499c46faa62a35b4f4f7680d"
-,"date":1414814400000
-,"code":"C14"
-}
-,{"tcgp":"Commander 2015"
-,"subsets":"Commander 2015##"
-,"name":"Commander 2015"
-,"mtgi":"C15"
-,"mkm":"Commander 2015"
-,"foil":false
-,"digest":"ff11afc96be03ab1db57e7f96e44a4cc"
-,"date":1446350400000
-,"code":"C15"
-}
-,{"tcgp":"Commander 2016"
-,"subsets":"Commander 2016##"
-,"name":"Commander 2016"
-,"mtgi":"C16"
-,"mkm":"Commander 2016"
-,"foil":false
-,"digest":"cc89f5d068039becb33217f1faf390c4"
-,"date":1477972800000
-,"code":"C16"
-}
-,{"tcgp":"Commander"
-,"subsets":"Magic: The Gathering-Commander##"
-,"name":"Magic: The Gathering-Commander"
-,"mtgi":"CMD"
-,"mkm":"Commander"
-,"foil":false
-,"digest":"631dd9daabd9aba3a9a3466141cb503c"
-,"date":1306900800000
-,"code":"CMD"
-}
-,{"tcgp":"Commander's Arsenal"
-,"subsets":"Commander's Arsenal##"
-,"name":"Commander's Arsenal"
-,"mtgi":"CMA"
-,"mkm":"Commander's Arsenal"
-,"foil":false
-,"digest":"dc77b63d60d0d338c821365efd7fd292"
-,"date":1351742400000
-,"code":"CRS"
-}
-,{"tcgp":"Conflux"
-,"subsets":"Conflux##"
-,"name":"Conflux"
-,"mtgi":"CFX"
-,"mkm":"Conflux"
-,"foil":true
-,"digest":"e52008d9f4efee7396c723bc32b9aeaa"
-,"date":1230786000000
-,"code":"CFX"
-}
-,{"tcgp":"Conspiracy"
-,"subsets":"Magic: The Gathering\u2014Conspiracy##"
-,"name":"Magic: The Gathering\u2014Conspiracy"
-,"mtgi":"CNS"
-,"mkm":"Conspiracy"
-,"foil":true
-,"digest":"e456845ce930fb54759b24546fca0ec5"
-,"date":1401595200000
-,"code":"CNS"
-}
-,{"tcgp":"Conspiracy: Take the Crown"
-,"subsets":"Conspiracy: Take the Crown##"
-,"name":"Conspiracy: Take the Crown"
-,"mtgi":"CN2"
-,"mkm":"Conspiracy: Take the Crown"
-,"foil":true
-,"digest":"01c0a8ea7a39cb2bf190b2e33055eb8c"
-,"date":1470024000000
-,"code":"CN2"
-}
-,{"tcgp":"Dark Ascension"
-,"subsets":"Dark Ascension##"
-,"name":"Dark Ascension"
-,"mtgi":"DKA"
-,"mkm":"Dark Ascension"
-,"foil":true
-,"digest":"6206a3aa87751f3e58cb8e56e456273b"
-,"date":1328072400000
-,"code":"DKA"
-}
-,{"tcgp":"Darksteel"
-,"subsets":"Darksteel##"
-,"name":"Darksteel"
-,"mtgi":"DS"
-,"mkm":"Darksteel"
-,"foil":true
-,"digest":"02d6ae080b4a3176bab9b1c211e981c8"
-,"date":1072933200000
-,"code":"DS"
-}
-,{"tcgp":"Dissension"
-,"subsets":"Dissension##"
-,"name":"Dissension"
-,"mtgi":"DI"
-,"mkm":"Dissension"
-,"foil":true
-,"digest":"b1c9c18cc8992957dffd71a99e552d1d"
-,"date":1143867600000
-,"code":"DIS"
-}
-,{"tcgp":"Dragon's Maze"
-,"subsets":"Dragon's Maze##"
-,"name":"Dragon's Maze"
-,"mtgi":"DGM"
-,"mkm":"Dragon's Maze"
-,"foil":true
-,"digest":"a5355062d20b9c31bad2cd627b33e850"
-,"date":1367380800000
-,"code":"DGM"
-}
-,{"tcgp":"Dragons of Tarkir"
-,"subsets":"Dragons of Tarkir##"
-,"name":"Dragons of Tarkir"
-,"mtgi":"DTK"
-,"mkm":"Dragons of Tarkir"
-,"foil":true
-,"digest":"d138058dd45256c8bf0455ef6ebc59c7"
-,"date":1425186000000
-,"code":"DTK"
-}
-,{"tcgp":"Duel Decks: Ajani vs. Nicol Bolas"
-,"subsets":"Duel Decks: Ajani vs. Nicol Bolas##"
-,"name":"Duel Decks: Ajani vs. Nicol Bolas"
-,"mtgi":"DDH"
-,"mkm":"Duel Decks: Ajani vs. Nicol Bolas"
-,"foil":false
-,"digest":"09d49d6d6a1ce5901914b90b4bcf44a3"
-,"date":1312171200000
-,"code":"AVB"
-}
-,{"tcgp":"Duel Decks: Anthology"
-,"subsets":"Duel Decks Anthology, Divine vs. Demonic##"
-,"name":"Duel Decks Anthology, Divine vs. Demonic"
-,"mtgi":"DDADVD"
-,"mkm":"Duel Decks: Anthology"
-,"foil":false
-,"digest":"8212c9c03142a827cc9d23df6c0d5967"
-,"date":1417410000000
-,"code":"DD3DVD"
-}
-,{"tcgp":"Duel Decks: Anthology"
-,"subsets":"Duel Decks Anthology, Elves vs. Goblins##"
-,"name":"Duel Decks Anthology, Elves vs. Goblins"
-,"mtgi":"DDAEVG"
-,"mkm":"Duel Decks: Anthology"
-,"foil":false
-,"digest":"64c47d60e6e28bb1a7f2dba7ea9d0e05"
-,"date":1417410000000
-,"code":"DD3EVG"
-}
-,{"tcgp":"Duel Decks: Anthology"
-,"subsets":"Duel Decks Anthology, Garruk vs. Liliana##"
-,"name":"Duel Decks Anthology, Garruk vs. Liliana"
-,"mtgi":"DDAGVL"
-,"mkm":"Duel Decks: Anthology"
-,"foil":false
-,"digest":"78471253d6a6601b10d0da1ab0952474"
-,"date":1417410000000
-,"code":"DD3GVL"
-}
-,{"tcgp":"Duel Decks: Anthology"
-,"subsets":"Duel Decks Anthology, Jace vs. Chandra##"
-,"name":"Duel Decks Anthology, Jace vs. Chandra"
-,"mtgi":"DDAJVC"
-,"mkm":"Duel Decks: Anthology"
-,"foil":false
-,"digest":"a0e5eb1d2cbccfaa2aee2ce8f09158d0"
-,"date":1417410000000
-,"code":"DD3JVC"
-}
-,{"tcgp":"Duel Decks: Blessed vs. Cursed"
-,"subsets":"Duel Decks: Blessed vs. Cursed##"
-,"name":"Duel Decks: Blessed vs. Cursed"
-,"mtgi":"DDQ"
-,"mkm":"Duel Decks: Blessed vs. Cursed"
-,"foil":false
-,"digest":"8b0561cec8e0eb84236b03e7ec14c98f"
-,"date":1454302800000
-,"code":"DDQ"
-}
-,{"tcgp":"Duel Decks: Divine vs. Demonic"
-,"subsets":"Duel Decks: Divine vs. Demonic##"
-,"name":"Duel Decks: Divine vs. Demonic"
-,"mtgi":"DVD"
-,"mkm":"Duel Decks: Divine vs. Demonic"
-,"foil":false
-,"digest":"0561292582d8563618a2b6e6b4c23291"
-,"date":1238558400000
-,"code":"DVD"
-}
-,{"tcgp":"Duel Decks: Elspeth vs. Kiora"
-,"subsets":"Duel Decks: Elspeth vs. Kiora##"
-,"name":"Duel Decks: Elspeth vs. Kiora"
-,"mtgi":"DDO"
-,"mkm":"Duel Decks: Elspeth vs. Kiora"
-,"foil":false
-,"digest":"0e1afcfcd973e97296d6842843fed9f3"
-,"date":1422766800000
-,"code":"DDO"
-}
-,{"tcgp":"Duel Decks: Elspeth vs. Tezzeret"
-,"subsets":"Duel Decks: Elspeth vs. Tezzeret##"
-,"name":"Duel Decks: Elspeth vs. Tezzeret"
-,"mtgi":"DDF"
-,"mkm":"Duel Decks: Elspeth vs. Tezzeret"
-,"foil":false
-,"digest":"0f5ae9efc83f5efe6a9e11181e17c964"
-,"date":1283313600000
-,"code":"EVT"
-}
-,{"tcgp":"Duel Decks: Elves vs. Goblins"
-,"subsets":"Duel Decks: Elves vs. Goblins##"
-,"name":"Duel Decks: Elves vs. Goblins"
-,"mtgi":"EVG"
-,"mkm":"Duel Decks: Elves vs. Goblins"
-,"foil":false
-,"digest":"327132edaab00ed1bcde6dd86c1ecc1f"
-,"date":1193889600000
-,"code":"EVG"
-}
-,{"tcgp":"Duel Decks: Garruk vs. Liliana"
-,"subsets":"Duel Decks: Garruk vs. Liliana##"
-,"name":"Duel Decks: Garruk vs. Liliana"
-,"mtgi":"GVL"
-,"mkm":"Duel Decks: Garruk vs. Liliana"
-,"foil":false
-,"digest":"7081f591be9a975e84984ff4ac48406a"
-,"date":1254369600000
-,"code":"GVL"
-}
-,{"tcgp":"Duel Decks: Heroes vs. Monsters"
-,"subsets":"Duel Decks: Heroes vs. Monsters##"
-,"name":"Duel Decks: Heroes vs. Monsters"
-,"mtgi":"DDL"
-,"mkm":"Duel Decks: Heroes vs. Monsters"
-,"foil":false
-,"digest":"944940fff422af4242d0ff19b740a93c"
-,"date":1378008000000
-,"code":"HVM"
-}
-,{"tcgp":"Duel Decks: Izzet vs. Golgari"
-,"subsets":"Duel Decks: Izzet vs. Golgari##"
-,"name":"Duel Decks: Izzet vs. Golgari"
-,"mtgi":"DDJ"
-,"mkm":"Duel Decks: Izzet vs. Golgari"
-,"foil":false
-,"digest":"fc550116f524d35014bbc70ab6c41e28"
-,"date":1346472000000
-,"code":"IVG"
-}
-,{"tcgp":"Duel Decks: Jace vs. Chandra"
-,"subsets":"Duel Decks: Jace vs. Chandra##"
-,"name":"Duel Decks: Jace vs. Chandra"
-,"mtgi":"JVC"
-,"mkm":"Duel Decks: Jace vs. Chandra"
-,"foil":false
-,"digest":"448655818c52239988d699872b40ea07"
-,"date":1225512000000
-,"code":"JVC"
-}
-,{"tcgp":"Duel Decks: Jace vs. Vraska"
-,"subsets":"Duel Decks: Jace vs. Vraska##"
-,"name":"Duel Decks: Jace vs. Vraska"
-,"mtgi":"DDM"
-,"mkm":"Duel Decks: Jace vs. Vraska"
-,"foil":false
-,"digest":"f0eb49d5c78ac88e6af4b276315df3a5"
-,"date":1393650000000
-,"code":"DDM"
-}
-,{"tcgp":"Duel Decks: Knights vs. Dragons"
-,"subsets":"Duel Decks: Knights vs. Dragons##"
-,"name":"Duel Decks: Knights vs. Dragons"
-,"mtgi":"DDG"
-,"mkm":"Duel Decks: Knights vs. Dragons"
-,"foil":false
-,"digest":"d5580f3f754bc3af48fa4483e6bdf08a"
-,"date":1301630400000
-,"code":"KVD"
-}
-,{"tcgp":"Duel Decks: Nissa vs. Ob Nixilis"
-,"subsets":"Duel Decks: Nissa vs. Ob Nixilis##"
-,"name":"Duel Decks: Nissa vs. Ob Nixilis"
-,"mtgi":"DDR"
-,"mkm":"Duel Decks: Nissa vs. Ob Nixilis"
-,"foil":false
-,"digest":"59ca1929efb5a03a1a13b37cb75f271a"
-,"date":1472702400000
-,"code":"DDR"
-}
-,{"tcgp":"Duel Decks: Phyrexia vs. the Coalition"
-,"subsets":"Duel Decks: Phyrexia vs. the Coalition##"
-,"name":"Duel Decks: Phyrexia vs. the Coalition"
-,"mtgi":"PVC"
-,"mkm":"Duel Decks: Phyrexia vs. The Coalition"
-,"foil":false
-,"digest":"c285a0a33e8292f4782b2a78a7c80c3c"
-,"date":1267419600000
-,"code":"PVC"
-}
-,{"tcgp":"Duel Decks: Sorin vs. Tibalt"
-,"subsets":"Duel Decks: Sorin vs. Tibalt##"
-,"name":"Duel Decks: Sorin vs. Tibalt"
-,"mtgi":"DDK"
-,"mkm":"Duel Decks: Sorin vs. Tibalt"
-,"foil":false
-,"digest":"5128421aa03f803618d6e7617b0e1160"
-,"date":1362114000000
-,"code":"SVT"
-}
-,{"tcgp":"Duel Decks: Speed vs. Cunning"
-,"subsets":"Duel Decks: Speed vs. Cunning##"
-,"name":"Duel Decks: Speed vs. Cunning"
-,"mtgi":"DDN"
-,"mkm":"Duel Decks: Speed vs. Cunning"
-,"foil":false
-,"digest":"f5fbba79bef8afea0536303d32d75881"
-,"date":1409544000000
-,"code":"DDN"
-}
-,{"tcgp":"Duel Decks: Venser vs. Koth"
-,"subsets":"Duel Decks: Venser vs. Koth##"
-,"name":"Duel Decks: Venser vs. Koth"
-,"mtgi":"DDI"
-,"mkm":"Duel Decks: Venser vs. Koth"
-,"foil":false
-,"digest":"9e00820ab7da925616d42c0d1fbd20fe"
-,"date":1333252800000
-,"code":"VVK"
-}
-,{"tcgp":"Duel Decks: Zendikar vs. Eldrazi"
-,"subsets":"Duel Decks: Zendikar vs. Eldrazi##"
-,"name":"Duel Decks: Zendikar vs. Eldrazi"
-,"mtgi":"DDP"
-,"mkm":"Duel Decks: Zendikar vs. Eldrazi"
-,"foil":false
-,"digest":"7fdea4d4a7fd0414d181703cc0860a38"
-,"date":1438401600000
-,"code":"DDP"
-}
-,{"tcgp":"Eldritch Moon"
-,"subsets":"Eldritch Moon##"
-,"name":"Eldritch Moon"
-,"mtgi":"EMN"
-,"mkm":"Eldritch Moon"
-,"foil":true
-,"digest":"1d403ae9434cddee539a1336da81e4c7"
-,"date":1467345600000
-,"code":"EMN"
-}
-,{"tcgp":"Eternal Masters"
-,"subsets":"Eternal Masters##"
-,"name":"Eternal Masters"
-,"mtgi":"EMA"
-,"mkm":"Eternal Masters"
-,"foil":true
-,"digest":"9b6382435c0213755667bd536f2e0645"
-,"date":1464753600000
-,"code":"EMA"
-}
-,{"tcgp":"Eventide"
-,"subsets":"Eventide##"
-,"name":"Eventide"
-,"mtgi":"EVE"
-,"mkm":"Eventide"
-,"foil":true
-,"digest":"7237d6451374a4dd1633a12622728aab"
-,"date":1214884800000
-,"code":"EVE"
-}
-,{"tcgp":"Exodus"
-,"subsets":"Exodus##"
-,"name":"Exodus"
-,"mtgi":"EX"
-,"mkm":"Exodus"
-,"foil":false
-,"digest":"c78e5bb4529106a01e8a88215c1f486f"
-,"date":896673600000
-,"code":"EX"
-}
-,{"tcgp":"Fallen Empires"
-,"subsets":"Fallen Empires##"
-,"name":"Fallen Empires"
-,"mtgi":"FE"
-,"mkm":"Fallen Empires"
-,"foil":false
-,"digest":"c0e7e31a97403c8ccff5e15005246ffc"
-,"date":780984000000
-,"code":"FE"
-}
-,{"tcgp":"Fate Reforged"
-,"subsets":"Fate Reforged##"
-,"name":"Fate Reforged"
-,"mtgi":"FRF"
-,"mkm":"Fate Reforged"
-,"foil":true
-,"digest":"173db6683f4e3e246a710edab5937026"
-,"date":1420088400000
-,"code":"FRF"
-}
-,{"tcgp":"Fifth Dawn"
-,"subsets":"Fifth Dawn##"
-,"name":"Fifth Dawn"
-,"mtgi":"5DN"
-,"mkm":"Fifth Dawn"
-,"foil":true
-,"digest":"4fff548b60a2f654254deaf3bdd102b0"
-,"date":1083384000000
-,"code":"FD"
-}
-,{"tcgp":"Fifth Edition"
-,"subsets":"Fifth Edition##"
-,"name":"Fifth Edition"
-,"mtgi":"5E"
-,"mkm":"Fifth Edition"
-,"foil":false
-,"digest":"6c53301b963c110a1684ad7775120dec"
-,"date":857192400000
-,"code":"5E"
-}
-,{"tcgp":"Fourth Edition"
-,"subsets":"Fourth Edition##"
-,"name":"Fourth Edition"
-,"mtgi":"4E"
-,"mkm":"Fourth Edition"
-,"foil":false
-,"digest":"9b5afff4412ef1b6fb304e134410c458"
-,"date":796712400000
-,"code":"4E"
-}
-,{"tcgp":"From the Vault: Angels"
-,"subsets":"From the Vault: Angels##"
-,"name":"From the Vault: Angels"
-,"mtgi":"V15"
-,"mkm":"From the Vault: Angels"
-,"foil":false
-,"digest":"fa018b9da26db379b8fbd5af4e09649a"
-,"date":1438401600000
-,"code":"V15"
-}
-,{"tcgp":"From the Vault: Annihilation"
-,"subsets":"From the Vault: Annihilation (2014)##"
-,"name":"From the Vault: Annihilation (2014)"
-,"mtgi":"V14"
-,"mkm":"From the Vault: Annihilation"
-,"foil":false
-,"digest":"3c5f9fb30181fb717faa4bab1ffb8044"
-,"date":1406865600000
-,"code":"V14"
-}
-,{"tcgp":"From the Vault: Dragons"
-,"subsets":"From the Vault: Dragons##"
-,"name":"From the Vault: Dragons"
-,"mtgi":"FVD"
-,"mkm":"From the Vault: Dragons"
-,"foil":false
-,"digest":"d99aa4bab7a359709a2e4e4159c0f5d1"
-,"date":1217563200000
-,"code":"DRG"
-}
-,{"tcgp":"From the Vault: Exiled"
-,"subsets":"From the Vault: Exiled##"
-,"name":"From the Vault: Exiled"
-,"mtgi":"FVE"
-,"mkm":"From the Vault: Exiled"
-,"foil":false
-,"digest":"862741df6756bb79aa795adfba9499e7"
-,"date":1249099200000
-,"code":"EXL"
-}
-,{"tcgp":"From the Vault: Legends"
-,"subsets":"From the Vault: Legends##"
-,"name":"From the Vault: Legends"
-,"mtgi":"FVL"
-,"mkm":"From the Vault: Legends"
-,"foil":false
-,"digest":"bde76a527e6710add1e86d7da98a2421"
-,"date":1312171200000
-,"code":"LEG"
-}
-,{"tcgp":"From the Vault: Lore"
-,"subsets":"From the Vault: Lore##"
-,"name":"From the Vault: Lore"
-,"mtgi":"V16"
-,"mkm":"From the Vault: Lore"
-,"foil":false
-,"digest":"e4225c873ec459bc7fa1f5d874ddc230"
-,"date":1470024000000
-,"code":"V16"
-}
-,{"tcgp":"From the Vault: Realms"
-,"subsets":"From the Vault: Realms##"
-,"name":"From the Vault: Realms"
-,"mtgi":"V12"
-,"mkm":"From the Vault: Realms"
-,"foil":false
-,"digest":"9e6562f1d16984296c6fb88ead7cb4c5"
-,"date":1343793600000
-,"code":"RLM"
-}
-,{"tcgp":"From the Vault: Relics"
-,"subsets":"From the Vault: Relics##"
-,"name":"From the Vault: Relics"
-,"mtgi":"FVR"
-,"mkm":"From the Vault: Relics"
-,"foil":false
-,"digest":"04c450f0b424d2c86e142e6da06c3a38"
-,"date":1280635200000
-,"code":"RLC"
-}
-,{"tcgp":"From the Vault: Twenty"
-,"subsets":"From the Vault: Twenty##"
-,"name":"From the Vault: Twenty"
-,"mtgi":"V13"
-,"mkm":"From the Vault: Twenty"
-,"foil":false
-,"digest":"d5883d5ed9a8f476c1a1bbffd16cf1e0"
-,"date":1375329600000
-,"code":"V13"
-}
-,{"tcgp":"Future Sight"
-,"subsets":"Future Sight##"
-,"name":"Future Sight"
-,"mtgi":"FUT"
-,"mkm":"Future Sight"
-,"foil":true
-,"digest":"8678a515cbb9d6ebe80bd41b5c9f717b"
-,"date":1177992000000
-,"code":"FUT"
-}
-,{"tcgp":"Gatecrash"
-,"subsets":"Gatecrash##"
-,"name":"Gatecrash"
-,"mtgi":"GTC"
-,"mkm":"Gatecrash"
-,"foil":true
-,"digest":"97422fb88ae229cb49b5c40a318abec1"
-,"date":1357016400000
-,"code":"GTC"
-}
-,{"tcgp":"Guildpact"
-,"subsets":"Guildpact##"
-,"name":"Guildpact"
-,"mtgi":"GP"
-,"mkm":"Guildpact"
-,"foil":true
-,"digest":"e9b5f46f5a17796a1d9a83f43a55bd1c"
-,"date":1136091600000
-,"code":"GP"
-}
-,{"tcgp":"Homelands"
-,"subsets":"Homelands##"
-,"name":"Homelands"
-,"mtgi":"HL"
-,"mkm":"Homelands"
-,"foil":false
-,"digest":"cb8d7a41f2c6bc245a42d89b7a0a90f8"
-,"date":812520000000
-,"code":"HL"
-}
-,{"tcgp":"Ice Age"
-,"subsets":"Ice Age##"
-,"name":"Ice Age"
-,"mtgi":"IA"
-,"mkm":"Ice Age"
-,"foil":false
-,"digest":"e04c414ef1e975015c4467c7ce2841b4"
-,"date":801979200000
-,"code":"IA"
-}
-,{"tcgp":"Innistrad"
-,"subsets":"Innistrad##"
-,"name":"Innistrad"
-,"mtgi":"ISD"
-,"mkm":"Innistrad"
-,"foil":true
-,"digest":"620dd76c8f123e2c8f2086ad75988e86"
-,"date":1314849600000
-,"code":"ISD"
-}
-,{"tcgp":"Invasion"
-,"subsets":"Invasion##"
-,"name":"Invasion"
-,"mtgi":"IN"
-,"mkm":"Invasion"
-,"foil":true
-,"digest":"b2e19547cb0783eceaab172bc0fbe272"
-,"date":967780800000
-,"code":"IN"
-}
-,{"tcgp":"Journey Into Nyx"
-,"subsets":"Journey into Nyx##"
-,"name":"Journey into Nyx"
-,"mtgi":"JOU"
-,"mkm":"Journey into Nyx"
-,"foil":true
-,"digest":"4ec7268ced4140b82166bce242bde6ec"
-,"date":1398916800000
-,"code":"JOU"
-}
-,{"tcgp":"Judgment"
-,"subsets":"Judgment##"
-,"name":"Judgment"
-,"mtgi":"JU"
-,"mkm":"Judgment"
-,"foil":true
-,"digest":"1f7bf8aafbf4f32cbc34ee1acbed9be6"
-,"date":1020225600000
-,"code":"JU"
-}
-,{"tcgp":"Kaladesh"
-,"subsets":"Kaladesh##"
-,"name":"Kaladesh"
-,"mtgi":"KLD"
-,"mkm":"Kaladesh"
-,"foil":true
-,"digest":"b0a5056dae160a23e596a00ba6b0962f"
-,"date":1472702400000
-,"code":"KLD"
-}
-,{"tcgp":"Khans of Tarkir"
-,"subsets":"Khans of Tarkir##"
-,"name":"Khans of Tarkir"
-,"mtgi":"KTK"
-,"mkm":"Khans of Tarkir"
-,"foil":true
-,"digest":"fb269b87187b0954d3539f5cdc1c4c48"
-,"date":1409544000000
-,"code":"KTK"
-}
-,{"tcgp":"Legends"
-,"subsets":"Legends##"
-,"name":"Legends"
-,"mtgi":"LG"
-,"mkm":"Legends"
-,"foil":false
-,"digest":"84d6a4cc6c3f84bc1d7700bc58dc5f7d"
-,"date":770443200000
-,"code":"LG"
-}
-,{"tcgp":"Legions"
-,"subsets":"Legions##"
-,"name":"Legions"
-,"mtgi":"LE"
-,"mkm":"Legions"
-,"foil":true
-,"digest":"139b9b21deacb7899f886f77145d4e35"
-,"date":1041397200000
-,"code":"LE"
-}
-,{"tcgp":"Lorwyn"
-,"subsets":"Lorwyn##"
-,"name":"Lorwyn"
-,"mtgi":"LW"
-,"mkm":"Lorwyn"
-,"foil":true
-,"digest":"564a7f46ffcb41201393432bc5b2b781"
-,"date":1188619200000
-,"code":"LRW"
-}
-,{"tcgp":"Magic 2010 (M10)"
-,"subsets":"Magic 2010##"
-,"name":"Magic 2010"
-,"mtgi":"M10"
-,"mkm":"Magic 2010"
-,"foil":true
-,"digest":"e4aa82c403a97ffafca54fa195b37d69"
-,"date":1246420800000
-,"code":"M10"
-}
-,{"tcgp":"Magic 2011 (M11)"
-,"subsets":"Magic 2011##"
-,"name":"Magic 2011"
-,"mtgi":"M11"
-,"mkm":"Magic 2011"
-,"foil":true
-,"digest":"6659100f40878d761eb5ff3ab7d5cb8f"
-,"date":1277956800000
-,"code":"M11"
-}
-,{"tcgp":"Magic 2012 (M12)"
-,"subsets":"Magic 2012##"
-,"name":"Magic 2012"
-,"mtgi":"M12"
-,"mkm":"Magic 2012"
-,"foil":true
-,"digest":"1fb4d28be4bf53c3846b6f5f501f6e6d"
-,"date":1309492800000
-,"code":"M12"
-}
-,{"tcgp":"Magic 2013 (M13)"
-,"subsets":"Magic 2013##"
-,"name":"Magic 2013"
-,"mtgi":"M13"
-,"mkm":"Magic 2013"
-,"foil":true
-,"digest":"ae40c4e9d5cf0a25a99c512b3ab974a4"
-,"date":1341115200000
-,"code":"M13"
-}
-,{"tcgp":"Magic 2014 (M14)"
-,"subsets":"Magic 2014 Core Set##"
-,"name":"Magic 2014 Core Set"
-,"mtgi":"M14"
-,"mkm":"Magic 2014"
-,"foil":true
-,"digest":"6d4f343a6f70ed918f7c99679e763aa8"
-,"date":1372651200000
-,"code":"M14"
-}
-,{"tcgp":"Magic 2015 (M15)"
-,"subsets":"Magic 2015 Core Set##"
-,"name":"Magic 2015 Core Set"
-,"mtgi":"M15"
-,"mkm":"Magic 2015"
-,"foil":true
-,"digest":"970721b5405b8d405b0a2afdf1b5521d"
-,"date":1404187200000
-,"code":"M15"
-}
-,{"tcgp":"Magic Modern Event Deck"
-,"subsets":"Modern Event Deck 2014##"
-,"name":"Modern Event Deck 2014"
-,"mtgi":"MD1"
-,"mkm":"Modern Event Deck 2014"
-,"foil":false
-,"digest":"3f5b3c7d9a546ba75bbf8b3b4d1d209f"
-,"date":1398916800000
-,"code":"MD1"
-}
-,{"tcgp":"Magic Origins"
-,"subsets":"Magic Origins##"
-,"name":"Magic Origins"
-,"mtgi":"ORI"
-,"mkm":"Magic Origins"
-,"foil":true
-,"digest":"90aff232054baea498cf5523509e7665"
-,"date":1435723200000
-,"code":"ORI"
-}
-,{"tcgp":"Masterpiece Series: Kaladesh Inventions"
-,"subsets":"Masterpiece Series: Kaladesh Inventions##"
-,"name":"Masterpiece Series: Kaladesh Inventions"
-,"mtgi":"MPSKLD"
-,"mkm":"Masterpiece Series: Kaladesh Inventions"
-,"foil":false
-,"digest":"b19a2c35935cd5cbaa1e918695df994c"
-,"date":1472702400000
-,"code":"MPS"
-}
-,{"tcgp":"Media Promos"
-,"subsets":"Promo set for Gatherer##"
-,"name":"Promo set for Gatherer"
-,"mtgi":"MBP"
-,"mkm":"Harper Prism Promos"
-,"foil":false
-,"digest":"36e517eaea1986cf2ed9fbbc158afe6d"
-,"date":738907200000
-,"code":"MBP"
-}
-,{"tcgp":"Mercadian Masques"
-,"subsets":"Mercadian Masques##"
-,"name":"Mercadian Masques"
-,"mtgi":"MM"
-,"mkm":"Mercadian Masques"
-,"foil":true
-,"digest":"30932107f7346ec08b87a751bc6f6c1a"
-,"date":936158400000
-,"code":"MM"
-}
-,{"tcgp":"Mirage"
-,"subsets":"Mirage##"
-,"name":"Mirage"
-,"mtgi":"MR"
-,"mkm":"Mirage"
-,"foil":false
-,"digest":"58afdfa219d3fbf22dd83e5e7a3b462c"
-,"date":844142400000
-,"code":"MI"
-}
-,{"tcgp":"Mirrodin Besieged"
-,"subsets":"Mirrodin Besieged##"
-,"name":"Mirrodin Besieged"
-,"mtgi":"MBS"
-,"mkm":"Mirrodin Besieged"
-,"foil":true
-,"digest":"04fa213b3f63ddeec5ecc195b8387a0f"
-,"date":1293858000000
-,"code":"MBS"
-}
-,{"tcgp":"Mirrodin"
-,"subsets":"Mirrodin##"
-,"name":"Mirrodin"
-,"mtgi":"MI"
-,"mkm":"Mirrodin"
-,"foil":true
-,"digest":"80a253786f0c6213f7a88b11f0079280"
-,"date":1062388800000
-,"code":"MR"
-}
-,{"tcgp":"Modern Masters 2015"
-,"subsets":"Modern Masters 2015 Edition##"
-,"name":"Modern Masters 2015 Edition"
-,"mtgi":"MM2"
-,"mkm":"Modern Masters 2015"
-,"foil":true
-,"digest":"ec529bc5c4005298d16818ea1774050a"
-,"date":1430452800000
-,"code":"MM2"
-}
-,{"tcgp":"Modern Masters 2017"
-,"subsets":"Modern Masters 2017 Edition##"
-,"name":"Modern Masters 2017 Edition"
-,"mtgi":"MM3"
-,"mkm":"Modern Masters 2017"
-,"foil":true
-,"digest":"9d44dc2db599eeeac6d473a84bd418cf"
-,"date":1488344400000
-,"code":"MM3"
-}
-,{"tcgp":"Modern Masters"
-,"subsets":"Modern Masters##"
-,"name":"Modern Masters"
-,"mtgi":"MMA"
-,"mkm":"Modern Masters"
-,"foil":true
-,"digest":"d80142c20c2c995eb414e26516a361e5"
-,"date":1370059200000
-,"code":"MMA"
-}
-,{"tcgp":"Morningtide"
-,"subsets":"Morningtide##"
-,"name":"Morningtide"
-,"mtgi":"MT"
-,"mkm":"Morningtide"
-,"foil":true
-,"digest":"45ffd3cbdff017752022328fdf952ae0"
-,"date":1199163600000
-,"code":"MOR"
-}
-,{"tcgp":"Nemesis"
-,"subsets":"Nemesis##"
-,"name":"Nemesis"
-,"mtgi":"NE"
-,"mkm":"Nemesis"
-,"foil":true
-,"digest":"bfaef3a441ad3ac05e727472f1bee8d4"
-,"date":949381200000
-,"code":"NE"
-}
-,{"tcgp":"New Phyrexia"
-,"subsets":"New Phyrexia##"
-,"name":"New Phyrexia"
-,"mtgi":"NPH"
-,"mkm":"New Phyrexia"
-,"foil":true
-,"digest":"24ca57a4744bb46623562e1881cf6392"
-,"date":1304222400000
-,"code":"NPH"
-}
-,{"tcgp":"Oath of the Gatewatch"
-,"subsets":"Oath of the Gatewatch##"
-,"name":"Oath of the Gatewatch"
-,"mtgi":"OGW"
-,"mkm":"Oath of the Gatewatch"
-,"foil":true
-,"digest":"7c2e8e44328e9f32d0f1c07748c3bea1"
-,"date":1451624400000
-,"code":"OGW"
-}
-,{"tcgp":"Odyssey"
-,"subsets":"Odyssey##"
-,"name":"Odyssey"
-,"mtgi":"OD"
-,"mkm":"Odyssey"
-,"foil":true
-,"digest":"a4672555682fb71bbdb419dcf51447bc"
-,"date":999316800000
-,"code":"OD"
-}
-,{"tcgp":"Onslaught"
-,"subsets":"Onslaught##"
-,"name":"Onslaught"
-,"mtgi":"ON"
-,"mkm":"Onslaught"
-,"foil":true
-,"digest":"80fc1577afc65aec54f999d11959d8b1"
-,"date":1030852800000
-,"code":"ON"
-}
-,{"tcgp":"Planar Chaos"
-,"subsets":"Planar Chaos##"
-,"name":"Planar Chaos"
-,"mtgi":"PC"
-,"mkm":"Planar Chaos"
-,"foil":true
-,"digest":"764d8cf15ebb03d30eaa9c12f639cd53"
-,"date":1167627600000
-,"code":"PLC"
-}
-,{"tcgp":"Planechase 2012"
-,"subsets":"Planechase 2012 Edition##"
-,"name":"Planechase 2012 Edition"
-,"mtgi":"PC2"
-,"mkm":"Planechase 2012"
-,"foil":false
-,"digest":"abeff4885f5a167f23b5c28a255c6273"
-,"date":1338523200000
-,"code":"PC2"
-}
-,{"tcgp":"Planechase Anthology"
-,"subsets":"Planechase Anthology##"
-,"name":"Planechase Anthology"
-,"mtgi":"PCA"
-,"mkm":"Planechase Anthology"
-,"foil":false
-,"digest":"4c8420fc3a47b58d3d803884b6ee2eae"
-,"date":1477972800000
-,"code":"PCA"
-}
-,{"tcgp":"Planechase"
-,"subsets":"Planechase##"
-,"name":"Planechase"
-,"mtgi":"PCH"
-,"mkm":"Planechase"
-,"foil":false
-,"digest":"fdfb5736e172a817716683fc7f2618d5"
-,"date":1251777600000
-,"code":"PCH"
-}
-,{"tcgp":"Planeshift"
-,"subsets":"Planeshift##"
-,"name":"Planeshift"
-,"mtgi":"PS"
-,"mkm":"Planeshift"
-,"foil":true
-,"digest":"ecbd39e732ce243a65a957134f6744e8"
-,"date":978325200000
-,"code":"PS"
-}
-,{"tcgp":"Portal Second Age"
-,"subsets":"Portal Second Age##"
-,"name":"Portal Second Age"
-,"mtgi":"PO2"
-,"mkm":"Portal Second Age"
-,"foil":false
-,"digest":"fb8cf29e260f3793e15de5fcd228fb8a"
-,"date":896673600000
-,"code":"P2"
-}
-,{"tcgp":"Portal Three Kingdoms"
-,"subsets":"Portal Three Kingdoms##"
-,"name":"Portal Three Kingdoms"
-,"mtgi":"P3K"
-,"mkm":"Portal Three Kingdoms"
-,"foil":false
-,"digest":"f2540088037d5f7794614ab767e379a9"
-,"date":928209600000
-,"code":"P3"
-}
-,{"tcgp":"Portal"
-,"subsets":"Portal##"
-,"name":"Portal"
-,"mtgi":"PO"
-,"mkm":"Portal"
-,"foil":false
-,"digest":"1ffce416ba9aad32e02e3af5d5755d79"
-,"date":865137600000
-,"code":"PT"
-}
-,{"tcgp":"Premium Deck Series: Fire and Lightning"
-,"subsets":"Premium Deck Series: Fire and Lightning##"
-,"name":"Premium Deck Series: Fire and Lightning"
-,"mtgi":"PD2"
-,"mkm":"Premium Deck Series: Fire & Lightning"
-,"foil":false
-,"digest":"632e28eb5652eecf3ccdf3a1507fe21d"
-,"date":1288584000000
-,"code":"FAL"
-}
-,{"tcgp":"Premium Deck Series: Graveborn"
-,"subsets":"Premium Deck Series: Graveborn##"
-,"name":"Premium Deck Series: Graveborn"
-,"mtgi":"PD3"
-,"mkm":"Premium Deck Series: Graveborn"
-,"foil":false
-,"digest":"747fba2d9dfded2bcd1bf46c14879fe0"
-,"date":1320120000000
-,"code":"GRV"
-}
-,{"tcgp":"Premium Deck Series: Slivers"
-,"subsets":"Premium Deck Series: Slivers##"
-,"name":"Premium Deck Series: Slivers"
-,"mtgi":"PDS"
-,"mkm":"Premium Deck Series: Slivers"
-,"foil":false
-,"digest":"b767d2b4e91648535679b0142f89f27e"
-,"date":1257048000000
-,"code":"SLI"
-}
-,{"tcgp":"Prophecy"
-,"subsets":"Prophecy##"
-,"name":"Prophecy"
-,"mtgi":"PR"
-,"mkm":"Prophecy"
-,"foil":true
-,"digest":"eb3f7b5f80e9d075b8be8411a5b72355"
-,"date":957153600000
-,"code":"PY"
-}
-,{"tcgp":"Ravnica"
-,"subsets":"Ravnica: City of Guilds##"
-,"name":"Ravnica: City of Guilds"
-,"mtgi":"RAV"
-,"mkm":"Ravnica: City of Guilds"
-,"foil":true
-,"digest":"ceda048032fd20c028509dccef2dde53"
-,"date":1125547200000
-,"code":"RAV"
-}
-,{"tcgp":"Return to Ravnica"
-,"subsets":"Return to Ravnica##"
-,"name":"Return to Ravnica"
-,"mtgi":"RTR"
-,"mkm":"Return to Ravnica"
-,"foil":true
-,"digest":"9291c14636d46cfd525907b402d3890a"
-,"date":1349064000000
-,"code":"RTR"
-}
-,{"tcgp":"Revised Edition"
-,"subsets":"Revised Edition##"
-,"name":"Revised Edition"
-,"mtgi":"RV"
-,"mkm":"Revised"
-,"foil":false
-,"digest":"71ebb75613b0139f573816696c369ada"
-,"date":765176400000
-,"code":"R"
-}
-,{"tcgp":"Rise of the Eldrazi"
-,"subsets":"Rise of the Eldrazi##"
-,"name":"Rise of the Eldrazi"
-,"mtgi":"ROE"
-,"mkm":"Rise of the Eldrazi"
-,"foil":true
-,"digest":"e41697077e6eb30d8f12441a8300364b"
-,"date":1270094400000
-,"code":"ROE"
-}
-,{"tcgp":"Saviors of Kamigawa"
-,"subsets":"Saviors of Kamigawa##"
-,"name":"Saviors of Kamigawa"
-,"mtgi":"SOK"
-,"mkm":"Saviors of Kamigawa"
-,"foil":true
-,"digest":"2a580f7b5a121d72c794a204b83017d2"
-,"date":1114920000000
-,"code":"SOK"
-}
-,{"tcgp":"Scars of Mirrodin"
-,"subsets":"Scars of Mirrodin##"
-,"name":"Scars of Mirrodin"
-,"mtgi":"SOM"
-,"mkm":"Scars of Mirrodin"
-,"foil":true
-,"digest":"36fdd85d767a5790e6ff167d6fafb949"
-,"date":1283313600000
-,"code":"SOM"
-}
-,{"tcgp":"Scourge"
-,"subsets":"Scourge##"
-,"name":"Scourge"
-,"mtgi":"SC"
-,"mkm":"Scourge"
-,"foil":true
-,"digest":"4b2582b2b8066f3a04150e9c6d512c2c"
-,"date":1051761600000
-,"code":"SC"
-}
-,{"tcgp":"Shadowmoor"
-,"subsets":"Shadowmoor##"
-,"name":"Shadowmoor"
-,"mtgi":"SHM"
-,"mkm":"Shadowmoor"
-,"foil":true
-,"digest":"eb14e872097df81e47f1d499b598798e"
-,"date":1207022400000
-,"code":"SHM"
-}
-,{"tcgp":"Shadows over Innistrad"
-,"subsets":"Shadows over Innistrad##"
-,"name":"Shadows over Innistrad"
-,"mtgi":"SOI"
-,"mkm":"Shadows over Innistrad"
-,"foil":true
-,"digest":"4613aefeaaba7adcac51d88fc9f29a22"
-,"date":1456808400000
-,"code":"SOI"
-}
-,{"tcgp":"Shards of Alara"
-,"subsets":"Shards of Alara##"
-,"name":"Shards of Alara"
-,"mtgi":"ALA"
-,"mkm":"Shards of Alara"
-,"foil":true
-,"digest":"ea2ca0cbce7a767971e5bb7ff871162e"
-,"date":1220241600000
-,"code":"ALA"
-}
-,{"tcgp":"Starter 1999"
-,"subsets":"Starter 1999##"
-,"name":"Starter 1999"
-,"mtgi":"ST"
-,"mkm":"Starter 1999"
-,"foil":false
-,"digest":"63742b6c703d4d638a2da796d294924c"
-,"date":930801600000
-,"code":"ST"
-}
-,{"tcgp":"Starter 2000"
-,"subsets":"Starter 2000##"
-,"name":"Starter 2000"
-,"mtgi":"ST2K"
-,"mkm":"Starter 2000"
-,"foil":false
-,"digest":"39c5e455022dd387360278dacb660a3d"
-,"date":962424000000
-,"code":"S2"
-}
-,{"tcgp":"Stronghold"
-,"subsets":"Stronghold##"
-,"name":"Stronghold"
-,"mtgi":"SH"
-,"mkm":"Stronghold"
-,"foil":false
-,"digest":"24f33e4aa4a0da54fad5343ed8c596d1"
-,"date":886309200000
-,"code":"SH"
-}
-,{"tcgp":"Tempest"
-,"subsets":"Tempest##"
-,"name":"Tempest"
-,"mtgi":"TP"
-,"mkm":"Tempest"
-,"foil":false
-,"digest":"bf6e85c9890f2475fb74843619b698eb"
-,"date":875678400000
-,"code":"TE"
-}
-,{"tcgp":"The Dark"
-,"subsets":"The Dark##"
-,"name":"The Dark"
-,"mtgi":"DK"
-,"mkm":"The Dark"
-,"foil":false
-,"digest":"39c2ac6e9895c779c319040ba2fd78c7"
-,"date":775713600000
-,"code":"DK"
-}
-,{"tcgp":"Theros"
-,"subsets":"Theros##"
-,"name":"Theros"
-,"mtgi":"THS"
-,"mkm":"Theros"
-,"foil":true
-,"digest":"4aabdc3d637b1dd33daf04724bebbe31"
-,"date":1378008000000
-,"code":"THS"
-}
-,{"tcgp":"Time Spiral"
-,"subsets":"Time Spiral##"
-,"name":"Time Spiral"
-,"mtgi":"TS"
-,"mkm":"Time Spiral"
-,"foil":true
-,"digest":"b4739003c51de7215cac94665fc0c80f"
-,"date":1157083200000
-,"code":"TSP"
-}
-,{"tcgp":"Timeshifted"
-,"subsets":"Time Spiral \"Timeshifted\"##"
-,"name":"Time Spiral \"Timeshifted\""
-,"mtgi":"TSTS"
-,"mkm":"Time Spiral"
-,"foil":true
-,"digest":"9a0aa55f80efae628cf28150b0f42a5b"
-,"date":1157083200000
-,"code":"TSB"
-}
-,{"tcgp":"Torment"
-,"subsets":"Torment##"
-,"name":"Torment"
-,"mtgi":"TR"
-,"mkm":"Torment"
-,"foil":true
-,"digest":"d91900eb7e2db32d60989db8ec525130"
-,"date":1009861200000
-,"code":"TO"
-}
-,{"tcgp":"Ugin's Fate Promos"
-,"subsets":"Ugin's Fate promos##"
-,"name":"Ugin's Fate promos"
-,"mtgi":"UFP"
-,"mkm":"Ugin's Fate Promos"
-,"foil":false
-,"digest":"0c2541ee01a71a18f79d1470e5adab2a"
-,"date":1417410000000
-,"code":"UFP"
-}
-,{"tcgp":"Unglued"
-,"subsets":"Unglued##"
-,"name":"Unglued"
-,"mtgi":"UG"
-,"mkm":"Unglued"
-,"foil":false
-,"digest":"c19bb96a85d66b31cbc76465e3d45799"
-,"date":901944000000
-,"code":"UG"
-}
-,{"tcgp":"Unhinged"
-,"subsets":"Unhinged##"
-,"name":"Unhinged"
-,"mtgi":"UH"
-,"mkm":"Unhinged"
-,"foil":true
-,"digest":"90b865fba8935b3065e4a29ce79c564c"
-,"date":1099285200000
-,"code":"UNH"
-}
-,{"tcgp":"Unlimited Edition"
-,"subsets":"Unlimited Edition##"
-,"name":"Unlimited Edition"
-,"mtgi":"UN"
-,"mkm":"Unlimited"
-,"foil":false
-,"digest":"0b59afaf5fd3278efd7bf01e85977d6b"
-,"date":754722000000
-,"code":"U"
-}
-,{"tcgp":"Urza's Destiny"
-,"subsets":"Urza's Destiny##"
-,"name":"Urza's Destiny"
-,"mtgi":"UD"
-,"mkm":"Urza's Destiny"
-,"foil":true
-,"digest":"652e1cfcd8d20d23265fadf41d4e3b4e"
-,"date":925531200000
-,"code":"UD"
-}
-,{"tcgp":"Urza's Legacy"
-,"subsets":"Urza's Legacy##"
-,"name":"Urza's Legacy"
-,"mtgi":"UL"
-,"mkm":"Urza's Legacy"
-,"foil":true
-,"digest":"a2f2cc85fda07926e1e6a5f83582378e"
-,"date":917845200000
-,"code":"UL"
-}
-,{"tcgp":"Urza's Saga"
-,"subsets":"Urza's Saga##"
-,"name":"Urza's Saga"
-,"mtgi":"US"
-,"mkm":"Urza's Saga"
-,"foil":false
-,"digest":"7aed789891a39c0ff19f7af2566020f7"
-,"date":907214400000
-,"code":"US"
-}
-,{"tcgp":"Vanguard"
-,"subsets":"Vanguard##"
-,"name":"Vanguard"
-,"mtgi":"VNG"
-,"mkm":"Vanguard"
-,"foil":false
-,"digest":"7f7da6132ef68bc729ddb1ed0fb19c4d"
-,"date":741499200000
-,"code":"VNG"
-}
-,{"tcgp":"Visions"
-,"subsets":"Visions##"
-,"name":"Visions"
-,"mtgi":"VI"
-,"mkm":"Visions"
-,"foil":false
-,"digest":"516a147a40e6e460874dcf11cb15e9f7"
-,"date":854773200000
-,"code":"VI"
-}
-,{"tcgp":"Weatherlight"
-,"subsets":"Weatherlight##"
-,"name":"Weatherlight"
-,"mtgi":"WL"
-,"mkm":"Weatherlight"
-,"foil":false
-,"digest":"f1d235f1ebe38ed4771fd0e11a0d607d"
-,"date":862459200000
-,"code":"WL"
-}
-,{"tcgp":"Welcome Deck 2016"
-,"subsets":"Welcome Deck 2016##"
-,"name":"Welcome Deck 2016"
-,"mtgi":"W16"
-,"mkm":"Welcome Deck 2016"
-,"foil":false
-,"digest":"dcb4e4367c8017fa9a7a310a42052e91"
-,"date":1456808400000
-,"code":"W16"
-}
-,{"tcgp":"Worldwake"
-,"subsets":"Worldwake##"
-,"name":"Worldwake"
-,"mtgi":"WWK"
-,"mkm":"Worldwake"
-,"foil":true
-,"digest":"2e6cb7692375443c0ace81207c8d882b"
-,"date":1262322000000
-,"code":"WWK"
-}
-,{"tcgp":"Zendikar Expeditions"
-,"subsets":"Zendikar Expeditions##"
-,"name":"Zendikar Expeditions"
-,"mtgi":"EXP"
-,"mkm":"Zendikar Expeditions"
-,"foil":false
-,"digest":"db970712b82873132434aa159f6fe228"
-,"date":1441080000000
-,"code":"EXP"
-}
-,{"tcgp":"Zendikar"
-,"subsets":"Zendikar##"
-,"name":"Zendikar"
-,"mtgi":"ZEN"
-,"mkm":"Zendikar"
-,"foil":true
-,"digest":"5681e3e5b9460164b1d88ede0285f2ad"
-,"date":1251777600000
-,"code":"ZEN"
-}
+[
+  {
+    "name_gatherer": "Aether Revolt",
+    "code_gatherer": "AER",
+    "code_mtgi": "AER",
+    "name_tcgp": "Aether Revolt",
+    "name_mkm": "Aether Revolt",
+    "date": "01/2017",
+    "canBeFoil": true,
+    "digest": "9ce17aab7339a56e8717717e39460427"
+  },
+  {
+    "name_gatherer": "Alara Reborn",
+    "code_gatherer": "ARB",
+    "code_mtgi": "ARB",
+    "name_tcgp": "Alara Reborn",
+    "name_mkm": "Alara Reborn",
+    "date": "04/2009",
+    "canBeFoil": true,
+    "digest": "801b0225a96b359a9bf8e2e3afb09c95"
+  },
+  {
+    "name_gatherer": "Alliances",
+    "code_gatherer": "AL",
+    "code_mtgi": "AI",
+    "name_tcgp": "Alliances",
+    "name_mkm": "Alliances",
+    "date": "06/1996",
+    "canBeFoil": false,
+    "digest": "28564bd4179a8b0d46bb0b8a5c72cd1f"
+  },
+  {
+    "name_gatherer": "Antiquities",
+    "code_gatherer": "AQ",
+    "code_mtgi": "AQ",
+    "name_tcgp": "Antiquities",
+    "name_mkm": "Antiquities",
+    "date": "04/1994",
+    "canBeFoil": false,
+    "digest": "81a74ae85fe01341d7e26b0d0c84f835"
+  },
+  {
+    "name_gatherer": "Apocalypse",
+    "code_gatherer": "AP",
+    "code_mtgi": "AP",
+    "name_tcgp": "Apocalypse",
+    "name_mkm": "Apocalypse",
+    "date": "05/2001",
+    "canBeFoil": true,
+    "digest": "e4be5013c24d2b0721bbdf4740fd1873"
+  },
+  {
+    "name_gatherer": "Arabian Nights",
+    "code_gatherer": "AN",
+    "code_mtgi": "AN",
+    "name_tcgp": "Arabian Nights",
+    "name_mkm": "Arabian Nights",
+    "date": "12/1993",
+    "canBeFoil": false,
+    "digest": "7914afbbaf60b994e3063a6719beae8d"
+  },
+  {
+    "name_gatherer": "Archenemy",
+    "code_gatherer": "ARC",
+    "code_mtgi": "ARC",
+    "name_tcgp": "Archenemy",
+    "name_mkm": "Archenemy",
+    "date": "06/2010",
+    "canBeFoil": false,
+    "digest": "7d141e65d4edaf15169e54e085f886c1"
+  },
+  {
+    "name_gatherer": "Avacyn Restored",
+    "code_gatherer": "AVR",
+    "code_mtgi": "AVR",
+    "name_tcgp": "Avacyn Restored",
+    "name_mkm": "Avacyn Restored",
+    "date": "05/2012",
+    "canBeFoil": true,
+    "digest": "e947ef762b01b779029540eeaa9eb4bc"
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "date": "11/1999",
+    "canBeFoil": false,
+    "digest": "4c34adfe3fe8596cdd236e018ae2a2d8"
+  },
+  {
+    "name_gatherer": "Battle for Zendikar",
+    "code_gatherer": "BFZ",
+    "code_mtgi": "BFZ",
+    "name_tcgp": "Battle for Zendikar",
+    "name_mkm": "Battle for Zendikar",
+    "date": "09/2015",
+    "canBeFoil": true,
+    "digest": "ce7ba53f93704a49418c049e7156c60f"
+  },
+  {
+    "name_gatherer": "Beatdown Box Set",
+    "code_gatherer": "BD",
+    "code_mtgi": "BD",
+    "name_tcgp": "Beatdown Box Set",
+    "name_mkm": "Beatdown",
+    "date": "12/2000",
+    "canBeFoil": false,
+    "digest": "41a4e4ad2d54b96af7c5e8ca81e1a711"
+  },
+  {
+    "name_gatherer": "Betrayers of Kamigawa",
+    "code_gatherer": "BOK",
+    "code_mtgi": "BOK",
+    "name_tcgp": "Betrayers of Kamigawa",
+    "name_mkm": "Betrayers of Kamigawa",
+    "date": "01/2005",
+    "canBeFoil": true,
+    "digest": "9bed3e995bd516e2d213a4594bfa7d11"
+  },
+  {
+    "name_gatherer": "Born of the Gods",
+    "code_gatherer": "BNG",
+    "code_mtgi": "BNG",
+    "name_tcgp": "Born of the Gods",
+    "name_mkm": "Born of the Gods",
+    "date": "02/2014",
+    "canBeFoil": true,
+    "digest": "367137b5af9430e72b57919fe04c21f5"
+  },
+  {
+    "name_gatherer": "Champions of Kamigawa",
+    "code_gatherer": "CHK",
+    "code_mtgi": "CHK",
+    "name_tcgp": "Champions of Kamigawa",
+    "name_mkm": "Champions of Kamigawa",
+    "date": "09/2004",
+    "canBeFoil": true,
+    "digest": "7a9f544e5420ce4fbed165ca40161fb5"
+  },
+  {
+    "name_gatherer": "Chronicles",
+    "code_gatherer": "CH",
+    "code_mtgi": "CH",
+    "name_tcgp": "Chronicles",
+    "name_mkm": "Chronicles",
+    "date": "07/1995",
+    "canBeFoil": false,
+    "digest": "25483c511fd8cd2ce3bceb4df15be3a8"
+  },
+  {
+    "name_gatherer": "Classic Sixth Edition",
+    "code_gatherer": "6E",
+    "code_mtgi": "6E",
+    "name_tcgp": "Classic Sixth Edition",
+    "name_mkm": "Sixth Edition",
+    "date": "04/1999",
+    "canBeFoil": false,
+    "digest": "b9b16f439c86ee15335bef616274c42c"
+  },
+  {
+    "name_gatherer": "Coldsnap",
+    "code_gatherer": "CS",
+    "code_mtgi": "CS",
+    "name_tcgp": "Coldsnap",
+    "name_mkm": "Coldsnap",
+    "date": "06/2006",
+    "canBeFoil": true,
+    "digest": "7011e084f8258d2ad634e348fb00a5ee"
+  },
+  {
+    "name_gatherer": "Commander 2013 Edition",
+    "code_gatherer": "C13",
+    "code_mtgi": "C13",
+    "name_tcgp": "Commander 2013",
+    "name_mkm": "Commander 2013",
+    "date": "11/2013",
+    "canBeFoil": false,
+    "digest": "ab6d0a9fc9d9931921e1c52c17cdf097"
+  },
+  {
+    "name_gatherer": "Commander 2014",
+    "code_gatherer": "C14",
+    "code_mtgi": "C14",
+    "name_tcgp": "Commander 2014",
+    "name_mkm": "Commander 2014",
+    "date": "11/2014",
+    "canBeFoil": false,
+    "digest": "4eadb61d0e4801918fbdbd2d27448621"
+  },
+  {
+    "name_gatherer": "Commander 2015",
+    "code_gatherer": "C15",
+    "code_mtgi": "C15",
+    "name_tcgp": "Commander 2015",
+    "name_mkm": "Commander 2015",
+    "date": "11/2015",
+    "canBeFoil": false,
+    "digest": "61e8257aa02216a3328c60f62ad8bd52"
+  },
+  {
+    "name_gatherer": "Commander 2016",
+    "code_gatherer": "C16",
+    "code_mtgi": "C16",
+    "name_tcgp": "Commander 2016",
+    "name_mkm": "Commander 2016",
+    "date": "11/2016",
+    "canBeFoil": false,
+    "digest": "cc89f5d068039becb33217f1faf390c4"
+  },
+  {
+    "name_gatherer": "Commander's Arsenal",
+    "code_gatherer": "CRS",
+    "code_mtgi": "CMA",
+    "name_tcgp": "Commander's Arsenal",
+    "name_mkm": "Commander's Arsenal",
+    "date": "11/2012",
+    "canBeFoil": false,
+    "digest": "dc77b63d60d0d338c821365efd7fd292"
+  },
+  {
+    "name_gatherer": "Conflux",
+    "code_gatherer": "CFX",
+    "code_mtgi": "CFX",
+    "name_tcgp": "Conflux",
+    "name_mkm": "Conflux",
+    "date": "01/2009",
+    "canBeFoil": true,
+    "digest": "8374e30051a6c3ccd1c0bb2d3fd0c1c7"
+  },
+  {
+    "name_gatherer": "Conspiracy: Take the Crown",
+    "code_gatherer": "CN2",
+    "code_mtgi": "CN2",
+    "name_tcgp": "Conspiracy: Take the Crown",
+    "name_mkm": "Conspiracy: Take the Crown",
+    "date": "08/2016",
+    "canBeFoil": true,
+    "digest": "0f2fe2585557b9c614e02c1b1a9b1f06"
+  },
+  {
+    "name_gatherer": "Dark Ascension",
+    "code_gatherer": "DKA",
+    "code_mtgi": "DKA",
+    "name_tcgp": "Dark Ascension",
+    "name_mkm": "Dark Ascension",
+    "date": "02/2012",
+    "canBeFoil": true,
+    "digest": "6206a3aa87751f3e58cb8e56e456273b"
+  },
+  {
+    "name_gatherer": "Darksteel",
+    "code_gatherer": "DS",
+    "code_mtgi": "DS",
+    "name_tcgp": "Darksteel",
+    "name_mkm": "Darksteel",
+    "date": "01/2004",
+    "canBeFoil": true,
+    "digest": "8ada538e9448171eb789142c8acb3617"
+  },
+  {
+    "name_gatherer": "Dissension",
+    "code_gatherer": "DIS",
+    "code_mtgi": "DI",
+    "name_tcgp": "Dissension",
+    "name_mkm": "Dissension",
+    "date": "04/2006",
+    "canBeFoil": true,
+    "digest": "4bc92d5d8987d55753b8269972f4596c"
+  },
+  {
+    "name_gatherer": "Dragon's Maze",
+    "code_gatherer": "DGM",
+    "code_mtgi": "DGM",
+    "name_tcgp": "Dragon's Maze",
+    "name_mkm": "Dragon's Maze",
+    "date": "05/2013",
+    "canBeFoil": true,
+    "digest": "de3b407f9792b6f08e9307c492dc2c79"
+  },
+  {
+    "name_gatherer": "Dragons of Tarkir",
+    "code_gatherer": "DTK",
+    "code_mtgi": "DTK",
+    "name_tcgp": "Dragons of Tarkir",
+    "name_mkm": "Dragons of Tarkir",
+    "date": "03/2015",
+    "canBeFoil": true,
+    "digest": "137b24b07dbe39c5ac53625b8e0ad6a9"
+  },
+  {
+    "name_gatherer": "Duel Decks Anthology, Divine vs. Demonic",
+    "code_gatherer": "DD3DVD",
+    "code_mtgi": "DDADVD",
+    "name_tcgp": "Duel Decks: Anthology",
+    "name_mkm": "Duel Decks: Anthology",
+    "date": "12/2014",
+    "canBeFoil": false,
+    "digest": "8212c9c03142a827cc9d23df6c0d5967"
+  },
+  {
+    "name_gatherer": "Duel Decks Anthology, Elves vs. Goblins",
+    "code_gatherer": "DD3EVG",
+    "code_mtgi": "DDAEVG",
+    "name_tcgp": "Duel Decks: Anthology",
+    "name_mkm": "Duel Decks: Anthology",
+    "date": "12/2014",
+    "canBeFoil": false,
+    "digest": "64c47d60e6e28bb1a7f2dba7ea9d0e05"
+  },
+  {
+    "name_gatherer": "Duel Decks Anthology, Garruk vs. Liliana",
+    "code_gatherer": "DD3GVL",
+    "code_mtgi": "DDAGVL",
+    "name_tcgp": "Duel Decks: Anthology",
+    "name_mkm": "Duel Decks: Anthology",
+    "date": "12/2014",
+    "canBeFoil": false,
+    "digest": "78471253d6a6601b10d0da1ab0952474"
+  },
+  {
+    "name_gatherer": "Duel Decks Anthology, Jace vs. Chandra",
+    "code_gatherer": "DD3JVC",
+    "code_mtgi": "DDAJVC",
+    "name_tcgp": "Duel Decks: Anthology",
+    "name_mkm": "Duel Decks: Anthology",
+    "date": "12/2014",
+    "canBeFoil": false,
+    "digest": "d87fd1cdf414d60391d8b0e53b497a42"
+  },
+  {
+    "name_gatherer": "Duel Decks: Ajani vs. Nicol Bolas",
+    "code_gatherer": "AVB",
+    "code_mtgi": "DDH",
+    "name_tcgp": "Duel Decks: Ajani vs. Nicol Bolas",
+    "name_mkm": "Duel Decks: Ajani vs. Nicol Bolas",
+    "date": "08/2011",
+    "canBeFoil": false,
+    "digest": "09d49d6d6a1ce5901914b90b4bcf44a3"
+  },
+  {
+    "name_gatherer": "Duel Decks: Blessed vs. Cursed",
+    "code_gatherer": "DDQ",
+    "code_mtgi": "DDQ",
+    "name_tcgp": "Duel Decks: Blessed vs. Cursed",
+    "name_mkm": "Duel Decks: Blessed vs. Cursed",
+    "date": "02/2016",
+    "canBeFoil": false,
+    "digest": "8b0561cec8e0eb84236b03e7ec14c98f"
+  },
+  {
+    "name_gatherer": "Duel Decks: Divine vs. Demonic",
+    "code_gatherer": "DVD",
+    "code_mtgi": "DVD",
+    "name_tcgp": "Duel Decks: Divine vs. Demonic",
+    "name_mkm": "Duel Decks: Divine vs. Demonic",
+    "date": "04/2009",
+    "canBeFoil": false,
+    "digest": "0561292582d8563618a2b6e6b4c23291"
+  },
+  {
+    "name_gatherer": "Duel Decks: Elspeth vs. Kiora",
+    "code_gatherer": "DDO",
+    "code_mtgi": "DDO",
+    "name_tcgp": "Duel Decks: Elspeth vs. Kiora",
+    "name_mkm": "Duel Decks: Elspeth vs. Kiora",
+    "date": "02/2015",
+    "canBeFoil": false,
+    "digest": "0d06f97ee8bda4b8436f4462c4986e84"
+  },
+  {
+    "name_gatherer": "Duel Decks: Elspeth vs. Tezzeret",
+    "code_gatherer": "EVT",
+    "code_mtgi": "DDF",
+    "name_tcgp": "Duel Decks: Elspeth vs. Tezzeret",
+    "name_mkm": "Duel Decks: Elspeth vs. Tezzeret",
+    "date": "09/2010",
+    "canBeFoil": false,
+    "digest": "913ad6a1c2f7ba669566966160b330c0"
+  },
+  {
+    "name_gatherer": "Duel Decks: Elves vs. Goblins",
+    "code_gatherer": "EVG",
+    "code_mtgi": "EVG",
+    "name_tcgp": "Duel Decks: Elves vs. Goblins",
+    "name_mkm": "Duel Decks: Elves vs. Goblins",
+    "date": "11/2007",
+    "canBeFoil": false,
+    "digest": "327132edaab00ed1bcde6dd86c1ecc1f"
+  },
+  {
+    "name_gatherer": "Duel Decks: Garruk vs. Liliana",
+    "code_gatherer": "GVL",
+    "code_mtgi": "GVL",
+    "name_tcgp": "Duel Decks: Garruk vs. Liliana",
+    "name_mkm": "Duel Decks: Garruk vs. Liliana",
+    "date": "10/2009",
+    "canBeFoil": false,
+    "digest": "7081f591be9a975e84984ff4ac48406a"
+  },
+  {
+    "name_gatherer": "Duel Decks: Heroes vs. Monsters",
+    "code_gatherer": "HVM",
+    "code_mtgi": "DDL",
+    "name_tcgp": "Duel Decks: Heroes vs. Monsters",
+    "name_mkm": "Duel Decks: Heroes vs. Monsters",
+    "date": "09/2013",
+    "canBeFoil": false,
+    "digest": "4977447843471a0d16ae72cb7168914b"
+  },
+  {
+    "name_gatherer": "Duel Decks: Izzet vs. Golgari",
+    "code_gatherer": "IVG",
+    "code_mtgi": "DDJ",
+    "name_tcgp": "Duel Decks: Izzet vs. Golgari",
+    "name_mkm": "Duel Decks: Izzet vs. Golgari",
+    "date": "09/2012",
+    "canBeFoil": false,
+    "digest": "fc550116f524d35014bbc70ab6c41e28"
+  },
+  {
+    "name_gatherer": "Duel Decks: Jace vs. Chandra",
+    "code_gatherer": "JVC",
+    "code_mtgi": "JVC",
+    "name_tcgp": "Duel Decks: Jace vs. Chandra",
+    "name_mkm": "Duel Decks: Jace vs. Chandra",
+    "date": "11/2008",
+    "canBeFoil": false,
+    "digest": "49e04f14473df37c80d728eb37009573"
+  },
+  {
+    "name_gatherer": "Duel Decks: Jace vs. Vraska",
+    "code_gatherer": "DDM",
+    "code_mtgi": "DDM",
+    "name_tcgp": "Duel Decks: Jace vs. Vraska",
+    "name_mkm": "Duel Decks: Jace vs. Vraska",
+    "date": "03/2014",
+    "canBeFoil": false,
+    "digest": "7f37758a95bb562d6911660410f4473b"
+  },
+  {
+    "name_gatherer": "Duel Decks: Knights vs. Dragons",
+    "code_gatherer": "KVD",
+    "code_mtgi": "DDG",
+    "name_tcgp": "Duel Decks: Knights vs. Dragons",
+    "name_mkm": "Duel Decks: Knights vs. Dragons",
+    "date": "04/2011",
+    "canBeFoil": false,
+    "digest": "d5580f3f754bc3af48fa4483e6bdf08a"
+  },
+  {
+    "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
+    "code_gatherer": "DDR",
+    "code_mtgi": "DDR",
+    "name_tcgp": "Duel Decks: Nissa vs. Ob Nixilis",
+    "name_mkm": "Duel Decks: Nissa vs. Ob Nixilis",
+    "date": "09/2016",
+    "canBeFoil": false,
+    "digest": "59ca1929efb5a03a1a13b37cb75f271a"
+  },
+  {
+    "name_gatherer": "Duel Decks: Phyrexia vs. the Coalition",
+    "code_gatherer": "PVC",
+    "code_mtgi": "PVC",
+    "name_tcgp": "Duel Decks: Phyrexia vs. the Coalition",
+    "name_mkm": "Duel Decks: Phyrexia vs. The Coalition",
+    "date": "03/2010",
+    "canBeFoil": false,
+    "digest": "c285a0a33e8292f4782b2a78a7c80c3c"
+  },
+  {
+    "name_gatherer": "Duel Decks: Sorin vs. Tibalt",
+    "code_gatherer": "SVT",
+    "code_mtgi": "DDK",
+    "name_tcgp": "Duel Decks: Sorin vs. Tibalt",
+    "name_mkm": "Duel Decks: Sorin vs. Tibalt",
+    "date": "03/2013",
+    "canBeFoil": false,
+    "digest": "0cac0ac554833b1e52dfc337e165eeaf"
+  },
+  {
+    "name_gatherer": "Duel Decks: Speed vs. Cunning",
+    "code_gatherer": "DDN",
+    "code_mtgi": "DDN",
+    "name_tcgp": "Duel Decks: Speed vs. Cunning",
+    "name_mkm": "Duel Decks: Speed vs. Cunning",
+    "date": "09/2014",
+    "canBeFoil": false,
+    "digest": "f5fbba79bef8afea0536303d32d75881"
+  },
+  {
+    "name_gatherer": "Duel Decks: Venser vs. Koth",
+    "code_gatherer": "VVK",
+    "code_mtgi": "DDI",
+    "name_tcgp": "Duel Decks: Venser vs. Koth",
+    "name_mkm": "Duel Decks: Venser vs. Koth",
+    "date": "04/2012",
+    "canBeFoil": false,
+    "digest": "1708953dcb871ea8ee7de19dbb55b214"
+  },
+  {
+    "name_gatherer": "Duel Decks: Zendikar vs. Eldrazi",
+    "code_gatherer": "DDP",
+    "code_mtgi": "DDP",
+    "name_tcgp": "Duel Decks: Zendikar vs. Eldrazi",
+    "name_mkm": "Duel Decks: Zendikar vs. Eldrazi",
+    "date": "08/2015",
+    "canBeFoil": false,
+    "digest": "42f7dbb5d8d270c18abb2b0cc71712ba"
+  },
+  {
+    "name_gatherer": "Eighth Edition",
+    "code_gatherer": "8E",
+    "code_mtgi": "8E",
+    "name_tcgp": "8th Edition",
+    "name_mkm": "Eighth Edition",
+    "date": "07/2003",
+    "canBeFoil": true,
+    "digest": "835cb9158367708ddd62cfe10d7f5ec3"
+  },
+  {
+    "name_gatherer": "Eldritch Moon",
+    "code_gatherer": "EMN",
+    "code_mtgi": "EMN",
+    "name_tcgp": "Eldritch Moon",
+    "name_mkm": "Eldritch Moon",
+    "date": "07/2016",
+    "canBeFoil": true,
+    "digest": "1d403ae9434cddee539a1336da81e4c7"
+  },
+  {
+    "name_gatherer": "Eternal Masters",
+    "code_gatherer": "EMA",
+    "code_mtgi": "EMA",
+    "name_tcgp": "Eternal Masters",
+    "name_mkm": "Eternal Masters",
+    "date": "06/2016",
+    "canBeFoil": true,
+    "digest": "9b6382435c0213755667bd536f2e0645"
+  },
+  {
+    "name_gatherer": "Eventide",
+    "code_gatherer": "EVE",
+    "code_mtgi": "EVE",
+    "name_tcgp": "Eventide",
+    "name_mkm": "Eventide",
+    "date": "07/2008",
+    "canBeFoil": true,
+    "digest": "7237d6451374a4dd1633a12622728aab"
+  },
+  {
+    "name_gatherer": "Exodus",
+    "code_gatherer": "EX",
+    "code_mtgi": "EX",
+    "name_tcgp": "Exodus",
+    "name_mkm": "Exodus",
+    "date": "06/1998",
+    "canBeFoil": false,
+    "digest": "c0437e4a93dc583cd3fb2523a0f540e4"
+  },
+  {
+    "name_gatherer": "Fallen Empires",
+    "code_gatherer": "FE",
+    "code_mtgi": "FE",
+    "name_tcgp": "Fallen Empires",
+    "name_mkm": "Fallen Empires",
+    "date": "10/1994",
+    "canBeFoil": false,
+    "digest": "c0e7e31a97403c8ccff5e15005246ffc"
+  },
+  {
+    "name_gatherer": "Fate Reforged",
+    "code_gatherer": "FRF",
+    "code_mtgi": "FRF",
+    "name_tcgp": "Fate Reforged",
+    "name_mkm": "Fate Reforged",
+    "date": "01/2015",
+    "canBeFoil": true,
+    "digest": "173db6683f4e3e246a710edab5937026"
+  },
+  {
+    "name_gatherer": "Fifth Dawn",
+    "code_gatherer": "FD",
+    "code_mtgi": "5DN",
+    "name_tcgp": "Fifth Dawn",
+    "name_mkm": "Fifth Dawn",
+    "date": "05/2004",
+    "canBeFoil": true,
+    "digest": "45639b2a5517882443b63b6f178a45ae"
+  },
+  {
+    "name_gatherer": "Fifth Edition",
+    "code_gatherer": "5E",
+    "code_mtgi": "5E",
+    "name_tcgp": "Fifth Edition",
+    "name_mkm": "Fifth Edition",
+    "date": "03/1997",
+    "canBeFoil": false,
+    "digest": "6a708f620b77091c11f5778a6aa2dbb0"
+  },
+  {
+    "name_gatherer": "Fourth Edition",
+    "code_gatherer": "4E",
+    "code_mtgi": "4E",
+    "name_tcgp": "Fourth Edition",
+    "name_mkm": "Fourth Edition",
+    "date": "04/1995",
+    "canBeFoil": false,
+    "digest": "42bac249259f53b791dfa6614466496b"
+  },
+  {
+    "name_gatherer": "From the Vault: Angels",
+    "code_gatherer": "V15",
+    "code_mtgi": "V15",
+    "name_tcgp": "From the Vault: Angels",
+    "name_mkm": "From the Vault: Angels",
+    "date": "08/2015",
+    "canBeFoil": false,
+    "digest": "fa018b9da26db379b8fbd5af4e09649a"
+  },
+  {
+    "name_gatherer": "From the Vault: Annihilation (2014)",
+    "code_gatherer": "V14",
+    "code_mtgi": "V14",
+    "name_tcgp": "From the Vault: Annihilation",
+    "name_mkm": "From the Vault: Annihilation",
+    "date": "08/2014",
+    "canBeFoil": false,
+    "digest": "3c5f9fb30181fb717faa4bab1ffb8044"
+  },
+  {
+    "name_gatherer": "From the Vault: Dragons",
+    "code_gatherer": "DRG",
+    "code_mtgi": "FVD",
+    "name_tcgp": "From the Vault: Dragons",
+    "name_mkm": "From the Vault: Dragons",
+    "date": "08/2008",
+    "canBeFoil": false,
+    "digest": "d99aa4bab7a359709a2e4e4159c0f5d1"
+  },
+  {
+    "name_gatherer": "From the Vault: Exiled",
+    "code_gatherer": "EXL",
+    "code_mtgi": "FVE",
+    "name_tcgp": "From the Vault: Exiled",
+    "name_mkm": "From the Vault: Exiled",
+    "date": "08/2009",
+    "canBeFoil": false,
+    "digest": "862741df6756bb79aa795adfba9499e7"
+  },
+  {
+    "name_gatherer": "From the Vault: Legends",
+    "code_gatherer": "LEG",
+    "code_mtgi": "FVL",
+    "name_tcgp": "From the Vault: Legends",
+    "name_mkm": "From the Vault: Legends",
+    "date": "08/2011",
+    "canBeFoil": false,
+    "digest": "bde76a527e6710add1e86d7da98a2421"
+  },
+  {
+    "name_gatherer": "From the Vault: Lore",
+    "code_gatherer": "V16",
+    "code_mtgi": "V16",
+    "name_tcgp": "From the Vault: Lore",
+    "name_mkm": "From the Vault: Lore",
+    "date": "08/2016",
+    "canBeFoil": false,
+    "digest": "e4225c873ec459bc7fa1f5d874ddc230"
+  },
+  {
+    "name_gatherer": "From the Vault: Realms",
+    "code_gatherer": "RLM",
+    "code_mtgi": "V12",
+    "name_tcgp": "From the Vault: Realms",
+    "name_mkm": "From the Vault: Realms",
+    "date": "08/2012",
+    "canBeFoil": false,
+    "digest": "9e6562f1d16984296c6fb88ead7cb4c5"
+  },
+  {
+    "name_gatherer": "From the Vault: Relics",
+    "code_gatherer": "RLC",
+    "code_mtgi": "FVR",
+    "name_tcgp": "From the Vault: Relics",
+    "name_mkm": "From the Vault: Relics",
+    "date": "08/2010",
+    "canBeFoil": false,
+    "digest": "35ebff4a35f5d3555f41ab3f672f6534"
+  },
+  {
+    "name_gatherer": "From the Vault: Twenty",
+    "code_gatherer": "V13",
+    "code_mtgi": "V13",
+    "name_tcgp": "From the Vault: Twenty",
+    "name_mkm": "From the Vault: Twenty",
+    "date": "08/2013",
+    "canBeFoil": false,
+    "digest": "29a8e27310d6ef010f41cec50c3fd854"
+  },
+  {
+    "name_gatherer": "Future Sight",
+    "code_gatherer": "FUT",
+    "code_mtgi": "FUT",
+    "name_tcgp": "Future Sight",
+    "name_mkm": "Future Sight",
+    "date": "05/2007",
+    "canBeFoil": true,
+    "digest": "6f1853e04cb4c7f918d0edd098c8d154"
+  },
+  {
+    "name_gatherer": "Gatecrash",
+    "code_gatherer": "GTC",
+    "code_mtgi": "GTC",
+    "name_tcgp": "Gatecrash",
+    "name_mkm": "Gatecrash",
+    "date": "01/2013",
+    "canBeFoil": true,
+    "digest": "c22a5e70730f4ca53ede4ccc5de413bd"
+  },
+  {
+    "name_gatherer": "Guildpact",
+    "code_gatherer": "GP",
+    "code_mtgi": "GP",
+    "name_tcgp": "Guildpact",
+    "name_mkm": "Guildpact",
+    "date": "01/2006",
+    "canBeFoil": true,
+    "digest": "3a6b522f78610c0647804a05bfa5ecb3"
+  },
+  {
+    "name_gatherer": "Homelands",
+    "code_gatherer": "HL",
+    "code_mtgi": "HL",
+    "name_tcgp": "Homelands",
+    "name_mkm": "Homelands",
+    "date": "10/1995",
+    "canBeFoil": false,
+    "digest": "804a3ec14860ad23184343d0772901cd"
+  },
+  {
+    "name_gatherer": "Ice Age",
+    "code_gatherer": "IA",
+    "code_mtgi": "IA",
+    "name_tcgp": "Ice Age",
+    "name_mkm": "Ice Age",
+    "date": "06/1995",
+    "canBeFoil": false,
+    "digest": "e04c414ef1e975015c4467c7ce2841b4"
+  },
+  {
+    "name_gatherer": "Innistrad",
+    "code_gatherer": "ISD",
+    "code_mtgi": "ISD",
+    "name_tcgp": "Innistrad",
+    "name_mkm": "Innistrad",
+    "date": "09/2011",
+    "canBeFoil": true,
+    "digest": "620dd76c8f123e2c8f2086ad75988e86"
+  },
+  {
+    "name_gatherer": "Invasion",
+    "code_gatherer": "IN",
+    "code_mtgi": "IN",
+    "name_tcgp": "Invasion",
+    "name_mkm": "Invasion",
+    "date": "09/2000",
+    "canBeFoil": true,
+    "digest": "fb629fd54620c31a29bd8f669e1f9a91"
+  },
+  {
+    "name_gatherer": "Journey into Nyx",
+    "code_gatherer": "JOU",
+    "code_mtgi": "JOU",
+    "name_tcgp": "Journey Into Nyx",
+    "name_mkm": "Journey into Nyx",
+    "date": "05/2014",
+    "canBeFoil": true,
+    "digest": "4ec7268ced4140b82166bce242bde6ec"
+  },
+  {
+    "name_gatherer": "Judgment",
+    "code_gatherer": "JU",
+    "code_mtgi": "JU",
+    "name_tcgp": "Judgment",
+    "name_mkm": "Judgment",
+    "date": "05/2002",
+    "canBeFoil": true,
+    "digest": "1f7bf8aafbf4f32cbc34ee1acbed9be6"
+  },
+  {
+    "name_gatherer": "Kaladesh",
+    "code_gatherer": "KLD",
+    "code_mtgi": "KLD",
+    "name_tcgp": "Kaladesh",
+    "name_mkm": "Kaladesh",
+    "date": "09/2016",
+    "canBeFoil": true,
+    "digest": "00f0bde27921eff512810047c4437829"
+  },
+  {
+    "name_gatherer": "Khans of Tarkir",
+    "code_gatherer": "KTK",
+    "code_mtgi": "KTK",
+    "name_tcgp": "Khans of Tarkir",
+    "name_mkm": "Khans of Tarkir",
+    "date": "09/2014",
+    "canBeFoil": true,
+    "digest": "fb269b87187b0954d3539f5cdc1c4c48"
+  },
+  {
+    "name_gatherer": "Legends",
+    "code_gatherer": "LG",
+    "code_mtgi": "LG",
+    "name_tcgp": "Legends",
+    "name_mkm": "Legends",
+    "date": "06/1994",
+    "canBeFoil": false,
+    "digest": "60d792af8b28ed29191f3f0b21a43688"
+  },
+  {
+    "name_gatherer": "Legions",
+    "code_gatherer": "LE",
+    "code_mtgi": "LE",
+    "name_tcgp": "Legions",
+    "name_mkm": "Legions",
+    "date": "01/2003",
+    "canBeFoil": true,
+    "digest": "139b9b21deacb7899f886f77145d4e35"
+  },
+  {
+    "name_gatherer": "Limited Edition Alpha",
+    "code_gatherer": "A",
+    "code_mtgi": "AL",
+    "name_tcgp": "Alpha Edition",
+    "name_mkm": "Alpha",
+    "date": "08/1993",
+    "canBeFoil": false,
+    "digest": "626cee5756580fae7a368d2a1bf8943f"
+  },
+  {
+    "name_gatherer": "Limited Edition Beta",
+    "code_gatherer": "B",
+    "code_mtgi": "BE",
+    "name_tcgp": "Beta Edition",
+    "name_mkm": "Beta",
+    "date": "10/1993",
+    "canBeFoil": false,
+    "digest": "b237074473659ea5e458f926273a52db"
+  },
+  {
+    "name_gatherer": "Lorwyn",
+    "code_gatherer": "LRW",
+    "code_mtgi": "LW",
+    "name_tcgp": "Lorwyn",
+    "name_mkm": "Lorwyn",
+    "date": "09/2007",
+    "canBeFoil": true,
+    "digest": "6a2626eddb1d6342661b7e9bdf99d055"
+  },
+  {
+    "name_gatherer": "Magic 2010",
+    "code_gatherer": "M10",
+    "code_mtgi": "M10",
+    "name_tcgp": "Magic 2010 (M10)",
+    "name_mkm": "Magic 2010",
+    "date": "07/2009",
+    "canBeFoil": true,
+    "digest": "baa74f4f17fba4aeef1bea9d174d42ca"
+  },
+  {
+    "name_gatherer": "Magic 2011",
+    "code_gatherer": "M11",
+    "code_mtgi": "M11",
+    "name_tcgp": "Magic 2011 (M11)",
+    "name_mkm": "Magic 2011",
+    "date": "07/2010",
+    "canBeFoil": true,
+    "digest": "2c83faa1819483c7e34db95b9082132a"
+  },
+  {
+    "name_gatherer": "Magic 2012",
+    "code_gatherer": "M12",
+    "code_mtgi": "M12",
+    "name_tcgp": "Magic 2012 (M12)",
+    "name_mkm": "Magic 2012",
+    "date": "07/2011",
+    "canBeFoil": true,
+    "digest": "390ff1f8a55bb965d58bbe0b5add957e"
+  },
+  {
+    "name_gatherer": "Magic 2013",
+    "code_gatherer": "M13",
+    "code_mtgi": "M13",
+    "name_tcgp": "Magic 2013 (M13)",
+    "name_mkm": "Magic 2013",
+    "date": "07/2012",
+    "canBeFoil": true,
+    "digest": "7e7c6f20ce949d1c77fe31db4574607e"
+  },
+  {
+    "name_gatherer": "Magic 2014 Core Set",
+    "code_gatherer": "M14",
+    "code_mtgi": "M14",
+    "name_tcgp": "Magic 2014 (M14)",
+    "name_mkm": "Magic 2014",
+    "date": "07/2013",
+    "canBeFoil": true,
+    "digest": "d88010f94661462198d9114ad6eb58cd"
+  },
+  {
+    "name_gatherer": "Magic 2015 Core Set",
+    "code_gatherer": "M15",
+    "code_mtgi": "M15",
+    "name_tcgp": "Magic 2015 (M15)",
+    "name_mkm": "Magic 2015",
+    "date": "07/2014",
+    "canBeFoil": true,
+    "digest": "d5916079ef29a51486b16f2b09db9487"
+  },
+  {
+    "name_gatherer": "Magic Origins",
+    "code_gatherer": "ORI",
+    "code_mtgi": "ORI",
+    "name_tcgp": "Magic Origins",
+    "name_mkm": "Magic Origins",
+    "date": "07/2015",
+    "canBeFoil": true,
+    "digest": "60e4f33cdea61bbea040f6e82172b197"
+  },
+  {
+    "name_gatherer": "Magic: The Gathering-Commander",
+    "code_gatherer": "CMD",
+    "code_mtgi": "CMD",
+    "name_tcgp": "Commander",
+    "name_mkm": "Commander",
+    "date": "06/2011",
+    "canBeFoil": false,
+    "digest": "80376e270da033c90aed34f483fda8dc"
+  },
+  {
+    "name_gatherer": "Magic: The Gathering—Conspiracy",
+    "code_gatherer": "CNS",
+    "code_mtgi": "CNS",
+    "name_tcgp": "Conspiracy",
+    "name_mkm": "Conspiracy",
+    "date": "06/2014",
+    "canBeFoil": true,
+    "digest": "9f0fa5f24e4e0a9a614d4f7a0eb8598a"
+  },
+  {
+    "name_gatherer": "Masterpiece Series: Kaladesh Inventions",
+    "code_gatherer": "MPS",
+    "code_mtgi": "MPSKLD",
+    "name_tcgp": "Masterpiece Series: Kaladesh Inventions",
+    "name_mkm": "Masterpiece Series: Kaladesh Inventions",
+    "date": "09/2016",
+    "canBeFoil": false,
+    "digest": "b19a2c35935cd5cbaa1e918695df994c"
+  },
+  {
+    "name_gatherer": "Masters Edition",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "  ",
+    "date": "09/2007",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Masters Edition II",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "",
+    "date": "09/2008",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Masters Edition III",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "",
+    "date": "09/2009",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Masters Edition IV",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "",
+    "date": "01/2011",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Mercadian Masques",
+    "code_gatherer": "MM",
+    "code_mtgi": "MM",
+    "name_tcgp": "Mercadian Masques",
+    "name_mkm": "Mercadian Masques",
+    "date": "09/1999",
+    "canBeFoil": true,
+    "digest": "30932107f7346ec08b87a751bc6f6c1a"
+  },
+  {
+    "name_gatherer": "Mirage",
+    "code_gatherer": "MI",
+    "code_mtgi": "MR",
+    "name_tcgp": "Mirage",
+    "name_mkm": "Mirage",
+    "date": "10/1996",
+    "canBeFoil": false,
+    "digest": "58afdfa219d3fbf22dd83e5e7a3b462c"
+  },
+  {
+    "name_gatherer": "Mirrodin",
+    "code_gatherer": "MR",
+    "code_mtgi": "MI",
+    "name_tcgp": "Mirrodin",
+    "name_mkm": "Mirrodin",
+    "date": "09/2003",
+    "canBeFoil": true,
+    "digest": "af9d40b972b06287aff65353f405788e"
+  },
+  {
+    "name_gatherer": "Mirrodin Besieged",
+    "code_gatherer": "MBS",
+    "code_mtgi": "MBS",
+    "name_tcgp": "Mirrodin Besieged",
+    "name_mkm": "Mirrodin Besieged",
+    "date": "01/2011",
+    "canBeFoil": true,
+    "digest": "04fa213b3f63ddeec5ecc195b8387a0f"
+  },
+  {
+    "name_gatherer": "Modern Event Deck 2014",
+    "code_gatherer": "MD1",
+    "code_mtgi": "MD1",
+    "name_tcgp": "Magic Modern Event Deck",
+    "name_mkm": "Modern Event Deck 2014",
+    "date": "05/2014",
+    "canBeFoil": false,
+    "digest": "3f5b3c7d9a546ba75bbf8b3b4d1d209f"
+  },
+  {
+    "name_gatherer": "Modern Masters",
+    "code_gatherer": "MMA",
+    "code_mtgi": "MMA",
+    "name_tcgp": "Modern Masters",
+    "name_mkm": "Modern Masters",
+    "date": "06/2013",
+    "canBeFoil": true,
+    "digest": "173268dc376ab5a1c0c1d9c5b6b7bbf9"
+  },
+  {
+    "name_gatherer": "Modern Masters 2015 Edition",
+    "code_gatherer": "MM2",
+    "code_mtgi": "MM2",
+    "name_tcgp": "Modern Masters 2015",
+    "name_mkm": "Modern Masters 2015",
+    "date": "05/2015",
+    "canBeFoil": true,
+    "digest": "bbd00ef56df80a5a03e13ade9282edad"
+  },
+  {
+    "name_gatherer": "Morningtide",
+    "code_gatherer": "MOR",
+    "code_mtgi": "MT",
+    "name_tcgp": "Morningtide",
+    "name_mkm": "Morningtide",
+    "date": "01/2008",
+    "canBeFoil": true,
+    "digest": "45ffd3cbdff017752022328fdf952ae0"
+  },
+  {
+    "name_gatherer": "Nemesis",
+    "code_gatherer": "NE",
+    "code_mtgi": "NE",
+    "name_tcgp": "Nemesis",
+    "name_mkm": "Nemesis",
+    "date": "02/2000",
+    "canBeFoil": true,
+    "digest": "ea9a87a2fead3b2be7da1c0d58b404a5"
+  },
+  {
+    "name_gatherer": "New Phyrexia",
+    "code_gatherer": "NPH",
+    "code_mtgi": "NPH",
+    "name_tcgp": "New Phyrexia",
+    "name_mkm": "New Phyrexia",
+    "date": "05/2011",
+    "canBeFoil": true,
+    "digest": "64782c70cbf5f34658450c981d25944f"
+  },
+  {
+    "name_gatherer": "Ninth Edition",
+    "code_gatherer": "9E",
+    "code_mtgi": "9E",
+    "name_tcgp": "9th Edition",
+    "name_mkm": "Ninth Edition",
+    "date": "07/2005",
+    "canBeFoil": true,
+    "digest": "231743b85bc0be9bcb798403e3f67014"
+  },
+  {
+    "name_gatherer": "Oath of the Gatewatch",
+    "code_gatherer": "OGW",
+    "code_mtgi": "OGW",
+    "name_tcgp": "Oath of the Gatewatch",
+    "name_mkm": "Oath of the Gatewatch",
+    "date": "01/2016",
+    "canBeFoil": true,
+    "digest": "7c2e8e44328e9f32d0f1c07748c3bea1"
+  },
+  {
+    "name_gatherer": "Odyssey",
+    "code_gatherer": "OD",
+    "code_mtgi": "OD",
+    "name_tcgp": "Odyssey",
+    "name_mkm": "Odyssey",
+    "date": "09/2001",
+    "canBeFoil": true,
+    "digest": "30b3df270ca2db20edb3bac93c89b1c7"
+  },
+  {
+    "name_gatherer": "Onslaught",
+    "code_gatherer": "ON",
+    "code_mtgi": "ON",
+    "name_tcgp": "Onslaught",
+    "name_mkm": "Onslaught",
+    "date": "09/2002",
+    "canBeFoil": true,
+    "digest": "3bf6ebe92fb460db81373a176803bf85"
+  },
+  {
+    "name_gatherer": "Planar Chaos",
+    "code_gatherer": "PLC",
+    "code_mtgi": "PC",
+    "name_tcgp": "Planar Chaos",
+    "name_mkm": "Planar Chaos",
+    "date": "01/2007",
+    "canBeFoil": true,
+    "digest": "5a4e7ef0129d6bb95086599b0755f3b1"
+  },
+  {
+    "name_gatherer": "Planechase",
+    "code_gatherer": "PCH",
+    "code_mtgi": "PCH",
+    "name_tcgp": "Planechase",
+    "name_mkm": "Planechase",
+    "date": "09/2009",
+    "canBeFoil": false,
+    "digest": "687e2e7414b5c183c13da20d65fc46e8"
+  },
+  {
+    "name_gatherer": "Planechase 2012 Edition",
+    "code_gatherer": "PC2",
+    "code_mtgi": "PC2",
+    "name_tcgp": "Planechase 2012",
+    "name_mkm": "Planechase 2012",
+    "date": "06/2012",
+    "canBeFoil": false,
+    "digest": "2c45443a5cf97d57d108b1b96dd6a525"
+  },
+  {
+    "name_gatherer": "Planechase Anthology",
+    "code_gatherer": "PCA",
+    "code_mtgi": "PCA",
+    "name_tcgp": "Planechase Anthology",
+    "name_mkm": "Planechase Anthology",
+    "date": "11/2016",
+    "canBeFoil": false,
+    "digest": "9fd20ae673dea6b83cf990f135e78563"
+  },
+  {
+    "name_gatherer": "Planeshift",
+    "code_gatherer": "PS",
+    "code_mtgi": "PS",
+    "name_tcgp": "Planeshift",
+    "name_mkm": "Planeshift",
+    "date": "01/2001",
+    "canBeFoil": true,
+    "digest": "ecbd39e732ce243a65a957134f6744e8"
+  },
+  {
+    "name_gatherer": "Portal",
+    "code_gatherer": "PT",
+    "code_mtgi": "PO",
+    "name_tcgp": "Portal",
+    "name_mkm": "Portal",
+    "date": "06/1997",
+    "canBeFoil": false,
+    "digest": "1ffce416ba9aad32e02e3af5d5755d79"
+  },
+  {
+    "name_gatherer": "Portal Second Age",
+    "code_gatherer": "P2",
+    "code_mtgi": "PO2",
+    "name_tcgp": "Portal Second Age",
+    "name_mkm": "Portal Second Age",
+    "date": "06/1998",
+    "canBeFoil": false,
+    "digest": "fb8cf29e260f3793e15de5fcd228fb8a"
+  },
+  {
+    "name_gatherer": "Portal Three Kingdoms",
+    "code_gatherer": "P3",
+    "code_mtgi": "P3K",
+    "name_tcgp": "Portal Three Kingdoms",
+    "name_mkm": "Portal Three Kingdoms",
+    "date": "06/1999",
+    "canBeFoil": false,
+    "digest": "f2540088037d5f7794614ab767e379a9"
+  },
+  {
+    "name_gatherer": "Premium Deck Series: Fire and Lightning",
+    "code_gatherer": "FAL",
+    "code_mtgi": "PD2",
+    "name_tcgp": "Premium Deck Series: Fire and Lightning",
+    "name_mkm": "Premium Deck Series: Fire & Lightning",
+    "date": "11/2010",
+    "canBeFoil": false,
+    "digest": "632e28eb5652eecf3ccdf3a1507fe21d"
+  },
+  {
+    "name_gatherer": "Premium Deck Series: Graveborn",
+    "code_gatherer": "GRV",
+    "code_mtgi": "PD3",
+    "name_tcgp": "Premium Deck Series: Graveborn",
+    "name_mkm": "Premium Deck Series: Graveborn",
+    "date": "11/2011",
+    "canBeFoil": false,
+    "digest": "747fba2d9dfded2bcd1bf46c14879fe0"
+  },
+  {
+    "name_gatherer": "Premium Deck Series: Slivers",
+    "code_gatherer": "SLI",
+    "code_mtgi": "PDS",
+    "name_tcgp": "Premium Deck Series: Slivers",
+    "name_mkm": "Premium Deck Series: Slivers",
+    "date": "11/2009",
+    "canBeFoil": false,
+    "digest": "b767d2b4e91648535679b0142f89f27e"
+  },
+  {
+    "name_gatherer": "Promo set for Gatherer",
+    "code_gatherer": "MBP",
+    "code_mtgi": "MBP",
+    "name_tcgp": "Media Promos",
+    "name_mkm": "Harper Prism Promos",
+    "date": "06/1993",
+    "canBeFoil": false,
+    "digest": "36e517eaea1986cf2ed9fbbc158afe6d"
+  },
+  {
+    "name_gatherer": "Prophecy",
+    "code_gatherer": "PY",
+    "code_mtgi": "PR",
+    "name_tcgp": "Prophecy",
+    "name_mkm": "Prophecy",
+    "date": "05/2000",
+    "canBeFoil": true,
+    "digest": "eb3f7b5f80e9d075b8be8411a5b72355"
+  },
+  {
+    "name_gatherer": "Ravnica: City of Guilds",
+    "code_gatherer": "RAV",
+    "code_mtgi": "RAV",
+    "name_tcgp": "Ravnica",
+    "name_mkm": "Ravnica: City of Guilds",
+    "date": "09/2005",
+    "canBeFoil": true,
+    "digest": "ceda048032fd20c028509dccef2dde53"
+  },
+  {
+    "name_gatherer": "Return to Ravnica",
+    "code_gatherer": "RTR",
+    "code_mtgi": "RTR",
+    "name_tcgp": "Return to Ravnica",
+    "name_mkm": "Return to Ravnica",
+    "date": "10/2012",
+    "canBeFoil": true,
+    "digest": "28ba1be5b85aa2b087287858eb774295"
+  },
+  {
+    "name_gatherer": "Revised Edition",
+    "code_gatherer": "R",
+    "code_mtgi": "RV",
+    "name_tcgp": "Revised Edition",
+    "name_mkm": "Revised",
+    "date": "04/1994",
+    "canBeFoil": false,
+    "digest": "0bdbf5dac96f28d5d72249ebcebfa4d4"
+  },
+  {
+    "name_gatherer": "Rise of the Eldrazi",
+    "code_gatherer": "ROE",
+    "code_mtgi": "ROE",
+    "name_tcgp": "Rise of the Eldrazi",
+    "name_mkm": "Rise of the Eldrazi",
+    "date": "04/2010",
+    "canBeFoil": true,
+    "digest": "e41697077e6eb30d8f12441a8300364b"
+  },
+  {
+    "name_gatherer": "Saviors of Kamigawa",
+    "code_gatherer": "SOK",
+    "code_mtgi": "SOK",
+    "name_tcgp": "Saviors of Kamigawa",
+    "name_mkm": "Saviors of Kamigawa",
+    "date": "05/2005",
+    "canBeFoil": true,
+    "digest": "9b406c6f76d2060c7dc9cc8b33a8d1c2"
+  },
+  {
+    "name_gatherer": "Scars of Mirrodin",
+    "code_gatherer": "SOM",
+    "code_mtgi": "SOM",
+    "name_tcgp": "Scars of Mirrodin",
+    "name_mkm": "Scars of Mirrodin",
+    "date": "09/2010",
+    "canBeFoil": true,
+    "digest": "36fdd85d767a5790e6ff167d6fafb949"
+  },
+  {
+    "name_gatherer": "Scourge",
+    "code_gatherer": "SC",
+    "code_mtgi": "SC",
+    "name_tcgp": "Scourge",
+    "name_mkm": "Scourge",
+    "date": "05/2003",
+    "canBeFoil": true,
+    "digest": "4b2582b2b8066f3a04150e9c6d512c2c"
+  },
+  {
+    "name_gatherer": "Seventh Edition",
+    "code_gatherer": "7E",
+    "code_mtgi": "7E",
+    "name_tcgp": "7th Edition",
+    "name_mkm": "Seventh Edition",
+    "date": "04/2001",
+    "canBeFoil": true,
+    "digest": "17450142cc511aede2eed0aaee7afd1c"
+  },
+  {
+    "name_gatherer": "Shadowmoor",
+    "code_gatherer": "SHM",
+    "code_mtgi": "SHM",
+    "name_tcgp": "Shadowmoor",
+    "name_mkm": "Shadowmoor",
+    "date": "04/2008",
+    "canBeFoil": true,
+    "digest": "ac5e25a6ffc9c7f7860b53cd899d9f00"
+  },
+  {
+    "name_gatherer": "Shadows over Innistrad",
+    "code_gatherer": "SOI",
+    "code_mtgi": "SOI",
+    "name_tcgp": "Shadows over Innistrad",
+    "name_mkm": "Shadows over Innistrad",
+    "date": "03/2016",
+    "canBeFoil": true,
+    "digest": "4613aefeaaba7adcac51d88fc9f29a22"
+  },
+  {
+    "name_gatherer": "Shards of Alara",
+    "code_gatherer": "ALA",
+    "code_mtgi": "ALA",
+    "name_tcgp": "Shards of Alara",
+    "name_mkm": "Shards of Alara",
+    "date": "09/2008",
+    "canBeFoil": true,
+    "digest": "ea2ca0cbce7a767971e5bb7ff871162e"
+  },
+  {
+    "name_gatherer": "Starter 1999",
+    "code_gatherer": "ST",
+    "code_mtgi": "ST",
+    "name_tcgp": "Starter 1999",
+    "name_mkm": "Starter 1999",
+    "date": "07/1999",
+    "canBeFoil": false,
+    "digest": "63742b6c703d4d638a2da796d294924c"
+  },
+  {
+    "name_gatherer": "Starter 2000",
+    "code_gatherer": "S2",
+    "code_mtgi": "ST2K",
+    "name_tcgp": "Starter 2000",
+    "name_mkm": "Starter 2000",
+    "date": "07/2000",
+    "canBeFoil": false,
+    "digest": "f2830b9863f48c985f4608b10917cb3d"
+  },
+  {
+    "name_gatherer": "Stronghold",
+    "code_gatherer": "SH",
+    "code_mtgi": "SH",
+    "name_tcgp": "Stronghold",
+    "name_mkm": "Stronghold",
+    "date": "02/1998",
+    "canBeFoil": false,
+    "digest": "a843ac5f82d468c61be8bd8ae02c9071"
+  },
+  {
+    "name_gatherer": "Tempest",
+    "code_gatherer": "TE",
+    "code_mtgi": "TP",
+    "name_tcgp": "Tempest",
+    "name_mkm": "Tempest",
+    "date": "10/1997",
+    "canBeFoil": false,
+    "digest": "bf6e85c9890f2475fb74843619b698eb"
+  },
+  {
+    "name_gatherer": "Tempest Remastered",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "",
+    "date": "",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Tenth Edition",
+    "code_gatherer": "10E",
+    "code_mtgi": "10E",
+    "name_tcgp": "10th Edition",
+    "name_mkm": "Tenth Edition",
+    "date": "07/2007",
+    "canBeFoil": true,
+    "digest": "672b262c1e2a2d0c119d7d049ccf0797"
+  },
+  {
+    "name_gatherer": "The Dark",
+    "code_gatherer": "DK",
+    "code_mtgi": "DK",
+    "name_tcgp": "The Dark",
+    "name_mkm": "The Dark",
+    "date": "08/1994",
+    "canBeFoil": false,
+    "digest": "39c2ac6e9895c779c319040ba2fd78c7"
+  },
+  {
+    "name_gatherer": "Theros",
+    "code_gatherer": "THS",
+    "code_mtgi": "THS",
+    "name_tcgp": "Theros",
+    "name_mkm": "Theros",
+    "date": "09/2013",
+    "canBeFoil": true,
+    "digest": "af8ed9da4f43bcf8376d6132f3ba6626"
+  },
+  {
+    "name_gatherer": "Time Spiral",
+    "code_gatherer": "TSP",
+    "code_mtgi": "TS",
+    "name_tcgp": "Time Spiral",
+    "name_mkm": "Time Spiral",
+    "date": "09/2006",
+    "canBeFoil": true,
+    "digest": "2a833f6d09472946295fc43981879ad2"
+  },
+  {
+    "name_gatherer": "Time Spiral \"Timeshifted\"",
+    "code_gatherer": "TSB",
+    "code_mtgi": "TSTS",
+    "name_tcgp": "Timeshifted",
+    "name_mkm": "Time Spiral",
+    "date": "09/2006",
+    "canBeFoil": true,
+    "digest": "9a0aa55f80efae628cf28150b0f42a5b"
+  },
+  {
+    "name_gatherer": "Torment",
+    "code_gatherer": "TO",
+    "code_mtgi": "TR",
+    "name_tcgp": "Torment",
+    "name_mkm": "Torment",
+    "date": "01/2002",
+    "canBeFoil": true,
+    "digest": "d91900eb7e2db32d60989db8ec525130"
+  },
+  {
+    "name_gatherer": "Ugin's Fate promos",
+    "code_gatherer": "UFP",
+    "code_mtgi": "UFP",
+    "name_tcgp": "Ugin's Fate Promos",
+    "name_mkm": "Ugin's Fate Promos",
+    "date": "12/2014",
+    "canBeFoil": false,
+    "digest": "0c2541ee01a71a18f79d1470e5adab2a"
+  },
+  {
+    "name_gatherer": "Unglued",
+    "code_gatherer": "UG",
+    "code_mtgi": "UG",
+    "name_tcgp": "Unglued",
+    "name_mkm": "Unglued",
+    "date": "08/1998",
+    "canBeFoil": false,
+    "digest": "599f85647d0bcf83863bb815c3e45659"
+  },
+  {
+    "name_gatherer": "Unhinged",
+    "code_gatherer": "UNH",
+    "code_mtgi": "UH",
+    "name_tcgp": "Unhinged",
+    "name_mkm": "Unhinged",
+    "date": "11/2004",
+    "canBeFoil": true,
+    "digest": "90b865fba8935b3065e4a29ce79c564c"
+  },
+  {
+    "name_gatherer": "Unlimited Edition",
+    "code_gatherer": "U",
+    "code_mtgi": "UN",
+    "name_tcgp": "Unlimited Edition",
+    "name_mkm": "Unlimited",
+    "date": "12/1993",
+    "canBeFoil": false,
+    "digest": "995053fde159a859dbf7432afc1ab358"
+  },
+  {
+    "name_gatherer": "Urza's Destiny",
+    "code_gatherer": "UD",
+    "code_mtgi": "UD",
+    "name_tcgp": "Urza's Destiny",
+    "name_mkm": "Urza's Destiny",
+    "date": "05/1999",
+    "canBeFoil": true,
+    "digest": "9da4e92944bce88f144a585d3812aaae"
+  },
+  {
+    "name_gatherer": "Urza's Legacy",
+    "code_gatherer": "UL",
+    "code_mtgi": "UL",
+    "name_tcgp": "Urza's Legacy",
+    "name_mkm": "Urza's Legacy",
+    "date": "02/1999",
+    "canBeFoil": true,
+    "digest": "9e2d9e22b49f8d9e163e5c051df77c68"
+  },
+  {
+    "name_gatherer": "Urza's Saga",
+    "code_gatherer": "US",
+    "code_mtgi": "US",
+    "name_tcgp": "Urza's Saga",
+    "name_mkm": "Urza's Saga",
+    "date": "10/1998",
+    "canBeFoil": false,
+    "digest": "b749937cae0f5ba249bc1319429f698b"
+  },
+  {
+    "name_gatherer": "Vanguard",
+    "code_gatherer": "VNG",
+    "code_mtgi": "VNG",
+    "name_tcgp": "Vanguard",
+    "name_mkm": "Vanguard",
+    "date": "07/1993",
+    "canBeFoil": false,
+    "digest": "7f7da6132ef68bc729ddb1ed0fb19c4d"
+  },
+  {
+    "name_gatherer": "Vintage Masters",
+    "code_gatherer": "",
+    "code_mtgi": "",
+    "name_tcgp": "",
+    "name_mkm": "",
+    "date": "",
+    "canBeFoil": false,
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Visions",
+    "code_gatherer": "VI",
+    "code_mtgi": "VI",
+    "name_tcgp": "Visions",
+    "name_mkm": "Visions",
+    "date": "02/1997",
+    "canBeFoil": false,
+    "digest": "516a147a40e6e460874dcf11cb15e9f7"
+  },
+  {
+    "name_gatherer": "Weatherlight",
+    "code_gatherer": "WL",
+    "code_mtgi": "WL",
+    "name_tcgp": "Weatherlight",
+    "name_mkm": "Weatherlight",
+    "date": "05/1997",
+    "canBeFoil": false,
+    "digest": "9582d19827a11698afa2d6a68b972143"
+  },
+  {
+    "name_gatherer": "Welcome Deck 2016",
+    "code_gatherer": "W16",
+    "code_mtgi": "W16",
+    "name_tcgp": "Welcome Deck 2016",
+    "name_mkm": "Welcome Deck 2016",
+    "date": "03/2016",
+    "canBeFoil": false,
+    "digest": "dcb4e4367c8017fa9a7a310a42052e91"
+  },
+  {
+    "name_gatherer": "Worldwake",
+    "code_gatherer": "WWK",
+    "code_mtgi": "WWK",
+    "name_tcgp": "Worldwake",
+    "name_mkm": "Worldwake",
+    "date": "01/2010",
+    "canBeFoil": true,
+    "digest": "04c560883e4772d13827532820a42870"
+  },
+  {
+    "name_gatherer": "Zendikar",
+    "code_gatherer": "ZEN",
+    "code_mtgi": "ZEN",
+    "name_tcgp": "Zendikar",
+    "name_mkm": "Zendikar",
+    "date": "09/2009",
+    "canBeFoil": true,
+    "digest": "5c0226e2ecaeb0b5f8da84e2b3e4f16f"
+  },
+  {
+    "name_gatherer": "Zendikar Expeditions",
+    "code_gatherer": "EXP",
+    "code_mtgi": "EXP",
+    "name_tcgp": "Zendikar Expeditions",
+    "name_mkm": "Zendikar Expeditions",
+    "date": "09/2015",
+    "canBeFoil": false,
+    "digest": "db970712b82873132434aa159f6fe228"
+  }
 ]

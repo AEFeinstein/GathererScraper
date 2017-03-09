@@ -50,11 +50,11 @@ import javax.swing.SwingWorker;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 
 import com.camick.TableColumnAdjuster;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * This class handles the UI for the application, as well as some file I/O
@@ -198,17 +198,18 @@ public class GathererScraperUi {
 				catch (IOException e1) {
 					e1.printStackTrace();
 				}
-
-				JSONArray expansions = new JSONArray();
-				for (Expansion e : mExpansionTableModel.mExpansions) {
-					expansions.add(e.toJsonObject());
-				}
+				
+				GsonBuilder builder = new GsonBuilder();
+				builder.disableHtmlEscaping();
+				builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
+				builder.setPrettyPrinting();
+				Gson gson = builder.create();
+				
+				String expansionJson = gson.toJson(mExpansionTableModel.mExpansions);
 				try {
-					Collections.sort(expansions, JSONArray.getComparator());
-					System.setProperty("line.separator", "\n");
 					OutputStreamWriter osw = new OutputStreamWriter(
 							new FileOutputStream(new File(EXPANSION_FILE_NAME)), Charset.forName("UTF-8"));
-					osw.write(expansions.toJSONString().replace("\r",""));
+					osw.write(expansionJson);
 					osw.flush();
 					osw.close();
 				}
@@ -576,70 +577,27 @@ public class GathererScraperUi {
 	 *         build a patch manifest
 	 */
 	public void writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
-		JSONObject topLevel = new JSONObject();
-		JSONObject mtg_carddatabase = new JSONObject();
-		JSONObject cards = new JSONObject();
-		JSONObject expansions = new JSONObject();
-
-		JSONArray jsonAllCards = new JSONArray();
-		if (allCards != null) {
-			for (Card c : allCards) {
-				JSONObject jsonCard = new JSONObject();
-				jsonCard.put("a", c.mName);
-				jsonCard.put("b", c.mExpansion);
-				jsonCard.put("c", c.mType);
-				jsonCard.put("d", c.mRarity);
-				jsonCard.put("e", c.mManaCost);
-				jsonCard.put("f", c.mCmc);
-				jsonCard.put("g", c.mPower);
-				jsonCard.put("h", c.mToughness);
-				jsonCard.put("i", c.mLoyalty);
-				jsonCard.put("j", c.mText);
-				jsonCard.put("k", c.mFlavor);
-				jsonCard.put("l", c.mArtist);
-				jsonCard.put("m", c.mNumber);
-				jsonCard.put("n", c.mColor);
-				jsonCard.put("x", c.mMultiverseId);
-				jsonAllCards.add(jsonCard);
-			}
-		}
 		try {
-
-			topLevel.put("t", mtg_carddatabase);
-
-			mtg_carddatabase.put("w", jsonAllCards.size()); /* num_cards */
-//			mtg_carddatabase.put("u", "1.00"); /* bdd_version */
-
-			mtg_carddatabase.put("s", expansions);
-
-			JSONArray jsonAllExpansions = new JSONArray();
-
-			JSONObject jsonExpansion = new JSONObject();
-			jsonExpansion.put("r", exp.mCode_mtgi); /* code_magiccards */
-			jsonExpansion.put("a", exp.mName_gatherer); /* name */
-			jsonExpansion.put("q", exp.mCode_gatherer); /* code */
-			jsonExpansion.put("y", exp.getDateMs()); /* date */
-			jsonAllExpansions.add(jsonExpansion);
-
-			expansions.put("b", jsonAllExpansions);
-
-			mtg_carddatabase.put("p", cards);
-			cards.put("o", jsonAllCards);
-
-//			DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
-//			Calendar cal = Calendar.getInstance();
-//			mtg_carddatabase.put("v", dateFormat.format(cal.getTime())); /* bdd_date */
-
+			GsonBuilder builder = new GsonBuilder();
+			builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
+			builder.disableHtmlEscaping();
+			Gson gson = builder.create();
+			
 			File gzipout = new File(new File(mFilesPath, "patches"), exp.mCode_gatherer + ".json.gzip");
 			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));
-			gos.write(topLevel.toJSONString().getBytes());
+			
+			System.out.println(gzipout.getPath());
+			
+			Patch patch = new Patch(exp, allCards);
+			gos.write(gson.toJson(patch).getBytes());
 			gos.flush();
 			gos.close();
-
+			System.out.println("writeJsonPatchFile2");
 		}
 		catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 	}
 
 	/**
