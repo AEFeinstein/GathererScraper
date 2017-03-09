@@ -64,7 +64,7 @@
 ,"mtgi":"10E"
 ,"mkm":"Tenth Edition"
 ,"foil":true
-,"digest":"672b262c1e2a2d0c119d7d049ccf0797"
+,"digest":"84cd8b524282d21489b684066da3cf1c"
 ,"date":1183262400000
 ,"code":"10E"
 }
@@ -74,7 +74,7 @@
 ,"mtgi":"7E"
 ,"mkm":"Seventh Edition"
 ,"foil":true
-,"digest":"17450142cc511aede2eed0aaee7afd1c"
+,"digest":"9fe2efbcfbbb8df09c3086aacffda0b8"
 ,"date":986101200000
 ,"code":"7E"
 }
@@ -94,7 +94,7 @@
 ,"mtgi":"9E"
 ,"mkm":"Ninth Edition"
 ,"foil":true
-,"digest":"231743b85bc0be9bcb798403e3f67014"
+,"digest":"d5a45dd40ae4f1dda0af08d97bf665e6"
 ,"date":1120190400000
 ,"code":"9E"
 }
@@ -124,7 +124,7 @@
 ,"mtgi":"AI"
 ,"mkm":"Alliances"
 ,"foil":false
-,"digest":"28564bd4179a8b0d46bb0b8a5c72cd1f"
+,"digest":"16bf9ef459907e072bb54abe7f957c17"
 ,"date":833601600000
 ,"code":"AL"
 }
@@ -134,7 +134,7 @@
 ,"mtgi":"AL"
 ,"mkm":"Alpha"
 ,"foil":false
-,"digest":"626cee5756580fae7a368d2a1bf8943f"
+,"digest":"b2b5a0dec15574e6aa1324f8c6c33d89"
 ,"date":744177600000
 ,"code":"A"
 }
@@ -144,7 +144,7 @@
 ,"mtgi":"AQ"
 ,"mkm":"Antiquities"
 ,"foil":false
-,"digest":"81a74ae85fe01341d7e26b0d0c84f835"
+,"digest":"9d944cba0f3d4b116fb519445dcf836d"
 ,"date":765176400000
 ,"code":"AQ"
 }
@@ -154,7 +154,7 @@
 ,"mtgi":"AP"
 ,"mkm":"Apocalypse"
 ,"foil":true
-,"digest":"e4be5013c24d2b0721bbdf4740fd1873"
+,"digest":"6cbf50ce99abe1684d9a4ea091492aac"
 ,"date":988689600000
 ,"code":"AP"
 }
@@ -174,7 +174,7 @@
 ,"mtgi":"ARC"
 ,"mkm":"Archenemy"
 ,"foil":false
-,"digest":"7d141e65d4edaf15169e54e085f886c1"
+,"digest":"3328cddd960ce1456e6432f21ce93726"
 ,"date":1275364800000
 ,"code":"ARC"
 }
@@ -184,7 +184,7 @@
 ,"mtgi":"AVR"
 ,"mkm":"Avacyn Restored"
 ,"foil":true
-,"digest":"e947ef762b01b779029540eeaa9eb4bc"
+,"digest":"5ea07951fcac30bd36c83d0f72b43edb"
 ,"date":1335844800000
 ,"code":"AVR"
 }
@@ -214,7 +214,7 @@
 ,"mtgi":"BD"
 ,"mkm":"Beatdown"
 ,"foil":false
-,"digest":"41a4e4ad2d54b96af7c5e8ca81e1a711"
+,"digest":"35cc0d04bc0305fc44397c38505830c3"
 ,"date":975646800000
 ,"code":"BD"
 }
@@ -224,7 +224,7 @@
 ,"mtgi":"BE"
 ,"mkm":"Beta"
 ,"foil":false
-,"digest":"b237074473659ea5e458f926273a52db"
+,"digest":"d7739d874de959755ae4b81a5bd6cbca"
 ,"date":749448000000
 ,"code":"B"
 }
@@ -234,7 +234,7 @@
 ,"mtgi":"BOK"
 ,"mkm":"Betrayers of Kamigawa"
 ,"foil":true
-,"digest":"9bed3e995bd516e2d213a4594bfa7d11"
+,"digest":"59faeb7999bc34741ceeede23474290a"
 ,"date":1104555600000
 ,"code":"BOK"
 }
@@ -244,7 +244,7 @@
 ,"mtgi":"BNG"
 ,"mkm":"Born of the Gods"
 ,"foil":true
-,"digest":"367137b5af9430e72b57919fe04c21f5"
+,"digest":"c44881d522cf946ecc055ad0bd937695"
 ,"date":1391230800000
 ,"code":"BNG"
 }
@@ -274,7 +274,7 @@
 ,"mtgi":"6E"
 ,"mkm":"Sixth Edition"
 ,"foil":false
-,"digest":"b9b16f439c86ee15335bef616274c42c"
+,"digest":"c63310f0eb0c9a2df4efa1dba728524a"
 ,"date":922942800000
 ,"code":"6E"
 }
@@ -284,7 +284,7 @@
 ,"mtgi":"CS"
 ,"mkm":"Coldsnap"
 ,"foil":true
-,"digest":"7011e084f8258d2ad634e348fb00a5ee"
+,"digest":"ad34816ec49a0aedd61da9b5e28900d3"
 ,"date":1149134400000
 ,"code":"CS"
 }
@@ -294,7 +294,7 @@
 ,"mtgi":"C13"
 ,"mkm":"Commander 2013"
 ,"foil":false
-,"digest":"ab6d0a9fc9d9931921e1c52c17cdf097"
+,"digest":"a17f5b9c0053737ef2a3cc349867c77f"
 ,"date":1383278400000
 ,"code":"C13"
 }
@@ -304,7 +304,7 @@
 ,"mtgi":"C14"
 ,"mkm":"Commander 2014"
 ,"foil":false
-,"digest":"4eadb61d0e4801918fbdbd2d27448621"
+,"digest":"b692ae79499c46faa62a35b4f4f7680d"
 ,"date":1414814400000
 ,"code":"C14"
 }
@@ -314,7 +314,7 @@
 ,"mtgi":"C15"
 ,"mkm":"Commander 2015"
 ,"foil":false
-,"digest":"61e8257aa02216a3328c60f62ad8bd52"
+,"digest":"ff11afc96be03ab1db57e7f96e44a4cc"
 ,"date":1446350400000
 ,"code":"C15"
 }
@@ -334,7 +334,7 @@
 ,"mtgi":"CMD"
 ,"mkm":"Commander"
 ,"foil":false
-,"digest":"80376e270da033c90aed34f483fda8dc"
+,"digest":"631dd9daabd9aba3a9a3466141cb503c"
 ,"date":1306900800000
 ,"code":"CMD"
 }
@@ -354,7 +354,7 @@
 ,"mtgi":"CFX"
 ,"mkm":"Conflux"
 ,"foil":true
-,"digest":"8374e30051a6c3ccd1c0bb2d3fd0c1c7"
+,"digest":"e52008d9f4efee7396c723bc32b9aeaa"
 ,"date":1230786000000
 ,"code":"CFX"
 }
@@ -364,7 +364,7 @@
 ,"mtgi":"CNS"
 ,"mkm":"Conspiracy"
 ,"foil":true
-,"digest":"9f0fa5f24e4e0a9a614d4f7a0eb8598a"
+,"digest":"e456845ce930fb54759b24546fca0ec5"
 ,"date":1401595200000
 ,"code":"CNS"
 }
@@ -374,7 +374,7 @@
 ,"mtgi":"CN2"
 ,"mkm":"Conspiracy: Take the Crown"
 ,"foil":true
-,"digest":"0f2fe2585557b9c614e02c1b1a9b1f06"
+,"digest":"01c0a8ea7a39cb2bf190b2e33055eb8c"
 ,"date":1470024000000
 ,"code":"CN2"
 }
@@ -394,7 +394,7 @@
 ,"mtgi":"DS"
 ,"mkm":"Darksteel"
 ,"foil":true
-,"digest":"8ada538e9448171eb789142c8acb3617"
+,"digest":"02d6ae080b4a3176bab9b1c211e981c8"
 ,"date":1072933200000
 ,"code":"DS"
 }
@@ -404,7 +404,7 @@
 ,"mtgi":"DI"
 ,"mkm":"Dissension"
 ,"foil":true
-,"digest":"4bc92d5d8987d55753b8269972f4596c"
+,"digest":"b1c9c18cc8992957dffd71a99e552d1d"
 ,"date":1143867600000
 ,"code":"DIS"
 }
@@ -414,7 +414,7 @@
 ,"mtgi":"DGM"
 ,"mkm":"Dragon's Maze"
 ,"foil":true
-,"digest":"de3b407f9792b6f08e9307c492dc2c79"
+,"digest":"a5355062d20b9c31bad2cd627b33e850"
 ,"date":1367380800000
 ,"code":"DGM"
 }
@@ -424,7 +424,7 @@
 ,"mtgi":"DTK"
 ,"mkm":"Dragons of Tarkir"
 ,"foil":true
-,"digest":"137b24b07dbe39c5ac53625b8e0ad6a9"
+,"digest":"d138058dd45256c8bf0455ef6ebc59c7"
 ,"date":1425186000000
 ,"code":"DTK"
 }
@@ -474,7 +474,7 @@
 ,"mtgi":"DDAJVC"
 ,"mkm":"Duel Decks: Anthology"
 ,"foil":false
-,"digest":"d87fd1cdf414d60391d8b0e53b497a42"
+,"digest":"a0e5eb1d2cbccfaa2aee2ce8f09158d0"
 ,"date":1417410000000
 ,"code":"DD3JVC"
 }
@@ -504,7 +504,7 @@
 ,"mtgi":"DDO"
 ,"mkm":"Duel Decks: Elspeth vs. Kiora"
 ,"foil":false
-,"digest":"0d06f97ee8bda4b8436f4462c4986e84"
+,"digest":"0e1afcfcd973e97296d6842843fed9f3"
 ,"date":1422766800000
 ,"code":"DDO"
 }
@@ -514,7 +514,7 @@
 ,"mtgi":"DDF"
 ,"mkm":"Duel Decks: Elspeth vs. Tezzeret"
 ,"foil":false
-,"digest":"913ad6a1c2f7ba669566966160b330c0"
+,"digest":"0f5ae9efc83f5efe6a9e11181e17c964"
 ,"date":1283313600000
 ,"code":"EVT"
 }
@@ -544,7 +544,7 @@
 ,"mtgi":"DDL"
 ,"mkm":"Duel Decks: Heroes vs. Monsters"
 ,"foil":false
-,"digest":"4977447843471a0d16ae72cb7168914b"
+,"digest":"944940fff422af4242d0ff19b740a93c"
 ,"date":1378008000000
 ,"code":"HVM"
 }
@@ -564,7 +564,7 @@
 ,"mtgi":"JVC"
 ,"mkm":"Duel Decks: Jace vs. Chandra"
 ,"foil":false
-,"digest":"49e04f14473df37c80d728eb37009573"
+,"digest":"448655818c52239988d699872b40ea07"
 ,"date":1225512000000
 ,"code":"JVC"
 }
@@ -574,7 +574,7 @@
 ,"mtgi":"DDM"
 ,"mkm":"Duel Decks: Jace vs. Vraska"
 ,"foil":false
-,"digest":"7f37758a95bb562d6911660410f4473b"
+,"digest":"f0eb49d5c78ac88e6af4b276315df3a5"
 ,"date":1393650000000
 ,"code":"DDM"
 }
@@ -614,7 +614,7 @@
 ,"mtgi":"DDK"
 ,"mkm":"Duel Decks: Sorin vs. Tibalt"
 ,"foil":false
-,"digest":"0cac0ac554833b1e52dfc337e165eeaf"
+,"digest":"5128421aa03f803618d6e7617b0e1160"
 ,"date":1362114000000
 ,"code":"SVT"
 }
@@ -634,7 +634,7 @@
 ,"mtgi":"DDI"
 ,"mkm":"Duel Decks: Venser vs. Koth"
 ,"foil":false
-,"digest":"1708953dcb871ea8ee7de19dbb55b214"
+,"digest":"9e00820ab7da925616d42c0d1fbd20fe"
 ,"date":1333252800000
 ,"code":"VVK"
 }
@@ -644,7 +644,7 @@
 ,"mtgi":"DDP"
 ,"mkm":"Duel Decks: Zendikar vs. Eldrazi"
 ,"foil":false
-,"digest":"42f7dbb5d8d270c18abb2b0cc71712ba"
+,"digest":"7fdea4d4a7fd0414d181703cc0860a38"
 ,"date":1438401600000
 ,"code":"DDP"
 }
@@ -684,7 +684,7 @@
 ,"mtgi":"EX"
 ,"mkm":"Exodus"
 ,"foil":false
-,"digest":"c0437e4a93dc583cd3fb2523a0f540e4"
+,"digest":"c78e5bb4529106a01e8a88215c1f486f"
 ,"date":896673600000
 ,"code":"EX"
 }
@@ -714,7 +714,7 @@
 ,"mtgi":"5DN"
 ,"mkm":"Fifth Dawn"
 ,"foil":true
-,"digest":"45639b2a5517882443b63b6f178a45ae"
+,"digest":"4fff548b60a2f654254deaf3bdd102b0"
 ,"date":1083384000000
 ,"code":"FD"
 }
@@ -724,7 +724,7 @@
 ,"mtgi":"5E"
 ,"mkm":"Fifth Edition"
 ,"foil":false
-,"digest":"6a708f620b77091c11f5778a6aa2dbb0"
+,"digest":"6c53301b963c110a1684ad7775120dec"
 ,"date":857192400000
 ,"code":"5E"
 }
@@ -734,7 +734,7 @@
 ,"mtgi":"4E"
 ,"mkm":"Fourth Edition"
 ,"foil":false
-,"digest":"42bac249259f53b791dfa6614466496b"
+,"digest":"9b5afff4412ef1b6fb304e134410c458"
 ,"date":796712400000
 ,"code":"4E"
 }
@@ -814,7 +814,7 @@
 ,"mtgi":"FVR"
 ,"mkm":"From the Vault: Relics"
 ,"foil":false
-,"digest":"35ebff4a35f5d3555f41ab3f672f6534"
+,"digest":"04c450f0b424d2c86e142e6da06c3a38"
 ,"date":1280635200000
 ,"code":"RLC"
 }
@@ -824,7 +824,7 @@
 ,"mtgi":"V13"
 ,"mkm":"From the Vault: Twenty"
 ,"foil":false
-,"digest":"29a8e27310d6ef010f41cec50c3fd854"
+,"digest":"d5883d5ed9a8f476c1a1bbffd16cf1e0"
 ,"date":1375329600000
 ,"code":"V13"
 }
@@ -834,7 +834,7 @@
 ,"mtgi":"FUT"
 ,"mkm":"Future Sight"
 ,"foil":true
-,"digest":"6f1853e04cb4c7f918d0edd098c8d154"
+,"digest":"8678a515cbb9d6ebe80bd41b5c9f717b"
 ,"date":1177992000000
 ,"code":"FUT"
 }
@@ -844,7 +844,7 @@
 ,"mtgi":"GTC"
 ,"mkm":"Gatecrash"
 ,"foil":true
-,"digest":"c22a5e70730f4ca53ede4ccc5de413bd"
+,"digest":"97422fb88ae229cb49b5c40a318abec1"
 ,"date":1357016400000
 ,"code":"GTC"
 }
@@ -854,7 +854,7 @@
 ,"mtgi":"GP"
 ,"mkm":"Guildpact"
 ,"foil":true
-,"digest":"3a6b522f78610c0647804a05bfa5ecb3"
+,"digest":"e9b5f46f5a17796a1d9a83f43a55bd1c"
 ,"date":1136091600000
 ,"code":"GP"
 }
@@ -864,7 +864,7 @@
 ,"mtgi":"HL"
 ,"mkm":"Homelands"
 ,"foil":false
-,"digest":"804a3ec14860ad23184343d0772901cd"
+,"digest":"cb8d7a41f2c6bc245a42d89b7a0a90f8"
 ,"date":812520000000
 ,"code":"HL"
 }
@@ -894,7 +894,7 @@
 ,"mtgi":"IN"
 ,"mkm":"Invasion"
 ,"foil":true
-,"digest":"fb629fd54620c31a29bd8f669e1f9a91"
+,"digest":"b2e19547cb0783eceaab172bc0fbe272"
 ,"date":967780800000
 ,"code":"IN"
 }
@@ -924,7 +924,7 @@
 ,"mtgi":"KLD"
 ,"mkm":"Kaladesh"
 ,"foil":true
-,"digest":"00f0bde27921eff512810047c4437829"
+,"digest":"b0a5056dae160a23e596a00ba6b0962f"
 ,"date":1472702400000
 ,"code":"KLD"
 }
@@ -944,7 +944,7 @@
 ,"mtgi":"LG"
 ,"mkm":"Legends"
 ,"foil":false
-,"digest":"60d792af8b28ed29191f3f0b21a43688"
+,"digest":"84d6a4cc6c3f84bc1d7700bc58dc5f7d"
 ,"date":770443200000
 ,"code":"LG"
 }
@@ -964,7 +964,7 @@
 ,"mtgi":"LW"
 ,"mkm":"Lorwyn"
 ,"foil":true
-,"digest":"6a2626eddb1d6342661b7e9bdf99d055"
+,"digest":"564a7f46ffcb41201393432bc5b2b781"
 ,"date":1188619200000
 ,"code":"LRW"
 }
@@ -974,7 +974,7 @@
 ,"mtgi":"M10"
 ,"mkm":"Magic 2010"
 ,"foil":true
-,"digest":"baa74f4f17fba4aeef1bea9d174d42ca"
+,"digest":"e4aa82c403a97ffafca54fa195b37d69"
 ,"date":1246420800000
 ,"code":"M10"
 }
@@ -984,7 +984,7 @@
 ,"mtgi":"M11"
 ,"mkm":"Magic 2011"
 ,"foil":true
-,"digest":"2c83faa1819483c7e34db95b9082132a"
+,"digest":"6659100f40878d761eb5ff3ab7d5cb8f"
 ,"date":1277956800000
 ,"code":"M11"
 }
@@ -994,7 +994,7 @@
 ,"mtgi":"M12"
 ,"mkm":"Magic 2012"
 ,"foil":true
-,"digest":"390ff1f8a55bb965d58bbe0b5add957e"
+,"digest":"1fb4d28be4bf53c3846b6f5f501f6e6d"
 ,"date":1309492800000
 ,"code":"M12"
 }
@@ -1004,7 +1004,7 @@
 ,"mtgi":"M13"
 ,"mkm":"Magic 2013"
 ,"foil":true
-,"digest":"7e7c6f20ce949d1c77fe31db4574607e"
+,"digest":"ae40c4e9d5cf0a25a99c512b3ab974a4"
 ,"date":1341115200000
 ,"code":"M13"
 }
@@ -1014,7 +1014,7 @@
 ,"mtgi":"M14"
 ,"mkm":"Magic 2014"
 ,"foil":true
-,"digest":"d88010f94661462198d9114ad6eb58cd"
+,"digest":"6d4f343a6f70ed918f7c99679e763aa8"
 ,"date":1372651200000
 ,"code":"M14"
 }
@@ -1024,7 +1024,7 @@
 ,"mtgi":"M15"
 ,"mkm":"Magic 2015"
 ,"foil":true
-,"digest":"d5916079ef29a51486b16f2b09db9487"
+,"digest":"970721b5405b8d405b0a2afdf1b5521d"
 ,"date":1404187200000
 ,"code":"M15"
 }
@@ -1044,7 +1044,7 @@
 ,"mtgi":"ORI"
 ,"mkm":"Magic Origins"
 ,"foil":true
-,"digest":"60e4f33cdea61bbea040f6e82172b197"
+,"digest":"90aff232054baea498cf5523509e7665"
 ,"date":1435723200000
 ,"code":"ORI"
 }
@@ -1104,7 +1104,7 @@
 ,"mtgi":"MI"
 ,"mkm":"Mirrodin"
 ,"foil":true
-,"digest":"af9d40b972b06287aff65353f405788e"
+,"digest":"80a253786f0c6213f7a88b11f0079280"
 ,"date":1062388800000
 ,"code":"MR"
 }
@@ -1114,9 +1114,19 @@
 ,"mtgi":"MM2"
 ,"mkm":"Modern Masters 2015"
 ,"foil":true
-,"digest":"bbd00ef56df80a5a03e13ade9282edad"
+,"digest":"ec529bc5c4005298d16818ea1774050a"
 ,"date":1430452800000
 ,"code":"MM2"
+}
+,{"tcgp":"Modern Masters 2017"
+,"subsets":"Modern Masters 2017 Edition##"
+,"name":"Modern Masters 2017 Edition"
+,"mtgi":"MM3"
+,"mkm":"Modern Masters 2017"
+,"foil":true
+,"digest":"9d44dc2db599eeeac6d473a84bd418cf"
+,"date":1488344400000
+,"code":"MM3"
 }
 ,{"tcgp":"Modern Masters"
 ,"subsets":"Modern Masters##"
@@ -1124,7 +1134,7 @@
 ,"mtgi":"MMA"
 ,"mkm":"Modern Masters"
 ,"foil":true
-,"digest":"173268dc376ab5a1c0c1d9c5b6b7bbf9"
+,"digest":"d80142c20c2c995eb414e26516a361e5"
 ,"date":1370059200000
 ,"code":"MMA"
 }
@@ -1144,7 +1154,7 @@
 ,"mtgi":"NE"
 ,"mkm":"Nemesis"
 ,"foil":true
-,"digest":"ea9a87a2fead3b2be7da1c0d58b404a5"
+,"digest":"bfaef3a441ad3ac05e727472f1bee8d4"
 ,"date":949381200000
 ,"code":"NE"
 }
@@ -1154,7 +1164,7 @@
 ,"mtgi":"NPH"
 ,"mkm":"New Phyrexia"
 ,"foil":true
-,"digest":"64782c70cbf5f34658450c981d25944f"
+,"digest":"24ca57a4744bb46623562e1881cf6392"
 ,"date":1304222400000
 ,"code":"NPH"
 }
@@ -1174,7 +1184,7 @@
 ,"mtgi":"OD"
 ,"mkm":"Odyssey"
 ,"foil":true
-,"digest":"30b3df270ca2db20edb3bac93c89b1c7"
+,"digest":"a4672555682fb71bbdb419dcf51447bc"
 ,"date":999316800000
 ,"code":"OD"
 }
@@ -1184,7 +1194,7 @@
 ,"mtgi":"ON"
 ,"mkm":"Onslaught"
 ,"foil":true
-,"digest":"3bf6ebe92fb460db81373a176803bf85"
+,"digest":"80fc1577afc65aec54f999d11959d8b1"
 ,"date":1030852800000
 ,"code":"ON"
 }
@@ -1194,7 +1204,7 @@
 ,"mtgi":"PC"
 ,"mkm":"Planar Chaos"
 ,"foil":true
-,"digest":"5a4e7ef0129d6bb95086599b0755f3b1"
+,"digest":"764d8cf15ebb03d30eaa9c12f639cd53"
 ,"date":1167627600000
 ,"code":"PLC"
 }
@@ -1204,7 +1214,7 @@
 ,"mtgi":"PC2"
 ,"mkm":"Planechase 2012"
 ,"foil":false
-,"digest":"2c45443a5cf97d57d108b1b96dd6a525"
+,"digest":"abeff4885f5a167f23b5c28a255c6273"
 ,"date":1338523200000
 ,"code":"PC2"
 }
@@ -1214,7 +1224,7 @@
 ,"mtgi":"PCA"
 ,"mkm":"Planechase Anthology"
 ,"foil":false
-,"digest":"9fd20ae673dea6b83cf990f135e78563"
+,"digest":"4c8420fc3a47b58d3d803884b6ee2eae"
 ,"date":1477972800000
 ,"code":"PCA"
 }
@@ -1224,7 +1234,7 @@
 ,"mtgi":"PCH"
 ,"mkm":"Planechase"
 ,"foil":false
-,"digest":"687e2e7414b5c183c13da20d65fc46e8"
+,"digest":"fdfb5736e172a817716683fc7f2618d5"
 ,"date":1251777600000
 ,"code":"PCH"
 }
@@ -1324,7 +1334,7 @@
 ,"mtgi":"RTR"
 ,"mkm":"Return to Ravnica"
 ,"foil":true
-,"digest":"28ba1be5b85aa2b087287858eb774295"
+,"digest":"9291c14636d46cfd525907b402d3890a"
 ,"date":1349064000000
 ,"code":"RTR"
 }
@@ -1334,7 +1344,7 @@
 ,"mtgi":"RV"
 ,"mkm":"Revised"
 ,"foil":false
-,"digest":"0bdbf5dac96f28d5d72249ebcebfa4d4"
+,"digest":"71ebb75613b0139f573816696c369ada"
 ,"date":765176400000
 ,"code":"R"
 }
@@ -1354,7 +1364,7 @@
 ,"mtgi":"SOK"
 ,"mkm":"Saviors of Kamigawa"
 ,"foil":true
-,"digest":"9b406c6f76d2060c7dc9cc8b33a8d1c2"
+,"digest":"2a580f7b5a121d72c794a204b83017d2"
 ,"date":1114920000000
 ,"code":"SOK"
 }
@@ -1384,7 +1394,7 @@
 ,"mtgi":"SHM"
 ,"mkm":"Shadowmoor"
 ,"foil":true
-,"digest":"ac5e25a6ffc9c7f7860b53cd899d9f00"
+,"digest":"eb14e872097df81e47f1d499b598798e"
 ,"date":1207022400000
 ,"code":"SHM"
 }
@@ -1424,7 +1434,7 @@
 ,"mtgi":"ST2K"
 ,"mkm":"Starter 2000"
 ,"foil":false
-,"digest":"f2830b9863f48c985f4608b10917cb3d"
+,"digest":"39c5e455022dd387360278dacb660a3d"
 ,"date":962424000000
 ,"code":"S2"
 }
@@ -1434,7 +1444,7 @@
 ,"mtgi":"SH"
 ,"mkm":"Stronghold"
 ,"foil":false
-,"digest":"a843ac5f82d468c61be8bd8ae02c9071"
+,"digest":"24f33e4aa4a0da54fad5343ed8c596d1"
 ,"date":886309200000
 ,"code":"SH"
 }
@@ -1464,7 +1474,7 @@
 ,"mtgi":"THS"
 ,"mkm":"Theros"
 ,"foil":true
-,"digest":"af8ed9da4f43bcf8376d6132f3ba6626"
+,"digest":"4aabdc3d637b1dd33daf04724bebbe31"
 ,"date":1378008000000
 ,"code":"THS"
 }
@@ -1474,7 +1484,7 @@
 ,"mtgi":"TS"
 ,"mkm":"Time Spiral"
 ,"foil":true
-,"digest":"2a833f6d09472946295fc43981879ad2"
+,"digest":"b4739003c51de7215cac94665fc0c80f"
 ,"date":1157083200000
 ,"code":"TSP"
 }
@@ -1514,7 +1524,7 @@
 ,"mtgi":"UG"
 ,"mkm":"Unglued"
 ,"foil":false
-,"digest":"599f85647d0bcf83863bb815c3e45659"
+,"digest":"c19bb96a85d66b31cbc76465e3d45799"
 ,"date":901944000000
 ,"code":"UG"
 }
@@ -1534,7 +1544,7 @@
 ,"mtgi":"UN"
 ,"mkm":"Unlimited"
 ,"foil":false
-,"digest":"995053fde159a859dbf7432afc1ab358"
+,"digest":"0b59afaf5fd3278efd7bf01e85977d6b"
 ,"date":754722000000
 ,"code":"U"
 }
@@ -1544,7 +1554,7 @@
 ,"mtgi":"UD"
 ,"mkm":"Urza's Destiny"
 ,"foil":true
-,"digest":"9da4e92944bce88f144a585d3812aaae"
+,"digest":"652e1cfcd8d20d23265fadf41d4e3b4e"
 ,"date":925531200000
 ,"code":"UD"
 }
@@ -1554,7 +1564,7 @@
 ,"mtgi":"UL"
 ,"mkm":"Urza's Legacy"
 ,"foil":true
-,"digest":"9e2d9e22b49f8d9e163e5c051df77c68"
+,"digest":"a2f2cc85fda07926e1e6a5f83582378e"
 ,"date":917845200000
 ,"code":"UL"
 }
@@ -1564,7 +1574,7 @@
 ,"mtgi":"US"
 ,"mkm":"Urza's Saga"
 ,"foil":false
-,"digest":"b749937cae0f5ba249bc1319429f698b"
+,"digest":"7aed789891a39c0ff19f7af2566020f7"
 ,"date":907214400000
 ,"code":"US"
 }
@@ -1594,7 +1604,7 @@
 ,"mtgi":"WL"
 ,"mkm":"Weatherlight"
 ,"foil":false
-,"digest":"9582d19827a11698afa2d6a68b972143"
+,"digest":"f1d235f1ebe38ed4771fd0e11a0d607d"
 ,"date":862459200000
 ,"code":"WL"
 }
@@ -1614,7 +1624,7 @@
 ,"mtgi":"WWK"
 ,"mkm":"Worldwake"
 ,"foil":true
-,"digest":"04c560883e4772d13827532820a42870"
+,"digest":"2e6cb7692375443c0ace81207c8d882b"
 ,"date":1262322000000
 ,"code":"WWK"
 }
@@ -1634,7 +1644,7 @@
 ,"mtgi":"ZEN"
 ,"mkm":"Zendikar"
 ,"foil":true
-,"digest":"5c0226e2ecaeb0b5f8da84e2b3e4f16f"
+,"digest":"5681e3e5b9460164b1d88ede0285f2ad"
 ,"date":1251777600000
 ,"code":"ZEN"
 }

@@ -307,6 +307,9 @@
 ,{"MKMName":"Modern Masters 2015"
 ,"Code":"MM2"
 }
+,{"MKMName":"Modern Masters 2017"
+,"Code":"MM3"
+}
 ,{"MKMName":"Morningtide"
 ,"Code":"MOR"
 }
@@ -473,5 +476,5 @@
 ,"Code":"EXP"
 }
 ]
-,"Date":"01\/18\/2017"
+,"Date":"03\/09\/2017"
 }
