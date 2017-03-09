@@ -410,6 +410,10 @@
 ,"Name":"Modern Masters 2015 Edition"
 ,"Code":"MM2"
 }
+,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MM3.json.gzip"
+,"Name":"Modern Masters 2017 Edition"
+,"Code":"MM3"
+}
 ,{"URL":"https:\/\/sites.google.com\/site\/mtgfamiliar\/patches\/MOR.json.gzip"
 ,"Name":"Morningtide"
 ,"Code":"MOR"
@@ -631,5 +635,5 @@
 ,"Code":"EXP"
 }
 ]
-,"Date":"01\/18\/2017"
+,"Date":"03\/09\/2017"
 }

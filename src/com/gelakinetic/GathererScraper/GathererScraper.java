@@ -389,6 +389,9 @@ public class GathererScraper {
 				/* Try pulling the card number out of the cache first */
 				if(cachedCollectorsNumbers != null) {
 					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
+					if(card.mNumber == null) {
+						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "Æ").replace("ae", "æ"));						
+					}
 				}
 				
 				/* If that didn't work, try getting it from Gatherer */

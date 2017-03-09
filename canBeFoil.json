@@ -1,4 +1,4 @@
-{"Date":"01\/18\/2017"
+{"Date":"03\/09\/2017"
 ,"CanBeFoil":[{"canBeFoil":true
 ,"Code":"AER"
 }
@@ -307,6 +307,9 @@
 }
 ,{"canBeFoil":true
 ,"Code":"MM2"
+}
+,{"canBeFoil":true
+,"Code":"MM3"
 }
 ,{"canBeFoil":true
 ,"Code":"MOR"
