@@ -20,7 +20,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 /**
  * This class contains the table model to display information about expansions
@@ -254,10 +253,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 */
 	public void readInfo(File JsonExpansions) throws FileNotFoundException, IOException {
 
-		GsonBuilder builder = new GsonBuilder();
-		builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
-		builder.disableHtmlEscaping();
-		Gson gson = builder.create();
+		Gson gson = GathererScraper.getGson();
 		
 		String jsonContent = new String(Files.readAllBytes(Paths.get(JsonExpansions.getPath())));
 		Expansion[] expansions = gson.fromJson(jsonContent, Expansion[].class);

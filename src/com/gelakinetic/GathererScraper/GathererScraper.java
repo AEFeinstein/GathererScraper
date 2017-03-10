@@ -25,6 +25,7 @@ import org.jsoup.select.Elements;
 
 import com.google.common.net.PercentEscaper;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * This class is filled with static functions which do the actual scraping from
@@ -36,6 +37,8 @@ import com.google.gson.Gson;
  */
 public class GathererScraper {
 
+	public static final String PATCH_DIR = "patches-v2";
+	
 	/**
 	 * This function scrapes a list of all expansions from Gatherer
 	 *
@@ -82,19 +85,23 @@ public class GathererScraper {
 			return null;
 		}
 		
+		
 		/* Get the card numbers from the old patch, just in case */
 		HashMap<String, String> cachedCollectorsNumbers = null;
 		try {
-			File oldPatchFile = new File("./patches/" + exp.mCode_gatherer + ".json.gzip");
+			File oldPatchFile = new File(PATCH_DIR, exp.mCode_gatherer + ".json.gzip");
 			FileInputStream oldFileInputStream = new FileInputStream(oldPatchFile);
 			GZIPInputStream oldGZIPInputStream = new GZIPInputStream(oldFileInputStream);
 			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream);
-			JsonPatch patch = (new Gson()).fromJson(oldInputStreamReader, JsonPatch.class);
-					
+			
+			Gson gson = GathererScraper.getGson();
+			
+			Patch patch = gson.fromJson(oldInputStreamReader, Patch.class);
+
 			cachedCollectorsNumbers = new HashMap<String, String>();
-			for(JsonCard jCard : patch.t.p.o) {
+			for(Card card : patch.mCards) {
 				/* Name is the key, collectors number is the value */
-				cachedCollectorsNumbers.put(jCard.x + jCard.a, jCard.m);
+				cachedCollectorsNumbers.put(card.mMultiverseId + card.mName, card.mNumber);
 			}
 		}
 		catch(Exception e) {
@@ -223,6 +230,13 @@ public class GathererScraper {
 		exp.mDigest = sb.toString();
 		
 		return scrapedCards;
+	}
+
+	public static Gson getGson() {
+		GsonBuilder reader = new GsonBuilder();
+		reader.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
+		reader.disableHtmlEscaping();
+		return reader.create();
 	}
 
 	/**

@@ -54,7 +54,6 @@ import org.json.simple.parser.ParseException;
 
 import com.camick.TableColumnAdjuster;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 /**
  * This class handles the UI for the application, as well as some file I/O
@@ -199,11 +198,7 @@ public class GathererScraperUi {
 					e1.printStackTrace();
 				}
 				
-				GsonBuilder builder = new GsonBuilder();
-				builder.disableHtmlEscaping();
-				builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
-				builder.setPrettyPrinting();
-				Gson gson = builder.create();
+				Gson gson = GathererScraper.getGson();
 				
 				String expansionJson = gson.toJson(mExpansionTableModel.mExpansions);
 				try {
@@ -578,21 +573,15 @@ public class GathererScraperUi {
 	 */
 	public void writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
 		try {
-			GsonBuilder builder = new GsonBuilder();
-			builder.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
-			builder.disableHtmlEscaping();
-			Gson gson = builder.create();
+			Gson gson = GathererScraper.getGson();
 			
-			File gzipout = new File(new File(mFilesPath, "patches"), exp.mCode_gatherer + ".json.gzip");
+			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
 			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));
-			
-			System.out.println(gzipout.getPath());
 			
 			Patch patch = new Patch(exp, allCards);
 			gos.write(gson.toJson(patch).getBytes());
 			gos.flush();
 			gos.close();
-			System.out.println("writeJsonPatchFile2");
 		}
 		catch (IOException e) {
 			e.printStackTrace();
