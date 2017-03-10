@@ -238,7 +238,7 @@ public class GathererScraper {
 
 	public static Gson getGson() {
 		GsonBuilder reader = new GsonBuilder();
-		reader.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
+		reader.setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")));
 		reader.disableHtmlEscaping();
 		reader.setPrettyPrinting();
 		return reader.create();
