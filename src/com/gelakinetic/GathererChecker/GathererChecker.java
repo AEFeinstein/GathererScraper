@@ -20,8 +20,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.gelakinetic.GathererScraper.Expansion;
 import com.gelakinetic.GathererScraper.GathererScraper;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 
 public class GathererChecker {
 	/**

@@ -1,4 +1,4 @@
-package com.gelakinetic.GathererScraper;
+package com.gelakinetic.GathererScraper.JsonTypes;
 
 import java.util.Collection;
 

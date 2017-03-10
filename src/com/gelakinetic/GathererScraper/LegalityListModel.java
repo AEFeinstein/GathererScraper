@@ -5,11 +5,8 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 import javax.swing.AbstractListModel;
@@ -19,10 +16,11 @@ import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.LegalityData;
+import com.gelakinetic.GathererScraper.JsonTypes.LegalityData.Format;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException;
 
 /**
  * This class displays a list of formats in the main window. Each format can be
@@ -41,7 +39,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 * A JSON object which contains banned, restricted, and expansion
 	 * information for each format
 	 */
-	private JSONObject				mLegalityJson;
+	private LegalityData			mLegalityData;
 	/** A list of formats to display. Each one populates the dialog differently */
 	private ArrayList<String>		mFormats			= new ArrayList<String>();
 	/** The number of dialog windows open. Needs to be 0 to scrape cards */
@@ -86,6 +84,8 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 *
 	 * @param legalJson
 	 *            The file to read from
+	 * @throws JsonIOException 
+	 * @throws JsonSyntaxException 
 	 * @throws FileNotFoundException
 	 *             If the file doesn't exist
 	 * @throws IOException
@@ -93,12 +93,12 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 * @throws ParseException
 	 *             If the data in the file is corrupted
 	 */
-	public void loadLegalities(File legalJson) throws FileNotFoundException, IOException, ParseException {
-		JSONParser parser = new JSONParser();
-		mLegalityJson = (JSONObject) ((JSONObject) parser.parse(new FileReader(legalJson))).get("Formats");
+	public void loadLegalities(File legalJson) throws JsonSyntaxException, JsonIOException, FileNotFoundException {
+		
+		mLegalityData = GathererScraper.getGson().fromJson(new FileReader(legalJson), LegalityData.class);
 
-		for (String key : mLegalityJson.keySet()) {
-			mFormats.add(key);
+		for (Format format: mLegalityData.mFormats) {
+			mFormats.add(format.mName);
 		}
 	}
 
@@ -117,7 +117,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 * @throws IOException
 	 *             Thrown if something goes horribly wrong
 	 */
-	public boolean writeJsonToFile(JFrame frame, String path, String date) throws IOException {
+	public boolean writeLegalDataFile(JFrame frame, String path, String date) throws IOException {
 		/*
 		 * If there are invalid expansions, don't write the file. Show an error
 		 * dialog instead
@@ -141,17 +141,10 @@ public class LegalityListModel extends AbstractListModel<String> {
 			return false;
 		}
 		else {
-			JSONObject topLevel = new JSONObject();
 
-			topLevel.put("Date", date);
-			topLevel.put("Formats", mLegalityJson);
+			mLegalityData.mDate = date;
 
-			System.setProperty("line.separator", "\n");
-			OutputStreamWriter osw = new OutputStreamWriter(
-					new FileOutputStream(new File(path, GathererScraperUi.LEGAL_FILE_NAME)), Charset.forName("UTF-8"));
-			osw.write(topLevel.toJSONString().replace("\r", ""));
-			osw.flush();
-			osw.close();
+			GathererScraper.writeFile(mLegalityData, new File(path, GathererScraperUi.LEGAL_FILE_NAME));
 			
 			return true;
 		}
@@ -211,10 +204,9 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Valid Expansions */
 
 		final JTextArea expansionsTextArea = new JTextArea();
-		final JSONArray expansionsJson = (JSONArray) ((JSONObject) mLegalityJson.get(mFormats.get(index))).get("Sets");
 		String expansionsString = "";
-		for (Object o : expansionsJson) {
-			expansionsString += (String) o + "\n";
+		for (String set : mLegalityData.mFormats[index].mSets) {
+			expansionsString += set + "\n";
 		}
 		expansionsTextArea.setText(expansionsString);
 
@@ -231,11 +223,9 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Restricted Cards */
 
 		final JTextArea restrictedTextArea = new JTextArea();
-		final JSONArray restrictedJson = (JSONArray) ((JSONObject) mLegalityJson.get(mFormats.get(index)))
-				.get("Restrictedlist");
 		String restrictedString = "";
-		for (Object o : restrictedJson) {
-			restrictedString += (String) o + "\n";
+		for (String restricted : mLegalityData.mFormats[index].mRestrictedlist) {
+			restrictedString += restricted + "\n";
 		}
 		restrictedTextArea.setText(restrictedString);
 
@@ -251,10 +241,9 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Banned Cards */
 
 		final JTextArea bannedTextArea = new JTextArea();
-		final JSONArray bannedJson = (JSONArray) ((JSONObject) mLegalityJson.get(mFormats.get(index))).get("Banlist");
 		String bannedString = "";
-		for (Object o : bannedJson) {
-			bannedString += (String) o + "\n";
+		for (String banned : mLegalityData.mFormats[index].mBanlist) {
+			bannedString += banned + "\n";
 		}
 		bannedTextArea.setText(bannedString);
 
@@ -277,12 +266,12 @@ public class LegalityListModel extends AbstractListModel<String> {
 			public void windowClosing(java.awt.event.WindowEvent windowEvent) {
 				/* Make some JSON out of the text in the box */
 				String[] expansionsString = expansionsTextArea.getText().split("[\\r\\n]+");
-				expansionsJson.clear();
+				mLegalityData.mFormats[index].mSets.clear();
 
 				/* only add non-empty lines */
 				for (String expansion : expansionsString) {
 					if (expansion.length() > 0) {
-						expansionsJson.add(expansion);
+						mLegalityData.mFormats[index].mSets.add(expansion);
 					}
 				}
 
@@ -310,18 +299,18 @@ public class LegalityListModel extends AbstractListModel<String> {
 				 * Internet
 				 */
 				String[] bannedString = bannedTextArea.getText().split("[\\r\\n]+");
-				bannedJson.clear();
+				mLegalityData.mFormats[index].mBanlist.clear();
 				for (String banned : bannedString) {
 					if (!banned.isEmpty()) {
-						bannedJson.add(banned);
+						mLegalityData.mFormats[index].mBanlist.add(banned);
 					}
 				}
 
 				String[] restrictedString = restrictedTextArea.getText().split("[\\r\\n]+");
-				restrictedJson.clear();
+				mLegalityData.mFormats[index].mRestrictedlist.clear();
 				for (String restricted : restrictedString) {
 					if (!restricted.isEmpty()) {
-						restrictedJson.add(restricted);
+						mLegalityData.mFormats[index].mRestrictedlist.add(restricted);
 					}
 				}
 				mWindowsOpen--;

@@ -1,4 +1,4 @@
-package com.gelakinetic.GathererScraper;
+package com.gelakinetic.GathererScraper.JsonTypes;
 
 /**
  * This class contains all information about an expansion to be parsed
@@ -10,7 +10,7 @@ public class Expansion implements Comparable<Expansion>{
 	/** Name used by Gatherer */
 	public String				mName_gatherer	= "";
 	/** expansion code used by Gatherer */
-	protected String			mCode_gatherer	= "";
+	public String				mCode_gatherer	= "";
 	/** expansion code used by magiccards.info */
 	public String				mCode_mtgi		= "";
 	/** expansion name used by TCGPlayer.com */

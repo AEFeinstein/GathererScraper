@@ -7,7 +7,7 @@ import java.util.UUID;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 
-import com.gelakinetic.GathererScraper.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.google.common.net.PercentEscaper;
 
 public class RssEntry {

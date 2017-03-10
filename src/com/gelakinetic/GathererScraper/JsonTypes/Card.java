@@ -1,4 +1,4 @@
-package com.gelakinetic.GathererScraper;
+package com.gelakinetic.GathererScraper.JsonTypes;
 
 import java.io.Serializable;
 import java.util.Comparator;

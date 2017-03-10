@@ -17,10 +17,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -50,9 +48,10 @@ import javax.swing.SwingWorker;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 
-import org.json.simple.parser.ParseException;
-
 import com.camick.TableColumnAdjuster;
+import com.gelakinetic.GathererScraper.JsonTypes.Card;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.google.gson.Gson;
 
 /**
@@ -64,12 +63,8 @@ import com.google.gson.Gson;
 public class GathererScraperUi {
 
 	private static final String	PATCH_FILE_NAME		= "patches.json";
-	private static final String	TCG_FILE_NAME		= "TCGnames.json";
-	private static final String	MKM_FILE_NAME		= "mkmnames.json";
 	private static final String	EXPANSION_FILE_NAME	= "expansions.json";
 	public static final String	LEGAL_FILE_NAME		= "legality.json";
-	private static final String DIGESTS_FILE_NAME	= "digests.json";
-	private static final String FOIL_FILE_NAME		= "canBeFoil.json";
 	private static final String	APPMAP_FILE_NAME	= "appmap-com.gelakinetic.mtgfam.xml";
 
 	private JProgressBar		mExpansionProgressBar;
@@ -189,7 +184,7 @@ public class GathererScraperUi {
 
 				/* Write the legality information first */
 				try {
-					if (!mLegalityListModel.writeJsonToFile(frame, mFilesPath, date)) {
+					if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, date)) {
 						frame.setEnabled(true);
 						frame.setCursor(Cursor.getDefaultCursor());
 					}
@@ -197,16 +192,9 @@ public class GathererScraperUi {
 				catch (IOException e1) {
 					e1.printStackTrace();
 				}
-				
-				Gson gson = GathererScraper.getGson();
-				
-				String expansionJson = gson.toJson(mExpansionTableModel.mExpansions);
+								
 				try {
-					OutputStreamWriter osw = new OutputStreamWriter(
-							new FileOutputStream(new File(EXPANSION_FILE_NAME)), Charset.forName("UTF-8"));
-					osw.write(expansionJson);
-					osw.flush();
-					osw.close();
+					GathererScraper.writeFile(mExpansionTableModel.mExpansions, new File(EXPANSION_FILE_NAME));
 				}
 				catch (IOException e1) {
 					e1.printStackTrace();
@@ -224,20 +212,16 @@ public class GathererScraperUi {
 			/* Get a list of expansions from the internet */
 			mExpansionTableModel.mExpansions = GathererScraper.scrapeExpansionList();
 			mLegalityListModel.setExpansions(mExpansionTableModel.mExpansions);
-			try {
-				/* Then add the extra data from the expansions file */
-				mExpansionTableModel.readInfo(mExpansionsFile);
+			
+			/* Then add the extra data from the expansions file */
+			mExpansionTableModel.readInfo(mExpansionsFile);
 
-				if (mLegalityFile.exists()) {
-					mLegalityListModel.loadLegalities(mLegalityFile);
-				}
-				mAllMultiverseIds = new HashSet<Integer>();
-				if(mAppmapFile.exists()) {
-					loadMultiverseIds(mAppmapFile, mAllMultiverseIds);
-				}
+			if (mLegalityFile.exists()) {
+				mLegalityListModel.loadLegalities(mLegalityFile);
 			}
-			catch (ParseException e) {
-				e.printStackTrace();
+			mAllMultiverseIds = new HashSet<Integer>();
+			if(mAppmapFile.exists()) {
+				loadMultiverseIds(mAppmapFile, mAllMultiverseIds);
 			}
 		}
 		catch (IOException e) {
@@ -349,7 +333,7 @@ public class GathererScraperUi {
 
 						/* Write the legality information first */
 						try {
-							if (!mLegalityListModel.writeJsonToFile(frame, mFilesPath, date)) {
+							if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, date)) {
 								frame.setEnabled(true);
 								frame.setCursor(Cursor.getDefaultCursor());
 								return null;
@@ -413,11 +397,7 @@ public class GathererScraperUi {
 							/* Write the patches manifest */
 
 							Collections.sort(mExpansionTableModel.mExpansions);
-							mExpansionTableModel.writePatchesFile(new File(mFilesPath, PATCH_FILE_NAME));
-							mExpansionTableModel.writeTcgNamesFile(new File(mFilesPath, TCG_FILE_NAME));
-							mExpansionTableModel.writeMkmNamesFile(new File(mFilesPath, MKM_FILE_NAME));
-							mExpansionTableModel.writeDigestsFile(new File(mFilesPath, DIGESTS_FILE_NAME));
-							mExpansionTableModel.writeCanBeFoilFile(new File(mFilesPath, FOIL_FILE_NAME));
+							mExpansionTableModel.writePatchesManifestFile(new File(mFilesPath, PATCH_FILE_NAME));
 						}
 						catch (IOException e) {
 							e.printStackTrace();
@@ -430,18 +410,16 @@ public class GathererScraperUi {
 							Integer multiverseIdsArray[] = new Integer[mAllMultiverseIds.size()];
 							mAllMultiverseIds.toArray(multiverseIdsArray);
 							Arrays.sort(multiverseIdsArray);
-							System.setProperty("line.separator", "\n");
-							OutputStreamWriter osw = new OutputStreamWriter(
-									new FileOutputStream(new File(mFilesPath, APPMAP_FILE_NAME)), Charset.forName("UTF-8"));
 
-							osw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-							osw.write("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
+							StringBuilder appmapBuilder = new StringBuilder();
+							appmapBuilder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+							appmapBuilder.append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
 							for(int multiverseId : multiverseIdsArray) {
-								osw.write("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
+								appmapBuilder.append("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
 							}
-							osw.write("</urlset>\n");
-							osw.flush();
-							osw.close();
+							appmapBuilder.append("</urlset>\n");
+
+							GathererScraper.writeFile(appmapBuilder.toString(), new File(mFilesPath, APPMAP_FILE_NAME));
 						} catch (IOException e) {
 							e.printStackTrace();
 						}

@@ -8,6 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -23,6 +24,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import com.gelakinetic.GathererScraper.JsonTypes.Card;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.google.common.net.PercentEscaper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -55,7 +59,7 @@ public class GathererScraper {
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					expansions.add(new Expansion(e.ownText()));
+					expansions.add(new Expansion(e.ownText().replace("—", "-")));
 				}
 			}
 		}
@@ -236,6 +240,7 @@ public class GathererScraper {
 		GsonBuilder reader = new GsonBuilder();
 		reader.setFieldNamingStrategy((new PrefixedFieldNamingPolicy("m")));
 		reader.disableHtmlEscaping();
+		reader.setPrettyPrinting();
 		return reader.create();
 	}
 
@@ -945,5 +950,31 @@ public class GathererScraper {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);
 		}
 		return line;
+	}
+	
+	/**
+	 * Write the json object to a json file, UTF-8, Unix line endings
+	 * 
+	 * @param json
+	 *            The JSON object to write
+	 * @param outFile
+	 *            The file to write to
+	 * @throws IOException
+	 *             Thrown if the write fails
+	 */
+	static void writeFile(Object object, File outFile) throws IOException {
+		System.setProperty("line.separator", "\n");
+		OutputStreamWriter osw = new OutputStreamWriter(
+				new FileOutputStream(outFile), Charset.forName("UTF-8"));
+
+		if(object instanceof String) {
+			osw.write(((String)object).replace("\r", ""));			
+		}
+		else {
+			osw.write(GathererScraper.getGson().toJson(object).replace("\r", ""));
+		}
+		
+		osw.flush();
+		osw.close();
 	}
 }
