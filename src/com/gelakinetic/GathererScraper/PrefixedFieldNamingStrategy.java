@@ -10,17 +10,17 @@ import java.lang.reflect.Field;
  * and lowercase the following character.
  *
  */
-public class PrefixedFieldNamingPolicy implements FieldNamingStrategy {
+public class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
 
 	/** The prefix to be match on the field's name */
 	protected String mPrefix;
 	
 	/**
-	 * Create a PrefixedFieldNamingPolicy object that check for a prefix on the field's name,
+	 * Create a PrefixedFieldNamingStrategy object that check for a prefix on the field's name,
 	 * and call transformName on the remaining of the field's name.
 	 * @param prefix The prefix to check of the field's name.
 	 */
-	public PrefixedFieldNamingPolicy(String prefix)
+	public PrefixedFieldNamingStrategy(String prefix)
 	{
 		mPrefix = prefix;
 	}
@@ -29,7 +29,7 @@ public class PrefixedFieldNamingPolicy implements FieldNamingStrategy {
     public String translateName(final Field f) {
     	String name = f.getName();
         if (name.startsWith(mPrefix)) {
-            return PrefixedFieldNamingPolicy.lowercaseFirstLetter(name.substring(mPrefix.length()));
+            return PrefixedFieldNamingStrategy.lowercaseFirstLetter(name.substring(mPrefix.length()));
         }
         else {
             throw new IllegalArgumentException("Don't know how to handle field not starting with m prefix: " + name);
