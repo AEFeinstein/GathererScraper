@@ -59,7 +59,7 @@ public class GathererScraper {
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					expansions.add(new Expansion(e.ownText().replace("‚Äî", "-")));
+					expansions.add(new Expansion(e.ownText()));
 				}
 			}
 		}
@@ -409,7 +409,7 @@ public class GathererScraper {
 				if(cachedCollectorsNumbers != null) {
 					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
 					if(card.mNumber == null) {
-						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "√Ü").replace("ae", "√¶"));						
+						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "∆").replace("ae", "Ê"));						
 					}
 				}
 				
@@ -891,7 +891,7 @@ public class GathererScraper {
 		/* remove whitespace between symbols */
 		.replaceAll("\\}\\s+\\{", "\\}\\{")
 		/* replace silly divider, planeswalker minus */
-		.replaceAll("‚Äî", "-").replaceAll("‚àí", "-"));
+		.replaceAll("ó", "-").replaceAll("-", "-"));
 	}
 
 	/**
@@ -929,22 +929,22 @@ public class GathererScraper {
 	 * @param line	The string to clean up
 	 * @return		The cleaned up string
 	 */
-	private static String removeNonAscii(String line) {
+	static String removeNonAscii(String line) {
 		String replacements[][] =
-			{{"‚Äô", "'"},
-			 {"¬Æ", "(R)"},
-			 {"‚Ñ¢", "(TM)"},
-			 {"‚Äú", "\""},
-			 {"‚Äù", "\""},
-			 {"‚Äî", "-"},
-			 {"‚Äì", "-"},
-			 {"‚Äò", "'"},
-			 {"√¢", "a"},
-			 {"√°", "a"},
-			 {"√∫", "u"},
-			 {"√ª", "u"},
-			 {"√Ü", "Ae"},
-			 {"¬©", "(C)"}};
+			{{"í", "'"},
+			 {"Æ", "(R)"},
+			 {"ô", "(TM)"},
+			 {"ì", "\""},
+			 {"î", "\""},
+			 {"ó", "-"},
+			 {"ñ", "-"},
+			 {"ë", "'"},
+			 {"‚", "a"},
+			 {"·", "a"},
+			 {"˙", "u"},
+			 {"˚", "u"},
+			 {"∆", "Ae"},
+			 {"©", "(C)"}};
 			 /* Loop through all the known replacements and perform them */
 		for(String[] replaceSet : replacements) {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);
