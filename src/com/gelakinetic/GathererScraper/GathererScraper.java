@@ -59,7 +59,7 @@ public class GathererScraper {
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					expansions.add(new Expansion(e.ownText().replace("—", "-")));
+					expansions.add(new Expansion(e.ownText()));
 				}
 			}
 		}

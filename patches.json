@@ -1,5 +1,5 @@
 {
-  "date": "03/10/2017",
+  "date": "03/19/2017",
   "patches": [
     {
       "name": "Aether Revolt",
@@ -17,7 +17,7 @@
       "name": "Alliances",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/AL.json.gzip",
       "code": "AL",
-      "digest": "a5f87affbb50d4cde3768844dcc19f65"
+      "digest": "857a27daf0e0f35cb9ac586d4efddbb8"
     },
     {
       "name": "Antiquities",
@@ -35,7 +35,7 @@
       "name": "Arabian Nights",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/AN.json.gzip",
       "code": "AN",
-      "digest": "1f7f506776f62f6b803cad71a88f92b8"
+      "digest": "59473e2a43df5209981ada5c55112d61"
     },
     {
       "name": "Archenemy",
@@ -89,7 +89,7 @@
       "name": "Chronicles",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/CH.json.gzip",
       "code": "CH",
-      "digest": "ff5d7845fe95d182f02364b3cc0b2f39"
+      "digest": "78258aded901c2964f088c3c06373649"
     },
     {
       "name": "Classic Sixth Edition",
@@ -359,13 +359,13 @@
       "name": "Fifth Edition",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/5E.json.gzip",
       "code": "5E",
-      "digest": "67759fc5266dec0bd500c1e50d2ad097"
+      "digest": "1e1940241a350a9f466b6ba895f54de7"
     },
     {
       "name": "Fourth Edition",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/4E.json.gzip",
       "code": "4E",
-      "digest": "a83083b80825cda31c91c241457731bc"
+      "digest": "082d211e87fbe97491e84f425f6408b4"
     },
     {
       "name": "From the Vault: Angels",
@@ -449,7 +449,7 @@
       "name": "Ice Age",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/IA.json.gzip",
       "code": "IA",
-      "digest": "7d988fc4436423a97ca4ffe16cb4fe3e"
+      "digest": "c9624c65cad2534f736b2168cc8f09f6"
     },
     {
       "name": "Innistrad",
@@ -566,10 +566,10 @@
       "digest": "03b28c4dc01a30330f165156a622951f"
     },
     {
-      "name": "Magic: The Gathering-Conspiracy",
+      "name": "Magic: The Gathering—Conspiracy",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/CNS.json.gzip",
       "code": "CNS",
-      "digest": "e456845ce930fb54759b24546fca0ec5"
+      "digest": "c70c359185d2c9accf45743e90b6d966"
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
@@ -701,13 +701,13 @@
       "name": "Portal",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/PT.json.gzip",
       "code": "PT",
-      "digest": "33e357ab36cc6539bf0cdd5caa29f8ef"
+      "digest": "34784ab0e7cb0b3c56ffe0430ba18d77"
     },
     {
       "name": "Portal Second Age",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/P2.json.gzip",
       "code": "P2",
-      "digest": "cdaae057d5c3e847d7880ffd6e867147"
+      "digest": "da34406ff6316841f8591b04fe7c8a09"
     },
     {
       "name": "Portal Three Kingdoms",
@@ -761,7 +761,7 @@
       "name": "Revised Edition",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/R.json.gzip",
       "code": "R",
-      "digest": "597a03ae3d4ca6bbefbbd382eff2904a"
+      "digest": "8d255091cca5b5137615680346be1b38"
     },
     {
       "name": "Rise of the Eldrazi",
@@ -929,7 +929,7 @@
       "name": "Weatherlight",
       "uRL": "https://raw.githubusercontent.com/Haerezis/GathererScraper/master/patches-v2/WL.json.gzip",
       "code": "WL",
-      "digest": "d6ed47532cf8c499eaa447c0ea44a2b2"
+      "digest": "f6af18b8b02935bd73515b376a7e4023"
     },
     {
       "name": "Welcome Deck 2016",
