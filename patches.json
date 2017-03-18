@@ -1,5 +1,5 @@
 {
-  "date": "03/10/2017",
+  "date": "03/18/2017",
   "patches": [
     {
       "name": "Aether Revolt",
@@ -569,7 +569,7 @@
       "name": "Magic: The Gathering-Conspiracy",
       "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CNS.json.gzip",
       "code": "CNS",
-      "digest": "e456845ce930fb54759b24546fca0ec5"
+      "digest": "c70c359185d2c9accf45743e90b6d966"
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
