@@ -177,14 +177,13 @@ public class GathererScraperUi {
 			 */
 			@Override
 			public void windowClosing(java.awt.event.WindowEvent arg0) {
-				/* Get today's date */
-				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				/* Get today's timestamp */
 				Calendar cal = Calendar.getInstance();
-				String date = dateFormat.format(cal.getTime());
+				long timestamp = cal.getTime().getTime() / 1000;
 
 				/* Write the legality information first */
 				try {
-					if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, date)) {
+					if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, timestamp)) {
 						frame.setEnabled(true);
 						frame.setCursor(Cursor.getDefaultCursor());
 					}
@@ -326,14 +325,13 @@ public class GathererScraperUi {
 						frame.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 						frame.setEnabled(false);
 
-						/* Get today's date */
-						DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+						/* Get today's timestamp */
 						Calendar cal = Calendar.getInstance();
-						String date = dateFormat.format(cal.getTime());
+						long timestamp = cal.getTime().getTime() / 1000;
 
 						/* Write the legality information first */
 						try {
-							if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, date)) {
+							if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, timestamp)) {
 								frame.setEnabled(true);
 								frame.setCursor(Cursor.getDefaultCursor());
 								return null;

@@ -10,6 +10,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -298,13 +299,11 @@ public class ExpansionTableModel extends AbstractTableModel {
 	}
 
 	/**
-	 * @return Today's date, in String form
+	 * @return Today's UNIX timestamp
 	 */
-	private String getDateString() {
-		/* Get today's date */
-		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+	static private long getTodayTimestamp() {
 		Calendar cal = Calendar.getInstance();
-		return dateFormat.format(cal.getTime());
+		return cal.getTime().getTime() / 1000;
 	}
 	
 	/**
@@ -318,7 +317,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	public void writePatchesManifestFile(File outFile) throws IOException {
 
 		Manifest manifest = new Manifest();
-		manifest.mDate = getDateString();
+		manifest.mTimestamp = getTodayTimestamp();
 		
 		/* Build an array of patches */
 		for (Expansion exp : mExpansions) {
