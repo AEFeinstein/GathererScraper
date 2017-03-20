@@ -18,7 +18,7 @@ public class Expansion implements Comparable<Expansion>{
 	/** expansion name used by MagicCardMarket.eu */
 	public String				mName_mkm		= "";
 	/** Date the expansion was released */
-	public String				mDate			= "";
+	public long				mReleaseTimestamp	= 0;
 	/** Whether or not this expansion has foil cards */
 	public boolean				mCanBeFoil		= false;
 

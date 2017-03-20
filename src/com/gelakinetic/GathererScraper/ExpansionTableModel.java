@@ -6,9 +6,11 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -95,7 +97,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 				return mExpansions.get(row).mName_mkm;
 			}
 			case COLUMN_DATE: {
-				return mExpansions.get(row).mDate;
+				return timestampToDateString(mExpansions.get(row).mReleaseTimestamp);
 			}
 			case COLUMN_CHECKED: {
 				return mExpansions.get(row).mChecked;
@@ -180,7 +182,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 				break;
 			}
 			case COLUMN_DATE: {
-				mExpansions.get(row).mDate = (String) value;
+				mExpansions.get(row).mReleaseTimestamp = dateStringToTimestamp((String) value);
 				break;
 			}
 			case COLUMN_CHECKED: {
@@ -262,21 +264,46 @@ public class ExpansionTableModel extends AbstractTableModel {
 					existing.mCode_mtgi = e.mCode_mtgi;
 					existing.mName_mkm = e.mName_mkm;
 					existing.mName_tcgp = e.mName_tcgp;
-					existing.mDate = e.mDate;
+					existing.mReleaseTimestamp = e.mReleaseTimestamp;
 					existing.mCanBeFoil = e.mCanBeFoil;
 				}
 			}
 		}
 	}
+	
+	/**
+	 * @param timestamp A timestamp (in seconds)
+	 * @return A String MM/yyyy created from the timestamp
+	 */
+	private String timestampToDateString(long timestamp)
+	{
+		DateFormat dateFormat = new SimpleDateFormat("MM/yyyy");
+		return dateFormat.format(new Date(timestamp * 1000));
+	}
+	
+	/**
+	 * 
+	 * @param date A string containing a date like 'MM/yyyy'
+	 * @return A timestamp (in seconds) for the 1st day of the MM month of the yyyy year.
+	 */
+	private long dateStringToTimestamp(String date)
+	{
+		long retval = 0;
+		DateFormat dateFormat = new SimpleDateFormat("MM/yyyy");
+		try {
+			retval = dateFormat.parse(date).getTime() / 1000;
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return retval;
+	}
 
 	/**
-	 * @return Today's date, in String form
+	 * @return Today's UNIX timestamp
 	 */
-	private String getDateString() {
-		/* Get today's date */
-		DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+	static private long getTodayTimestamp() {
 		Calendar cal = Calendar.getInstance();
-		return dateFormat.format(cal.getTime());
+		return cal.getTime().getTime() / 1000;
 	}
 	
 	/**
@@ -290,7 +317,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	public void writePatchesManifestFile(File outFile) throws IOException {
 
 		Manifest manifest = new Manifest();
-		manifest.mDate = getDateString();
+		manifest.mTimestamp = getTodayTimestamp();
 		
 		/* Build an array of patches */
 		for (Expansion exp : mExpansions) {

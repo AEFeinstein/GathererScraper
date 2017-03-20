@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class LegalityData {
 	
 	public Format mFormats[];
-	public String mDate;
+	public long mTimestamp;
 	
 	public class Format {
 		public String mName;

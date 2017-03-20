@@ -3,7 +3,7 @@ package com.gelakinetic.GathererScraper.JsonTypes;
 import java.util.ArrayList;
 
 public class Manifest {
-	public String mDate;
+	public long mTimestamp;
 	public ArrayList<ManifestEntry> mPatches = new ArrayList<ManifestEntry>();
 	
 	public class ManifestEntry {

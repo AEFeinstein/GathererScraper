@@ -111,13 +111,13 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 *            it
 	 * @param path
 	 *            The path of the file to be written
-	 * @param date
-	 *            A date string, MM/dd/yyyy
+	 * @param timestamp
+	 *            A unix timestamp
 	 * @return false if the file was not written, true if it was
 	 * @throws IOException
 	 *             Thrown if something goes horribly wrong
 	 */
-	public boolean writeLegalDataFile(JFrame frame, String path, String date) throws IOException {
+	public boolean writeLegalDataFile(JFrame frame, String path, long timestamp) throws IOException {
 		/*
 		 * If there are invalid expansions, don't write the file. Show an error
 		 * dialog instead
@@ -142,7 +142,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 		}
 		else {
 
-			mLegalityData.mDate = date;
+			mLegalityData.mTimestamp = timestamp;
 
 			GathererScraper.writeFile(mLegalityData, new File(path, GathererScraperUi.LEGAL_FILE_NAME));
 			

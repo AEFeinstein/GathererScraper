@@ -5,7 +5,7 @@
     "code_mtgi": "AER",
     "name_tcgp": "Aether Revolt",
     "name_mkm": "Aether Revolt",
-    "date": "01/2017",
+    "releaseTimestamp": 1483225200,
     "canBeFoil": true,
     "digest": "e0687b709598f24c73b8e00b2c204915"
   },
@@ -15,7 +15,7 @@
     "code_mtgi": "ARB",
     "name_tcgp": "Alara Reborn",
     "name_mkm": "Alara Reborn",
-    "date": "04/2009",
+    "releaseTimestamp": 1238536800,
     "canBeFoil": true,
     "digest": "5bcb93acbb4f7b76bb99bdb092ed6d4f"
   },
@@ -25,9 +25,9 @@
     "code_mtgi": "AI",
     "name_tcgp": "Alliances",
     "name_mkm": "Alliances",
-    "date": "06/1996",
+    "releaseTimestamp": 833580000,
     "canBeFoil": false,
-    "digest": "a5f87affbb50d4cde3768844dcc19f65"
+    "digest": "857a27daf0e0f35cb9ac586d4efddbb8"
   },
   {
     "name_gatherer": "Antiquities",
@@ -35,7 +35,7 @@
     "code_mtgi": "AQ",
     "name_tcgp": "Antiquities",
     "name_mkm": "Antiquities",
-    "date": "04/1994",
+    "releaseTimestamp": 765151200,
     "canBeFoil": false,
     "digest": "cda883e31e27b945f655f3b4901b96e9"
   },
@@ -45,7 +45,7 @@
     "code_mtgi": "AP",
     "name_tcgp": "Apocalypse",
     "name_mkm": "Apocalypse",
-    "date": "05/2001",
+    "releaseTimestamp": 988668000,
     "canBeFoil": true,
     "digest": "e4ad6e05acc5a263c9b5220a1c94b290"
   },
@@ -55,9 +55,9 @@
     "code_mtgi": "AN",
     "name_tcgp": "Arabian Nights",
     "name_mkm": "Arabian Nights",
-    "date": "12/1993",
+    "releaseTimestamp": 754700400,
     "canBeFoil": false,
-    "digest": "1f7f506776f62f6b803cad71a88f92b8"
+    "digest": "59473e2a43df5209981ada5c55112d61"
   },
   {
     "name_gatherer": "Archenemy",
@@ -65,7 +65,7 @@
     "code_mtgi": "ARC",
     "name_tcgp": "Archenemy",
     "name_mkm": "Archenemy",
-    "date": "06/2010",
+    "releaseTimestamp": 1275343200,
     "canBeFoil": false,
     "digest": "5ec1c74a77dba34560a6e452b867f79b"
   },
@@ -75,7 +75,7 @@
     "code_mtgi": "AVR",
     "name_tcgp": "Avacyn Restored",
     "name_mkm": "Avacyn Restored",
-    "date": "05/2012",
+    "releaseTimestamp": 1335823200,
     "canBeFoil": true,
     "digest": "658373b71f820fc1aefbe172df7e73a7"
   },
@@ -85,7 +85,7 @@
     "code_mtgi": "BR",
     "name_tcgp": "Battle Royale Box Set",
     "name_mkm": "Battle Royale",
-    "date": "11/1999",
+    "releaseTimestamp": 941410800,
     "canBeFoil": false,
     "digest": "864aaf0f487ecdf0a72a5ee4aab5b64a"
   },
@@ -95,7 +95,7 @@
     "code_mtgi": "BFZ",
     "name_tcgp": "Battle for Zendikar",
     "name_mkm": "Battle for Zendikar",
-    "date": "09/2015",
+    "releaseTimestamp": 1441058400,
     "canBeFoil": true,
     "digest": "6a6aa205d25e9e52310fc1e8a18640aa"
   },
@@ -105,7 +105,7 @@
     "code_mtgi": "BD",
     "name_tcgp": "Beatdown Box Set",
     "name_mkm": "Beatdown",
-    "date": "12/2000",
+    "releaseTimestamp": 975625200,
     "canBeFoil": false,
     "digest": "7a9b11930c271b3442fb7ded5556c36c"
   },
@@ -115,7 +115,7 @@
     "code_mtgi": "BOK",
     "name_tcgp": "Betrayers of Kamigawa",
     "name_mkm": "Betrayers of Kamigawa",
-    "date": "01/2005",
+    "releaseTimestamp": 1104534000,
     "canBeFoil": true,
     "digest": "a18601ceaeee377dc50ccde3b1c7cb42"
   },
@@ -125,7 +125,7 @@
     "code_mtgi": "BNG",
     "name_tcgp": "Born of the Gods",
     "name_mkm": "Born of the Gods",
-    "date": "02/2014",
+    "releaseTimestamp": 1391209200,
     "canBeFoil": true,
     "digest": "3bed6322e3863fdc14ea0c18dc8ad065"
   },
@@ -135,7 +135,7 @@
     "code_mtgi": "CHK",
     "name_tcgp": "Champions of Kamigawa",
     "name_mkm": "Champions of Kamigawa",
-    "date": "09/2004",
+    "releaseTimestamp": 1093989600,
     "canBeFoil": true,
     "digest": "3fe72c68fc553879c840c0bac0cfbb19"
   },
@@ -145,9 +145,9 @@
     "code_mtgi": "CH",
     "name_tcgp": "Chronicles",
     "name_mkm": "Chronicles",
-    "date": "07/1995",
+    "releaseTimestamp": 804549600,
     "canBeFoil": false,
-    "digest": "ff5d7845fe95d182f02364b3cc0b2f39"
+    "digest": "78258aded901c2964f088c3c06373649"
   },
   {
     "name_gatherer": "Classic Sixth Edition",
@@ -155,7 +155,7 @@
     "code_mtgi": "6E",
     "name_tcgp": "Classic Sixth Edition",
     "name_mkm": "Sixth Edition",
-    "date": "04/1999",
+    "releaseTimestamp": 922917600,
     "canBeFoil": false,
     "digest": "22f2d3eecf1858eebebbb396f978cd58"
   },
@@ -165,7 +165,7 @@
     "code_mtgi": "CS",
     "name_tcgp": "Coldsnap",
     "name_mkm": "Coldsnap",
-    "date": "06/2006",
+    "releaseTimestamp": 1149112800,
     "canBeFoil": true,
     "digest": "bae67f1545c337a46591d67a83a53082"
   },
@@ -175,7 +175,7 @@
     "code_mtgi": "C13",
     "name_tcgp": "Commander 2013",
     "name_mkm": "Commander 2013",
-    "date": "11/2013",
+    "releaseTimestamp": 1383260400,
     "canBeFoil": false,
     "digest": "51a5fd6487d3cb66cbfb1f8a960c0fb9"
   },
@@ -185,7 +185,7 @@
     "code_mtgi": "C14",
     "name_tcgp": "Commander 2014",
     "name_mkm": "Commander 2014",
-    "date": "11/2014",
+    "releaseTimestamp": 1414796400,
     "canBeFoil": false,
     "digest": "073381134f02a80b2c895e236e4b83f9"
   },
@@ -195,7 +195,7 @@
     "code_mtgi": "C15",
     "name_tcgp": "Commander 2015",
     "name_mkm": "Commander 2015",
-    "date": "11/2015",
+    "releaseTimestamp": 1446332400,
     "canBeFoil": false,
     "digest": "13bc86b7eb6febf34d53fafdd0a33230"
   },
@@ -205,7 +205,7 @@
     "code_mtgi": "C16",
     "name_tcgp": "Commander 2016",
     "name_mkm": "Commander 2016",
-    "date": "11/2016",
+    "releaseTimestamp": 1477954800,
     "canBeFoil": false,
     "digest": "c145309b1f74307017368bdca6654fdb"
   },
@@ -215,7 +215,7 @@
     "code_mtgi": "CMA",
     "name_tcgp": "Commander's Arsenal",
     "name_mkm": "Commander's Arsenal",
-    "date": "11/2012",
+    "releaseTimestamp": 1351724400,
     "canBeFoil": false,
     "digest": "9331776243e451cf3d7bc732648a652c"
   },
@@ -225,7 +225,7 @@
     "code_mtgi": "CFX",
     "name_tcgp": "Conflux",
     "name_mkm": "Conflux",
-    "date": "01/2009",
+    "releaseTimestamp": 1230764400,
     "canBeFoil": true,
     "digest": "693d077c6ee7885ab7de08105999d61f"
   },
@@ -235,7 +235,7 @@
     "code_mtgi": "CN2",
     "name_tcgp": "Conspiracy: Take the Crown",
     "name_mkm": "Conspiracy: Take the Crown",
-    "date": "08/2016",
+    "releaseTimestamp": 1470002400,
     "canBeFoil": true,
     "digest": "3ba991a53a1752a683c916c85f2e867b"
   },
@@ -245,7 +245,7 @@
     "code_mtgi": "DKA",
     "name_tcgp": "Dark Ascension",
     "name_mkm": "Dark Ascension",
-    "date": "02/2012",
+    "releaseTimestamp": 1328050800,
     "canBeFoil": true,
     "digest": "4630c6f0d9697f05e81b8ba4db489849"
   },
@@ -255,7 +255,7 @@
     "code_mtgi": "DS",
     "name_tcgp": "Darksteel",
     "name_mkm": "Darksteel",
-    "date": "01/2004",
+    "releaseTimestamp": 1072911600,
     "canBeFoil": true,
     "digest": "54b63dc68b1c5a4c5c7b006acfcc83ea"
   },
@@ -265,7 +265,7 @@
     "code_mtgi": "DI",
     "name_tcgp": "Dissension",
     "name_mkm": "Dissension",
-    "date": "04/2006",
+    "releaseTimestamp": 1143842400,
     "canBeFoil": true,
     "digest": "71c11b2ac87aded98e5c5a07df0aa2f7"
   },
@@ -275,7 +275,7 @@
     "code_mtgi": "DGM",
     "name_tcgp": "Dragon's Maze",
     "name_mkm": "Dragon's Maze",
-    "date": "05/2013",
+    "releaseTimestamp": 1367359200,
     "canBeFoil": true,
     "digest": "37d68790d16e9551163abb7e324734ab"
   },
@@ -285,7 +285,7 @@
     "code_mtgi": "DTK",
     "name_tcgp": "Dragons of Tarkir",
     "name_mkm": "Dragons of Tarkir",
-    "date": "03/2015",
+    "releaseTimestamp": 1425164400,
     "canBeFoil": true,
     "digest": "2447f1e3937b8f3dad8c486bb0eba404"
   },
@@ -295,7 +295,7 @@
     "code_mtgi": "DDADVD",
     "name_tcgp": "Duel Decks: Anthology",
     "name_mkm": "Duel Decks: Anthology",
-    "date": "12/2014",
+    "releaseTimestamp": 1417388400,
     "canBeFoil": false,
     "digest": "d29464328f592debc3b1a2362c76d8a9"
   },
@@ -305,7 +305,7 @@
     "code_mtgi": "DDAEVG",
     "name_tcgp": "Duel Decks: Anthology",
     "name_mkm": "Duel Decks: Anthology",
-    "date": "12/2014",
+    "releaseTimestamp": 1417388400,
     "canBeFoil": false,
     "digest": "62bed9fb3212726bb340ff03a0b2e1cc"
   },
@@ -315,7 +315,7 @@
     "code_mtgi": "DDAGVL",
     "name_tcgp": "Duel Decks: Anthology",
     "name_mkm": "Duel Decks: Anthology",
-    "date": "12/2014",
+    "releaseTimestamp": 1417388400,
     "canBeFoil": false,
     "digest": "355763292d3b38d350d77fcfccf48ac9"
   },
@@ -325,7 +325,7 @@
     "code_mtgi": "DDAJVC",
     "name_tcgp": "Duel Decks: Anthology",
     "name_mkm": "Duel Decks: Anthology",
-    "date": "12/2014",
+    "releaseTimestamp": 1417388400,
     "canBeFoil": false,
     "digest": "338ddf6ee1c6efd8c48f2d31fe45ed1c"
   },
@@ -335,7 +335,7 @@
     "code_mtgi": "DDH",
     "name_tcgp": "Duel Decks: Ajani vs. Nicol Bolas",
     "name_mkm": "Duel Decks: Ajani vs. Nicol Bolas",
-    "date": "08/2011",
+    "releaseTimestamp": 1312149600,
     "canBeFoil": false,
     "digest": "02ba13c7bdd231183d191d391f326f59"
   },
@@ -345,7 +345,7 @@
     "code_mtgi": "DDQ",
     "name_tcgp": "Duel Decks: Blessed vs. Cursed",
     "name_mkm": "Duel Decks: Blessed vs. Cursed",
-    "date": "02/2016",
+    "releaseTimestamp": 1454281200,
     "canBeFoil": false,
     "digest": "b85354a85b75aad248cbe52e0415f040"
   },
@@ -355,7 +355,7 @@
     "code_mtgi": "DVD",
     "name_tcgp": "Duel Decks: Divine vs. Demonic",
     "name_mkm": "Duel Decks: Divine vs. Demonic",
-    "date": "04/2009",
+    "releaseTimestamp": 1238536800,
     "canBeFoil": false,
     "digest": "c289cb231c4625eddffd96bf7ac0f796"
   },
@@ -365,7 +365,7 @@
     "code_mtgi": "DDO",
     "name_tcgp": "Duel Decks: Elspeth vs. Kiora",
     "name_mkm": "Duel Decks: Elspeth vs. Kiora",
-    "date": "02/2015",
+    "releaseTimestamp": 1422745200,
     "canBeFoil": false,
     "digest": "c2646fffca1e03c4fbbb9348c2ed617b"
   },
@@ -375,7 +375,7 @@
     "code_mtgi": "DDF",
     "name_tcgp": "Duel Decks: Elspeth vs. Tezzeret",
     "name_mkm": "Duel Decks: Elspeth vs. Tezzeret",
-    "date": "09/2010",
+    "releaseTimestamp": 1283292000,
     "canBeFoil": false,
     "digest": "d9e8e61b94960db2f715847d532a2cec"
   },
@@ -385,7 +385,7 @@
     "code_mtgi": "EVG",
     "name_tcgp": "Duel Decks: Elves vs. Goblins",
     "name_mkm": "Duel Decks: Elves vs. Goblins",
-    "date": "11/2007",
+    "releaseTimestamp": 1193871600,
     "canBeFoil": false,
     "digest": "14a8eb8fb320b1e159e5c97cd7dccae9"
   },
@@ -395,7 +395,7 @@
     "code_mtgi": "GVL",
     "name_tcgp": "Duel Decks: Garruk vs. Liliana",
     "name_mkm": "Duel Decks: Garruk vs. Liliana",
-    "date": "10/2009",
+    "releaseTimestamp": 1254348000,
     "canBeFoil": false,
     "digest": "7888368ec6345e063f61ad04d2aa0b4b"
   },
@@ -405,7 +405,7 @@
     "code_mtgi": "DDL",
     "name_tcgp": "Duel Decks: Heroes vs. Monsters",
     "name_mkm": "Duel Decks: Heroes vs. Monsters",
-    "date": "09/2013",
+    "releaseTimestamp": 1377986400,
     "canBeFoil": false,
     "digest": "95c998c6991a247ed8442a22dbcbb41f"
   },
@@ -415,7 +415,7 @@
     "code_mtgi": "DDJ",
     "name_tcgp": "Duel Decks: Izzet vs. Golgari",
     "name_mkm": "Duel Decks: Izzet vs. Golgari",
-    "date": "09/2012",
+    "releaseTimestamp": 1346450400,
     "canBeFoil": false,
     "digest": "9aab5e35f0a25f50d6dbf2164398b955"
   },
@@ -425,7 +425,7 @@
     "code_mtgi": "JVC",
     "name_tcgp": "Duel Decks: Jace vs. Chandra",
     "name_mkm": "Duel Decks: Jace vs. Chandra",
-    "date": "11/2008",
+    "releaseTimestamp": 1225494000,
     "canBeFoil": false,
     "digest": "8ee4a2e658f6a5c59343a85e8ffa6f25"
   },
@@ -435,7 +435,7 @@
     "code_mtgi": "DDM",
     "name_tcgp": "Duel Decks: Jace vs. Vraska",
     "name_mkm": "Duel Decks: Jace vs. Vraska",
-    "date": "03/2014",
+    "releaseTimestamp": 1393628400,
     "canBeFoil": false,
     "digest": "41202521919730ccccdfe61719658279"
   },
@@ -445,7 +445,7 @@
     "code_mtgi": "DDG",
     "name_tcgp": "Duel Decks: Knights vs. Dragons",
     "name_mkm": "Duel Decks: Knights vs. Dragons",
-    "date": "04/2011",
+    "releaseTimestamp": 1301608800,
     "canBeFoil": false,
     "digest": "926b4ce22a532fb324fa4c6360e4b00c"
   },
@@ -455,7 +455,7 @@
     "code_mtgi": "DDR",
     "name_tcgp": "Duel Decks: Nissa vs. Ob Nixilis",
     "name_mkm": "Duel Decks: Nissa vs. Ob Nixilis",
-    "date": "09/2016",
+    "releaseTimestamp": 1472680800,
     "canBeFoil": false,
     "digest": "682f2571eb9ed2bdc6a1faf9d02b7f63"
   },
@@ -465,7 +465,7 @@
     "code_mtgi": "PVC",
     "name_tcgp": "Duel Decks: Phyrexia vs. the Coalition",
     "name_mkm": "Duel Decks: Phyrexia vs. The Coalition",
-    "date": "03/2010",
+    "releaseTimestamp": 1267398000,
     "canBeFoil": false,
     "digest": "01ddc9fe623bf0a24256c65aa725bd3f"
   },
@@ -475,7 +475,7 @@
     "code_mtgi": "DDK",
     "name_tcgp": "Duel Decks: Sorin vs. Tibalt",
     "name_mkm": "Duel Decks: Sorin vs. Tibalt",
-    "date": "03/2013",
+    "releaseTimestamp": 1362092400,
     "canBeFoil": false,
     "digest": "f5e362d14e3e1d464b8d9944b0fb2650"
   },
@@ -485,7 +485,7 @@
     "code_mtgi": "DDN",
     "name_tcgp": "Duel Decks: Speed vs. Cunning",
     "name_mkm": "Duel Decks: Speed vs. Cunning",
-    "date": "09/2014",
+    "releaseTimestamp": 1409522400,
     "canBeFoil": false,
     "digest": "a1ea0ebed367f32f14eb7987eb5e79d4"
   },
@@ -495,7 +495,7 @@
     "code_mtgi": "DDI",
     "name_tcgp": "Duel Decks: Venser vs. Koth",
     "name_mkm": "Duel Decks: Venser vs. Koth",
-    "date": "04/2012",
+    "releaseTimestamp": 1333231200,
     "canBeFoil": false,
     "digest": "325dbb3b189296fac3e15bd944f1b9f7"
   },
@@ -505,7 +505,7 @@
     "code_mtgi": "DDP",
     "name_tcgp": "Duel Decks: Zendikar vs. Eldrazi",
     "name_mkm": "Duel Decks: Zendikar vs. Eldrazi",
-    "date": "08/2015",
+    "releaseTimestamp": 1438380000,
     "canBeFoil": false,
     "digest": "aa132fa0dc7dae8374ead08ce91c33c8"
   },
@@ -515,7 +515,7 @@
     "code_mtgi": "8E",
     "name_tcgp": "8th Edition",
     "name_mkm": "Eighth Edition",
-    "date": "07/2003",
+    "releaseTimestamp": 1057010400,
     "canBeFoil": true,
     "digest": "3dcd8d3445a7b53fabe68a0c5f1e3783"
   },
@@ -525,7 +525,7 @@
     "code_mtgi": "EMN",
     "name_tcgp": "Eldritch Moon",
     "name_mkm": "Eldritch Moon",
-    "date": "07/2016",
+    "releaseTimestamp": 1467324000,
     "canBeFoil": true,
     "digest": "56a325ccb32e720a643220cb3c9cd5ba"
   },
@@ -535,7 +535,7 @@
     "code_mtgi": "EMA",
     "name_tcgp": "Eternal Masters",
     "name_mkm": "Eternal Masters",
-    "date": "06/2016",
+    "releaseTimestamp": 1464732000,
     "canBeFoil": true,
     "digest": "0c41608f9698ca1e8f41382449c29c04"
   },
@@ -545,7 +545,7 @@
     "code_mtgi": "EVE",
     "name_tcgp": "Eventide",
     "name_mkm": "Eventide",
-    "date": "07/2008",
+    "releaseTimestamp": 1214863200,
     "canBeFoil": true,
     "digest": "a6f1d221e66d5aa37d922a888cc66a65"
   },
@@ -555,7 +555,7 @@
     "code_mtgi": "EX",
     "name_tcgp": "Exodus",
     "name_mkm": "Exodus",
-    "date": "06/1998",
+    "releaseTimestamp": 896652000,
     "canBeFoil": false,
     "digest": "e60429e7855fb34f983c6b6edbd1dca6"
   },
@@ -565,7 +565,7 @@
     "code_mtgi": "FE",
     "name_tcgp": "Fallen Empires",
     "name_mkm": "Fallen Empires",
-    "date": "10/1994",
+    "releaseTimestamp": 780966000,
     "canBeFoil": false,
     "digest": "26de3be1bf7701056b7398279f880d5d"
   },
@@ -575,7 +575,7 @@
     "code_mtgi": "FRF",
     "name_tcgp": "Fate Reforged",
     "name_mkm": "Fate Reforged",
-    "date": "01/2015",
+    "releaseTimestamp": 1420066800,
     "canBeFoil": true,
     "digest": "8a1a8a5852134b88cc10836bd0f03880"
   },
@@ -585,7 +585,7 @@
     "code_mtgi": "5DN",
     "name_tcgp": "Fifth Dawn",
     "name_mkm": "Fifth Dawn",
-    "date": "05/2004",
+    "releaseTimestamp": 1083362400,
     "canBeFoil": true,
     "digest": "5c80fc8fb63d257c731fa444d14e7fcf"
   },
@@ -595,9 +595,9 @@
     "code_mtgi": "5E",
     "name_tcgp": "Fifth Edition",
     "name_mkm": "Fifth Edition",
-    "date": "03/1997",
+    "releaseTimestamp": 857170800,
     "canBeFoil": false,
-    "digest": "67759fc5266dec0bd500c1e50d2ad097"
+    "digest": "1e1940241a350a9f466b6ba895f54de7"
   },
   {
     "name_gatherer": "Fourth Edition",
@@ -605,9 +605,9 @@
     "code_mtgi": "4E",
     "name_tcgp": "Fourth Edition",
     "name_mkm": "Fourth Edition",
-    "date": "04/1995",
+    "releaseTimestamp": 796687200,
     "canBeFoil": false,
-    "digest": "a83083b80825cda31c91c241457731bc"
+    "digest": "082d211e87fbe97491e84f425f6408b4"
   },
   {
     "name_gatherer": "From the Vault: Angels",
@@ -615,7 +615,7 @@
     "code_mtgi": "V15",
     "name_tcgp": "From the Vault: Angels",
     "name_mkm": "From the Vault: Angels",
-    "date": "08/2015",
+    "releaseTimestamp": 1438380000,
     "canBeFoil": false,
     "digest": "4f7011f275587f543768dfc805ca079f"
   },
@@ -625,7 +625,7 @@
     "code_mtgi": "V14",
     "name_tcgp": "From the Vault: Annihilation",
     "name_mkm": "From the Vault: Annihilation",
-    "date": "08/2014",
+    "releaseTimestamp": 1406844000,
     "canBeFoil": false,
     "digest": "3403d7a22c3987dca6f3ae3b4d14fc3a"
   },
@@ -635,7 +635,7 @@
     "code_mtgi": "FVD",
     "name_tcgp": "From the Vault: Dragons",
     "name_mkm": "From the Vault: Dragons",
-    "date": "08/2008",
+    "releaseTimestamp": 1217541600,
     "canBeFoil": false,
     "digest": "57e5bd4ffb4b6f5673010d5a2a0e34da"
   },
@@ -645,7 +645,7 @@
     "code_mtgi": "FVE",
     "name_tcgp": "From the Vault: Exiled",
     "name_mkm": "From the Vault: Exiled",
-    "date": "08/2009",
+    "releaseTimestamp": 1249077600,
     "canBeFoil": false,
     "digest": "fe859487aab26480ec38a053a2ca4adb"
   },
@@ -655,7 +655,7 @@
     "code_mtgi": "FVL",
     "name_tcgp": "From the Vault: Legends",
     "name_mkm": "From the Vault: Legends",
-    "date": "08/2011",
+    "releaseTimestamp": 1312149600,
     "canBeFoil": false,
     "digest": "e210311e9fd3f57587bdafdb5c96590a"
   },
@@ -665,7 +665,7 @@
     "code_mtgi": "V16",
     "name_tcgp": "From the Vault: Lore",
     "name_mkm": "From the Vault: Lore",
-    "date": "08/2016",
+    "releaseTimestamp": 1470002400,
     "canBeFoil": false,
     "digest": "919a14d9ed19b01ac52009e327d3b450"
   },
@@ -675,7 +675,7 @@
     "code_mtgi": "V12",
     "name_tcgp": "From the Vault: Realms",
     "name_mkm": "From the Vault: Realms",
-    "date": "08/2012",
+    "releaseTimestamp": 1343772000,
     "canBeFoil": false,
     "digest": "274ffeb47ca830621352bf10e0fc1a4c"
   },
@@ -685,7 +685,7 @@
     "code_mtgi": "FVR",
     "name_tcgp": "From the Vault: Relics",
     "name_mkm": "From the Vault: Relics",
-    "date": "08/2010",
+    "releaseTimestamp": 1280613600,
     "canBeFoil": false,
     "digest": "3cad4774817d3d94aa3900ea9b0d5af6"
   },
@@ -695,7 +695,7 @@
     "code_mtgi": "V13",
     "name_tcgp": "From the Vault: Twenty",
     "name_mkm": "From the Vault: Twenty",
-    "date": "08/2013",
+    "releaseTimestamp": 1375308000,
     "canBeFoil": false,
     "digest": "2fc879fe356fd416cee936eda7d3cf61"
   },
@@ -705,7 +705,7 @@
     "code_mtgi": "FUT",
     "name_tcgp": "Future Sight",
     "name_mkm": "Future Sight",
-    "date": "05/2007",
+    "releaseTimestamp": 1177970400,
     "canBeFoil": true,
     "digest": "d3c2f736e22add94574fdce38d386ba0"
   },
@@ -715,7 +715,7 @@
     "code_mtgi": "GTC",
     "name_tcgp": "Gatecrash",
     "name_mkm": "Gatecrash",
-    "date": "01/2013",
+    "releaseTimestamp": 1356994800,
     "canBeFoil": true,
     "digest": "47d152de2fd504f2f41f46be9153067e"
   },
@@ -725,7 +725,7 @@
     "code_mtgi": "GP",
     "name_tcgp": "Guildpact",
     "name_mkm": "Guildpact",
-    "date": "01/2006",
+    "releaseTimestamp": 1136070000,
     "canBeFoil": true,
     "digest": "33d50fb5ddc5b2448607dd3166bdbcd2"
   },
@@ -735,7 +735,7 @@
     "code_mtgi": "HL",
     "name_tcgp": "Homelands",
     "name_mkm": "Homelands",
-    "date": "10/1995",
+    "releaseTimestamp": 812502000,
     "canBeFoil": false,
     "digest": "a73e4f5e62135d0388f46c9ba028acf4"
   },
@@ -745,9 +745,9 @@
     "code_mtgi": "IA",
     "name_tcgp": "Ice Age",
     "name_mkm": "Ice Age",
-    "date": "06/1995",
+    "releaseTimestamp": 801957600,
     "canBeFoil": false,
-    "digest": "7d988fc4436423a97ca4ffe16cb4fe3e"
+    "digest": "c9624c65cad2534f736b2168cc8f09f6"
   },
   {
     "name_gatherer": "Innistrad",
@@ -755,7 +755,7 @@
     "code_mtgi": "ISD",
     "name_tcgp": "Innistrad",
     "name_mkm": "Innistrad",
-    "date": "09/2011",
+    "releaseTimestamp": 1314828000,
     "canBeFoil": true,
     "digest": "7a060c8b9ce84161adfaf9a0753c5131"
   },
@@ -765,7 +765,7 @@
     "code_mtgi": "IN",
     "name_tcgp": "Invasion",
     "name_mkm": "Invasion",
-    "date": "09/2000",
+    "releaseTimestamp": 967759200,
     "canBeFoil": true,
     "digest": "93e86941fead3f2682989398cbc71152"
   },
@@ -775,7 +775,7 @@
     "code_mtgi": "JOU",
     "name_tcgp": "Journey Into Nyx",
     "name_mkm": "Journey into Nyx",
-    "date": "05/2014",
+    "releaseTimestamp": 1398895200,
     "canBeFoil": true,
     "digest": "47dba8fecc6e7d18da481891d9c6d4e6"
   },
@@ -785,7 +785,7 @@
     "code_mtgi": "JU",
     "name_tcgp": "Judgment",
     "name_mkm": "Judgment",
-    "date": "05/2002",
+    "releaseTimestamp": 1020204000,
     "canBeFoil": true,
     "digest": "cdd01c368514ae71c7fbc4c670edd26f"
   },
@@ -795,7 +795,7 @@
     "code_mtgi": "KLD",
     "name_tcgp": "Kaladesh",
     "name_mkm": "Kaladesh",
-    "date": "09/2016",
+    "releaseTimestamp": 1472680800,
     "canBeFoil": true,
     "digest": "b5027125e64c10b0b677a336893af69e"
   },
@@ -805,7 +805,7 @@
     "code_mtgi": "KTK",
     "name_tcgp": "Khans of Tarkir",
     "name_mkm": "Khans of Tarkir",
-    "date": "09/2014",
+    "releaseTimestamp": 1409522400,
     "canBeFoil": true,
     "digest": "4dfc8353fc84bf2e62c5ca62fd47e382"
   },
@@ -815,7 +815,7 @@
     "code_mtgi": "LG",
     "name_tcgp": "Legends",
     "name_mkm": "Legends",
-    "date": "06/1994",
+    "releaseTimestamp": 770421600,
     "canBeFoil": false,
     "digest": "cb5851855d1f5760ed3877e43ef4f265"
   },
@@ -825,7 +825,7 @@
     "code_mtgi": "LE",
     "name_tcgp": "Legions",
     "name_mkm": "Legions",
-    "date": "01/2003",
+    "releaseTimestamp": 1041375600,
     "canBeFoil": true,
     "digest": "89ca7ca40745c87e17191386bd13efb2"
   },
@@ -835,7 +835,7 @@
     "code_mtgi": "AL",
     "name_tcgp": "Alpha Edition",
     "name_mkm": "Alpha",
-    "date": "08/1993",
+    "releaseTimestamp": 744156000,
     "canBeFoil": false,
     "digest": "23341191fa5f84ce4499524ffc721320"
   },
@@ -845,7 +845,7 @@
     "code_mtgi": "BE",
     "name_tcgp": "Beta Edition",
     "name_mkm": "Beta",
-    "date": "10/1993",
+    "releaseTimestamp": 749430000,
     "canBeFoil": false,
     "digest": "2cf48c08df63b42304f9fcf98f22a751"
   },
@@ -855,7 +855,7 @@
     "code_mtgi": "LW",
     "name_tcgp": "Lorwyn",
     "name_mkm": "Lorwyn",
-    "date": "09/2007",
+    "releaseTimestamp": 1188597600,
     "canBeFoil": true,
     "digest": "d638d2b4a7cec374205b768bc1f25d0b"
   },
@@ -865,7 +865,7 @@
     "code_mtgi": "M10",
     "name_tcgp": "Magic 2010 (M10)",
     "name_mkm": "Magic 2010",
-    "date": "07/2009",
+    "releaseTimestamp": 1246399200,
     "canBeFoil": true,
     "digest": "0fe0cee9ebf1fba752ab67d13d260b45"
   },
@@ -875,7 +875,7 @@
     "code_mtgi": "M11",
     "name_tcgp": "Magic 2011 (M11)",
     "name_mkm": "Magic 2011",
-    "date": "07/2010",
+    "releaseTimestamp": 1277935200,
     "canBeFoil": true,
     "digest": "746690056040b6e4fd3196bd7ec81695"
   },
@@ -885,7 +885,7 @@
     "code_mtgi": "M12",
     "name_tcgp": "Magic 2012 (M12)",
     "name_mkm": "Magic 2012",
-    "date": "07/2011",
+    "releaseTimestamp": 1309471200,
     "canBeFoil": true,
     "digest": "f76ca842178e08e8d66f488df52fb738"
   },
@@ -895,7 +895,7 @@
     "code_mtgi": "M13",
     "name_tcgp": "Magic 2013 (M13)",
     "name_mkm": "Magic 2013",
-    "date": "07/2012",
+    "releaseTimestamp": 1341093600,
     "canBeFoil": true,
     "digest": "e14f7b871eb92324c1dfc74f9d7e9ada"
   },
@@ -905,7 +905,7 @@
     "code_mtgi": "M14",
     "name_tcgp": "Magic 2014 (M14)",
     "name_mkm": "Magic 2014",
-    "date": "07/2013",
+    "releaseTimestamp": 1372629600,
     "canBeFoil": true,
     "digest": "ea0e19c2e1dfd28b2900da83a43420ba"
   },
@@ -915,7 +915,7 @@
     "code_mtgi": "M15",
     "name_tcgp": "Magic 2015 (M15)",
     "name_mkm": "Magic 2015",
-    "date": "07/2014",
+    "releaseTimestamp": 1404165600,
     "canBeFoil": true,
     "digest": "9fde7f153101f30db275b30143997165"
   },
@@ -925,7 +925,7 @@
     "code_mtgi": "ORI",
     "name_tcgp": "Magic Origins",
     "name_mkm": "Magic Origins",
-    "date": "07/2015",
+    "releaseTimestamp": 1435701600,
     "canBeFoil": true,
     "digest": "ae43695ce9519826005d2d99cab40121"
   },
@@ -935,17 +935,17 @@
     "code_mtgi": "CMD",
     "name_tcgp": "Commander",
     "name_mkm": "Commander",
-    "date": "06/2011",
+    "releaseTimestamp": 1306879200,
     "canBeFoil": false,
     "digest": "03b28c4dc01a30330f165156a622951f"
   },
   {
-    "name_gatherer": "Magic: The Gathering-Conspiracy",
+    "name_gatherer": "Magic: The Gathering—Conspiracy",
     "code_gatherer": "CNS",
     "code_mtgi": "CNS",
     "name_tcgp": "Conspiracy",
     "name_mkm": "Conspiracy",
-    "date": "06/2014",
+    "date": "6/2014",
     "canBeFoil": true,
     "digest": "c70c359185d2c9accf45743e90b6d966"
   },
@@ -955,7 +955,7 @@
     "code_mtgi": "MPSKLD",
     "name_tcgp": "Masterpiece Series: Kaladesh Inventions",
     "name_mkm": "Masterpiece Series: Kaladesh Inventions",
-    "date": "09/2016",
+    "releaseTimestamp": 1472680800,
     "canBeFoil": false,
     "digest": "1f8c4d8ce578b011d97c167cb936d9c8"
   },
@@ -965,7 +965,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "  ",
-    "date": "09/2007",
+    "releaseTimestamp": 1188597600,
     "canBeFoil": false,
     "digest": ""
   },
@@ -975,7 +975,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "",
-    "date": "09/2008",
+    "releaseTimestamp": 1220220000,
     "canBeFoil": false,
     "digest": ""
   },
@@ -985,7 +985,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "",
-    "date": "09/2009",
+    "releaseTimestamp": 1251756000,
     "canBeFoil": false,
     "digest": ""
   },
@@ -995,7 +995,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "",
-    "date": "01/2011",
+    "releaseTimestamp": 1293836400,
     "canBeFoil": false,
     "digest": ""
   },
@@ -1005,7 +1005,7 @@
     "code_mtgi": "MM",
     "name_tcgp": "Mercadian Masques",
     "name_mkm": "Mercadian Masques",
-    "date": "09/1999",
+    "releaseTimestamp": 936136800,
     "canBeFoil": true,
     "digest": "b4b05f822ccb40bf19cc88fd2e4b786e"
   },
@@ -1015,7 +1015,7 @@
     "code_mtgi": "MR",
     "name_tcgp": "Mirage",
     "name_mkm": "Mirage",
-    "date": "10/1996",
+    "releaseTimestamp": 844120800,
     "canBeFoil": false,
     "digest": "bd207df3df22460e46777c21734e8462"
   },
@@ -1025,7 +1025,7 @@
     "code_mtgi": "MI",
     "name_tcgp": "Mirrodin",
     "name_mkm": "Mirrodin",
-    "date": "09/2003",
+    "releaseTimestamp": 1062367200,
     "canBeFoil": true,
     "digest": "28083a56eb950a6ac5755b09178d25be"
   },
@@ -1035,7 +1035,7 @@
     "code_mtgi": "MBS",
     "name_tcgp": "Mirrodin Besieged",
     "name_mkm": "Mirrodin Besieged",
-    "date": "01/2011",
+    "releaseTimestamp": 1293836400,
     "canBeFoil": true,
     "digest": "daaa7a597e42566930bd5e7ddc2c92f6"
   },
@@ -1045,7 +1045,7 @@
     "code_mtgi": "MD1",
     "name_tcgp": "Magic Modern Event Deck",
     "name_mkm": "Modern Event Deck 2014",
-    "date": "05/2014",
+    "releaseTimestamp": 1398895200,
     "canBeFoil": false,
     "digest": "2d0c52e2d3fc1f430f524fb61fbaebcc"
   },
@@ -1055,7 +1055,7 @@
     "code_mtgi": "MMA",
     "name_tcgp": "Modern Masters",
     "name_mkm": "Modern Masters",
-    "date": "06/2013",
+    "releaseTimestamp": 1370037600,
     "canBeFoil": true,
     "digest": "7d4c0ba62f00a59c894cb4b478792d27"
   },
@@ -1065,7 +1065,7 @@
     "code_mtgi": "MM2",
     "name_tcgp": "Modern Masters 2015",
     "name_mkm": "Modern Masters 2015",
-    "date": "05/2015",
+    "releaseTimestamp": 1430431200,
     "canBeFoil": true,
     "digest": "b5f9bbf7dfc9eaa6dfb8a83d6584cf22"
   },
@@ -1075,7 +1075,7 @@
     "code_mtgi": "MM3",
     "name_tcgp": "Modern Masters 2017",
     "name_mkm": "Modern Masters 2017",
-    "date": "03/2017",
+    "releaseTimestamp": 1488322800,
     "canBeFoil": true,
     "digest": "fb81842bbb6a53b07f5033df9cce8a3d"
   },
@@ -1085,7 +1085,7 @@
     "code_mtgi": "MT",
     "name_tcgp": "Morningtide",
     "name_mkm": "Morningtide",
-    "date": "01/2008",
+    "releaseTimestamp": 1199142000,
     "canBeFoil": true,
     "digest": "4e85ebeae130c5e3216d3a9f6d2621e5"
   },
@@ -1095,7 +1095,7 @@
     "code_mtgi": "NE",
     "name_tcgp": "Nemesis",
     "name_mkm": "Nemesis",
-    "date": "02/2000",
+    "releaseTimestamp": 949359600,
     "canBeFoil": true,
     "digest": "92373c3fb09fc762f94146993ee31d9a"
   },
@@ -1105,7 +1105,7 @@
     "code_mtgi": "NPH",
     "name_tcgp": "New Phyrexia",
     "name_mkm": "New Phyrexia",
-    "date": "05/2011",
+    "releaseTimestamp": 1304200800,
     "canBeFoil": true,
     "digest": "5b502190ddb8156e1e71e6e93a9941a9"
   },
@@ -1115,7 +1115,7 @@
     "code_mtgi": "9E",
     "name_tcgp": "9th Edition",
     "name_mkm": "Ninth Edition",
-    "date": "07/2005",
+    "releaseTimestamp": 1120168800,
     "canBeFoil": true,
     "digest": "0d31814123de8a4ecace3a358a9fcce5"
   },
@@ -1125,7 +1125,7 @@
     "code_mtgi": "OGW",
     "name_tcgp": "Oath of the Gatewatch",
     "name_mkm": "Oath of the Gatewatch",
-    "date": "01/2016",
+    "releaseTimestamp": 1451602800,
     "canBeFoil": true,
     "digest": "5e3b673b72b2c0ceb197f1bcf1389a2b"
   },
@@ -1135,7 +1135,7 @@
     "code_mtgi": "OD",
     "name_tcgp": "Odyssey",
     "name_mkm": "Odyssey",
-    "date": "09/2001",
+    "releaseTimestamp": 999295200,
     "canBeFoil": true,
     "digest": "0d3b12467982347ff25ee7d85607e66b"
   },
@@ -1145,7 +1145,7 @@
     "code_mtgi": "ON",
     "name_tcgp": "Onslaught",
     "name_mkm": "Onslaught",
-    "date": "09/2002",
+    "releaseTimestamp": 1030831200,
     "canBeFoil": true,
     "digest": "f5e9b8ca694bbd45e65475241de5fecf"
   },
@@ -1155,7 +1155,7 @@
     "code_mtgi": "PC",
     "name_tcgp": "Planar Chaos",
     "name_mkm": "Planar Chaos",
-    "date": "01/2007",
+    "releaseTimestamp": 1167606000,
     "canBeFoil": true,
     "digest": "820b1876c21fdf4db93357cd94773451"
   },
@@ -1165,7 +1165,7 @@
     "code_mtgi": "PCH",
     "name_tcgp": "Planechase",
     "name_mkm": "Planechase",
-    "date": "09/2009",
+    "releaseTimestamp": 1251756000,
     "canBeFoil": false,
     "digest": "6b8ec413527ce3814763e96a8756d0f3"
   },
@@ -1175,7 +1175,7 @@
     "code_mtgi": "PC2",
     "name_tcgp": "Planechase 2012",
     "name_mkm": "Planechase 2012",
-    "date": "06/2012",
+    "releaseTimestamp": 1338501600,
     "canBeFoil": false,
     "digest": "f283b7e137e5d7f59965f5e86131baae"
   },
@@ -1185,7 +1185,7 @@
     "code_mtgi": "PCA",
     "name_tcgp": "Planechase Anthology",
     "name_mkm": "Planechase Anthology",
-    "date": "11/2016",
+    "releaseTimestamp": 1477954800,
     "canBeFoil": false,
     "digest": "302abbcdd3c6e5980f59baa642f3b267"
   },
@@ -1195,7 +1195,7 @@
     "code_mtgi": "PS",
     "name_tcgp": "Planeshift",
     "name_mkm": "Planeshift",
-    "date": "01/2001",
+    "releaseTimestamp": 978303600,
     "canBeFoil": true,
     "digest": "5f3dad3ab06e4b7bad48153246252157"
   },
@@ -1205,9 +1205,9 @@
     "code_mtgi": "PO",
     "name_tcgp": "Portal",
     "name_mkm": "Portal",
-    "date": "06/1997",
+    "releaseTimestamp": 865116000,
     "canBeFoil": false,
-    "digest": "33e357ab36cc6539bf0cdd5caa29f8ef"
+    "digest": "34784ab0e7cb0b3c56ffe0430ba18d77"
   },
   {
     "name_gatherer": "Portal Second Age",
@@ -1215,9 +1215,9 @@
     "code_mtgi": "PO2",
     "name_tcgp": "Portal Second Age",
     "name_mkm": "Portal Second Age",
-    "date": "06/1998",
+    "releaseTimestamp": 896652000,
     "canBeFoil": false,
-    "digest": "cdaae057d5c3e847d7880ffd6e867147"
+    "digest": "da34406ff6316841f8591b04fe7c8a09"
   },
   {
     "name_gatherer": "Portal Three Kingdoms",
@@ -1225,7 +1225,7 @@
     "code_mtgi": "P3K",
     "name_tcgp": "Portal Three Kingdoms",
     "name_mkm": "Portal Three Kingdoms",
-    "date": "06/1999",
+    "releaseTimestamp": 928188000,
     "canBeFoil": false,
     "digest": "f24b0681bc28dfb57ef4e0937871225b"
   },
@@ -1235,7 +1235,7 @@
     "code_mtgi": "PD2",
     "name_tcgp": "Premium Deck Series: Fire and Lightning",
     "name_mkm": "Premium Deck Series: Fire & Lightning",
-    "date": "11/2010",
+    "releaseTimestamp": 1288566000,
     "canBeFoil": false,
     "digest": "7f6b4a843b90a735e20291532b7490d5"
   },
@@ -1245,7 +1245,7 @@
     "code_mtgi": "PD3",
     "name_tcgp": "Premium Deck Series: Graveborn",
     "name_mkm": "Premium Deck Series: Graveborn",
-    "date": "11/2011",
+    "releaseTimestamp": 1320102000,
     "canBeFoil": false,
     "digest": "176889e826d0c597c1b8c1002b7961c8"
   },
@@ -1255,7 +1255,7 @@
     "code_mtgi": "PDS",
     "name_tcgp": "Premium Deck Series: Slivers",
     "name_mkm": "Premium Deck Series: Slivers",
-    "date": "11/2009",
+    "releaseTimestamp": 1257030000,
     "canBeFoil": false,
     "digest": "6e243ef2498c542ec103227bfad901c4"
   },
@@ -1265,7 +1265,7 @@
     "code_mtgi": "MBP",
     "name_tcgp": "Media Promos",
     "name_mkm": "Harper Prism Promos",
-    "date": "06/1993",
+    "releaseTimestamp": 738885600,
     "canBeFoil": false,
     "digest": "2a74936e0a5842dcd6c8fe39b648971c"
   },
@@ -1275,7 +1275,7 @@
     "code_mtgi": "PR",
     "name_tcgp": "Prophecy",
     "name_mkm": "Prophecy",
-    "date": "05/2000",
+    "releaseTimestamp": 957132000,
     "canBeFoil": true,
     "digest": "4c449bd8e2e117c51c1c0d3fde477540"
   },
@@ -1285,7 +1285,7 @@
     "code_mtgi": "RAV",
     "name_tcgp": "Ravnica",
     "name_mkm": "Ravnica: City of Guilds",
-    "date": "09/2005",
+    "releaseTimestamp": 1125525600,
     "canBeFoil": true,
     "digest": "7af68574a56475accac2719d481dc3c4"
   },
@@ -1295,7 +1295,7 @@
     "code_mtgi": "RTR",
     "name_tcgp": "Return to Ravnica",
     "name_mkm": "Return to Ravnica",
-    "date": "10/2012",
+    "releaseTimestamp": 1349042400,
     "canBeFoil": true,
     "digest": "b71539e3716fc5b3dd7b8af216e8d6a8"
   },
@@ -1305,9 +1305,9 @@
     "code_mtgi": "RV",
     "name_tcgp": "Revised Edition",
     "name_mkm": "Revised",
-    "date": "04/1994",
+    "releaseTimestamp": 765151200,
     "canBeFoil": false,
-    "digest": "597a03ae3d4ca6bbefbbd382eff2904a"
+    "digest": "8d255091cca5b5137615680346be1b38"
   },
   {
     "name_gatherer": "Rise of the Eldrazi",
@@ -1315,7 +1315,7 @@
     "code_mtgi": "ROE",
     "name_tcgp": "Rise of the Eldrazi",
     "name_mkm": "Rise of the Eldrazi",
-    "date": "04/2010",
+    "releaseTimestamp": 1270072800,
     "canBeFoil": true,
     "digest": "f7c629efd33d74662f0b5e502675897a"
   },
@@ -1325,7 +1325,7 @@
     "code_mtgi": "SOK",
     "name_tcgp": "Saviors of Kamigawa",
     "name_mkm": "Saviors of Kamigawa",
-    "date": "05/2005",
+    "releaseTimestamp": 1114898400,
     "canBeFoil": true,
     "digest": "17d9b0a9a3492384c42d2e7975a0b41a"
   },
@@ -1335,7 +1335,7 @@
     "code_mtgi": "SOM",
     "name_tcgp": "Scars of Mirrodin",
     "name_mkm": "Scars of Mirrodin",
-    "date": "09/2010",
+    "releaseTimestamp": 1283292000,
     "canBeFoil": true,
     "digest": "e83d2904c64a9a06972b4541fdcd3cb2"
   },
@@ -1345,7 +1345,7 @@
     "code_mtgi": "SC",
     "name_tcgp": "Scourge",
     "name_mkm": "Scourge",
-    "date": "05/2003",
+    "releaseTimestamp": 1051740000,
     "canBeFoil": true,
     "digest": "3361eee1534530a95112687e661c5b68"
   },
@@ -1355,7 +1355,7 @@
     "code_mtgi": "7E",
     "name_tcgp": "7th Edition",
     "name_mkm": "Seventh Edition",
-    "date": "04/2001",
+    "releaseTimestamp": 986076000,
     "canBeFoil": true,
     "digest": "d347b06ba0a4e5eb5d7d5b37fddc3de0"
   },
@@ -1365,7 +1365,7 @@
     "code_mtgi": "SHM",
     "name_tcgp": "Shadowmoor",
     "name_mkm": "Shadowmoor",
-    "date": "04/2008",
+    "releaseTimestamp": 1207000800,
     "canBeFoil": true,
     "digest": "ce432e558cd81e3f951de8be51c05a9c"
   },
@@ -1375,7 +1375,7 @@
     "code_mtgi": "SOI",
     "name_tcgp": "Shadows over Innistrad",
     "name_mkm": "Shadows over Innistrad",
-    "date": "03/2016",
+    "releaseTimestamp": 1456786800,
     "canBeFoil": true,
     "digest": "c1204c3df15f4dcc8d6591dbd99d2ba6"
   },
@@ -1385,7 +1385,7 @@
     "code_mtgi": "ALA",
     "name_tcgp": "Shards of Alara",
     "name_mkm": "Shards of Alara",
-    "date": "09/2008",
+    "releaseTimestamp": 1220220000,
     "canBeFoil": true,
     "digest": "60cb94941a5ae69130a2a6f95a99c97d"
   },
@@ -1395,7 +1395,7 @@
     "code_mtgi": "ST",
     "name_tcgp": "Starter 1999",
     "name_mkm": "Starter 1999",
-    "date": "07/1999",
+    "releaseTimestamp": 930780000,
     "canBeFoil": false,
     "digest": "d8b9414ec068535a2f109ba18ffc5dba"
   },
@@ -1405,7 +1405,7 @@
     "code_mtgi": "ST2K",
     "name_tcgp": "Starter 2000",
     "name_mkm": "Starter 2000",
-    "date": "07/2000",
+    "releaseTimestamp": 962402400,
     "canBeFoil": false,
     "digest": "02007708f20340a89cd8fd3732bd46d0"
   },
@@ -1415,7 +1415,7 @@
     "code_mtgi": "SH",
     "name_tcgp": "Stronghold",
     "name_mkm": "Stronghold",
-    "date": "02/1998",
+    "releaseTimestamp": 886287600,
     "canBeFoil": false,
     "digest": "0bb55d4266cfc59ac850faf6f2468fee"
   },
@@ -1425,7 +1425,7 @@
     "code_mtgi": "TP",
     "name_tcgp": "Tempest",
     "name_mkm": "Tempest",
-    "date": "10/1997",
+    "releaseTimestamp": 875656800,
     "canBeFoil": false,
     "digest": "1dda384a9a4ee9a1c3ec6aa79cc2ea29"
   },
@@ -1435,7 +1435,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "",
-    "date": "",
+    "releaseTimestamp": 0,
     "canBeFoil": false,
     "digest": ""
   },
@@ -1445,7 +1445,7 @@
     "code_mtgi": "10E",
     "name_tcgp": "10th Edition",
     "name_mkm": "Tenth Edition",
-    "date": "07/2007",
+    "releaseTimestamp": 1183240800,
     "canBeFoil": true,
     "digest": "c9d1acf4cb358705fa3427b2fb4979d1"
   },
@@ -1455,7 +1455,7 @@
     "code_mtgi": "DK",
     "name_tcgp": "The Dark",
     "name_mkm": "The Dark",
-    "date": "08/1994",
+    "releaseTimestamp": 775692000,
     "canBeFoil": false,
     "digest": "1cb4b98c52ea92bfb484b30947f85808"
   },
@@ -1465,7 +1465,7 @@
     "code_mtgi": "THS",
     "name_tcgp": "Theros",
     "name_mkm": "Theros",
-    "date": "09/2013",
+    "releaseTimestamp": 1377986400,
     "canBeFoil": true,
     "digest": "e08b744fa622762c27ab8f348fdd024f"
   },
@@ -1475,7 +1475,7 @@
     "code_mtgi": "TS",
     "name_tcgp": "Time Spiral",
     "name_mkm": "Time Spiral",
-    "date": "09/2006",
+    "releaseTimestamp": 1157061600,
     "canBeFoil": true,
     "digest": "ae3f346f5f6c31219bc73690135990cd"
   },
@@ -1485,7 +1485,7 @@
     "code_mtgi": "TSTS",
     "name_tcgp": "Timeshifted",
     "name_mkm": "Time Spiral",
-    "date": "09/2006",
+    "releaseTimestamp": 1157061600,
     "canBeFoil": true,
     "digest": "f903d5069f873e7bf8ec62530dcb76e9"
   },
@@ -1495,7 +1495,7 @@
     "code_mtgi": "TR",
     "name_tcgp": "Torment",
     "name_mkm": "Torment",
-    "date": "01/2002",
+    "releaseTimestamp": 1009839600,
     "canBeFoil": true,
     "digest": "281a91a7acad38f3839a1e86af1896b2"
   },
@@ -1505,7 +1505,7 @@
     "code_mtgi": "UFP",
     "name_tcgp": "Ugin's Fate Promos",
     "name_mkm": "Ugin's Fate Promos",
-    "date": "12/2014",
+    "releaseTimestamp": 1417388400,
     "canBeFoil": false,
     "digest": "c440c6a8cef801c5408c1a7ee8982dad"
   },
@@ -1515,7 +1515,7 @@
     "code_mtgi": "UG",
     "name_tcgp": "Unglued",
     "name_mkm": "Unglued",
-    "date": "08/1998",
+    "releaseTimestamp": 901922400,
     "canBeFoil": false,
     "digest": "e9b49eb7594191de5e57ba0f67ea77f4"
   },
@@ -1525,7 +1525,7 @@
     "code_mtgi": "UH",
     "name_tcgp": "Unhinged",
     "name_mkm": "Unhinged",
-    "date": "11/2004",
+    "releaseTimestamp": 1099263600,
     "canBeFoil": true,
     "digest": "9e30b17ffd2d72a50f8dfe628a9b0244"
   },
@@ -1535,7 +1535,7 @@
     "code_mtgi": "UN",
     "name_tcgp": "Unlimited Edition",
     "name_mkm": "Unlimited",
-    "date": "12/1993",
+    "releaseTimestamp": 754700400,
     "canBeFoil": false,
     "digest": "98b6ff844fc753fe20a4f7b2717eba44"
   },
@@ -1545,7 +1545,7 @@
     "code_mtgi": "UD",
     "name_tcgp": "Urza's Destiny",
     "name_mkm": "Urza's Destiny",
-    "date": "05/1999",
+    "releaseTimestamp": 925509600,
     "canBeFoil": true,
     "digest": "dfe821c2e9d77c0b1e61e650704a09cd"
   },
@@ -1555,7 +1555,7 @@
     "code_mtgi": "UL",
     "name_tcgp": "Urza's Legacy",
     "name_mkm": "Urza's Legacy",
-    "date": "02/1999",
+    "releaseTimestamp": 917823600,
     "canBeFoil": true,
     "digest": "6c2abb7178d16ec03d2831ba0445db24"
   },
@@ -1565,7 +1565,7 @@
     "code_mtgi": "US",
     "name_tcgp": "Urza's Saga",
     "name_mkm": "Urza's Saga",
-    "date": "10/1998",
+    "releaseTimestamp": 907192800,
     "canBeFoil": false,
     "digest": "8c29f988cb2f35f7d04dd57f44fc4841"
   },
@@ -1575,7 +1575,7 @@
     "code_mtgi": "VNG",
     "name_tcgp": "Vanguard",
     "name_mkm": "Vanguard",
-    "date": "07/1993",
+    "releaseTimestamp": 741477600,
     "canBeFoil": false,
     "digest": "7b113475c859ea2db9fd8d5ec2f707d3"
   },
@@ -1585,7 +1585,7 @@
     "code_mtgi": "",
     "name_tcgp": "",
     "name_mkm": "",
-    "date": "",
+    "releaseTimestamp": 0,
     "canBeFoil": false,
     "digest": ""
   },
@@ -1595,7 +1595,7 @@
     "code_mtgi": "VI",
     "name_tcgp": "Visions",
     "name_mkm": "Visions",
-    "date": "02/1997",
+    "releaseTimestamp": 854751600,
     "canBeFoil": false,
     "digest": "71232ac118c7a796f8f4c6a0cf9e7472"
   },
@@ -1605,9 +1605,9 @@
     "code_mtgi": "WL",
     "name_tcgp": "Weatherlight",
     "name_mkm": "Weatherlight",
-    "date": "05/1997",
+    "releaseTimestamp": 862437600,
     "canBeFoil": false,
-    "digest": "d6ed47532cf8c499eaa447c0ea44a2b2"
+    "digest": "f6af18b8b02935bd73515b376a7e4023"
   },
   {
     "name_gatherer": "Welcome Deck 2016",
@@ -1615,7 +1615,7 @@
     "code_mtgi": "W16",
     "name_tcgp": "Welcome Deck 2016",
     "name_mkm": "Welcome Deck 2016",
-    "date": "03/2016",
+    "releaseTimestamp": 1456786800,
     "canBeFoil": false,
     "digest": "e63a14c26252c4ab482b3cb6735451ab"
   },
@@ -1625,7 +1625,7 @@
     "code_mtgi": "WWK",
     "name_tcgp": "Worldwake",
     "name_mkm": "Worldwake",
-    "date": "01/2010",
+    "releaseTimestamp": 1262300400,
     "canBeFoil": true,
     "digest": "bb53a0cad89c5be71c26ec7dde323fb9"
   },
@@ -1635,7 +1635,7 @@
     "code_mtgi": "ZEN",
     "name_tcgp": "Zendikar",
     "name_mkm": "Zendikar",
-    "date": "09/2009",
+    "releaseTimestamp": 1251756000,
     "canBeFoil": true,
     "digest": "f150519759588a923b92486e87dfeb2f"
   },
@@ -1645,7 +1645,7 @@
     "code_mtgi": "EXP",
     "name_tcgp": "Zendikar Expeditions",
     "name_mkm": "Zendikar Expeditions",
-    "date": "09/2015",
+    "releaseTimestamp": 1441058400,
     "canBeFoil": false,
     "digest": "4b7ba7df6140ab1c3a56228e8cb35a60"
   }
