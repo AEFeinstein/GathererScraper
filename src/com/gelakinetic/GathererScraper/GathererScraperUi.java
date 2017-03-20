@@ -549,6 +549,9 @@ public class GathererScraperUi {
 	 */
 	public void writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
 		try {
+			/* Only fix this weird character when writing the patch */
+			exp.mName_gatherer = exp.mName_gatherer.replace("—", "-");
+			
 			Gson gson = GathererScraper.getGson();
 			
 			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
