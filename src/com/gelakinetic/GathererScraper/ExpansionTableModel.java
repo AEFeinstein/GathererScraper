@@ -17,6 +17,7 @@ import javax.swing.table.AbstractTableModel;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Manifest;
 import com.gelakinetic.GathererScraper.JsonTypes.Manifest.ManifestEntry;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.google.gson.Gson;
 
 /**
@@ -51,7 +52,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	};
 
 	/** A list of expansions prime for the scraping */
-	ArrayList<Expansion>		mExpansions				= new ArrayList<Expansion>();
+	ArrayList<ExpansionGS>		mExpansions				= new ArrayList<ExpansionGS>();
 
 	/**
 	 * @return The number of columns in this model
@@ -257,7 +258,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		Expansion[] expansions = gson.fromJson(jsonContent, Expansion[].class);
 		
 		for (Expansion e : expansions) {
-			for (Expansion existing : mExpansions) {
+			for (ExpansionGS existing : mExpansions) {
 				if (GathererScraper.removeNonAscii(existing.mName_gatherer).equals(GathererScraper.removeNonAscii(e.mName_gatherer))) {
 					existing.mDigest = e.mDigest;
 					existing.mCode_gatherer = e.mCode_gatherer;
@@ -320,7 +321,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		manifest.mTimestamp = getTodayTimestamp();
 		
 		/* Build an array of patches */
-		for (Expansion exp : mExpansions) {
+		for (ExpansionGS exp : mExpansions) {
 			/*
 			 * Note, new fields cannot be added to this JSON object. It breaks
 			 * old updaters

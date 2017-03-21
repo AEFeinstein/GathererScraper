@@ -25,8 +25,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
-import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
+import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
+import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 import com.google.common.net.PercentEscaper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -51,15 +53,15 @@ public class GathererScraper {
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<Expansion> scrapeExpansionList() throws IOException {
-		ArrayList<Expansion> expansions = new ArrayList<Expansion>();
+	public static ArrayList<ExpansionGS> scrapeExpansionList() throws IOException {
+		ArrayList<ExpansionGS> expansions = new ArrayList<ExpansionGS>();
 		Document gathererMain = ConnectWithRetries("http://gatherer.wizards.com/Pages/Default.aspx");
 		Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
 
 		for (int i = 0; i < expansionElements.size(); i++) {
 			for (Element e : expansionElements.get(i).getAllElements()) {
 				if (e.ownText().length() > 0) {
-					expansions.add(new Expansion(e.ownText()));
+					expansions.add(new ExpansionGS(e.ownText()));
 				}
 			}
 		}
@@ -75,11 +77,11 @@ public class GathererScraper {
 	 * @param mAllMultiverseIds
 	 * @param gathererScraperUi
 	 *            The UI to post updates to
-	 * @return An ArrayList of Card objects for all cards scraped
+	 * @return An ArrayList of CardGS objects for all cards scraped
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<Card> scrapeExpansion(Expansion exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) throws IOException {
+	public static ArrayList<CardGS> scrapeExpansion(ExpansionGS exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) throws IOException {
 
 		MessageDigest messageDigest = null;
 		try {
@@ -112,7 +114,7 @@ public class GathererScraper {
 			/* Eat it */
 		}
 		
-		ArrayList<Card> cardsArray = new ArrayList<Card>();
+		ArrayList<CardGS> cardsArray = new ArrayList<CardGS>();
 
 		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
 		
@@ -133,7 +135,7 @@ public class GathererScraper {
 			}
 			for (int i = 0; i < cards.size(); i++) {
 				Element e = cards.get(i);
-				Card card = new Card(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
+				CardGS card = new CardGS(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
 				multiverseMap.put(card.mName, card.mMultiverseId);
 				
 				if (cardsArray.contains(card)) {
@@ -146,13 +148,13 @@ public class GathererScraper {
 			pageNum++;
 		}
 
-		ArrayList<Card> scrapedCards = new ArrayList<Card>(cardsArray.size());
-		for (Card c : cardsArray) {
+		ArrayList<CardGS> scrapedCards = new ArrayList<CardGS>(cardsArray.size());
+		for (CardGS c : cardsArray) {
 
-			ArrayList<Card> tmpScrapedCards = scrapePage(Card.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
+			ArrayList<CardGS> tmpScrapedCards = scrapePage(CardGS.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
 			
 			if(tmpScrapedCards != null) {
-				for(Card tmpCard : tmpScrapedCards) {
+				for(CardGS tmpCard : tmpScrapedCards) {
 					if(!scrapedCards.contains(tmpCard)) {
 						scrapedCards.add(tmpCard);
 						mAllMultiverseIds.add(tmpCard.mMultiverseId);
@@ -222,7 +224,7 @@ public class GathererScraper {
 			}
 		}
 		
-		for(Card c : scrapedCards) {
+		for(CardGS c : scrapedCards) {
 			messageDigest.update(c.getBytes());
 		}
 		
@@ -277,12 +279,12 @@ public class GathererScraper {
 	 * @return	An array list of scraped cards
 	 * @throws IOException Thrown if the Internet breaks
 	 */
-	private static ArrayList<Card> scrapePage(String cardUrl, Expansion exp,
+	private static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
 			HashMap<String, Integer> multiverseMap,
 			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
 
 		/* Put all cards from all pages into this ArrayList */
-		ArrayList<Card> scrapedCardsAllPages = new ArrayList<Card>();
+		ArrayList<CardGS> scrapedCardsAllPages = new ArrayList<CardGS>();
 
 		/* Download this page, add it to the collection */
 		ArrayList<Document> cardPages = new ArrayList<Document>();
@@ -295,10 +297,10 @@ public class GathererScraper {
 			/* For all printings */
 			for(Integer mId : mIds) {
 				/* If we haven't downloaded this page yet */
-				String newUrl = Card.getUrl(mId);
+				String newUrl = CardGS.getUrl(mId);
 				if(!newUrl.equals(cardUrl)) {
 					/* Download it */
-					cardPages.add(ConnectWithRetries(Card.getUrl(mId)));
+					cardPages.add(ConnectWithRetries(CardGS.getUrl(mId)));
 				}
 			}
 		}
@@ -311,7 +313,7 @@ public class GathererScraper {
 			int mId = Integer.parseInt(cardPage.baseUri().substring(cardPage.baseUri().lastIndexOf("=") + 1));
 
 			/* Put all cards from this page into this ArrayList */
-			ArrayList<Card> scrapedCards = new ArrayList<Card>();
+			ArrayList<CardGS> scrapedCards = new ArrayList<CardGS>();
 
 			/* Get all cards on this page */
 			HashMap<String, String> ids = getCardIds(cardPage);
@@ -321,14 +323,14 @@ public class GathererScraper {
 				
 //				System.out.println("\t\t" + name);
 
-				Card card;
+				CardGS card;
 				if(cardPages.size() > 1) {
 					/* Pick the multiverseID out of the URL */
-					card = new Card(name, exp.mCode_gatherer, mId);
+					card = new CardGS(name, exp.mCode_gatherer, mId);
 				}
 				else {
 					/* Pick the multiverseID out of the hashmap built from the card list */
-					card = new Card(name, exp.mCode_gatherer, multiverseMap.get(name));
+					card = new CardGS(name, exp.mCode_gatherer, multiverseMap.get(name));
 				}
 				
 				/* Get the ID for this card's information */
@@ -364,41 +366,96 @@ public class GathererScraper {
 				if (card.mExpansion.equals("VNG")) {
 					/* this row is the life & hand modifier for vanguard */
 					card.mText += "<br><br><br>" + pt;
-					card.mPower = null;
-					card.mToughness = null;
-					card.mLoyalty = null;
+					card.mPower = CardDbAdapter.NO_ONE_CARES;
+					card.mToughness = CardDbAdapter.NO_ONE_CARES;
+					card.mLoyalty = CardDbAdapter.NO_ONE_CARES;
 				}
 				else {
 					if (pt != null) {
 						if (pt.contains("/")) {
-							card.mPower = pt.split("/")[0].trim();
-							card.mToughness = pt.split("/")[1].trim();
+							String power = pt.split("/")[0].trim();
+							switch(power) {
+								case "*": {
+									card.mPower = CardDbAdapter.STAR;
+									break;
+								}
+								case "1+*": {
+									card.mPower = CardDbAdapter.ONE_PLUS_STAR;
+									break;
+								}
+								case "7-*": {
+									card.mPower = CardDbAdapter.SEVEN_MINUS_STAR;
+									break;
+								}
+								case "2+*": {
+									card.mPower = CardDbAdapter.TWO_PLUS_STAR;
+									break;
+								}
+								case "*^2": {
+									card.mPower = CardDbAdapter.STAR_SQUARED;
+									break;
+								}
+								default: {
+									card.mPower = Float.parseFloat(power);
+									
+								}
+							}
+							String toughness = pt.split("/")[0].trim();
+							switch(toughness) {
+								case "*": {
+									card.mToughness = CardDbAdapter.STAR;
+									break;
+								}
+								case "1+*": {
+									card.mToughness = CardDbAdapter.ONE_PLUS_STAR;
+									break;
+								}
+								case "7-*": {
+									card.mToughness = CardDbAdapter.SEVEN_MINUS_STAR;
+									break;
+								}
+								case "2+*": {
+									card.mToughness = CardDbAdapter.TWO_PLUS_STAR;
+									break;
+								}
+								case "*^2": {
+									card.mToughness = CardDbAdapter.STAR_SQUARED;
+									break;
+								}
+								default: {
+									card.mToughness = Float.parseFloat(toughness);
+									
+								}
+							}
 						}
 						else {
-							card.mLoyalty = pt.trim();
+							card.mLoyalty = Integer.parseInt(pt.trim());
 						}
 					}
 				}
 	
 				/* Rarity */
-				card.mRarity = getTextFromAttribute(cardPage, id + "rarityRow", "value", true);
-				if (card.mExpansion.equals("TSB")) {
-					/* They say Special, I say Timeshifted */
-					card.mRarity = "Timeshifted";
-				}
-				else if (card.mRarity.isEmpty()) {
+				String rarity = getTextFromAttribute(cardPage, id + "rarityRow", "value", true);
+				if(rarity.isEmpty()) {
 					/* Edge case for promotional cards */
-					card.mRarity = "Rare";
+					card.mRarity = 'R';
 				}
-				else if (card.mRarity.equalsIgnoreCase("Land")) {
+				else if (card.mExpansion.equals("TSB")) {
+					/* They say Special, I say Timeshifted */
+					card.mRarity = 'T';
+				}
+				else if (rarity.equalsIgnoreCase("Land")) {
 					/* Basic lands aren't technically common, but the app doesn't
 					 * understand "Land"
 					 */
-					card.mRarity = "Common";
+					card.mRarity = 'C';
 				}
-				else if (card.mRarity.equalsIgnoreCase("Special")) {
+				else if (rarity.equalsIgnoreCase("Special")) {
 					/* Planechase, Promos, Vanguards */
-					card.mRarity = "Rare";
+					card.mRarity = 'R';
+				}
+				else {
+					card.mRarity = rarity.charAt(0);
 				}
 	
 				/* artist */
@@ -409,7 +466,7 @@ public class GathererScraper {
 				if(cachedCollectorsNumbers != null) {
 					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
 					if(card.mNumber == null) {
-						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "Æ").replace("ae", "æ"));						
+						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "ï¿½").replace("ae", "ï¿½"));						
 					}
 				}
 				
@@ -628,7 +685,7 @@ public class GathererScraper {
 			 */
 			/* Edit: Seems to be better now, commenting out instead of deleting just in case
 			if(scrapedCards.size() > 1 && usingGathererNumbers) {
-				Collections.sort(scrapedCards, Card.getNameComparator());
+				Collections.sort(scrapedCards, CardGS.getNameComparator());
 				for(int i = 0; i < scrapedCards.size(); i++) {
 					scrapedCards.get(i).mNumber = scrapedCards.get(i).mNumber.replaceAll("[A-Za-z]", ((char)('a' + i)) + "");
 				}
@@ -891,7 +948,7 @@ public class GathererScraper {
 		/* remove whitespace between symbols */
 		.replaceAll("\\}\\s+\\{", "\\}\\{")
 		/* replace silly divider, planeswalker minus */
-		.replaceAll("—", "-").replaceAll("-", "-"));
+		.replaceAll("ï¿½", "-").replaceAll("-", "-"));
 	}
 
 	/**
@@ -931,20 +988,20 @@ public class GathererScraper {
 	 */
 	static String removeNonAscii(String line) {
 		String replacements[][] =
-			{{"’", "'"},
-			 {"®", "(R)"},
-			 {"™", "(TM)"},
-			 {"“", "\""},
-			 {"”", "\""},
-			 {"—", "-"},
-			 {"–", "-"},
-			 {"‘", "'"},
-			 {"â", "a"},
-			 {"á", "a"},
-			 {"ú", "u"},
-			 {"û", "u"},
-			 {"Æ", "Ae"},
-			 {"©", "(C)"}};
+			{{"ï¿½", "'"},
+			 {"ï¿½", "(R)"},
+			 {"ï¿½", "(TM)"},
+			 {"ï¿½", "\""},
+			 {"ï¿½", "\""},
+			 {"ï¿½", "-"},
+			 {"ï¿½", "-"},
+			 {"ï¿½", "'"},
+			 {"ï¿½", "a"},
+			 {"ï¿½", "a"},
+			 {"ï¿½", "u"},
+			 {"ï¿½", "u"},
+			 {"ï¿½", "Ae"},
+			 {"ï¿½", "(C)"}};
 			 /* Loop through all the known replacements and perform them */
 		for(String[] replaceSet : replacements) {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);

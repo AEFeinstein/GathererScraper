@@ -19,6 +19,7 @@ import javax.swing.JTextArea;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.LegalityData;
 import com.gelakinetic.GathererScraper.JsonTypes.LegalityData.Format;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
 
@@ -45,7 +46,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	/** The number of dialog windows open. Needs to be 0 to scrape cards */
 	int								mWindowsOpen		= 0;
 	/** A list of all expansions to check input against */
-	private ArrayList<Expansion>	mExpansions;
+	private ArrayList<ExpansionGS>	mExpansions;
 	/** Keep track of invalid (mistyped) set codes for error display */
 	private ArrayList<String>		mInvalidExpansions	= new ArrayList<String>();
 
@@ -75,7 +76,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 * @param expansions
 	 *            A list of all expansions
 	 */
-	public void setExpansions(ArrayList<Expansion> expansions) {
+	public void setExpansions(ArrayList<ExpansionGS> expansions) {
 		this.mExpansions = expansions;
 	}
 

@@ -21,7 +21,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import com.gelakinetic.GathererScraper.GathererScraper;
-import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 
 public class GathererChecker {
 	/**
@@ -39,10 +39,10 @@ public class GathererChecker {
 			/* Read in the current RSS file */
 			ArrayList<RssEntry> entries = readRssFile(rssFile);
 			/* Scrape a list of expansions */
-			ArrayList<Expansion> expansions = GathererScraper.scrapeExpansionList();
+			ArrayList<ExpansionGS> expansions = GathererScraper.scrapeExpansionList();
 
 			/* For each expansion */
-			for (Expansion exp : expansions) {
+			for (ExpansionGS exp : expansions) {
 				/* See if it's already in the RSS file */
 				if (!entries.contains(exp)) {
 					/* If it isn't, add it to the file. Null GUID and date will be populated */

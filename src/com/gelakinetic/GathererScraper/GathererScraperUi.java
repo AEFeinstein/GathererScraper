@@ -19,8 +19,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -52,6 +50,9 @@ import com.camick.TableColumnAdjuster;
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
+import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
+import com.gelakinetic.GathererScraper.JsonTypesGS.PatchGS;
 import com.google.gson.Gson;
 
 /**
@@ -349,7 +350,7 @@ public class GathererScraperUi {
 								.availableProcessors());
 						mNumExpansions = 0;
 						mExpansionsProcessed = 0;
-						for (final Expansion exp : mExpansionTableModel.mExpansions) {
+						for (final ExpansionGS exp : mExpansionTableModel.mExpansions) {
 							if (exp.mChecked) {
 
 								threadPool.submit(new Runnable() {
@@ -362,7 +363,7 @@ public class GathererScraperUi {
 									@Override
 									public void run() {
 										try {
-											ArrayList<Card> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
+											ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
 											writeJsonPatchFile(exp, cards);
 										}
 										catch (Exception e) {
@@ -481,7 +482,7 @@ public class GathererScraperUi {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if (chckbxSelectAll.isSelected()) {
-					for (Expansion exp : mExpansionTableModel.mExpansions) {
+					for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
 						if(exp.isScraped()) {
 							exp.mChecked = true;
 						}
@@ -491,7 +492,7 @@ public class GathererScraperUi {
 					}
 				}
 				else {
-					for (Expansion exp : mExpansionTableModel.mExpansions) {
+					for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
 						exp.mChecked = false;
 					}
 				}
@@ -547,7 +548,7 @@ public class GathererScraperUi {
 	 * @return a JSONObject containing metadata about the patch. This is used to
 	 *         build a patch manifest
 	 */
-	public void writeJsonPatchFile(Expansion exp, ArrayList<Card> allCards) {
+	public void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
 		try {
 			/* Only fix this weird character when writing the patch */
 			exp.mName_gatherer = exp.mName_gatherer.replace("—", "-");
@@ -557,8 +558,8 @@ public class GathererScraperUi {
 			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
 			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));
 			
-			Patch patch = new Patch(exp, allCards);
-			gos.write(gson.toJson(patch).getBytes());
+			PatchGS patch = new PatchGS(exp, allCards);
+			gos.write(gson.toJson((Patch)patch).getBytes());
 			gos.flush();
 			gos.close();
 		}
