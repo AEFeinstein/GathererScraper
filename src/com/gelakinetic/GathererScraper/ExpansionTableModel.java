@@ -330,7 +330,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 			if (exp.isScraped()) {
 				ManifestEntry entry = manifest.new ManifestEntry();
 				entry.mName = exp.mName_gatherer;
-				entry.mURL = "https://sites.google.com/site/mtgfamiliar/patches/" + exp.mCode_gatherer
+				entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/" + exp.mCode_gatherer
 						+ ".json.gzip";
 				entry.mCode = exp.mCode_gatherer;
 				entry.mDigest = exp.mDigest;

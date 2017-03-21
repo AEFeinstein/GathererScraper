@@ -3,955 +3,955 @@
   "patches": [
     {
       "name": "Aether Revolt",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AER.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AER.json.gzip",
       "code": "AER",
       "digest": "fb11e0543f292ecb58351dfe5ca1fcab"
     },
     {
       "name": "Alara Reborn",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ARB.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARB.json.gzip",
       "code": "ARB",
       "digest": "88ccd56340a77deb26ec74806614b299"
     },
     {
       "name": "Alliances",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AL.json.gzip",
       "code": "AL",
       "digest": "857a27daf0e0f35cb9ac586d4efddbb8"
     },
     {
       "name": "Antiquities",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AQ.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AQ.json.gzip",
       "code": "AQ",
       "digest": "909c7fca3d48974019bd433a7c338afc"
     },
     {
       "name": "Apocalypse",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AP.json.gzip",
       "code": "AP",
       "digest": "a52dd2f78c84332cd576985faf153074"
     },
     {
       "name": "Arabian Nights",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AN.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AN.json.gzip",
       "code": "AN",
       "digest": "59473e2a43df5209981ada5c55112d61"
     },
     {
       "name": "Archenemy",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ARC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARC.json.gzip",
       "code": "ARC",
       "digest": "0763edd8fe36f785b7cbde7230399c03"
     },
     {
       "name": "Avacyn Restored",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AVR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AVR.json.gzip",
       "code": "AVR",
       "digest": "6bdb938608b2b7b8d22b838d3ae0d47c"
     },
     {
       "name": "Battle Royale Box Set",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/BR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BR.json.gzip",
       "code": "BR",
       "digest": "8f59da02d36589378a3818d54d9047ba"
     },
     {
       "name": "Battle for Zendikar",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/BFZ.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BFZ.json.gzip",
       "code": "BFZ",
       "digest": "d02d97baf0091bf28a518d0ea4f62a08"
     },
     {
       "name": "Beatdown Box Set",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/BD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BD.json.gzip",
       "code": "BD",
       "digest": "2985e208cac27918390fbd049902a5ff"
     },
     {
       "name": "Betrayers of Kamigawa",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/BOK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BOK.json.gzip",
       "code": "BOK",
       "digest": "b657a7ca2cfee49a0c8adc3dd0f8f4f0"
     },
     {
       "name": "Born of the Gods",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/BNG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BNG.json.gzip",
       "code": "BNG",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Champions of Kamigawa",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CHK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CHK.json.gzip",
       "code": "CHK",
       "digest": "7eab90e356e50a07203b5b85ff629c39"
     },
     {
       "name": "Chronicles",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CH.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CH.json.gzip",
       "code": "CH",
       "digest": "78258aded901c2964f088c3c06373649"
     },
     {
       "name": "Classic Sixth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/6E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/6E.json.gzip",
       "code": "6E",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Coldsnap",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CS.json.gzip",
       "code": "CS",
       "digest": "d49e5b1ececaf45e3c67ff14a7b991b7"
     },
     {
       "name": "Commander 2013 Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/C13.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C13.json.gzip",
       "code": "C13",
       "digest": "51a5fd6487d3cb66cbfb1f8a960c0fb9"
     },
     {
       "name": "Commander 2014",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/C14.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C14.json.gzip",
       "code": "C14",
       "digest": "071de9042b3d401d5e2c1e7f9ce1424d"
     },
     {
       "name": "Commander 2015",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/C15.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C15.json.gzip",
       "code": "C15",
       "digest": "18720fe6a5873cbce42a251abfb815e6"
     },
     {
       "name": "Commander 2016",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/C16.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C16.json.gzip",
       "code": "C16",
       "digest": "bf8b77da760dc1235200ddb063506ed4"
     },
     {
       "name": "Commander's Arsenal",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CRS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CRS.json.gzip",
       "code": "CRS",
       "digest": "2fcc9d2eeb672578b377f7bd591f2889"
     },
     {
       "name": "Conflux",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CFX.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CFX.json.gzip",
       "code": "CFX",
       "digest": "88ccd56340a77deb26ec74806614b299"
     },
     {
       "name": "Conspiracy: Take the Crown",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CN2.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CN2.json.gzip",
       "code": "CN2",
       "digest": "ee0e1b2d83b1a762c5d5a8c0d9a56dfb"
     },
     {
       "name": "Dark Ascension",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DKA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DKA.json.gzip",
       "code": "DKA",
       "digest": "87a72d4a0f0ce6d665e6148b0e2b007e"
     },
     {
       "name": "Darksteel",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DS.json.gzip",
       "code": "DS",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Dissension",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DIS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DIS.json.gzip",
       "code": "DIS",
       "digest": "7bbb9ac5d08058a2ec208419bb54d98f"
     },
     {
       "name": "Dragon's Maze",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DGM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DGM.json.gzip",
       "code": "DGM",
       "digest": "87a72d4a0f0ce6d665e6148b0e2b007e"
     },
     {
       "name": "Dragons of Tarkir",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DTK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DTK.json.gzip",
       "code": "DTK",
       "digest": "02763bd17a8cb0946421a735e3e92189"
     },
     {
       "name": "Duel Decks Anthology, Divine vs. Demonic",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DD3DVD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3DVD.json.gzip",
       "code": "DD3DVD",
       "digest": "289bf2257ec8c22398e54656662942e4"
     },
     {
       "name": "Duel Decks Anthology, Elves vs. Goblins",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DD3EVG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3EVG.json.gzip",
       "code": "DD3EVG",
       "digest": "289bf2257ec8c22398e54656662942e4"
     },
     {
       "name": "Duel Decks Anthology, Garruk vs. Liliana",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DD3GVL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3GVL.json.gzip",
       "code": "DD3GVL",
       "digest": "e3b57c084d240a95c4bdbfde4cbda685"
     },
     {
       "name": "Duel Decks Anthology, Jace vs. Chandra",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DD3JVC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3JVC.json.gzip",
       "code": "DD3JVC",
       "digest": "289bf2257ec8c22398e54656662942e4"
     },
     {
       "name": "Duel Decks: Ajani vs. Nicol Bolas",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/AVB.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AVB.json.gzip",
       "code": "AVB",
       "digest": "7a6b9db8b31fa61978a286d640505f41"
     },
     {
       "name": "Duel Decks: Blessed vs. Cursed",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDQ.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDQ.json.gzip",
       "code": "DDQ",
       "digest": "6219bbd4045ebc48762d7e6defb83c85"
     },
     {
       "name": "Duel Decks: Divine vs. Demonic",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DVD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DVD.json.gzip",
       "code": "DVD",
       "digest": "0510a7be7bb680f2977de3cfb8283eb5"
     },
     {
       "name": "Duel Decks: Elspeth vs. Kiora",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDO.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDO.json.gzip",
       "code": "DDO",
       "digest": "ccc1ebd5055002d83bfb3d6281fe4956"
     },
     {
       "name": "Duel Decks: Elspeth vs. Tezzeret",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EVT.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVT.json.gzip",
       "code": "EVT",
       "digest": "e1f9013228afbbc64178de77e796e9d6"
     },
     {
       "name": "Duel Decks: Elves vs. Goblins",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EVG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVG.json.gzip",
       "code": "EVG",
       "digest": "0510a7be7bb680f2977de3cfb8283eb5"
     },
     {
       "name": "Duel Decks: Garruk vs. Liliana",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/GVL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GVL.json.gzip",
       "code": "GVL",
       "digest": "aaf541c951a9f0db0ec01105e007b781"
     },
     {
       "name": "Duel Decks: Heroes vs. Monsters",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/HVM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HVM.json.gzip",
       "code": "HVM",
       "digest": "c2fe23e752202892447d343020361b69"
     },
     {
       "name": "Duel Decks: Izzet vs. Golgari",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/IVG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IVG.json.gzip",
       "code": "IVG",
       "digest": "dc1bde2726c03e70ce9ca02677200c52"
     },
     {
       "name": "Duel Decks: Jace vs. Chandra",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/JVC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JVC.json.gzip",
       "code": "JVC",
       "digest": "e3b57c084d240a95c4bdbfde4cbda685"
     },
     {
       "name": "Duel Decks: Jace vs. Vraska",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDM.json.gzip",
       "code": "DDM",
       "digest": "93f5acc2939beed9d14ff122335c332e"
     },
     {
       "name": "Duel Decks: Knights vs. Dragons",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/KVD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KVD.json.gzip",
       "code": "KVD",
       "digest": "c2fe23e752202892447d343020361b69"
     },
     {
       "name": "Duel Decks: Nissa vs. Ob Nixilis",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDR.json.gzip",
       "code": "DDR",
       "digest": "bbb6e9c30f9a582aac45eb4a139e1c52"
     },
     {
       "name": "Duel Decks: Phyrexia vs. the Coalition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PVC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PVC.json.gzip",
       "code": "PVC",
       "digest": "324cd050bc190af349c74a1d4aa01acf"
     },
     {
       "name": "Duel Decks: Sorin vs. Tibalt",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SVT.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SVT.json.gzip",
       "code": "SVT",
       "digest": "6219bbd4045ebc48762d7e6defb83c85"
     },
     {
       "name": "Duel Decks: Speed vs. Cunning",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDN.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDN.json.gzip",
       "code": "DDN",
       "digest": "b73aab2c261b1e894bdc9c4df1d07a56"
     },
     {
       "name": "Duel Decks: Venser vs. Koth",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/VVK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VVK.json.gzip",
       "code": "VVK",
       "digest": "a52018fd05ccb124fb9fdcfbc2fad1f1"
     },
     {
       "name": "Duel Decks: Zendikar vs. Eldrazi",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DDP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDP.json.gzip",
       "code": "DDP",
       "digest": "6219bbd4045ebc48762d7e6defb83c85"
     },
     {
       "name": "Eighth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/8E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/8E.json.gzip",
       "code": "8E",
       "digest": "cf23d8093140720e812692db709edcda"
     },
     {
       "name": "Eldritch Moon",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EMN.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EMN.json.gzip",
       "code": "EMN",
       "digest": "23b5f1056503f3f1ab339b19c91d0bac"
     },
     {
       "name": "Eternal Masters",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EMA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EMA.json.gzip",
       "code": "EMA",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Eventide",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EVE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVE.json.gzip",
       "code": "EVE",
       "digest": "97acb6ee1482d329f4d463cc68aecc84"
     },
     {
       "name": "Exodus",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EX.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EX.json.gzip",
       "code": "EX",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Fallen Empires",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/FE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FE.json.gzip",
       "code": "FE",
       "digest": "be3d4618f5fedbe662960f5574ad9bda"
     },
     {
       "name": "Fate Reforged",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/FRF.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FRF.json.gzip",
       "code": "FRF",
       "digest": "8b0962d175c7aecee531d0f89e9a1982"
     },
     {
       "name": "Fifth Dawn",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/FD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FD.json.gzip",
       "code": "FD",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Fifth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/5E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/5E.json.gzip",
       "code": "5E",
       "digest": "1e1940241a350a9f466b6ba895f54de7"
     },
     {
       "name": "Fourth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/4E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/4E.json.gzip",
       "code": "4E",
       "digest": "082d211e87fbe97491e84f425f6408b4"
     },
     {
       "name": "From the Vault: Angels",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/V15.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V15.json.gzip",
       "code": "V15",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Annihilation (2014)",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/V14.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V14.json.gzip",
       "code": "V14",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Dragons",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DRG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DRG.json.gzip",
       "code": "DRG",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Exiled",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EXL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EXL.json.gzip",
       "code": "EXL",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Legends",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/LEG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LEG.json.gzip",
       "code": "LEG",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Lore",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/V16.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V16.json.gzip",
       "code": "V16",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Realms",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/RLM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RLM.json.gzip",
       "code": "RLM",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Relics",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/RLC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RLC.json.gzip",
       "code": "RLC",
       "digest": "13fb9492f5e1aac6c19189cce9dd5670"
     },
     {
       "name": "From the Vault: Twenty",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/V13.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V13.json.gzip",
       "code": "V13",
       "digest": "7d1ddc4670e14132ce2c6c50d990a08c"
     },
     {
       "name": "Future Sight",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/FUT.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FUT.json.gzip",
       "code": "FUT",
       "digest": "97acb6ee1482d329f4d463cc68aecc84"
     },
     {
       "name": "Gatecrash",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/GTC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GTC.json.gzip",
       "code": "GTC",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Guildpact",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/GP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GP.json.gzip",
       "code": "GP",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Homelands",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/HL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HL.json.gzip",
       "code": "HL",
       "digest": "9530333ae14813ec32f18b7e33692a0c"
     },
     {
       "name": "Ice Age",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/IA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IA.json.gzip",
       "code": "IA",
       "digest": "c9624c65cad2534f736b2168cc8f09f6"
     },
     {
       "name": "Innistrad",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ISD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ISD.json.gzip",
       "code": "ISD",
       "digest": "55f514e09efde82f4680f35e3599b383"
     },
     {
       "name": "Invasion",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/IN.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IN.json.gzip",
       "code": "IN",
       "digest": "663b0a51af3f281a3ff208ba093010d5"
     },
     {
       "name": "Journey into Nyx",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/JOU.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JOU.json.gzip",
       "code": "JOU",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Judgment",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/JU.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JU.json.gzip",
       "code": "JU",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Kaladesh",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/KLD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KLD.json.gzip",
       "code": "KLD",
       "digest": "36a62c2affcf6d94cc5784b8e3b97f4c"
     },
     {
       "name": "Khans of Tarkir",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/KTK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KTK.json.gzip",
       "code": "KTK",
       "digest": "259b407258c49694bb706509396ce553"
     },
     {
       "name": "Legends",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/LG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LG.json.gzip",
       "code": "LG",
       "digest": "11834c96e8efb9797ca0ea29cc48f867"
     },
     {
       "name": "Legions",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/LE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LE.json.gzip",
       "code": "LE",
       "digest": "88ccd56340a77deb26ec74806614b299"
     },
     {
       "name": "Limited Edition Alpha",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/A.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/A.json.gzip",
       "code": "A",
       "digest": "07f836ccf765789b3400ba69f682cc91"
     },
     {
       "name": "Limited Edition Beta",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/B.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/B.json.gzip",
       "code": "B",
       "digest": "a36394c5811e5a08fa1ad579459fa694"
     },
     {
       "name": "Lorwyn",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/LRW.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LRW.json.gzip",
       "code": "LRW",
       "digest": "49ea9dc1f27130b21f02c0801c5216b5"
     },
     {
       "name": "Magic 2010",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M10.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M10.json.gzip",
       "code": "M10",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Magic 2011",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M11.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M11.json.gzip",
       "code": "M11",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Magic 2012",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M12.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M12.json.gzip",
       "code": "M12",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Magic 2013",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M13.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M13.json.gzip",
       "code": "M13",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Magic 2014 Core Set",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M14.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M14.json.gzip",
       "code": "M14",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Magic 2015 Core Set",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/M15.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M15.json.gzip",
       "code": "M15",
       "digest": "55f514e09efde82f4680f35e3599b383"
     },
     {
       "name": "Magic Origins",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ORI.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ORI.json.gzip",
       "code": "ORI",
       "digest": "c4e6b403e62a637d0bdaa302ca972545"
     },
     {
       "name": "Magic: The Gathering-Commander",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CMD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMD.json.gzip",
       "code": "CMD",
       "digest": "6fd782ae97e03a5380e36c63aa5e4b94"
     },
     {
       "name": "Magic: The Gathering-Conspiracy",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/CNS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CNS.json.gzip",
       "code": "CNS",
       "digest": ""
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MPS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MPS.json.gzip",
       "code": "MPS",
       "digest": "85b06f21121d5c3d8d186c22d98ef58b"
     },
     {
       "name": "Mercadian Masques",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM.json.gzip",
       "code": "MM",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Mirage",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MI.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MI.json.gzip",
       "code": "MI",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Mirrodin",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MR.json.gzip",
       "code": "MR",
       "digest": "f5db901ee895853188b4bedad367ca78"
     },
     {
       "name": "Mirrodin Besieged",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MBS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MBS.json.gzip",
       "code": "MBS",
       "digest": "d49e5b1ececaf45e3c67ff14a7b991b7"
     },
     {
       "name": "Modern Event Deck 2014",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MD1.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MD1.json.gzip",
       "code": "MD1",
       "digest": "552fb4d6cd8a6d6a6a102c4e0b93e2e3"
     },
     {
       "name": "Modern Masters",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MMA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MMA.json.gzip",
       "code": "MMA",
       "digest": "fa39bebd22334774f802c2aa82b2341d"
     },
     {
       "name": "Modern Masters 2015 Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MM2.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM2.json.gzip",
       "code": "MM2",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Modern Masters 2017 Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MM3.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM3.json.gzip",
       "code": "MM3",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Morningtide",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MOR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MOR.json.gzip",
       "code": "MOR",
       "digest": "0d77dc48bcf0222463f28e86a794cf1a"
     },
     {
       "name": "Nemesis",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/NE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NE.json.gzip",
       "code": "NE",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "New Phyrexia",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/NPH.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NPH.json.gzip",
       "code": "NPH",
       "digest": "03d2de521205aaf105f9645e9e564a57"
     },
     {
       "name": "Ninth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/9E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/9E.json.gzip",
       "code": "9E",
       "digest": "ae01392cdb9e0b7fbb70a6265b5c5f59"
     },
     {
       "name": "Oath of the Gatewatch",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/OGW.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OGW.json.gzip",
       "code": "OGW",
       "digest": "6fae971faa7960d55bd92618f9658225"
     },
     {
       "name": "Odyssey",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/OD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OD.json.gzip",
       "code": "OD",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Onslaught",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ON.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ON.json.gzip",
       "code": "ON",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Planar Chaos",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PLC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PLC.json.gzip",
       "code": "PLC",
       "digest": "b657a7ca2cfee49a0c8adc3dd0f8f4f0"
     },
     {
       "name": "Planechase",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PCH.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCH.json.gzip",
       "code": "PCH",
       "digest": "0e9f34b4142393a6e46cff263148edd7"
     },
     {
       "name": "Planechase 2012 Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PC2.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PC2.json.gzip",
       "code": "PC2",
       "digest": "4b7f5bc6bd3bdb1a8d8c300002efe8dc"
     },
     {
       "name": "Planechase Anthology",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PCA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCA.json.gzip",
       "code": "PCA",
       "digest": "1a5cb07420419d2bd2cca123a7f18996"
     },
     {
       "name": "Planeshift",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PS.json.gzip",
       "code": "PS",
       "digest": "9adec13a7d3732440476ee85f2cde8d9"
     },
     {
       "name": "Portal",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PT.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PT.json.gzip",
       "code": "PT",
       "digest": "ee0e1b2d83b1a762c5d5a8c0d9a56dfb"
     },
     {
       "name": "Portal Second Age",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/P2.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/P2.json.gzip",
       "code": "P2",
       "digest": "99509e2213f6c8cc0cef6be3b220237c"
     },
     {
       "name": "Portal Three Kingdoms",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/P3.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/P3.json.gzip",
       "code": "P3",
       "digest": "97acb6ee1482d329f4d463cc68aecc84"
     },
     {
       "name": "Premium Deck Series: Fire and Lightning",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/FAL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FAL.json.gzip",
       "code": "FAL",
       "digest": "f495a6bb492977a7379da3221a156916"
     },
     {
       "name": "Premium Deck Series: Graveborn",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/GRV.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GRV.json.gzip",
       "code": "GRV",
       "digest": "4502b2398d9671170ffcd3c2ea564858"
     },
     {
       "name": "Premium Deck Series: Slivers",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SLI.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SLI.json.gzip",
       "code": "SLI",
       "digest": "5bcd3d7031b1cd0a671a8b5aebfe13a5"
     },
     {
       "name": "Promo set for Gatherer",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/MBP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MBP.json.gzip",
       "code": "MBP",
       "digest": "7411ccffd456e0c153e58234aa3f11f5"
     },
     {
       "name": "Prophecy",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/PY.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PY.json.gzip",
       "code": "PY",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Ravnica: City of Guilds",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/RAV.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RAV.json.gzip",
       "code": "RAV",
       "digest": "f5db901ee895853188b4bedad367ca78"
     },
     {
       "name": "Return to Ravnica",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/RTR.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RTR.json.gzip",
       "code": "RTR",
       "digest": "36a62c2affcf6d94cc5784b8e3b97f4c"
     },
     {
       "name": "Revised Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/R.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/R.json.gzip",
       "code": "R",
       "digest": "8d255091cca5b5137615680346be1b38"
     },
     {
       "name": "Rise of the Eldrazi",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ROE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ROE.json.gzip",
       "code": "ROE",
       "digest": "6ed3f306b490e04bc0f2eaa2d468b94e"
     },
     {
       "name": "Saviors of Kamigawa",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SOK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOK.json.gzip",
       "code": "SOK",
       "digest": "4d2eba7a0f2e20ed458ae29359f2fb7d"
     },
     {
       "name": "Scars of Mirrodin",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SOM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOM.json.gzip",
       "code": "SOM",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Scourge",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SC.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SC.json.gzip",
       "code": "SC",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Seventh Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/7E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/7E.json.gzip",
       "code": "7E",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Shadowmoor",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SHM.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SHM.json.gzip",
       "code": "SHM",
       "digest": "49ea9dc1f27130b21f02c0801c5216b5"
     },
     {
       "name": "Shadows over Innistrad",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SOI.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOI.json.gzip",
       "code": "SOI",
       "digest": "57cf9091a935e1a91aa785d1bb997056"
     },
     {
       "name": "Shards of Alara",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ALA.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ALA.json.gzip",
       "code": "ALA",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Starter 1999",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ST.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ST.json.gzip",
       "code": "ST",
       "digest": "bd3bfdf153c95faa22a133ec9944ac8e"
     },
     {
       "name": "Starter 2000",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/S2.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/S2.json.gzip",
       "code": "S2",
       "digest": "789eafd9ecd1e585948463e912d85e94"
     },
     {
       "name": "Stronghold",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/SH.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SH.json.gzip",
       "code": "SH",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Tempest",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/TE.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TE.json.gzip",
       "code": "TE",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Tenth Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/10E.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/10E.json.gzip",
       "code": "10E",
       "digest": "f09e661478c2f9dcf8f65306fec185c6"
     },
     {
       "name": "The Dark",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/DK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DK.json.gzip",
       "code": "DK",
       "digest": "4aea6419f9153b93a2b09cbb9edaa584"
     },
     {
       "name": "Theros",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/THS.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/THS.json.gzip",
       "code": "THS",
       "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
     },
     {
       "name": "Time Spiral",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/TSP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSP.json.gzip",
       "code": "TSP",
       "digest": "ae3f346f5f6c31219bc73690135990cd"
     },
     {
       "name": "Time Spiral \"Timeshifted\"",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/TSB.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSB.json.gzip",
       "code": "TSB",
       "digest": "f903d5069f873e7bf8ec62530dcb76e9"
     },
     {
       "name": "Torment",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/TO.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TO.json.gzip",
       "code": "TO",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Ugin's Fate promos",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/UFP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UFP.json.gzip",
       "code": "UFP",
       "digest": "552fb4d6cd8a6d6a6a102c4e0b93e2e3"
     },
     {
       "name": "Unglued",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/UG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UG.json.gzip",
       "code": "UG",
       "digest": "e9b49eb7594191de5e57ba0f67ea77f4"
     },
     {
       "name": "Unhinged",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/UNH.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UNH.json.gzip",
       "code": "UNH",
       "digest": "9e30b17ffd2d72a50f8dfe628a9b0244"
     },
     {
       "name": "Unlimited Edition",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/U.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/U.json.gzip",
       "code": "U",
       "digest": "a36394c5811e5a08fa1ad579459fa694"
     },
     {
       "name": "Urza's Destiny",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/UD.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UD.json.gzip",
       "code": "UD",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Urza's Legacy",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/UL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UL.json.gzip",
       "code": "UL",
       "digest": "b7bd0dc719b2610211a47b1750157c55"
     },
     {
       "name": "Urza's Saga",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/US.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/US.json.gzip",
       "code": "US",
       "digest": "3e68ea94584b66f588eadfadb3969ad4"
     },
     {
       "name": "Vanguard",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/VNG.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VNG.json.gzip",
       "code": "VNG",
       "digest": "2e14e82fc807b138352991fbce108742"
     },
     {
       "name": "Visions",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/VI.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VI.json.gzip",
       "code": "VI",
       "digest": "914ac1851b0bad38427d535ed6a22a19"
     },
     {
       "name": "Weatherlight",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/WL.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WL.json.gzip",
       "code": "WL",
       "digest": "914ac1851b0bad38427d535ed6a22a19"
     },
     {
       "name": "Welcome Deck 2016",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/W16.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/W16.json.gzip",
       "code": "W16",
       "digest": "d6521d460283da17e6e8f3db20bf76da"
     },
     {
       "name": "Worldwake",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/WWK.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WWK.json.gzip",
       "code": "WWK",
       "digest": "88ccd56340a77deb26ec74806614b299"
     },
     {
       "name": "Zendikar",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/ZEN.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZEN.json.gzip",
       "code": "ZEN",
       "digest": "259b407258c49694bb706509396ce553"
     },
     {
       "name": "Zendikar Expeditions",
-      "uRL": "https://sites.google.com/site/mtgfamiliar/patches/EXP.json.gzip",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EXP.json.gzip",
       "code": "EXP",
       "digest": "60e93219ad9003d5f001bb60ac0b1259"
     }
