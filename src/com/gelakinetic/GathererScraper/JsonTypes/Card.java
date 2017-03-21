@@ -32,7 +32,7 @@ public class Card {
     public String mExpansion = "";
 
     // The card's rarity
-    public char mRarity = '\0';
+	public char mRarity = '\0';
 
     // The card's collector's number. Not an integer (i.e. 181a, 181b)
     public String mNumber = "";
