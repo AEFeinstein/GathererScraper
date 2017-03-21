@@ -47,7 +47,6 @@ import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 
 import com.camick.TableColumnAdjuster;
-import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
@@ -551,7 +550,7 @@ public class GathererScraperUi {
 	public void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
 		try {
 			/* Only fix this weird character when writing the patch */
-			exp.mName_gatherer = exp.mName_gatherer.replace("—", "-");
+			exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_gatherer);
 			
 			Gson gson = GathererScraper.getGson();
 			

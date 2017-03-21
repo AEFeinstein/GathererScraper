@@ -260,6 +260,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		for (Expansion e : expansions) {
 			for (ExpansionGS existing : mExpansions) {
 				if (GathererScraper.removeNonAscii(existing.mName_gatherer).equals(GathererScraper.removeNonAscii(e.mName_gatherer))) {
+					existing.mName_gatherer = GathererScraper.removeNonAscii(e.mName_gatherer);
 					existing.mDigest = e.mDigest;
 					existing.mCode_gatherer = e.mCode_gatherer;
 					existing.mCode_mtgi = e.mCode_mtgi;

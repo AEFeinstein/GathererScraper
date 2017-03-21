@@ -466,7 +466,7 @@ public class GathererScraper {
 				if(cachedCollectorsNumbers != null) {
 					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
 					if(card.mNumber == null) {
-						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "�").replace("ae", "�"));						
+						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + removeNonAscii(card.mName));						
 					}
 				}
 				
@@ -938,7 +938,7 @@ public class GathererScraper {
 				}
 			}
 		}
-		return StringEscapeUtils.unescapeHtml4(output.toString()
+		return removeNonAscii(StringEscapeUtils.unescapeHtml4(output.toString()
 		/* replace whitespace at the head and tail */
 		.trim()
 		/* remove whitespace around newlines */
@@ -946,9 +946,7 @@ public class GathererScraper {
 		/* Condense spaces and tabs */
 		.replaceAll("[ \\t]+", " ")
 		/* remove whitespace between symbols */
-		.replaceAll("\\}\\s+\\{", "\\}\\{")
-		/* replace silly divider, planeswalker minus */
-		.replaceAll("�", "-").replaceAll("-", "-"));
+		.replaceAll("\\}\\s+\\{", "\\}\\{")));
 	}
 
 	/**
@@ -988,20 +986,21 @@ public class GathererScraper {
 	 */
 	static String removeNonAscii(String line) {
 		String replacements[][] =
-			{{"�", "'"},
-			 {"�", "(R)"},
-			 {"�", "(TM)"},
-			 {"�", "\""},
-			 {"�", "\""},
-			 {"�", "-"},
-			 {"�", "-"},
-			 {"�", "'"},
-			 {"�", "a"},
-			 {"�", "a"},
-			 {"�", "u"},
-			 {"�", "u"},
-			 {"�", "Ae"},
-			 {"�", "(C)"}};
+			{{"’", "'"},
+			{"®", "(R)"},
+			{"™", "(TM)"},
+			{"“", "\""},
+			{"”", "\""},
+			{"—", "-"},
+			{"–", "-"},
+			{"‘", "'"},
+			{"â", "a"},
+			{"á", "a"},
+			{"ú", "u"},
+			{"û", "u"},
+			{"Æ", "Ae"},
+			{"æ", "ae"},
+			{"©", "(C)"}};
 			 /* Loop through all the known replacements and perform them */
 		for(String[] replaceSet : replacements) {
 			line = line.replaceAll(replaceSet[0], replaceSet[1]);
