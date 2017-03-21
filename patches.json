@@ -1,5 +1,5 @@
 {
-  "timestamp": 1490072508,
+  "timestamp": 1490077604,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -17,7 +17,7 @@
       "name": "Alliances",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AL.json.gzip",
       "code": "AL",
-      "digest": "857a27daf0e0f35cb9ac586d4efddbb8"
+      "digest": "f05ed73335bb831520793b78f3ccd924"
     },
     {
       "name": "Antiquities",
@@ -35,7 +35,7 @@
       "name": "Arabian Nights",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AN.json.gzip",
       "code": "AN",
-      "digest": "59473e2a43df5209981ada5c55112d61"
+      "digest": "dc1bde2726c03e70ce9ca02677200c52"
     },
     {
       "name": "Archenemy",
@@ -89,7 +89,7 @@
       "name": "Chronicles",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CH.json.gzip",
       "code": "CH",
-      "digest": "78258aded901c2964f088c3c06373649"
+      "digest": "3001ec3f95414c495a13dfdcbb69b139"
     },
     {
       "name": "Classic Sixth Edition",
@@ -107,7 +107,7 @@
       "name": "Commander 2013 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C13.json.gzip",
       "code": "C13",
-      "digest": "51a5fd6487d3cb66cbfb1f8a960c0fb9"
+      "digest": "cf23d8093140720e812692db709edcda"
     },
     {
       "name": "Commander 2014",
@@ -359,13 +359,13 @@
       "name": "Fifth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/5E.json.gzip",
       "code": "5E",
-      "digest": "1e1940241a350a9f466b6ba895f54de7"
+      "digest": "a60533690dcdf5f232024dbb2d71f716"
     },
     {
       "name": "Fourth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/4E.json.gzip",
       "code": "4E",
-      "digest": "082d211e87fbe97491e84f425f6408b4"
+      "digest": "36aae8a5b1a4d589e453685cf6d445b8"
     },
     {
       "name": "From the Vault: Angels",
@@ -449,7 +449,7 @@
       "name": "Ice Age",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IA.json.gzip",
       "code": "IA",
-      "digest": "c9624c65cad2534f736b2168cc8f09f6"
+      "digest": "f09e661478c2f9dcf8f65306fec185c6"
     },
     {
       "name": "Innistrad",
@@ -761,7 +761,7 @@
       "name": "Revised Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/R.json.gzip",
       "code": "R",
-      "digest": "8d255091cca5b5137615680346be1b38"
+      "digest": "f5db901ee895853188b4bedad367ca78"
     },
     {
       "name": "Rise of the Eldrazi",
@@ -857,13 +857,13 @@
       "name": "Time Spiral",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSP.json.gzip",
       "code": "TSP",
-      "digest": "ae3f346f5f6c31219bc73690135990cd"
+      "digest": "49ea9dc1f27130b21f02c0801c5216b5"
     },
     {
       "name": "Time Spiral \"Timeshifted\"",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSB.json.gzip",
       "code": "TSB",
-      "digest": "f903d5069f873e7bf8ec62530dcb76e9"
+      "digest": "34917682c7e33dfd97f23069066e8d10"
     },
     {
       "name": "Torment",
@@ -881,7 +881,7 @@
       "name": "Unglued",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UG.json.gzip",
       "code": "UG",
-      "digest": "e9b49eb7594191de5e57ba0f67ea77f4"
+      "digest": "87c10555495072acc01207af46221f7a"
     },
     {
       "name": "Unhinged",

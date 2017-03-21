@@ -27,7 +27,7 @@
     "name_mkm": "Alliances",
     "releaseTimestamp": 833580000,
     "canBeFoil": false,
-    "digest": "857a27daf0e0f35cb9ac586d4efddbb8"
+    "digest": "f05ed73335bb831520793b78f3ccd924"
   },
   {
     "name_gatherer": "Antiquities",
@@ -57,7 +57,7 @@
     "name_mkm": "Arabian Nights",
     "releaseTimestamp": 754700400,
     "canBeFoil": false,
-    "digest": "59473e2a43df5209981ada5c55112d61"
+    "digest": "dc1bde2726c03e70ce9ca02677200c52"
   },
   {
     "name_gatherer": "Archenemy",
@@ -147,7 +147,7 @@
     "name_mkm": "Chronicles",
     "releaseTimestamp": 804549600,
     "canBeFoil": false,
-    "digest": "78258aded901c2964f088c3c06373649"
+    "digest": "3001ec3f95414c495a13dfdcbb69b139"
   },
   {
     "name_gatherer": "Classic Sixth Edition",
@@ -177,7 +177,7 @@
     "name_mkm": "Commander 2013",
     "releaseTimestamp": 1383260400,
     "canBeFoil": false,
-    "digest": "51a5fd6487d3cb66cbfb1f8a960c0fb9"
+    "digest": "cf23d8093140720e812692db709edcda"
   },
   {
     "name_gatherer": "Commander 2014",
@@ -597,7 +597,7 @@
     "name_mkm": "Fifth Edition",
     "releaseTimestamp": 857170800,
     "canBeFoil": false,
-    "digest": "1e1940241a350a9f466b6ba895f54de7"
+    "digest": "a60533690dcdf5f232024dbb2d71f716"
   },
   {
     "name_gatherer": "Fourth Edition",
@@ -607,7 +607,7 @@
     "name_mkm": "Fourth Edition",
     "releaseTimestamp": 796687200,
     "canBeFoil": false,
-    "digest": "082d211e87fbe97491e84f425f6408b4"
+    "digest": "36aae8a5b1a4d589e453685cf6d445b8"
   },
   {
     "name_gatherer": "From the Vault: Angels",
@@ -747,7 +747,7 @@
     "name_mkm": "Ice Age",
     "releaseTimestamp": 801957600,
     "canBeFoil": false,
-    "digest": "c9624c65cad2534f736b2168cc8f09f6"
+    "digest": "f09e661478c2f9dcf8f65306fec185c6"
   },
   {
     "name_gatherer": "Innistrad",
@@ -1307,7 +1307,7 @@
     "name_mkm": "Revised",
     "releaseTimestamp": 765151200,
     "canBeFoil": false,
-    "digest": "8d255091cca5b5137615680346be1b38"
+    "digest": "f5db901ee895853188b4bedad367ca78"
   },
   {
     "name_gatherer": "Rise of the Eldrazi",
@@ -1477,7 +1477,7 @@
     "name_mkm": "Time Spiral",
     "releaseTimestamp": 1157061600,
     "canBeFoil": true,
-    "digest": "ae3f346f5f6c31219bc73690135990cd"
+    "digest": "49ea9dc1f27130b21f02c0801c5216b5"
   },
   {
     "name_gatherer": "Time Spiral \"Timeshifted\"",
@@ -1487,7 +1487,7 @@
     "name_mkm": "Time Spiral",
     "releaseTimestamp": 1157061600,
     "canBeFoil": true,
-    "digest": "f903d5069f873e7bf8ec62530dcb76e9"
+    "digest": "34917682c7e33dfd97f23069066e8d10"
   },
   {
     "name_gatherer": "Torment",
@@ -1517,7 +1517,7 @@
     "name_mkm": "Unglued",
     "releaseTimestamp": 901922400,
     "canBeFoil": false,
-    "digest": "e9b49eb7594191de5e57ba0f67ea77f4"
+    "digest": "87c10555495072acc01207af46221f7a"
   },
   {
     "name_gatherer": "Unhinged",
