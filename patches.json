@@ -1,5 +1,5 @@
 {
-  "timestamp": 1490077604,
+  "timestamp": 1490078579,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -569,7 +569,7 @@
       "name": "Magic: The Gathering-Conspiracy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CNS.json.gzip",
       "code": "CNS",
-      "digest": ""
+      "digest": "29a568612384fa7ee341830e10ebaa51"
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
@@ -887,7 +887,7 @@
       "name": "Unhinged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UNH.json.gzip",
       "code": "UNH",
-      "digest": "9e30b17ffd2d72a50f8dfe628a9b0244"
+      "digest": "ea8f0671b86c89cb251be1dcb4b6b0b7"
     },
     {
       "name": "Unlimited Edition",
