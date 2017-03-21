@@ -111,7 +111,7 @@ public class GathererScraper {
 			}
 		}
 		catch(Exception e) {
-			/* Eat it */
+			System.err.println("Couldn't open old patch for " + exp.mName_gatherer);
 		}
 		
 		ArrayList<CardGS> cardsArray = new ArrayList<CardGS>();
@@ -123,9 +123,14 @@ public class GathererScraper {
 		boolean loop = true;
 		while (loop) {
 
+			String tmpName = exp.mName_gatherer;
+			/* Un-ascii Conspiracy */
+			if(tmpName.equals("Magic: The Gathering-Conspiracy")) {
+				tmpName = "Magic: The Gathering—Conspiracy";
+			}
 			String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
 					+ "&output=compact&action=advanced&set=%5b%22"
-					+ (new PercentEscaper("", true)).escape(exp.mName_gatherer) + "%22%5d&special=true";
+					+ (new PercentEscaper("", true)).escape(tmpName) + "%22%5d&special=true";
 
 			Document individualExpansion = ConnectWithRetries(urlStr);
 
@@ -164,7 +169,10 @@ public class GathererScraper {
 			}
 		}
 
-		if (scrapedCards.get(0).mNumber.length() < 1) {
+		if (scrapedCards.isEmpty()) {
+			System.out.print("Scrape failed " + exp.mName_gatherer);
+		}
+		else if (scrapedCards.get(0).mNumber.length() < 1) {
 			Collections.sort(scrapedCards);
 			for (int i = 0; i < scrapedCards.size(); i++) {
 				scrapedCards.get(i).mNumber = "" + (i + 1);
@@ -373,7 +381,7 @@ public class GathererScraper {
 				else {
 					if (pt != null) {
 						if (pt.contains("/")) {
-							String power = pt.split("/")[0].trim();
+							String power = pt.replace("{1/2}", ".5").split("/")[0].trim();
 							switch(power) {
 								case "*": {
 									card.mPower = CardDbAdapter.STAR;
@@ -391,7 +399,7 @@ public class GathererScraper {
 									card.mPower = CardDbAdapter.TWO_PLUS_STAR;
 									break;
 								}
-								case "*^2": {
+								case "*{^2}": {
 									card.mPower = CardDbAdapter.STAR_SQUARED;
 									break;
 								}
@@ -400,7 +408,7 @@ public class GathererScraper {
 									
 								}
 							}
-							String toughness = pt.split("/")[0].trim();
+							String toughness = pt.replace("{1/2}", ".5").split("/")[0].trim();
 							switch(toughness) {
 								case "*": {
 									card.mToughness = CardDbAdapter.STAR;
@@ -418,7 +426,7 @@ public class GathererScraper {
 									card.mToughness = CardDbAdapter.TWO_PLUS_STAR;
 									break;
 								}
-								case "*^2": {
+								case "*{^2}": {
 									card.mToughness = CardDbAdapter.STAR_SQUARED;
 									break;
 								}
