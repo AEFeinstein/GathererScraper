@@ -7,7 +7,7 @@
     "name_mkm": "Aether Revolt",
     "releaseTimestamp": 1483225200,
     "canBeFoil": true,
-    "digest": "e0687b709598f24c73b8e00b2c204915"
+    "digest": "fb11e0543f292ecb58351dfe5ca1fcab"
   },
   {
     "name_gatherer": "Alara Reborn",
@@ -17,7 +17,7 @@
     "name_mkm": "Alara Reborn",
     "releaseTimestamp": 1238536800,
     "canBeFoil": true,
-    "digest": "5bcb93acbb4f7b76bb99bdb092ed6d4f"
+    "digest": "88ccd56340a77deb26ec74806614b299"
   },
   {
     "name_gatherer": "Alliances",
@@ -37,7 +37,7 @@
     "name_mkm": "Antiquities",
     "releaseTimestamp": 765151200,
     "canBeFoil": false,
-    "digest": "cda883e31e27b945f655f3b4901b96e9"
+    "digest": "909c7fca3d48974019bd433a7c338afc"
   },
   {
     "name_gatherer": "Apocalypse",
@@ -47,7 +47,7 @@
     "name_mkm": "Apocalypse",
     "releaseTimestamp": 988668000,
     "canBeFoil": true,
-    "digest": "e4ad6e05acc5a263c9b5220a1c94b290"
+    "digest": "a52dd2f78c84332cd576985faf153074"
   },
   {
     "name_gatherer": "Arabian Nights",
@@ -67,7 +67,7 @@
     "name_mkm": "Archenemy",
     "releaseTimestamp": 1275343200,
     "canBeFoil": false,
-    "digest": "5ec1c74a77dba34560a6e452b867f79b"
+    "digest": "0763edd8fe36f785b7cbde7230399c03"
   },
   {
     "name_gatherer": "Avacyn Restored",
@@ -77,7 +77,7 @@
     "name_mkm": "Avacyn Restored",
     "releaseTimestamp": 1335823200,
     "canBeFoil": true,
-    "digest": "658373b71f820fc1aefbe172df7e73a7"
+    "digest": "6bdb938608b2b7b8d22b838d3ae0d47c"
   },
   {
     "name_gatherer": "Battle Royale Box Set",
@@ -87,7 +87,7 @@
     "name_mkm": "Battle Royale",
     "releaseTimestamp": 941410800,
     "canBeFoil": false,
-    "digest": "864aaf0f487ecdf0a72a5ee4aab5b64a"
+    "digest": "8f59da02d36589378a3818d54d9047ba"
   },
   {
     "name_gatherer": "Battle for Zendikar",
@@ -97,7 +97,7 @@
     "name_mkm": "Battle for Zendikar",
     "releaseTimestamp": 1441058400,
     "canBeFoil": true,
-    "digest": "6a6aa205d25e9e52310fc1e8a18640aa"
+    "digest": "d02d97baf0091bf28a518d0ea4f62a08"
   },
   {
     "name_gatherer": "Beatdown Box Set",
@@ -107,7 +107,7 @@
     "name_mkm": "Beatdown",
     "releaseTimestamp": 975625200,
     "canBeFoil": false,
-    "digest": "7a9b11930c271b3442fb7ded5556c36c"
+    "digest": "2985e208cac27918390fbd049902a5ff"
   },
   {
     "name_gatherer": "Betrayers of Kamigawa",
@@ -117,7 +117,7 @@
     "name_mkm": "Betrayers of Kamigawa",
     "releaseTimestamp": 1104534000,
     "canBeFoil": true,
-    "digest": "a18601ceaeee377dc50ccde3b1c7cb42"
+    "digest": "b657a7ca2cfee49a0c8adc3dd0f8f4f0"
   },
   {
     "name_gatherer": "Born of the Gods",
@@ -127,7 +127,7 @@
     "name_mkm": "Born of the Gods",
     "releaseTimestamp": 1391209200,
     "canBeFoil": true,
-    "digest": "3bed6322e3863fdc14ea0c18dc8ad065"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Champions of Kamigawa",
@@ -137,7 +137,7 @@
     "name_mkm": "Champions of Kamigawa",
     "releaseTimestamp": 1093989600,
     "canBeFoil": true,
-    "digest": "3fe72c68fc553879c840c0bac0cfbb19"
+    "digest": "7eab90e356e50a07203b5b85ff629c39"
   },
   {
     "name_gatherer": "Chronicles",
@@ -157,7 +157,7 @@
     "name_mkm": "Sixth Edition",
     "releaseTimestamp": 922917600,
     "canBeFoil": false,
-    "digest": "22f2d3eecf1858eebebbb396f978cd58"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Coldsnap",
@@ -167,7 +167,7 @@
     "name_mkm": "Coldsnap",
     "releaseTimestamp": 1149112800,
     "canBeFoil": true,
-    "digest": "bae67f1545c337a46591d67a83a53082"
+    "digest": "d49e5b1ececaf45e3c67ff14a7b991b7"
   },
   {
     "name_gatherer": "Commander 2013 Edition",
@@ -187,7 +187,7 @@
     "name_mkm": "Commander 2014",
     "releaseTimestamp": 1414796400,
     "canBeFoil": false,
-    "digest": "073381134f02a80b2c895e236e4b83f9"
+    "digest": "071de9042b3d401d5e2c1e7f9ce1424d"
   },
   {
     "name_gatherer": "Commander 2015",
@@ -197,7 +197,7 @@
     "name_mkm": "Commander 2015",
     "releaseTimestamp": 1446332400,
     "canBeFoil": false,
-    "digest": "13bc86b7eb6febf34d53fafdd0a33230"
+    "digest": "18720fe6a5873cbce42a251abfb815e6"
   },
   {
     "name_gatherer": "Commander 2016",
@@ -207,7 +207,7 @@
     "name_mkm": "Commander 2016",
     "releaseTimestamp": 1477954800,
     "canBeFoil": false,
-    "digest": "c145309b1f74307017368bdca6654fdb"
+    "digest": "bf8b77da760dc1235200ddb063506ed4"
   },
   {
     "name_gatherer": "Commander's Arsenal",
@@ -217,7 +217,7 @@
     "name_mkm": "Commander's Arsenal",
     "releaseTimestamp": 1351724400,
     "canBeFoil": false,
-    "digest": "9331776243e451cf3d7bc732648a652c"
+    "digest": "2fcc9d2eeb672578b377f7bd591f2889"
   },
   {
     "name_gatherer": "Conflux",
@@ -227,7 +227,7 @@
     "name_mkm": "Conflux",
     "releaseTimestamp": 1230764400,
     "canBeFoil": true,
-    "digest": "693d077c6ee7885ab7de08105999d61f"
+    "digest": "88ccd56340a77deb26ec74806614b299"
   },
   {
     "name_gatherer": "Conspiracy: Take the Crown",
@@ -237,7 +237,7 @@
     "name_mkm": "Conspiracy: Take the Crown",
     "releaseTimestamp": 1470002400,
     "canBeFoil": true,
-    "digest": "3ba991a53a1752a683c916c85f2e867b"
+    "digest": "ee0e1b2d83b1a762c5d5a8c0d9a56dfb"
   },
   {
     "name_gatherer": "Dark Ascension",
@@ -247,7 +247,7 @@
     "name_mkm": "Dark Ascension",
     "releaseTimestamp": 1328050800,
     "canBeFoil": true,
-    "digest": "4630c6f0d9697f05e81b8ba4db489849"
+    "digest": "87a72d4a0f0ce6d665e6148b0e2b007e"
   },
   {
     "name_gatherer": "Darksteel",
@@ -257,7 +257,7 @@
     "name_mkm": "Darksteel",
     "releaseTimestamp": 1072911600,
     "canBeFoil": true,
-    "digest": "54b63dc68b1c5a4c5c7b006acfcc83ea"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Dissension",
@@ -267,7 +267,7 @@
     "name_mkm": "Dissension",
     "releaseTimestamp": 1143842400,
     "canBeFoil": true,
-    "digest": "71c11b2ac87aded98e5c5a07df0aa2f7"
+    "digest": "7bbb9ac5d08058a2ec208419bb54d98f"
   },
   {
     "name_gatherer": "Dragon's Maze",
@@ -277,7 +277,7 @@
     "name_mkm": "Dragon's Maze",
     "releaseTimestamp": 1367359200,
     "canBeFoil": true,
-    "digest": "37d68790d16e9551163abb7e324734ab"
+    "digest": "87a72d4a0f0ce6d665e6148b0e2b007e"
   },
   {
     "name_gatherer": "Dragons of Tarkir",
@@ -287,7 +287,7 @@
     "name_mkm": "Dragons of Tarkir",
     "releaseTimestamp": 1425164400,
     "canBeFoil": true,
-    "digest": "2447f1e3937b8f3dad8c486bb0eba404"
+    "digest": "02763bd17a8cb0946421a735e3e92189"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Divine vs. Demonic",
@@ -297,7 +297,7 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
-    "digest": "d29464328f592debc3b1a2362c76d8a9"
+    "digest": "289bf2257ec8c22398e54656662942e4"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Elves vs. Goblins",
@@ -307,7 +307,7 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
-    "digest": "62bed9fb3212726bb340ff03a0b2e1cc"
+    "digest": "289bf2257ec8c22398e54656662942e4"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Garruk vs. Liliana",
@@ -317,7 +317,7 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
-    "digest": "355763292d3b38d350d77fcfccf48ac9"
+    "digest": "e3b57c084d240a95c4bdbfde4cbda685"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Jace vs. Chandra",
@@ -327,7 +327,7 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
-    "digest": "338ddf6ee1c6efd8c48f2d31fe45ed1c"
+    "digest": "289bf2257ec8c22398e54656662942e4"
   },
   {
     "name_gatherer": "Duel Decks: Ajani vs. Nicol Bolas",
@@ -337,7 +337,7 @@
     "name_mkm": "Duel Decks: Ajani vs. Nicol Bolas",
     "releaseTimestamp": 1312149600,
     "canBeFoil": false,
-    "digest": "02ba13c7bdd231183d191d391f326f59"
+    "digest": "7a6b9db8b31fa61978a286d640505f41"
   },
   {
     "name_gatherer": "Duel Decks: Blessed vs. Cursed",
@@ -347,7 +347,7 @@
     "name_mkm": "Duel Decks: Blessed vs. Cursed",
     "releaseTimestamp": 1454281200,
     "canBeFoil": false,
-    "digest": "b85354a85b75aad248cbe52e0415f040"
+    "digest": "6219bbd4045ebc48762d7e6defb83c85"
   },
   {
     "name_gatherer": "Duel Decks: Divine vs. Demonic",
@@ -357,7 +357,7 @@
     "name_mkm": "Duel Decks: Divine vs. Demonic",
     "releaseTimestamp": 1238536800,
     "canBeFoil": false,
-    "digest": "c289cb231c4625eddffd96bf7ac0f796"
+    "digest": "0510a7be7bb680f2977de3cfb8283eb5"
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Kiora",
@@ -367,7 +367,7 @@
     "name_mkm": "Duel Decks: Elspeth vs. Kiora",
     "releaseTimestamp": 1422745200,
     "canBeFoil": false,
-    "digest": "c2646fffca1e03c4fbbb9348c2ed617b"
+    "digest": "ccc1ebd5055002d83bfb3d6281fe4956"
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Tezzeret",
@@ -377,7 +377,7 @@
     "name_mkm": "Duel Decks: Elspeth vs. Tezzeret",
     "releaseTimestamp": 1283292000,
     "canBeFoil": false,
-    "digest": "d9e8e61b94960db2f715847d532a2cec"
+    "digest": "e1f9013228afbbc64178de77e796e9d6"
   },
   {
     "name_gatherer": "Duel Decks: Elves vs. Goblins",
@@ -387,7 +387,7 @@
     "name_mkm": "Duel Decks: Elves vs. Goblins",
     "releaseTimestamp": 1193871600,
     "canBeFoil": false,
-    "digest": "14a8eb8fb320b1e159e5c97cd7dccae9"
+    "digest": "0510a7be7bb680f2977de3cfb8283eb5"
   },
   {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
@@ -397,7 +397,7 @@
     "name_mkm": "Duel Decks: Garruk vs. Liliana",
     "releaseTimestamp": 1254348000,
     "canBeFoil": false,
-    "digest": "7888368ec6345e063f61ad04d2aa0b4b"
+    "digest": "aaf541c951a9f0db0ec01105e007b781"
   },
   {
     "name_gatherer": "Duel Decks: Heroes vs. Monsters",
@@ -407,7 +407,7 @@
     "name_mkm": "Duel Decks: Heroes vs. Monsters",
     "releaseTimestamp": 1377986400,
     "canBeFoil": false,
-    "digest": "95c998c6991a247ed8442a22dbcbb41f"
+    "digest": "c2fe23e752202892447d343020361b69"
   },
   {
     "name_gatherer": "Duel Decks: Izzet vs. Golgari",
@@ -417,7 +417,7 @@
     "name_mkm": "Duel Decks: Izzet vs. Golgari",
     "releaseTimestamp": 1346450400,
     "canBeFoil": false,
-    "digest": "9aab5e35f0a25f50d6dbf2164398b955"
+    "digest": "dc1bde2726c03e70ce9ca02677200c52"
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Chandra",
@@ -427,7 +427,7 @@
     "name_mkm": "Duel Decks: Jace vs. Chandra",
     "releaseTimestamp": 1225494000,
     "canBeFoil": false,
-    "digest": "8ee4a2e658f6a5c59343a85e8ffa6f25"
+    "digest": "e3b57c084d240a95c4bdbfde4cbda685"
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Vraska",
@@ -437,7 +437,7 @@
     "name_mkm": "Duel Decks: Jace vs. Vraska",
     "releaseTimestamp": 1393628400,
     "canBeFoil": false,
-    "digest": "41202521919730ccccdfe61719658279"
+    "digest": "93f5acc2939beed9d14ff122335c332e"
   },
   {
     "name_gatherer": "Duel Decks: Knights vs. Dragons",
@@ -447,7 +447,7 @@
     "name_mkm": "Duel Decks: Knights vs. Dragons",
     "releaseTimestamp": 1301608800,
     "canBeFoil": false,
-    "digest": "926b4ce22a532fb324fa4c6360e4b00c"
+    "digest": "c2fe23e752202892447d343020361b69"
   },
   {
     "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
@@ -457,7 +457,7 @@
     "name_mkm": "Duel Decks: Nissa vs. Ob Nixilis",
     "releaseTimestamp": 1472680800,
     "canBeFoil": false,
-    "digest": "682f2571eb9ed2bdc6a1faf9d02b7f63"
+    "digest": "bbb6e9c30f9a582aac45eb4a139e1c52"
   },
   {
     "name_gatherer": "Duel Decks: Phyrexia vs. the Coalition",
@@ -467,7 +467,7 @@
     "name_mkm": "Duel Decks: Phyrexia vs. The Coalition",
     "releaseTimestamp": 1267398000,
     "canBeFoil": false,
-    "digest": "01ddc9fe623bf0a24256c65aa725bd3f"
+    "digest": "324cd050bc190af349c74a1d4aa01acf"
   },
   {
     "name_gatherer": "Duel Decks: Sorin vs. Tibalt",
@@ -477,7 +477,7 @@
     "name_mkm": "Duel Decks: Sorin vs. Tibalt",
     "releaseTimestamp": 1362092400,
     "canBeFoil": false,
-    "digest": "f5e362d14e3e1d464b8d9944b0fb2650"
+    "digest": "6219bbd4045ebc48762d7e6defb83c85"
   },
   {
     "name_gatherer": "Duel Decks: Speed vs. Cunning",
@@ -487,7 +487,7 @@
     "name_mkm": "Duel Decks: Speed vs. Cunning",
     "releaseTimestamp": 1409522400,
     "canBeFoil": false,
-    "digest": "a1ea0ebed367f32f14eb7987eb5e79d4"
+    "digest": "b73aab2c261b1e894bdc9c4df1d07a56"
   },
   {
     "name_gatherer": "Duel Decks: Venser vs. Koth",
@@ -497,7 +497,7 @@
     "name_mkm": "Duel Decks: Venser vs. Koth",
     "releaseTimestamp": 1333231200,
     "canBeFoil": false,
-    "digest": "325dbb3b189296fac3e15bd944f1b9f7"
+    "digest": "a52018fd05ccb124fb9fdcfbc2fad1f1"
   },
   {
     "name_gatherer": "Duel Decks: Zendikar vs. Eldrazi",
@@ -507,7 +507,7 @@
     "name_mkm": "Duel Decks: Zendikar vs. Eldrazi",
     "releaseTimestamp": 1438380000,
     "canBeFoil": false,
-    "digest": "aa132fa0dc7dae8374ead08ce91c33c8"
+    "digest": "6219bbd4045ebc48762d7e6defb83c85"
   },
   {
     "name_gatherer": "Eighth Edition",
@@ -517,7 +517,7 @@
     "name_mkm": "Eighth Edition",
     "releaseTimestamp": 1057010400,
     "canBeFoil": true,
-    "digest": "3dcd8d3445a7b53fabe68a0c5f1e3783"
+    "digest": "cf23d8093140720e812692db709edcda"
   },
   {
     "name_gatherer": "Eldritch Moon",
@@ -527,7 +527,7 @@
     "name_mkm": "Eldritch Moon",
     "releaseTimestamp": 1467324000,
     "canBeFoil": true,
-    "digest": "56a325ccb32e720a643220cb3c9cd5ba"
+    "digest": "23b5f1056503f3f1ab339b19c91d0bac"
   },
   {
     "name_gatherer": "Eternal Masters",
@@ -537,7 +537,7 @@
     "name_mkm": "Eternal Masters",
     "releaseTimestamp": 1464732000,
     "canBeFoil": true,
-    "digest": "0c41608f9698ca1e8f41382449c29c04"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Eventide",
@@ -547,7 +547,7 @@
     "name_mkm": "Eventide",
     "releaseTimestamp": 1214863200,
     "canBeFoil": true,
-    "digest": "a6f1d221e66d5aa37d922a888cc66a65"
+    "digest": "97acb6ee1482d329f4d463cc68aecc84"
   },
   {
     "name_gatherer": "Exodus",
@@ -557,7 +557,7 @@
     "name_mkm": "Exodus",
     "releaseTimestamp": 896652000,
     "canBeFoil": false,
-    "digest": "e60429e7855fb34f983c6b6edbd1dca6"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Fallen Empires",
@@ -567,7 +567,7 @@
     "name_mkm": "Fallen Empires",
     "releaseTimestamp": 780966000,
     "canBeFoil": false,
-    "digest": "26de3be1bf7701056b7398279f880d5d"
+    "digest": "be3d4618f5fedbe662960f5574ad9bda"
   },
   {
     "name_gatherer": "Fate Reforged",
@@ -577,7 +577,7 @@
     "name_mkm": "Fate Reforged",
     "releaseTimestamp": 1420066800,
     "canBeFoil": true,
-    "digest": "8a1a8a5852134b88cc10836bd0f03880"
+    "digest": "8b0962d175c7aecee531d0f89e9a1982"
   },
   {
     "name_gatherer": "Fifth Dawn",
@@ -587,7 +587,7 @@
     "name_mkm": "Fifth Dawn",
     "releaseTimestamp": 1083362400,
     "canBeFoil": true,
-    "digest": "5c80fc8fb63d257c731fa444d14e7fcf"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Fifth Edition",
@@ -617,7 +617,7 @@
     "name_mkm": "From the Vault: Angels",
     "releaseTimestamp": 1438380000,
     "canBeFoil": false,
-    "digest": "4f7011f275587f543768dfc805ca079f"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Annihilation (2014)",
@@ -627,7 +627,7 @@
     "name_mkm": "From the Vault: Annihilation",
     "releaseTimestamp": 1406844000,
     "canBeFoil": false,
-    "digest": "3403d7a22c3987dca6f3ae3b4d14fc3a"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Dragons",
@@ -637,7 +637,7 @@
     "name_mkm": "From the Vault: Dragons",
     "releaseTimestamp": 1217541600,
     "canBeFoil": false,
-    "digest": "57e5bd4ffb4b6f5673010d5a2a0e34da"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Exiled",
@@ -647,7 +647,7 @@
     "name_mkm": "From the Vault: Exiled",
     "releaseTimestamp": 1249077600,
     "canBeFoil": false,
-    "digest": "fe859487aab26480ec38a053a2ca4adb"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Legends",
@@ -657,7 +657,7 @@
     "name_mkm": "From the Vault: Legends",
     "releaseTimestamp": 1312149600,
     "canBeFoil": false,
-    "digest": "e210311e9fd3f57587bdafdb5c96590a"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Lore",
@@ -667,7 +667,7 @@
     "name_mkm": "From the Vault: Lore",
     "releaseTimestamp": 1470002400,
     "canBeFoil": false,
-    "digest": "919a14d9ed19b01ac52009e327d3b450"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Realms",
@@ -677,7 +677,7 @@
     "name_mkm": "From the Vault: Realms",
     "releaseTimestamp": 1343772000,
     "canBeFoil": false,
-    "digest": "274ffeb47ca830621352bf10e0fc1a4c"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Relics",
@@ -687,7 +687,7 @@
     "name_mkm": "From the Vault: Relics",
     "releaseTimestamp": 1280613600,
     "canBeFoil": false,
-    "digest": "3cad4774817d3d94aa3900ea9b0d5af6"
+    "digest": "13fb9492f5e1aac6c19189cce9dd5670"
   },
   {
     "name_gatherer": "From the Vault: Twenty",
@@ -697,7 +697,7 @@
     "name_mkm": "From the Vault: Twenty",
     "releaseTimestamp": 1375308000,
     "canBeFoil": false,
-    "digest": "2fc879fe356fd416cee936eda7d3cf61"
+    "digest": "7d1ddc4670e14132ce2c6c50d990a08c"
   },
   {
     "name_gatherer": "Future Sight",
@@ -707,7 +707,7 @@
     "name_mkm": "Future Sight",
     "releaseTimestamp": 1177970400,
     "canBeFoil": true,
-    "digest": "d3c2f736e22add94574fdce38d386ba0"
+    "digest": "97acb6ee1482d329f4d463cc68aecc84"
   },
   {
     "name_gatherer": "Gatecrash",
@@ -717,7 +717,7 @@
     "name_mkm": "Gatecrash",
     "releaseTimestamp": 1356994800,
     "canBeFoil": true,
-    "digest": "47d152de2fd504f2f41f46be9153067e"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Guildpact",
@@ -727,7 +727,7 @@
     "name_mkm": "Guildpact",
     "releaseTimestamp": 1136070000,
     "canBeFoil": true,
-    "digest": "33d50fb5ddc5b2448607dd3166bdbcd2"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Homelands",
@@ -737,7 +737,7 @@
     "name_mkm": "Homelands",
     "releaseTimestamp": 812502000,
     "canBeFoil": false,
-    "digest": "a73e4f5e62135d0388f46c9ba028acf4"
+    "digest": "9530333ae14813ec32f18b7e33692a0c"
   },
   {
     "name_gatherer": "Ice Age",
@@ -757,7 +757,7 @@
     "name_mkm": "Innistrad",
     "releaseTimestamp": 1314828000,
     "canBeFoil": true,
-    "digest": "7a060c8b9ce84161adfaf9a0753c5131"
+    "digest": "55f514e09efde82f4680f35e3599b383"
   },
   {
     "name_gatherer": "Invasion",
@@ -767,7 +767,7 @@
     "name_mkm": "Invasion",
     "releaseTimestamp": 967759200,
     "canBeFoil": true,
-    "digest": "93e86941fead3f2682989398cbc71152"
+    "digest": "663b0a51af3f281a3ff208ba093010d5"
   },
   {
     "name_gatherer": "Journey into Nyx",
@@ -777,7 +777,7 @@
     "name_mkm": "Journey into Nyx",
     "releaseTimestamp": 1398895200,
     "canBeFoil": true,
-    "digest": "47dba8fecc6e7d18da481891d9c6d4e6"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Judgment",
@@ -787,7 +787,7 @@
     "name_mkm": "Judgment",
     "releaseTimestamp": 1020204000,
     "canBeFoil": true,
-    "digest": "cdd01c368514ae71c7fbc4c670edd26f"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Kaladesh",
@@ -797,7 +797,7 @@
     "name_mkm": "Kaladesh",
     "releaseTimestamp": 1472680800,
     "canBeFoil": true,
-    "digest": "b5027125e64c10b0b677a336893af69e"
+    "digest": "36a62c2affcf6d94cc5784b8e3b97f4c"
   },
   {
     "name_gatherer": "Khans of Tarkir",
@@ -807,7 +807,7 @@
     "name_mkm": "Khans of Tarkir",
     "releaseTimestamp": 1409522400,
     "canBeFoil": true,
-    "digest": "4dfc8353fc84bf2e62c5ca62fd47e382"
+    "digest": "259b407258c49694bb706509396ce553"
   },
   {
     "name_gatherer": "Legends",
@@ -817,7 +817,7 @@
     "name_mkm": "Legends",
     "releaseTimestamp": 770421600,
     "canBeFoil": false,
-    "digest": "cb5851855d1f5760ed3877e43ef4f265"
+    "digest": "11834c96e8efb9797ca0ea29cc48f867"
   },
   {
     "name_gatherer": "Legions",
@@ -827,7 +827,7 @@
     "name_mkm": "Legions",
     "releaseTimestamp": 1041375600,
     "canBeFoil": true,
-    "digest": "89ca7ca40745c87e17191386bd13efb2"
+    "digest": "88ccd56340a77deb26ec74806614b299"
   },
   {
     "name_gatherer": "Limited Edition Alpha",
@@ -837,7 +837,7 @@
     "name_mkm": "Alpha",
     "releaseTimestamp": 744156000,
     "canBeFoil": false,
-    "digest": "23341191fa5f84ce4499524ffc721320"
+    "digest": "07f836ccf765789b3400ba69f682cc91"
   },
   {
     "name_gatherer": "Limited Edition Beta",
@@ -847,7 +847,7 @@
     "name_mkm": "Beta",
     "releaseTimestamp": 749430000,
     "canBeFoil": false,
-    "digest": "2cf48c08df63b42304f9fcf98f22a751"
+    "digest": "a36394c5811e5a08fa1ad579459fa694"
   },
   {
     "name_gatherer": "Lorwyn",
@@ -857,7 +857,7 @@
     "name_mkm": "Lorwyn",
     "releaseTimestamp": 1188597600,
     "canBeFoil": true,
-    "digest": "d638d2b4a7cec374205b768bc1f25d0b"
+    "digest": "49ea9dc1f27130b21f02c0801c5216b5"
   },
   {
     "name_gatherer": "Magic 2010",
@@ -867,7 +867,7 @@
     "name_mkm": "Magic 2010",
     "releaseTimestamp": 1246399200,
     "canBeFoil": true,
-    "digest": "0fe0cee9ebf1fba752ab67d13d260b45"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Magic 2011",
@@ -877,7 +877,7 @@
     "name_mkm": "Magic 2011",
     "releaseTimestamp": 1277935200,
     "canBeFoil": true,
-    "digest": "746690056040b6e4fd3196bd7ec81695"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Magic 2012",
@@ -887,7 +887,7 @@
     "name_mkm": "Magic 2012",
     "releaseTimestamp": 1309471200,
     "canBeFoil": true,
-    "digest": "f76ca842178e08e8d66f488df52fb738"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Magic 2013",
@@ -897,7 +897,7 @@
     "name_mkm": "Magic 2013",
     "releaseTimestamp": 1341093600,
     "canBeFoil": true,
-    "digest": "e14f7b871eb92324c1dfc74f9d7e9ada"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Magic 2014 Core Set",
@@ -907,7 +907,7 @@
     "name_mkm": "Magic 2014",
     "releaseTimestamp": 1372629600,
     "canBeFoil": true,
-    "digest": "ea0e19c2e1dfd28b2900da83a43420ba"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Magic 2015 Core Set",
@@ -917,7 +917,7 @@
     "name_mkm": "Magic 2015",
     "releaseTimestamp": 1404165600,
     "canBeFoil": true,
-    "digest": "9fde7f153101f30db275b30143997165"
+    "digest": "55f514e09efde82f4680f35e3599b383"
   },
   {
     "name_gatherer": "Magic Origins",
@@ -927,7 +927,7 @@
     "name_mkm": "Magic Origins",
     "releaseTimestamp": 1435701600,
     "canBeFoil": true,
-    "digest": "ae43695ce9519826005d2d99cab40121"
+    "digest": "c4e6b403e62a637d0bdaa302ca972545"
   },
   {
     "name_gatherer": "Magic: The Gathering-Commander",
@@ -937,17 +937,17 @@
     "name_mkm": "Commander",
     "releaseTimestamp": 1306879200,
     "canBeFoil": false,
-    "digest": "03b28c4dc01a30330f165156a622951f"
+    "digest": "6fd782ae97e03a5380e36c63aa5e4b94"
   },
   {
-    "name_gatherer": "Magic: The Gathering—Conspiracy",
+    "name_gatherer": "Magic: The Gathering-Conspiracy",
     "code_gatherer": "CNS",
     "code_mtgi": "CNS",
     "name_tcgp": "Conspiracy",
     "name_mkm": "Conspiracy",
-    "date": "6/2014",
+    "releaseTimestamp": 1401595200,
     "canBeFoil": true,
-    "digest": "c70c359185d2c9accf45743e90b6d966"
+    "digest": ""
   },
   {
     "name_gatherer": "Masterpiece Series: Kaladesh Inventions",
@@ -957,7 +957,7 @@
     "name_mkm": "Masterpiece Series: Kaladesh Inventions",
     "releaseTimestamp": 1472680800,
     "canBeFoil": false,
-    "digest": "1f8c4d8ce578b011d97c167cb936d9c8"
+    "digest": "85b06f21121d5c3d8d186c22d98ef58b"
   },
   {
     "name_gatherer": "Masters Edition",
@@ -1007,7 +1007,7 @@
     "name_mkm": "Mercadian Masques",
     "releaseTimestamp": 936136800,
     "canBeFoil": true,
-    "digest": "b4b05f822ccb40bf19cc88fd2e4b786e"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Mirage",
@@ -1017,7 +1017,7 @@
     "name_mkm": "Mirage",
     "releaseTimestamp": 844120800,
     "canBeFoil": false,
-    "digest": "bd207df3df22460e46777c21734e8462"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Mirrodin",
@@ -1027,7 +1027,7 @@
     "name_mkm": "Mirrodin",
     "releaseTimestamp": 1062367200,
     "canBeFoil": true,
-    "digest": "28083a56eb950a6ac5755b09178d25be"
+    "digest": "f5db901ee895853188b4bedad367ca78"
   },
   {
     "name_gatherer": "Mirrodin Besieged",
@@ -1037,7 +1037,7 @@
     "name_mkm": "Mirrodin Besieged",
     "releaseTimestamp": 1293836400,
     "canBeFoil": true,
-    "digest": "daaa7a597e42566930bd5e7ddc2c92f6"
+    "digest": "d49e5b1ececaf45e3c67ff14a7b991b7"
   },
   {
     "name_gatherer": "Modern Event Deck 2014",
@@ -1047,7 +1047,7 @@
     "name_mkm": "Modern Event Deck 2014",
     "releaseTimestamp": 1398895200,
     "canBeFoil": false,
-    "digest": "2d0c52e2d3fc1f430f524fb61fbaebcc"
+    "digest": "552fb4d6cd8a6d6a6a102c4e0b93e2e3"
   },
   {
     "name_gatherer": "Modern Masters",
@@ -1057,7 +1057,7 @@
     "name_mkm": "Modern Masters",
     "releaseTimestamp": 1370037600,
     "canBeFoil": true,
-    "digest": "7d4c0ba62f00a59c894cb4b478792d27"
+    "digest": "fa39bebd22334774f802c2aa82b2341d"
   },
   {
     "name_gatherer": "Modern Masters 2015 Edition",
@@ -1067,7 +1067,7 @@
     "name_mkm": "Modern Masters 2015",
     "releaseTimestamp": 1430431200,
     "canBeFoil": true,
-    "digest": "b5f9bbf7dfc9eaa6dfb8a83d6584cf22"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Modern Masters 2017 Edition",
@@ -1077,7 +1077,7 @@
     "name_mkm": "Modern Masters 2017",
     "releaseTimestamp": 1488322800,
     "canBeFoil": true,
-    "digest": "fb81842bbb6a53b07f5033df9cce8a3d"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Morningtide",
@@ -1087,7 +1087,7 @@
     "name_mkm": "Morningtide",
     "releaseTimestamp": 1199142000,
     "canBeFoil": true,
-    "digest": "4e85ebeae130c5e3216d3a9f6d2621e5"
+    "digest": "0d77dc48bcf0222463f28e86a794cf1a"
   },
   {
     "name_gatherer": "Nemesis",
@@ -1097,7 +1097,7 @@
     "name_mkm": "Nemesis",
     "releaseTimestamp": 949359600,
     "canBeFoil": true,
-    "digest": "92373c3fb09fc762f94146993ee31d9a"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "New Phyrexia",
@@ -1107,7 +1107,7 @@
     "name_mkm": "New Phyrexia",
     "releaseTimestamp": 1304200800,
     "canBeFoil": true,
-    "digest": "5b502190ddb8156e1e71e6e93a9941a9"
+    "digest": "03d2de521205aaf105f9645e9e564a57"
   },
   {
     "name_gatherer": "Ninth Edition",
@@ -1117,7 +1117,7 @@
     "name_mkm": "Ninth Edition",
     "releaseTimestamp": 1120168800,
     "canBeFoil": true,
-    "digest": "0d31814123de8a4ecace3a358a9fcce5"
+    "digest": "ae01392cdb9e0b7fbb70a6265b5c5f59"
   },
   {
     "name_gatherer": "Oath of the Gatewatch",
@@ -1127,7 +1127,7 @@
     "name_mkm": "Oath of the Gatewatch",
     "releaseTimestamp": 1451602800,
     "canBeFoil": true,
-    "digest": "5e3b673b72b2c0ceb197f1bcf1389a2b"
+    "digest": "6fae971faa7960d55bd92618f9658225"
   },
   {
     "name_gatherer": "Odyssey",
@@ -1137,7 +1137,7 @@
     "name_mkm": "Odyssey",
     "releaseTimestamp": 999295200,
     "canBeFoil": true,
-    "digest": "0d3b12467982347ff25ee7d85607e66b"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Onslaught",
@@ -1147,7 +1147,7 @@
     "name_mkm": "Onslaught",
     "releaseTimestamp": 1030831200,
     "canBeFoil": true,
-    "digest": "f5e9b8ca694bbd45e65475241de5fecf"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Planar Chaos",
@@ -1157,7 +1157,7 @@
     "name_mkm": "Planar Chaos",
     "releaseTimestamp": 1167606000,
     "canBeFoil": true,
-    "digest": "820b1876c21fdf4db93357cd94773451"
+    "digest": "b657a7ca2cfee49a0c8adc3dd0f8f4f0"
   },
   {
     "name_gatherer": "Planechase",
@@ -1167,7 +1167,7 @@
     "name_mkm": "Planechase",
     "releaseTimestamp": 1251756000,
     "canBeFoil": false,
-    "digest": "6b8ec413527ce3814763e96a8756d0f3"
+    "digest": "0e9f34b4142393a6e46cff263148edd7"
   },
   {
     "name_gatherer": "Planechase 2012 Edition",
@@ -1177,7 +1177,7 @@
     "name_mkm": "Planechase 2012",
     "releaseTimestamp": 1338501600,
     "canBeFoil": false,
-    "digest": "f283b7e137e5d7f59965f5e86131baae"
+    "digest": "4b7f5bc6bd3bdb1a8d8c300002efe8dc"
   },
   {
     "name_gatherer": "Planechase Anthology",
@@ -1187,7 +1187,7 @@
     "name_mkm": "Planechase Anthology",
     "releaseTimestamp": 1477954800,
     "canBeFoil": false,
-    "digest": "302abbcdd3c6e5980f59baa642f3b267"
+    "digest": "1a5cb07420419d2bd2cca123a7f18996"
   },
   {
     "name_gatherer": "Planeshift",
@@ -1197,7 +1197,7 @@
     "name_mkm": "Planeshift",
     "releaseTimestamp": 978303600,
     "canBeFoil": true,
-    "digest": "5f3dad3ab06e4b7bad48153246252157"
+    "digest": "9adec13a7d3732440476ee85f2cde8d9"
   },
   {
     "name_gatherer": "Portal",
@@ -1207,7 +1207,7 @@
     "name_mkm": "Portal",
     "releaseTimestamp": 865116000,
     "canBeFoil": false,
-    "digest": "34784ab0e7cb0b3c56ffe0430ba18d77"
+    "digest": "ee0e1b2d83b1a762c5d5a8c0d9a56dfb"
   },
   {
     "name_gatherer": "Portal Second Age",
@@ -1217,7 +1217,7 @@
     "name_mkm": "Portal Second Age",
     "releaseTimestamp": 896652000,
     "canBeFoil": false,
-    "digest": "da34406ff6316841f8591b04fe7c8a09"
+    "digest": "99509e2213f6c8cc0cef6be3b220237c"
   },
   {
     "name_gatherer": "Portal Three Kingdoms",
@@ -1227,7 +1227,7 @@
     "name_mkm": "Portal Three Kingdoms",
     "releaseTimestamp": 928188000,
     "canBeFoil": false,
-    "digest": "f24b0681bc28dfb57ef4e0937871225b"
+    "digest": "97acb6ee1482d329f4d463cc68aecc84"
   },
   {
     "name_gatherer": "Premium Deck Series: Fire and Lightning",
@@ -1237,7 +1237,7 @@
     "name_mkm": "Premium Deck Series: Fire & Lightning",
     "releaseTimestamp": 1288566000,
     "canBeFoil": false,
-    "digest": "7f6b4a843b90a735e20291532b7490d5"
+    "digest": "f495a6bb492977a7379da3221a156916"
   },
   {
     "name_gatherer": "Premium Deck Series: Graveborn",
@@ -1247,7 +1247,7 @@
     "name_mkm": "Premium Deck Series: Graveborn",
     "releaseTimestamp": 1320102000,
     "canBeFoil": false,
-    "digest": "176889e826d0c597c1b8c1002b7961c8"
+    "digest": "4502b2398d9671170ffcd3c2ea564858"
   },
   {
     "name_gatherer": "Premium Deck Series: Slivers",
@@ -1257,7 +1257,7 @@
     "name_mkm": "Premium Deck Series: Slivers",
     "releaseTimestamp": 1257030000,
     "canBeFoil": false,
-    "digest": "6e243ef2498c542ec103227bfad901c4"
+    "digest": "5bcd3d7031b1cd0a671a8b5aebfe13a5"
   },
   {
     "name_gatherer": "Promo set for Gatherer",
@@ -1267,7 +1267,7 @@
     "name_mkm": "Harper Prism Promos",
     "releaseTimestamp": 738885600,
     "canBeFoil": false,
-    "digest": "2a74936e0a5842dcd6c8fe39b648971c"
+    "digest": "7411ccffd456e0c153e58234aa3f11f5"
   },
   {
     "name_gatherer": "Prophecy",
@@ -1277,7 +1277,7 @@
     "name_mkm": "Prophecy",
     "releaseTimestamp": 957132000,
     "canBeFoil": true,
-    "digest": "4c449bd8e2e117c51c1c0d3fde477540"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Ravnica: City of Guilds",
@@ -1287,7 +1287,7 @@
     "name_mkm": "Ravnica: City of Guilds",
     "releaseTimestamp": 1125525600,
     "canBeFoil": true,
-    "digest": "7af68574a56475accac2719d481dc3c4"
+    "digest": "f5db901ee895853188b4bedad367ca78"
   },
   {
     "name_gatherer": "Return to Ravnica",
@@ -1297,7 +1297,7 @@
     "name_mkm": "Return to Ravnica",
     "releaseTimestamp": 1349042400,
     "canBeFoil": true,
-    "digest": "b71539e3716fc5b3dd7b8af216e8d6a8"
+    "digest": "36a62c2affcf6d94cc5784b8e3b97f4c"
   },
   {
     "name_gatherer": "Revised Edition",
@@ -1317,7 +1317,7 @@
     "name_mkm": "Rise of the Eldrazi",
     "releaseTimestamp": 1270072800,
     "canBeFoil": true,
-    "digest": "f7c629efd33d74662f0b5e502675897a"
+    "digest": "6ed3f306b490e04bc0f2eaa2d468b94e"
   },
   {
     "name_gatherer": "Saviors of Kamigawa",
@@ -1327,7 +1327,7 @@
     "name_mkm": "Saviors of Kamigawa",
     "releaseTimestamp": 1114898400,
     "canBeFoil": true,
-    "digest": "17d9b0a9a3492384c42d2e7975a0b41a"
+    "digest": "4d2eba7a0f2e20ed458ae29359f2fb7d"
   },
   {
     "name_gatherer": "Scars of Mirrodin",
@@ -1337,7 +1337,7 @@
     "name_mkm": "Scars of Mirrodin",
     "releaseTimestamp": 1283292000,
     "canBeFoil": true,
-    "digest": "e83d2904c64a9a06972b4541fdcd3cb2"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Scourge",
@@ -1347,7 +1347,7 @@
     "name_mkm": "Scourge",
     "releaseTimestamp": 1051740000,
     "canBeFoil": true,
-    "digest": "3361eee1534530a95112687e661c5b68"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Seventh Edition",
@@ -1357,7 +1357,7 @@
     "name_mkm": "Seventh Edition",
     "releaseTimestamp": 986076000,
     "canBeFoil": true,
-    "digest": "d347b06ba0a4e5eb5d7d5b37fddc3de0"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Shadowmoor",
@@ -1367,7 +1367,7 @@
     "name_mkm": "Shadowmoor",
     "releaseTimestamp": 1207000800,
     "canBeFoil": true,
-    "digest": "ce432e558cd81e3f951de8be51c05a9c"
+    "digest": "49ea9dc1f27130b21f02c0801c5216b5"
   },
   {
     "name_gatherer": "Shadows over Innistrad",
@@ -1377,7 +1377,7 @@
     "name_mkm": "Shadows over Innistrad",
     "releaseTimestamp": 1456786800,
     "canBeFoil": true,
-    "digest": "c1204c3df15f4dcc8d6591dbd99d2ba6"
+    "digest": "57cf9091a935e1a91aa785d1bb997056"
   },
   {
     "name_gatherer": "Shards of Alara",
@@ -1387,7 +1387,7 @@
     "name_mkm": "Shards of Alara",
     "releaseTimestamp": 1220220000,
     "canBeFoil": true,
-    "digest": "60cb94941a5ae69130a2a6f95a99c97d"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Starter 1999",
@@ -1397,7 +1397,7 @@
     "name_mkm": "Starter 1999",
     "releaseTimestamp": 930780000,
     "canBeFoil": false,
-    "digest": "d8b9414ec068535a2f109ba18ffc5dba"
+    "digest": "bd3bfdf153c95faa22a133ec9944ac8e"
   },
   {
     "name_gatherer": "Starter 2000",
@@ -1407,7 +1407,7 @@
     "name_mkm": "Starter 2000",
     "releaseTimestamp": 962402400,
     "canBeFoil": false,
-    "digest": "02007708f20340a89cd8fd3732bd46d0"
+    "digest": "789eafd9ecd1e585948463e912d85e94"
   },
   {
     "name_gatherer": "Stronghold",
@@ -1417,7 +1417,7 @@
     "name_mkm": "Stronghold",
     "releaseTimestamp": 886287600,
     "canBeFoil": false,
-    "digest": "0bb55d4266cfc59ac850faf6f2468fee"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Tempest",
@@ -1427,7 +1427,7 @@
     "name_mkm": "Tempest",
     "releaseTimestamp": 875656800,
     "canBeFoil": false,
-    "digest": "1dda384a9a4ee9a1c3ec6aa79cc2ea29"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Tempest Remastered",
@@ -1447,7 +1447,7 @@
     "name_mkm": "Tenth Edition",
     "releaseTimestamp": 1183240800,
     "canBeFoil": true,
-    "digest": "c9d1acf4cb358705fa3427b2fb4979d1"
+    "digest": "f09e661478c2f9dcf8f65306fec185c6"
   },
   {
     "name_gatherer": "The Dark",
@@ -1457,7 +1457,7 @@
     "name_mkm": "The Dark",
     "releaseTimestamp": 775692000,
     "canBeFoil": false,
-    "digest": "1cb4b98c52ea92bfb484b30947f85808"
+    "digest": "4aea6419f9153b93a2b09cbb9edaa584"
   },
   {
     "name_gatherer": "Theros",
@@ -1467,7 +1467,7 @@
     "name_mkm": "Theros",
     "releaseTimestamp": 1377986400,
     "canBeFoil": true,
-    "digest": "e08b744fa622762c27ab8f348fdd024f"
+    "digest": "c8d11e6a54b91208dcc9db51ed4f4afa"
   },
   {
     "name_gatherer": "Time Spiral",
@@ -1497,7 +1497,7 @@
     "name_mkm": "Torment",
     "releaseTimestamp": 1009839600,
     "canBeFoil": true,
-    "digest": "281a91a7acad38f3839a1e86af1896b2"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Ugin's Fate promos",
@@ -1507,7 +1507,7 @@
     "name_mkm": "Ugin's Fate Promos",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
-    "digest": "c440c6a8cef801c5408c1a7ee8982dad"
+    "digest": "552fb4d6cd8a6d6a6a102c4e0b93e2e3"
   },
   {
     "name_gatherer": "Unglued",
@@ -1537,7 +1537,7 @@
     "name_mkm": "Unlimited",
     "releaseTimestamp": 754700400,
     "canBeFoil": false,
-    "digest": "98b6ff844fc753fe20a4f7b2717eba44"
+    "digest": "a36394c5811e5a08fa1ad579459fa694"
   },
   {
     "name_gatherer": "Urza's Destiny",
@@ -1547,7 +1547,7 @@
     "name_mkm": "Urza's Destiny",
     "releaseTimestamp": 925509600,
     "canBeFoil": true,
-    "digest": "dfe821c2e9d77c0b1e61e650704a09cd"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Urza's Legacy",
@@ -1557,7 +1557,7 @@
     "name_mkm": "Urza's Legacy",
     "releaseTimestamp": 917823600,
     "canBeFoil": true,
-    "digest": "6c2abb7178d16ec03d2831ba0445db24"
+    "digest": "b7bd0dc719b2610211a47b1750157c55"
   },
   {
     "name_gatherer": "Urza's Saga",
@@ -1567,7 +1567,7 @@
     "name_mkm": "Urza's Saga",
     "releaseTimestamp": 907192800,
     "canBeFoil": false,
-    "digest": "8c29f988cb2f35f7d04dd57f44fc4841"
+    "digest": "3e68ea94584b66f588eadfadb3969ad4"
   },
   {
     "name_gatherer": "Vanguard",
@@ -1577,7 +1577,7 @@
     "name_mkm": "Vanguard",
     "releaseTimestamp": 741477600,
     "canBeFoil": false,
-    "digest": "7b113475c859ea2db9fd8d5ec2f707d3"
+    "digest": "2e14e82fc807b138352991fbce108742"
   },
   {
     "name_gatherer": "Vintage Masters",
@@ -1597,7 +1597,7 @@
     "name_mkm": "Visions",
     "releaseTimestamp": 854751600,
     "canBeFoil": false,
-    "digest": "71232ac118c7a796f8f4c6a0cf9e7472"
+    "digest": "914ac1851b0bad38427d535ed6a22a19"
   },
   {
     "name_gatherer": "Weatherlight",
@@ -1607,7 +1607,7 @@
     "name_mkm": "Weatherlight",
     "releaseTimestamp": 862437600,
     "canBeFoil": false,
-    "digest": "f6af18b8b02935bd73515b376a7e4023"
+    "digest": "914ac1851b0bad38427d535ed6a22a19"
   },
   {
     "name_gatherer": "Welcome Deck 2016",
@@ -1617,7 +1617,7 @@
     "name_mkm": "Welcome Deck 2016",
     "releaseTimestamp": 1456786800,
     "canBeFoil": false,
-    "digest": "e63a14c26252c4ab482b3cb6735451ab"
+    "digest": "d6521d460283da17e6e8f3db20bf76da"
   },
   {
     "name_gatherer": "Worldwake",
@@ -1627,7 +1627,7 @@
     "name_mkm": "Worldwake",
     "releaseTimestamp": 1262300400,
     "canBeFoil": true,
-    "digest": "bb53a0cad89c5be71c26ec7dde323fb9"
+    "digest": "88ccd56340a77deb26ec74806614b299"
   },
   {
     "name_gatherer": "Zendikar",
@@ -1637,7 +1637,7 @@
     "name_mkm": "Zendikar",
     "releaseTimestamp": 1251756000,
     "canBeFoil": true,
-    "digest": "f150519759588a923b92486e87dfeb2f"
+    "digest": "259b407258c49694bb706509396ce553"
   },
   {
     "name_gatherer": "Zendikar Expeditions",
@@ -1647,6 +1647,6 @@
     "name_mkm": "Zendikar Expeditions",
     "releaseTimestamp": 1441058400,
     "canBeFoil": false,
-    "digest": "4b7ba7df6140ab1c3a56228e8cb35a60"
+    "digest": "60e93219ad9003d5f001bb60ac0b1259"
   }
 ]
