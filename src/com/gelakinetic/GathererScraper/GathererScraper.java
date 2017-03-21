@@ -466,7 +466,7 @@ public class GathererScraper {
 				if(cachedCollectorsNumbers != null) {
 					card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
 					if(card.mNumber == null) {
-						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + removeNonAscii(card.mName));						
+						card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "Æ").replace("ae", "æ"));						
 					}
 				}
 				
@@ -938,7 +938,7 @@ public class GathererScraper {
 				}
 			}
 		}
-		return removeNonAscii(StringEscapeUtils.unescapeHtml4(output.toString()
+		return StringEscapeUtils.unescapeHtml4(output.toString()
 		/* replace whitespace at the head and tail */
 		.trim()
 		/* remove whitespace around newlines */
@@ -946,7 +946,9 @@ public class GathererScraper {
 		/* Condense spaces and tabs */
 		.replaceAll("[ \\t]+", " ")
 		/* remove whitespace between symbols */
-		.replaceAll("\\}\\s+\\{", "\\}\\{")));
+		.replaceAll("\\}\\s+\\{", "\\}\\{"))
+		/* replace silly divider, planeswalker minus */
+		.replaceAll("—", "-").replaceAll("−", "-");
 	}
 
 	/**
