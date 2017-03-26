@@ -1,5 +1,5 @@
 {
-  "timestamp": 1490078579,
+  "timestamp": 1490538309,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -270,6 +270,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KVD.json.gzip",
       "code": "KVD",
       "digest": "c2fe23e752202892447d343020361b69"
+    },
+    {
+      "name": "Duel Decks: Mind vs. Might",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDS.json.gzip",
+      "code": "DDS",
+      "digest": "0510a7be7bb680f2977de3cfb8283eb5"
     },
     {
       "name": "Duel Decks: Nissa vs. Ob Nixilis",

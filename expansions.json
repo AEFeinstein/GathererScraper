@@ -450,6 +450,16 @@
     "digest": "c2fe23e752202892447d343020361b69"
   },
   {
+    "name_gatherer": "Duel Decks: Mind vs. Might",
+    "code_gatherer": "DDS",
+    "code_mtgi": "DDS",
+    "name_tcgp": "Duel Decks: Mind vs. Might",
+    "name_mkm": "Duel Decks: Mind vs. Might",
+    "releaseTimestamp": 1488344400,
+    "canBeFoil": false,
+    "digest": "0510a7be7bb680f2977de3cfb8283eb5"
+  },
+  {
     "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
     "code_gatherer": "DDR",
     "code_mtgi": "DDR",
