@@ -408,7 +408,7 @@ public class GathererScraper {
 									
 								}
 							}
-							String toughness = pt.replace("{1/2}", ".5").split("/")[0].trim();
+							String toughness = pt.replace("{1/2}", ".5").split("/")[1].trim();
 							switch(toughness) {
 								case "*": {
 									card.mToughness = CardDbAdapter.STAR;
