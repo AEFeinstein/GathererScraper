@@ -1,5 +1,6 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
+import java.util.HashMap;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
 /*
@@ -12,6 +13,9 @@ public class Card {
 
     // The card's name
     public String mName = "";
+	
+    // The card's name in foreign (non english) language
+    public HashMap<String,String> mForeignNames	= new HashMap<String,String>();
 
     // The card's mana cost
     public String mManaCost = "";
@@ -45,6 +49,9 @@ public class Card {
 
     // The card's multiverse id
     public int mMultiverseId = 0;
+
+    // The card's multiverse id for foreign (non english) language
+    public HashMap<String,Integer> mForeignMultiverseIds = new HashMap<String,Integer>();
 
     // The card's power. Not an integer (i.e. *+1, X)
     public float mPower = CardDbAdapter.NO_ONE_CARES;

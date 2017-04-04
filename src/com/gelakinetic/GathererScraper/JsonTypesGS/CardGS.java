@@ -2,6 +2,7 @@ package com.gelakinetic.GathererScraper.JsonTypesGS;
 
 import java.io.Serializable;
 import java.util.Comparator;
+import java.util.HashMap;
 
 import org.apache.commons.lang3.SerializationUtils;
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
@@ -39,6 +40,15 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 	public static String getUrl(int multiverseId) {
 		return "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + multiverseId;
 	}
+	
+	/**
+	 * Returns a string URL for this card's gatherer language page
+	 *
+	 * @return A string of the URL for this card's gatherer language page
+	 */
+	public static String getLanguageUrl(int multiverseId) {
+		return "http://gatherer.wizards.com/Pages/Card/Languages.aspx?multiverseid=" + multiverseId;
+	}
 
 	/**
 	 * Turns any null fields into empty strings
@@ -46,6 +56,9 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 	public void clearNulls() {
 		if (null == mName) {
 			mName = "";
+		}
+		if (null == mForeignNames) {
+			mForeignNames = new HashMap<String, String>();
 		}
 		if (null == mManaCost) {
 			mManaCost = "";
@@ -70,6 +83,9 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		}
 		if (null == mColor) {
 			mColor = "";
+		}
+		if (null == mForeignMultiverseIds) {
+			mForeignMultiverseIds = new HashMap<String, Integer>();
 		}
 		/* Don't worry about mRarity, mPower, mToughness, or mLoyalty */
 	}

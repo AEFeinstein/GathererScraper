@@ -681,6 +681,13 @@ public class GathererScraper {
 						card.mColor = "W";
 					}
 				}
+				
+				//Scrape foreign language page, scrapping the name and the multiverse id of the card in foreign languages.
+				HashMap<String, String> foreignNames = new HashMap<>();
+				HashMap<String, Integer> foreignMultiverseIds = new HashMap<>();
+				scrapeLanguage(card.mMultiverseId, foreignNames, foreignMultiverseIds);
+				card.mForeignMultiverseIds.putAll(foreignMultiverseIds);
+				card.mForeignNames.putAll(foreignNames);
 	
 				card.clearNulls();
 				scrapedCards.add(card);
@@ -703,6 +710,46 @@ public class GathererScraper {
 		}
 		return scrapedCardsAllPages;
 	}
+	
+	/**
+	 * Scrape the Language Gatherer page of the card with the english multiverse id given in the params. 
+	 * @param englishMultiverseId The english multiverse ID of the card for which we will scrape the foreign language infos. 
+	 * @param foreignNames A HashMap where will be added the foreign names of the card, indexed by their language code.
+	 * @param foreignMultiverseIds A HashMap where will be added the foreign multiverse ID of the card, indexed by their language code.
+	 */
+	private static void scrapeLanguage(
+			int englishMultiverseId,
+			HashMap<String, String> foreignNames,
+			HashMap<String, Integer> foreignMultiverseIds) {	
+		if(englishMultiverseId == 0 || foreignNames == null || foreignMultiverseIds == null)
+			return;
+
+		Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId));
+		Elements elts = page.getElementsByAttributeValueContaining("class", "cardItem");
+		
+		for(Element elt : elts) {
+			String language = elt.child(1).html();
+			if(language.equals("English")) language = Language.English;
+			else if(language.equals("German")) language = Language.German;
+			else if(language.equals("French")) language = Language.French;
+			else if(language.equals("Japanese")) language = Language.Japanese;
+			else if(language.equals("Portuguese (Brazil)")) language = Language.Portuguese_Brazil;
+			else if(language.equals("Russian")) language = Language.Russian;
+			else if(language.equals("Chinese Traditional")) language = Language.Chinese_Traditional;
+			else if(language.equals("Chinese Simplified")) language = Language.Chinese_Simplified;
+			else if(language.equals("Korean")) language = Language.Korean;
+			else if(language.equals("Italian")) language = Language.Italian;
+			else if(language.equals("Spanish")) language = Language.Spanish;
+			else continue;
+			
+			String name = elt.child(0).text();
+			String multiverseId = elt.child(0).child(0).attr("href").split("=")[1];
+			
+			foreignMultiverseIds.put(language, Integer.parseInt(multiverseId));
+			foreignNames.put(language, name);
+		}
+	}
+
 
 	/**
 	 * Add links to the text to handle meld cards
