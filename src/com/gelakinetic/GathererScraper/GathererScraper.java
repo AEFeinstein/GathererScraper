@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -102,7 +103,7 @@ public class GathererScraper {
 			File oldPatchFile = new File(PATCH_DIR, exp.mCode_gatherer + ".json.gzip");
 			FileInputStream oldFileInputStream = new FileInputStream(oldPatchFile);
 			GZIPInputStream oldGZIPInputStream = new GZIPInputStream(oldFileInputStream);
-			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream);
+			InputStreamReader oldInputStreamReader = new InputStreamReader(oldGZIPInputStream, StandardCharsets.UTF_8);
 			
 			Gson gson = GathererScraper.getGson();
 			
