@@ -7,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
@@ -16,6 +17,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.zip.GZIPInputStream;
+import java.util.zip.GZIPOutputStream;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -1075,10 +1077,18 @@ public class GathererScraper {
 	 * @throws IOException
 	 *             Thrown if the write fails
 	 */
-	static void writeFile(Object object, File outFile) throws IOException {
+	static void writeFile(Object object, File outFile, boolean shouldZip) throws IOException {
 		System.setProperty("line.separator", "\n");
-		OutputStreamWriter osw = new OutputStreamWriter(
-				new FileOutputStream(outFile), Charset.forName("UTF-8"));
+		OutputStream fos;
+		
+		if(shouldZip) {
+			fos = new GZIPOutputStream(new FileOutputStream(outFile));
+		}
+		else {
+			fos = new FileOutputStream(outFile);
+		}
+		
+		OutputStreamWriter osw = new OutputStreamWriter( fos, Charset.forName("UTF-8"));			
 
 		if(object instanceof String) {
 			osw.write(((String)object).replace("\r", ""));			

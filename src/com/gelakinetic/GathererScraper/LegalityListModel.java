@@ -145,7 +145,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
 			mLegalityData.mTimestamp = timestamp;
 
-			GathererScraper.writeFile(mLegalityData, new File(path, GathererScraperUi.LEGAL_FILE_NAME));
+			GathererScraper.writeFile(mLegalityData, new File(path, GathererScraperUi.LEGAL_FILE_NAME), false);
 			
 			return true;
 		}

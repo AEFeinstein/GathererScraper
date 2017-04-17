@@ -14,7 +14,6 @@ import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -29,8 +28,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.zip.GZIPOutputStream;
-
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
@@ -52,7 +49,6 @@ import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.PatchGS;
-import com.google.gson.Gson;
 
 /**
  * This class handles the UI for the application, as well as some file I/O
@@ -193,7 +189,7 @@ public class GathererScraperUi {
 				}
 								
 				try {
-					GathererScraper.writeFile(mExpansionTableModel.mExpansions, new File(EXPANSION_FILE_NAME));
+					GathererScraper.writeFile(mExpansionTableModel.mExpansions, new File(EXPANSION_FILE_NAME), false);
 				}
 				catch (IOException e1) {
 					e1.printStackTrace();
@@ -417,7 +413,7 @@ public class GathererScraperUi {
 							}
 							appmapBuilder.append("</urlset>\n");
 
-							GathererScraper.writeFile(appmapBuilder.toString(), new File(mFilesPath, APPMAP_FILE_NAME));
+							GathererScraper.writeFile(appmapBuilder.toString(), new File(mFilesPath, APPMAP_FILE_NAME), false);
 						} catch (IOException e) {
 							e.printStackTrace();
 						}
@@ -552,15 +548,10 @@ public class GathererScraperUi {
 			/* Only fix this weird character when writing the patch */
 			exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_gatherer);
 			
-			Gson gson = GathererScraper.getGson();
-			
-			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
-			GZIPOutputStream gos = new GZIPOutputStream(new FileOutputStream(gzipout));
-			
 			PatchGS patch = new PatchGS(exp, allCards);
-			gos.write(gson.toJson((Patch)patch).getBytes());
-			gos.flush();
-			gos.close();
+
+			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
+			GathererScraper.writeFile((Patch)patch, gzipout, true);
 		}
 		catch (IOException e) {
 			e.printStackTrace();

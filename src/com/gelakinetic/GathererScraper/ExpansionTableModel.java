@@ -338,7 +338,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 			}
 		}
 
-		GathererScraper.writeFile(manifest, outFile);
+		GathererScraper.writeFile(manifest, outFile, false);
 	}
 	
 }
