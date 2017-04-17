@@ -1,10 +1,11 @@
 package com.gelakinetic.GathererScraper.JsonTypesGS;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
 
 import org.apache.commons.lang3.SerializationUtils;
+
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 /**
  * This class contains all information about a scraped card
@@ -57,9 +58,6 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		if (null == mName) {
 			mName = "";
 		}
-		if (null == mForeignNames) {
-			mForeignNames = new HashMap<String, String>();
-		}
 		if (null == mManaCost) {
 			mManaCost = "";
 		}
@@ -84,8 +82,8 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		if (null == mColor) {
 			mColor = "";
 		}
-		if (null == mForeignMultiverseIds) {
-			mForeignMultiverseIds = new HashMap<String, Integer>();
+		if (null == mForeignPrintings) {
+			mForeignPrintings = new ArrayList<>();
 		}
 		/* Don't worry about mRarity, mPower, mToughness, or mLoyalty */
 	}

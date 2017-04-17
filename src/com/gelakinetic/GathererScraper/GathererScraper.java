@@ -27,6 +27,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
+import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
@@ -685,11 +686,7 @@ public class GathererScraper {
 				}
 				
 				//Scrape foreign language page, scrapping the name and the multiverse id of the card in foreign languages.
-				HashMap<String, String> foreignNames = new HashMap<>();
-				HashMap<String, Integer> foreignMultiverseIds = new HashMap<>();
-				scrapeLanguage(card.mMultiverseId, foreignNames, foreignMultiverseIds);
-				card.mForeignMultiverseIds.putAll(foreignMultiverseIds);
-				card.mForeignNames.putAll(foreignNames);
+				scrapeLanguage(card.mMultiverseId, card.mForeignPrintings);
 	
 				card.clearNulls();
 				scrapedCards.add(card);
@@ -720,35 +717,60 @@ public class GathererScraper {
 	 * @param foreignMultiverseIds A HashMap where will be added the foreign multiverse ID of the card, indexed by their language code.
 	 */
 	private static void scrapeLanguage(
-			int englishMultiverseId,
-			HashMap<String, String> foreignNames,
-			HashMap<String, Integer> foreignMultiverseIds) {	
-		if(englishMultiverseId == 0 || foreignNames == null || foreignMultiverseIds == null)
+			int englishMultiverseId, ArrayList<Card.ForeignPrinting> foreignPrintings) {	
+		if(englishMultiverseId == 0 || foreignPrintings == null) {
 			return;
+		}
 
 		Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId));
 		Elements elts = page.getElementsByAttributeValueContaining("class", "cardItem");
 		
-		for(Element elt : elts) {
+
+		for (Element elt : elts) {
+			ForeignPrinting fp = (new Card()).new ForeignPrinting();
+
 			String language = elt.child(1).html();
-			if(language.equals("English")) language = Language.English;
-			else if(language.equals("German")) language = Language.German;
-			else if(language.equals("French")) language = Language.French;
-			else if(language.equals("Japanese")) language = Language.Japanese;
-			else if(language.equals("Portuguese (Brazil)")) language = Language.Portuguese_Brazil;
-			else if(language.equals("Russian")) language = Language.Russian;
-			else if(language.equals("Chinese Traditional")) language = Language.Chinese_Traditional;
-			else if(language.equals("Chinese Simplified")) language = Language.Chinese_Simplified;
-			else if(language.equals("Korean")) language = Language.Korean;
-			else if(language.equals("Italian")) language = Language.Italian;
-			else if(language.equals("Spanish")) language = Language.Spanish;
-			else continue;
-			
-			String name = elt.child(0).text();
-			String multiverseId = elt.child(0).child(0).attr("href").split("=")[1];
-			
-			foreignMultiverseIds.put(language, Integer.parseInt(multiverseId));
-			foreignNames.put(language, name);
+			if (language.equals("English")) {
+				fp.mLanguageCode = Language.English;
+			}
+			else if (language.equals("German")) {
+				fp.mLanguageCode = Language.German;
+			}
+			else if (language.equals("French")) {
+				fp.mLanguageCode = Language.French;
+			}
+			else if (language.equals("Japanese")) {
+				fp.mLanguageCode = Language.Japanese;
+			}
+			else if (language.equals("Portuguese (Brazil)")) {
+				fp.mLanguageCode = Language.Portuguese_Brazil;
+			}
+			else if (language.equals("Russian")) {
+				fp.mLanguageCode = Language.Russian;
+			}
+			else if (language.equals("Chinese Traditional")) {
+				fp.mLanguageCode = Language.Chinese_Traditional;
+			}
+			else if (language.equals("Chinese Simplified")) {
+				fp.mLanguageCode = Language.Chinese_Simplified;
+			}
+			else if (language.equals("Korean")) {
+				fp.mLanguageCode = Language.Korean;
+			}
+			else if (language.equals("Italian")) {
+				fp.mLanguageCode = Language.Italian;
+			}
+			else if (language.equals("Spanish")) {
+				fp.mLanguageCode = Language.Spanish;
+			}
+			else {
+				System.out.println("Unknown language: " + language);
+				continue;
+			}
+
+			fp.mName =  elt.child(0).text();
+			fp.mMultiverseId = Integer.parseInt(elt.child(0).child(0).attr("href").split("=")[1]);
+			foreignPrintings.add(fp);
 		}
 	}
 
