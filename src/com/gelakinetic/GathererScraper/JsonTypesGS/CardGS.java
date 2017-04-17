@@ -82,6 +82,9 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		if (null == mColor) {
 			mColor = "";
 		}
+		if (null == mWatermark) {
+			mWatermark = "";
+		}
 		if (null == mForeignPrintings) {
 			mForeignPrintings = new ArrayList<>();
 		}

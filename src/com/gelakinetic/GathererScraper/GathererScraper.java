@@ -28,6 +28,7 @@ import org.jsoup.select.Elements;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
@@ -235,17 +236,20 @@ public class GathererScraper {
 			}
 		}
 		
+		Gson gson = new Gson();
 		for(CardGS c : scrapedCards) {
-			messageDigest.update(c.getBytes());
+			messageDigest.update(gson.toJson((Card)c).getBytes());
 		}
-		
+		exp.mDigest = null;
+		messageDigest.update(gson.toJson((Expansion)exp).getBytes());
+
 		byte byteDigest[] = messageDigest.digest();
 		StringBuilder sb = new StringBuilder();
 		for(byte b : byteDigest) {
 			sb.append(String.format("%02x", b));
 		}
 		exp.mDigest = sb.toString();
-		
+
 		return scrapedCards;
 	}
 
@@ -471,7 +475,10 @@ public class GathererScraper {
 	
 				/* artist */
 				card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
-	
+
+				/* artist */
+				card.mWatermark = getTextFromAttribute(cardPage, id + "markRow", "value", true);
+
 				/* Number */
 				/* Try pulling the card number out of the cache first */
 				if(cachedCollectorsNumbers != null) {

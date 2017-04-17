@@ -59,7 +59,10 @@ public class Card {
     
     // All the card's foreign printings
     public ArrayList<ForeignPrinting> mForeignPrintings = new ArrayList<Card.ForeignPrinting>();
-    
+
+    // The card's loyalty. An integer in practice
+    public String mWatermark = "";
+
     // Private class for encapsulating foreign printing information
     public class ForeignPrinting {
     	public int mMultiverseId;
