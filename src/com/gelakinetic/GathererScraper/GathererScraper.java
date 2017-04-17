@@ -224,6 +224,9 @@ public class GathererScraper {
 			}
 		}
 		
+		/* Calculate color identities. This is done here because both halves of split cards must be known */
+		calculateColorIdentities(scrapedCards);
+		
 		/* Debug check for cards with the same number */
 		Collections.sort(scrapedCards);
 		for (int i = 0; i < scrapedCards.size() - 1; i++) {
@@ -251,6 +254,17 @@ public class GathererScraper {
 		exp.mDigest = sb.toString();
 
 		return scrapedCards;
+	}
+
+	/**
+	 * TODO document
+	 * 
+	 * @param tmpScrapedCards
+	 */
+	private static void calculateColorIdentities(ArrayList<CardGS> tmpScrapedCards) {
+		for(CardGS card : tmpScrapedCards) {
+			card.calculateColorIdentity(tmpScrapedCards);
+		}
 	}
 
 	public static Gson getGson() {

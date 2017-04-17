@@ -3,6 +3,8 @@ package com.gelakinetic.GathererScraper.JsonTypesGS;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.SerializationUtils;
 
@@ -81,6 +83,9 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		}
 		if (null == mColor) {
 			mColor = "";
+		}
+		if (null == mColorIdentity) {
+			mColorIdentity = "";
 		}
 		if (null == mWatermark) {
 			mWatermark = "";
@@ -272,4 +277,100 @@ public class CardGS extends Card implements Serializable, Comparable<CardGS> {
 		}
 		return 0;
 	}
+	
+	   /**
+     * Calculates the mColor identity for this card, not counting any parts of a
+     * multicard
+     *
+     * @param card The card to find a mColor identity for, excluding multicard
+     * @return A mColor identity string for the given card consisting of "WUBRG"
+     */
+    private String getColorIdentity() {
+        boolean colors[] = {false, false, false, false, false};
+        String colorLetters[] = {"W", "U", "B", "R", "G"};
+        String basicLandTypes[] = {"Plains", "Island", "Swamp", "Mountain",
+                "Forest"};
+
+		/* Search for colors in the cost & mColor */
+        for (int i = 0; i < colors.length; i++) {
+            if (mColor.contains(colorLetters[i])) {
+                colors[i] = true;
+            }
+            if (mManaCost.contains(colorLetters[i])) {
+                colors[i] = true;
+            }
+        }
+
+		/* Remove reminder text */
+        String noReminderText = mText.replaceAll("\\([^\\(\\)]+\\)", "");
+        /* Find mana symbols in the rest of the text */
+        Pattern manaPattern = Pattern.compile("\\{[^\\{\\}]+\\}");
+        Matcher m = manaPattern.matcher(noReminderText);
+        while (m.find()) {
+            /* Search for colors in the mana symbols in the non-reminder text */
+            for (int i = 0; i < colors.length; i++) {
+                if (m.group(0).contains(colorLetters[i])) {
+                    colors[i] = true;
+                }
+            }
+        }
+
+		/* For typed lands, add mColor identity */
+        if (mType.toLowerCase().contains("land")) {
+            for (int i = 0; i < colors.length; i++) {
+                if (mType.contains(basicLandTypes[i])) {
+                    colors[i] = true;
+                }
+            }
+        }
+
+		/* Write the mColor identity */
+        String colorIdentity = "";
+        for (int i = 0; i < colors.length; i++) {
+            if (colors[i]) {
+                colorIdentity += colorLetters[i];
+            }
+        }
+        return colorIdentity;
+    }
+    
+    /**
+     * Calculates the full mColor identity for this card, and stores it in
+     * mColorIdentity
+     *
+     * @param otherCards A list of other cards, used to find the second part if this is
+     *                   a multi-card
+     */
+    public void calculateColorIdentity(ArrayList<CardGS> otherCards) {
+        String colorLetters[] = {"W", "U", "B", "R", "G"};
+
+		/* Get the mColor identity for the first part of the card */
+        String firstPartIdentity = getColorIdentity();
+
+		/* Find the mColor identity for multicards */
+        String secondPartIdentity = "";
+        String newNumber = null;
+        if (mNumber.contains("a")) {
+            newNumber = mNumber.replace("a", "b");
+        } else if (mNumber.contains("b")) {
+            newNumber = mNumber.replace("b", "a");
+        }
+        if (newNumber != null) {
+            for (CardGS otherCard : otherCards) {
+                if (otherCard.mNumber.equals(newNumber)) {
+                    secondPartIdentity = otherCard.getColorIdentity();
+                    break;
+                }
+            }
+        }
+
+		/* Combine the two mColor identity parts into one */
+        mColorIdentity = "";
+        for (String colorLetter : colorLetters) {
+            if (firstPartIdentity.contains(colorLetter)
+                    || secondPartIdentity.contains(colorLetter)) {
+            	mColorIdentity += colorLetter;
+            }
+        }
+    }
 }

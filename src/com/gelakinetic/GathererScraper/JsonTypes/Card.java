@@ -45,6 +45,9 @@ public class Card {
     // The card's colors
     public String mColor = "";
 
+    // The card's colors
+    public String mColorIdentity = "";
+
     // The card's multiverse id
     public int mMultiverseId = 0;
 
