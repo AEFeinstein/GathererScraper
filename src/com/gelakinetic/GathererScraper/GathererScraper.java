@@ -401,6 +401,7 @@ public class GathererScraper {
 					card.mLoyalty = CardDbAdapter.NO_ONE_CARES;
 				}
 				else {
+					
 					if (pt != null) {
 						if (pt.contains("/")) {
 							String power = pt.replace("{1/2}", ".5").split("/")[0].trim();
@@ -423,6 +424,10 @@ public class GathererScraper {
 								}
 								case "*{^2}": {
 									card.mPower = CardDbAdapter.STAR_SQUARED;
+									break;
+								}
+								case "X": {
+									card.mToughness = CardDbAdapter.X;
 									break;
 								}
 								default: {
@@ -452,6 +457,10 @@ public class GathererScraper {
 									card.mToughness = CardDbAdapter.STAR_SQUARED;
 									break;
 								}
+								case "X": {
+									card.mToughness = CardDbAdapter.X;
+									break;
+								}
 								default: {
 									card.mToughness = Float.parseFloat(toughness);
 									
@@ -459,7 +468,36 @@ public class GathererScraper {
 							}
 						}
 						else {
-							card.mLoyalty = Integer.parseInt(pt.trim());
+							switch(pt.trim()) {
+								case "*": {
+									card.mLoyalty = CardDbAdapter.STAR;
+									break;
+								}
+								case "1+*": {
+									card.mLoyalty = CardDbAdapter.ONE_PLUS_STAR;
+									break;
+								}
+								case "7-*": {
+									card.mLoyalty = CardDbAdapter.SEVEN_MINUS_STAR;
+									break;
+								}
+								case "2+*": {
+									card.mLoyalty = CardDbAdapter.TWO_PLUS_STAR;
+									break;
+								}
+								case "*{^2}": {
+									card.mLoyalty = CardDbAdapter.STAR_SQUARED;
+									break;
+								}
+								case "X": {
+									card.mLoyalty = CardDbAdapter.X;
+									break;
+								}
+								default: {
+									card.mLoyalty = Integer.parseInt(pt.trim());
+									
+								}
+							}
 						}
 					}
 				}

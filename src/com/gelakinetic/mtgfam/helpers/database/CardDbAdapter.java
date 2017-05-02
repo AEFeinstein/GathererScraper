@@ -8,4 +8,5 @@ public class CardDbAdapter {
     public static final int SEVEN_MINUS_STAR = -1003;
     public static final int STAR_SQUARED = -1004;
     public static final int NO_ONE_CARES = -1005;
+    public static final int X = -1006;
 }
