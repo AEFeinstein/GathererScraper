@@ -90,16 +90,6 @@
     "digest": "1b80a2f05a9008757681c2e79edbfb8a"
   },
   {
-    "name_gatherer": "Battle for Zendikar",
-    "code_gatherer": "BFZ",
-    "code_mtgi": "BFZ",
-    "name_tcgp": "Battle for Zendikar",
-    "name_mkm": "Battle for Zendikar",
-    "releaseTimestamp": 1441058400,
-    "canBeFoil": true,
-    "digest": "1dff83e6bc81d348c94e12649de1e1ea"
-  },
-  {
     "name_gatherer": "Battle Royale Box Set",
     "code_gatherer": "BR",
     "code_mtgi": "BR",
@@ -108,6 +98,16 @@
     "releaseTimestamp": 941410800,
     "canBeFoil": false,
     "digest": "6335971401a972dfec305ac38aefab2f"
+  },
+  {
+    "name_gatherer": "Battle for Zendikar",
+    "code_gatherer": "BFZ",
+    "code_mtgi": "BFZ",
+    "name_tcgp": "Battle for Zendikar",
+    "name_mkm": "Battle for Zendikar",
+    "releaseTimestamp": 1441058400,
+    "canBeFoil": true,
+    "digest": "1dff83e6bc81d348c94e12649de1e1ea"
   },
   {
     "name_gatherer": "Beatdown Box Set",
@@ -218,6 +218,16 @@
     "releaseTimestamp": 1477954800,
     "canBeFoil": false,
     "digest": "ac9a50a708ba1d069a28f3525518354d"
+  },
+  {
+    "name_gatherer": "Commander Anthology",
+    "code_gatherer": "CMA",
+    "code_mtgi": "CMA",
+    "name_tcgp": "Commander Anthology",
+    "name_mkm": "Commander Anthology",
+    "releaseTimestamp": 1493611200,
+    "canBeFoil": false,
+    "digest": "aeb21e9b2436df1c917c5e837fef50ff"
   },
   {
     "name_gatherer": "Commander's Arsenal",

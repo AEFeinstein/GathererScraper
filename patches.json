@@ -1,5 +1,5 @@
 {
-  "timestamp": 1493690706,
+  "timestamp": 1496197831,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -132,6 +132,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C16.json.gzip",
       "code": "C16",
       "digest": "ac9a50a708ba1d069a28f3525518354d"
+    },
+    {
+      "name": "Commander Anthology",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMA.json.gzip",
+      "code": "CMA",
+      "digest": "aeb21e9b2436df1c917c5e837fef50ff"
     },
     {
       "name": "Commander's Arsenal",
