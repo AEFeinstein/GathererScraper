@@ -80,6 +80,16 @@
     "digest": "115422f4546b9db11e50747470c0e28e"
   },
   {
+    "name_gatherer": "Archenemy: Nicol Bolas",
+    "code_gatherer": "E01",
+    "code_mtgi": "E01",
+    "name_tcgp": "Archenemy: Nicol Bolas",
+    "name_mkm": "Archenemy: Nicol Bolas",
+    "releaseTimestamp": 1496289600,
+    "canBeFoil": false,
+    "digest": "1d59b34cf521401d2ed020b5c5011177"
+  },
+  {
     "name_gatherer": "Avacyn Restored",
     "code_gatherer": "AVR",
     "code_mtgi": "AVR",

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1496197831,
+  "timestamp": 1496841116,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -48,6 +48,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARC.json.gzip",
       "code": "ARC",
       "digest": "115422f4546b9db11e50747470c0e28e"
+    },
+    {
+      "name": "Archenemy: Nicol Bolas",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/E01.json.gzip",
+      "code": "E01",
+      "digest": "1d59b34cf521401d2ed020b5c5011177"
     },
     {
       "name": "Avacyn Restored",
