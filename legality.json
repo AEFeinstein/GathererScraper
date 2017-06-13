@@ -345,7 +345,8 @@
         "Emrakul, the Promised End",
         "Smuggler's Copter",
         "Reflector Mage",
-        "Felidar Guardian"
+        "Felidar Guardian",
+        "Aetherworks Marvel"
       ]
     },
     {
@@ -1147,5 +1148,5 @@
       "banlist": []
     }
   ],
-  "timestamp": 1497364731
+  "timestamp": 1497383420
 }
