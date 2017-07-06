@@ -338,7 +338,8 @@
         "KLD",
         "AER",
         "AKH",
-        "W17"
+        "W17",
+        "HOU"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -412,7 +413,8 @@
         "AER",
         "MM3",
         "AKH",
-        "W17"
+        "W17",
+        "HOU"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -1141,12 +1143,12 @@
     {
       "name": "Block",
       "sets": [
-        "KLD",
-        "AER"
+        "AKH",
+        "HOU"
       ],
       "restrictedlist": [],
       "banlist": []
     }
   ],
-  "timestamp": 1497383420
+  "timestamp": 1499311044
 }

@@ -780,6 +780,16 @@
     "digest": "a5486f971029c4c42888ac7f3429d728"
   },
   {
+    "name_gatherer": "Hour of Devastation",
+    "code_gatherer": "HOU",
+    "code_mtgi": "HOU",
+    "name_tcgp": "Hour of Devastation",
+    "name_mkm": "Hour of Devastation",
+    "releaseTimestamp": 1498881600,
+    "canBeFoil": true,
+    "digest": "48aa20a982b6d69e6abc31c7344d339b"
+  },
+  {
     "name_gatherer": "Ice Age",
     "code_gatherer": "IA",
     "code_mtgi": "IA",

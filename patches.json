@@ -1,5 +1,5 @@
 {
-  "timestamp": 1496841116,
+  "timestamp": 1499310895,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -468,6 +468,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HL.json.gzip",
       "code": "HL",
       "digest": "a5486f971029c4c42888ac7f3429d728"
+    },
+    {
+      "name": "Hour of Devastation",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HOU.json.gzip",
+      "code": "HOU",
+      "digest": "48aa20a982b6d69e6abc31c7344d339b"
     },
     {
       "name": "Ice Age",
