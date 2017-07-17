@@ -1,5 +1,5 @@
 {
-  "timestamp": 1499310895,
+  "timestamp": 1500244482,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -605,7 +605,7 @@
       "name": "Masterpiece Series: Amonkhet Invocations",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MPSAKH.json.gzip",
       "code": "MPSAKH",
-      "digest": "ce3ad1dd2ba6ec4556ee4505ea6663b1"
+      "digest": "40d7259a34e2b692417d92ea08030ca4"
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
