@@ -8,6 +8,7 @@ import java.util.UUID;
 import org.apache.commons.lang3.StringEscapeUtils;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.google.common.net.PercentEscaper;
 
 public class RssEntry {
@@ -18,7 +19,7 @@ public class RssEntry {
 	public static final String PUBDATE = "pubDate";
 	public static final String LINK = "link";
 
-	private String mTitle;
+	public String mTitle;
 	private String mDescription;
 	private String mGuid;
 	private String mPubDate;
@@ -80,7 +81,7 @@ public class RssEntry {
 	 */
 	@Override
 	public boolean equals(Object obj) {
-		if (obj instanceof Expansion) {
+		if (obj instanceof ExpansionGS) {
 			return this.mTitle.equals(((Expansion)obj).mName_gatherer);
 		}
 		else if(obj instanceof RssEntry) {

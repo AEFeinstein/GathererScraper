@@ -1,5 +1,6 @@
 package com.gelakinetic.GathererScraper.JsonTypesGS;
 
+import com.gelakinetic.GathererChecker.RssEntry;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 
 /**
@@ -33,6 +34,9 @@ public class ExpansionGS extends Expansion implements Comparable<ExpansionGS>{
 	public boolean equals(Object obj) {
 		if (obj instanceof ExpansionGS) {
 			return this.mName_gatherer.equals(((ExpansionGS)obj).mName_gatherer);
+		}
+		else if (obj instanceof RssEntry) {
+			return this.mName_gatherer.equals(((RssEntry)obj).mTitle);
 		}
 		return false;
 	}
