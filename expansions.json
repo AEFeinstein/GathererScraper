@@ -230,6 +230,16 @@
     "digest": "ac9a50a708ba1d069a28f3525518354d"
   },
   {
+    "name_gatherer": "Commander 2017",
+    "code_gatherer": "C17",
+    "code_mtgi": "C17",
+    "name_tcgp": "Commander 2017",
+    "name_mkm": "Commander 2017",
+    "releaseTimestamp": 1501560000,
+    "canBeFoil": false,
+    "digest": "8e998e2b36719550a95a22be8d55b5ab"
+  },
+  {
     "name_gatherer": "Commander Anthology",
     "code_gatherer": "CMA",
     "code_mtgi": "CMA",
