@@ -27,6 +27,7 @@
         "Memory Jar",
         "Merchant Scroll",
         "Mind's Desire",
+        "Monastery Mentor",
         "Mox Emerald",
         "Mox Jet",
         "Mox Pearl",
@@ -37,6 +38,7 @@
         "Ponder",
         "Sol Ring",
         "Strip Mine",
+        "Thorn of Amethyst",
         "Time Vault",
         "Time Walk",
         "Timetwister",
@@ -47,7 +49,6 @@
         "Vampiric Tutor",
         "Wheel of Fortune",
         "Windfall",
-        "Yawgmoth's Bargain",
         "Yawgmoth's Will"
       ],
       "banlist": [
@@ -1150,5 +1151,5 @@
       "banlist": []
     }
   ],
-  "timestamp": 1500244498
+  "timestamp": 1505182750
 }
