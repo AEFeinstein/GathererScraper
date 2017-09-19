@@ -830,6 +830,16 @@
     "digest": "dd3ce2c6c7f025823360230eb0601471"
   },
   {
+    "name_gatherer": "Ixalan",
+    "code_gatherer": "XLN",
+    "code_mtgi": "XLN",
+    "name_tcgp": "Ixalan",
+    "name_mkm": "Ixalan",
+    "releaseTimestamp": 1504238400,
+    "canBeFoil": true,
+    "digest": "4c93859d84700d7424aafb02cbced732"
+  },
+  {
     "name_gatherer": "Journey into Nyx",
     "code_gatherer": "JOU",
     "code_mtgi": "JOU",
