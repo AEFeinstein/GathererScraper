@@ -490,6 +490,16 @@
     "digest": "1f09ef29bac693713e987a1c3300567a"
   },
   {
+    "name_gatherer": "Duel Decks: Merfolk vs. Goblins",
+    "code_gatherer": "DDT",
+    "code_mtgi": "DDT",
+    "name_tcgp": "Duel Decks: Merfolk vs. Goblins",
+    "name_mkm": "Duel Decks: Merfolk vs. Goblins",
+    "releaseTimestamp": 1509508800,
+    "canBeFoil": false,
+    "digest": "f1e2b26ab2080b47012566944f745d9c"
+  },
+  {
     "name_gatherer": "Duel Decks: Mind vs. Might",
     "code_gatherer": "DDS",
     "code_mtgi": "DDS",

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1505868370,
+  "timestamp": 1509594599,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -294,6 +294,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KVD.json.gzip",
       "code": "KVD",
       "digest": "1f09ef29bac693713e987a1c3300567a"
+    },
+    {
+      "name": "Duel Decks: Merfolk vs. Goblins",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDT.json.gzip",
+      "code": "DDT",
+      "digest": "f1e2b26ab2080b47012566944f745d9c"
     },
     {
       "name": "Duel Decks: Mind vs. Might",
