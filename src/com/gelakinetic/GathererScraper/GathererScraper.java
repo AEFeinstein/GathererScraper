@@ -654,6 +654,26 @@ public class GathererScraper {
 				}
 			}
 			*/
+			
+			/* If this is a multicard */
+			if (scrapedCards.size() == 2) {
+				/* Check to see if one CMC is 0 and the other is greater than 0 */
+				int cmc0 = scrapedCards.get(0).mCmc;
+				int cmc1 = scrapedCards.get(1).mCmc;
+				/* Also make sure this is a transform card */
+				if (cmc0 == 0 && cmc1 > 0 && scrapedCards.get(1).mText.toLowerCase().contains("transform")) {
+					/* Give the back face the same cmc as the front face */
+					System.out
+							.println("Assigning " + scrapedCards.get(1).mName + " cmc to " + scrapedCards.get(0).mName);
+					scrapedCards.get(0).mCmc = scrapedCards.get(1).mCmc;
+				}
+				else if (cmc0 > 0 && cmc1 == 0 && scrapedCards.get(0).mText.toLowerCase().contains("transform")) {
+					/* Give the back face the same cmc as the front face */
+					System.out
+							.println("Assigning " + scrapedCards.get(0).mName + " cmc to " + scrapedCards.get(1).mName);
+					scrapedCards.get(1).mCmc = scrapedCards.get(0).mCmc;
+				}
+			}
 			scrapedCardsAllPages.addAll(scrapedCards);
 		}
 		return scrapedCardsAllPages;
