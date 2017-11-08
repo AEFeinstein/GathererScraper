@@ -681,15 +681,25 @@ public class GathererScraper {
 				/* Also make sure this is a transform card */
 				if (cmc0 == 0 && cmc1 > 0 && scrapedCards.get(1).mText.toLowerCase().contains("transform")) {
 					/* Give the back face the same cmc as the front face */
-					System.out
-							.println("Assigning " + scrapedCards.get(1).mName + " cmc to " + scrapedCards.get(0).mName);
 					scrapedCards.get(0).mCmc = scrapedCards.get(1).mCmc;
 				}
 				else if (cmc0 > 0 && cmc1 == 0 && scrapedCards.get(0).mText.toLowerCase().contains("transform")) {
 					/* Give the back face the same cmc as the front face */
-					System.out
-							.println("Assigning " + scrapedCards.get(0).mName + " cmc to " + scrapedCards.get(1).mName);
 					scrapedCards.get(1).mCmc = scrapedCards.get(0).mCmc;
+				}
+
+				for (CardGS card : scrapedCards) {
+					switch (card.mName) {
+					case "Brisela, Voice of Nightmares":
+						card.mCmc = 11;
+						break;
+					case "Chittering Host":
+						card.mCmc = 7;
+						break;
+					case "Hanweir, the Writhing Township":
+						card.mCmc = 3;
+						break;
+					}
 				}
 			}
 			scrapedCardsAllPages.addAll(scrapedCards);
