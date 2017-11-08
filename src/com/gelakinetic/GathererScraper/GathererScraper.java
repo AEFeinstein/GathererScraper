@@ -384,6 +384,24 @@ public class GathererScraper {
 				card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
 				card.mText = linkifyText(card.mText);
 	
+				/* For unglued, fix some symbols */
+				if((card.mExpansion.equals("UG") || card.mExpansion.equals("UNH")) &&
+						(null != card.mText)) {
+					card.mText = card.mText
+							.replace("oW",  "{W}")
+							.replace("oU",  "{U}")
+							.replace("oB",  "{B}")
+							.replace("oR",  "{R}")
+							.replace("oG",  "{G}")
+							.replace("ocT", "{T}")
+							.replace("oX",  "{X}")
+							.replace("o1",  "{1}")
+							.replace("o2",  "{2}")
+							.replace("o3",  "{3}")
+							.replace("o4",  "{4}")
+							.replace("o7",  "{7}");
+				}
+				
 				/* Flavor */
 				card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false);
 				if(card.mFlavor == null || card.mFlavor.equals("")) {
