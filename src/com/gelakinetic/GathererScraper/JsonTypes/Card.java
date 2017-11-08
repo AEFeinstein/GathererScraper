@@ -76,6 +76,14 @@ public class Card implements Comparable<Card> {
     	public int compareTo(ForeignPrinting o) {
     		return Integer.compare(this.mMultiverseId, o.mMultiverseId);
     	}
+
+		@Override
+		public boolean equals(Object arg0) {
+			if(arg0 instanceof ForeignPrinting) {
+				return this.mMultiverseId == ((ForeignPrinting)arg0).mMultiverseId;
+			}
+			return false;
+		}
     }
 
 	/**

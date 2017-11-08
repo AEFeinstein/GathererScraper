@@ -49,8 +49,8 @@ public class CardGS extends Card implements Serializable {
 	 *
 	 * @return A string of the URL for this card's gatherer language page
 	 */
-	public static String getLanguageUrl(int multiverseId) {
-		return "http://gatherer.wizards.com/Pages/Card/Languages.aspx?multiverseid=" + multiverseId;
+	public static String getLanguageUrl(int multiverseId, int page) {
+		return "http://gatherer.wizards.com/Pages/Card/Languages.aspx?page=" + page + "&multiverseid=" + multiverseId;
 	}
 
 	/**

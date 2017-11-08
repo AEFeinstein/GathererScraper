@@ -720,55 +720,79 @@ public class GathererScraper {
 			return;
 		}
 
-		Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId));
-		Elements elts = page.getElementsByAttributeValueContaining("class", "cardItem");
+		/* Start the loop at page 0 */
+		int pageNum = 0;
+		boolean foreignPrintingAdded = true;
+		boolean hasMultiplePages = true;
 		
-
-		for (Element elt : elts) {
-			ForeignPrinting fp = (new Card()).new ForeignPrinting();
-
-			String language = elt.child(1).html();
-			if (language.equals("English")) {
-				fp.mLanguageCode = Language.English;
+		while(foreignPrintingAdded && hasMultiplePages) {
+			Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId, pageNum));
+			Elements languageElements = page.getElementsByAttributeValueContaining("class", "cardItem");
+			
+			/* If there are multiple pages, we'll need to loop again */
+			hasMultiplePages = !page.getElementsByAttributeValueContaining("id", "pagingControlsParent").isEmpty();
+			
+			/* No need to loop again, there's nothing on this page */
+			if(languageElements.isEmpty()) {
+				hasMultiplePages = false;
+				break;
 			}
-			else if (language.equals("German")) {
-				fp.mLanguageCode = Language.German;
+	
+			/* Try to add each element */
+			for (Element elt : languageElements) {
+				ForeignPrinting fp = (new Card()).new ForeignPrinting();
+	
+				String language = elt.child(1).html();
+				if (language.equals("English")) {
+					fp.mLanguageCode = Language.English;
+				}
+				else if (language.equals("German")) {
+					fp.mLanguageCode = Language.German;
+				}
+				else if (language.equals("French")) {
+					fp.mLanguageCode = Language.French;
+				}
+				else if (language.equals("Japanese")) {
+					fp.mLanguageCode = Language.Japanese;
+				}
+				else if (language.equals("Portuguese (Brazil)")) {
+					fp.mLanguageCode = Language.Portuguese_Brazil;
+				}
+				else if (language.equals("Russian")) {
+					fp.mLanguageCode = Language.Russian;
+				}
+				else if (language.equals("Chinese Traditional")) {
+					fp.mLanguageCode = Language.Chinese_Traditional;
+				}
+				else if (language.equals("Chinese Simplified")) {
+					fp.mLanguageCode = Language.Chinese_Simplified;
+				}
+				else if (language.equals("Korean")) {
+					fp.mLanguageCode = Language.Korean;
+				}
+				else if (language.equals("Italian")) {
+					fp.mLanguageCode = Language.Italian;
+				}
+				else if (language.equals("Spanish")) {
+					fp.mLanguageCode = Language.Spanish;
+				}
+				else {
+					System.out.println("Unknown language: " + language);
+					continue;
+				}
+	
+				fp.mName =  elt.child(0).text();
+				fp.mMultiverseId = Integer.parseInt(elt.child(0).child(0).attr("href").split("=")[1]);
+				if(!foreignPrintings.contains(fp)) {
+					foreignPrintings.add(fp);
+				}
+				else {
+					/* Duplicate, which means WotC served the same page twice and we're done */
+					foreignPrintingAdded = false;
+					break;
+				}
 			}
-			else if (language.equals("French")) {
-				fp.mLanguageCode = Language.French;
-			}
-			else if (language.equals("Japanese")) {
-				fp.mLanguageCode = Language.Japanese;
-			}
-			else if (language.equals("Portuguese (Brazil)")) {
-				fp.mLanguageCode = Language.Portuguese_Brazil;
-			}
-			else if (language.equals("Russian")) {
-				fp.mLanguageCode = Language.Russian;
-			}
-			else if (language.equals("Chinese Traditional")) {
-				fp.mLanguageCode = Language.Chinese_Traditional;
-			}
-			else if (language.equals("Chinese Simplified")) {
-				fp.mLanguageCode = Language.Chinese_Simplified;
-			}
-			else if (language.equals("Korean")) {
-				fp.mLanguageCode = Language.Korean;
-			}
-			else if (language.equals("Italian")) {
-				fp.mLanguageCode = Language.Italian;
-			}
-			else if (language.equals("Spanish")) {
-				fp.mLanguageCode = Language.Spanish;
-			}
-			else {
-				System.out.println("Unknown language: " + language);
-				continue;
-			}
-
-			fp.mName =  elt.child(0).text();
-			fp.mMultiverseId = Integer.parseInt(elt.child(0).child(0).attr("href").split("=")[1]);
-			foreignPrintings.add(fp);
+			pageNum++;
 		}
 	}
 
