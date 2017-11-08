@@ -820,6 +820,16 @@
     "digest": "72050355455627ba04a50cbf03889e5b"
   },
   {
+    "name_gatherer": "Iconic Masters",
+    "code_gatherer": "IMA",
+    "code_mtgi": "IMA",
+    "name_tcgp": "Iconic Masters",
+    "name_mkm": "Iconic Masters",
+    "releaseTimestamp": 1509508800,
+    "canBeFoil": true,
+    "digest": "ba54a63367635e40202d2b649eacefdf"
+  },
+  {
     "name_gatherer": "Innistrad",
     "code_gatherer": "ISD",
     "code_mtgi": "ISD",

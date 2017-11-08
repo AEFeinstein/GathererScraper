@@ -1,5 +1,5 @@
 {
-  "timestamp": 1509594599,
+  "timestamp": 1510107507,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -492,6 +492,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IA.json.gzip",
       "code": "IA",
       "digest": "72050355455627ba04a50cbf03889e5b"
+    },
+    {
+      "name": "Iconic Masters",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IMA.json.gzip",
+      "code": "IMA",
+      "digest": "ba54a63367635e40202d2b649eacefdf"
     },
     {
       "name": "Innistrad",
