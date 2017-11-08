@@ -654,6 +654,7 @@ public class GathererScraper {
 				
 				//Scrape foreign language page, scrapping the name and the multiverse id of the card in foreign languages.
 				scrapeLanguage(card.mMultiverseId, card.mForeignPrintings);
+				Collections.sort(card.mForeignPrintings);
 	
 				card.clearNulls();
 				scrapedCards.add(card);

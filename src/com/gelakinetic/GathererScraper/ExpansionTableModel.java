@@ -10,6 +10,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Date;
 
 import javax.swing.table.AbstractTableModel;
@@ -338,6 +339,8 @@ public class ExpansionTableModel extends AbstractTableModel {
 			}
 		}
 
+		/* Sort the patches before writing them */
+		Collections.sort(manifest.mPatches);
 		GathererScraper.writeFile(manifest, outFile, false);
 	}
 	

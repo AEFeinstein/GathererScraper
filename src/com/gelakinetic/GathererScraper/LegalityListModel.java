@@ -8,6 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import javax.swing.AbstractListModel;
 import javax.swing.JFrame;
@@ -315,6 +316,11 @@ public class LegalityListModel extends AbstractListModel<String> {
 					}
 				}
 				mWindowsOpen--;
+				
+				/* Then sort the legality data */
+				Collections.sort(mLegalityData.mFormats[index].mSets);
+				Collections.sort(mLegalityData.mFormats[index].mBanlist);
+				Collections.sort(mLegalityData.mFormats[index].mRestrictedlist);
 			}
 		});
 
