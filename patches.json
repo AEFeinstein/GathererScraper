@@ -1,5 +1,5 @@
 {
-  "timestamp": 1510151192,
+  "timestamp": 1510193057,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -71,7 +71,7 @@
       "name": "Battle for Zendikar",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BFZ.json.gzip",
       "code": "BFZ",
-      "digest": "4dd4cd86ac6ea5abe4651dd4bdfa1db4"
+      "digest": "9bc617014041bbf23fc4e5133dea958c"
     },
     {
       "name": "Beatdown Box Set",
@@ -95,7 +95,7 @@
       "name": "Champions of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CHK.json.gzip",
       "code": "CHK",
-      "digest": "a215096a830ccafd6c6af8b258b87910"
+      "digest": "668d40b6dd2631989402da225cef2d18"
     },
     {
       "name": "Chronicles",
@@ -197,7 +197,7 @@
       "name": "Dragons of Tarkir",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DTK.json.gzip",
       "code": "DTK",
-      "digest": "c869ea25d5213a3c3e225237b56aaa2b"
+      "digest": "5c45b687d9a210e584f936ef8e60e7bb"
     },
     {
       "name": "Duel Decks Anthology, Divine vs. Demonic",
@@ -539,7 +539,7 @@
       "name": "Khans of Tarkir",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KTK.json.gzip",
       "code": "KTK",
-      "digest": "69a146975a6445f8b052b157fe18796c"
+      "digest": "cc08aca5060dbb6d5336286dbc1c0930"
     },
     {
       "name": "Legends",
@@ -593,7 +593,7 @@
       "name": "Magic 2013",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M13.json.gzip",
       "code": "M13",
-      "digest": "91778a90d0414ea0db116d43d10eede1"
+      "digest": "d1d10c8ce26615219b52513daa21b84f"
     },
     {
       "name": "Magic 2014 Core Set",
@@ -605,7 +605,7 @@
       "name": "Magic 2015 Core Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M15.json.gzip",
       "code": "M15",
-      "digest": "d0fbdbe13f4f4328e1adfbfd3588e4a7"
+      "digest": "6d16070b8dc872131b1981a3921082f6"
     },
     {
       "name": "Magic Origins",
@@ -617,7 +617,7 @@
       "name": "Magic: The Gathering-Commander",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMD.json.gzip",
       "code": "CMD",
-      "digest": "f969c070121ded14958b2bed2943796a"
+      "digest": "8edfe81c0a9db57bae71f2994408d5c2"
     },
     {
       "name": "Magic: The Gathering-Conspiracy",
@@ -911,13 +911,13 @@
       "name": "Theros",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/THS.json.gzip",
       "code": "THS",
-      "digest": "7b86129888df2c98048e98ef2ea0c87e"
+      "digest": "1b796624fff4a94c11e81cde620d834a"
     },
     {
       "name": "Time Spiral",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSP.json.gzip",
       "code": "TSP",
-      "digest": "9de378b12ac150c828ca4be9bc0c7b50"
+      "digest": "086dc3cd222be6be53a79ff05862808f"
     },
     {
       "name": "Time Spiral \"Timeshifted\"",
