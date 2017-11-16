@@ -620,6 +620,16 @@
     "digest": "0f770a40b37896ef12f26d40d56c100e"
   },
   {
+    "name_gatherer": "Explorers of Ixalan",
+    "code_gatherer": "E02",
+    "code_mtgi": "E02",
+    "name_tcgp": "Explorers of Ixalan",
+    "name_mkm": "Explorers of Ixalan",
+    "releaseTimestamp": 1509508800,
+    "canBeFoil": false,
+    "digest": "8c80a06469a0559290c30062d09a82b1"
+  },
+  {
     "name_gatherer": "Fallen Empires",
     "code_gatherer": "FE",
     "code_mtgi": "FE",
@@ -748,6 +758,16 @@
     "releaseTimestamp": 1280613600,
     "canBeFoil": false,
     "digest": "c7cba2592112ce98a6e3257d1a659f7c"
+  },
+  {
+    "name_gatherer": "From the Vault: Transform",
+    "code_gatherer": "V17",
+    "code_mtgi": "V17",
+    "name_tcgp": "From the Vault: Transform",
+    "name_mkm": "From the Vault: Transform",
+    "releaseTimestamp": 1509508800,
+    "canBeFoil": false,
+    "digest": "03641723f46031b91876a124e887bfb1"
   },
   {
     "name_gatherer": "From the Vault: Twenty",

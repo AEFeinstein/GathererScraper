@@ -1,5 +1,5 @@
 {
-  "timestamp": 1510193057,
+  "timestamp": 1510808129,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -374,6 +374,12 @@
       "digest": "0f770a40b37896ef12f26d40d56c100e"
     },
     {
+      "name": "Explorers of Ixalan",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/E02.json.gzip",
+      "code": "E02",
+      "digest": "8c80a06469a0559290c30062d09a82b1"
+    },
+    {
       "name": "Fallen Empires",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FE.json.gzip",
       "code": "FE",
@@ -450,6 +456,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RLC.json.gzip",
       "code": "RLC",
       "digest": "c7cba2592112ce98a6e3257d1a659f7c"
+    },
+    {
+      "name": "From the Vault: Transform",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V17.json.gzip",
+      "code": "V17",
+      "digest": "03641723f46031b91876a124e887bfb1"
     },
     {
       "name": "From the Vault: Twenty",
