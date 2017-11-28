@@ -38,22 +38,22 @@ public class GathererChecker {
             /* Scrape a list of expansions */
             ArrayList<ExpansionGS> expansions = GathererScraper.scrapeExpansionList();
 
-			/* For each expansion */
+            /* For each expansion */
             for (ExpansionGS exp : expansions) {
-				/* See if it's already in the RSS file */
+                /* See if it's already in the RSS file */
                 if (!entries.contains(exp)) {
-					/* If it isn't, add it to the file. Null GUID and date will be populated */
+                    /* If it isn't, add it to the file. Null GUID and date will be populated */
                     entries.add(new RssEntry(exp.mName_gatherer, null, null, null));
                     changes = true;
                 }
             }
 
             try {
-				/* Get the latest rules, and make an RssEntry for it */
+                /* Get the latest rules, and make an RssEntry for it */
                 RssEntry latestRules = GetLatestRules();
-				/* If the entries to not have the latest rules */
+                /* If the entries to not have the latest rules */
                 if (!entries.contains(latestRules)) {
-					/* Add them */
+                    /* Add them */
                     entries.add(latestRules);
                     changes = true;
                 }
@@ -62,11 +62,11 @@ public class GathererChecker {
             }
 
             try {
-				/* Get the latest judge docs, and make RssEntries for them */
+                /* Get the latest judge docs, and make RssEntries for them */
                 for (RssEntry judgeDoc : GetJudgeDocs()) {
-				/* If the entries do not have the latest judge docs */
+                /* If the entries do not have the latest judge docs */
                     if (!entries.contains(judgeDoc)) {
-					/* Add them */
+                    /* Add them */
                         entries.add(judgeDoc);
                         changes = true;
                     }
@@ -75,9 +75,9 @@ public class GathererChecker {
                 // Eat it
             }
 
-			/* If there are changes, write the new RSS file */
+            /* If there are changes, write the new RSS file */
             if (changes) {
-				/* First delete the file */
+                /* First delete the file */
                 if (rssFile.exists()) {
                     rssFile.delete();
                 }
@@ -85,14 +85,14 @@ public class GathererChecker {
                 FileOutputStream fos = new FileOutputStream(rssFile, false);
                 FileChannel channel = fos.getChannel();
 
-				/* Writes a sequence of bytes to this channel from the given buffer. */
+                /* Writes a sequence of bytes to this channel from the given buffer. */
                 channel.write(GetRssHeader());
                 for (RssEntry entry : entries) {
                     channel.write(entry.getRssEntry());
                 }
                 channel.write(GetRssFooter());
 
-				/* close the channel */
+                /* close the channel */
                 channel.close();
                 fos.close();
             }
@@ -164,7 +164,7 @@ public class GathererChecker {
                 }
             }
         } catch (Exception e) {
-			/* eat it */
+            /* eat it */
         }
         return rssEntries;
     }
@@ -177,11 +177,11 @@ public class GathererChecker {
      * @throws NullPointerException If the program has trouble reading the webpage
      */
     private static RssEntry GetLatestRules() throws NullPointerException {
-		/* One big line to get the webpage, then the element, then the attribute for the comprehensive rules url */
+        /* One big line to get the webpage, then the element, then the attribute for the comprehensive rules url */
         String url = GathererScraper.ConnectWithRetries("http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules")
                 .getElementsByAttributeValueContaining("href", "txt").get(0).attr("href");
 
-		/* Pick the date out of the link */
+        /* Pick the date out of the link */
         String dateSubStr = url.substring(url.length() - 12, url.length() - 4);
         Calendar cal = Calendar.getInstance();
         cal.clear();
@@ -190,7 +190,7 @@ public class GathererChecker {
                 Integer.parseInt(dateSubStr.substring(6, 8)));
         String dateStr = GetRfc822Date(cal.getTime());
 
-		/* Make the RssEntry and return it */
+        /* Make the RssEntry and return it */
         return new RssEntry("Comprehensive Rules " + dateStr, null, dateStr, url);
     }
 
@@ -201,11 +201,11 @@ public class GathererChecker {
      * @throws NullPointerException
      */
     private static ArrayList<RssEntry> GetJudgeDocs() throws NullPointerException {
-		/* Pick the date out of the bluewizard website */
+        /* Pick the date out of the bluewizard website */
         String date = GathererScraper.ConnectWithRetries("http://www.bluewizard.net/judgeDocs.html")
                 .getElementsByAttributeValueContaining("class", "media-body").get(0).text();
 
-		/* Try real hard to prettify the date. Not really necessary */
+        /* Try real hard to prettify the date. Not really necessary */
         String pubDate;
         try {
             date = date.substring(date.indexOf("(") + 1, date.indexOf(")"));
@@ -268,11 +268,11 @@ public class GathererChecker {
             pubDate = GetRfc822Date(cal.getTime());
 
         } catch (Exception e) {
-			/* In case parsing fails */
+            /* In case parsing fails */
             pubDate = null;
         }
 
-		/* Make RssEntries for each of the three judge documents */
+        /* Make RssEntries for each of the three judge documents */
         ArrayList<RssEntry> entries = new ArrayList<>();
         entries.add(new RssEntry("Magic Infraction Guide, " + date, null, pubDate,
                 "http://www.bluewizard.net/docs/html/MagicInfractionGuide.html"));

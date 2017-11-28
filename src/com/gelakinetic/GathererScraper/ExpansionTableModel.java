@@ -135,8 +135,8 @@ public class ExpansionTableModel extends AbstractTableModel {
     public boolean isCellEditable(int row, int col) {
         /*
          * Note that the data/cell address is constant, no matter where the cell
-		 * appears onscreen.
-		 */
+         * appears onscreen.
+         */
         return col > COLUMN_NAME;
     }
 
@@ -297,13 +297,13 @@ public class ExpansionTableModel extends AbstractTableModel {
 
         Manifest manifest = new Manifest();
         manifest.mTimestamp = getTodayTimestamp();
-		
-		/* Build an array of patches */
+
+        /* Build an array of patches */
         for (ExpansionGS exp : mExpansions) {
-			/*
-			 * Note, new fields cannot be added to this JSON object. It breaks
-			 * old updaters
-			 */
+            /*
+             * Note, new fields cannot be added to this JSON object. It breaks
+             * old updaters
+             */
             if (exp.isScraped()) {
                 ManifestEntry entry = manifest.new ManifestEntry();
                 entry.mName = exp.mName_gatherer;
@@ -315,7 +315,7 @@ public class ExpansionTableModel extends AbstractTableModel {
             }
         }
 
-		/* Sort the patches before writing them */
+        /* Sort the patches before writing them */
         Collections.sort(manifest.mPatches);
         GathererScraper.writeFile(manifest, outFile, false);
     }

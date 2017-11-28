@@ -78,7 +78,7 @@ public class GathererScraperUi {
             /* don't worry about it */
         }
 
-		/* Ask for an expansions file, the directory will be figured out */
+        /* Ask for an expansions file, the directory will be figured out */
         File inputDirectory = askForFile("Manifest Files?", new JsonFilter());
 
         mFilesPath = null;
@@ -90,15 +90,15 @@ public class GathererScraperUi {
             }
         }
 
-		/* Make some files to be opened later */
+        /* Make some files to be opened later */
         mExpansionsFile = new File(mFilesPath, EXPANSION_FILE_NAME);
         mLegalityFile = new File(mFilesPath, LEGAL_FILE_NAME);
         mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
 
-		/*
+        /*
          * If the expansion file isn't found, don't bother running the
-		 * application
-		 */
+         * application
+         */
         if (mFilesPath == null || !mExpansionsFile.exists()) {
             JOptionPane.showMessageDialog(null, "Expansion info not found.", "Error", JOptionPane.ERROR_MESSAGE);
         }
@@ -136,11 +136,11 @@ public class GathererScraperUi {
              */
             @Override
             public void windowClosing(java.awt.event.WindowEvent arg0) {
-				/* Get today's timestamp */
+                /* Get today's timestamp */
                 Calendar cal = Calendar.getInstance();
                 long timestamp = cal.getTime().getTime() / 1000;
 
-				/* Write the legality information first */
+                /* Write the legality information first */
                 try {
                     if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, timestamp)) {
                         frame.setEnabled(true);
@@ -161,19 +161,19 @@ public class GathererScraperUi {
 
         });
 
-		/* Create the models and scraper objects */
+        /* Create the models and scraper objects */
         mExpansionTableModel = new ExpansionTableModel();
         mLegalityListModel = new LegalityListModel();
         try {
-			/* Get a list of expansions from the internet */
+            /* Get a list of expansions from the internet */
             mExpansionTableModel.mExpansions = GathererScraper.scrapeExpansionList();
             if (mExpansionTableModel.mExpansions.isEmpty()) {
                 System.err.println("Gatherer 404!");
                 return false;
             }
             mLegalityListModel.setExpansions(mExpansionTableModel.mExpansions);
-			
-			/* Then add the extra data from the expansions file */
+
+            /* Then add the extra data from the expansions file */
             mExpansionTableModel.readInfo(mExpansionsFile);
 
             if (mLegalityFile.exists()) {
@@ -395,10 +395,10 @@ public class GathererScraperUi {
         final JList<String> list = new JList<>(mLegalityListModel);
         scrollPane_1.setViewportView(list);
 
-		/*
-		 * Set a listener to show the legality dialog when a format is double
-		 * clicked
-		 */
+        /*
+         * Set a listener to show the legality dialog when a format is double
+         * clicked
+         */
         list.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent evt) {
 
@@ -484,7 +484,7 @@ public class GathererScraperUi {
      */
     private void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
         try {
-			/* Only fix this weird character when writing the patch */
+            /* Only fix this weird character when writing the patch */
             exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_gatherer);
 
             PatchGS patch = new PatchGS(exp, allCards);

@@ -95,7 +95,7 @@ public class Card implements Comparable<Card> {
     @Override
     public int compareTo(Card other) {
 
-		/* Sort by collector's number */
+        /* Sort by collector's number */
         if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
 
             int this_num = this.getNumberInteger();
@@ -111,7 +111,7 @@ public class Card implements Comparable<Card> {
             }
         }
 
-		/* Battle Royale is pure alphabetical, except for basics, why not */
+        /* Battle Royale is pure alphabetical, except for basics, why not */
         if (this.mExpansion.equals("BR")) {
             if (this.mType.contains("Basic Land") && !other.mType.contains("Basic Land")) {
                 return 1;
@@ -122,17 +122,17 @@ public class Card implements Comparable<Card> {
             return this.mName.compareTo(other.mName);
         }
 
-		/*
+        /*
          * Or if that doesn't exist, sort by color order. Weird for
-		 * magiccards.info
-		 */
+         * magiccards.info
+         */
         if (this.getNumFromColor() > other.getNumFromColor()) {
             return 1;
         } else if (this.getNumFromColor() < other.getNumFromColor()) {
             return -1;
         }
 
-		/* If the color matches, sort by name */
+        /* If the color matches, sort by name */
         return this.mName.compareTo(other.mName);
     }
 
@@ -172,7 +172,7 @@ public class Card implements Comparable<Card> {
                 }
             }
         }
-		/* And magiccards.info has weird numbering for everything else */
+        /* And magiccards.info has weird numbering for everything else */
         else {
             if (this.mColor.length() > 1) {
                 return 7;

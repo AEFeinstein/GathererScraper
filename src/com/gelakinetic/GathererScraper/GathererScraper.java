@@ -2,7 +2,6 @@ package com.gelakinetic.GathererScraper;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
-import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
@@ -82,8 +81,8 @@ public class GathererScraper {
             return null;
         }
 
-		
-		/* Get the card numbers from the old patch, just in case */
+        
+        /* Get the card numbers from the old patch, just in case */
         HashMap<String, String> cachedCollectorsNumbers = null;
         try {
             File oldPatchFile = new File(PATCH_DIR, exp.mCode_gatherer + ".json.gzip");
@@ -108,7 +107,7 @@ public class GathererScraper {
 
         HashMap<String, Integer> multiverseMap = new HashMap<>();
 
-		/* Look for normal cards */
+        /* Look for normal cards */
         int pageNum = 0;
         boolean loop = true;
         while (loop) {
@@ -165,33 +164,33 @@ public class GathererScraper {
                 scrapedCards.get(i).mNumber = "" + (i + 1);
             }
         }
-		
-		/* Attempt to renumber consecutive cards with alt-art, but the same artist */
+
+        /* Attempt to renumber consecutive cards with alt-art, but the same artist */
         Collections.sort(scrapedCards);
         for (int i = 0; i < scrapedCards.size() - 1; i++) {
             if (scrapedCards.get(i).mNumber.equals(scrapedCards.get(i + 1).mNumber) &&
                     scrapedCards.get(i).mName.equals(scrapedCards.get(i + 1).mName)) {
                 try {
-					/* Adjust the number, resort the collection, step back the array
-					 * This should properly number more than two of the same number
-					 */
+                    /* Adjust the number, resort the collection, step back the array
+                     * This should properly number more than two of the same number
+                     */
                     try {
                         switch (scrapedCards.get(i + 1).mExpansion) {
                             case "ZEN":
-								/* Increment the number in the string. MTGI's numbers for ZEN basics are weird */
+                                /* Increment the number in the string. MTGI's numbers for ZEN basics are weird */
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 20) + "";
                                 break;
                             case "SVT":
-								/* Increment the number in the string. MTGI's numbers for SVT basics are weird */
+                                /* Increment the number in the string. MTGI's numbers for SVT basics are weird */
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 43) + "";
                                 break;
                             default:
-								/* Increment the number in the string */
+                                /* Increment the number in the string */
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 1) + "";
                                 break;
                         }
                     } catch (NumberFormatException e) {
-						/* Guess it has a letter in there, increment that instead */
+                        /* Guess it has a letter in there, increment that instead */
                         char letter = scrapedCards.get(i + 1).mNumber.charAt(
                                 scrapedCards.get(i + 1).mNumber.length() - 1);
                         scrapedCards.get(i + 1).mNumber = scrapedCards.get(i + 1).mNumber
@@ -208,11 +207,11 @@ public class GathererScraper {
                 }
             }
         }
-		
-		/* Calculate color identities. This is done here because both halves of split cards must be known */
+
+        /* Calculate color identities. This is done here because both halves of split cards must be known */
         calculateColorIdentities(scrapedCards);
-		
-		/* Debug check for cards with the same number */
+
+        /* Debug check for cards with the same number */
         Collections.sort(scrapedCards);
         for (int i = 0; i < scrapedCards.size() - 1; i++) {
             if (scrapedCards.get(i).mNumber.equals(scrapedCards.get(i + 1).mNumber)) {
@@ -310,76 +309,76 @@ public class GathererScraper {
                                                 HashMap<String, Integer> multiverseMap,
                                                 HashMap<String, String> cachedCollectorsNumbers) {
 
-		/* Put all cards from all pages into this ArrayList */
+        /* Put all cards from all pages into this ArrayList */
         ArrayList<CardGS> scrapedCardsAllPages = new ArrayList<>();
 
-		/* Download this page, add it to the collection */
+        /* Download this page, add it to the collection */
         ArrayList<Document> cardPages = new ArrayList<>();
         cardPages.add(ConnectWithRetries(cardUrl));
 
-		/* Get all the multiverse IDs of all printings */
+        /* Get all the multiverse IDs of all printings */
         ArrayList<Integer> mIds = getPrintingMultiverseIds(cardPages.get(0));
-		/* If there are alternate printings */
+        /* If there are alternate printings */
         if (mIds != null) {
-			/* For all printings */
+            /* For all printings */
             for (Integer mId : mIds) {
-				/* If we haven't downloaded this page yet */
+                /* If we haven't downloaded this page yet */
                 String newUrl = CardGS.getUrl(mId);
                 if (!newUrl.equals(cardUrl)) {
-					/* Download it */
+                    /* Download it */
                     cardPages.add(ConnectWithRetries(CardGS.getUrl(mId)));
                 }
             }
         }
 
-//		System.out.println(cardUrl);
+//        System.out.println(cardUrl);
 
         for (Document cardPage : cardPages) {
 
-//			System.out.println("\t" + cardPage.baseUri());
+//            System.out.println("\t" + cardPage.baseUri());
             int mId = Integer.parseInt(cardPage.baseUri().substring(cardPage.baseUri().lastIndexOf("=") + 1));
 
-			/* Put all cards from this page into this ArrayList */
+            /* Put all cards from this page into this ArrayList */
             ArrayList<CardGS> scrapedCards = new ArrayList<>();
 
-			/* Get all cards on this page */
+            /* Get all cards on this page */
             HashMap<String, String> ids = getCardIds(cardPage);
-	
-			/* For all cards on this page, grab their information */
+    
+            /* For all cards on this page, grab their information */
             for (String name : ids.keySet()) {
 
-//				System.out.println("\t\t" + name);
+//                System.out.println("\t\t" + name);
 
                 CardGS card;
                 if (cardPages.size() > 1) {
-					/* Pick the multiverseID out of the URL */
+                    /* Pick the multiverseID out of the URL */
                     card = new CardGS(name, exp.mCode_gatherer, mId);
                 } else {
-					/* Pick the multiverseID out of the hashmap built from the card list */
+                    /* Pick the multiverseID out of the hashmap built from the card list */
                     card = new CardGS(name, exp.mCode_gatherer, multiverseMap.get(name));
                 }
-				
-				/* Get the ID for this card's information */
+                
+                /* Get the ID for this card's information */
                 String id = ids.get(name);
-	
-				/* Mana Cost */
+    
+                /* Mana Cost */
                 card.mManaCost = getTextFromAttribute(cardPage, id + "manaRow", "value", true);
-	
-				/* Converted Mana Cost */
+    
+                /* Converted Mana Cost */
                 try {
                     card.mCmc = Integer.parseInt(getTextFromAttribute(cardPage, id + "cmcRow", "value", true));
                 } catch (NumberFormatException e) {
                     card.mCmc = 0;
                 }
-	
-				/* Type */
+    
+                /* Type */
                 card.mType = getTextFromAttribute(cardPage, id + "typeRow", "value", true);
-	
-				/* Ability Text */
+    
+                /* Ability Text */
                 card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false);
                 card.mText = linkifyText(card.mText);
-	
-				/* For unglued, fix some symbols */
+    
+                /* For unglued, fix some symbols */
                 if ((card.mExpansion.equals("UG") || card.mExpansion.equals("UNH")) &&
                         (null != card.mText)) {
                     card.mText = card.mText
@@ -396,18 +395,18 @@ public class GathererScraper {
                             .replace("o4", "{4}")
                             .replace("o7", "{7}");
                 }
-				
-				/* Flavor */
+                
+                /* Flavor */
                 card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false);
                 if (card.mFlavor == null || card.mFlavor.equals("")) {
                     card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "cardtextbox", false);
                 }
-	
-				/* PT */
+    
+                /* PT */
                 String pt = getTextFromAttribute(cardPage, id + "ptRow", "value", true);
 
                 if (card.mExpansion.equals("VNG")) {
-					/* this row is the life & hand modifier for vanguard */
+                    /* this row is the life & hand modifier for vanguard */
                     card.mText += "<br><br><br>" + pt;
                     card.mPower = CardDbAdapter.NO_ONE_CARES;
                     card.mToughness = CardDbAdapter.NO_ONE_CARES;
@@ -529,55 +528,55 @@ public class GathererScraper {
                         }
                     }
                 }
-	
-				/* Rarity */
+    
+                /* Rarity */
                 String rarity = getTextFromAttribute(cardPage, id + "rarityRow", "value", true);
                 if (rarity.isEmpty()) {
-					/* Edge case for promotional cards */
+                    /* Edge case for promotional cards */
                     card.mRarity = 'R';
                 } else if (card.mExpansion.equals("TSB")) {
-					/* They say Special, I say Timeshifted */
+                    /* They say Special, I say Timeshifted */
                     card.mRarity = 'T';
                 } else if (rarity.equalsIgnoreCase("Land")) {
-					/* Basic lands aren't technically common, but the app doesn't
-					 * understand "Land"
-					 */
+                    /* Basic lands aren't technically common, but the app doesn't
+                     * understand "Land"
+                     */
                     card.mRarity = 'C';
                 } else if (rarity.equalsIgnoreCase("Special")) {
-					/* Planechase, Promos, Vanguards */
+                    /* Planechase, Promos, Vanguards */
                     card.mRarity = 'R';
                 } else {
                     card.mRarity = rarity.charAt(0);
                 }
-	
-				/* artist */
+    
+                /* artist */
                 card.mArtist = getTextFromAttribute(cardPage, id + "ArtistCredit", "value", true);
 
-				/* artist */
+                /* artist */
                 card.mWatermark = getTextFromAttribute(cardPage, id + "markRow", "value", true);
 
-				/* Number */
-				/* Try pulling the card number out of the cache first */
+                /* Number */
+                /* Try pulling the card number out of the cache first */
                 if (cachedCollectorsNumbers != null) {
                     card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName);
                     if (card.mNumber == null) {
                         card.mNumber = cachedCollectorsNumbers.get(card.mMultiverseId + card.mName.replace("Ae", "Æ").replace("ae", "æ"));
                     }
                 }
-				
-				/* If that didn't work, try getting it from Gatherer */
+                
+                /* If that didn't work, try getting it from Gatherer */
                 if (card.mNumber == null || card.mNumber.equals("")) {
                     card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
                 }
-	
-				/* If that didn't work, print a warning */
+    
+                /* If that didn't work, print a warning */
                 if (card.mNumber == null || card.mNumber.equals("")) {
                     System.out.println(String.format("[%3s]\t%s\tNo Number Found",
                             card.mExpansion,
                             card.mName));
                 }
-				
-				/* Manually override some numbers because Gatherer is trash */
+                
+                /* Manually override some numbers because Gatherer is trash */
                 if (card.mExpansion.equals("EMN")) {
                     switch (card.mName) {
                         case "Bruna, the Fading Light":
@@ -621,8 +620,8 @@ public class GathererScraper {
                             break;
                     }
                 }
-				
-				/* color, calculated */
+                
+                /* color, calculated */
                 String color = getTextFromAttribute(cardPage, id + "colorIndicatorRow", "value", true);
                 StringBuilder colorBuilder = new StringBuilder();
                 if (card.mType.contains("Artifact")) {
@@ -665,8 +664,8 @@ public class GathererScraper {
                     }
                 }
                 card.mColor = colorBuilder.toString();
-				
-				/* If the card has no color, or it's Ghostfire, or it has Devoid */
+                
+                /* If the card has no color, or it's Ghostfire, or it has Devoid */
                 if (card.mColor.isEmpty() || card.mName.equals("Ghostfire") ||
                         (card.mText != null && card.mText.contains("(This card has no color.)"))) {
                     card.mColor = "C";
@@ -679,32 +678,32 @@ public class GathererScraper {
                 card.clearNulls();
                 scrapedCards.add(card);
             }
-			
-			/*
-			 * Since Gatherer seems to be non-deterministic, if we are using their
-			 * numbers, and this is a multicard, sort the card parts and renumber
-			 * the letters alphabetically 
-			 */
-			/* Edit: Seems to be better now, commenting out instead of deleting just in case
-			if(scrapedCards.size() > 1 && usingGathererNumbers) {
-				Collections.sort(scrapedCards, CardGS.getNameComparator());
-				for(int i = 0; i < scrapedCards.size(); i++) {
-					scrapedCards.get(i).mNumber = scrapedCards.get(i).mNumber.replaceAll("[A-Za-z]", ((char)('a' + i)) + "");
-				}
-			}
-			*/
-			
-			/* If this is a multicard */
+            
+            /*
+             * Since Gatherer seems to be non-deterministic, if we are using their
+             * numbers, and this is a multicard, sort the card parts and renumber
+             * the letters alphabetically 
+             */
+            /* Edit: Seems to be better now, commenting out instead of deleting just in case
+            if(scrapedCards.size() > 1 && usingGathererNumbers) {
+                Collections.sort(scrapedCards, CardGS.getNameComparator());
+                for(int i = 0; i < scrapedCards.size(); i++) {
+                    scrapedCards.get(i).mNumber = scrapedCards.get(i).mNumber.replaceAll("[A-Za-z]", ((char)('a' + i)) + "");
+                }
+            }
+            */
+            
+            /* If this is a multicard */
             if (scrapedCards.size() == 2) {
-				/* Check to see if one CMC is 0 and the other is greater than 0 */
+                /* Check to see if one CMC is 0 and the other is greater than 0 */
                 int cmc0 = scrapedCards.get(0).mCmc;
                 int cmc1 = scrapedCards.get(1).mCmc;
-				/* Also make sure this is a transform card */
+                /* Also make sure this is a transform card */
                 if (cmc0 == 0 && cmc1 > 0 && scrapedCards.get(1).mText.toLowerCase().contains("transform")) {
-					/* Give the back face the same cmc as the front face */
+                    /* Give the back face the same cmc as the front face */
                     scrapedCards.get(0).mCmc = scrapedCards.get(1).mCmc;
                 } else if (cmc0 > 0 && cmc1 == 0 && scrapedCards.get(0).mText.toLowerCase().contains("transform")) {
-					/* Give the back face the same cmc as the front face */
+                    /* Give the back face the same cmc as the front face */
                     scrapedCards.get(1).mCmc = scrapedCards.get(0).mCmc;
                 }
 
@@ -740,7 +739,7 @@ public class GathererScraper {
             return;
         }
 
-		/* Start the loop at page 0 */
+        /* Start the loop at page 0 */
         int pageNum = 0;
         boolean foreignPrintingAdded = true;
         boolean hasMultiplePages = true;
@@ -748,16 +747,16 @@ public class GathererScraper {
         while (foreignPrintingAdded && hasMultiplePages) {
             Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId, pageNum));
             Elements languageElements = page.getElementsByAttributeValueContaining("class", "cardItem");
-			
-			/* If there are multiple pages, we'll need to loop again */
+            
+            /* If there are multiple pages, we'll need to loop again */
             hasMultiplePages = !page.getElementsByAttributeValueContaining("id", "pagingControlsParent").isEmpty();
-			
-			/* No need to loop again, there's nothing on this page */
+            
+            /* No need to loop again, there's nothing on this page */
             if (languageElements.isEmpty()) {
                 break;
             }
-	
-			/* Try to add each element */
+    
+            /* Try to add each element */
             for (Element elt : languageElements) {
                 ForeignPrinting fp = (new Card()).new ForeignPrinting();
 
@@ -806,7 +805,7 @@ public class GathererScraper {
                 if (!foreignPrintings.contains(fp)) {
                     foreignPrintings.add(fp);
                 } else {
-					/* Duplicate, which means WotC served the same page twice and we're done */
+                    /* Duplicate, which means WotC served the same page twice and we're done */
                     foreignPrintingAdded = false;
                     break;
                 }
@@ -855,20 +854,20 @@ public class GathererScraper {
 
         HashMap<String, String> ids = new HashMap<>(2);
 
-		/* Get all names on this page */
+        /* Get all names on this page */
         Elements names = cardPage.getElementsByAttributeValueContaining("id", "nameRow");
 
-		/* For each name, get the ID */
+        /* For each name, get the ID */
         for (Element name : names) {
-			/* Get the actual ID */
+            /* Get the actual ID */
             String id = name.getElementsByAttribute("id").first().attr("id");
             id = id.substring(id.length() - 14, id.length() - 7);
 
-			/* Get the actual card name */
+            /* Get the actual card name */
             Elements e2 = name.getElementsByAttributeValueContaining("class", "value");
             String stringName = cleanHtml(e2.outerHtml(), true);
 
-			/* Store the name & ID combo */
+            /* Store the name & ID combo */
             ids.put(stringName, id);
         }
         return ids;
@@ -942,10 +941,10 @@ public class GathererScraper {
                     break;
                 }
                 case '>': {
-					/* Process the tag */
+                    /* Process the tag */
                     tag.append(c);
 
-					/* replace <div> tags with newlines */
+                    /* replace <div> tags with newlines */
                     if (tag.toString().matches(".*[\\s<]+div[\\s>]+.*")) {
                         if (!removeNewlines && output.length() > 0) {
                             output.append("<br>");
@@ -1036,7 +1035,7 @@ public class GathererScraper {
                         }
                         output.append("{").append(symbol).append("}");
                     }
-					/* clear the tag */
+                    /* clear the tag */
                     inTag = false;
                     tag = new StringBuilder();
                     break;
@@ -1053,15 +1052,15 @@ public class GathererScraper {
             }
         }
         return StringEscapeUtils.unescapeHtml4(output.toString()
-		/* replace whitespace at the head and tail */
+        /* replace whitespace at the head and tail */
                 .trim()
-		/* remove whitespace around newlines */
+        /* remove whitespace around newlines */
                 .replaceAll("[ \\t]*<br>[ \\t]*", "<br>")
-		/* Condense spaces and tabs */
+        /* Condense spaces and tabs */
                 .replaceAll("[ \\t]+", " ")
-		/* remove whitespace between symbols */
+        /* remove whitespace between symbols */
                 .replaceAll("\\}\\s+\\{", "\\}\\{"))
-		/* replace silly divider, planeswalker minus */
+        /* replace silly divider, planeswalker minus */
                 .replaceAll("—", "-").replaceAll("−", "-");
     }
 
@@ -1072,26 +1071,26 @@ public class GathererScraper {
      * @throws IOException Thrown if something goes wrong
      */
     public static String cleanRules(File rulesFile) throws IOException, NullPointerException {
-		/* Save any post-formatting lines with non-ascii chars here */
+        /* Save any post-formatting lines with non-ascii chars here */
         StringBuilder problematicLines = new StringBuilder();
-		/* Open up file in & out */
+        /* Open up file in & out */
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(rulesFile), "Cp1252"));
         BufferedWriter fw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(rulesFile.getAbsolutePath() + ".clean"), "UTF8"));
-		/* Read the file, one line at a time */
+        /* Read the file, one line at a time */
         String line;
         while ((line = br.readLine()) != null) {
-			/* Clean and write the line */
+            /* Clean and write the line */
             line = removeNonAscii(line);
             fw.write(line + "\r\n");
-			/* If the line still has any non-ascii chars, note it */
+            /* If the line still has any non-ascii chars, note it */
             if (line.matches(".*[^\\x00-\\x7F].*")) {
                 problematicLines.append(line).append("\r\n");
             }
         }
-		/* Clean up */
+        /* Clean up */
         fw.close();
         br.close();
-		/* Return any lines with non-ascii chars */
+        /* Return any lines with non-ascii chars */
         return problematicLines.toString();
     }
 
@@ -1118,7 +1117,7 @@ public class GathererScraper {
                         {"Æ", "Ae"},
                         {"æ", "ae"},
                         {"©", "(C)"}};
-			 /* Loop through all the known replacements and perform them */
+             /* Loop through all the known replacements and perform them */
         for (String[] replaceSet : replacements) {
             line = line.replaceAll(replaceSet[0], replaceSet[1]);
         }

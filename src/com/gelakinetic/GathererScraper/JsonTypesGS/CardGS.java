@@ -132,7 +132,7 @@ public class CardGS extends Card implements Serializable {
         String basicLandTypes[] = {"Plains", "Island", "Swamp", "Mountain",
                 "Forest"};
 
-		/* Search for colors in the cost & mColor */
+        /* Search for colors in the cost & mColor */
         for (int i = 0; i < colors.length; i++) {
             if (mColor.contains(colorLetters[i])) {
                 colors[i] = true;
@@ -142,7 +142,7 @@ public class CardGS extends Card implements Serializable {
             }
         }
 
-		/* Remove reminder text */
+        /* Remove reminder text */
         String noReminderText = mText.replaceAll("\\([^\\(\\)]+\\)", "");
         /* Find mana symbols in the rest of the text */
         Pattern manaPattern = Pattern.compile("\\{[^\\{\\}]+\\}");
@@ -156,7 +156,7 @@ public class CardGS extends Card implements Serializable {
             }
         }
 
-		/* For typed lands, add mColor identity */
+        /* For typed lands, add mColor identity */
         if (mType.toLowerCase().contains("land")) {
             for (int i = 0; i < colors.length; i++) {
                 if (mType.contains(basicLandTypes[i])) {
@@ -165,7 +165,7 @@ public class CardGS extends Card implements Serializable {
             }
         }
 
-		/* Write the mColor identity */
+        /* Write the mColor identity */
         StringBuilder colorIdentity = new StringBuilder();
         for (int i = 0; i < colors.length; i++) {
             if (colors[i]) {
@@ -185,10 +185,10 @@ public class CardGS extends Card implements Serializable {
     public void calculateColorIdentity(ArrayList<CardGS> otherCards) {
         String colorLetters[] = {"W", "U", "B", "R", "G"};
 
-		/* Get the mColor identity for the first part of the card */
+        /* Get the mColor identity for the first part of the card */
         String firstPartIdentity = getColorIdentity();
 
-		/* Find the mColor identity for multicards */
+        /* Find the mColor identity for multicards */
         String secondPartIdentity = "";
         String newNumber = null;
         if (mNumber.contains("a")) {
@@ -205,7 +205,7 @@ public class CardGS extends Card implements Serializable {
             }
         }
 
-		/* Combine the two mColor identity parts into one */
+        /* Combine the two mColor identity parts into one */
         StringBuilder identityBuilder = new StringBuilder();
         for (String colorLetter : colorLetters) {
             if (firstPartIdentity.contains(colorLetter)

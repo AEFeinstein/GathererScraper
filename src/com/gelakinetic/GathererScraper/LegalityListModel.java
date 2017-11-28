@@ -114,8 +114,8 @@ public class LegalityListModel extends AbstractListModel<String> {
     public boolean writeLegalDataFile(JFrame frame, String path, long timestamp) throws IOException {
         /*
          * If there are invalid expansions, don't write the file. Show an error
-		 * dialog instead
-		 */
+         * dialog instead
+         */
         if (mInvalidExpansions.size() > 0) {
             StringBuilder invalidFormats = new StringBuilder();
             for (String s : mInvalidExpansions) {
@@ -153,7 +153,7 @@ public class LegalityListModel extends AbstractListModel<String> {
      * @wbp.parser.entryPoint
      */
     public void showDialog(final int index) {
-		/* Set up the UI and stuff */
+        /* Set up the UI and stuff */
         JFrame legalityFrame = new JFrame(mFormats.get(index) + " Legality");
         legalityFrame.setBounds(100, 100, 768, 512);
 
@@ -193,7 +193,7 @@ public class LegalityListModel extends AbstractListModel<String> {
         gbc_scrollPane.gridy = 1;
         legalityFrame.getContentPane().add(scrollPane, gbc_scrollPane);
 
-		/* Valid Expansions */
+        /* Valid Expansions */
 
         final JTextArea expansionsTextArea = new JTextArea();
         StringBuilder expansionsString = new StringBuilder();
@@ -212,7 +212,7 @@ public class LegalityListModel extends AbstractListModel<String> {
         gbc_scrollPane_1.gridy = 1;
         legalityFrame.getContentPane().add(scrollPane_1, gbc_scrollPane_1);
 
-		/* Restricted Cards */
+        /* Restricted Cards */
 
         final JTextArea restrictedTextArea = new JTextArea();
         StringBuilder restrictedString = new StringBuilder();
@@ -230,7 +230,7 @@ public class LegalityListModel extends AbstractListModel<String> {
         gbc_scrollPane_2.gridy = 1;
         legalityFrame.getContentPane().add(scrollPane_2, gbc_scrollPane_2);
 
-		/* Banned Cards */
+        /* Banned Cards */
 
         final JTextArea bannedTextArea = new JTextArea();
         StringBuilder bannedString = new StringBuilder();
@@ -241,7 +241,7 @@ public class LegalityListModel extends AbstractListModel<String> {
 
         scrollPane_2.setViewportView(bannedTextArea);
 
-		/* What happens when the frame closes */
+        /* What happens when the frame closes */
         legalityFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         legalityFrame.addWindowListener(new java.awt.event.WindowAdapter() {
             /**
@@ -256,18 +256,18 @@ public class LegalityListModel extends AbstractListModel<String> {
              */
             @Override
             public void windowClosing(java.awt.event.WindowEvent windowEvent) {
-				/* Make some JSON out of the text in the box */
+                /* Make some JSON out of the text in the box */
                 String[] expansionsString = expansionsTextArea.getText().split("[\\r\\n]+");
                 mLegalityData.mFormats[index].mSets.clear();
 
-				/* only add non-empty lines */
+                /* only add non-empty lines */
                 for (String expansion : expansionsString) {
                     if (expansion.length() > 0) {
                         mLegalityData.mFormats[index].mSets.add(expansion);
                     }
                 }
 
-				/* Check to make sure expansions exist */
+                /* Check to make sure expansions exist */
                 mInvalidExpansions.remove(mFormats.get(index));
                 for (String thisExpansion : expansionsString) {
                     if (!thisExpansion.isEmpty()) {
@@ -285,11 +285,11 @@ public class LegalityListModel extends AbstractListModel<String> {
                     }
                 }
 
-				/*
-				 * No sanity check on cards, since they may not have been
-				 * scraped now Also, these should be copy/pasted from the
-				 * Internet
-				 */
+                /*
+                 * No sanity check on cards, since they may not have been
+                 * scraped now Also, these should be copy/pasted from the
+                 * Internet
+                 */
                 String[] bannedString = bannedTextArea.getText().split("[\\r\\n]+");
                 mLegalityData.mFormats[index].mBanlist.clear();
                 for (String banned : bannedString) {
@@ -306,15 +306,15 @@ public class LegalityListModel extends AbstractListModel<String> {
                     }
                 }
                 mWindowsOpen--;
-				
-				/* Then sort the legality data */
+
+                /* Then sort the legality data */
                 Collections.sort(mLegalityData.mFormats[index].mSets);
                 Collections.sort(mLegalityData.mFormats[index].mBanlist);
                 Collections.sort(mLegalityData.mFormats[index].mRestrictedlist);
             }
         });
 
-		/* show it */
+        /* show it */
         legalityFrame.setVisible(true);
         mWindowsOpen++;
     }
