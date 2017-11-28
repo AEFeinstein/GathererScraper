@@ -113,7 +113,7 @@ public class LegalityListModel extends AbstractListModel<String> {
      */
     public boolean writeLegalDataFile(JFrame frame, String path, long timestamp) throws IOException {
         /*
-		 * If there are invalid expansions, don't write the file. Show an error
+         * If there are invalid expansions, don't write the file. Show an error
 		 * dialog instead
 		 */
         if (mInvalidExpansions.size() > 0) {

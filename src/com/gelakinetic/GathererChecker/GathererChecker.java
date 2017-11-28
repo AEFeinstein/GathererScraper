@@ -35,7 +35,7 @@ public class GathererChecker {
             boolean changes = false;
             /* Read in the current RSS file */
             ArrayList<RssEntry> entries = readRssFile(rssFile);
-			/* Scrape a list of expansions */
+            /* Scrape a list of expansions */
             ArrayList<ExpansionGS> expansions = GathererScraper.scrapeExpansionList();
 
 			/* For each expansion */

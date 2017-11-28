@@ -143,7 +143,7 @@ public class Card implements Comparable<Card> {
      * @return A number indicating how the card's color is sorted
      */
     private int getNumFromColor() {
-		/* Because Beatdown properly sorts color */
+        /* Because Beatdown properly sorts color */
         if (this.mExpansion.equals("BD")) {
             if (this.mColor.length() > 1) {
                 return 7;

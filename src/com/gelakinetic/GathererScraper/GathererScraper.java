@@ -2,6 +2,7 @@ package com.gelakinetic.GathererScraper;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
+import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
@@ -80,7 +81,7 @@ public class GathererScraper {
             /* This should never happen */
             return null;
         }
-		
+
 		
 		/* Get the card numbers from the old patch, just in case */
         HashMap<String, String> cachedCollectorsNumbers = null;
@@ -96,7 +97,7 @@ public class GathererScraper {
 
             cachedCollectorsNumbers = new HashMap<>();
             for (Card card : patch.mCards) {
-				/* Name is the key, collectors number is the value */
+                /* Name is the key, collectors number is the value */
                 cachedCollectorsNumbers.put(card.mMultiverseId + card.mName, card.mNumber);
             }
         } catch (Exception e) {
@@ -106,14 +107,14 @@ public class GathererScraper {
         ArrayList<CardGS> cardsArray = new ArrayList<>();
 
         HashMap<String, Integer> multiverseMap = new HashMap<>();
-		
+
 		/* Look for normal cards */
         int pageNum = 0;
         boolean loop = true;
         while (loop) {
 
             String tmpName = exp.mName_gatherer;
-			/* Un-ascii Conspiracy */
+            /* Un-ascii Conspiracy */
             if (tmpName.equals("Magic: The Gathering-Conspiracy")) {
                 tmpName = "Magic: The Gathering—Conspiracy";
             }
@@ -302,8 +303,8 @@ public class GathererScraper {
      * @param exp                     The expansion of the cards on this page
      * @param multiverseMap           A map of card names to multiverse IDs
      * @param cachedCollectorsNumbers A map of card names + multiverseID to collector's numbers
-     * @throws IOException Thrown if the Internet breaks
      * @return An array list of scraped cards
+     * @throws IOException Thrown if the Internet breaks
      */
     private static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
                                                 HashMap<String, Integer> multiverseMap,
@@ -438,12 +439,19 @@ public class GathererScraper {
                                     break;
                                 }
                                 case "X": {
-                                    card.mToughness = CardDbAdapter.X;
+                                    card.mPower = CardDbAdapter.X;
+                                    break;
+                                }
+                                case "∞": {
+                                    card.mPower = CardDbAdapter.INFINITY;
+                                    break;
+                                }
+                                case "?": {
+                                    card.mPower = CardDbAdapter.QUESTION_MARK;
                                     break;
                                 }
                                 default: {
                                     card.mPower = Float.parseFloat(power);
-
                                 }
                             }
                             String toughness = pt.replace("{1/2}", ".5").split("/")[1].trim();
@@ -472,9 +480,16 @@ public class GathererScraper {
                                     card.mToughness = CardDbAdapter.X;
                                     break;
                                 }
+                                case "∞": {
+                                    card.mToughness = CardDbAdapter.INFINITY;
+                                    break;
+                                }
+                                case "?": {
+                                    card.mToughness = CardDbAdapter.QUESTION_MARK;
+                                    break;
+                                }
                                 default: {
                                     card.mToughness = Float.parseFloat(toughness);
-
                                 }
                             }
                         } else {
@@ -504,8 +519,11 @@ public class GathererScraper {
                                     break;
                                 }
                                 default: {
-                                    card.mLoyalty = Integer.parseInt(pt.trim());
-
+                                    if (card.mName.equals("Urza, Academy Headmaster")) {
+                                        card.mLoyalty = 4;
+                                    } else {
+                                        card.mLoyalty = Integer.parseInt(pt.trim());
+                                    }
                                 }
                             }
                         }

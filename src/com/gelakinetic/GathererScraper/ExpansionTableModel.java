@@ -134,7 +134,7 @@ public class ExpansionTableModel extends AbstractTableModel {
      */
     public boolean isCellEditable(int row, int col) {
         /*
-		 * Note that the data/cell address is constant, no matter where the cell
+         * Note that the data/cell address is constant, no matter where the cell
 		 * appears onscreen.
 		 */
         return col > COLUMN_NAME;

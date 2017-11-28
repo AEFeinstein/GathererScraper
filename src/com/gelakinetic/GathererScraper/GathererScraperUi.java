@@ -96,7 +96,7 @@ public class GathererScraperUi {
         mAppmapFile = new File(mFilesPath, APPMAP_FILE_NAME);
 
 		/*
-		 * If the expansion file isn't found, don't bother running the
+         * If the expansion file isn't found, don't bother running the
 		 * application
 		 */
         if (mFilesPath == null || !mExpansionsFile.exists()) {
