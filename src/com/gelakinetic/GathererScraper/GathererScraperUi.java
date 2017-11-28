@@ -74,7 +74,9 @@ public class GathererScraperUi {
 		System.setProperty("http.agent", "");
 		EventQueue.invokeLater(() -> {
             try {
-                (new GathererScraperUi()).initialize();
+                if(!(new GathererScraperUi()).initialize()) {
+                	System.exit(0);
+				}
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -125,10 +127,10 @@ public class GathererScraperUi {
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
+	private boolean initialize() {
 
 		if (mFilesPath == null || !mExpansionsFile.exists()) {
-			return;
+			return false;
 		}
 
 		final JFrame frame = new JFrame();
@@ -187,6 +189,10 @@ public class GathererScraperUi {
 		try {
 			/* Get a list of expansions from the internet */
 			mExpansionTableModel.mExpansions = GathererScraper.scrapeExpansionList();
+			if(mExpansionTableModel.mExpansions.isEmpty()) {
+				System.err.println("Gatherer 404!");
+				return false;
+			}
 			mLegalityListModel.setExpansions(mExpansionTableModel.mExpansions);
 			
 			/* Then add the extra data from the expansions file */
@@ -461,6 +467,7 @@ public class GathererScraperUi {
         });
 
 		frame.setVisible(true);
+		return true;
 	}
 
 	/**
