@@ -1,130 +1,126 @@
 package com.gelakinetic.GathererScraper.JsonTypesGS;
 
+import com.gelakinetic.GathererScraper.JsonTypes.Card;
+import org.apache.commons.lang3.SerializationUtils;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.SerializationUtils;
-
-import com.gelakinetic.GathererScraper.JsonTypes.Card;
 /**
  * This class contains all information about a scraped card
  *
  * @author AEFeinstein
- *
  */
 public class CardGS extends Card implements Serializable {
-	private static final long	serialVersionUID	= 7961150645687367029L;
+    private static final long serialVersionUID = 7961150645687367029L;
 
-	/**
-	 * Creates a card object with the basic information. The rest will be
-	 * scraped later
-	 *
-	 * @param name
-	 *            The name of the card
-	 * @param expansion
-	 *            The expansion of the card
-	 * @param multiverseId
-	 *            The multiverse ID of the card
-	 */
-	public CardGS(String name, String expansion, int multiverseId) {
-		this.mName = name;
-		this.mMultiverseId = multiverseId;
-		this.mExpansion = expansion;
-	}
+    /**
+     * Creates a card object with the basic information. The rest will be
+     * scraped later
+     *
+     * @param name         The name of the card
+     * @param expansion    The expansion of the card
+     * @param multiverseId The multiverse ID of the card
+     */
+    public CardGS(String name, String expansion, int multiverseId) {
+        this.mName = name;
+        this.mMultiverseId = multiverseId;
+        this.mExpansion = expansion;
+    }
 
-	/**
-	 * Returns a string URL for this card's gatherer page
-	 *
-	 * @return A string of the URL for this card's gatherer page
-	 */
-	public static String getUrl(int multiverseId) {
-		return "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + multiverseId;
-	}
-	
-	/**
-	 * Returns a string URL for this card's gatherer language page
-	 *
-	 * @return A string of the URL for this card's gatherer language page
-	 */
-	public static String getLanguageUrl(int multiverseId, int page) {
-		return "http://gatherer.wizards.com/Pages/Card/Languages.aspx?page=" + page + "&multiverseid=" + multiverseId;
-	}
+    /**
+     * Returns a string URL for this card's gatherer page
+     *
+     * @return A string of the URL for this card's gatherer page
+     */
+    public static String getUrl(int multiverseId) {
+        return "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + multiverseId;
+    }
 
-	/**
-	 * Turns any null fields into empty strings
-	 */
-	public void clearNulls() {
-		if (null == mName) {
-			mName = "";
-		}
-		if (null == mManaCost) {
-			mManaCost = "";
-		}
-		if (null == mType) {
-			mType = "";
-		}
-		if (null == mText) {
-			mText = "";
-		}
-		if (null == mFlavor) {
-			mFlavor = "";
-		}
-		if (null == mExpansion) {
-			mExpansion = "";
-		}
-		if (null == mNumber) {
-			mNumber = "";
-		}
-		if (null == mArtist) {
-			mArtist = "";
-		}
-		if (null == mColor) {
-			mColor = "";
-		}
-		if (null == mColorIdentity) {
-			mColorIdentity = "";
-		}
-		if (null == mWatermark) {
-			mWatermark = "";
-		}
-		if (null == mForeignPrintings) {
-			mForeignPrintings = new ArrayList<>();
-		}
-		/* Don't worry about mRarity, mPower, mToughness, or mLoyalty */
-	}
+    /**
+     * Returns a string URL for this card's gatherer language page
+     *
+     * @return A string of the URL for this card's gatherer language page
+     */
+    public static String getLanguageUrl(int multiverseId, int page) {
+        return "http://gatherer.wizards.com/Pages/Card/Languages.aspx?page=" + page + "&multiverseid=" + multiverseId;
+    }
 
-	/**
-	 * Two cards are equal if their multiverseId is the same, and their name is
-	 * the same. Halves of split cards do not satisfy this
-	 *
-	 * @return true if the cards are the same, false if they are different
-	 */
-	@Override
-	public boolean equals(Object arg0) {
-		if (!(arg0 instanceof CardGS)) {
-			return false;
-		}
-		return (((CardGS) arg0).mMultiverseId == this.mMultiverseId) && ((CardGS) arg0).mName.equals(this.mName);
-	}
+    /**
+     * Turns any null fields into empty strings
+     */
+    public void clearNulls() {
+        if (null == mName) {
+            mName = "";
+        }
+        if (null == mManaCost) {
+            mManaCost = "";
+        }
+        if (null == mType) {
+            mType = "";
+        }
+        if (null == mText) {
+            mText = "";
+        }
+        if (null == mFlavor) {
+            mFlavor = "";
+        }
+        if (null == mExpansion) {
+            mExpansion = "";
+        }
+        if (null == mNumber) {
+            mNumber = "";
+        }
+        if (null == mArtist) {
+            mArtist = "";
+        }
+        if (null == mColor) {
+            mColor = "";
+        }
+        if (null == mColorIdentity) {
+            mColorIdentity = "";
+        }
+        if (null == mWatermark) {
+            mWatermark = "";
+        }
+        if (null == mForeignPrintings) {
+            mForeignPrintings = new ArrayList<>();
+        }
+        /* Don't worry about mRarity, mPower, mToughness, or mLoyalty */
+    }
 
-	/**
-	 * @return The byte array representation of this object
-	 */
-	public byte[] getBytes() {
-		return SerializationUtils.serialize(this);
-	}
+    /**
+     * Two cards are equal if their multiverseId is the same, and their name is
+     * the same. Halves of split cards do not satisfy this
+     *
+     * @return true if the cards are the same, false if they are different
+     */
+    @Override
+    public boolean equals(Object arg0) {
+        if (!(arg0 instanceof CardGS)) {
+            return false;
+        }
+        return (((CardGS) arg0).mMultiverseId == this.mMultiverseId) && ((CardGS) arg0).mName.equals(this.mName);
+    }
 
-	/**
-	 * @return A comparator to sort cards by name
-	 */
-	public static Comparator<CardGS> getNameComparator() {
-		return Comparator.comparing(o -> o.mName);
-	}
-	
-	/**
+    /**
+     * @return The byte array representation of this object
+     */
+    public byte[] getBytes() {
+        return SerializationUtils.serialize(this);
+    }
+
+    /**
+     * @return A comparator to sort cards by name
+     */
+    public static Comparator<CardGS> getNameComparator() {
+        return Comparator.comparing(o -> o.mName);
+    }
+
+    /**
      * Calculates the mColor identity for this card, not counting any parts of a
      * multicard
      *
@@ -178,7 +174,7 @@ public class CardGS extends Card implements Serializable {
         }
         return colorIdentity.toString();
     }
-    
+
     /**
      * Calculates the full mColor identity for this card, and stores it in
      * mColorIdentity
@@ -214,7 +210,7 @@ public class CardGS extends Card implements Serializable {
         for (String colorLetter : colorLetters) {
             if (firstPartIdentity.contains(colorLetter)
                     || secondPartIdentity.contains(colorLetter)) {
-            	identityBuilder.append(colorLetter);
+                identityBuilder.append(colorLetter);
             }
         }
         mColorIdentity = identityBuilder.toString();
