@@ -51,23 +51,31 @@ public class GathererChecker {
 				}
 			}
 
-			/* Get the latest rules, and make an RssEntry for it */
-			RssEntry latestRules = GetLatestRules();
-			/* If the entries to not have the latest rules */
-			if (!entries.contains(latestRules)) {
-				/* Add them */
-				entries.add(latestRules);
-				changes = true;
-			}
-
-			/* Get the latest judge docs, and make RssEntries for them */
-			for (RssEntry judgeDoc : GetJudgeDocs()) {
-				/* If the entries do not have the latest judge docs */
-				if (!entries.contains(judgeDoc)) {
+			try {
+				/* Get the latest rules, and make an RssEntry for it */
+				RssEntry latestRules = GetLatestRules();
+				/* If the entries to not have the latest rules */
+				if (!entries.contains(latestRules)) {
 					/* Add them */
-					entries.add(judgeDoc);
+					entries.add(latestRules);
 					changes = true;
 				}
+			} catch (NullPointerException e) {
+				// eat it
+			}
+
+			try {
+				/* Get the latest judge docs, and make RssEntries for them */
+				for (RssEntry judgeDoc : GetJudgeDocs()) {
+				/* If the entries do not have the latest judge docs */
+					if (!entries.contains(judgeDoc)) {
+					/* Add them */
+						entries.add(judgeDoc);
+						changes = true;
+					}
+				}
+			} catch (NullPointerException e) {
+				// Eat it
 			}
 
 			/* If there are changes, write the new RSS file */
@@ -100,7 +108,7 @@ public class GathererChecker {
 	/**
 	 * @return a UTF-8 encoded header for an RSS file
 	 */
-	public static ByteBuffer GetRssHeader() {
+	private static ByteBuffer GetRssHeader() {
 		Calendar rightNow = Calendar.getInstance();
 		String date = GetRfc822Date(rightNow.getTime());
 		
@@ -124,7 +132,7 @@ public class GathererChecker {
 	/**
 	 * @return a UTF-8 encoded footer for an RSS file
 	 */
-	public static ByteBuffer GetRssFooter() {
+	private static ByteBuffer GetRssFooter() {
 		return Charset.forName("UTF-8").encode("</channel>\n</rss>\n");
 	}
 
@@ -135,7 +143,7 @@ public class GathererChecker {
 	 *            The RSS file to read in
 	 * @return An ArrayList<RssEntry> with the given file's information
 	 */
-	public static ArrayList<RssEntry> readRssFile(File rssFile) {
+	private static ArrayList<RssEntry> readRssFile(File rssFile) {
 		ArrayList<RssEntry> rssEntries = new ArrayList<>();
 		try {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -172,9 +180,9 @@ public class GathererChecker {
 	 * and return it
 	 * 
 	 * @return An RssEntry for the latest comprehensive rules
-	 * @throws IOException If the program has trouble reading the webpage
+	 * @throws NullPointerException If the program has trouble reading the webpage
 	 */
-	public static RssEntry GetLatestRules() throws IOException {
+	private static RssEntry GetLatestRules() throws NullPointerException {
 		/* One big line to get the webpage, then the element, then the attribute for the comprehensive rules url */
 		String url = GathererScraper.ConnectWithRetries("http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules")
 				.getElementsByAttributeValueContaining("href", "txt").get(0).attr("href");
@@ -196,9 +204,9 @@ public class GathererChecker {
 	 * Look at the page that has the judge documents, get the date, make RssEntries for the documents, and return them
 	 * 
 	 * @return An ArrayList of RssEntries for all the judge documents
-	 * @throws IOException
+	 * @throws NullPointerException
 	 */
-	public static ArrayList<RssEntry> GetJudgeDocs() throws IOException {
+	private static ArrayList<RssEntry> GetJudgeDocs() throws NullPointerException {
 		/* Pick the date out of the bluewizard website */
 		String date = GathererScraper.ConnectWithRetries("http://www.bluewizard.net/judgeDocs.html")
 				.getElementsByAttributeValueContaining("class", "media-body").get(0).text();
@@ -208,7 +216,7 @@ public class GathererChecker {
 		try {
 			date = date.substring(date.indexOf("(") + 1, date.indexOf(")"));
 			String dateParts[] = date.split("\\s+");
-			int month = 0;
+			int month;
 			switch (dateParts[1].toLowerCase()) {
 				case "jan":
 				case "january":
@@ -272,7 +280,7 @@ public class GathererChecker {
 		}
 
 		/* Make RssEntries for each of the three judge documents */
-		ArrayList<RssEntry> entries = new ArrayList<RssEntry>();
+		ArrayList<RssEntry> entries = new ArrayList<>();
 		entries.add(new RssEntry("Magic Infraction Guide, " + date, null, pubDate,
 				"http://www.bluewizard.net/docs/html/MagicInfractionGuide.html"));
 		entries.add(new RssEntry("Magic Tournament Rules, " + date, null, pubDate,

@@ -29,7 +29,6 @@ import org.jsoup.select.Elements;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
-import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
@@ -58,13 +57,13 @@ public class GathererScraper {
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<ExpansionGS> scrapeExpansionList() throws IOException {
-		ArrayList<ExpansionGS> expansions = new ArrayList<ExpansionGS>();
+	public static ArrayList<ExpansionGS> scrapeExpansionList() {
+		ArrayList<ExpansionGS> expansions = new ArrayList<>();
 		Document gathererMain = ConnectWithRetries("http://gatherer.wizards.com/Pages/Default.aspx");
 		Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
 
-		for (int i = 0; i < expansionElements.size(); i++) {
-			for (Element e : expansionElements.get(i).getAllElements()) {
+		for (Element expansionElement : expansionElements) {
+			for (Element e : expansionElement.getAllElements()) {
 				if (e.ownText().length() > 0) {
 					expansions.add(new ExpansionGS(e.ownText()));
 				}
@@ -86,9 +85,9 @@ public class GathererScraper {
 	 * @throws IOException
 	 *             Thrown if the Internet breaks
 	 */
-	public static ArrayList<CardGS> scrapeExpansion(ExpansionGS exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) throws IOException {
+	public static ArrayList<CardGS> scrapeExpansion(ExpansionGS exp, GathererScraperUi ui, HashSet<Integer> mAllMultiverseIds) {
 
-		MessageDigest messageDigest = null;
+		MessageDigest messageDigest;
 		try {
 			messageDigest = MessageDigest.getInstance("MD5");
 		} catch (NoSuchAlgorithmException e) {
@@ -109,7 +108,7 @@ public class GathererScraper {
 			
 			Patch patch = gson.fromJson(oldInputStreamReader, Patch.class);
 
-			cachedCollectorsNumbers = new HashMap<String, String>();
+			cachedCollectorsNumbers = new HashMap<>();
 			for(Card card : patch.mCards) {
 				/* Name is the key, collectors number is the value */
 				cachedCollectorsNumbers.put(card.mMultiverseId + card.mName, card.mNumber);
@@ -119,9 +118,9 @@ public class GathererScraper {
 			System.err.println("Couldn't open old patch for " + exp.mName_gatherer);
 		}
 		
-		ArrayList<CardGS> cardsArray = new ArrayList<CardGS>();
+		ArrayList<CardGS> cardsArray = new ArrayList<>();
 
-		HashMap<String, Integer> multiverseMap = new HashMap<String, Integer>();
+		HashMap<String, Integer> multiverseMap = new HashMap<>();
 		
 		/* Look for normal cards */
 		int pageNum = 0;
@@ -143,11 +142,10 @@ public class GathererScraper {
 			if (cards.size() == 0) {
 				loop = false;
 			}
-			for (int i = 0; i < cards.size(); i++) {
-				Element e = cards.get(i);
+			for (Element e : cards) {
 				CardGS card = new CardGS(e.ownText(), exp.mCode_gatherer, Integer.parseInt(e.attr("href").split("=")[1]));
 				multiverseMap.put(card.mName, card.mMultiverseId);
-				
+
 				if (cardsArray.contains(card)) {
 					loop = false;
 				}
@@ -158,7 +156,7 @@ public class GathererScraper {
 			pageNum++;
 		}
 
-		ArrayList<CardGS> scrapedCards = new ArrayList<CardGS>(cardsArray.size());
+		ArrayList<CardGS> scrapedCards = new ArrayList<>(cardsArray.size());
 		for (CardGS c : cardsArray) {
 
 			ArrayList<CardGS> tmpScrapedCards = scrapePage(CardGS.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
@@ -194,17 +192,19 @@ public class GathererScraper {
 					 * This should properly number more than two of the same number
 					 */
 					try {
-						if(scrapedCards.get(i+1).mExpansion.equals("ZEN")) {
-							/* Increment the number in the string. MTGI's numbers for ZEN basics are weird */
-							scrapedCards.get(i+1).mNumber = (Integer.parseInt(scrapedCards.get(i+1).mNumber) + 20) + "";														
-						}
-						else if(scrapedCards.get(i+1).mExpansion.equals("SVT")) {
-							/* Increment the number in the string. MTGI's numbers for SVT basics are weird */
-							scrapedCards.get(i+1).mNumber = (Integer.parseInt(scrapedCards.get(i+1).mNumber) + 43) + "";														
-						}
-						else {
-							/* Increment the number in the string */
-							scrapedCards.get(i+1).mNumber = (Integer.parseInt(scrapedCards.get(i+1).mNumber) + 1) + "";							
+						switch (scrapedCards.get(i + 1).mExpansion) {
+							case "ZEN":
+								/* Increment the number in the string. MTGI's numbers for ZEN basics are weird */
+								scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 20) + "";
+								break;
+							case "SVT":
+								/* Increment the number in the string. MTGI's numbers for SVT basics are weird */
+								scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 43) + "";
+								break;
+							default:
+								/* Increment the number in the string */
+								scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 1) + "";
+								break;
 						}
 					} catch(NumberFormatException e) {
 						/* Guess it has a letter in there, increment that instead */
@@ -242,10 +242,10 @@ public class GathererScraper {
 		
 		Gson gson = new Gson();
 		for(CardGS c : scrapedCards) {
-			messageDigest.update(gson.toJson((Card)c).getBytes());
+			messageDigest.update(gson.toJson(c).getBytes());
 		}
 		exp.mDigest = null;
-		messageDigest.update(gson.toJson((Expansion)exp).getBytes());
+		messageDigest.update(gson.toJson(exp).getBytes());
 
 		byte byteDigest[] = messageDigest.digest();
 		StringBuilder sb = new StringBuilder();
@@ -324,13 +324,13 @@ public class GathererScraper {
 	 */
 	private static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
 			HashMap<String, Integer> multiverseMap,
-			HashMap<String, String> cachedCollectorsNumbers) throws IOException {
+			HashMap<String, String> cachedCollectorsNumbers) {
 
 		/* Put all cards from all pages into this ArrayList */
-		ArrayList<CardGS> scrapedCardsAllPages = new ArrayList<CardGS>();
+		ArrayList<CardGS> scrapedCardsAllPages = new ArrayList<>();
 
 		/* Download this page, add it to the collection */
-		ArrayList<Document> cardPages = new ArrayList<Document>();
+		ArrayList<Document> cardPages = new ArrayList<>();
 		cardPages.add(ConnectWithRetries(cardUrl));
 
 		/* Get all the multiverse IDs of all printings */
@@ -356,7 +356,7 @@ public class GathererScraper {
 			int mId = Integer.parseInt(cardPage.baseUri().substring(cardPage.baseUri().lastIndexOf("=") + 1));
 
 			/* Put all cards from this page into this ArrayList */
-			ArrayList<CardGS> scrapedCards = new ArrayList<CardGS>();
+			ArrayList<CardGS> scrapedCards = new ArrayList<>();
 
 			/* Get all cards on this page */
 			HashMap<String, String> ids = getCardIds(cardPage);
@@ -634,47 +634,48 @@ public class GathererScraper {
 				
 				/* color, calculated */
 				String color = getTextFromAttribute(cardPage, id + "colorIndicatorRow", "value", true);
-				card.mColor = "";
+				StringBuilder colorBuilder = new StringBuilder();
 				if (card.mType.contains("Artifact")) {
-					card.mColor += "A";
+					colorBuilder.append("A");
 				}
 				if (card.mType.contains("Land")) {
-					card.mColor += "L";
+					colorBuilder.append("L");
 				}
 				if (color != null) {
 					if (color.contains("White")) {
-						card.mColor += "W";
+						colorBuilder.append("W");
 					}
 					if (color.contains("Blue")) {
-						card.mColor += "U";
+						colorBuilder.append("U");
 					}
 					if (color.contains("Black")) {
-						card.mColor += "B";
+						colorBuilder.append("B");
 					}
 					if (color.contains("Red")) {
-						card.mColor += "R";
+						colorBuilder.append("R");
 					}
 					if (color.contains("Green")) {
-						card.mColor += "G";
+						colorBuilder.append("G");
 					}
 				}
 				else if (card.mManaCost != null) {
 					if (card.mManaCost.contains("W")) {
-						card.mColor += "W";
+						colorBuilder.append("W");
 					}
 					if (card.mManaCost.contains("U")) {
-						card.mColor += "U";
+						colorBuilder.append("U");
 					}
 					if (card.mManaCost.contains("B")) {
-						card.mColor += "B";
+						colorBuilder.append("B");
 					}
 					if (card.mManaCost.contains("R")) {
-						card.mColor += "R";
+						colorBuilder.append("R");
 					}
 					if (card.mManaCost.contains("G")) {
-						card.mColor += "G";
+						colorBuilder.append("G");
 					}
 				}
+				card.mColor = colorBuilder.toString();
 				
 				/* If the card has no color, or it's Ghostfire, or it has Devoid */
 				if (card.mColor.isEmpty() || card.mName.equals("Ghostfire") ||
@@ -764,7 +765,6 @@ public class GathererScraper {
 			
 			/* No need to loop again, there's nothing on this page */
 			if(languageElements.isEmpty()) {
-				hasMultiplePages = false;
 				break;
 			}
 	
@@ -773,42 +773,43 @@ public class GathererScraper {
 				ForeignPrinting fp = (new Card()).new ForeignPrinting();
 	
 				String language = elt.child(1).html();
-				if (language.equals("English")) {
-					fp.mLanguageCode = Language.English;
-				}
-				else if (language.equals("German")) {
-					fp.mLanguageCode = Language.German;
-				}
-				else if (language.equals("French")) {
-					fp.mLanguageCode = Language.French;
-				}
-				else if (language.equals("Japanese")) {
-					fp.mLanguageCode = Language.Japanese;
-				}
-				else if (language.equals("Portuguese (Brazil)")) {
-					fp.mLanguageCode = Language.Portuguese_Brazil;
-				}
-				else if (language.equals("Russian")) {
-					fp.mLanguageCode = Language.Russian;
-				}
-				else if (language.equals("Chinese Traditional")) {
-					fp.mLanguageCode = Language.Chinese_Traditional;
-				}
-				else if (language.equals("Chinese Simplified")) {
-					fp.mLanguageCode = Language.Chinese_Simplified;
-				}
-				else if (language.equals("Korean")) {
-					fp.mLanguageCode = Language.Korean;
-				}
-				else if (language.equals("Italian")) {
-					fp.mLanguageCode = Language.Italian;
-				}
-				else if (language.equals("Spanish")) {
-					fp.mLanguageCode = Language.Spanish;
-				}
-				else {
-					System.out.println("Unknown language: " + language);
-					continue;
+				switch (language) {
+					case "English":
+						fp.mLanguageCode = Language.English;
+						break;
+					case "German":
+						fp.mLanguageCode = Language.German;
+						break;
+					case "French":
+						fp.mLanguageCode = Language.French;
+						break;
+					case "Japanese":
+						fp.mLanguageCode = Language.Japanese;
+						break;
+					case "Portuguese (Brazil)":
+						fp.mLanguageCode = Language.Portuguese_Brazil;
+						break;
+					case "Russian":
+						fp.mLanguageCode = Language.Russian;
+						break;
+					case "Chinese Traditional":
+						fp.mLanguageCode = Language.Chinese_Traditional;
+						break;
+					case "Chinese Simplified":
+						fp.mLanguageCode = Language.Chinese_Simplified;
+						break;
+					case "Korean":
+						fp.mLanguageCode = Language.Korean;
+						break;
+					case "Italian":
+						fp.mLanguageCode = Language.Italian;
+						break;
+					case "Spanish":
+						fp.mLanguageCode = Language.Spanish;
+						break;
+					default:
+						System.out.println("Unknown language: " + language);
+						continue;
 				}
 	
 				fp.mName =  elt.child(0).text();
@@ -864,23 +865,23 @@ public class GathererScraper {
 	 */
 	private static HashMap<String, String> getCardIds(Document cardPage) {
 
-		HashMap<String, String> ids = new HashMap<String, String>(2);
+		HashMap<String, String> ids = new HashMap<>(2);
 
 		/* Get all names on this page */
 		Elements names = cardPage.getElementsByAttributeValueContaining("id", "nameRow");
 
 		/* For each name, get the ID */
-		for (int i = 0; i < names.size(); i++) {
+		for (Element name : names) {
 			/* Get the actual ID */
-			String id = names.get(i).getElementsByAttribute("id").first().attr("id");
+			String id = name.getElementsByAttribute("id").first().attr("id");
 			id = id.substring(id.length() - 14, id.length() - 7);
 
 			/* Get the actual card name */
-			Elements e2 = names.get(i).getElementsByAttributeValueContaining("class", "value");
-			String name = cleanHtml(e2.outerHtml(), true);
+			Elements e2 = name.getElementsByAttributeValueContaining("class", "value");
+			String stringName = cleanHtml(e2.outerHtml(), true);
 
 			/* Store the name & ID combo */
-			ids.put(name, id);
+			ids.put(stringName, id);
 		}
 		return ids;
 	}
@@ -908,10 +909,7 @@ public class GathererScraper {
 
 			return cleanHtml(ele2.outerHtml(), removeNewlines);
 		}
-		catch (NullPointerException e) {
-			return null;
-		}
-		catch (IndexOutOfBoundsException e) {
+		catch (NullPointerException | IndexOutOfBoundsException e) {
 			return null;
 		}
 	}
@@ -922,7 +920,7 @@ public class GathererScraper {
 	 * @return
 	 */
 	private static ArrayList<Integer> getPrintingMultiverseIds(Document cardPage) {
-		ArrayList<Integer> multiverseIds = new ArrayList<Integer>();
+		ArrayList<Integer> multiverseIds = new ArrayList<>();
 		try {
 			Element ele = cardPage.getElementsByAttributeValueContaining("id", "VariationLinks").first();// get(position);
 			Elements ele2 = ele.getElementsByAttributeValueContaining("class", "VariationLink");
@@ -932,10 +930,7 @@ public class GathererScraper {
 			}
 			return multiverseIds;
 		}
-		catch (NullPointerException e) {
-			return null;
-		}
-		catch (IndexOutOfBoundsException e) {
+		catch (NullPointerException | IndexOutOfBoundsException e) {
 			return null;
 		}
 	}
@@ -956,111 +951,120 @@ public class GathererScraper {
 		boolean inTag = false;
 		StringBuilder output = new StringBuilder();
 
-		String tag = "";
+		StringBuilder tag = new StringBuilder();
 
 		for (char c : html.toCharArray()) {
 			switch (c) {
 				case '<': {
 					inTag = true;
-					tag += c;
+					tag.append(c);
 					break;
 				}
 				case '>': {
 					/* Process the tag */
-					tag += c;
+					tag.append(c);
 
 					/* replace <div> tags with newlines */
-					if (tag.matches(".*[\\s<]+div[\\s>]+.*")) {
+					if (tag.toString().matches(".*[\\s<]+div[\\s>]+.*")) {
 						if (!removeNewlines && output.length() > 0) {
 							output.append("<br>");
 						}
 					}
-					else if (tag.contains("img src")) {
+					else if (tag.toString().contains("img src")) {
 						String substr = tag.substring(tag.indexOf("name=") + 5);
 						String symbol = substr.split("&")[0];
-						if (symbol.equalsIgnoreCase("tap")) {
-							symbol = "T";
-						} else if (symbol.equalsIgnoreCase("untap")) {
-							symbol = "Q";
-						} else if (symbol.equalsIgnoreCase("snow")) {
-							symbol = "S";
-						} else if (symbol.equalsIgnoreCase("halfr")) {
-							symbol = "HR";
-						} else if (symbol.equalsIgnoreCase("halfw")
-								|| symbol.equalsIgnoreCase("500")) {
-							symbol = "HW";
-						} else if (symbol.equalsIgnoreCase("infinity")) {
-							symbol = "+oo";
-						} else if (symbol.equalsIgnoreCase("w")) {
-						} else if (symbol.equalsIgnoreCase("u")) {
-						} else if (symbol.equalsIgnoreCase("b")) {
-						} else if (symbol.equalsIgnoreCase("r")) {
-						} else if (symbol.equalsIgnoreCase("g")) {
-						} else if (symbol.equalsIgnoreCase("wu")
-								|| symbol.equalsIgnoreCase("uw")) {
-						} else if (symbol.equalsIgnoreCase("ub")
-								|| symbol.equalsIgnoreCase("bu")) {
-						} else if (symbol.equalsIgnoreCase("br")
-								|| symbol.equalsIgnoreCase("rb")) {
-						} else if (symbol.equalsIgnoreCase("rg")
-								|| symbol.equalsIgnoreCase("gr")) {
-						} else if (symbol.equalsIgnoreCase("gw")
-								|| symbol.equalsIgnoreCase("wg")) {
-						} else if (symbol.equalsIgnoreCase("wb")
-								|| symbol.equalsIgnoreCase("bw")) {
-						} else if (symbol.equalsIgnoreCase("bg")
-								|| symbol.equalsIgnoreCase("gb")) {
-						} else if (symbol.equalsIgnoreCase("gu")
-								|| symbol.equalsIgnoreCase("ug")) {
-						} else if (symbol.equalsIgnoreCase("ur")
-								|| symbol.equalsIgnoreCase("ru")) {
-						} else if (symbol.equalsIgnoreCase("rw")
-								|| symbol.equalsIgnoreCase("wr")) {
-						} else if (symbol.equalsIgnoreCase("2w")
-								|| symbol.equalsIgnoreCase("w2")) {
-						} else if (symbol.equalsIgnoreCase("2u")
-								|| symbol.equalsIgnoreCase("u2")) {
-						} else if (symbol.equalsIgnoreCase("2b")
-								|| symbol.equalsIgnoreCase("b2")) {
-						} else if (symbol.equalsIgnoreCase("2r")
-								|| symbol.equalsIgnoreCase("r2")) {
-						} else if (symbol.equalsIgnoreCase("2g")
-								|| symbol.equalsIgnoreCase("g2")) {
-						} else if (symbol.equalsIgnoreCase("pw")
-								|| symbol.equalsIgnoreCase("wp")) {
-						} else if (symbol.equalsIgnoreCase("pu")
-								|| symbol.equalsIgnoreCase("up")) {
-						} else if (symbol.equalsIgnoreCase("pb")
-								|| symbol.equalsIgnoreCase("bp")) {
-						} else if (symbol.equalsIgnoreCase("pr")
-								|| symbol.equalsIgnoreCase("rp")) {
-						} else if (symbol.equalsIgnoreCase("pg")
-								|| symbol.equalsIgnoreCase("gp")) {
-						} else if (symbol.equalsIgnoreCase("p")) {
-						} else if (symbol.equalsIgnoreCase("c")) {
-						} else if (symbol.equalsIgnoreCase("chaos")) {
-						} else if (symbol.equalsIgnoreCase("z")) {
-						} else if (symbol.equalsIgnoreCase("y")) {
-						} else if (symbol.equalsIgnoreCase("x")) {
-						} else if (symbol.equalsIgnoreCase("h")) {
-						} else if (symbol.equalsIgnoreCase("pwk")) {
-						} else if (symbol.equalsIgnoreCase("e")) {
-						} else if (StringUtils.isNumeric(symbol)) {
-						} else {
-							System.out.println("Unknown symbol: " + symbol);
+						switch (symbol.toLowerCase()) {
+							case "tap":
+								symbol = "T";
+								break;
+							case "untap":
+								symbol = "Q";
+								break;
+							case "snow":
+								symbol = "S";
+								break;
+							case "halfr":
+								symbol = "HR";
+								break;
+							case "halfw":
+							case "500":
+								symbol = "HW";
+								break;
+							case "infinity":
+								symbol = "+oo";
+							case "w":
+							case "u":
+							case "b":
+							case "r":
+							case "g":
+							case "wu":
+							case "uw":
+							case "ub":
+							case "bu":
+							case "br":
+							case "rb":
+							case "rg":
+							case "gr":
+							case "gw":
+							case "wg":
+							case "wb":
+							case "bw":
+							case "bg":
+							case "gb":
+							case "gu":
+							case "ug":
+							case "ur":
+							case "ru":
+							case "rw":
+							case "wr":
+							case "2w":
+							case "w2":
+							case "2u":
+							case "u2":
+							case "2b":
+							case "b2":
+							case "2r":
+							case "r2":
+							case "2g":
+							case "g2":
+							case "pw":
+							case "wp":
+							case "pu":
+							case "up":
+							case "pb":
+							case "bp":
+							case "pr":
+							case "rp":
+							case "pg":
+							case "gp":
+							case "p":
+							case "c":
+							case "chaos":
+							case "z":
+							case "y":
+							case "x":
+							case "h":
+							case "pwk":
+							case "e":
+								// Known symbols which don't need tweaking
+								break;
+							default:
+								if (!StringUtils.isNumeric(symbol)) {
+									System.out.println("Unknown symbol: " + symbol);
+								}
+								break;
 						}
-						
-						output.append("{" + symbol + "}");
+						output.append("{").append(symbol).append("}");
 					}
 					/* clear the tag */
 					inTag = false;
-					tag = "";
+					tag = new StringBuilder();
 					break;
 				}
 				default: {
 					if (c != '\r' && c != '\n') {
 						if (inTag) {
-							tag += c;
+							tag.append(c);
 						}
 						else {
 							output.append(c);
@@ -1102,9 +1106,9 @@ public class GathererScraper {
 			fw.write(line + "\r\n");
 			/* If the line still has any non-ascii chars, note it */
 			if(line.matches(".*[^\\x00-\\x7F].*")) {
-				problematicLines.append(line + "\r\n");
-			};
-		}
+				problematicLines.append(line).append("\r\n");
+			}
+        }
 		/* Clean up */
 		fw.close();
 		br.close();

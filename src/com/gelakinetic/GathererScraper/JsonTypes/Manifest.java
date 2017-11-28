@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Manifest {
 
     public long mTimestamp;
-    public ArrayList<ManifestEntry> mPatches = new ArrayList<>();
+    public final ArrayList<ManifestEntry> mPatches = new ArrayList<>();
 
     public class ManifestEntry implements Comparable<ManifestEntry>{
         public String mName;

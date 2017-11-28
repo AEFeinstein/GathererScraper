@@ -14,16 +14,16 @@ import com.google.common.net.PercentEscaper;
 public class RssEntry {
 
 	public static final String TITLE = "title";
-	public static final String DESCRIPTION = "description";
+	private static final String DESCRIPTION = "description";
 	public static final String GUID = "guid";
 	public static final String PUBDATE = "pubDate";
 	public static final String LINK = "link";
 
-	public String mTitle;
-	private String mDescription;
-	private String mGuid;
-	private String mPubDate;
-	private String	mUrl;
+	public final String mTitle;
+	private final String mDescription;
+	private final String mGuid;
+	private final String mPubDate;
+	private final String	mUrl;
 
 	/**
 	 * Creates a new RSS entry
@@ -95,7 +95,7 @@ public class RssEntry {
 	 *
 	 * @return This entry's title
 	 */
-	public String getTitle() {
+    private String getTitle() {
 		return mTitle;
 	}
 }

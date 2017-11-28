@@ -10,10 +10,10 @@ import java.lang.reflect.Field;
  * and lowercase the following character.
  *
  */
-public class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
+class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
 
 	/** The prefix to be match on the field's name */
-	protected String mPrefix;
+    private final String mPrefix;
 	
 	/**
 	 * Create a PrefixedFieldNamingStrategy object that check for a prefix on the field's name,
@@ -41,7 +41,7 @@ public class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
      * @param s the string to transform.
      * @return A string with a lowercase first letter
      */
-    public static String lowercaseFirstLetter(String s)
+    private static String lowercaseFirstLetter(String s)
     {
     	if(s.length() > 0)
     	{

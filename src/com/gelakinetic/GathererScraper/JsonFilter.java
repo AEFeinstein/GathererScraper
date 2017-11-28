@@ -10,7 +10,7 @@ import javax.swing.filechooser.FileFilter;
  * @author AEFeinstein
  *
  */
-public class JsonFilter extends FileFilter {
+class JsonFilter extends FileFilter {
 
 	/**
 	 * Checks a file's extension to see if it should be displayed or not.
@@ -28,12 +28,7 @@ public class JsonFilter extends FileFilter {
 		String extension = getExtension(f);
 		if (extension != null) {
 			extension = extension.toLowerCase();
-			if (extension.equalsIgnoreCase("json")) {
-				return true;
-			}
-			else {
-				return false;
-			}
+			return extension.equalsIgnoreCase("json");
 		}
 		return false;
 	}
@@ -55,7 +50,7 @@ public class JsonFilter extends FileFilter {
 	 *            The file to have the extension read
 	 * @return The file extension (anything after the last '.')
 	 */
-	public static String getExtension(File f) {
+	private static String getExtension(File f) {
 		try {
 			String ext = null;
 			String s = f.getName();

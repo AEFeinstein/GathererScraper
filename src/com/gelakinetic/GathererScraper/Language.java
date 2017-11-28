@@ -4,7 +4,7 @@ package com.gelakinetic.GathererScraper;
  * Class containing String constants for languages' code.
  *
  */
-public class Language {
+class Language {
 	public static final String Chinese_Traditional = "zh_HANT";
 	public static final String Chinese_Simplified = "zh_HANS";
 	public static final String French = "fr";

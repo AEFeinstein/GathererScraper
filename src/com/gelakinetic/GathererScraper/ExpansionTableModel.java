@@ -53,7 +53,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	};
 
 	/** A list of expansions prime for the scraping */
-	ArrayList<ExpansionGS>		mExpansions				= new ArrayList<ExpansionGS>();
+	ArrayList<ExpansionGS>		mExpansions				= new ArrayList<>();
 
 	/**
 	 * @return The number of columns in this model
@@ -120,7 +120,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 *            The index of the cell's column
 	 * @return The class of the value in that cell
 	 */
-	public Class<? extends Object> getColumnClass(int col) {
+	public Class<?> getColumnClass(int col) {
 		try {
 			return getValueAt(0, col).getClass();
 		}
@@ -143,12 +143,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 		 * Note that the data/cell address is constant, no matter where the cell
 		 * appears onscreen.
 		 */
-		if (col > COLUMN_NAME) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return col > COLUMN_NAME;
 	}
 
 	/**
@@ -251,7 +246,7 @@ public class ExpansionTableModel extends AbstractTableModel {
 	 * @throws ParseException
 	 *             If the data in the file is corrupted
 	 */
-	public void readInfo(File JsonExpansions) throws FileNotFoundException, IOException {
+	public void readInfo(File JsonExpansions) throws IOException {
 
 		Gson gson = GathererScraper.getGson();
 		

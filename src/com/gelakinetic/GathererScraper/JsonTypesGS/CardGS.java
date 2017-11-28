@@ -121,20 +121,13 @@ public class CardGS extends Card implements Serializable {
 	 * @return A comparator to sort cards by name
 	 */
 	public static Comparator<CardGS> getNameComparator() {
-		return new Comparator<CardGS>() {
-
-			@Override
-			public int compare(CardGS o1, CardGS o2) {
-				return o1.mName.compareTo(o2.mName);
-			}
-		};
+		return Comparator.comparing(o -> o.mName);
 	}
 	
 	/**
      * Calculates the mColor identity for this card, not counting any parts of a
      * multicard
      *
-     * @param card The card to find a mColor identity for, excluding multicard
      * @return A mColor identity string for the given card consisting of "WUBRG"
      */
     private String getColorIdentity() {
@@ -177,13 +170,13 @@ public class CardGS extends Card implements Serializable {
         }
 
 		/* Write the mColor identity */
-        String colorIdentity = "";
+        StringBuilder colorIdentity = new StringBuilder();
         for (int i = 0; i < colors.length; i++) {
             if (colors[i]) {
-                colorIdentity += colorLetters[i];
+                colorIdentity.append(colorLetters[i]);
             }
         }
-        return colorIdentity;
+        return colorIdentity.toString();
     }
     
     /**
@@ -217,12 +210,13 @@ public class CardGS extends Card implements Serializable {
         }
 
 		/* Combine the two mColor identity parts into one */
-        mColorIdentity = "";
+        StringBuilder identityBuilder = new StringBuilder();
         for (String colorLetter : colorLetters) {
             if (firstPartIdentity.contains(colorLetter)
                     || secondPartIdentity.contains(colorLetter)) {
-            	mColorIdentity += colorLetter;
+            	identityBuilder.append(colorLetter);
             }
         }
+        mColorIdentity = identityBuilder.toString();
     }
 }

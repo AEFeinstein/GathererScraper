@@ -43,13 +43,13 @@ public class LegalityListModel extends AbstractListModel<String> {
 	 */
 	private LegalityData			mLegalityData;
 	/** A list of formats to display. Each one populates the dialog differently */
-	private ArrayList<String>		mFormats			= new ArrayList<String>();
+	private final ArrayList<String>		mFormats			= new ArrayList<>();
 	/** The number of dialog windows open. Needs to be 0 to scrape cards */
 	int								mWindowsOpen		= 0;
 	/** A list of all expansions to check input against */
 	private ArrayList<ExpansionGS>	mExpansions;
 	/** Keep track of invalid (mistyped) set codes for error display */
-	private ArrayList<String>		mInvalidExpansions	= new ArrayList<String>();
+	private final ArrayList<String>		mInvalidExpansions	= new ArrayList<>();
 
 	/**
 	 * Returns the format at the given index
@@ -125,12 +125,12 @@ public class LegalityListModel extends AbstractListModel<String> {
 		 * dialog instead
 		 */
 		if (mInvalidExpansions.size() > 0) {
-			String invalidFormats = "";
+			StringBuilder invalidFormats = new StringBuilder();
 			for (String s : mInvalidExpansions) {
 				if (invalidFormats.length() > 0) {
-					invalidFormats += ", ";
+					invalidFormats.append(", ");
 				}
-				invalidFormats += s;
+				invalidFormats.append(s);
 			}
 			String errorStr = "";
 			if (mInvalidExpansions.size() > 1) {
@@ -206,11 +206,11 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Valid Expansions */
 
 		final JTextArea expansionsTextArea = new JTextArea();
-		String expansionsString = "";
+		StringBuilder expansionsString = new StringBuilder();
 		for (String set : mLegalityData.mFormats[index].mSets) {
-			expansionsString += set + "\n";
+			expansionsString.append(set).append("\n");
 		}
-		expansionsTextArea.setText(expansionsString);
+		expansionsTextArea.setText(expansionsString.toString());
 
 		scrollPane.setViewportView(expansionsTextArea);
 
@@ -225,11 +225,11 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Restricted Cards */
 
 		final JTextArea restrictedTextArea = new JTextArea();
-		String restrictedString = "";
+		StringBuilder restrictedString = new StringBuilder();
 		for (String restricted : mLegalityData.mFormats[index].mRestrictedlist) {
-			restrictedString += restricted + "\n";
+			restrictedString.append(restricted).append("\n");
 		}
-		restrictedTextArea.setText(restrictedString);
+		restrictedTextArea.setText(restrictedString.toString());
 
 		scrollPane_1.setViewportView(restrictedTextArea);
 
@@ -243,11 +243,11 @@ public class LegalityListModel extends AbstractListModel<String> {
 		/* Banned Cards */
 
 		final JTextArea bannedTextArea = new JTextArea();
-		String bannedString = "";
+		StringBuilder bannedString = new StringBuilder();
 		for (String banned : mLegalityData.mFormats[index].mBanlist) {
-			bannedString += banned + "\n";
+			bannedString.append(banned).append("\n");
 		}
-		bannedTextArea.setText(bannedString);
+		bannedTextArea.setText(bannedString.toString());
 
 		scrollPane_2.setViewportView(bannedTextArea);
 

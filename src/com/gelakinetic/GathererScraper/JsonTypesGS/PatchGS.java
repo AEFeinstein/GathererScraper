@@ -3,7 +3,6 @@ package com.gelakinetic.GathererScraper.JsonTypesGS;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 
@@ -18,7 +17,7 @@ public class PatchGS extends Patch {
      */
     public PatchGS(Expansion expansion, ArrayList<CardGS> allCards) {
         this.mExpansion = expansion;
-        this.mCards = new ArrayList<Card>();
+        this.mCards = new ArrayList<>();
         this.mCards.addAll(allCards);
         Collections.sort(this.mCards);
     }

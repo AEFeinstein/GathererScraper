@@ -7,13 +7,10 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.Rectangle;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -28,24 +25,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import javax.swing.JProgressBar;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingWorker;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
 
 import com.camick.TableColumnAdjuster;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
-import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.PatchGS;
@@ -71,9 +55,9 @@ public class GathererScraperUi {
 	private LegalityListModel	mLegalityListModel;
 	private String				mFilesPath;
 
-	File						mLegalityFile		= null;
-	File						mExpansionsFile		= null;
-	File						mAppmapFile			= null;
+	private File						mLegalityFile		= null;
+	private File						mExpansionsFile		= null;
+	private File						mAppmapFile			= null;
 
 	private HashSet<Integer>	mAllMultiverseIds;
 
@@ -88,29 +72,27 @@ public class GathererScraperUi {
 	 */
 	public static void main(String[] args) {
 		System.setProperty("http.agent", "");
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					(new GathererScraperUi()).initialize();
-				}
-				catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		EventQueue.invokeLater(() -> {
+            try {
+                (new GathererScraperUi()).initialize();
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
 	}
 
 	/**
 	 * Set the look and feel, get the directory for the data files, and create
 	 * some File objects
 	 */
-	public GathererScraperUi() {
+	private GathererScraperUi() {
 
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		}
 		catch (Exception e) {
-			; /* don't worry about it */
+			/* don't worry about it */
 		}
 
 		/* Ask for an expansions file, the directory will be figured out */
@@ -137,7 +119,6 @@ public class GathererScraperUi {
 		 */
 		if (mFilesPath == null || !mExpansionsFile.exists()) {
 			JOptionPane.showMessageDialog(null, "Expansion info not found.", "Error", JOptionPane.ERROR_MESSAGE);
-			return;
 		}
 	}
 
@@ -153,7 +134,7 @@ public class GathererScraperUi {
 		final JFrame frame = new JFrame();
 		frame.setVisible(false);
 		frame.setBounds(100, 100, 1160, 512);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		GridBagLayout gridBagLayout = new GridBagLayout();
 		gridBagLayout.columnWidths = new int[] { 0, 0, 278, 80, 0 };
 		gridBagLayout.rowHeights = new int[] { 0, 0, 0, 0, 0 };
@@ -214,7 +195,7 @@ public class GathererScraperUi {
 			if (mLegalityFile.exists()) {
 				mLegalityListModel.loadLegalities(mLegalityFile);
 			}
-			mAllMultiverseIds = new HashSet<Integer>();
+			mAllMultiverseIds = new HashSet<>();
 			if(mAppmapFile.exists()) {
 				loadMultiverseIds(mAppmapFile, mAllMultiverseIds);
 			}
@@ -233,28 +214,26 @@ public class GathererScraperUi {
 		frame.getContentPane().add(mExpansionProgressBar, gbc_progressBar_1);
 
 		JButton btnCleanRules = new JButton("Clean Rules");
-		btnCleanRules.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				File rulesFile = askForFile("Comprehensive Rules to Clean?", null);
-				try {
-					String problemLines = GathererScraper.cleanRules(rulesFile);
-					if(problemLines.length() > 0) {
-						JOptionPane.showMessageDialog(frame, "Rules Cleaned\r\n" + problemLines, "Warning",
-								JOptionPane.PLAIN_MESSAGE);
-					}
-					else {
-						JOptionPane.showMessageDialog(frame, "Rules Cleaned", "Complete",
-								JOptionPane.PLAIN_MESSAGE);
-					}
-				} catch (IOException | NullPointerException e) {
-					StringWriter sw = new StringWriter();
-					PrintWriter pw = new PrintWriter(sw);
-					e.printStackTrace(pw);
-					JOptionPane.showMessageDialog(frame, sw.toString(), "ERROR",
-							JOptionPane.ERROR_MESSAGE);
-				}
-			}
-		});
+		btnCleanRules.addActionListener(arg0 -> {
+            File rulesFile = askForFile("Comprehensive Rules to Clean?", null);
+            try {
+                String problemLines = GathererScraper.cleanRules(rulesFile);
+                if(problemLines.length() > 0) {
+                    JOptionPane.showMessageDialog(frame, "Rules Cleaned\r\n" + problemLines, "Warning",
+                            JOptionPane.PLAIN_MESSAGE);
+                }
+                else {
+                    JOptionPane.showMessageDialog(frame, "Rules Cleaned", "Complete",
+                            JOptionPane.PLAIN_MESSAGE);
+                }
+            } catch (IOException | NullPointerException e) {
+                StringWriter sw = new StringWriter();
+                PrintWriter pw = new PrintWriter(sw);
+                e.printStackTrace(pw);
+                JOptionPane.showMessageDialog(frame, sw.toString(), "ERROR",
+                        JOptionPane.ERROR_MESSAGE);
+            }
+        });
 		GridBagConstraints gbc_btnCleanRules = new GridBagConstraints();
 		gbc_btnCleanRules.insets = new Insets(0, 0, 5, 0);
 		gbc_btnCleanRules.gridx = 3;
@@ -296,141 +275,136 @@ public class GathererScraperUi {
 		scrollPane.setViewportView(mTable);
 
 		JButton btnScrape = new JButton("Scrape!");
-		btnScrape.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+		btnScrape.addActionListener(arg0 -> (new SwingWorker<Void, Void>() {
 
-				(new SwingWorker<Void, Void>() {
+            /**
+             * Once the user presses the button, do the actual scraping
+             * in a SwingWorker
+             */
+            @Override
+            protected Void doInBackground() {
 
-					/**
-					 * Once the user presses the button, do the actual scraping
-					 * in a SwingWorker
-					 */
-					@Override
-					protected Void doInBackground() {
+                long startTime = System.currentTimeMillis();
 
-						long startTime = System.currentTimeMillis();
+                /* Make sure the legality dialogs are closed */
+                if (mLegalityListModel.mWindowsOpen > 0) {
+                    JOptionPane.showMessageDialog(frame, "Please close all format windows.", "Error",
+                            JOptionPane.ERROR_MESSAGE);
+                    return null;
+                }
 
-						/* Make sure the legality dialogs are closed */
-						if (mLegalityListModel.mWindowsOpen > 0) {
-							JOptionPane.showMessageDialog(frame, "Please close all format windows.", "Error",
-									JOptionPane.ERROR_MESSAGE);
-							return null;
-						}
+                /* Prevent clicks */
+                frame.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+                frame.setEnabled(false);
 
-						/* Prevent clicks */
-						frame.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-						frame.setEnabled(false);
+                /* Get today's timestamp */
+                Calendar cal = Calendar.getInstance();
+                long timestamp = cal.getTime().getTime() / 1000;
 
-						/* Get today's timestamp */
-						Calendar cal = Calendar.getInstance();
-						long timestamp = cal.getTime().getTime() / 1000;
+                /* Write the legality information first */
+                try {
+                    if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, timestamp)) {
+                        frame.setEnabled(true);
+                        frame.setCursor(Cursor.getDefaultCursor());
+                        return null;
+                    }
+                }
+                catch (IOException e1) {
+                    e1.printStackTrace();
+                }
 
-						/* Write the legality information first */
-						try {
-							if (!mLegalityListModel.writeLegalDataFile(frame, mFilesPath, timestamp)) {
-								frame.setEnabled(true);
-								frame.setCursor(Cursor.getDefaultCursor());
-								return null;
-							}
-						}
-						catch (IOException e1) {
-							e1.printStackTrace();
-						}
+                /*
+                 * Make a thread pool to scrape each set in it's own
+                 * thread
+                 */
+                ExecutorService threadPool = Executors.newFixedThreadPool(Runtime.getRuntime()
+                        .availableProcessors());
+                mNumExpansions = 0;
+                mExpansionsProcessed = 0;
+                for (final ExpansionGS exp : mExpansionTableModel.mExpansions) {
+                    if (exp.mChecked) {
 
-						/*
-						 * Make a thread pool to scrape each set in it's own
-						 * thread
-						 */
-						ExecutorService threadPool = Executors.newFixedThreadPool(Runtime.getRuntime()
-								.availableProcessors());
-						mNumExpansions = 0;
-						mExpansionsProcessed = 0;
-						for (final ExpansionGS exp : mExpansionTableModel.mExpansions) {
-							if (exp.mChecked) {
+                        threadPool.submit(new Runnable() {
+                            /**
+                             * This will scrape all the cards in the
+                             * final Expansion exp. It also adds data to
+                             * the output files for MKM name and TCG
+                             * name
+                             */
+                            @Override
+                            public void run() {
+                                try {
+                                    ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
+                                    writeJsonPatchFile(exp, cards);
+                                }
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                                incrementExpansionsProcessed();
+                            }
+                        });
+                        mNumExpansions++;
+                    }
+                }
 
-								threadPool.submit(new Runnable() {
-									/**
-									 * This will scrape all the cards in the
-									 * final Expansion exp. It also adds data to
-									 * the output files for MKM name and TCG
-									 * name
-									 */
-									@Override
-									public void run() {
-										try {
-											ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
-											writeJsonPatchFile(exp, cards);
-										}
-										catch (Exception e) {
-											e.printStackTrace();
-										}
-										incrementExpansionsProcessed();
-									}
-								});
-								mNumExpansions++;
-							}
-						}
+                mExpansionProgressBar.setValue(0);
+                mExpansionProgressBar.setMaximum(mNumExpansions);
 
-						mExpansionProgressBar.setValue(0);
-						mExpansionProgressBar.setMaximum(mNumExpansions);
+                /*
+                 * Set the threads a-running and wait for them to stop.
+                 * This functionally never times out
+                 */
+                try {
+                    threadPool.shutdown();
+                    threadPool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
+                }
+                catch (InterruptedException e1) {
+                    frame.setEnabled(true);
+                    frame.setCursor(Cursor.getDefaultCursor());
+                }
 
-						/*
-						 * Set the threads a-running and wait for them to stop.
-						 * This functionally never times out
-						 */
-						try {
-							threadPool.shutdown();
-							threadPool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
-						}
-						catch (InterruptedException e1) {
-							frame.setEnabled(true);
-							frame.setCursor(Cursor.getDefaultCursor());
-						}
+                try {
+                    /* Write the patches manifest */
 
-						try {
-							/* Write the patches manifest */
+                    Collections.sort(mExpansionTableModel.mExpansions);
+                    mExpansionTableModel.writePatchesManifestFile(new File(mFilesPath, PATCH_FILE_NAME));
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                }
 
-							Collections.sort(mExpansionTableModel.mExpansions);
-							mExpansionTableModel.writePatchesManifestFile(new File(mFilesPath, PATCH_FILE_NAME));
-						}
-						catch (IOException e) {
-							e.printStackTrace();
-						}
+                try {
+                    if(mAppmapFile.exists()) {
+                        mAppmapFile.delete();
+                    }
+                    Integer multiverseIdsArray[] = new Integer[mAllMultiverseIds.size()];
+                    mAllMultiverseIds.toArray(multiverseIdsArray);
+                    Arrays.sort(multiverseIdsArray);
 
-						try {
-							if(mAppmapFile.exists()) {
-								mAppmapFile.delete();
-							}
-							Integer multiverseIdsArray[] = new Integer[mAllMultiverseIds.size()];
-							mAllMultiverseIds.toArray(multiverseIdsArray);
-							Arrays.sort(multiverseIdsArray);
+                    StringBuilder appmapBuilder = new StringBuilder();
+                    appmapBuilder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+                    appmapBuilder.append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
+                    for(int multiverseId : multiverseIdsArray) {
+                        appmapBuilder.append("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/").append(multiverseId).append("</loc></url>\n");
+                    }
+                    appmapBuilder.append("</urlset>\n");
 
-							StringBuilder appmapBuilder = new StringBuilder();
-							appmapBuilder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-							appmapBuilder.append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
-							for(int multiverseId : multiverseIdsArray) {
-								appmapBuilder.append("<url><loc>android-app://com.gelakinetic.mtgfam/card/multiverseid/"+ multiverseId +"</loc></url>\n");
-							}
-							appmapBuilder.append("</urlset>\n");
+                    GathererScraper.writeFile(appmapBuilder.toString(), new File(mFilesPath, APPMAP_FILE_NAME), false);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
-							GathererScraper.writeFile(appmapBuilder.toString(), new File(mFilesPath, APPMAP_FILE_NAME), false);
-						} catch (IOException e) {
-							e.printStackTrace();
-						}
+                /* Just a little feedback on how long the operation took */
+                long time = System.currentTimeMillis() - startTime;
+                JOptionPane.showMessageDialog(frame, "Done in " + time + "ms", "Complete",
+                        JOptionPane.PLAIN_MESSAGE);
 
-						/* Just a little feedback on how long the operation took */
-						long time = System.currentTimeMillis() - startTime;
-						JOptionPane.showMessageDialog(frame, "Done in " + time + "ms", "Complete",
-								JOptionPane.PLAIN_MESSAGE);
-
-						/* Reenable the cursor */
-						frame.setEnabled(true);
-						frame.setCursor(Cursor.getDefaultCursor());
-						return null;
-					}
-				}).execute();
-			}
-		});
+                /* Reenable the cursor */
+                frame.setEnabled(true);
+                frame.setCursor(Cursor.getDefaultCursor());
+                return null;
+            }
+        }).execute());
 
 		JScrollPane scrollPane_1 = new JScrollPane();
 		GridBagConstraints gbc_scrollPane_1 = new GridBagConstraints();
@@ -440,7 +414,7 @@ public class GathererScraperUi {
 		gbc_scrollPane_1.gridy = 2;
 		frame.getContentPane().add(scrollPane_1, gbc_scrollPane_1);
 
-		final JList<String> list = new JList<String>(mLegalityListModel);
+		final JList<String> list = new JList<>(mLegalityListModel);
 		scrollPane_1.setViewportView(list);
 
 		/*
@@ -472,28 +446,19 @@ public class GathererScraperUi {
 		gbc_chckbxSelectAll.gridx = 3;
 		gbc_chckbxSelectAll.gridy = 3;
 		frame.getContentPane().add(chckbxSelectAll, gbc_chckbxSelectAll);
-		chckbxSelectAll.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				if (chckbxSelectAll.isSelected()) {
-					for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
-						if(exp.isScraped()) {
-							exp.mChecked = true;
-						}
-						else {
-							exp.mChecked = false;
-						}
-					}
-				}
-				else {
-					for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
-						exp.mChecked = false;
-					}
-				}
-				mTable.repaint();
-			}
-		});
+		chckbxSelectAll.addActionListener(e -> {
+            if (chckbxSelectAll.isSelected()) {
+                for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
+                    exp.mChecked = exp.isScraped();
+                }
+            }
+            else {
+                for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
+                    exp.mChecked = false;
+                }
+            }
+            mTable.repaint();
+        });
 
 		frame.setVisible(true);
 	}
@@ -525,8 +490,6 @@ public class GathererScraperUi {
 				}
 			}
 			br.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -543,7 +506,7 @@ public class GathererScraperUi {
 	 * @return a JSONObject containing metadata about the patch. This is used to
 	 *         build a patch manifest
 	 */
-	public void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
+	private void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
 		try {
 			/* Only fix this weird character when writing the patch */
 			exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_gatherer);
@@ -551,7 +514,7 @@ public class GathererScraperUi {
 			PatchGS patch = new PatchGS(exp, allCards);
 
 			File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
-			GathererScraper.writeFile((Patch)patch, gzipout, true);
+			GathererScraper.writeFile(patch, gzipout, true);
 		}
 		catch (IOException e) {
 			e.printStackTrace();
@@ -588,7 +551,7 @@ public class GathererScraperUi {
 	 * A synchronized wrapper to increment the progress bar for expansions
 	 * scraped
 	 */
-	public synchronized void incrementExpansionsProcessed() {
+	private synchronized void incrementExpansionsProcessed() {
 		mExpansionProgressBar.setValue(++mExpansionsProcessed);
 	}
 

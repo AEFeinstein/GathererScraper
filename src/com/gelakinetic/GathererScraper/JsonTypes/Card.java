@@ -46,7 +46,7 @@ public class Card implements Comparable<Card> {
     public String mColor = "";
 
     // The card's colors
-    public String mColorIdentity = "";
+	protected String mColorIdentity = "";
 
     // The card's multiverse id
     public int mMultiverseId = 0;
@@ -61,7 +61,7 @@ public class Card implements Comparable<Card> {
     public int mLoyalty = CardDbAdapter.NO_ONE_CARES;
     
     // All the card's foreign printings
-    public ArrayList<ForeignPrinting> mForeignPrintings = new ArrayList<Card.ForeignPrinting>();
+    public ArrayList<ForeignPrinting> mForeignPrintings = new ArrayList<>();
 
     // The card's loyalty. An integer in practice
     public String mWatermark = "";
@@ -109,15 +109,7 @@ public class Card implements Comparable<Card> {
 			else {
 				char thisChar = this.getNumberChar();
 				char otherChar = other.getNumberChar();
-				if (thisChar > otherChar) {
-					return 1;
-				}
-				else if (thisChar < otherChar) {
-					return -1;
-				}
-				else {
-					return 0;
-				}
+				return Character.compare(thisChar, otherChar);
 			}
 		}
 
@@ -215,7 +207,7 @@ public class Card implements Comparable<Card> {
 		return 8;
 	}
 	
-	public int getNumberInteger() {
+	private int getNumberInteger() {
 		try {
 			char c = this.mNumber.charAt(this.mNumber.length() - 1);
 			if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
@@ -227,7 +219,7 @@ public class Card implements Comparable<Card> {
 		}
 	}
 	
-	public char getNumberChar() {
+	private char getNumberChar() {
 		char c = this.mNumber.charAt(this.mNumber.length() - 1);
 		if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
 			return c;
