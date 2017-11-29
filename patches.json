@@ -1,5 +1,5 @@
 {
-  "timestamp": 1511900648,
+  "timestamp": 1511933697,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -971,7 +971,7 @@
       "name": "Unstable",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UST.json.gzip",
       "code": "UST",
-      "digest": "d371e8f57117516c510624dc90efcafd"
+      "digest": "dcb86b42306cd38c2671f24a2be0cb41"
     },
     {
       "name": "Urza's Destiny",

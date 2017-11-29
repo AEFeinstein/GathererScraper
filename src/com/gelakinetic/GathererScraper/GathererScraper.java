@@ -836,6 +836,8 @@ public class GathererScraper {
         mText = mText.replace("Hanweir Battlements", uriLink("Hanweir Battlements", 414511));
         mText = mText.replace("Hanweir Garrison", uriLink("Hanweir Garrison", 414428));
         mText = mText.replace("Hanweir, the Writhing Township", uriLink("Hanweir, the Writhing Township", 414429));
+        
+        mText = mText.replace("AskUrza.com", "<a href=\"http://www.AskUrza.com\">AskUrza.com</a>");
         return mText;
     }
 
