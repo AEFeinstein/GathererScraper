@@ -1,5 +1,5 @@
 {
-  "timestamp": 1511933697,
+  "timestamp": 1513745900,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -953,13 +953,13 @@
       "name": "Unglued",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UG.json.gzip",
       "code": "UG",
-      "digest": "857c2f319c5c21d3b38bdc12bf88694f"
+      "digest": "2b9dcbace865aaa5dd7d3102cd647735"
     },
     {
       "name": "Unhinged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UNH.json.gzip",
       "code": "UNH",
-      "digest": "cc3f81e19df4b35eeafa5891bdbe0252"
+      "digest": "bb6f9e16269480a7f5013313c22ef13e"
     },
     {
       "name": "Unlimited Edition",
@@ -971,7 +971,7 @@
       "name": "Unstable",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UST.json.gzip",
       "code": "UST",
-      "digest": "dcb86b42306cd38c2671f24a2be0cb41"
+      "digest": "c4dafef7e2cd87fe577d0f34a901be35"
     },
     {
       "name": "Urza's Destiny",
