@@ -308,7 +308,9 @@ public class GathererScraper {
     private static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
                                                 HashMap<String, Integer> multiverseMap,
                                                 HashMap<String, String> cachedCollectorsNumbers) {
-
+    	/* Keep track of a letter for multiple printings with the same name */
+    	char ustLetter = 'a';
+    	
         /* Put all cards from all pages into this ArrayList */
         ArrayList<CardGS> scrapedCardsAllPages = new ArrayList<>();
 
@@ -321,6 +323,7 @@ public class GathererScraper {
         /* If there are alternate printings */
         if (mIds != null) {
             /* For all printings */
+        	Collections.sort(mIds);
             for (Integer mId : mIds) {
                 /* If we haven't downloaded this page yet */
                 String newUrl = CardGS.getUrl(mId);
@@ -347,7 +350,7 @@ public class GathererScraper {
             /* For all cards on this page, grab their information */
             for (String name : ids.keySet()) {
 
-//                System.out.println("\t\t" + name);
+//              System.out.println("\t\t" + name);
 
                 CardGS card;
                 if (cardPages.size() > 1) {
@@ -415,116 +418,13 @@ public class GathererScraper {
 
                     if (pt != null) {
                         if (pt.contains("/")) {
-                            String power = pt.replace("{1/2}", ".5").split("/")[0].trim();
-                            switch (power) {
-                                case "*": {
-                                    card.mPower = CardDbAdapter.STAR;
-                                    break;
-                                }
-                                case "1+*": {
-                                    card.mPower = CardDbAdapter.ONE_PLUS_STAR;
-                                    break;
-                                }
-                                case "7-*": {
-                                    card.mPower = CardDbAdapter.SEVEN_MINUS_STAR;
-                                    break;
-                                }
-                                case "2+*": {
-                                    card.mPower = CardDbAdapter.TWO_PLUS_STAR;
-                                    break;
-                                }
-                                case "*{^2}": {
-                                    card.mPower = CardDbAdapter.STAR_SQUARED;
-                                    break;
-                                }
-                                case "X": {
-                                    card.mPower = CardDbAdapter.X;
-                                    break;
-                                }
-                                case "∞": {
-                                    card.mPower = CardDbAdapter.INFINITY;
-                                    break;
-                                }
-                                case "?": {
-                                    card.mPower = CardDbAdapter.QUESTION_MARK;
-                                    break;
-                                }
-                                default: {
-                                    card.mPower = Float.parseFloat(power);
-                                }
-                            }
-                            String toughness = pt.replace("{1/2}", ".5").split("/")[1].trim();
-                            switch (toughness) {
-                                case "*": {
-                                    card.mToughness = CardDbAdapter.STAR;
-                                    break;
-                                }
-                                case "1+*": {
-                                    card.mToughness = CardDbAdapter.ONE_PLUS_STAR;
-                                    break;
-                                }
-                                case "7-*": {
-                                    card.mToughness = CardDbAdapter.SEVEN_MINUS_STAR;
-                                    break;
-                                }
-                                case "2+*": {
-                                    card.mToughness = CardDbAdapter.TWO_PLUS_STAR;
-                                    break;
-                                }
-                                case "*{^2}": {
-                                    card.mToughness = CardDbAdapter.STAR_SQUARED;
-                                    break;
-                                }
-                                case "X": {
-                                    card.mToughness = CardDbAdapter.X;
-                                    break;
-                                }
-                                case "∞": {
-                                    card.mToughness = CardDbAdapter.INFINITY;
-                                    break;
-                                }
-                                case "?": {
-                                    card.mToughness = CardDbAdapter.QUESTION_MARK;
-                                    break;
-                                }
-                                default: {
-                                    card.mToughness = Float.parseFloat(toughness);
-                                }
-                            }
+                            String power = pt.replace("{1/2}", ".5").replace("½", ".5").split("/")[0].trim();
+                            card.mPower = PTLstringToFloat(power);
+     
+                            String toughness = pt.replace("{1/2}", ".5").replace("½", ".5").split("/")[1].trim();
+                            card.mToughness = PTLstringToFloat(toughness);
                         } else {
-                            switch (pt.trim()) {
-                                case "*": {
-                                    card.mLoyalty = CardDbAdapter.STAR;
-                                    break;
-                                }
-                                case "1+*": {
-                                    card.mLoyalty = CardDbAdapter.ONE_PLUS_STAR;
-                                    break;
-                                }
-                                case "7-*": {
-                                    card.mLoyalty = CardDbAdapter.SEVEN_MINUS_STAR;
-                                    break;
-                                }
-                                case "2+*": {
-                                    card.mLoyalty = CardDbAdapter.TWO_PLUS_STAR;
-                                    break;
-                                }
-                                case "*{^2}": {
-                                    card.mLoyalty = CardDbAdapter.STAR_SQUARED;
-                                    break;
-                                }
-                                case "X": {
-                                    card.mLoyalty = CardDbAdapter.X;
-                                    break;
-                                }
-                                default: {
-                                    if (card.mName.equals("Urza, Academy Headmaster")) {
-                                        card.mLoyalty = 4;
-                                    } else {
-                                        card.mLoyalty = Integer.parseInt(pt.trim());
-                                    }
-                                }
-                            }
+                        	card.mLoyalty = (int) PTLstringToFloat(pt.trim());
                         }
                     }
                 }
@@ -567,6 +467,35 @@ public class GathererScraper {
                 /* If that didn't work, try getting it from Gatherer */
                 if (card.mNumber == null || card.mNumber.equals("")) {
                     card.mNumber = getTextFromAttribute(cardPage, id + "numberRow", "value", true);
+                    
+                    /* Clean up Unstable numbers. Thanks Wizards */
+                    if(card.mExpansion.equals("UST")) {
+                    	if(null != mIds && !mIds.isEmpty()) {
+                    		/* This is for the five UST commons with alternate art */
+                    		card.mNumber += ustLetter;
+                    		ustLetter++;
+                    	} else if (card.mName.contains("(")) {
+                    		/* This is for the UST cards which have alternate text */
+                    		char letter = card.mName.charAt(card.mName.indexOf("(") + 1);
+                    		if('a' <= letter && letter <= 'f') {
+                    			card.mNumber += letter;
+                    		}
+                    	} else if (card.mName.contains("Killbot")) {
+                    		/* And this is for the Killbots */
+                    		if(card.mName.contains("Curious")) {
+                    			card.mNumber += 'a';
+                    		}
+                    		else if(card.mName.contains("Delighted")) {
+                    			card.mNumber += 'b';                    			
+                    		}
+                    		else if(card.mName.contains("Despondent")) {
+                    			card.mNumber += 'c';
+                    		}
+                    		else if(card.mName.contains("Enraged")) {
+                    			card.mNumber += 'd';
+                    		}
+                    	}
+                    }
                 }
     
                 /* If that didn't work, print a warning */
@@ -727,6 +656,44 @@ public class GathererScraper {
     }
 
     /**
+     * Given a string power, toughness, or loyalty, convert it into a float
+     * 
+     * @param value The string value to convert
+     * @return the converted float value
+     */
+	private static float PTLstringToFloat(String value) {
+		switch (value) {
+			case "*": {
+				return CardDbAdapter.STAR;
+			}
+			case "1+*": {
+				return CardDbAdapter.ONE_PLUS_STAR;
+			}
+			case "7-*": {
+				return CardDbAdapter.SEVEN_MINUS_STAR;
+			}
+			case "2+*": {
+				return CardDbAdapter.TWO_PLUS_STAR;
+			}
+			case "*{^2}": {
+				return CardDbAdapter.STAR_SQUARED;
+			}
+			case "X": {
+				return CardDbAdapter.X;
+			}
+			case "∞": {
+				return CardDbAdapter.INFINITY;
+			}
+			case "?": {
+				return CardDbAdapter.QUESTION_MARK;
+			}
+			default: {
+				return Float.parseFloat(value);
+			}
+		}
+	}
+
+	/**
      * Scrape the Language Gatherer page of the card with the english multiverse id given in the params.
      *
      * @param englishMultiverseId  The english multiverse ID of the card for which we will scrape the foreign language infos.
