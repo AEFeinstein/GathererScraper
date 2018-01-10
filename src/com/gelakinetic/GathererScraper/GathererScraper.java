@@ -418,6 +418,12 @@ public class GathererScraper {
 
                     if (pt != null) {
                         if (pt.contains("/")) {
+                        	if(card.mName.equals("Rhino-")) {
+                        		pt = "+1 / +4";
+                        	}
+                        	else if(card.mName.equals("Half-Shark, Half-")) {
+                        		pt = "+3 / +3";                        		
+                        	}
                             String power = pt.replace("{1/2}", ".5").replace("½", ".5").split("/")[0].trim();
                             card.mPower = PTLstringToFloat(power);
      
@@ -688,7 +694,12 @@ public class GathererScraper {
 				return CardDbAdapter.QUESTION_MARK;
 			}
 			default: {
-				return Float.parseFloat(value);
+				try {
+					return Float.parseFloat(value);
+				} catch (NumberFormatException e) {
+					System.err.println(e.getMessage());
+					return 0;
+				}
 			}
 		}
 	}
