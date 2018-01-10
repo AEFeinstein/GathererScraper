@@ -1,5 +1,5 @@
 {
-  "timestamp": 1513745900,
+  "timestamp": 1515596435,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -840,6 +840,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ROE.json.gzip",
       "code": "ROE",
       "digest": "86aa1033e16535c9ea6d565081a3874d"
+    },
+    {
+      "name": "Rivals of Ixalan",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RIX.json.gzip",
+      "code": "RIX",
+      "digest": "9e5787639019f1fe7bc55ff1ff4199fc"
     },
     {
       "name": "Saviors of Kamigawa",

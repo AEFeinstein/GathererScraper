@@ -1440,6 +1440,16 @@
     "digest": "86aa1033e16535c9ea6d565081a3874d"
   },
   {
+    "name_gatherer": "Rivals of Ixalan",
+    "code_gatherer": "RIX",
+    "code_mtgi": "RIX",
+    "name_tcgp": "Rivals of Ixalan",
+    "name_mkm": "Rivals of Ixalan",
+    "releaseTimestamp": 1514782800,
+    "canBeFoil": true,
+    "digest": "9e5787639019f1fe7bc55ff1ff4199fc"
+  },
+  {
     "name_gatherer": "Saviors of Kamigawa",
     "code_gatherer": "SOK",
     "code_mtgi": "SOK",
