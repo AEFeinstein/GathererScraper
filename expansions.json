@@ -277,7 +277,7 @@
     "name_mkm": "Conspiracy: Take the Crown",
     "releaseTimestamp": 1470002400,
     "canBeFoil": true,
-    "digest": "b31a2d6bc8e503ee66285cdb1f615448"
+    "digest": "117698383ca9ab0c4174e1a073ec61d3"
   },
   {
     "name_gatherer": "Dark Ascension",
@@ -287,7 +287,7 @@
     "name_mkm": "Dark Ascension",
     "releaseTimestamp": 1328050800,
     "canBeFoil": true,
-    "digest": "a9a1b0b6fe405b7614206721690155b8"
+    "digest": "3adb60f1fc8204e03aec12974283c200"
   },
   {
     "name_gatherer": "Darksteel",
@@ -297,7 +297,7 @@
     "name_mkm": "Darksteel",
     "releaseTimestamp": 1072911600,
     "canBeFoil": true,
-    "digest": "c39bfc821cf7a3d64dbace9ab19b816f"
+    "digest": "d49a2a0e1e0f50befb468516fd4cdba5"
   },
   {
     "name_gatherer": "Dissension",
@@ -797,7 +797,7 @@
     "name_mkm": "Gatecrash",
     "releaseTimestamp": 1356994800,
     "canBeFoil": true,
-    "digest": "f8fb0ddc0d104af88e72f2acb1ed2f18"
+    "digest": "eabfaff626962f6a98b99555c0a9fe46"
   },
   {
     "name_gatherer": "Guildpact",
@@ -1157,7 +1157,7 @@
     "name_mkm": "Mirrodin Besieged",
     "releaseTimestamp": 1293836400,
     "canBeFoil": true,
-    "digest": "ca5086333a7fed8dd4eea6301da59515"
+    "digest": "eaf85f7877bcb89b866c04200de7d7f9"
   },
   {
     "name_gatherer": "Modern Event Deck 2014",
@@ -1197,7 +1197,7 @@
     "name_mkm": "Modern Masters 2017",
     "releaseTimestamp": 1488322800,
     "canBeFoil": true,
-    "digest": "9b0fcbb22af5d63ffa904ae45eba52e7"
+    "digest": "f08e9db22f16a567316d8cf3246b58ad"
   },
   {
     "name_gatherer": "Morningtide",
@@ -1397,7 +1397,7 @@
     "name_mkm": "Prophecy",
     "releaseTimestamp": 957132000,
     "canBeFoil": true,
-    "digest": "bbb727530617dcef1e78b56294414499"
+    "digest": "11f7f7f68690d283bdeee8c3e45d76d0"
   },
   {
     "name_gatherer": "Ravnica: City of Guilds",
@@ -1587,7 +1587,7 @@
     "name_mkm": "The Dark",
     "releaseTimestamp": 775692000,
     "canBeFoil": false,
-    "digest": "60075a5b98f9b2eae8d3f41d35b7cb40"
+    "digest": "4c48c42ea7059369ad93e87f2fc0f886"
   },
   {
     "name_gatherer": "Theros",

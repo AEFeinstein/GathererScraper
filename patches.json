@@ -1,5 +1,5 @@
 {
-  "timestamp": 1515596435,
+  "timestamp": 1515768833,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -167,19 +167,19 @@
       "name": "Conspiracy: Take the Crown",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CN2.json.gzip",
       "code": "CN2",
-      "digest": "b31a2d6bc8e503ee66285cdb1f615448"
+      "digest": "117698383ca9ab0c4174e1a073ec61d3"
     },
     {
       "name": "Dark Ascension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DKA.json.gzip",
       "code": "DKA",
-      "digest": "a9a1b0b6fe405b7614206721690155b8"
+      "digest": "3adb60f1fc8204e03aec12974283c200"
     },
     {
       "name": "Darksteel",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DS.json.gzip",
       "code": "DS",
-      "digest": "c39bfc821cf7a3d64dbace9ab19b816f"
+      "digest": "d49a2a0e1e0f50befb468516fd4cdba5"
     },
     {
       "name": "Dissension",
@@ -479,7 +479,7 @@
       "name": "Gatecrash",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GTC.json.gzip",
       "code": "GTC",
-      "digest": "f8fb0ddc0d104af88e72f2acb1ed2f18"
+      "digest": "eabfaff626962f6a98b99555c0a9fe46"
     },
     {
       "name": "Guildpact",
@@ -671,7 +671,7 @@
       "name": "Mirrodin Besieged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MBS.json.gzip",
       "code": "MBS",
-      "digest": "ca5086333a7fed8dd4eea6301da59515"
+      "digest": "eaf85f7877bcb89b866c04200de7d7f9"
     },
     {
       "name": "Modern Event Deck 2014",
@@ -695,7 +695,7 @@
       "name": "Modern Masters 2017 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM3.json.gzip",
       "code": "MM3",
-      "digest": "9b0fcbb22af5d63ffa904ae45eba52e7"
+      "digest": "f08e9db22f16a567316d8cf3246b58ad"
     },
     {
       "name": "Morningtide",
@@ -815,7 +815,7 @@
       "name": "Prophecy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PY.json.gzip",
       "code": "PY",
-      "digest": "bbb727530617dcef1e78b56294414499"
+      "digest": "11f7f7f68690d283bdeee8c3e45d76d0"
     },
     {
       "name": "Ravnica: City of Guilds",
@@ -923,7 +923,7 @@
       "name": "The Dark",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DK.json.gzip",
       "code": "DK",
-      "digest": "60075a5b98f9b2eae8d3f41d35b7cb40"
+      "digest": "4c48c42ea7059369ad93e87f2fc0f886"
     },
     {
       "name": "Theros",
