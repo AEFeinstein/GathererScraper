@@ -342,7 +342,11 @@
       "restrictedlist": [],
       "banlist": [
         "Aetherworks Marvel",
+        "Attune with Aether",
         "Felidar Guardian",
+        "Rampaging Ferocidon",
+        "Ramunap Ruins",
+        "Rogue Refiner",
         "Smuggler's Copter"
       ]
     },
@@ -1149,5 +1153,5 @@
       "banlist": []
     }
   ],
-  "timestamp": 1515596451
+  "timestamp": 1516036062
 }
