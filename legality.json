@@ -423,7 +423,6 @@
         "Ancient Den",
         "Birthing Pod",
         "Blazing Shoal",
-        "Bloodbraid Elf",
         "Chrome Mox",
         "Cloudpost",
         "Dark Depths",
@@ -437,7 +436,6 @@
         "Great Furnace",
         "Green Sun's Zenith",
         "Hypergenesis",
-        "Jace, the Mind Sculptor",
         "Mental Misstep",
         "Ponder",
         "Preordain",
@@ -1153,5 +1151,5 @@
       "banlist": []
     }
   ],
-  "timestamp": 1516036062
+  "timestamp": 1518458207
 }
