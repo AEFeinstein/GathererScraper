@@ -1080,6 +1080,16 @@
     "digest": "f4b9acb65a0f218361bfff955478143c"
   },
   {
+    "name_gatherer": "Masters 25",
+    "code_gatherer": "A25",
+    "code_mtgi": "A25",
+    "name_tcgp": "Masters 25",
+    "name_mkm": "Masters 25",
+    "releaseTimestamp": 1519880400,
+    "canBeFoil": true,
+    "digest": "4ffe2901368c3d9faf645c70257f1243"
+  },
+  {
     "name_gatherer": "Masters Edition",
     "code_gatherer": "",
     "code_mtgi": "",

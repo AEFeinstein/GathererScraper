@@ -1,5 +1,5 @@
 {
-  "timestamp": 1515768833,
+  "timestamp": 1520427858,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -648,6 +648,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MPSKLD.json.gzip",
       "code": "MPSKLD",
       "digest": "f4b9acb65a0f218361bfff955478143c"
+    },
+    {
+      "name": "Masters 25",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/A25.json.gzip",
+      "code": "A25",
+      "digest": "4ffe2901368c3d9faf645c70257f1243"
     },
     {
       "name": "Mercadian Masques",
