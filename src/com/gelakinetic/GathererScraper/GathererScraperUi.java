@@ -115,7 +115,7 @@ public class GathererScraperUi {
 
         final JFrame frame = new JFrame();
         frame.setVisible(false);
-        frame.setBounds(100, 100, 1160, 512);
+        frame.setBounds(100, 100, 1280, 512);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         GridBagLayout gridBagLayout = new GridBagLayout();
         gridBagLayout.columnWidths = new int[]{0, 0, 278, 80, 0};

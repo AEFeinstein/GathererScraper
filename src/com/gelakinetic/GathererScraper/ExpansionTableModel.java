@@ -30,24 +30,17 @@ public class ExpansionTableModel extends AbstractTableModel {
 
     private static final long serialVersionUID = -292863957248684813L;
 
-    private static final int COLUMN_NAME = 0;
-    private static final int COLUMN_CODE = 1;
-    private static final int COLUMN_MTGINFO_NAME = 2;
-    private static final int COLUMN_TCGPLAYER_NAME = 3;
-    private static final int COLUMN_MKM_NAME = 4;
-    private static final int COLUMN_DATE = 5;
-    private static final int COLUMN_FOIL = 6;
-    private static final int COLUMN_CHECKED = 7;
-
-    private static final int[] COLUMNS = {
-            COLUMN_NAME,
-            COLUMN_MTGINFO_NAME,
-            COLUMN_TCGPLAYER_NAME,
-            COLUMN_MKM_NAME,
-            COLUMN_DATE,
-            COLUMN_CHECKED,
-            COLUMN_CODE,
-            COLUMN_FOIL
+    private enum COLUMNS {
+        COLUMN_NAME,
+        COLUMN_CODE,
+        COLUMN_MTGINFO_NAME,
+        COLUMN_TCGPLAYER_NAME,
+        COLUMN_MKM_NAME,
+        COLUMN_FOIL,
+        COLUMN_ONLINE_ONLY,
+        COLUMN_BORDER_COLOR,
+        COLUMN_DATE,
+        COLUMN_CHECKED
     };
 
     /**
@@ -60,7 +53,7 @@ public class ExpansionTableModel extends AbstractTableModel {
      */
     @Override
     public int getColumnCount() {
-        return COLUMNS.length;
+        return COLUMNS.values().length;
     }
 
     /**
@@ -80,7 +73,7 @@ public class ExpansionTableModel extends AbstractTableModel {
      */
     @Override
     public Object getValueAt(int row, int col) {
-        switch (col) {
+        switch (COLUMNS.values()[col]) {
             case COLUMN_NAME: {
                 return mExpansions.get(row).mName_gatherer;
             }
@@ -104,6 +97,12 @@ public class ExpansionTableModel extends AbstractTableModel {
             }
             case COLUMN_FOIL: {
                 return mExpansions.get(row).mCanBeFoil;
+            }
+            case COLUMN_ONLINE_ONLY: {
+                return mExpansions.get(row).mIsOnlineOnly;
+            }
+            case COLUMN_BORDER_COLOR: {
+                return mExpansions.get(row).mBorderColor;
             }
         }
         return null;
@@ -137,7 +136,7 @@ public class ExpansionTableModel extends AbstractTableModel {
          * Note that the data/cell address is constant, no matter where the cell
          * appears onscreen.
          */
-        return col > COLUMN_NAME;
+        return col > COLUMNS.COLUMN_NAME.ordinal();
     }
 
     /**
@@ -148,7 +147,7 @@ public class ExpansionTableModel extends AbstractTableModel {
      * @param col   The column of the cell to modify
      */
     public void setValueAt(Object value, int row, int col) {
-        switch (col) {
+        switch (COLUMNS.values()[col]) {
             case COLUMN_NAME: {
                 mExpansions.get(row).mName_gatherer = (String) value;
                 break;
@@ -181,6 +180,14 @@ public class ExpansionTableModel extends AbstractTableModel {
                 mExpansions.get(row).mCanBeFoil = (Boolean) value;
                 break;
             }
+            case COLUMN_ONLINE_ONLY: {
+                mExpansions.get(row).mIsOnlineOnly = (Boolean) value;
+                break;
+            }
+            case COLUMN_BORDER_COLOR: {
+                mExpansions.get(row).mBorderColor = (String) value;
+                break;
+            }
         }
     }
 
@@ -192,7 +199,7 @@ public class ExpansionTableModel extends AbstractTableModel {
      */
     @Override
     public String getColumnName(int col) {
-        switch (col) {
+        switch (COLUMNS.values()[col]) {
             case COLUMN_NAME: {
                 return "Name";
             }
@@ -216,6 +223,12 @@ public class ExpansionTableModel extends AbstractTableModel {
             }
             case COLUMN_FOIL: {
                 return "Can be Foil?";
+            }
+            case COLUMN_ONLINE_ONLY: {
+                return "Online Only?";
+            }
+            case COLUMN_BORDER_COLOR: {
+                return "Border Color";
             }
             default: {
                 return "";
@@ -250,6 +263,8 @@ public class ExpansionTableModel extends AbstractTableModel {
                     existing.mName_tcgp = e.mName_tcgp;
                     existing.mReleaseTimestamp = e.mReleaseTimestamp;
                     existing.mCanBeFoil = e.mCanBeFoil;
+                    existing.mBorderColor = e.mBorderColor;
+                    existing.mIsOnlineOnly = e.mIsOnlineOnly;
                 }
             }
         }
