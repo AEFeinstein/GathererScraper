@@ -7,6 +7,8 @@
     "name_mkm": "Aether Revolt",
     "releaseTimestamp": 1483225200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "207b444fe76cb61a1f519c40310b2bc2"
   },
   {
@@ -17,6 +19,8 @@
     "name_mkm": "Alara Reborn",
     "releaseTimestamp": 1238536800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2475deef7292b42b65f854e36bc7d172"
   },
   {
@@ -27,6 +31,8 @@
     "name_mkm": "Alliances",
     "releaseTimestamp": 833580000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0dcc1cf984d6a0ab8703f9dcc4d64e99"
   },
   {
@@ -37,6 +43,8 @@
     "name_mkm": "Amonkhet",
     "releaseTimestamp": 1491019200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "dfb908752d15f5e263be7fa7afce27b0"
   },
   {
@@ -47,6 +55,8 @@
     "name_mkm": "Antiquities",
     "releaseTimestamp": 765151200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0b84fff3af73240483969cd73989d7d7"
   },
   {
@@ -57,6 +67,8 @@
     "name_mkm": "Apocalypse",
     "releaseTimestamp": 988668000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fceef0bb2128ffe68a5a1611de581053"
   },
   {
@@ -67,6 +79,8 @@
     "name_mkm": "Arabian Nights",
     "releaseTimestamp": 754700400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "82235866c310e32d9e7d137c5f23d527"
   },
   {
@@ -77,6 +91,8 @@
     "name_mkm": "Archenemy",
     "releaseTimestamp": 1275343200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "357a7c7940c79bf3a9281e909c1f9669"
   },
   {
@@ -87,6 +103,8 @@
     "name_mkm": "Archenemy: Nicol Bolas",
     "releaseTimestamp": 1496289600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fb0a4896bd7751cc89a7730569c969cc"
   },
   {
@@ -97,17 +115,9 @@
     "name_mkm": "Avacyn Restored",
     "releaseTimestamp": 1335823200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f4980d81facaad2be05fe5ea4d4fd59e"
-  },
-  {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "digest": "6335971401a972dfec305ac38aefab2f"
   },
   {
     "name_gatherer": "Battle for Zendikar",
@@ -117,7 +127,21 @@
     "name_mkm": "Battle for Zendikar",
     "releaseTimestamp": 1441058400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "9bc617014041bbf23fc4e5133dea958c"
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
+    "digest": "6335971401a972dfec305ac38aefab2f"
   },
   {
     "name_gatherer": "Beatdown Box Set",
@@ -127,6 +151,8 @@
     "name_mkm": "Beatdown",
     "releaseTimestamp": 975625200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "eabbf418a94a788576242de226ebcde4"
   },
   {
@@ -137,6 +163,8 @@
     "name_mkm": "Betrayers of Kamigawa",
     "releaseTimestamp": 1104534000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "556f1e2415400e962a290b3d00095d50"
   },
   {
@@ -147,6 +175,8 @@
     "name_mkm": "Born of the Gods",
     "releaseTimestamp": 1391209200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "28a743c8cc73fc4d736300d84266dd3e"
   },
   {
@@ -157,6 +187,8 @@
     "name_mkm": "Champions of Kamigawa",
     "releaseTimestamp": 1093989600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "668d40b6dd2631989402da225cef2d18"
   },
   {
@@ -167,6 +199,8 @@
     "name_mkm": "Chronicles",
     "releaseTimestamp": 804549600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "da886a016c81afa288b2830fba0931ec"
   },
   {
@@ -177,6 +211,8 @@
     "name_mkm": "Sixth Edition",
     "releaseTimestamp": 922917600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "77a5e8f36879dd567772e31845be1ecf"
   },
   {
@@ -187,6 +223,8 @@
     "name_mkm": "Coldsnap",
     "releaseTimestamp": 1149112800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "774aaf15426511e28b4b081240156129"
   },
   {
@@ -197,6 +235,8 @@
     "name_mkm": "Commander 2013",
     "releaseTimestamp": 1383260400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "85cab5ff309af781f40f24621d22ee79"
   },
   {
@@ -207,6 +247,8 @@
     "name_mkm": "Commander 2014",
     "releaseTimestamp": 1414796400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "52f213d41158905e604606f975095ea1"
   },
   {
@@ -217,6 +259,8 @@
     "name_mkm": "Commander 2015",
     "releaseTimestamp": 1446332400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e6ab257b929399855266c58023343fe5"
   },
   {
@@ -227,6 +271,8 @@
     "name_mkm": "Commander 2016",
     "releaseTimestamp": 1477954800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "30473409b10f6c735538c54b6e0f4e18"
   },
   {
@@ -237,6 +283,8 @@
     "name_mkm": "Commander 2017",
     "releaseTimestamp": 1501560000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4bf677f8c7e191314724b601b16a9b10"
   },
   {
@@ -247,6 +295,8 @@
     "name_mkm": "Commander Anthology",
     "releaseTimestamp": 1493611200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "266aa34df2415ca2e1ca8b0d8160c130"
   },
   {
@@ -257,6 +307,8 @@
     "name_mkm": "Commander's Arsenal",
     "releaseTimestamp": 1351724400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "960da8ef8af1d198995afd01088bfdb1"
   },
   {
@@ -267,6 +319,8 @@
     "name_mkm": "Conflux",
     "releaseTimestamp": 1230764400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "a388fbdb3c932f7987d9979eb00b6714"
   },
   {
@@ -277,6 +331,8 @@
     "name_mkm": "Conspiracy: Take the Crown",
     "releaseTimestamp": 1470002400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "117698383ca9ab0c4174e1a073ec61d3"
   },
   {
@@ -287,6 +343,8 @@
     "name_mkm": "Dark Ascension",
     "releaseTimestamp": 1328050800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "3adb60f1fc8204e03aec12974283c200"
   },
   {
@@ -297,6 +355,8 @@
     "name_mkm": "Darksteel",
     "releaseTimestamp": 1072911600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d49a2a0e1e0f50befb468516fd4cdba5"
   },
   {
@@ -307,6 +367,8 @@
     "name_mkm": "Dissension",
     "releaseTimestamp": 1143842400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f29df25eff891ba985d595054d1983c5"
   },
   {
@@ -317,6 +379,8 @@
     "name_mkm": "Dragon's Maze",
     "releaseTimestamp": 1367359200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c6a16c212c368dc1b1ac741f4597d199"
   },
   {
@@ -327,6 +391,8 @@
     "name_mkm": "Dragons of Tarkir",
     "releaseTimestamp": 1425164400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "5c45b687d9a210e584f936ef8e60e7bb"
   },
   {
@@ -337,6 +403,8 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e3cf3ce11558cad5a2a34a056b2e36ac"
   },
   {
@@ -347,6 +415,8 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "a21a0a9d31111e41ddeddc3556ed50ee"
   },
   {
@@ -357,6 +427,8 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "43a6206ea8689929cd2a3d14886f9df6"
   },
   {
@@ -367,6 +439,8 @@
     "name_mkm": "Duel Decks: Anthology",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4670ed95cd80e0bad9a9f5c160680cab"
   },
   {
@@ -377,6 +451,8 @@
     "name_mkm": "Duel Decks: Ajani vs. Nicol Bolas",
     "releaseTimestamp": 1312149600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6e45e4637c37dfd832e06ade555fe9e9"
   },
   {
@@ -387,6 +463,8 @@
     "name_mkm": "Duel Decks: Blessed vs. Cursed",
     "releaseTimestamp": 1454281200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f9faa92301e1538a40d868ce6d5960ce"
   },
   {
@@ -397,6 +475,8 @@
     "name_mkm": "Duel Decks: Divine vs. Demonic",
     "releaseTimestamp": 1238536800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8b23dc2786d5fd1d7871fd1809058848"
   },
   {
@@ -407,6 +487,8 @@
     "name_mkm": "Duel Decks: Elspeth vs. Kiora",
     "releaseTimestamp": 1422745200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "16c36048a46e6b3a3c10e9a353b29b43"
   },
   {
@@ -417,6 +499,8 @@
     "name_mkm": "Duel Decks: Elspeth vs. Tezzeret",
     "releaseTimestamp": 1283292000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "98e930070cc3a52633bee37e3dcbd878"
   },
   {
@@ -427,6 +511,8 @@
     "name_mkm": "Duel Decks: Elves vs. Goblins",
     "releaseTimestamp": 1193871600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2eb8ff2db9b637b32b82f1e37dd1c883"
   },
   {
@@ -437,6 +523,8 @@
     "name_mkm": "Duel Decks: Garruk vs. Liliana",
     "releaseTimestamp": 1254348000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "22c48393b4950ef07e96f61f522ce5c5"
   },
   {
@@ -447,6 +535,8 @@
     "name_mkm": "Duel Decks: Heroes vs. Monsters",
     "releaseTimestamp": 1377986400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e4c5932e75fdb282a2f4f02f9c8be8d4"
   },
   {
@@ -457,6 +547,8 @@
     "name_mkm": "Duel Decks: Izzet vs. Golgari",
     "releaseTimestamp": 1346450400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6c1c4e17838ecb180ae9b5d7ddbddaa5"
   },
   {
@@ -467,6 +559,8 @@
     "name_mkm": "Duel Decks: Jace vs. Chandra",
     "releaseTimestamp": 1225494000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "bf353502401ff44dfc68ecd6c01ba91a"
   },
   {
@@ -477,6 +571,8 @@
     "name_mkm": "Duel Decks: Jace vs. Vraska",
     "releaseTimestamp": 1393628400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e2d8aba6671b332f89d7ebd38e005cf7"
   },
   {
@@ -487,6 +583,8 @@
     "name_mkm": "Duel Decks: Knights vs. Dragons",
     "releaseTimestamp": 1301608800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "562c0d52ce430f27e031c481fded2bc1"
   },
   {
@@ -497,6 +595,8 @@
     "name_mkm": "Duel Decks: Merfolk vs. Goblins",
     "releaseTimestamp": 1509508800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f1e2b26ab2080b47012566944f745d9c"
   },
   {
@@ -507,6 +607,8 @@
     "name_mkm": "Duel Decks: Mind vs. Might",
     "releaseTimestamp": 1488344400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8c6b991e39a140ce5f558d8cab414021"
   },
   {
@@ -517,6 +619,8 @@
     "name_mkm": "Duel Decks: Nissa vs. Ob Nixilis",
     "releaseTimestamp": 1472680800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "44236007345cdb0e6e683f915bbddff0"
   },
   {
@@ -527,6 +631,8 @@
     "name_mkm": "Duel Decks: Phyrexia vs. The Coalition",
     "releaseTimestamp": 1267398000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "11f29190bfcd7ca4661434e90478f4f1"
   },
   {
@@ -537,6 +643,8 @@
     "name_mkm": "Duel Decks: Sorin vs. Tibalt",
     "releaseTimestamp": 1362092400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "1c91f7a8b4fc99a393513ef56a4498e2"
   },
   {
@@ -547,6 +655,8 @@
     "name_mkm": "Duel Decks: Speed vs. Cunning",
     "releaseTimestamp": 1409522400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "7d7d3c64b7f9d9d92a1850cf11f638b6"
   },
   {
@@ -557,6 +667,8 @@
     "name_mkm": "Duel Decks: Venser vs. Koth",
     "releaseTimestamp": 1333231200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0b6a3b96b8914ec638468b026abedd01"
   },
   {
@@ -567,6 +679,8 @@
     "name_mkm": "Duel Decks: Zendikar vs. Eldrazi",
     "releaseTimestamp": 1438380000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f821474d96361510f952d25d86d15edb"
   },
   {
@@ -577,6 +691,8 @@
     "name_mkm": "Eighth Edition",
     "releaseTimestamp": 1057010400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "329c886801fb103dce460a89e729404b"
   },
   {
@@ -587,6 +703,8 @@
     "name_mkm": "Eldritch Moon",
     "releaseTimestamp": 1467324000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "540d964492389e34c24675d40eafd8c4"
   },
   {
@@ -597,6 +715,8 @@
     "name_mkm": "Eternal Masters",
     "releaseTimestamp": 1464732000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "35764a807e26735b6f59b53cb63b001b"
   },
   {
@@ -607,6 +727,8 @@
     "name_mkm": "Eventide",
     "releaseTimestamp": 1214863200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6fc9df54250f65432413f911ba0f5fb7"
   },
   {
@@ -617,6 +739,8 @@
     "name_mkm": "Exodus",
     "releaseTimestamp": 896652000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0f770a40b37896ef12f26d40d56c100e"
   },
   {
@@ -627,6 +751,8 @@
     "name_mkm": "Explorers of Ixalan",
     "releaseTimestamp": 1509508800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8c80a06469a0559290c30062d09a82b1"
   },
   {
@@ -637,6 +763,8 @@
     "name_mkm": "Fallen Empires",
     "releaseTimestamp": 780966000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "499ceb5ca85e0598d7cc9385722a00a6"
   },
   {
@@ -647,6 +775,8 @@
     "name_mkm": "Fate Reforged",
     "releaseTimestamp": 1420066800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0ee64f654f9a2a20fbfd90391dd5ee53"
   },
   {
@@ -657,6 +787,8 @@
     "name_mkm": "Fifth Dawn",
     "releaseTimestamp": 1083362400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "70969c4fdde3da97f8e3abff487ce4ac"
   },
   {
@@ -667,6 +799,8 @@
     "name_mkm": "Fifth Edition",
     "releaseTimestamp": 857170800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "01bf608ef2484ccb25caf4dd41130d99"
   },
   {
@@ -677,6 +811,8 @@
     "name_mkm": "Fourth Edition",
     "releaseTimestamp": 796687200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "40282ac838e0bced31029f991da2cb33"
   },
   {
@@ -687,6 +823,8 @@
     "name_mkm": "From the Vault: Angels",
     "releaseTimestamp": 1438380000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "32f99f4a49552a05626343bdc623a49e"
   },
   {
@@ -697,6 +835,8 @@
     "name_mkm": "From the Vault: Annihilation",
     "releaseTimestamp": 1406844000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d0d92849f81d457351ea6539b49da164"
   },
   {
@@ -707,6 +847,8 @@
     "name_mkm": "From the Vault: Dragons",
     "releaseTimestamp": 1217541600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "3b3412bb3442054525411e152f475150"
   },
   {
@@ -717,6 +859,8 @@
     "name_mkm": "From the Vault: Exiled",
     "releaseTimestamp": 1249077600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "5c4a07cbb2572e7a2ad08722b7dbc12d"
   },
   {
@@ -727,6 +871,8 @@
     "name_mkm": "From the Vault: Legends",
     "releaseTimestamp": 1312149600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "db63800b9d15d1f9b081872cbae17fae"
   },
   {
@@ -737,6 +883,8 @@
     "name_mkm": "From the Vault: Lore",
     "releaseTimestamp": 1470002400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "5fef25c8e6cdadd07358e17ae1f0c967"
   },
   {
@@ -747,6 +895,8 @@
     "name_mkm": "From the Vault: Realms",
     "releaseTimestamp": 1343772000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "9869faa64788e7e37d918333feffc703"
   },
   {
@@ -757,6 +907,8 @@
     "name_mkm": "From the Vault: Relics",
     "releaseTimestamp": 1280613600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c7cba2592112ce98a6e3257d1a659f7c"
   },
   {
@@ -767,6 +919,8 @@
     "name_mkm": "From the Vault: Transform",
     "releaseTimestamp": 1509508800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "03641723f46031b91876a124e887bfb1"
   },
   {
@@ -777,6 +931,8 @@
     "name_mkm": "From the Vault: Twenty",
     "releaseTimestamp": 1375308000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c1b1e18204a068d19e0e8fa02d1ba3a2"
   },
   {
@@ -787,6 +943,8 @@
     "name_mkm": "Future Sight",
     "releaseTimestamp": 1177970400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0470282329eb2b5b1465c34292ec9f0f"
   },
   {
@@ -797,6 +955,8 @@
     "name_mkm": "Gatecrash",
     "releaseTimestamp": 1356994800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "eabfaff626962f6a98b99555c0a9fe46"
   },
   {
@@ -807,6 +967,8 @@
     "name_mkm": "Guildpact",
     "releaseTimestamp": 1136070000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "810bc914b2b77eebd74e98ca85593b1d"
   },
   {
@@ -817,6 +979,8 @@
     "name_mkm": "Homelands",
     "releaseTimestamp": 812502000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "a5486f971029c4c42888ac7f3429d728"
   },
   {
@@ -827,6 +991,8 @@
     "name_mkm": "Hour of Devastation",
     "releaseTimestamp": 1498881600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fff6ff74862ea5e47c905eb2b4249ebc"
   },
   {
@@ -837,6 +1003,8 @@
     "name_mkm": "Ice Age",
     "releaseTimestamp": 801957600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4e3bba5cf826e972abbd21e21a262fd3"
   },
   {
@@ -847,6 +1015,8 @@
     "name_mkm": "Iconic Masters",
     "releaseTimestamp": 1509508800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "75331184740481ade1d2785ab133a9af"
   },
   {
@@ -857,6 +1027,8 @@
     "name_mkm": "Innistrad",
     "releaseTimestamp": 1314828000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "b002eca624ca03cb76926b97721d28ea"
   },
   {
@@ -867,6 +1039,8 @@
     "name_mkm": "Invasion",
     "releaseTimestamp": 967759200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "a96b2e081d0ae241f78cac5f6859026d"
   },
   {
@@ -877,6 +1051,8 @@
     "name_mkm": "Ixalan",
     "releaseTimestamp": 1504238400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6e8a1fde951b568218d1b64fc7575104"
   },
   {
@@ -887,6 +1063,8 @@
     "name_mkm": "Journey into Nyx",
     "releaseTimestamp": 1398895200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "cbe1a0cf20cb69f438832551d4990020"
   },
   {
@@ -897,6 +1075,8 @@
     "name_mkm": "Judgment",
     "releaseTimestamp": 1020204000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "bfb5471c7619039d5effd7e643766445"
   },
   {
@@ -907,6 +1087,8 @@
     "name_mkm": "Kaladesh",
     "releaseTimestamp": 1472680800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c7b5602941b0e94c0b9ef263f4f63f2b"
   },
   {
@@ -917,6 +1099,8 @@
     "name_mkm": "Khans of Tarkir",
     "releaseTimestamp": 1409522400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "cc08aca5060dbb6d5336286dbc1c0930"
   },
   {
@@ -927,6 +1111,8 @@
     "name_mkm": "Legends",
     "releaseTimestamp": 770421600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "234d8cb9475759ff60b8971c05bdba30"
   },
   {
@@ -937,6 +1123,8 @@
     "name_mkm": "Legions",
     "releaseTimestamp": 1041375600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "333d9975b58aa8461afcbbc1804c6c3b"
   },
   {
@@ -947,6 +1135,8 @@
     "name_mkm": "Alpha",
     "releaseTimestamp": 744156000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2344361c5f37e076ce29e6fa7fc2690e"
   },
   {
@@ -957,6 +1147,8 @@
     "name_mkm": "Beta",
     "releaseTimestamp": 749430000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "628a2603abdb5c2cb88b6f2350545e51"
   },
   {
@@ -967,6 +1159,8 @@
     "name_mkm": "Lorwyn",
     "releaseTimestamp": 1188597600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0b51b3e6ad823f582246a210c754a831"
   },
   {
@@ -977,6 +1171,8 @@
     "name_mkm": "Magic 2010",
     "releaseTimestamp": 1246399200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0820ae3cb6fdfbef3543f2633652a5b5"
   },
   {
@@ -987,6 +1183,8 @@
     "name_mkm": "Magic 2011",
     "releaseTimestamp": 1277935200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "bb1a2a9a03aeffd5167cc2049280df70"
   },
   {
@@ -997,6 +1195,8 @@
     "name_mkm": "Magic 2012",
     "releaseTimestamp": 1309471200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4581eb502a75db7c8fa91ea90bed3e4f"
   },
   {
@@ -1007,6 +1207,8 @@
     "name_mkm": "Magic 2013",
     "releaseTimestamp": 1341093600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d1d10c8ce26615219b52513daa21b84f"
   },
   {
@@ -1017,6 +1219,8 @@
     "name_mkm": "Magic 2014",
     "releaseTimestamp": 1372629600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "253b4df2cc2e37742bee066f4d8701c8"
   },
   {
@@ -1027,6 +1231,8 @@
     "name_mkm": "Magic 2015",
     "releaseTimestamp": 1404165600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6d16070b8dc872131b1981a3921082f6"
   },
   {
@@ -1037,6 +1243,8 @@
     "name_mkm": "Magic Origins",
     "releaseTimestamp": 1435701600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8b7b90e4bcde0d5b9eb75aabb4c9dbb6"
   },
   {
@@ -1047,6 +1255,8 @@
     "name_mkm": "Commander",
     "releaseTimestamp": 1306879200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8edfe81c0a9db57bae71f2994408d5c2"
   },
   {
@@ -1057,6 +1267,8 @@
     "name_mkm": "Conspiracy",
     "releaseTimestamp": 1401595200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0e0665f5fe662f574f54b3ddf4b6a3eb"
   },
   {
@@ -1067,6 +1279,8 @@
     "name_mkm": "Masterpiece Series: Amonkhet Invocations",
     "releaseTimestamp": 1491019200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "1d74ca622162daa0138e4842c8a3ab18"
   },
   {
@@ -1077,6 +1291,8 @@
     "name_mkm": "Masterpiece Series: Kaladesh Inventions",
     "releaseTimestamp": 1472680800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f4b9acb65a0f218361bfff955478143c"
   },
   {
@@ -1087,47 +1303,57 @@
     "name_mkm": "Masters 25",
     "releaseTimestamp": 1519880400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4ffe2901368c3d9faf645c70257f1243"
   },
   {
     "name_gatherer": "Masters Edition",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "  ",
-    "releaseTimestamp": 1188597600,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "MED",
+    "code_mtgi": "MED",
+    "name_tcgp": "Masters Edition",
+    "name_mkm": "Masters Edition",
+    "releaseTimestamp": 1188619200,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "9c17e63a114910c99a35fe17b93838b0"
   },
   {
     "name_gatherer": "Masters Edition II",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "",
-    "releaseTimestamp": 1220220000,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "ME2",
+    "code_mtgi": "ME2",
+    "name_tcgp": "Masters Edition II",
+    "name_mkm": "Masters Edition II",
+    "releaseTimestamp": 1220241600,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "caf5669703e98d4ea8a71f2ada35dceb"
   },
   {
     "name_gatherer": "Masters Edition III",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "",
-    "releaseTimestamp": 1251756000,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "ME3",
+    "code_mtgi": "ME3",
+    "name_tcgp": "Masters Edition III",
+    "name_mkm": "Masters Edition III",
+    "releaseTimestamp": 1251777600,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "cd703582f0ae84cc5d3fbaa4224a827d"
   },
   {
     "name_gatherer": "Masters Edition IV",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "",
-    "releaseTimestamp": 1293836400,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "ME4",
+    "code_mtgi": "ME4",
+    "name_tcgp": "Masters Edition IV",
+    "name_mkm": "Masters Edition IV",
+    "releaseTimestamp": 1293858000,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "abdc0261a8cd8371880485963fbabde9"
   },
   {
     "name_gatherer": "Mercadian Masques",
@@ -1137,6 +1363,8 @@
     "name_mkm": "Mercadian Masques",
     "releaseTimestamp": 936136800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c2a9abfcf607fe55aa64de51ddd67883"
   },
   {
@@ -1147,6 +1375,8 @@
     "name_mkm": "Mirage",
     "releaseTimestamp": 844120800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "32f55eb31e825d49c413d8ac464d4ac2"
   },
   {
@@ -1157,6 +1387,8 @@
     "name_mkm": "Mirrodin",
     "releaseTimestamp": 1062367200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4828aeb7898021fa163d7ebfe441b109"
   },
   {
@@ -1167,6 +1399,8 @@
     "name_mkm": "Mirrodin Besieged",
     "releaseTimestamp": 1293836400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "eaf85f7877bcb89b866c04200de7d7f9"
   },
   {
@@ -1177,6 +1411,8 @@
     "name_mkm": "Modern Event Deck 2014",
     "releaseTimestamp": 1398895200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e385b9598b69832ead228a771d188a3e"
   },
   {
@@ -1187,6 +1423,8 @@
     "name_mkm": "Modern Masters",
     "releaseTimestamp": 1370037600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "37eab329f3161e553f9ad34c89f8b6f1"
   },
   {
@@ -1197,6 +1435,8 @@
     "name_mkm": "Modern Masters 2015",
     "releaseTimestamp": 1430431200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "5c286c83347749fe2b80b0c568dfa6c5"
   },
   {
@@ -1207,6 +1447,8 @@
     "name_mkm": "Modern Masters 2017",
     "releaseTimestamp": 1488322800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f08e9db22f16a567316d8cf3246b58ad"
   },
   {
@@ -1217,6 +1459,8 @@
     "name_mkm": "Morningtide",
     "releaseTimestamp": 1199142000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "526731fc6f7f0b23ae3814ff7e8c7201"
   },
   {
@@ -1227,6 +1471,8 @@
     "name_mkm": "Nemesis",
     "releaseTimestamp": 949359600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "143cc6c2252090e6cd0aa4fbcebb29cf"
   },
   {
@@ -1237,6 +1483,8 @@
     "name_mkm": "New Phyrexia",
     "releaseTimestamp": 1304200800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "01d5bb7fd3d14c463d42ceafaceb9395"
   },
   {
@@ -1247,6 +1495,8 @@
     "name_mkm": "Ninth Edition",
     "releaseTimestamp": 1120168800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "7a5c56d855020806c9cb2899686d9bf8"
   },
   {
@@ -1257,6 +1507,8 @@
     "name_mkm": "Oath of the Gatewatch",
     "releaseTimestamp": 1451602800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d1e71f3068acf0e53603d80cd8303555"
   },
   {
@@ -1267,6 +1519,8 @@
     "name_mkm": "Odyssey",
     "releaseTimestamp": 999295200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "25e7d6f353a663acc99881adc5b5a27e"
   },
   {
@@ -1277,6 +1531,8 @@
     "name_mkm": "Onslaught",
     "releaseTimestamp": 1030831200,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "b7cbff6aa08b1cdb79328b148944800f"
   },
   {
@@ -1287,6 +1543,8 @@
     "name_mkm": "Planar Chaos",
     "releaseTimestamp": 1167606000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "e1a5c0ab3a7fb43e59bd72561f0c8b30"
   },
   {
@@ -1297,6 +1555,8 @@
     "name_mkm": "Planechase",
     "releaseTimestamp": 1251756000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6e965aca1455c05aa28fbe207f46098a"
   },
   {
@@ -1307,6 +1567,8 @@
     "name_mkm": "Planechase 2012",
     "releaseTimestamp": 1338501600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "92a95a706c640cc9af0022b56404e51c"
   },
   {
@@ -1317,6 +1579,8 @@
     "name_mkm": "Planechase Anthology",
     "releaseTimestamp": 1477954800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "cd5b6503d3d0e489ad31c2ff2214aa41"
   },
   {
@@ -1327,6 +1591,8 @@
     "name_mkm": "Planeshift",
     "releaseTimestamp": 978303600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "93fc515932ac4196b345f89def7b4988"
   },
   {
@@ -1337,6 +1603,8 @@
     "name_mkm": "Portal",
     "releaseTimestamp": 865116000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "cc8af38c6e20bc56ab03bb8ed911afba"
   },
   {
@@ -1347,6 +1615,8 @@
     "name_mkm": "Portal Second Age",
     "releaseTimestamp": 896652000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "f5180e8305137e4c907943b03f5ce1aa"
   },
   {
@@ -1357,6 +1627,8 @@
     "name_mkm": "Portal Three Kingdoms",
     "releaseTimestamp": 928188000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2adcd1ab113473f65e40c595c031ff9d"
   },
   {
@@ -1367,6 +1639,8 @@
     "name_mkm": "Premium Deck Series: Fire & Lightning",
     "releaseTimestamp": 1288566000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8bfcf64f02ea5e44712c2fef2c214ca3"
   },
   {
@@ -1377,6 +1651,8 @@
     "name_mkm": "Premium Deck Series: Graveborn",
     "releaseTimestamp": 1320102000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "a381c02a09ed725a549b196b0ac8d406"
   },
   {
@@ -1387,6 +1663,8 @@
     "name_mkm": "Premium Deck Series: Slivers",
     "releaseTimestamp": 1257030000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0131b913d30e808373577db2ed7af64f"
   },
   {
@@ -1397,6 +1675,8 @@
     "name_mkm": "Harper Prism Promos",
     "releaseTimestamp": 738885600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "aa49bc73651c44dc42697e41b2ceced4"
   },
   {
@@ -1407,6 +1687,8 @@
     "name_mkm": "Prophecy",
     "releaseTimestamp": 957132000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "11f7f7f68690d283bdeee8c3e45d76d0"
   },
   {
@@ -1417,6 +1699,8 @@
     "name_mkm": "Ravnica: City of Guilds",
     "releaseTimestamp": 1125525600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "bab92412a24a845d6d25f9e447f2ad24"
   },
   {
@@ -1427,6 +1711,8 @@
     "name_mkm": "Return to Ravnica",
     "releaseTimestamp": 1349042400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d5c2e781c847baac3e75890260e530ae"
   },
   {
@@ -1437,6 +1723,8 @@
     "name_mkm": "Revised",
     "releaseTimestamp": 765151200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "57641e728ba2e6f27b4959097dd2322b"
   },
   {
@@ -1447,6 +1735,8 @@
     "name_mkm": "Rise of the Eldrazi",
     "releaseTimestamp": 1270072800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "86aa1033e16535c9ea6d565081a3874d"
   },
   {
@@ -1457,6 +1747,8 @@
     "name_mkm": "Rivals of Ixalan",
     "releaseTimestamp": 1514782800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "9e5787639019f1fe7bc55ff1ff4199fc"
   },
   {
@@ -1467,6 +1759,8 @@
     "name_mkm": "Saviors of Kamigawa",
     "releaseTimestamp": 1114898400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fa5056819056f42a512a8c8588035448"
   },
   {
@@ -1477,6 +1771,8 @@
     "name_mkm": "Scars of Mirrodin",
     "releaseTimestamp": 1283292000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "29879ebb5b8e3a973fbbf1861d8bcbe5"
   },
   {
@@ -1487,6 +1783,8 @@
     "name_mkm": "Scourge",
     "releaseTimestamp": 1051740000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "af52784ea6aee580515479ab2a171ee5"
   },
   {
@@ -1497,6 +1795,8 @@
     "name_mkm": "Seventh Edition",
     "releaseTimestamp": 986076000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "7517003d18aa7997b7220087f41a919d"
   },
   {
@@ -1507,6 +1807,8 @@
     "name_mkm": "Shadowmoor",
     "releaseTimestamp": 1207000800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "9862e3ee44e081ed5c781d8ae1668b04"
   },
   {
@@ -1517,6 +1819,8 @@
     "name_mkm": "Shadows over Innistrad",
     "releaseTimestamp": 1456786800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "63c81e675e2adb906dbc109a7e00e07b"
   },
   {
@@ -1527,6 +1831,8 @@
     "name_mkm": "Shards of Alara",
     "releaseTimestamp": 1220220000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8e0c13c2ec02385e9200fd8befcf9a16"
   },
   {
@@ -1537,6 +1843,8 @@
     "name_mkm": "Starter 1999",
     "releaseTimestamp": 930780000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fbf0b4205592885f4948c77509ae8419"
   },
   {
@@ -1547,6 +1855,8 @@
     "name_mkm": "Starter 2000",
     "releaseTimestamp": 962402400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c1eb43c6db04bed4214506c9b2c8a1ca"
   },
   {
@@ -1557,6 +1867,8 @@
     "name_mkm": "Stronghold",
     "releaseTimestamp": 886287600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fa0969472665b1f32b62a2e72887b98f"
   },
   {
@@ -1567,17 +1879,21 @@
     "name_mkm": "Tempest",
     "releaseTimestamp": 875656800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "98778e924c01b40538805f1fdae7d5b2"
   },
   {
     "name_gatherer": "Tempest Remastered",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "",
-    "releaseTimestamp": 0,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "TPR",
+    "code_mtgi": "TPR",
+    "name_tcgp": "Tempest Remastered",
+    "name_mkm": "Tempest Remastered",
+    "releaseTimestamp": 1493611200,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "f39500a3ea6141341f9fc85abafa9a47"
   },
   {
     "name_gatherer": "Tenth Edition",
@@ -1587,6 +1903,8 @@
     "name_mkm": "Tenth Edition",
     "releaseTimestamp": 1183240800,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d29f3d538c35e3aafd4344e61904e4da"
   },
   {
@@ -1597,6 +1915,8 @@
     "name_mkm": "The Dark",
     "releaseTimestamp": 775692000,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "4c48c42ea7059369ad93e87f2fc0f886"
   },
   {
@@ -1607,6 +1927,8 @@
     "name_mkm": "Theros",
     "releaseTimestamp": 1377986400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "1b796624fff4a94c11e81cde620d834a"
   },
   {
@@ -1617,6 +1939,8 @@
     "name_mkm": "Time Spiral",
     "releaseTimestamp": 1157061600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "086dc3cd222be6be53a79ff05862808f"
   },
   {
@@ -1627,6 +1951,8 @@
     "name_mkm": "Time Spiral",
     "releaseTimestamp": 1157061600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8f6559037f33a8a63bac4a6333482a6a"
   },
   {
@@ -1637,6 +1963,8 @@
     "name_mkm": "Torment",
     "releaseTimestamp": 1009839600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "8920c7d61f5340531b04661d61c83aa9"
   },
   {
@@ -1647,6 +1975,8 @@
     "name_mkm": "Ugin's Fate Promos",
     "releaseTimestamp": 1417388400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "72f6e62f9f1a57b4c0cd0a4ba8059334"
   },
   {
@@ -1657,6 +1987,8 @@
     "name_mkm": "Unglued",
     "releaseTimestamp": 901922400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2b9dcbace865aaa5dd7d3102cd647735"
   },
   {
@@ -1667,6 +1999,8 @@
     "name_mkm": "Unhinged",
     "releaseTimestamp": 1099263600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "bb6f9e16269480a7f5013313c22ef13e"
   },
   {
@@ -1677,6 +2011,8 @@
     "name_mkm": "Unlimited",
     "releaseTimestamp": 754700400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "fe9cc1b9090d2dba2618799b3db11d94"
   },
   {
@@ -1687,6 +2023,8 @@
     "name_mkm": "Unstable",
     "releaseTimestamp": 1512104400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "c4dafef7e2cd87fe577d0f34a901be35"
   },
   {
@@ -1697,6 +2035,8 @@
     "name_mkm": "Urza's Destiny",
     "releaseTimestamp": 925509600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "d8fafba5a7f57161eaaf8d825af50a16"
   },
   {
@@ -1707,6 +2047,8 @@
     "name_mkm": "Urza's Legacy",
     "releaseTimestamp": 917823600,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "7165d6297653fa5ccece6410fd51055e"
   },
   {
@@ -1717,6 +2059,8 @@
     "name_mkm": "Urza's Saga",
     "releaseTimestamp": 907192800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2e44c998c7af737798e59a429562e207"
   },
   {
@@ -1727,17 +2071,21 @@
     "name_mkm": "Vanguard",
     "releaseTimestamp": 741477600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "6b30c877a45c68074b4b145da7543bdf"
   },
   {
     "name_gatherer": "Vintage Masters",
-    "code_gatherer": "",
-    "code_mtgi": "",
-    "name_tcgp": "",
-    "name_mkm": "",
-    "releaseTimestamp": 0,
-    "canBeFoil": false,
-    "digest": ""
+    "code_gatherer": "VMA",
+    "code_mtgi": "VMA",
+    "name_tcgp": "Vintage Masters",
+    "name_mkm": "Vintage Masters",
+    "releaseTimestamp": 1401595200,
+    "canBeFoil": true,
+    "isOnlineOnly": true,
+    "borderColor": "Black",
+    "digest": "84743ba7e38f0955d3bba3757eef905e"
   },
   {
     "name_gatherer": "Visions",
@@ -1747,6 +2095,8 @@
     "name_mkm": "Visions",
     "releaseTimestamp": 854751600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "210f078bcae65fb657d9c6eb4b70bb61"
   },
   {
@@ -1757,6 +2107,8 @@
     "name_mkm": "Weatherlight",
     "releaseTimestamp": 862437600,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "5fbd20d5d8f4917e4a1623208ef0c407"
   },
   {
@@ -1767,6 +2119,8 @@
     "name_mkm": "Welcome Deck 2016",
     "releaseTimestamp": 1454302800,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "567dc05c50facbb8f0b3c499a00f3c8d"
   },
   {
@@ -1777,6 +2131,8 @@
     "name_mkm": "Welcome Deck 2017",
     "releaseTimestamp": 1491019200,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "2ca6c3079d842e1042675be9ef26f9c2"
   },
   {
@@ -1787,6 +2143,8 @@
     "name_mkm": "Worldwake",
     "releaseTimestamp": 1262300400,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "848382eef1b6052d34fbf1337bd07535"
   },
   {
@@ -1797,6 +2155,8 @@
     "name_mkm": "Zendikar",
     "releaseTimestamp": 1251756000,
     "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "161d1225edec50e94dc5b920c76f3a28"
   },
   {
@@ -1807,6 +2167,8 @@
     "name_mkm": "Zendikar Expeditions",
     "releaseTimestamp": 1441058400,
     "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "",
     "digest": "0c576d2c5db0577cadf073b0877c1f6a"
   }
 ]

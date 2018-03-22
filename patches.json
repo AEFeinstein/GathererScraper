@@ -1,5 +1,5 @@
 {
-  "timestamp": 1520427858,
+  "timestamp": 1521735087,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -656,6 +656,30 @@
       "digest": "4ffe2901368c3d9faf645c70257f1243"
     },
     {
+      "name": "Masters Edition",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MED.json.gzip",
+      "code": "MED",
+      "digest": "9c17e63a114910c99a35fe17b93838b0"
+    },
+    {
+      "name": "Masters Edition II",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME2.json.gzip",
+      "code": "ME2",
+      "digest": "caf5669703e98d4ea8a71f2ada35dceb"
+    },
+    {
+      "name": "Masters Edition III",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME3.json.gzip",
+      "code": "ME3",
+      "digest": "cd703582f0ae84cc5d3fbaa4224a827d"
+    },
+    {
+      "name": "Masters Edition IV",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME4.json.gzip",
+      "code": "ME4",
+      "digest": "abdc0261a8cd8371880485963fbabde9"
+    },
+    {
       "name": "Mercadian Masques",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM.json.gzip",
       "code": "MM",
@@ -920,6 +944,12 @@
       "digest": "98778e924c01b40538805f1fdae7d5b2"
     },
     {
+      "name": "Tempest Remastered",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TPR.json.gzip",
+      "code": "TPR",
+      "digest": "f39500a3ea6141341f9fc85abafa9a47"
+    },
+    {
       "name": "Tenth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/10E.json.gzip",
       "code": "10E",
@@ -1008,6 +1038,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VNG.json.gzip",
       "code": "VNG",
       "digest": "6b30c877a45c68074b4b145da7543bdf"
+    },
+    {
+      "name": "Vintage Masters",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VMA.json.gzip",
+      "code": "VMA",
+      "digest": "84743ba7e38f0955d3bba3757eef905e"
     },
     {
       "name": "Visions",
