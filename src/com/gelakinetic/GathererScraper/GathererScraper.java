@@ -179,15 +179,18 @@ public class GathererScraper {
                     /* Adjust the number, resort the collection, step back the array
                      * This should properly number more than two of the same number
                      */
+                    boolean changed = false;
                     try {
                         switch (scrapedCards.get(i + 1).mExpansion) {
                             case "ZEN":
                                 /* Increment the number in the string. MTGI's numbers for ZEN basics are weird */
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 20) + "";
+                                changed = true;
                                 break;
                             case "SVT":
                                 /* Increment the number in the string. MTGI's numbers for SVT basics are weird */
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 43) + "";
+                                changed = true;
                                 break;
                             default:
                                 /* Do nothing. Allow other cards to have the same number */
@@ -199,10 +202,13 @@ public class GathererScraper {
                                 scrapedCards.get(i + 1).mNumber.length() - 1);
                         scrapedCards.get(i + 1).mNumber = scrapedCards.get(i + 1).mNumber
                                 .substring(0, scrapedCards.get(i + 1).mNumber.length() - 1) + (char) (letter + 1);
+                        changed = true;
                     }
 
-                    Collections.sort(scrapedCards);
-                    i--;
+                    if(changed) {
+                        Collections.sort(scrapedCards);
+                        i--;
+                    }
                 } catch (Exception e) {
                     System.out.println(String.format("Muy Problemo [%3s] %s: %s",
                             scrapedCards.get(i).mExpansion,
