@@ -98,16 +98,25 @@ public class Card implements Comparable<Card> {
         /* Sort by collector's number */
         if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
 
-            int this_num = this.getNumberInteger();
-            int other_num = other.getNumberInteger();
-            if (this_num > other_num) {
-                return 1;
-            } else if (this_num < other_num) {
-                return -1;
-            } else {
-                char thisChar = this.getNumberChar();
-                char otherChar = other.getNumberChar();
-                return Character.compare(thisChar, otherChar);
+            // Try comparing by integer number
+            int switchOn = Integer.compare(this.getNumberInteger(), other.getNumberInteger());
+            switch(switchOn) {
+                case 0: {
+                    // If they match, try comparing by letter after the number
+                    switchOn = Character.compare(this.getNumberChar(), other.getNumberChar());
+                    switch(switchOn) {
+                        case 0: {
+                            // If they match, try comparing by name
+                            return this.mName.compareTo(other.mName);
+                        }
+                        default: {
+                            return switchOn;
+                        }
+                    }
+                }
+                default: {
+                    return switchOn;
+                }
             }
         }
 
@@ -126,14 +135,17 @@ public class Card implements Comparable<Card> {
          * Or if that doesn't exist, sort by color order. Weird for
          * magiccards.info
          */
-        if (this.getNumFromColor() > other.getNumFromColor()) {
-            return 1;
-        } else if (this.getNumFromColor() < other.getNumFromColor()) {
-            return -1;
+        int switchOn = Integer.compare(this.getNumFromColor(), other.getNumFromColor());
+        switch (switchOn) {
+            case 0: {
+                // They match, try comparing by name
+                return this.mName.compareTo(other.mName);
+            }
+            default: {
+                // Num from color doesn't match, return it
+                return switchOn;
+            }
         }
-
-        /* If the color matches, sort by name */
-        return this.mName.compareTo(other.mName);
     }
 
     /**

@@ -166,7 +166,12 @@ public class GathererScraper {
         }
 
         /* Attempt to renumber consecutive cards with alt-art, but the same artist */
-        Collections.sort(scrapedCards);
+        try {
+            Collections.sort(scrapedCards);
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            System.err.println(exp.mName_gatherer + " cant sort for shit");
+        }
         for (int i = 0; i < scrapedCards.size() - 1; i++) {
             if (scrapedCards.get(i).mNumber.equals(scrapedCards.get(i + 1).mNumber) &&
                     scrapedCards.get(i).mName.equals(scrapedCards.get(i + 1).mName)) {
@@ -185,8 +190,7 @@ public class GathererScraper {
                                 scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 43) + "";
                                 break;
                             default:
-                                /* Increment the number in the string */
-                                scrapedCards.get(i + 1).mNumber = (Integer.parseInt(scrapedCards.get(i + 1).mNumber) + 1) + "";
+                                /* Do nothing. Allow other cards to have the same number */
                                 break;
                         }
                     } catch (NumberFormatException e) {
@@ -334,11 +338,8 @@ public class GathererScraper {
             }
         }
 
-//        System.out.println(cardUrl);
-
         for (Document cardPage : cardPages) {
 
-//            System.out.println("\t" + cardPage.baseUri());
             int mId = Integer.parseInt(cardPage.baseUri().substring(cardPage.baseUri().lastIndexOf("=") + 1));
 
             /* Put all cards from this page into this ArrayList */
@@ -350,7 +351,11 @@ public class GathererScraper {
             /* For all cards on this page, grab their information */
             for (String name : ids.keySet()) {
 
-//              System.out.println("\t\t" + name);
+                /* Sea Eagle was never printed in 9E, but Gatherer returns it... */
+                if("Sea Eagle".equals(name) && "9E".equals(exp.mCode_gatherer)) {
+                    /* Return the empty set */
+                    return scrapedCardsAllPages;
+                }
 
                 CardGS card;
                 if (cardPages.size() > 1) {
@@ -443,7 +448,7 @@ public class GathererScraper {
                 } else if (card.mExpansion.equals("TSB")) {
                     /* They say Special, I say Timeshifted */
                     card.mRarity = 'T';
-                } else if (rarity.equalsIgnoreCase("Land")) {
+                } else if (rarity.toLowerCase().contains("land")) {
                     /* Basic lands aren't technically common, but the app doesn't
                      * understand "Land"
                      */
@@ -453,6 +458,20 @@ public class GathererScraper {
                     card.mRarity = 'R';
                 } else {
                     card.mRarity = rarity.charAt(0);
+                }
+                
+                switch (card.mRarity) {
+                    case 'C':
+                    case 'U':
+                    case 'R':
+                    case 'M':
+                    case 'T': {
+                        break;
+                    }
+                    default: {
+                        System.err.println(
+                                "Unknown Rarity '" + card.mRarity + "' for [" + exp.mCode_gatherer + "] " + card.mName);
+                    }
                 }
     
                 /* artist */
