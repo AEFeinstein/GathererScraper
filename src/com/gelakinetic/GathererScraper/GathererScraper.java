@@ -456,6 +456,9 @@ public class GathererScraper {
                 } else if (rarity.equalsIgnoreCase("Special")) {
                     /* Planechase, Promos, Vanguards */
                     card.mRarity = 'R';
+                } else if (rarity.equalsIgnoreCase("Bonus")) {
+                    /* Vintage Masters P9 cards */
+                    card.mRarity = 'M';
                 } else {
                     card.mRarity = rarity.charAt(0);
                 }
