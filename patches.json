@@ -1,5 +1,5 @@
 {
-  "timestamp": 1520427858,
+  "timestamp": 1522291354,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -258,6 +258,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVG.json.gzip",
       "code": "EVG",
       "digest": "2eb8ff2db9b637b32b82f1e37dd1c883"
+    },
+    {
+      "name": "Duel Decks: Elves vs. Inventors",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDU.json.gzip",
+      "code": "DDU",
+      "digest": "c0c2d41461256a7570dfe93ec30418e2"
     },
     {
       "name": "Duel Decks: Garruk vs. Liliana",
