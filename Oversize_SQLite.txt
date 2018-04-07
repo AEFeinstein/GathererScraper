@@ -1,0 +1,10 @@
+Run this query to find all oversize, conspiracy, or ante cards
+
+select distinct suggest_text_1 from cards where
+	(cardtext LIKE '%not playing for ante%') or
+	(supertype = 'Scheme') or
+	(supertype = 'Ongoing Scheme') or
+	(supertype = 'Plane') or
+	(supertype = 'Phenomenon') or
+	(supertype = 'Vanguard') or
+	(supertype = 'Conspiracy')
