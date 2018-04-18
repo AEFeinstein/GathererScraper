@@ -533,21 +533,11 @@
     "code_mtgi": "DDU",
     "name_tcgp": "Duel Decks: Elves vs. Inventors",
     "name_mkm": "Duel Decks: Elves vs. Inventors",
-    "releaseTimestamp": 1522555200,
+    "releaseTimestamp": 1519880400,
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1661d669385af8f3a5719dbf8e24a502"
-  },
-  {
-    "name_gatherer": "Duel Decks: Elves vs. Inventors",
-    "code_gatherer": "DDU",
-    "code_mtgi": "DDU",
-    "name_tcgp": "Duel Decks: Elves vs. Inventors",
-    "name_mkm": "Duel Decks: Elves vs. Inventors",
-    "releaseTimestamp": 1519880400,
-    "canBeFoil": false,
-    "digest": "c0c2d41461256a7570dfe93ec30418e2"
+    "digest": "19f7b67b102bc4bb200104ef80b49742"
   },
   {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
