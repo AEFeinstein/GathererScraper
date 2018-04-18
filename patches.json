@@ -272,6 +272,12 @@
       "digest": "1661d669385af8f3a5719dbf8e24a502"
     },
     {
+      "name": "Duel Decks: Elves vs. Inventors",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDU.json.gzip",
+      "code": "DDU",
+      "digest": "c0c2d41461256a7570dfe93ec30418e2"
+    },
+    {
       "name": "Duel Decks: Garruk vs. Liliana",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GVL.json.gzip",
       "code": "GVL",

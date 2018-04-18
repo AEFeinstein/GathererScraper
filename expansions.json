@@ -540,6 +540,16 @@
     "digest": "1661d669385af8f3a5719dbf8e24a502"
   },
   {
+    "name_gatherer": "Duel Decks: Elves vs. Inventors",
+    "code_gatherer": "DDU",
+    "code_mtgi": "DDU",
+    "name_tcgp": "Duel Decks: Elves vs. Inventors",
+    "name_mkm": "Duel Decks: Elves vs. Inventors",
+    "releaseTimestamp": 1519880400,
+    "canBeFoil": false,
+    "digest": "c0c2d41461256a7570dfe93ec30418e2"
+  },
+  {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
     "code_gatherer": "GVL",
     "code_mtgi": "GVL",
