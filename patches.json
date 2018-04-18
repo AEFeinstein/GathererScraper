@@ -1,191 +1,191 @@
 {
-  "timestamp": 1524022202,
+  "timestamp": 1524026075,
   "patches": [
     {
       "name": "Aether Revolt",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AER.json.gzip",
       "code": "AER",
-      "digest": "ab9b8c63553afc07aa848506629fa745"
+      "digest": "2bd398185432da4c3b69d88e36017a6b"
     },
     {
       "name": "Alara Reborn",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARB.json.gzip",
       "code": "ARB",
-      "digest": "19036640ef48143afcdd8dbcc6af1814"
+      "digest": "f6b834db86992001cd48358ec4b7733b"
     },
     {
       "name": "Alliances",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AL.json.gzip",
       "code": "AL",
-      "digest": "d276c77ad745c7f82a774abe4e8bd633"
+      "digest": "dc0b1d07dc7790a89a7b7c758a7cf110"
     },
     {
       "name": "Amonkhet",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AKH.json.gzip",
       "code": "AKH",
-      "digest": "c3452d6e7fec40a1559a4444c2cde7a6"
+      "digest": "594a4c97e609606e584b10fc7b9644bc"
     },
     {
       "name": "Antiquities",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AQ.json.gzip",
       "code": "AQ",
-      "digest": "24832438b3d3d2fd4655163974c88131"
+      "digest": "6744c360d63f80a26ac0a776fb022e5b"
     },
     {
       "name": "Apocalypse",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AP.json.gzip",
       "code": "AP",
-      "digest": "a72095c5755db8da51b6836ecc7ab240"
+      "digest": "d0eefbfd185fc7697fbb278ef17d264d"
     },
     {
       "name": "Arabian Nights",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AN.json.gzip",
       "code": "AN",
-      "digest": "7009559022fd5848638709894504783d"
+      "digest": "333b2b01732a0dad618bc9a58c7f822a"
     },
     {
       "name": "Archenemy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARC.json.gzip",
       "code": "ARC",
-      "digest": "6dd8c59ea4de97b3f0013501d8e14685"
+      "digest": "d7b5cc270afa4f1cd100e7429720cceb"
     },
     {
       "name": "Archenemy: Nicol Bolas",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/E01.json.gzip",
       "code": "E01",
-      "digest": "34b116a8b22e490f9bab491f4905c9ec"
+      "digest": "438ffc95b529aea2d11c21643c262475"
     },
     {
       "name": "Avacyn Restored",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AVR.json.gzip",
       "code": "AVR",
-      "digest": "dd19b1453f09a939da43ca82fd2e527f"
+      "digest": "15e70f88ce4aeeb632cbe43232272583"
     },
     {
       "name": "Battle Royale Box Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BR.json.gzip",
       "code": "BR",
-      "digest": "dfafb22642c381f0f1a02780eb049fb3"
+      "digest": "c90194500325eba93165f652fa340cc9"
     },
     {
       "name": "Battle for Zendikar",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BFZ.json.gzip",
       "code": "BFZ",
-      "digest": "d3e55cddc0702531723e0c402a1efbea"
+      "digest": "323a8f7a266d6948e309576d7b252994"
     },
     {
       "name": "Beatdown Box Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BD.json.gzip",
       "code": "BD",
-      "digest": "56ebf7b697f74298fa7755210a8fb2e1"
+      "digest": "351705517d42517c293ef02bde107874"
     },
     {
       "name": "Betrayers of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BOK.json.gzip",
       "code": "BOK",
-      "digest": "4fa9dd3e2fd9c01aec5e992075577d08"
+      "digest": "3d97a907293e29348152e2eff52aec22"
     },
     {
       "name": "Born of the Gods",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BNG.json.gzip",
       "code": "BNG",
-      "digest": "360d25b115f27be80a9dabae0f8eb7a7"
+      "digest": "1aa1260cf7442f7fda80c428be1162e9"
     },
     {
       "name": "Champions of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CHK.json.gzip",
       "code": "CHK",
-      "digest": "677c92379a6887d4e91c836406f4dc77"
+      "digest": "abf145a27c8737c3e1f51c4faefa4e9d"
     },
     {
       "name": "Chronicles",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CH.json.gzip",
       "code": "CH",
-      "digest": "1d998714e5e37d48599372fff9038529"
+      "digest": "c9204e8ab065a471f6e71080f2209932"
     },
     {
       "name": "Classic Sixth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/6E.json.gzip",
       "code": "6E",
-      "digest": "ab0d8aa2a487e8f74999d54064edb426"
+      "digest": "fc332fd3ab6d357ec41e29dbe9d86e5f"
     },
     {
       "name": "Coldsnap",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CS.json.gzip",
       "code": "CS",
-      "digest": "e94865019edbf056b7dba982998828c7"
+      "digest": "7543074508fb54880883d3bcbd629ea4"
     },
     {
       "name": "Commander 2013 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C13.json.gzip",
       "code": "C13",
-      "digest": "2f0452aa571c9c00bc377a2360e33d01"
+      "digest": "837fc488fd062011cc04c4b1f39f3b7d"
     },
     {
       "name": "Commander 2014",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C14.json.gzip",
       "code": "C14",
-      "digest": "936f440ab15e15a3db95b019b8a5634c"
+      "digest": "eead2054204d04f6bcd540e352be44e0"
     },
     {
       "name": "Commander 2015",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C15.json.gzip",
       "code": "C15",
-      "digest": "0b66b8699f242c38cb044441e05a23e9"
+      "digest": "1a3727e29a7609ae3cfa72aa0f9ce229"
     },
     {
       "name": "Commander 2016",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C16.json.gzip",
       "code": "C16",
-      "digest": "efed79cb3fd6e453f9a76481159206cb"
+      "digest": "46b2f15d361793884278e85ef1a5314e"
     },
     {
       "name": "Commander 2017",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C17.json.gzip",
       "code": "C17",
-      "digest": "1f8d6c55b01822fba83048903d629f6c"
+      "digest": "4fd181b11804ed0edfb63936d292e7be"
     },
     {
       "name": "Commander Anthology",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMA.json.gzip",
       "code": "CMA",
-      "digest": "288c9e1387aa1ad5d419b5447b258571"
+      "digest": "3422aa978934f3744c694901f2151434"
     },
     {
       "name": "Commander's Arsenal",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CRS.json.gzip",
       "code": "CRS",
-      "digest": "338b463f67aa9f995d0ec6671567baf4"
+      "digest": "6d5e0115af275a1a39798ff2c108e4d5"
     },
     {
       "name": "Conflux",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CFX.json.gzip",
       "code": "CFX",
-      "digest": "d4cce33691a7a1e47a772ef2486bfeb7"
+      "digest": "6cf4dac1d8f133132f4e31cafdd81f08"
     },
     {
       "name": "Conspiracy: Take the Crown",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CN2.json.gzip",
       "code": "CN2",
-      "digest": "926b56257a09b69b6c15fc1a3ed68c31"
+      "digest": "273996b6fa2d8b3b082171c86ea3eef0"
     },
     {
       "name": "Dark Ascension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DKA.json.gzip",
       "code": "DKA",
-      "digest": "feac00965d9beb8bedd13e1f47405fa9"
+      "digest": "249dcbdad9df71638bdf65dae96f1820"
     },
     {
       "name": "Darksteel",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DS.json.gzip",
       "code": "DS",
-      "digest": "e9adbfbb831fb138993b2de85481cc06"
+      "digest": "66d6412d6e43976c9ff9433ed4eedf17"
     },
     {
       "name": "Dissension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DIS.json.gzip",
       "code": "DIS",
-      "digest": "6ba881565a432c5c959eaae308f3812d"
+      "digest": "4ef5114dfd42b50be01ce3da5d43f47d"
     },
     {
       "name": "Dominaria",
@@ -197,73 +197,73 @@
       "name": "Dragon's Maze",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DGM.json.gzip",
       "code": "DGM",
-      "digest": "5f76b27bf9002add88efe9a353097fe6"
+      "digest": "b7d18a8b0935c705d930842a4a883d63"
     },
     {
       "name": "Dragons of Tarkir",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DTK.json.gzip",
       "code": "DTK",
-      "digest": "829114ff110a023b3b1a813f0fdb06e6"
+      "digest": "5ed8b9e4924c2f8d307a5ce317474b01"
     },
     {
       "name": "Duel Decks Anthology, Divine vs. Demonic",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3DVD.json.gzip",
       "code": "DD3DVD",
-      "digest": "4019e223d6d054d18b98eb110f8bc36d"
+      "digest": "b6a207e7c382a5b11efc566be48f5be8"
     },
     {
       "name": "Duel Decks Anthology, Elves vs. Goblins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3EVG.json.gzip",
       "code": "DD3EVG",
-      "digest": "e685e2b77df9c9471af8138d306aaac8"
+      "digest": "43fca4dd4287902463b146a9bcdd7b7e"
     },
     {
       "name": "Duel Decks Anthology, Garruk vs. Liliana",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3GVL.json.gzip",
       "code": "DD3GVL",
-      "digest": "fe0b8ea5f12ca09bb68b8af70c563460"
+      "digest": "12db5d4092e6cf4c903b4beee7e81bf0"
     },
     {
       "name": "Duel Decks Anthology, Jace vs. Chandra",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DD3JVC.json.gzip",
       "code": "DD3JVC",
-      "digest": "b99b8f86c712a8fb538dd058e36d1ffb"
+      "digest": "e0aa8750991e06b3ed2b35d36838f407"
     },
     {
       "name": "Duel Decks: Ajani vs. Nicol Bolas",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AVB.json.gzip",
       "code": "AVB",
-      "digest": "204c518b6364048250cfa54b21ae4ae7"
+      "digest": "8746c0cc5f02b97cb392cbacbbad65c5"
     },
     {
       "name": "Duel Decks: Blessed vs. Cursed",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDQ.json.gzip",
       "code": "DDQ",
-      "digest": "d58e7c0288494583a2a23a2d00c3b3d5"
+      "digest": "949b39144346d14d493a8ab2993f8622"
     },
     {
       "name": "Duel Decks: Divine vs. Demonic",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DVD.json.gzip",
       "code": "DVD",
-      "digest": "57d63201eb6cd6f83212c1796ccd8bc8"
+      "digest": "6b5e852c2c805205666f7c772b6ace43"
     },
     {
       "name": "Duel Decks: Elspeth vs. Kiora",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDO.json.gzip",
       "code": "DDO",
-      "digest": "e93d1ff68d7b64db85017acca76c063d"
+      "digest": "1b59aef2fce9b46ea7bde61467fb6346"
     },
     {
       "name": "Duel Decks: Elspeth vs. Tezzeret",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVT.json.gzip",
       "code": "EVT",
-      "digest": "753222c97d788a8515c2010c0a8e6dd6"
+      "digest": "626572d2f445fe398b7d7dd9a882d6fc"
     },
     {
       "name": "Duel Decks: Elves vs. Goblins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVG.json.gzip",
       "code": "EVG",
-      "digest": "20594b4d18099ec0abcfdc7cb348c667"
+      "digest": "d43eddd0da5f7affedf3de22d722ba6b"
     },
     {
       "name": "Duel Decks: Elves vs. Inventors",
@@ -275,829 +275,829 @@
       "name": "Duel Decks: Garruk vs. Liliana",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GVL.json.gzip",
       "code": "GVL",
-      "digest": "6a2f299e0899ec469c81bd3a0676f5e4"
+      "digest": "1c2ecb7ca45eb42fca7411dfd921b8b9"
     },
     {
       "name": "Duel Decks: Heroes vs. Monsters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HVM.json.gzip",
       "code": "HVM",
-      "digest": "b80b2790b97c1e65ae45d631b37d5104"
+      "digest": "46933e821cffb288ebd5820302f29cc4"
     },
     {
       "name": "Duel Decks: Izzet vs. Golgari",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IVG.json.gzip",
       "code": "IVG",
-      "digest": "ab2e0287a7559e54c792d840a6aed56b"
+      "digest": "c4cc87b1105e817fded86e1f66ee93df"
     },
     {
       "name": "Duel Decks: Jace vs. Chandra",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JVC.json.gzip",
       "code": "JVC",
-      "digest": "1a9fc0b48a08400fe98ace54518de2fc"
+      "digest": "3de41034e27f88ba10693e1b3262b60f"
     },
     {
       "name": "Duel Decks: Jace vs. Vraska",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDM.json.gzip",
       "code": "DDM",
-      "digest": "6b6667b60f6ffc8fd1dc1b1988d88bae"
+      "digest": "cc8c2a295dfd6c4fedea20c18ab8748d"
     },
     {
       "name": "Duel Decks: Knights vs. Dragons",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KVD.json.gzip",
       "code": "KVD",
-      "digest": "49a0ed4faf6dc72546d0da93f3ab0738"
+      "digest": "d0d4d2bc03b617ed58f1c62a91d31076"
     },
     {
       "name": "Duel Decks: Merfolk vs. Goblins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDT.json.gzip",
       "code": "DDT",
-      "digest": "0c049534489803647f0956f6972ce593"
+      "digest": "a515e6cb589ddd3f9406c2adc954d69c"
     },
     {
       "name": "Duel Decks: Mind vs. Might",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDS.json.gzip",
       "code": "DDS",
-      "digest": "a2de22342684cb5fc775939dfb0823b6"
+      "digest": "6991e0a14567e5b538f15d93c2eefa85"
     },
     {
       "name": "Duel Decks: Nissa vs. Ob Nixilis",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDR.json.gzip",
       "code": "DDR",
-      "digest": "45a34fdc55ed6cf8f9a2281790df462c"
+      "digest": "5882f38810f2914f835a282cb6fce834"
     },
     {
       "name": "Duel Decks: Phyrexia vs. the Coalition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PVC.json.gzip",
       "code": "PVC",
-      "digest": "9c86f9a06592139ef1b40e3df972c3e6"
+      "digest": "eb57a71298d1746f5c8ca49d833db898"
     },
     {
       "name": "Duel Decks: Sorin vs. Tibalt",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SVT.json.gzip",
       "code": "SVT",
-      "digest": "59959c4908d9596a96fee1b5071831e0"
+      "digest": "c34b8e850f12473b438d007345aca8e5"
     },
     {
       "name": "Duel Decks: Speed vs. Cunning",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDN.json.gzip",
       "code": "DDN",
-      "digest": "1d888f1208bd8cc4a95107f4bd063553"
+      "digest": "b30f2d74999342484267c0a647ad32c4"
     },
     {
       "name": "Duel Decks: Venser vs. Koth",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VVK.json.gzip",
       "code": "VVK",
-      "digest": "e304af01e51f8a7199e12d056350e424"
+      "digest": "07c79b9b2c44c6a741ccb5dda9cebdf7"
     },
     {
       "name": "Duel Decks: Zendikar vs. Eldrazi",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDP.json.gzip",
       "code": "DDP",
-      "digest": "d9fa7446a32a15b31cfe289ada2f0aa5"
+      "digest": "74d16cad05ab1c9f047cc401c93d45c3"
     },
     {
       "name": "Eighth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/8E.json.gzip",
       "code": "8E",
-      "digest": "e385de9635ebaf63c00d309ca5a620ca"
+      "digest": "679a3d2c93f07320175d4f2ae13d58f2"
     },
     {
       "name": "Eldritch Moon",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EMN.json.gzip",
       "code": "EMN",
-      "digest": "a0c65a6e7dd0d32a6ffbf0dd3fa254ae"
+      "digest": "b005063d6cf9efb28f89619b87baa8d3"
     },
     {
       "name": "Eternal Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EMA.json.gzip",
       "code": "EMA",
-      "digest": "87b361faba09b635d6673a97404418e0"
+      "digest": "50d17c727bd94419dfbc876b8d220169"
     },
     {
       "name": "Eventide",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVE.json.gzip",
       "code": "EVE",
-      "digest": "c164168f3e3cd6e043656daddb9474c3"
+      "digest": "85be90fb29b9983f43e9b912fb19e727"
     },
     {
       "name": "Exodus",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EX.json.gzip",
       "code": "EX",
-      "digest": "fb58badf00fea67ecb258270220499c5"
+      "digest": "64b0031981b3dcf50aa563433c36b328"
     },
     {
       "name": "Explorers of Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/E02.json.gzip",
       "code": "E02",
-      "digest": "e3cdf2196b940f97b979f393b40c3ca5"
+      "digest": "abd8fde9bb92630a37df443af3eb1313"
     },
     {
       "name": "Fallen Empires",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FE.json.gzip",
       "code": "FE",
-      "digest": "ce0450680c2526c718ebeabf4903669d"
+      "digest": "61d932fa4cbb3c9e95894c80b87b083d"
     },
     {
       "name": "Fate Reforged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FRF.json.gzip",
       "code": "FRF",
-      "digest": "3ac194ec42643bcf10a0e05435698d62"
+      "digest": "9a438a356b5c45149014e8b0c75f73ba"
     },
     {
       "name": "Fifth Dawn",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FD.json.gzip",
       "code": "FD",
-      "digest": "9ab6ac78cfb731297d08aa785cbdefb0"
+      "digest": "d5be89f2bd95513dda716dccac7f4e50"
     },
     {
       "name": "Fifth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/5E.json.gzip",
       "code": "5E",
-      "digest": "e77228c531d9ddb4c39776d603176e72"
+      "digest": "c78a659abe25a3c624127bac31616143"
     },
     {
       "name": "Fourth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/4E.json.gzip",
       "code": "4E",
-      "digest": "9882bb2158d8c64f7d66ded5bf331ea6"
+      "digest": "a1b8588f443c0417abe326a75798b5af"
     },
     {
       "name": "From the Vault: Angels",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V15.json.gzip",
       "code": "V15",
-      "digest": "29731a2a13d4ed3df76d9e31939ad845"
+      "digest": "48c2c9b72504cf215927c5de4efe9e33"
     },
     {
       "name": "From the Vault: Annihilation (2014)",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V14.json.gzip",
       "code": "V14",
-      "digest": "c04f144a95d94202965d9c3c2f702581"
+      "digest": "beb3112fa6f48303e64fe9bf22dc7da5"
     },
     {
       "name": "From the Vault: Dragons",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DRG.json.gzip",
       "code": "DRG",
-      "digest": "b8e67e427440178fa74f0e198fcf1a36"
+      "digest": "a310f470ce29b4f187f7d3430f2c21fb"
     },
     {
       "name": "From the Vault: Exiled",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EXL.json.gzip",
       "code": "EXL",
-      "digest": "415f5a2d13ffc13bbc62ade346999910"
+      "digest": "08516e87a601547c7852f55dead2e264"
     },
     {
       "name": "From the Vault: Legends",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LEG.json.gzip",
       "code": "LEG",
-      "digest": "4ce8d34bb8117dbcc5722dcd59a5946b"
+      "digest": "0f7185a0034c711990c2a0d957284d60"
     },
     {
       "name": "From the Vault: Lore",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V16.json.gzip",
       "code": "V16",
-      "digest": "31a9ec4ab17b02baf54207ea1ad4a2d7"
+      "digest": "8913b5d9810ed06864e2f4936005a51f"
     },
     {
       "name": "From the Vault: Realms",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RLM.json.gzip",
       "code": "RLM",
-      "digest": "63ad7ea4d4d90a0cd5559e7192429219"
+      "digest": "551d7698b160ebf60ae482a301abfc8e"
     },
     {
       "name": "From the Vault: Relics",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RLC.json.gzip",
       "code": "RLC",
-      "digest": "8a3433c3a915dd7b02345d81f3d11f9c"
+      "digest": "875d97122ef47ea90a0a289eaa2d27f6"
     },
     {
       "name": "From the Vault: Transform",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V17.json.gzip",
       "code": "V17",
-      "digest": "2e3cdbf43a80d3c2db6914d751fa22eb"
+      "digest": "4791d79b343f893ec4d46fc19698c204"
     },
     {
       "name": "From the Vault: Twenty",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V13.json.gzip",
       "code": "V13",
-      "digest": "4db52362f61c307f66814e42a03557ff"
+      "digest": "236a71b1b52b8f68e67412a1448c7054"
     },
     {
       "name": "Future Sight",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FUT.json.gzip",
       "code": "FUT",
-      "digest": "5ab5be3285e32a8dccca37cd8bff22b8"
+      "digest": "7f7289615f64d8cae667bc2c6294a2ce"
     },
     {
       "name": "Gatecrash",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GTC.json.gzip",
       "code": "GTC",
-      "digest": "2087780047e765920ba712f96bf76c85"
+      "digest": "01f86bed223e7cf355a6176b7ab577e8"
     },
     {
       "name": "Guildpact",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GP.json.gzip",
       "code": "GP",
-      "digest": "861690f84caa6f92f4d41a8d25f0fec1"
+      "digest": "8d714f68cf4c0c57491c278706e69145"
     },
     {
       "name": "Homelands",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HL.json.gzip",
       "code": "HL",
-      "digest": "1decfebfdc83694b1dee1c7bbd13e196"
+      "digest": "648140a0244ef3c228e44b57edda2873"
     },
     {
       "name": "Hour of Devastation",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HOU.json.gzip",
       "code": "HOU",
-      "digest": "b2c171e88e7708dc0695b8650850f4a3"
+      "digest": "be3ebe2c36517e0b65ae49f985930858"
     },
     {
       "name": "Ice Age",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IA.json.gzip",
       "code": "IA",
-      "digest": "2a312ace1fc8e239655cfd0e83066cb3"
+      "digest": "d7c6973c8da3f1c00f1fdbe186b06e9d"
     },
     {
       "name": "Iconic Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IMA.json.gzip",
       "code": "IMA",
-      "digest": "33d1a32b4b289de1948d78c8557d9c48"
+      "digest": "1a474f489f247729a85f8e8738ea94a7"
     },
     {
       "name": "Innistrad",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ISD.json.gzip",
       "code": "ISD",
-      "digest": "bee7882d1cd02fd58bfea642f8dc5dac"
+      "digest": "dc0bc9de445e37df823b5d582e542484"
     },
     {
       "name": "Invasion",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IN.json.gzip",
       "code": "IN",
-      "digest": "072c184ad5d2103affd2f42bc2188541"
+      "digest": "ae9af84dab23d883b681cf1200fc3f44"
     },
     {
       "name": "Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/XLN.json.gzip",
       "code": "XLN",
-      "digest": "81d96e2275570688736a23885f4893bc"
+      "digest": "53fb9798b46e2f2471544c198543902b"
     },
     {
       "name": "Journey into Nyx",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JOU.json.gzip",
       "code": "JOU",
-      "digest": "979a7875ac1b67b0b42b0f3b137cad3c"
+      "digest": "38e4f59a3443a95b2598a905a2424d52"
     },
     {
       "name": "Judgment",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JU.json.gzip",
       "code": "JU",
-      "digest": "4b2764c8bf5eca323961eef77244aed5"
+      "digest": "c81bc0082ad4f0579152ed17a7caf3c0"
     },
     {
       "name": "Kaladesh",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KLD.json.gzip",
       "code": "KLD",
-      "digest": "3780722112200a1c90921a8b9c294ad4"
+      "digest": "ad0429988dc07ade0a59e9ca09237f7f"
     },
     {
       "name": "Khans of Tarkir",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KTK.json.gzip",
       "code": "KTK",
-      "digest": "9c5b974c36b803cab71b32f0cd260f13"
+      "digest": "c7a38128bbe1938597688955b37b8c73"
     },
     {
       "name": "Legends",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LG.json.gzip",
       "code": "LG",
-      "digest": "8520689918853187fc1b8e7b888e5dfc"
+      "digest": "89667e957d4a266dae87baefaa056dff"
     },
     {
       "name": "Legions",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LE.json.gzip",
       "code": "LE",
-      "digest": "2e9e16581ab5f23a9ea7fa7dd5988ab4"
+      "digest": "b45b50e98f16afaa4019d9a578668639"
     },
     {
       "name": "Limited Edition Alpha",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/A.json.gzip",
       "code": "A",
-      "digest": "1f2dfa3f89b66ace1a9dbdaf26d5061f"
+      "digest": "45052a6cbcfd1e810512564c21990f91"
     },
     {
       "name": "Limited Edition Beta",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/B.json.gzip",
       "code": "B",
-      "digest": "5903ccc8b77b26ed7ad8d7809f4aeb61"
+      "digest": "8c73010d3b9aa6a75727d605f145ec36"
     },
     {
       "name": "Lorwyn",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LRW.json.gzip",
       "code": "LRW",
-      "digest": "2bd5fc3cb2652b82e0ab0e155b7ebc9e"
+      "digest": "a0c0981950976813df2966102bd9f56d"
     },
     {
       "name": "Magic 2010",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M10.json.gzip",
       "code": "M10",
-      "digest": "784ff0603d7dd761904cc62611cb0156"
+      "digest": "0bd56b42c416060e2a0e21f4659d498d"
     },
     {
       "name": "Magic 2011",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M11.json.gzip",
       "code": "M11",
-      "digest": "d299af4d1f5c860340e96dfd425670d4"
+      "digest": "69070f1ff0db2111c0ad9f4713b6574c"
     },
     {
       "name": "Magic 2012",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M12.json.gzip",
       "code": "M12",
-      "digest": "c2b987ec4769b76d4e1dd41a7c31bdad"
+      "digest": "c23178b417ad0cd6eda83070c2ce9e53"
     },
     {
       "name": "Magic 2013",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M13.json.gzip",
       "code": "M13",
-      "digest": "a66782bfac4dae6af6870efc8e10011f"
+      "digest": "462855625fa6f1c5055f01f19eb6ed9f"
     },
     {
       "name": "Magic 2014 Core Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M14.json.gzip",
       "code": "M14",
-      "digest": "4453f1749c5b6ae80ad8c9893af71127"
+      "digest": "da447b847c4e7461035de222167c4391"
     },
     {
       "name": "Magic 2015 Core Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M15.json.gzip",
       "code": "M15",
-      "digest": "8287460c5825c59f6fafcf87e03c3808"
+      "digest": "893db545507397308b45628971e3592a"
     },
     {
       "name": "Magic Origins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ORI.json.gzip",
       "code": "ORI",
-      "digest": "6aa3b2c848774bb3b3c58ad2e661f702"
+      "digest": "7ae693a15578ec839d979aa0bc98d940"
     },
     {
       "name": "Magic: The Gathering-Commander",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMD.json.gzip",
       "code": "CMD",
-      "digest": "fa252ae9dbd6e8e487e606acec28f188"
+      "digest": "509ed5708a960bdf83d591656d32dc63"
     },
     {
       "name": "Magic: The Gathering-Conspiracy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CNS.json.gzip",
       "code": "CNS",
-      "digest": "7a8cad9dc1ceb4d6bf2b456b6cb90303"
+      "digest": "e5728b1d972afc6d74112ef4bdb21b22"
     },
     {
       "name": "Masterpiece Series: Amonkhet Invocations",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MPSAKH.json.gzip",
       "code": "MPSAKH",
-      "digest": "916c88c613c6403a8a0111ba8566171a"
+      "digest": "6a2e102fdfafb082957b935827751c58"
     },
     {
       "name": "Masterpiece Series: Kaladesh Inventions",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MPSKLD.json.gzip",
       "code": "MPSKLD",
-      "digest": "c71e7a1837a4f6d2688a880353dcae66"
+      "digest": "974dcd98042457a3a890964fefd8276f"
     },
     {
       "name": "Masters 25",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/A25.json.gzip",
       "code": "A25",
-      "digest": "bf9f468c6b2663f410600ff53161546f"
+      "digest": "e13a93769f420c0705a734906a7d8a05"
     },
     {
       "name": "Masters Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MED.json.gzip",
       "code": "MED",
-      "digest": "6ba3e27ccc9395b588ae203f96f96def"
+      "digest": "8b6c150d0dda459042d3a42353668967"
     },
     {
       "name": "Masters Edition II",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME2.json.gzip",
       "code": "ME2",
-      "digest": "6ccf3d8b5dcbe7bcae766020a0551d55"
+      "digest": "efa6f80d13a810311ea341fba5a36f0f"
     },
     {
       "name": "Masters Edition III",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME3.json.gzip",
       "code": "ME3",
-      "digest": "7c8c09cb1effa47c947e6fddbe50a6b0"
+      "digest": "93acc7c8c58106653a33b5f807d84b96"
     },
     {
       "name": "Masters Edition IV",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME4.json.gzip",
       "code": "ME4",
-      "digest": "9909eaf8715bdfd69e3a0d288b4b74a4"
+      "digest": "1768257afca2fa7df00f33e605437d85"
     },
     {
       "name": "Mercadian Masques",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM.json.gzip",
       "code": "MM",
-      "digest": "6da178eed277d093cb498b6ae0845602"
+      "digest": "f1cb409faf3d379ed1f0bf7c9b71b26c"
     },
     {
       "name": "Mirage",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MI.json.gzip",
       "code": "MI",
-      "digest": "515704a3a29ea8fd52d04519b69e2474"
+      "digest": "8669d691ba742185957284aef742a1c6"
     },
     {
       "name": "Mirrodin",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MR.json.gzip",
       "code": "MR",
-      "digest": "dac88e13ad265e289dde706510921dc7"
+      "digest": "945d2ee6538b7202bd8248e8e2117955"
     },
     {
       "name": "Mirrodin Besieged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MBS.json.gzip",
       "code": "MBS",
-      "digest": "4034f6f9ec619ae29bed295e037e2202"
+      "digest": "4eca56b915cb8d05a39dd34e0a063e5a"
     },
     {
       "name": "Modern Event Deck 2014",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MD1.json.gzip",
       "code": "MD1",
-      "digest": "7c8487b6457555e396485b447f9f4611"
+      "digest": "907b355a6ee832685cf8d1cf1936a936"
     },
     {
       "name": "Modern Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MMA.json.gzip",
       "code": "MMA",
-      "digest": "57b6f9f66289672a00b43b2f5802a790"
+      "digest": "3fd556b6b8104d3ee0c0307f019f56e3"
     },
     {
       "name": "Modern Masters 2015 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM2.json.gzip",
       "code": "MM2",
-      "digest": "bb0711cfd41f2b5f3e01a8b3b0130c3e"
+      "digest": "8afd35282726605a45062896e698ac78"
     },
     {
       "name": "Modern Masters 2017 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM3.json.gzip",
       "code": "MM3",
-      "digest": "4fdea32a41efbd15921c58bc26433f26"
+      "digest": "2ad674a3fd71410b6e4bebac522fe0b7"
     },
     {
       "name": "Morningtide",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MOR.json.gzip",
       "code": "MOR",
-      "digest": "3e4446a76f4362fd836be2f7d559f9a1"
+      "digest": "a585c2266d038377964c63bc2c84f53a"
     },
     {
       "name": "Nemesis",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NE.json.gzip",
       "code": "NE",
-      "digest": "c7e2da453582af193aa5db31b024d5b0"
+      "digest": "a7617aa443e2ea6cc9c30ebd988ac0bb"
     },
     {
       "name": "New Phyrexia",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NPH.json.gzip",
       "code": "NPH",
-      "digest": "fcd3b6363f6e0c912e551e42df0d93ae"
+      "digest": "3bce789ffea2d78252e15a07be2741a4"
     },
     {
       "name": "Ninth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/9E.json.gzip",
       "code": "9E",
-      "digest": "447adc86db03d3892d442a07c862e34a"
+      "digest": "72252047cca293867b201d746c7214f0"
     },
     {
       "name": "Oath of the Gatewatch",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OGW.json.gzip",
       "code": "OGW",
-      "digest": "978f65af12c1481613f653c8a0e3f34d"
+      "digest": "c9ffc7ab51a9308768937581710c51a8"
     },
     {
       "name": "Odyssey",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OD.json.gzip",
       "code": "OD",
-      "digest": "f51f561e7caeac4a3dc2b0a1c5c8ec3b"
+      "digest": "747ffe01a517a4b290bdd3f01a5e02e7"
     },
     {
       "name": "Onslaught",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ON.json.gzip",
       "code": "ON",
-      "digest": "e69e16784110490ec722d873db9a0978"
+      "digest": "c57893b20708d2b02718a7e901c1c5a0"
     },
     {
       "name": "Planar Chaos",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PLC.json.gzip",
       "code": "PLC",
-      "digest": "cfc5a3e6765bdefd0e623f6f8d7fe5c5"
+      "digest": "a84de750981e7d763e17462ce7b42316"
     },
     {
       "name": "Planechase",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCH.json.gzip",
       "code": "PCH",
-      "digest": "d1b533fcf79fd7a048daa09ef99cebdd"
+      "digest": "58f3e41588af903385c3b437c9212155"
     },
     {
       "name": "Planechase 2012 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PC2.json.gzip",
       "code": "PC2",
-      "digest": "2dfcdcc9d8cf344e6bdd04a66c39d8db"
+      "digest": "f0f49f572dde7db660db30a7da9afb9e"
     },
     {
       "name": "Planechase Anthology",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCA.json.gzip",
       "code": "PCA",
-      "digest": "074abaa0aaf37bc54257db79f3a0a460"
+      "digest": "ff19b65fbf9c105316f731a048295160"
     },
     {
       "name": "Planeshift",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PS.json.gzip",
       "code": "PS",
-      "digest": "efeaad811c0e43f2c8da3bb797f147e4"
+      "digest": "b1050a179a88d2e264f899ccabd02223"
     },
     {
       "name": "Portal",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PT.json.gzip",
       "code": "PT",
-      "digest": "8041b82b413fcb3331996a3329955169"
+      "digest": "5b7299d6138092d0601ac0cc8305e897"
     },
     {
       "name": "Portal Second Age",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/P2.json.gzip",
       "code": "P2",
-      "digest": "8686e62d5b43c993eac5938254f275cb"
+      "digest": "44cb6c5144a9fd193cf3c94c94017a02"
     },
     {
       "name": "Portal Three Kingdoms",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/P3.json.gzip",
       "code": "P3",
-      "digest": "8a289ce5bbfd4a61bb488ec7a3be8a1a"
+      "digest": "697c6b952bf951050f3e3f29840e8f2a"
     },
     {
       "name": "Premium Deck Series: Fire and Lightning",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FAL.json.gzip",
       "code": "FAL",
-      "digest": "a6d683c3b5aab0d851542788e7e2db2f"
+      "digest": "6df034a88cf72d0a0148ed595356fc44"
     },
     {
       "name": "Premium Deck Series: Graveborn",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GRV.json.gzip",
       "code": "GRV",
-      "digest": "1de3fbc612a35f93a5d3265282778262"
+      "digest": "7e4bb95e90a3b0b4ff12186b83bc9e15"
     },
     {
       "name": "Premium Deck Series: Slivers",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SLI.json.gzip",
       "code": "SLI",
-      "digest": "f885c38448d885982fec504bf4efa002"
+      "digest": "5eb048839b96155221ecf4dd62b05018"
     },
     {
       "name": "Promo set for Gatherer",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MBP.json.gzip",
       "code": "MBP",
-      "digest": "d48061e8f9aff595ab2184aee1e921e9"
+      "digest": "a58bdabbe8108904977382af12a04169"
     },
     {
       "name": "Prophecy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PY.json.gzip",
       "code": "PY",
-      "digest": "315313b21bbe3a090e95520aac5d4c35"
+      "digest": "32fa51a09d90932dfaf99ab45ef4b0de"
     },
     {
       "name": "Ravnica: City of Guilds",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RAV.json.gzip",
       "code": "RAV",
-      "digest": "10599e92f336a5a4f28a42e2bb48ca29"
+      "digest": "02a37212b7c2421d0e7a858129338dd7"
     },
     {
       "name": "Return to Ravnica",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RTR.json.gzip",
       "code": "RTR",
-      "digest": "a9e495215115ae4309d136f0b4c7247b"
+      "digest": "b2ed66c329dcdf8abfd30adb0a6bc30c"
     },
     {
       "name": "Revised Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/R.json.gzip",
       "code": "R",
-      "digest": "85b43d548fbb038b2d7c577578dd493c"
+      "digest": "370a06fe54f55fcf811c79699b53dfee"
     },
     {
       "name": "Rise of the Eldrazi",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ROE.json.gzip",
       "code": "ROE",
-      "digest": "90f1eb54142f4da487bb4356a8f94db5"
+      "digest": "bd6e17a94ea49027376a34ea36c8a4d9"
     },
     {
       "name": "Rivals of Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RIX.json.gzip",
       "code": "RIX",
-      "digest": "6b945fb42d114b64dd4e8ea951883f15"
+      "digest": "372ce9d7ba3d8abe46fffbfb62c6cfeb"
     },
     {
       "name": "Saviors of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOK.json.gzip",
       "code": "SOK",
-      "digest": "9c9435832b8232c3cfe2b9d596940822"
+      "digest": "4b4f80e3bc6d6242fb67a43b72f8b0a7"
     },
     {
       "name": "Scars of Mirrodin",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOM.json.gzip",
       "code": "SOM",
-      "digest": "9da65327c9608faed54d4663dae28fc1"
+      "digest": "c6ee7c22fc00917009cd1600d2ec0d4f"
     },
     {
       "name": "Scourge",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SC.json.gzip",
       "code": "SC",
-      "digest": "a5472d1ef97e3a8183be758337bd6df0"
+      "digest": "5de954a5626559771916588f735b59bd"
     },
     {
       "name": "Seventh Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/7E.json.gzip",
       "code": "7E",
-      "digest": "ad3aea0d889d65365a3666754f90df2b"
+      "digest": "8d1d499050fd834840b3440267dcf78c"
     },
     {
       "name": "Shadowmoor",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SHM.json.gzip",
       "code": "SHM",
-      "digest": "8fd36d75f52c0ce9df717186f780014d"
+      "digest": "93c007c18910839145ef56acf09d1582"
     },
     {
       "name": "Shadows over Innistrad",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOI.json.gzip",
       "code": "SOI",
-      "digest": "692bd998a3f9ea6471da36fa18ec3987"
+      "digest": "fb18ed5807cf2e172dbc4fe239fc0d76"
     },
     {
       "name": "Shards of Alara",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ALA.json.gzip",
       "code": "ALA",
-      "digest": "7c82393eb29035dbb15467356858374d"
+      "digest": "ecc76f4b40cd6220990c39b013f5afdb"
     },
     {
       "name": "Starter 1999",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ST.json.gzip",
       "code": "ST",
-      "digest": "82066721e25910c4b0c40dd529fcbbc7"
+      "digest": "5cc4e522dd3fe471bb5f0695d347746d"
     },
     {
       "name": "Starter 2000",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/S2.json.gzip",
       "code": "S2",
-      "digest": "6857b6f90e492809448f1b56e74f486f"
+      "digest": "9a9e746966b2787dd63f41f228ff25ac"
     },
     {
       "name": "Stronghold",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SH.json.gzip",
       "code": "SH",
-      "digest": "0b934bf416c6c000ea912fa408be6945"
+      "digest": "95d5cea5698517156908ab21c02114f9"
     },
     {
       "name": "Tempest",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TE.json.gzip",
       "code": "TE",
-      "digest": "5a0a30a8c16d403c75014eb5aa0667f1"
+      "digest": "60a08ba0d552cb76d5028d0ae1c7cdbd"
     },
     {
       "name": "Tempest Remastered",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TPR.json.gzip",
       "code": "TPR",
-      "digest": "2375ed2f2bb5d0392937be1df06e3343"
+      "digest": "9c84b71d88bd0a5afbd58f9a4ce9accd"
     },
     {
       "name": "Tenth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/10E.json.gzip",
       "code": "10E",
-      "digest": "90bd2f4499b6e6e8a824dac3297121bc"
+      "digest": "914c186c58a0ede8c6caf99b355ce94b"
     },
     {
       "name": "The Dark",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DK.json.gzip",
       "code": "DK",
-      "digest": "4add1b2878923bbbb6c47c913d1e9b28"
+      "digest": "8a3140e21f0b524aafd9815044ff2c27"
     },
     {
       "name": "Theros",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/THS.json.gzip",
       "code": "THS",
-      "digest": "bf9431d1787a4d575db3a3ab4272df76"
+      "digest": "1c5d05c3c56a13cf016dfb29f939b9cd"
     },
     {
       "name": "Time Spiral",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSP.json.gzip",
       "code": "TSP",
-      "digest": "4701d9bac3deea68b82bccd806798e3f"
+      "digest": "b67b8c7674ebc3f54b4720327e6375dc"
     },
     {
       "name": "Time Spiral \"Timeshifted\"",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSB.json.gzip",
       "code": "TSB",
-      "digest": "728d5866b6f0d2fb086662c032f1f348"
+      "digest": "f0e0a8cf460329749ead72f8a36ef15e"
     },
     {
       "name": "Torment",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TO.json.gzip",
       "code": "TO",
-      "digest": "198632eaed29de1454ecda240e6ed956"
+      "digest": "5969b98f14b24cdbd2ef7a677f0d7c49"
     },
     {
       "name": "Ugin's Fate promos",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UFP.json.gzip",
       "code": "UFP",
-      "digest": "7526863f81ab57dd7cd75ecfebb34bc4"
+      "digest": "97e6f5197524f22b3de1e633df97ab7e"
     },
     {
       "name": "Unglued",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UG.json.gzip",
       "code": "UG",
-      "digest": "c4eeccb9e01c58dcf416cc07ec3c1ec5"
+      "digest": "87feae2855ddaebb2bae0748b0115a06"
     },
     {
       "name": "Unhinged",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UNH.json.gzip",
       "code": "UNH",
-      "digest": "ea6abec58750ede3b5080eff5d948615"
+      "digest": "4b786146e9f76a1452750a9525583b0c"
     },
     {
       "name": "Unlimited Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/U.json.gzip",
       "code": "U",
-      "digest": "64b6f6401372ecc3fbe2813120ccd088"
+      "digest": "44be45507ff619599c0da9affb8ac306"
     },
     {
       "name": "Unstable",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UST.json.gzip",
       "code": "UST",
-      "digest": "a44a2b2b173d495cfaab81afaf9c9403"
+      "digest": "76208fabe9acfd25a8c802a6774aefa0"
     },
     {
       "name": "Urza's Destiny",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UD.json.gzip",
       "code": "UD",
-      "digest": "70e737d720c09595fde32e003c725b2b"
+      "digest": "c3144b8e94da0d04ca6d536b93f088ee"
     },
     {
       "name": "Urza's Legacy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UL.json.gzip",
       "code": "UL",
-      "digest": "bee042aee116d6f28bb69de19cecaa93"
+      "digest": "d943ea49e2231217b6ce2148e6e73f07"
     },
     {
       "name": "Urza's Saga",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/US.json.gzip",
       "code": "US",
-      "digest": "68959d3dc3ee9adaec54565abbbe2eab"
+      "digest": "f104866a60b8b9b6dc1a83ede7dd10df"
     },
     {
       "name": "Vanguard",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VNG.json.gzip",
       "code": "VNG",
-      "digest": "845ad4b639a7cdc059d3abd988c9aae7"
+      "digest": "bea565f8080309f6d78efdccee0c1f90"
     },
     {
       "name": "Vintage Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VMA.json.gzip",
       "code": "VMA",
-      "digest": "aa76f1a14dca0e07a095bb3ea48e6e6f"
+      "digest": "46cb844d8a408d04e03d131b2784c984"
     },
     {
       "name": "Visions",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VI.json.gzip",
       "code": "VI",
-      "digest": "3be44f53b4dfbd7a100574ee87dfc105"
+      "digest": "303234c2e553c406f17981509c42eef3"
     },
     {
       "name": "Weatherlight",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WL.json.gzip",
       "code": "WL",
-      "digest": "b2d9a6902509afc88d40c965df19cc83"
+      "digest": "1109a02632f4502ffcfa53a2aa7c38d2"
     },
     {
       "name": "Welcome Deck 2016",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/W16.json.gzip",
       "code": "W16",
-      "digest": "7f491bd26326b2ed9bf97bbcd68988b3"
+      "digest": "dbbe836fa7cfc0795aef70cac8f975de"
     },
     {
       "name": "Welcome Deck 2017",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/W17.json.gzip",
       "code": "W17",
-      "digest": "0bee3bfc088a6b8cd1c08b0064e607bf"
+      "digest": "54cc66b339e29964b51b38f12b366973"
     },
     {
       "name": "Worldwake",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WWK.json.gzip",
       "code": "WWK",
-      "digest": "a6367ad4808084dbfbfc95fa67f8563a"
+      "digest": "3acb318d2f4aa054d575a914ab434e2f"
     },
     {
       "name": "Zendikar",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZEN.json.gzip",
       "code": "ZEN",
-      "digest": "f2d1f7d9efbfae5a2c34af145adbd64c"
+      "digest": "8e4cfa89c0d9be5fd911f0c89bc79aef"
     },
     {
       "name": "Zendikar Expeditions",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EXP.json.gzip",
       "code": "EXP",
-      "digest": "63aecd5652961b660e88f5ae917f1f12"
+      "digest": "13230bf0400d7fa564a180519de2494e"
     }
   ]
 }
