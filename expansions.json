@@ -372,6 +372,18 @@
     "digest": "6ba881565a432c5c959eaae308f3812d"
   },
   {
+    "name_gatherer": "Dominaria",
+    "code_gatherer": "DOM",
+    "code_mtgi": "DOM",
+    "name_tcgp": "Dominaria",
+    "name_mkm": "Dominaria",
+    "releaseTimestamp": 1522555200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "b1d9d8e4e323c5b4a3e6cdcbc3c0d966"
+  },
+  {
     "name_gatherer": "Dragon's Maze",
     "code_gatherer": "DGM",
     "code_mtgi": "DGM",
@@ -514,6 +526,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "20594b4d18099ec0abcfdc7cb348c667"
+  },
+  {
+    "name_gatherer": "Duel Decks: Elves vs. Inventors",
+    "code_gatherer": "DDU",
+    "code_mtgi": "DDU",
+    "name_tcgp": "Duel Decks: Elves vs. Inventors",
+    "name_mkm": "Duel Decks: Elves vs. Inventors",
+    "releaseTimestamp": 1522555200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "1661d669385af8f3a5719dbf8e24a502"
   },
   {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
