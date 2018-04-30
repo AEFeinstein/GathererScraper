@@ -278,13 +278,16 @@ public class LegalityListModel extends AbstractListModel<String> {
                                 break;
                             }
                         }
-                        if (!contains) {
-                            mInvalidExpansions.add(mFormats.get(index));
-                            break;
-                        }
+						if (!contains) {
+							if (!mInvalidExpansions.contains(mFormats.get(index))) {
+								System.out.println("Invalid expansion in list for " + mFormats.get(index));
+								mInvalidExpansions.add(mFormats.get(index));
+							}
+							System.out.println(thisExpansion);
+						}
                     }
                 }
-
+                
                 /*
                  * No sanity check on cards, since they may not have been
                  * scraped now Also, these should be copy/pasted from the
