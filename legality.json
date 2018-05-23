@@ -372,6 +372,25 @@
       ]
     },
     {
+      "name": "Brawl",
+      "sets": [
+        "AER",
+        "AKH",
+        "DOM",
+        "HOU",
+        "KLD",
+        "RIX",
+        "W17",
+        "XLN"
+      ],
+      "restrictedlist": [],
+      "banlist": [
+        "Baral, Chief of Compliance",
+        "Smuggler's Copter",
+        "Sorcerous Spyglass"
+      ]
+    },
+    {
       "name": "Modern",
       "sets": [
         "10E",
@@ -1615,5 +1634,5 @@
       ]
     }
   ],
-  "timestamp": 1525057743
+  "timestamp": 1527048569
 }
