@@ -25,6 +25,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
@@ -38,7 +40,8 @@ import java.util.zip.GZIPOutputStream;
 public class GathererScraper {
 
     public static final String PATCH_DIR = "patches-v2";
-
+    private static final Pattern BATTLEBOND_PATTERN = Pattern.compile("Partner with ([^\\(<]+)\\s*[\\(<]");
+    
     /**
      * This function scrapes a list of all expansions from Gatherer
      *
@@ -156,6 +159,11 @@ public class GathererScraper {
             }
         }
 
+        // Now that all the cards and multiverse IDs are known, linkify text
+        for(CardGS card : scrapedCards) {
+            card.mText = linkifyText(card.mText, exp.mCode_gatherer, scrapedCards);
+        }
+        
         if (scrapedCards.isEmpty()) {
             System.err.print("Scrape failed " + exp.mName_gatherer);
         } else if (scrapedCards.get(0).mNumber.length() < 1) {
@@ -353,7 +361,7 @@ public class GathererScraper {
 
             /* Get all cards on this page */
             HashMap<String, String> ids = getCardIds(cardPage, "[" + exp.mCode_gatherer + "] ");
-    
+            
             /* For all cards on this page, grab their information */
             for (String name : ids.keySet()) {
 
@@ -374,6 +382,17 @@ public class GathererScraper {
                     card = new CardGS(name, exp.mCode_gatherer, multiverseMap.get(name));
                 }
                 
+                // Special handling for Battlebond Alt-Art planeswalkers
+                if(card.mName.equals("Rowan Kenrith")) {
+                	if(card.mMultiverseId != 445970 && card.mMultiverseId != 446224) {
+                		continue;
+                	}
+                } else if(card.mName.equals("Will Kenrith")) {
+                	if(card.mMultiverseId != 445969 && card.mMultiverseId != 446223) {
+                		continue;
+                	}
+                }
+                
                 /* Get the ID for this card's information */
                 String id = ids.get(name);
     
@@ -392,7 +411,6 @@ public class GathererScraper {
     
                 /* Ability Text */
                 card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false, errLabel);
-                card.mText = linkifyText(card.mText);
     
                 /* For unglued, fix some symbols */
                 if ((card.mExpansion.equals("UG") || card.mExpansion.equals("UNH")) &&
@@ -538,6 +556,9 @@ public class GathererScraper {
                 /* If that didn't work, print a warning */
                 if (card.mNumber == null || card.mNumber.equals("")) {
                     System.err.println(errLabel + " No Number Found");
+                } else if (exp.mCode_gatherer.equals("BBD")) {
+                	// Battlebond cards are paired on Gatherer, but don't really have numbers
+                	card.mNumber = card.mNumber.replaceAll("a", "").replaceAll("b", "");
                 }
                 
                 /* Manually override some numbers because Gatherer is trash */
@@ -685,6 +706,8 @@ public class GathererScraper {
                     }
                 }
             }
+
+            
             scrapedCardsAllPages.addAll(scrapedCards);
         }
         return scrapedCardsAllPages;
@@ -828,9 +851,11 @@ public class GathererScraper {
      * Add links to the text to handle meld cards
      *
      * @param mText The card text without links
+     * @param scrapedCards 
+     * @param code_gatherer 
      * @return The card text with links
      */
-    private static String linkifyText(String mText) {
+    private static String linkifyText(String mText, String code_gatherer, ArrayList<CardGS> scrapedCards) {
         if (mText == null) {
             return null;
         }
@@ -847,10 +872,32 @@ public class GathererScraper {
         mText = mText.replace("Hanweir, the Writhing Township", uriLink("Hanweir, the Writhing Township", 414429));
         
         mText = mText.replace("AskUrza.com", "<a href=\"http://www.AskUrza.com\">AskUrza.com</a>");
+        
+        // Try to linkify Battlebond cards
+        if(code_gatherer.equals("BBD")) {
+        	// Use a regex to find the Partner name
+            Matcher matcher = BATTLEBOND_PATTERN.matcher(mText);
+            if (matcher.find()) {
+            	String otherName = matcher.group(1).trim();
+            	int otherMultiverseId = -1;
+            	// Look through the cards scraped on this page to find the other card's multiverse ID
+            	for(CardGS card : scrapedCards) {
+            		if(card.mName.equals(otherName)) {
+            			otherMultiverseId = card.mMultiverseId;
+            			break;
+            		}
+            	}
+            	// If the multiverse ID was found, linkify!
+            	if(otherMultiverseId > 0) {
+            		 mText = mText.replaceFirst(otherName, uriLink(otherName, otherMultiverseId));
+            	}
+            }
+        }
+        
         return mText;
     }
 
-    private static CharSequence uriLink(String string, int i) {
+    private static String uriLink(String string, int i) {
         return "<a href=\"card://multiverseid/internal/" + i + "\">" + string + "</a>";
     }
 

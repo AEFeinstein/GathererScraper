@@ -144,6 +144,18 @@
     "digest": "323a8f7a266d6948e309576d7b252994"
   },
   {
+    "name_gatherer": "Battlebond",
+    "code_gatherer": "BBD",
+    "code_mtgi": "BBD",
+    "name_tcgp": "Battlebond",
+    "name_mkm": "Battlebond",
+    "releaseTimestamp": 1525147200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "dd03b076fae1bfff9548f87b644ab2f5"
+  },
+  {
     "name_gatherer": "Beatdown Box Set",
     "code_gatherer": "BD",
     "code_mtgi": "BD",

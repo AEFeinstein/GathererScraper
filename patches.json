@@ -1,5 +1,5 @@
 {
-  "timestamp": 1524026923,
+  "timestamp": 1527656747,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -72,6 +72,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BFZ.json.gzip",
       "code": "BFZ",
       "digest": "323a8f7a266d6948e309576d7b252994"
+    },
+    {
+      "name": "Battlebond",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BBD.json.gzip",
+      "code": "BBD",
+      "digest": "dd03b076fae1bfff9548f87b644ab2f5"
     },
     {
       "name": "Beatdown Box Set",
