@@ -1,4 +1,4 @@
-2018-03-28
+2018-05-08
 
 RULES_VERYLONGSTRINGOFLETTERSUNLIKELYTOBEFOUNDINTHEACTUALRULES
 1. Game Concepts
@@ -68,6 +68,8 @@ Example: A card reads "Each player sacrifices a creature." First, the active pla
 102.2. In a two-player game, a player's opponent is the other player.
 
 102.3. In a multiplayer game between teams, a player's teammates are the other players on their team, and the player's opponents are all players not on their team.
+
+102.4. A spell or ability may use the term "your team" as shorthand for "you and/or your teammates." In a game that isn't a multiplayer game between teams, "your team" means the same thing as "you."
 
 103. Starting the Game
 
@@ -909,7 +911,7 @@ Example: Gutter Grime has an ability that reads "Whenever a nontoken creature yo
 
 201.4b If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of the first name in the gained ability that refers to the first object by name should be treated as the second name.
 Example: Quicksilver Elemental says, in part, "{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn." If it gains an ability that says "{G}: Regenerate Cudgel Troll," activating that ability will regenerate Quicksilver Elemental, not the Cudgel Troll it gained the ability from.
-Example: Glacial Ray is an instant with splice onto Arcane that says "Glacial Ray deals 2 damage to any target." If it's spliced onto a Kodama's Reach, that Kodama's Reach deals 2 damage to the target creature or player.
+Example: Glacial Ray is an instant with splice onto Arcane that says "Glacial Ray deals 2 damage to any target." If it's spliced onto a Kodama's Reach, that Kodama's Reach deals 2 damage to the target.
 Example: Dimir Doppelganger says "{1}{U}{B}: Exile target creature card from a graveyard. Dimir Doppelganger becomes a copy of that card and gains this ability." Dimir Doppelganger's ability is activated targeting a Runeclaw Bear card. The Doppelganger becomes a copy of Runeclaw Bear and gains an ability that should be treated as saying "{1}{U}{B}: Exile target creature card from a graveyard. Runeclaw Bear becomes a copy of that card and gains this ability."
 
 201.4c Text printed on some legendary cards refers to that card by a shortened version of its name. Instances of a card's shortened name used in this manner are treated as though they used the card's full name.
@@ -1015,11 +1017,11 @@ Example: When choosing a creature type, "Merfolk" or "Wizard" is acceptable, but
 205.3i Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza's.
      Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
-205.3j Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos.
+205.3j Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, Will, Xenagos, Yanggu, and Yanling.
 
 205.3k Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
 
-205.3m Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
+205.3m Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
 
 205.3n Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are Alara, Arkhos, Azgol, Belenon, Bolas's Meditation Realm, Dominaria, Equilor, Ergamon, Fabacin, Innistrad, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kephalai, Kinshala, Kolbahan, Kyneth, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Mongseng, Muraganda, New Phyrexia, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra's Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Vryn, Wildfire, Xerex, and Zendikar.
 
@@ -1882,7 +1884,7 @@ Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 crea
 
 601.1a Some effects still refer to "playing" a card. "Playing a card" means playing that card as a land or casting that card as a spell, whichever is appropriate.
 
-601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a-d) and determination and payment of costs (rules 601.2f-h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3), ignoring any effect that would prohibit that spell from being cast based on information determined during that spell's proposal. (Such effects are considered during the check detailed in rule 601.2e.) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, "Handling Illegal Actions").
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a-d) and determination and payment of costs (rules 601.2f-h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, "Handling Illegal Actions").
 
 601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
 
@@ -1906,12 +1908,15 @@ Example: You cast Altar's Reap, which costs {1}{B} and has an additional cost of
 
 601.3. A player can't begin to cast a spell unless a rule or effect allows that player to cast it. If that player is no longer allowed to cast that spell after completing its proposal, the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 721, "Handling Illegal Actions").
 
-601.3a If an effect allows a player to cast a spell as though it had flash only if an alternative or additional cost is paid, that player may begin to cast that spell as though it had flash.
+601.3a If an effect prohibits a player from casting a spell with certain qualities, that player may consider any choices to be made during that spell's proposal that may cause those qualities to change. If any such choices could cause that effect to no longer prohibit that player from casting that spell, the player may begin to cast the spell, ignoring the effect.
+Example: A player controls Void Winnower, which reads in part, "Your opponents can't cast spells with even converted mana costs." That player's opponent may begin to cast Rolling Thunder, a card whose mana cost is {X}{R}{R}, because the chosen value of X may cause the spell's converted mana cost to become odd.
 
-601.3b If an effect allows a player to cast a spell with certain characteristics as though it had flash, that player may consider any choices to be made during that spell's proposal that may cause it to have those characteristics. If any such choices could cause it to match these characteristics, that player may begin to cast that spell as though it had flash.
+601.3b If an effect allows a player to cast a spell with certain qualities as though it had flash, that player may consider any choices to be made during that spell's proposal that may cause that spell's qualities to change. If any such choices could cause that effect to apply, that player may begin to cast that spell as though it had flash.
 Example: An effect says that you may cast Aura spells as though they had flash, and you have a creature card with bestow in your hand. Because choosing the bestow ability's alternative cost causes that spell to become an Aura spell, you may legally begin to cast that spell as though it had flash.
 
-601.3c If a spell would have flash only if certain conditions are met, its controller may begin to cast that spell as though it had flash if those conditions are met.
+601.3c If an effect allows a player to cast a spell as though it had flash only if an alternative or additional cost is paid, that player may begin to cast that spell as though it had flash.
+
+601.3d If a spell would have flash only if certain conditions are met, its controller may begin to cast that spell as though it had flash if those conditions are met.
 
 601.4. Some spells specify that one of their controller's opponents does something the controller would normally do while it's being cast, such as choose a mode or choose targets. In these cases, the opponent does so when the spell's controller normally would do so.
 
@@ -2695,6 +2700,8 @@ Example: If a spell attempts to exchange control of two target creatures but one
 
 701.17b If a player is instructed to scry 0, no scry event occurs. Abilities that trigger whenever a player scries won't trigger.
 
+701.17c If multiple players scry at once, each of those players looks at the top cards of their library at the same time. Those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.
+
 701.18. Search
 
 701.18a To search for a card in a zone, look at all cards in that zone (even if it's a hidden zone) and find a card that matches the given description.
@@ -2747,7 +2754,9 @@ Example: Loaming Shaman says "When Loaming Shaman enters the battlefield, target
 
 701.22b "Clash with an opponent" means "Choose an opponent. You and that opponent each clash."
 
-701.22c A player wins a clash if that player revealed a card with a higher converted mana cost than all other cards revealed in that clash.
+701.22c Each clashing player reveals the top card of their library at the same time. Then those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time.
+
+701.22d A player wins a clash if that player revealed a card with a higher converted mana cost than all other cards revealed in that clash.
 
 701.23. Planeswalk
 
@@ -3181,7 +3190,7 @@ Example: You control a phased-out creature. You cast a spell that says "Destroy 
 
 702.25k If an effect causes a player to skip their untap step, the phasing event simply doesn't occur that turn.
 
-702.25m In a multiplayer game, game rules may cause a phased-out permanent to leave the game or to be exiled once a player leaves the game. (See rules 800.4a and 800.4c.) If a phased-out permanent phased out under the control of a player who has left the game, that permanent phases in during the next untap step after that player's next turn would have begun
+702.25m In a multiplayer game, game rules may cause a phased-out permanent to leave the game or to be exiled once a player leaves the game. (See rules 800.4a and 800.4c.) If a phased-out permanent phased out under the control of a player who has left the game, that permanent phases in during the next untap step after that player's next turn would have begun.
 
 702.25n Multiple instances of phasing on the same permanent are redundant.
 
@@ -3868,6 +3877,8 @@ Example: Aether Storm is an enchantment with the ability "Creature spells can't 
 
 702.123e If an effect refers to your commander while you have two commanders, it refers to either one. If an effect causes you to perform an action on your commander and it could affect both, you choose which it refers to at the time the effect is applied.
 
+702.123f "Partner with [name]" is a variant of the partner ability. "Partner with [name]" represents two abilities. One is a static ability that modifies the rules for deck construction. Rather than a single legendary creature card, you may designate two legendary creature cards as your commander if each has a "partner with [name]" ability with the other's name. You can't designate two legendary cards as your commander if one has a "partner with [name]" ability and the other isn't the named card. The other ability represented by "partner with [name]" is a triggered ability that means "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+
 702.124. Undaunted
 
 702.124a Undaunted is a static ability that functions while the spell with undaunted is on the stack. Undaunted means "This spell costs {1} less to cast for each opponent you have."
@@ -3913,6 +3924,10 @@ Example: Aether Storm is an enchantment with the ability "Creature spells can't 
 702.130c The city's blessing is a designation that has no rules meaning other than to act as a marker that other rules and effects can identify. Any number of players may have the city's blessing at the same time.
 
 702.130d After a player gets the city's blessing, continuous effects are reapplied before the game checks to see if the game state or preceding events have matched any trigger conditions.
+
+702.131. Assist
+
+702.131a Assist is a static ability that modifies the rules of paying for the spell with assist (see rules 601.2g-h). If the total cost to cast a spell with assist includes a generic mana component, before you activate mana abilities while casting it, you may choose another player. That player has a chance to activate mana abilities. Once that player chooses not to activate any more mana abilities, you have a chance to activate mana abilities. Before you begin to pay the total cost of the spell, the player you chose may pay for any amount of the generic mana in the spell's total cost.
 
 703. Turn-Based Actions
 
@@ -4023,9 +4038,9 @@ Example: You control Young Wolf, a 1/1 creature with undying, and it has a +1/+1
 
 705. Flipping a Coin
 
-705.1. To flip a coin for an object that cares whether a player wins or loses the flip, the affected player flips the coin and calls "heads" or "tails." If the call matches the result, that player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
+705.1. An effect that instructs a player to flip a coin may care whether that player wins or loses the flip. To flip a coin for such an effect, the player flips the coin and calls "heads" or "tails." If the call matches the result, the player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
 
-705.2. To flip a coin for an object that cares whether the coin comes up heads or tails, each affected player flips a coin without making a call. No player wins or loses this kind of flip.
+705.2. If an effect instructs a player to flip a coin and that effect cares only whether the coin comes up heads or tails without specifying a winner or loser of the flip, that player flips a coin without making a call. No player wins or loses this kind of flip.
 
 705.3. A coin used in a flip must be a two-sided object with easily distinguished sides and equal likelihood that either side lands face up. If the coin that's being flipped doesn't have an obvious "heads" or "tails," designate one side to be "heads," and the other side to be "tails." Other methods of randomization may be substituted for flipping a coin as long as there are two possible outcomes of equal likelihood and all players agree to the substitution. For example, the player may roll an even-sided die and call "odds" or "evens," or roll an even-sided die and designate that "odds" means "heads" and "evens" means "tails."
 
@@ -4336,7 +4351,7 @@ Example: The controller of another player decides which of that player's creatur
 Example: If the controller of a player decides that the controlled player will cast a spell with an additional cost of discarding cards, the cards are discarded from the controlled player's hand.
 
 715.5b The controller of another player can't make choices or decisions for that player that aren't called for by the rules or by any objects. The controller also can't make any choices or decisions for the player that would be called for by the tournament rules.
-Example: The player who's being controlled still chooses whether they leave to visit the restroom, trades a card to someone else, agrees to an intentional draw, or calls a judge about an error or infraction.
+Example: The player who's being controlled still decides if they will leave to visit the restroom, trade a card to someone else, agree to an intentional draw, or call a judge about an error or infraction.
 
 715.6. The controller of another player can't make that player concede. A player may concede the game at any time, even if they are controlled by another player. See rule 104.3a.
 
@@ -4963,7 +4978,7 @@ Example: The life modifier of a player's vanguard card is -3. That player's star
 Example: The hand modifier of a player's vanguard card is +2. That player starts the game with a hand of 9 cards. If the player takes a mulligan, they draw a new hand of 8 cards. The next mulligan is for 7 cards, and so on.
 
 902.5b A player's maximum hand size is seven, as modified by the hand modifier of their vanguard card.
-Example: The hand modifier of a player's vanguard card is -1. That player's maximum hand size is six. If that player has more than six cards in their hand as the cleanup step begins, they will discard all but six of them.
+Example: The hand modifier of a player's vanguard card is -1. That player's maximum hand size is six. If that player has more than six cards in their hand as their cleanup step begins, they will discard all but six of them.
 
 902.6. The owner of a vanguard card is the player who started the game with it in the command zone. The controller of a face-up vanguard card is its owner.
 
@@ -5183,6 +5198,9 @@ Assemble is a keyword action in the Unstable set that puts Contraptions onto the
 
 Assign Combat Damage
 To determine how an attacking or blocking creature will deal its combat damage. See rule 510, "Combat Damage Step."
+
+Assist
+A keyword ability that lets another player help you pay for a spell. See rule 702.131, "Assist."
 
 At End of Turn (Obsolete)
 A trigger condition printed on abilities that triggered at the beginning of the end step (which is not the last thing to happen in the turn). Cards that were printed with that text have received errata in the Oracle card reference to say "at the beginning of the end step" or "at the beginning of the next end step." See rule 513, "End Step."
@@ -6132,8 +6150,8 @@ The player who (for purposes of the game) a card, token, or copy of a spell belo
 Paired
 A term that describes a creature that's been affected by a soulbond ability. See rule 702.94, "Soulbond."
 
-Partner
-A keyword ability that lets two legendary creatures be your commander in the Commander variant rather than one. See rule 702.123, "Partner," and rule 903, "Commander."
+Partner, "Partner with [name]"
+A keyword ability that lets two legendary creatures or planeswalkers be your commander in the Commander variant rather than one. "Partner with [name]" is a specialized version of the ability that works even outside of the Commander variant to help two cards reach the battlefield together. See rule 702.123, "Partner," and rule 903, "Commander."
 
 Pass
 To decline to take any action (such as casting a spell or activating an ability) when you have priority. See rule 116, "Timing and Priority."
