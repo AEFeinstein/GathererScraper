@@ -18,6 +18,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /**
  * This class handles the UI for the application, as well as some file I/O
@@ -106,6 +108,7 @@ public class GathererScraperUi {
 
     /**
      * Initialize the contents of the frame.
+     * @wbp.parser.entryPoint
      */
     private boolean initialize() {
 
@@ -119,9 +122,9 @@ public class GathererScraperUi {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         GridBagLayout gridBagLayout = new GridBagLayout();
         gridBagLayout.columnWidths = new int[]{0, 0, 278, 80, 0};
-        gridBagLayout.rowHeights = new int[]{0, 0, 0, 0, 0};
+        gridBagLayout.rowHeights = new int[]{0, 0, 0, 0, 0, 0};
         gridBagLayout.columnWeights = new double[]{0.0, 0.0, 1.0, 0.0, Double.MIN_VALUE};
-        gridBagLayout.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, Double.MIN_VALUE};
+        gridBagLayout.rowWeights = new double[]{0.0, 0.0, 0.0, 1.0, 0.0, Double.MIN_VALUE};
         frame.getContentPane().setLayout(gridBagLayout);
 
         frame.addWindowListener(new java.awt.event.WindowAdapter() {
@@ -217,10 +220,23 @@ public class GathererScraperUi {
             }
         });
         GridBagConstraints gbc_btnCleanRules = new GridBagConstraints();
+        gbc_btnCleanRules.fill = GridBagConstraints.HORIZONTAL;
         gbc_btnCleanRules.insets = new Insets(0, 0, 5, 0);
         gbc_btnCleanRules.gridx = 3;
         gbc_btnCleanRules.gridy = 0;
         frame.getContentPane().add(btnCleanRules, gbc_btnCleanRules);
+        
+        JButton btnScrapeJudgeDocs = new JButton("Scrape Judge Docs");
+        btnScrapeJudgeDocs.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                new JudgeDocScraperUi();
+            }
+        });
+        GridBagConstraints gbc_btnScrapeJudgeDocs = new GridBagConstraints();
+        gbc_btnScrapeJudgeDocs.insets = new Insets(0, 0, 5, 0);
+        gbc_btnScrapeJudgeDocs.gridx = 3;
+        gbc_btnScrapeJudgeDocs.gridy = 1;
+        frame.getContentPane().add(btnScrapeJudgeDocs, gbc_btnScrapeJudgeDocs);
 
         mLastCardScraped = new JLabel("");
         GridBagConstraints gbc_lblNewLabel = new GridBagConstraints();
@@ -228,25 +244,26 @@ public class GathererScraperUi {
         gbc_lblNewLabel.gridwidth = 3;
         gbc_lblNewLabel.insets = new Insets(0, 0, 5, 5);
         gbc_lblNewLabel.gridx = 0;
-        gbc_lblNewLabel.gridy = 1;
+        gbc_lblNewLabel.gridy = 2;
         frame.getContentPane().add(mLastCardScraped, gbc_lblNewLabel);
 
         Component lblLegalities = new JLabel("Legalities");
         GridBagConstraints gbc_lblLegalities = new GridBagConstraints();
         gbc_lblLegalities.insets = new Insets(0, 0, 5, 0);
         gbc_lblLegalities.gridx = 3;
-        gbc_lblLegalities.gridy = 1;
+        gbc_lblLegalities.gridy = 2;
         frame.getContentPane().add(lblLegalities, gbc_lblLegalities);
 
         JScrollPane scrollPane = new JScrollPane();
         scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         GridBagConstraints gbc_scrollPane = new GridBagConstraints();
+        gbc_scrollPane.gridheight = 3;
         gbc_scrollPane.gridwidth = 3;
         gbc_scrollPane.insets = new Insets(0, 0, 5, 5);
         gbc_scrollPane.fill = GridBagConstraints.BOTH;
         gbc_scrollPane.gridx = 0;
-        gbc_scrollPane.gridy = 2;
+        gbc_scrollPane.gridy = 1;
         frame.getContentPane().add(scrollPane, gbc_scrollPane);
         mTable = new JTable(mExpansionTableModel);
         mTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
@@ -389,7 +406,7 @@ public class GathererScraperUi {
         gbc_scrollPane_1.fill = GridBagConstraints.BOTH;
         gbc_scrollPane_1.insets = new Insets(0, 0, 5, 0);
         gbc_scrollPane_1.gridx = 3;
-        gbc_scrollPane_1.gridy = 2;
+        gbc_scrollPane_1.gridy = 3;
         frame.getContentPane().add(scrollPane_1, gbc_scrollPane_1);
 
         final JList<String> list = new JList<>(mLegalityListModel);
@@ -416,13 +433,13 @@ public class GathererScraperUi {
         gbc_btnScrape.fill = GridBagConstraints.BOTH;
         gbc_btnScrape.insets = new Insets(0, 0, 0, 5);
         gbc_btnScrape.gridx = 0;
-        gbc_btnScrape.gridy = 3;
+        gbc_btnScrape.gridy = 4;
         frame.getContentPane().add(btnScrape, gbc_btnScrape);
 
         final JCheckBox chckbxSelectAll = new JCheckBox("Select All");
         GridBagConstraints gbc_chckbxSelectAll = new GridBagConstraints();
         gbc_chckbxSelectAll.gridx = 3;
-        gbc_chckbxSelectAll.gridy = 3;
+        gbc_chckbxSelectAll.gridy = 4;
         frame.getContentPane().add(chckbxSelectAll, gbc_chckbxSelectAll);
         chckbxSelectAll.addActionListener(e -> {
             if (chckbxSelectAll.isSelected()) {
