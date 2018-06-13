@@ -1,5 +1,5 @@
 {
-  "timestamp": 1527656747,
+  "timestamp": 1528896446,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -156,6 +156,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMA.json.gzip",
       "code": "CMA",
       "digest": "3422aa978934f3744c694901f2151434"
+    },
+    {
+      "name": "Commander Anthology 2018",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CM2.json.gzip",
+      "code": "CM2",
+      "digest": "10b722d46bbacfa624978d97f1993b28"
     },
     {
       "name": "Commander's Arsenal",
@@ -498,6 +504,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GTC.json.gzip",
       "code": "GTC",
       "digest": "01f86bed223e7cf355a6176b7ab577e8"
+    },
+    {
+      "name": "Global Series: Jiang Yanggu and Mu Yanling",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GS1.json.gzip",
+      "code": "GS1",
+      "digest": "2e20bb218db0a86327555a5c207ebefe"
     },
     {
       "name": "Guildpact",
@@ -936,6 +948,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ALA.json.gzip",
       "code": "ALA",
       "digest": "ecc76f4b40cd6220990c39b013f5afdb"
+    },
+    {
+      "name": "Signature Spellbook: Jace",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SS1.json.gzip",
+      "code": "SS1",
+      "digest": "d62bc2beef8b94eda8df6ff9e192fc92"
     },
     {
       "name": "Starter 1999",

@@ -312,6 +312,18 @@
     "digest": "3422aa978934f3744c694901f2151434"
   },
   {
+    "name_gatherer": "Commander Anthology 2018",
+    "code_gatherer": "CM2",
+    "code_mtgi": "CM2",
+    "name_tcgp": "Commander Anthology Volume II",
+    "name_mkm": "Commander Anthology Volume II",
+    "releaseTimestamp": 1527825600,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "10b722d46bbacfa624978d97f1993b28"
+  },
+  {
     "name_gatherer": "Commander's Arsenal",
     "code_gatherer": "CRS",
     "code_mtgi": "CMA",
@@ -994,6 +1006,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "01f86bed223e7cf355a6176b7ab577e8"
+  },
+  {
+    "name_gatherer": "Global Series: Jiang Yanggu and Mu Yanling",
+    "code_gatherer": "GS1",
+    "code_mtgi": "GS1",
+    "name_tcgp": "Global Series Jiang Yanggu & Mu Yanling",
+    "name_mkm": "Global Series Jiang Yanggu & Mu Yanling",
+    "releaseTimestamp": 1527825600,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "2e20bb218db0a86327555a5c207ebefe"
   },
   {
     "name_gatherer": "Guildpact",
@@ -1870,6 +1894,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "ecc76f4b40cd6220990c39b013f5afdb"
+  },
+  {
+    "name_gatherer": "Signature Spellbook: Jace",
+    "code_gatherer": "SS1",
+    "code_mtgi": "SS1",
+    "name_tcgp": "Signature Spellbook: Jace",
+    "name_mkm": "Signature Spellbook: Jace",
+    "releaseTimestamp": 1527825600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "d62bc2beef8b94eda8df6ff9e192fc92"
   },
   {
     "name_gatherer": "Starter 1999",
