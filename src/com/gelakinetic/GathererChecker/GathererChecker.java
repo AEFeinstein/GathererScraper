@@ -15,11 +15,14 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class GathererChecker {
     /**
@@ -194,93 +197,53 @@ public class GathererChecker {
         return new RssEntry("Comprehensive Rules " + dateStr, null, dateStr, url);
     }
 
+    private static class JudgeDoc
+    {
+		final String url;
+    	final String name;
+    	public JudgeDoc(String name, String url) {
+    		this.name = name;
+    		this.url = url;
+		}
+    }
+    
     /**
      * Look at the page that has the judge documents, get the date, make RssEntries for the documents, and return them
      *
      * @return An ArrayList of RssEntries for all the judge documents
      * @throws NullPointerException
      */
-    private static ArrayList<RssEntry> GetJudgeDocs() throws NullPointerException {
-        /* Pick the date out of the bluewizard website */
-        String date = GathererScraper.ConnectWithRetries("http://www.bluewizard.net/judgeDocs.html")
-                .getElementsByAttributeValueContaining("class", "media-body").get(0).text();
+	private static ArrayList<RssEntry> GetJudgeDocs() throws NullPointerException {
 
-        /* Try real hard to prettify the date. Not really necessary */
-        String pubDate;
-        try {
-            date = date.substring(date.indexOf("(") + 1, date.indexOf(")"));
-            String dateParts[] = date.split("\\s+");
-            int month;
-            switch (dateParts[1].toLowerCase()) {
-                case "jan":
-                case "january":
-                    month = 0;
-                    break;
-                case "feb":
-                case "february":
-                    month = 1;
-                    break;
-                case "mar":
-                case "march":
-                    month = 2;
-                    break;
-                case "apr":
-                case "april":
-                    month = 3;
-                    break;
-                case "may":
-                    month = 4;
-                    break;
-                case "jun":
-                case "june":
-                    month = 5;
-                    break;
-                case "jul":
-                case "july":
-                    month = 6;
-                    break;
-                case "aug":
-                case "august":
-                    month = 7;
-                    break;
-                case "sep":
-                case "september":
-                    month = 8;
-                    break;
-                case "oct":
-                case "october":
-                    month = 9;
-                    break;
-                case "nov":
-                case "november":
-                    month = 10;
-                    break;
-                case "dec":
-                case "december":
-                    month = 11;
-                    break;
-                default:
-                    throw new Exception("Invalid month: " + dateParts[1]);
-            }
-            Calendar cal = Calendar.getInstance();
-            cal.clear();
-            cal.set(Integer.parseInt(dateParts[2]), month, Integer.parseInt(dateParts[0]));
-            pubDate = GetRfc822Date(cal.getTime());
+		/* Make RssEntries for each of the three judge documents */
+		ArrayList<RssEntry> entries = new ArrayList<>();
 
-        } catch (Exception e) {
-            /* In case parsing fails */
-            pubDate = null;
-        }
+		JudgeDoc judgeDocs[] = {
+				new JudgeDoc("Magic Tournament Rules", "https://blogs.magicjudges.org/rules/mtr/"),
+				new JudgeDoc("Infraction Procedure Guide", "https://blogs.magicjudges.org/rules/ipg/"),
+				new JudgeDoc("Judging at Regular Rules Enforcement Level", "https://blogs.magicjudges.org/rules/jar/")
+			};
 
-        /* Make RssEntries for each of the three judge documents */
-        ArrayList<RssEntry> entries = new ArrayList<>();
-        entries.add(new RssEntry("Magic Infraction Guide, " + date, null, pubDate,
-                "http://www.bluewizard.net/docs/html/MagicInfractionGuide.html"));
-        entries.add(new RssEntry("Magic Tournament Rules, " + date, null, pubDate,
-                "http://www.bluewizard.net/docs/html/MagicTournamentRules.html"));
-        entries.add(new RssEntry("Judging At Regular, " + date, null, pubDate,
-                "http://www.bluewizard.net/docs/epub/JudgingAtRegular.epub"));
+		Pattern datePattern = Pattern.compile(".*last\\s+updated\\s+(\\S+)\\s+([0-9]+)\\s*,\\s+([0-9]+).*");
+		SimpleDateFormat formatter = new SimpleDateFormat("MMM dd, yyyy");
 
-        return entries;
-    }
+		for (JudgeDoc judgeDoc : judgeDocs) {
+			for (org.jsoup.nodes.Element element : GathererScraper.ConnectWithRetries(judgeDoc.url)
+					.getElementsByTag("em")) {
+				Matcher matcher = datePattern.matcher(element.text().toLowerCase());
+				if (matcher.matches()) {
+					try {
+						Date date = formatter.parse(String.format("%s %02d, %04d", matcher.group(1),
+								Integer.parseInt(matcher.group(2)), Integer.parseInt(matcher.group(3))));
+						entries.add(new RssEntry(judgeDoc.name + ", " + date, null, GetRfc822Date(date), judgeDoc.url));
+						break;
+					}
+					catch (NumberFormatException | ParseException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		}
+		return entries;
+	}
 }
