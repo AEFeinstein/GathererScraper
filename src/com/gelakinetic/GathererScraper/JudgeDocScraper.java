@@ -5,9 +5,11 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
@@ -18,6 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.jsoup.nodes.Document;
@@ -132,26 +135,35 @@ public class JudgeDocScraper {
             addPageToFile(page, html, linkIds);
         }
 
-        // Now that all sections have been written and all link IDs are known, replace links with internal ones
-        for (Element link : html.getElementsByTag("a")) {
-            String linkDestination = link.attr("href");
-            if (linkIds.contains(getLastPathSegment(linkDestination))) {
-                link.attr("href", "#" + getLastPathSegment(linkDestination));
-            } else if (linkDestination.contains("cardfinder")) {
-                try {
-                    for (NameValuePair param : URLEncodedUtils.parse(new URI(linkDestination), Charset.forName("UTF-8"))) {
-                        if (param.getName().equals("find")) {
-                            link.attr("href", "http://gatherer.wizards.com/Pages/Card/Details.aspx?name=" + param.getValue());
-                        }
-                    }
-                } catch (URISyntaxException e) {
-                    e.printStackTrace();
-                }
-            } else if (removeLinks && linkDestination.contains("magicjudges")) {
-                mUi.appendText("Link removed: " + linkDestination);
-                link.unwrap();
-            }
-        }
+		// Now that all sections have been written and all link IDs are known,
+		// replace links with internal ones
+		for (Element link : html.getElementsByTag("a")) {
+			try {
+				String linkDestination = link.attr("href");
+				if (linkIds.contains(getLastPathSegment(linkDestination))) {
+					link.attr("href", "#" + getLastPathSegment(linkDestination));
+				}
+				else if (linkDestination.contains("cardfinder")) {
+					for (NameValuePair param : URLEncodedUtils.parse(new URI(linkDestination),
+							Charset.forName("UTF-8"))) {
+						if (param.getName().equals("find")) {
+							link.attr("href", "http://gatherer.wizards.com/Pages/Card/Details.aspx?name=" +
+									URLEncoder.encode(GathererScraper.removeNonAscii(StringEscapeUtils.unescapeHtml4(param.getValue())), "UTF-8"));
+						}
+					}
+				}
+				else if (removeLinks && linkDestination.contains("magicjudges")) {
+					mUi.appendText("Link removed: " + linkDestination);
+					link.unwrap();
+				}
+			}
+			catch (URISyntaxException e) {
+				e.printStackTrace();
+			}
+			catch (UnsupportedEncodingException e) {
+				e.printStackTrace();
+			}
+		}
 
         // Write the HTML file
         try (BufferedWriter bw = new BufferedWriter(
@@ -161,7 +173,7 @@ public class JudgeDocScraper {
             bw.write(String.format("%d-%02d-%02d\n", now.getYear(), now.getMonthValue() - 1, now.getDayOfMonth()));
 
             // Write the HTML
-            bw.write(doc.toString());
+            bw.write(GathererScraper.removeNonAscii(doc.toString()));
         } catch (IOException e) {
             mUi.appendText("EXCEPTION!!! " + e.getMessage());
             e.printStackTrace();
