@@ -360,6 +360,18 @@
     "digest": "273996b6fa2d8b3b082171c86ea3eef0"
   },
   {
+    "name_gatherer": "Core Set 2019",
+    "code_gatherer": "M19",
+    "code_mtgi": "M19",
+    "name_tcgp": "Core Set 2019",
+    "name_mkm": "Core Set 2019",
+    "releaseTimestamp": 1530417600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "74c5ff8d6961467b8bfe38c3695caae7"
+  },
+  {
     "name_gatherer": "Dark Ascension",
     "code_gatherer": "DKA",
     "code_mtgi": "DKA",
