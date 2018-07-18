@@ -25,7 +25,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
@@ -376,6 +375,12 @@ public class GathererScraper {
 
                 String errLabel = "[" + exp.mCode_gatherer + "] " + name;
 
+                /* Sea Eagle was never printed in 9E, but Gatherer returns it... */
+                if("Sea Eagle".equals(name) && "9E".equals(exp.mCode_gatherer)) {
+                    /* Return the empty set */
+                    return scrapedCardsAllPages;
+                }
+                
                 CardGS card;
                 if (cardPages.size() > 1) {
                     /* Pick the multiverseID out of the URL */
