@@ -1,4 +1,4 @@
-2018-06-09
+2018-06-18
 <!doctype html>
 <html>
  <head>
@@ -9,7 +9,7 @@
  </header>
  <div class="entry-content"> 
   <div>
-   <em>Effective May 4, 2018<br> Last updated May 10 , 2018</em>
+   <em>Effective July 13, 2018<br> Last updated July 17 , 2018</em>
   </div> 
   <p>&nbsp;</p> 
   <h2>Introduction</h2> 
@@ -85,7 +85,7 @@
   <p>Warnings are used in situations of incorrect play when a small amount of time is needed to implement the corrective procedure. The purpose of a Warning is to alert judges and players involved that a problem has occurred and to keep a permanent record of the infraction in the DCI Penalty Database. A time extension should be issued if the ruling has taken more than a minute.</p>  
   <h2>Game Loss</h2> 
   <p>A Game Loss ends the current game immediately and the player who committed the infraction is considered to have lost the game for the purpose of match reporting. The player receiving a Game Loss chooses whether to play or draw in the next game of that match, if applicable. If a Game Loss is issued before the match begins, neither player in that match may use sideboards (if the tournament uses them) for the first game they play.</p>  
-  <p>Game Losses are applied to the game in which the offense occurred unless the players have begun a new game or the tournament is between rounds, in which case the loss is applied to the player's next game.</p>  
+  <p>Game Losses are applied immediately if the game is still ongoing, or to the player's next game if it is not, unless otherwise specified.</p>  
   <p>If simultaneous Game Loss penalties are issued to each player, they are recorded, but do not affect the match score.</p>  
   <p>&nbsp;</p> 
   <h2>Match Loss</h2> 
@@ -414,6 +414,7 @@
   <p>First consider a simple back up (see section 1.4)</p> 
   <p>If a simple backup is not sufficient and the infraction falls into one of the following categories, and only into that category, perform the fix specified unless a simple backup is possible:</p>  
   <ul> 
+   <li>If a player forgot to untap one or more objects at the start of their turn and it is still the same turn, untap them. <p></p></li> 
    <li>If a player made an illegal choice (including no choice where required) for a static ability generating a continuous effect still on the battlefield, that player makes a legal choice.<br> </li> 
    <li>If a player failed to draw cards, discard cards, or return cards from their hand to another zone, that player does so.<br> </li> 
    <li>If an object is in an incorrect zone either due to a required zone change being missed or due to being put into the wrong zone during a zone change, the identity of the object was known to all players, and it can be moved with only minor disruption to the current state of the game, put the object in the correct zone.<br> </li> 
@@ -510,7 +511,7 @@
   <p></p>
   <p></p> 
   <p>If a round begins before the previous round would have ended (due to all players finishing early), tardiness does not apply until the scheduled end of the previous round.</p>  
-  <p>If, before or during a match, a player requests permission from a judge for a delay for a legitimate task, such as a bathroom break or finding replacements for missing cards, that player may have up to 10 minutes to perform that task before they are considered tardy. If the player takes more than 10 minutes, a Match Loss will be applied. Otherwise, no penalty will be applied and a time extension given for the time taken.</p>  
+  <p>If, before or during a match, a player requests and receives permission from a judge for a delay for a legitimate task, such as a bathroom break or finding replacements for missing cards, that player has up to 10 minutes to perform that task before they are considered tardy. If the player takes more than 10 minutes, a Match Loss will be applied. Otherwise, no penalty will be applied and a time extension given for the time taken.</p>  
   <h2>Examples</h2> 
   <ul class="list-group"> 
    <li class="list-group-item"><strong>A.</strong> A player arrives to their seat 5 minutes after the round begins.<br> </li> 
@@ -636,8 +637,7 @@
   <p>Decklists are used to ensure that decks are not altered over the course of a tournament.</p>  
   <p>Judges and other tournament officials should be vigilant about reminding players before the tournament begins of the importance of submitting a legal decklist and playing with a legal deck.</p>  
   <p>A player normally receives a Game Loss if their decklist is altered after tournament play has begun.</p>  
-  <p>Penalties for decklist errors discovered during a deck check are issued immediately.</p>  
-  <p>Other decklist penalties are issued at the start of the next round to minimize the disruption to the match currently being played and provide consistency in case some players have finished playing their match before the penalty can be administered.</p>  
+  <p>Penalties for decklist errors discovered outside the context of the match and its procedures (such as those discovered through decklist counting) are issued at the start of the next match unless the judge believes there is strong evidence the deck itself is illegal.</p>  
   <p>Ambiguous or unclear names on a decklist may allow a player to manipulate the contents of their deck up until the point at which they are discovered.</p>  
   <p>Truncated names of storyline characters on decklists (legendary permanents and planeswalkers) are acceptable as long as they are the only representation of that character in the format and are treated as referring to that card, even if other cards begin with the same name.</p>  
   <p>The Head Judge may choose to not issue this penalty if they believe that what the player wrote on their decklist is obvious and unambiguous, even if it is not the full, accurate name of the card. In Limited tournaments, the Head Judge may choose not to issue this penalty for incorrectly marked basic land counts if they believe the correct land count is obvious. This should be determined solely by what is written on the decklist, and not based on intent given the actual contents of the deck; needing to check the deck for confirmation is a sign that the entry is not obvious.</p>  
@@ -710,7 +710,7 @@
      Upgrade
     </div>
    </div></h5> 
-  <p>If an error resulted in more copies of a main deck card being played than were registered and this was discovered after the game had begun, the penalty is a Game Loss. For example if the decklist has two copies of Shock in the main deck and two in the sideboard, but there are three copies of Shock in the library, the penalty is upgraded.</p>  
+  <p>If an error resulted in more copies of a main deck card being played than were registered and this was discovered after the game had begun, the penalty is a Game Loss unless all copies of the card are still in the random portion of the library. For example if the decklist has two copies of Shock in the main deck and two in the sideboard, but there are three copies of Shock in the library, the penalty is upgraded.</p>  
  </div>
  <header class="entry-header" id="ipg3-6"> 
   <h1 class="entry-title">IPG 3.6 Tournament Error - Limited Procedure Violation</h1> 
@@ -748,16 +748,16 @@
  <div class="entry-content"> 
   <div> 
    <h2>Definition</h2> 
-   <p>A player violates the Communication policies detailed in section 4 of the <strong>Magic</strong> Tournament Rules and the judge believes their opponent has acted on the erroneous information. This infraction only applies to violations of that policy and not to general communication confusion.</p> 
+   <p>A player violates the Communication policies detailed in section 4 of the <strong>Magic</strong> Tournament Rules and the judge believes their opponent has acted&nbsp;or clearly chosen not to act based on the erroneous information. This infraction only applies to violations of that policy and not to general communication confusion.</p> 
   </div> 
-  <div> 
+  <div>
    <div class="alert alert-warning" role="alert"> 
     <p></p> 
     <p><strong>Penalty</strong></p> 
     <p>Warning</p> 
     <p></p>
    </div>
-   <p></p>
+   <p></p> 
   </div> 
   <br> 
   <p></p>
@@ -798,7 +798,7 @@
   <h2>Examples</h2> 
   <ul class="list-group"> 
    <li class="list-group-item"><strong>A.</strong> A player has small marks on a few of their sleeves. The markings are on a <a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Mountain" class="jTip" name="">Mountain</a>, a <a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Loxodon+Hierarch" class="jTip" name="">Loxodon Hierarch</a>, and a <a href="http://gatherer.wizards.com/Pages/Card/Details.aspx?name=Lightning+Helix" class="jTip" name="">Lightning Helix</a>.<br> </li> 
-   <li class="list-group-item"><strong>B.</strong> A player without sleeves has several foil cards that stand out significantly from the rest of their deck.<br> </li> 
+   <li class="list-group-item"><strong>B.</strong> A player has several foil cards that stand out significantly from the rest of their deck.<br> </li> 
    <li class="list-group-item"><strong>C.</strong> The basic lands in a player's unsleeved deck are from a set with notably lighter backs.<br> </li> 
   </ul> 
   <h2>Philosophy</h2> 
@@ -813,7 +813,13 @@
   <h2>Additional Remedy</h2> 
   <p>The player needs to replace the card(s) or sleeve(s) with an unmarked version or, if no sleeves are being used, use sleeves that conceal the markings.</p>  
   <p>If the cards themselves have become marked through play in the tournament, the Head Judge may decide to issue a proxy.</p>  
-  <p>If the player is unable to find replacement cards, they may replace those cards with basic lands (other than Wastes); this change may be reverted at a later point if replacements for marked cards are found.</p>  
+  <h5>
+   <div class="card">
+    <div class="card-header">
+     Upgrade
+    </div>
+   </div></h5> 
+  <p>If the player is unable to find replacement cards, they may replace those cards with any combination of cards named Plains, Island, Swamp, Mountain or Forest. As the decklist is being changed to match the new contents of the deck, the penalty is a Game Loss. This change may be reverted at a later point without further penalty if replacements for marked cards are found.</p>  
   <h5>
    <div class="card">
     <div class="card-header">
