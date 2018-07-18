@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
@@ -218,7 +219,7 @@ public class GathererScraper {
                         i--;
                     }
                 } catch (Exception e) {
-                    System.out.println(String.format("Muy Problemo [%3s] %s: %s",
+                    System.err.println(String.format("Muy Problemo [%3s] %s: %s",
                             scrapedCards.get(i).mExpansion,
                             scrapedCards.get(i).mName,
                             e.toString()));
@@ -233,7 +234,7 @@ public class GathererScraper {
         Collections.sort(scrapedCards);
         for (int i = 0; i < scrapedCards.size() - 1; i++) {
             if (scrapedCards.get(i).mNumber.equals(scrapedCards.get(i + 1).mNumber)) {
-                System.out.println(String.format("[%3s]\t%s & %s\t%s",
+                System.err.println(String.format("[%3s]\t%s & %s\t%s",
                         scrapedCards.get(i).mExpansion,
                         scrapedCards.get(i).mName,
                         scrapedCards.get(i + 1).mName,
@@ -336,18 +337,26 @@ public class GathererScraper {
         ArrayList<Document> cardPages = new ArrayList<>();
         cardPages.add(ConnectWithRetries(cardUrl));
 
+        /* Get all cards on this page */
+        int numNames = getCardIds(cardPages.get(0), "[" + exp.mCode_gatherer + "] ").keySet().size();
+        
         /* Get all the multiverse IDs of all printings */
         ArrayList<Integer> mIds = getPrintingMultiverseIds(cardPages.get(0));
-        /* If there are alternate printings */
-        if (mIds != null) {
-            /* For all printings */
-        	Collections.sort(mIds);
-            for (Integer mId : mIds) {
-                /* If we haven't downloaded this page yet */
-                String newUrl = CardGS.getUrl(mId);
-                if (!newUrl.equals(cardUrl)) {
-                    /* Download it */
-                    cardPages.add(ConnectWithRetries(CardGS.getUrl(mId)));
+        
+        
+        if(!(("IN".equals(exp.mCode_gatherer) || "AP".equals(exp.mCode_gatherer)) &&
+                numNames > 1)) {
+            /* If there are alternate printings */
+            if (mIds != null) {
+                /* For all printings */
+            	Collections.sort(mIds);
+                for (Integer mId : mIds) {
+                    /* If we haven't downloaded this page yet */
+                    String newUrl = CardGS.getUrl(mId);
+                    if (!newUrl.equals(cardUrl)) {
+                        /* Download it */
+                        cardPages.add(ConnectWithRetries(CardGS.getUrl(mId)));
+                    }
                 }
             }
         }
@@ -366,12 +375,6 @@ public class GathererScraper {
             for (String name : ids.keySet()) {
 
                 String errLabel = "[" + exp.mCode_gatherer + "] " + name;
-
-                /* Sea Eagle was never printed in 9E, but Gatherer returns it... */
-                if("Sea Eagle".equals(name) && "9E".equals(exp.mCode_gatherer)) {
-                    /* Return the empty set */
-                    return scrapedCardsAllPages;
-                }
 
                 CardGS card;
                 if (cardPages.size() > 1) {

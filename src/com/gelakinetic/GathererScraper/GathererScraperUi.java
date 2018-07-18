@@ -244,7 +244,7 @@ public class GathererScraperUi {
         gbc_lblNewLabel.gridwidth = 3;
         gbc_lblNewLabel.insets = new Insets(0, 0, 5, 5);
         gbc_lblNewLabel.gridx = 0;
-        gbc_lblNewLabel.gridy = 2;
+        gbc_lblNewLabel.gridy = 1;
         frame.getContentPane().add(mLastCardScraped, gbc_lblNewLabel);
 
         Component lblLegalities = new JLabel("Legalities");
@@ -258,12 +258,12 @@ public class GathererScraperUi {
         scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         GridBagConstraints gbc_scrollPane = new GridBagConstraints();
-        gbc_scrollPane.gridheight = 3;
+        gbc_scrollPane.gridheight = 2;
         gbc_scrollPane.gridwidth = 3;
         gbc_scrollPane.insets = new Insets(0, 0, 5, 5);
         gbc_scrollPane.fill = GridBagConstraints.BOTH;
         gbc_scrollPane.gridx = 0;
-        gbc_scrollPane.gridy = 1;
+        gbc_scrollPane.gridy = 2;
         frame.getContentPane().add(scrollPane, gbc_scrollPane);
         mTable = new JTable(mExpansionTableModel);
         mTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
