@@ -45,7 +45,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "594a4c97e609606e584b10fc7b9644bc"
+    "digest": "6517d906a3babd43fc3eb95edf06735e"
   },
   {
     "name_gatherer": "Antiquities",
@@ -69,7 +69,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d0eefbfd185fc7697fbb278ef17d264d"
+    "digest": "cfe57f36b23c06cfd7af4fdb9592640a"
   },
   {
     "name_gatherer": "Arabian Nights",
@@ -81,7 +81,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "333b2b01732a0dad618bc9a58c7f822a"
+    "digest": "f4cdc5101ca60c374a2c6246931381b4"
   },
   {
     "name_gatherer": "Archenemy",
@@ -93,7 +93,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d7b5cc270afa4f1cd100e7429720cceb"
+    "digest": "572d208a2b21bae5379b1825a6475028"
   },
   {
     "name_gatherer": "Archenemy: Nicol Bolas",
@@ -105,7 +105,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "438ffc95b529aea2d11c21643c262475"
+    "digest": "f3ced629f5dabf69e7736bfd946e8274"
   },
   {
     "name_gatherer": "Avacyn Restored",
@@ -117,7 +117,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "15e70f88ce4aeeb632cbe43232272583"
+    "digest": "2170370454ea70e62777b7d622195449"
   },
   {
     "name_gatherer": "Battle Royale Box Set",
@@ -129,7 +129,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "c90194500325eba93165f652fa340cc9"
+    "digest": "9cf67a9642dfef0bd5ab93be639e770c"
   },
   {
     "name_gatherer": "Battle for Zendikar",
@@ -141,7 +141,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "323a8f7a266d6948e309576d7b252994"
+    "digest": "c15e693d764197e711db1bb282632588"
   },
   {
     "name_gatherer": "Battlebond",
@@ -153,7 +153,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dd03b076fae1bfff9548f87b644ab2f5"
+    "digest": "2ba9a3af2a9f0c0a9d17c6b8cbf5e178"
   },
   {
     "name_gatherer": "Beatdown Box Set",
@@ -165,7 +165,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "351705517d42517c293ef02bde107874"
+    "digest": "d544822d200815c47df6d552df435d3c"
   },
   {
     "name_gatherer": "Betrayers of Kamigawa",
@@ -177,7 +177,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3d97a907293e29348152e2eff52aec22"
+    "digest": "5d835072618fc42725e2d40ccadacb08"
   },
   {
     "name_gatherer": "Born of the Gods",
@@ -201,7 +201,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "abf145a27c8737c3e1f51c4faefa4e9d"
+    "digest": "c505b3bcfb96b9c29b330537e027eb90"
   },
   {
     "name_gatherer": "Chronicles",
@@ -225,7 +225,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "fc332fd3ab6d357ec41e29dbe9d86e5f"
+    "digest": "d817efaa3bcb8480b7e7e520d7ddbe29"
   },
   {
     "name_gatherer": "Coldsnap",
@@ -249,7 +249,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "837fc488fd062011cc04c4b1f39f3b7d"
+    "digest": "3099e2515db1fbd6a5d93ac7d991dc6d"
   },
   {
     "name_gatherer": "Commander 2014",
@@ -261,7 +261,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "eead2054204d04f6bcd540e352be44e0"
+    "digest": "ca4b5db753f8eb7d5a23ebb93d22a7ad"
   },
   {
     "name_gatherer": "Commander 2015",
@@ -273,7 +273,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1a3727e29a7609ae3cfa72aa0f9ce229"
+    "digest": "6590dfaee770fa4a17e18f2a2153742c"
   },
   {
     "name_gatherer": "Commander 2016",
@@ -285,7 +285,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "46b2f15d361793884278e85ef1a5314e"
+    "digest": "792f069d6f2ae21a809ae91de766f8ad"
   },
   {
     "name_gatherer": "Commander 2017",
@@ -297,7 +297,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4fd181b11804ed0edfb63936d292e7be"
+    "digest": "5ced8e087d4d8b1d994bf5928fdc647f"
   },
   {
     "name_gatherer": "Commander Anthology",
@@ -309,7 +309,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3422aa978934f3744c694901f2151434"
+    "digest": "bca7e8025da42d7b08b177fffbbd4447"
   },
   {
     "name_gatherer": "Commander Anthology 2018",
@@ -321,7 +321,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "10b722d46bbacfa624978d97f1993b28"
+    "digest": "6ace316eddf37beb5c67821e4e3bb292"
   },
   {
     "name_gatherer": "Commander's Arsenal",
@@ -357,7 +357,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "273996b6fa2d8b3b082171c86ea3eef0"
+    "digest": "6b093fe7e14b3bf1326ee49f78eb24b7"
   },
   {
     "name_gatherer": "Core Set 2019",
@@ -369,7 +369,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "74c5ff8d6961467b8bfe38c3695caae7"
+    "digest": "d161ef135e88d916717a21d92904ed2a"
   },
   {
     "name_gatherer": "Dark Ascension",
@@ -381,7 +381,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "249dcbdad9df71638bdf65dae96f1820"
+    "digest": "14a11bdd178339421373674edf64b986"
   },
   {
     "name_gatherer": "Darksteel",
@@ -405,7 +405,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4ef5114dfd42b50be01ce3da5d43f47d"
+    "digest": "caa2f6653ab4d1390e356563c8c7501a"
   },
   {
     "name_gatherer": "Dominaria",
@@ -417,7 +417,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b1d9d8e4e323c5b4a3e6cdcbc3c0d966"
+    "digest": "6495d4a1750e53171959e50717f0efa7"
   },
   {
     "name_gatherer": "Dragon's Maze",
@@ -429,7 +429,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b7d18a8b0935c705d930842a4a883d63"
+    "digest": "299af93c0cb1fd4230faadb27d73c902"
   },
   {
     "name_gatherer": "Dragons of Tarkir",
@@ -441,7 +441,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5ed8b9e4924c2f8d307a5ce317474b01"
+    "digest": "ae43654892e82f304490f7045e49d1dd"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Divine vs. Demonic",
@@ -453,7 +453,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b6a207e7c382a5b11efc566be48f5be8"
+    "digest": "5360751cc9df74e50956b70209a7ac63"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Elves vs. Goblins",
@@ -465,7 +465,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "43fca4dd4287902463b146a9bcdd7b7e"
+    "digest": "3d093e1e00d17ef4be8db46f25461cc4"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Garruk vs. Liliana",
@@ -477,7 +477,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "12db5d4092e6cf4c903b4beee7e81bf0"
+    "digest": "915f7dc08d214daab02edaf4b5729009"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Jace vs. Chandra",
@@ -489,7 +489,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e0aa8750991e06b3ed2b35d36838f407"
+    "digest": "64833d384ccf4d5e818bd8f61b653e44"
   },
   {
     "name_gatherer": "Duel Decks: Ajani vs. Nicol Bolas",
@@ -501,7 +501,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8746c0cc5f02b97cb392cbacbbad65c5"
+    "digest": "0201d6a7bf8201bb1513f58063e08f41"
   },
   {
     "name_gatherer": "Duel Decks: Blessed vs. Cursed",
@@ -513,7 +513,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "949b39144346d14d493a8ab2993f8622"
+    "digest": "d726eb64b75c916baf1b599f882440c6"
   },
   {
     "name_gatherer": "Duel Decks: Divine vs. Demonic",
@@ -525,7 +525,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6b5e852c2c805205666f7c772b6ace43"
+    "digest": "ea4f628b8a3575c02e9f12e945e77d36"
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Kiora",
@@ -537,7 +537,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1b59aef2fce9b46ea7bde61467fb6346"
+    "digest": "1c54b5bad6ed992e22a76f49f8d973ce"
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Tezzeret",
@@ -549,7 +549,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "626572d2f445fe398b7d7dd9a882d6fc"
+    "digest": "9fca5c35acfe9f75133af77309d087b7"
   },
   {
     "name_gatherer": "Duel Decks: Elves vs. Goblins",
@@ -561,7 +561,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d43eddd0da5f7affedf3de22d722ba6b"
+    "digest": "304d4f6ed332857b86a87d4cdeb8ae7f"
   },
   {
     "name_gatherer": "Duel Decks: Elves vs. Inventors",
@@ -573,7 +573,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "19f7b67b102bc4bb200104ef80b49742"
+    "digest": "e53dc04d6a2b8e465d77ae03959c7878"
   },
   {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
@@ -585,7 +585,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1c2ecb7ca45eb42fca7411dfd921b8b9"
+    "digest": "4e2f869373e675f0a6f293797ab903c0"
   },
   {
     "name_gatherer": "Duel Decks: Heroes vs. Monsters",
@@ -597,7 +597,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "46933e821cffb288ebd5820302f29cc4"
+    "digest": "4ae89e747128915fbaa9e1fc4d5babbe"
   },
   {
     "name_gatherer": "Duel Decks: Izzet vs. Golgari",
@@ -609,7 +609,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c4cc87b1105e817fded86e1f66ee93df"
+    "digest": "b5f380a156731d8a5d52cc97fc3bc308"
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Chandra",
@@ -621,7 +621,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3de41034e27f88ba10693e1b3262b60f"
+    "digest": "74d4d64e6449e08ee6fb3ca98f494143"
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Vraska",
@@ -633,7 +633,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "cc8c2a295dfd6c4fedea20c18ab8748d"
+    "digest": "a6f8b68626df05c3d9cc2b719f0d8ad9"
   },
   {
     "name_gatherer": "Duel Decks: Knights vs. Dragons",
@@ -645,7 +645,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d0d4d2bc03b617ed58f1c62a91d31076"
+    "digest": "26a4a42a3e9656b6af33915d828507de"
   },
   {
     "name_gatherer": "Duel Decks: Merfolk vs. Goblins",
@@ -657,7 +657,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a515e6cb589ddd3f9406c2adc954d69c"
+    "digest": "12aeb4502136b930e911492cc65c4534"
   },
   {
     "name_gatherer": "Duel Decks: Mind vs. Might",
@@ -669,7 +669,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6991e0a14567e5b538f15d93c2eefa85"
+    "digest": "56fd08c02f529951a572e7de0bf14e62"
   },
   {
     "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
@@ -681,7 +681,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5882f38810f2914f835a282cb6fce834"
+    "digest": "2e8c1d70decb3d902efd920f22dc3cbe"
   },
   {
     "name_gatherer": "Duel Decks: Phyrexia vs. the Coalition",
@@ -693,7 +693,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "eb57a71298d1746f5c8ca49d833db898"
+    "digest": "f9edd8920fcf95168521e71b508ea0ea"
   },
   {
     "name_gatherer": "Duel Decks: Sorin vs. Tibalt",
@@ -705,7 +705,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c34b8e850f12473b438d007345aca8e5"
+    "digest": "8ecfbf467a69acfe2643e74395156a7a"
   },
   {
     "name_gatherer": "Duel Decks: Speed vs. Cunning",
@@ -717,7 +717,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b30f2d74999342484267c0a647ad32c4"
+    "digest": "b0a088db58fbc6facecd09893c897af4"
   },
   {
     "name_gatherer": "Duel Decks: Venser vs. Koth",
@@ -729,7 +729,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "07c79b9b2c44c6a741ccb5dda9cebdf7"
+    "digest": "bd9d3af60ce070f0a4e1ae66eeee94aa"
   },
   {
     "name_gatherer": "Duel Decks: Zendikar vs. Eldrazi",
@@ -741,7 +741,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "74d16cad05ab1c9f047cc401c93d45c3"
+    "digest": "f4be113ce2eeb95b8078bad49c396fda"
   },
   {
     "name_gatherer": "Eighth Edition",
@@ -753,7 +753,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "679a3d2c93f07320175d4f2ae13d58f2"
+    "digest": "1ac8925fce23353c1f44a2a26ec6f537"
   },
   {
     "name_gatherer": "Eldritch Moon",
@@ -765,7 +765,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b005063d6cf9efb28f89619b87baa8d3"
+    "digest": "198b433645e243f5fbe3eab1277b3e3f"
   },
   {
     "name_gatherer": "Eternal Masters",
@@ -777,7 +777,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "50d17c727bd94419dfbc876b8d220169"
+    "digest": "47d173d4e10276c6a317a97006666288"
   },
   {
     "name_gatherer": "Eventide",
@@ -837,7 +837,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9a438a356b5c45149014e8b0c75f73ba"
+    "digest": "4069a25367347e5eaa085dcf7a6abdcf"
   },
   {
     "name_gatherer": "Fifth Dawn",
@@ -849,7 +849,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d5be89f2bd95513dda716dccac7f4e50"
+    "digest": "60877601e1c08c7bdc25a07dc4c60a53"
   },
   {
     "name_gatherer": "Fifth Edition",
@@ -861,7 +861,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "c78a659abe25a3c624127bac31616143"
+    "digest": "75c44fc2bfbff82fd62484a3faea5699"
   },
   {
     "name_gatherer": "Fourth Edition",
@@ -873,7 +873,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "a1b8588f443c0417abe326a75798b5af"
+    "digest": "0a367339ae7e4b2607493e9a7fb942a7"
   },
   {
     "name_gatherer": "From the Vault: Angels",
@@ -933,7 +933,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0f7185a0034c711990c2a0d957284d60"
+    "digest": "691277397363b6d3db4a5ab8a99148f5"
   },
   {
     "name_gatherer": "From the Vault: Lore",
@@ -1005,7 +1005,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7f7289615f64d8cae667bc2c6294a2ce"
+    "digest": "ecf679a08c9e534a1058da74a5ab9db4"
   },
   {
     "name_gatherer": "Gatecrash",
@@ -1017,7 +1017,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "01f86bed223e7cf355a6176b7ab577e8"
+    "digest": "98054e2311c230e7008fe78a6b8f69ca"
   },
   {
     "name_gatherer": "Global Series: Jiang Yanggu and Mu Yanling",
@@ -1029,7 +1029,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2e20bb218db0a86327555a5c207ebefe"
+    "digest": "5204cb929accbcc6b24313f0f1d3eb8f"
   },
   {
     "name_gatherer": "Guildpact",
@@ -1041,7 +1041,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8d714f68cf4c0c57491c278706e69145"
+    "digest": "424e696d0c84dceebedbfbd4cb0c44a5"
   },
   {
     "name_gatherer": "Homelands",
@@ -1065,7 +1065,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "be3ebe2c36517e0b65ae49f985930858"
+    "digest": "f47f690c027519923100542a0b042145"
   },
   {
     "name_gatherer": "Ice Age",
@@ -1077,7 +1077,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d7c6973c8da3f1c00f1fdbe186b06e9d"
+    "digest": "d5e459cbbd9d57b61c8975a22c8d22f8"
   },
   {
     "name_gatherer": "Iconic Masters",
@@ -1089,7 +1089,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1a474f489f247729a85f8e8738ea94a7"
+    "digest": "9a9844ddfbb9496d44018a24431103bc"
   },
   {
     "name_gatherer": "Innistrad",
@@ -1101,7 +1101,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dc0bc9de445e37df823b5d582e542484"
+    "digest": "7ff48fb9939d30fc18af4790a073f814"
   },
   {
     "name_gatherer": "Invasion",
@@ -1113,7 +1113,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ae9af84dab23d883b681cf1200fc3f44"
+    "digest": "a09628073f2542969aa1379363b94567"
   },
   {
     "name_gatherer": "Ixalan",
@@ -1125,7 +1125,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "53fb9798b46e2f2471544c198543902b"
+    "digest": "d287cd2077da6f82be0cd82dbe9130f2"
   },
   {
     "name_gatherer": "Journey into Nyx",
@@ -1137,7 +1137,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "38e4f59a3443a95b2598a905a2424d52"
+    "digest": "dd86e0600a35cbbfb0dbe2726ed00a8b"
   },
   {
     "name_gatherer": "Judgment",
@@ -1161,7 +1161,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ad0429988dc07ade0a59e9ca09237f7f"
+    "digest": "f706c1e83263bce502d5023e6cbfbe28"
   },
   {
     "name_gatherer": "Khans of Tarkir",
@@ -1173,7 +1173,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c7a38128bbe1938597688955b37b8c73"
+    "digest": "290823e82ecd612899ea7b14d145afbc"
   },
   {
     "name_gatherer": "Legends",
@@ -1185,7 +1185,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "89667e957d4a266dae87baefaa056dff"
+    "digest": "dc99dc797bd72cc0c3be5f8b9bace8b7"
   },
   {
     "name_gatherer": "Legions",
@@ -1209,7 +1209,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "45052a6cbcfd1e810512564c21990f91"
+    "digest": "46034c3e1fde447376b6574eb90cd4cb"
   },
   {
     "name_gatherer": "Limited Edition Beta",
@@ -1221,7 +1221,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8c73010d3b9aa6a75727d605f145ec36"
+    "digest": "baed985f6304832631487e1c3211caec"
   },
   {
     "name_gatherer": "Lorwyn",
@@ -1233,7 +1233,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a0c0981950976813df2966102bd9f56d"
+    "digest": "9d9699b010a46159596aa25a1d017d6d"
   },
   {
     "name_gatherer": "Magic 2010",
@@ -1245,7 +1245,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0bd56b42c416060e2a0e21f4659d498d"
+    "digest": "23ad875a830761c4c0aa598ffe543584"
   },
   {
     "name_gatherer": "Magic 2011",
@@ -1257,7 +1257,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "69070f1ff0db2111c0ad9f4713b6574c"
+    "digest": "b974df03b9bc5d7845b114b0d6554693"
   },
   {
     "name_gatherer": "Magic 2012",
@@ -1269,7 +1269,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c23178b417ad0cd6eda83070c2ce9e53"
+    "digest": "f34cebed3c04394528d73932bcc779d6"
   },
   {
     "name_gatherer": "Magic 2013",
@@ -1281,7 +1281,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "462855625fa6f1c5055f01f19eb6ed9f"
+    "digest": "14fc7f5b5f168572fef840da4b7eb257"
   },
   {
     "name_gatherer": "Magic 2014 Core Set",
@@ -1293,7 +1293,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "da447b847c4e7461035de222167c4391"
+    "digest": "51446d3207ae2e71200e5aafae0048b4"
   },
   {
     "name_gatherer": "Magic 2015 Core Set",
@@ -1305,7 +1305,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "893db545507397308b45628971e3592a"
+    "digest": "333bde7af38a0fec506eecadc60d66dc"
   },
   {
     "name_gatherer": "Magic Origins",
@@ -1317,7 +1317,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7ae693a15578ec839d979aa0bc98d940"
+    "digest": "1fbbb1fa8fa4730f94b5027c756940ab"
   },
   {
     "name_gatherer": "Magic: The Gathering-Commander",
@@ -1329,7 +1329,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "509ed5708a960bdf83d591656d32dc63"
+    "digest": "0aa4bbe13bf1b22abe00a7161b61c98b"
   },
   {
     "name_gatherer": "Magic: The Gathering-Conspiracy",
@@ -1341,7 +1341,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e5728b1d972afc6d74112ef4bdb21b22"
+    "digest": "a8ef2ae75de1fece8096912a3981ddee"
   },
   {
     "name_gatherer": "Masterpiece Series: Amonkhet Invocations",
@@ -1377,7 +1377,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e13a93769f420c0705a734906a7d8a05"
+    "digest": "46545eec2e5df6023a19b4a3935828a1"
   },
   {
     "name_gatherer": "Masters Edition",
@@ -1389,7 +1389,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "8b6c150d0dda459042d3a42353668967"
+    "digest": "e810554ec3ac344f38cff1ec596da6a6"
   },
   {
     "name_gatherer": "Masters Edition II",
@@ -1413,7 +1413,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "93acc7c8c58106653a33b5f807d84b96"
+    "digest": "7b19e849d52ee362ea2abe1656dc9a0c"
   },
   {
     "name_gatherer": "Masters Edition IV",
@@ -1425,7 +1425,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "1768257afca2fa7df00f33e605437d85"
+    "digest": "8c86c5a5ec5c2f12840dae1d9e0841f2"
   },
   {
     "name_gatherer": "Mercadian Masques",
@@ -1437,7 +1437,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f1cb409faf3d379ed1f0bf7c9b71b26c"
+    "digest": "1c81bd84b8291f60f5e671dff40d56bb"
   },
   {
     "name_gatherer": "Mirage",
@@ -1449,7 +1449,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8669d691ba742185957284aef742a1c6"
+    "digest": "8f322d2468a3019057109e6ea06ef1e4"
   },
   {
     "name_gatherer": "Mirrodin",
@@ -1461,7 +1461,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "945d2ee6538b7202bd8248e8e2117955"
+    "digest": "173c0a28947dac076c51df09bdab9e77"
   },
   {
     "name_gatherer": "Mirrodin Besieged",
@@ -1473,7 +1473,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4eca56b915cb8d05a39dd34e0a063e5a"
+    "digest": "e75235ab9b57cf09e160aaf05174a4d9"
   },
   {
     "name_gatherer": "Modern Event Deck 2014",
@@ -1485,7 +1485,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "907b355a6ee832685cf8d1cf1936a936"
+    "digest": "b76a00269f07c1127a427372d6e7f2bb"
   },
   {
     "name_gatherer": "Modern Masters",
@@ -1497,7 +1497,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3fd556b6b8104d3ee0c0307f019f56e3"
+    "digest": "9bafda5e039b82bdc39ac645b9caa3a7"
   },
   {
     "name_gatherer": "Modern Masters 2015 Edition",
@@ -1509,7 +1509,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8afd35282726605a45062896e698ac78"
+    "digest": "297fec634e7cea5190c9488bf88c27b2"
   },
   {
     "name_gatherer": "Modern Masters 2017 Edition",
@@ -1521,7 +1521,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2ad674a3fd71410b6e4bebac522fe0b7"
+    "digest": "89a9762f3e33e991753020a22daf1a1f"
   },
   {
     "name_gatherer": "Morningtide",
@@ -1533,7 +1533,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a585c2266d038377964c63bc2c84f53a"
+    "digest": "8477f8c7ce9dd124151defd7b7df6696"
   },
   {
     "name_gatherer": "Nemesis",
@@ -1545,7 +1545,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a7617aa443e2ea6cc9c30ebd988ac0bb"
+    "digest": "eb659f1d2d2f78d699196cf159595b91"
   },
   {
     "name_gatherer": "New Phyrexia",
@@ -1557,7 +1557,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3bce789ffea2d78252e15a07be2741a4"
+    "digest": "163576fbfcc917258ff7f0b6c5e9b177"
   },
   {
     "name_gatherer": "Ninth Edition",
@@ -1569,7 +1569,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "72252047cca293867b201d746c7214f0"
+    "digest": "7253bcf3d4f444aed20fc2ff960684d3"
   },
   {
     "name_gatherer": "Oath of the Gatewatch",
@@ -1581,7 +1581,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c9ffc7ab51a9308768937581710c51a8"
+    "digest": "201728d82adbdaeeb18fb4f3db538319"
   },
   {
     "name_gatherer": "Odyssey",
@@ -1593,7 +1593,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "747ffe01a517a4b290bdd3f01a5e02e7"
+    "digest": "b500f4ea9c68d8c4f77a5f8812857df9"
   },
   {
     "name_gatherer": "Onslaught",
@@ -1605,7 +1605,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c57893b20708d2b02718a7e901c1c5a0"
+    "digest": "3d450a69ce9f0f03c40faf30a98049b8"
   },
   {
     "name_gatherer": "Planar Chaos",
@@ -1629,7 +1629,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "58f3e41588af903385c3b437c9212155"
+    "digest": "1ba1a589ebc70e93ec322a5ab8444f60"
   },
   {
     "name_gatherer": "Planechase 2012 Edition",
@@ -1641,7 +1641,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f0f49f572dde7db660db30a7da9afb9e"
+    "digest": "e46d0f689232c13932e57f0a6fd600a6"
   },
   {
     "name_gatherer": "Planechase Anthology",
@@ -1653,7 +1653,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ff19b65fbf9c105316f731a048295160"
+    "digest": "d633b112e4ecf7ff381d0d33be983c42"
   },
   {
     "name_gatherer": "Planeshift",
@@ -1677,7 +1677,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5b7299d6138092d0601ac0cc8305e897"
+    "digest": "e65e9d6421bc2199a3f4bbf011b4cdec"
   },
   {
     "name_gatherer": "Portal Second Age",
@@ -1689,7 +1689,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "44cb6c5144a9fd193cf3c94c94017a02"
+    "digest": "7030b0399c6d29357f800d9ccaa4c6de"
   },
   {
     "name_gatherer": "Portal Three Kingdoms",
@@ -1701,7 +1701,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "697c6b952bf951050f3e3f29840e8f2a"
+    "digest": "20eadde1a4218c6240a9a8894f6f612b"
   },
   {
     "name_gatherer": "Premium Deck Series: Fire and Lightning",
@@ -1713,7 +1713,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6df034a88cf72d0a0148ed595356fc44"
+    "digest": "3e6e4fe6d81f2b8abaee1fc46a52f67f"
   },
   {
     "name_gatherer": "Premium Deck Series: Graveborn",
@@ -1725,7 +1725,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7e4bb95e90a3b0b4ff12186b83bc9e15"
+    "digest": "050d6db8e8b5afe6c544af8a32a937aa"
   },
   {
     "name_gatherer": "Premium Deck Series: Slivers",
@@ -1737,7 +1737,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5eb048839b96155221ecf4dd62b05018"
+    "digest": "4080b9eaba570e6f61c7d4a5707b2dec"
   },
   {
     "name_gatherer": "Promo set for Gatherer",
@@ -1773,7 +1773,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "02a37212b7c2421d0e7a858129338dd7"
+    "digest": "78d0f34217e469d0b6cbbb80a7d5f32f"
   },
   {
     "name_gatherer": "Return to Ravnica",
@@ -1785,7 +1785,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b2ed66c329dcdf8abfd30adb0a6bc30c"
+    "digest": "f8a2166bf19c7c5e3c99cd3d22bcd76d"
   },
   {
     "name_gatherer": "Revised Edition",
@@ -1797,7 +1797,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "370a06fe54f55fcf811c79699b53dfee"
+    "digest": "90b03d0853ccdd8776e6b068e02da654"
   },
   {
     "name_gatherer": "Rise of the Eldrazi",
@@ -1809,7 +1809,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bd6e17a94ea49027376a34ea36c8a4d9"
+    "digest": "961adcedf1bd70bdc16750f7dbd8e216"
   },
   {
     "name_gatherer": "Rivals of Ixalan",
@@ -1821,7 +1821,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "372ce9d7ba3d8abe46fffbfb62c6cfeb"
+    "digest": "a1f7c0ecdf508fdd7135ae62ad348420"
   },
   {
     "name_gatherer": "Saviors of Kamigawa",
@@ -1833,7 +1833,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4b4f80e3bc6d6242fb67a43b72f8b0a7"
+    "digest": "4a37a61f33337dcca6fbda3b8ed3d0e4"
   },
   {
     "name_gatherer": "Scars of Mirrodin",
@@ -1845,7 +1845,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c6ee7c22fc00917009cd1600d2ec0d4f"
+    "digest": "91a15e3f864488088a74a4a4da0ea123"
   },
   {
     "name_gatherer": "Scourge",
@@ -1857,7 +1857,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5de954a5626559771916588f735b59bd"
+    "digest": "fc9e34c7a2dee25ec797c1c56596e57e"
   },
   {
     "name_gatherer": "Seventh Edition",
@@ -1869,7 +1869,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "8d1d499050fd834840b3440267dcf78c"
+    "digest": "dfe6679b5d105d05530096e8b443b8a0"
   },
   {
     "name_gatherer": "Shadowmoor",
@@ -1881,7 +1881,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "93c007c18910839145ef56acf09d1582"
+    "digest": "e22b390914fd7986fee74153f385a54f"
   },
   {
     "name_gatherer": "Shadows over Innistrad",
@@ -1893,7 +1893,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fb18ed5807cf2e172dbc4fe239fc0d76"
+    "digest": "b2bbaaf1ad4cae3fa27c32bae92ec5ad"
   },
   {
     "name_gatherer": "Shards of Alara",
@@ -1905,7 +1905,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ecc76f4b40cd6220990c39b013f5afdb"
+    "digest": "139ee22e2dfe43802332472efb5b9cca"
   },
   {
     "name_gatherer": "Signature Spellbook: Jace",
@@ -1929,7 +1929,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "5cc4e522dd3fe471bb5f0695d347746d"
+    "digest": "19da87e87181116835267aaa72966cef"
   },
   {
     "name_gatherer": "Starter 2000",
@@ -1941,7 +1941,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "9a9e746966b2787dd63f41f228ff25ac"
+    "digest": "c82dd379e3f7fcbd0fdde5874cde5ba7"
   },
   {
     "name_gatherer": "Stronghold",
@@ -1965,7 +1965,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "60a08ba0d552cb76d5028d0ae1c7cdbd"
+    "digest": "f39afd01927aa5dc01a225297f1898ce"
   },
   {
     "name_gatherer": "Tempest Remastered",
@@ -1977,7 +1977,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "9c84b71d88bd0a5afbd58f9a4ce9accd"
+    "digest": "20f11eb170feecf8be1958b10c5f4a71"
   },
   {
     "name_gatherer": "Tenth Edition",
@@ -1989,7 +1989,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "914c186c58a0ede8c6caf99b355ce94b"
+    "digest": "1ed7f36139491573274492a2cc1105fe"
   },
   {
     "name_gatherer": "The Dark",
@@ -2013,7 +2013,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1c5d05c3c56a13cf016dfb29f939b9cd"
+    "digest": "1ec9e6f025a99e81e13df20c55886fa1"
   },
   {
     "name_gatherer": "Time Spiral",
@@ -2025,7 +2025,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b67b8c7674ebc3f54b4720327e6375dc"
+    "digest": "06bd09bf7ec019ea36c56dde5c9e5bc0"
   },
   {
     "name_gatherer": "Time Spiral \"Timeshifted\"",
@@ -2073,7 +2073,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "87feae2855ddaebb2bae0748b0115a06"
+    "digest": "db3a8f2b8e1be8b3927693aa5aa2dde4"
   },
   {
     "name_gatherer": "Unhinged",
@@ -2085,7 +2085,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "4b786146e9f76a1452750a9525583b0c"
+    "digest": "1c2dd4e360c246572a95fefa83f0c3ad"
   },
   {
     "name_gatherer": "Unlimited Edition",
@@ -2097,7 +2097,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "44be45507ff619599c0da9affb8ac306"
+    "digest": "9c5c41ffb58717739d3b202d33df37b7"
   },
   {
     "name_gatherer": "Unstable",
@@ -2109,7 +2109,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "76208fabe9acfd25a8c802a6774aefa0"
+    "digest": "81fa5ac200cf74ee9e5ecc1f56aa1c1e"
   },
   {
     "name_gatherer": "Urza's Destiny",
@@ -2145,7 +2145,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f104866a60b8b9b6dc1a83ede7dd10df"
+    "digest": "ef6c8afe64fd5de2da4dc031fd65218b"
   },
   {
     "name_gatherer": "Vanguard",
@@ -2157,7 +2157,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bea565f8080309f6d78efdccee0c1f90"
+    "digest": "2e5d154da0c9ede0d71ccef53766830b"
   },
   {
     "name_gatherer": "Vintage Masters",
@@ -2169,7 +2169,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "46cb844d8a408d04e03d131b2784c984"
+    "digest": "c39126d1b50b84342f8a7bf2b564a583"
   },
   {
     "name_gatherer": "Visions",
@@ -2217,7 +2217,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "54cc66b339e29964b51b38f12b366973"
+    "digest": "3a7bfc1e1a544aadc6dcbba6a000d316"
   },
   {
     "name_gatherer": "Worldwake",
@@ -2241,7 +2241,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8e4cfa89c0d9be5fd911f0c89bc79aef"
+    "digest": "efcd6d5ae98164d07490d8ff3ca74018"
   },
   {
     "name_gatherer": "Zendikar Expeditions",
