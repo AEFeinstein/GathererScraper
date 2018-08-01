@@ -1,5 +1,5 @@
 {
-  "timestamp": 1532144978,
+  "timestamp": 1533138055,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -150,6 +150,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C17.json.gzip",
       "code": "C17",
       "digest": "5ced8e087d4d8b1d994bf5928fdc647f"
+    },
+    {
+      "name": "Commander 2018",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C18.json.gzip",
+      "code": "C18",
+      "digest": "9b84f01fbf8500a46364c9b64e994742"
     },
     {
       "name": "Commander Anthology",

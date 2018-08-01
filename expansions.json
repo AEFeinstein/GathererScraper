@@ -300,6 +300,18 @@
     "digest": "5ced8e087d4d8b1d994bf5928fdc647f"
   },
   {
+    "name_gatherer": "Commander 2018",
+    "code_gatherer": "C18",
+    "code_mtgi": "C18",
+    "name_tcgp": "Commander 2018",
+    "name_mkm": "Commander 2018",
+    "releaseTimestamp": 1533096000,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "9b84f01fbf8500a46364c9b64e994742"
+  },
+  {
     "name_gatherer": "Commander Anthology",
     "code_gatherer": "CMA",
     "code_mtgi": "CMA",
