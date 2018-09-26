@@ -1,5 +1,5 @@
 {
-  "timestamp": 1533138055,
+  "timestamp": 1537967432,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -528,6 +528,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GP.json.gzip",
       "code": "GP",
       "digest": "424e696d0c84dceebedbfbd4cb0c44a5"
+    },
+    {
+      "name": "Guilds of Ravnica",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GRN.json.gzip",
+      "code": "GRN",
+      "digest": "a05d88b38c8beb5ce544743f6e5dbad2"
     },
     {
       "name": "Homelands",

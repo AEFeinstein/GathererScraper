@@ -351,44 +351,28 @@
     {
       "name": "Standard",
       "sets": [
-        "AER",
-        "AKH",
         "DOM",
-        "HOU",
-        "KLD",
+        "GRN",
         "M19",
         "RIX",
-        "W17",
         "XLN"
       ],
       "restrictedlist": [],
       "banlist": [
-        "Aetherworks Marvel",
-        "Attune with Aether",
-        "Felidar Guardian",
-        "Rampaging Ferocidon",
-        "Ramunap Ruins",
-        "Rogue Refiner",
-        "Smuggler's Copter"
+        "Rampaging Ferocidon"
       ]
     },
     {
       "name": "Brawl",
       "sets": [
-        "AER",
-        "AKH",
         "DOM",
-        "HOU",
-        "KLD",
+        "GRN",
         "M19",
         "RIX",
-        "W17",
         "XLN"
       ],
       "restrictedlist": [],
       "banlist": [
-        "Baral, Chief of Compliance",
-        "Smuggler's Copter",
         "Sorcerous Spyglass"
       ]
     },
@@ -421,6 +405,7 @@
         "FRF",
         "FUT",
         "GP",
+        "GRN",
         "GTC",
         "HOU",
         "ISD",
@@ -1193,7 +1178,7 @@
     {
       "name": "Block",
       "sets": [
-        "DOM"
+        "GRN"
       ],
       "restrictedlist": [],
       "banlist": []
@@ -1246,6 +1231,7 @@
         "FRF",
         "FUT",
         "GP",
+        "GRN",
         "GRV",
         "GS1",
         "GTC",
@@ -1642,5 +1628,5 @@
       ]
     }
   ],
-  "timestamp": 1530713011
+  "timestamp": 1537967489
 }

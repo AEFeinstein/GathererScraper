@@ -1056,6 +1056,18 @@
     "digest": "424e696d0c84dceebedbfbd4cb0c44a5"
   },
   {
+    "name_gatherer": "Guilds of Ravnica",
+    "code_gatherer": "GRN",
+    "code_mtgi": "GRN",
+    "name_tcgp": "Guilds of Ravnica",
+    "name_mkm": "Guilds of Ravnica",
+    "releaseTimestamp": 1535774400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "a05d88b38c8beb5ce544743f6e5dbad2"
+  },
+  {
     "name_gatherer": "Homelands",
     "code_gatherer": "HL",
     "code_mtgi": "HL",
