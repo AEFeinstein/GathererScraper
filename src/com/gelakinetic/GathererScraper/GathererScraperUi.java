@@ -326,7 +326,6 @@ public class GathererScraperUi {
                     	if(toScrape.contains(exp)) {
                     		ExpansionGS tmp = toScrape.get(toScrape.indexOf(exp));
                     		tmp.allSets.add(exp.mName_gatherer);
-//                    		tmp.mName_gatherer = tmp.mName_tcgp;
                     	} else {
                         	toScrape.add(exp);                    		
                     	}
@@ -345,7 +344,7 @@ public class GathererScraperUi {
                         public void run() {
                             try {
                                 ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
-                                writeJsonPatchFile(exp, cards);
+                                writeJsonPatchFile(mExpansionTableModel.mExpansions, exp, cards);
                             } catch (Exception e) {
                                 e.printStackTrace();
                             }
@@ -510,11 +509,19 @@ public class GathererScraperUi {
      * @return a JSONObject containing metadata about the patch. This is used to
      * build a patch manifest
      */
-    private void writeJsonPatchFile(Expansion exp, ArrayList<CardGS> allCards) {
-        try {
-            /* Only fix this weird character when writing the patch */
-            exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_gatherer);
+    private void writeJsonPatchFile(ArrayList<ExpansionGS> expansions, Expansion exp, ArrayList<CardGS> allCards) {
+        
+        /* Only fix this weird character when writing the patch */
+    	String originalName = GathererScraper.removeNonAscii(exp.mName_gatherer);
+    	try {
 
+    		/* If there are multiple sets with the same code, use the tcgp name instead */
+    		if(ExpansionTableModel.containsMultipleCodes(expansions, exp.mCode_gatherer)) {
+    			exp.mName_gatherer = GathererScraper.removeNonAscii(exp.mName_tcgp);
+    		}
+    		else {
+    			exp.mName_gatherer = originalName;
+    		}
             PatchGS patch = new PatchGS(exp, allCards);
 
             File gzipout = new File(new File(mFilesPath, GathererScraper.PATCH_DIR), exp.mCode_gatherer + ".json.gzip");
@@ -522,7 +529,8 @@ public class GathererScraperUi {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+    	/* always revert to the original name */
+        exp.mName_gatherer = originalName;
     }
 
     /**

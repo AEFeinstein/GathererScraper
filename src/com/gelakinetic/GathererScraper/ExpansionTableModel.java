@@ -341,7 +341,7 @@ public class ExpansionTableModel extends AbstractTableModel {
         GathererScraper.writeFile(manifest, outFile, false);
     }
 
-	private boolean containsMultipleCodes(ArrayList<ExpansionGS> mExpansions2, String mCode_gatherer) {
+	static boolean containsMultipleCodes(ArrayList<ExpansionGS> mExpansions2, String mCode_gatherer) {
 		int matches = 0;
 		for(ExpansionGS exp : mExpansions2) {
 			if(exp.mCode_gatherer.equals(mCode_gatherer)) {
@@ -351,7 +351,6 @@ public class ExpansionTableModel extends AbstractTableModel {
 				}
 			}
 		}
-		// TODO Auto-generated method stub
 		return false;
 	}
 
