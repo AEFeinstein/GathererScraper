@@ -319,29 +319,40 @@ public class GathererScraperUi {
                         .availableProcessors());
                 mNumExpansions = 0;
                 mExpansionsProcessed = 0;
-                for (final ExpansionGS exp : mExpansionTableModel.mExpansions) {
-                    if (exp.mChecked) {
 
-                        threadPool.submit(new Runnable() {
-                            /**
-                             * This will scrape all the cards in the
-                             * final Expansion exp. It also adds data to
-                             * the output files for MKM name and TCG
-                             * name
-                             */
-                            @Override
-                            public void run() {
-                                try {
-                                    ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
-                                    writeJsonPatchFile(exp, cards);
-                                } catch (Exception e) {
-                                    e.printStackTrace();
-                                }
-                                incrementExpansionsProcessed();
-                            }
-                        });
-                        mNumExpansions++;
+                ArrayList<ExpansionGS> toScrape = new ArrayList<>();
+                for (ExpansionGS exp : mExpansionTableModel.mExpansions) {
+                    if (exp.mChecked) {
+                    	if(toScrape.contains(exp)) {
+                    		ExpansionGS tmp = toScrape.get(toScrape.indexOf(exp));
+                    		tmp.allSets.add(exp.mName_gatherer);
+//                    		tmp.mName_gatherer = tmp.mName_tcgp;
+                    	} else {
+                        	toScrape.add(exp);                    		
+                    	}
                     }
+                }
+
+                for (final ExpansionGS exp : toScrape) {
+                    threadPool.submit(new Runnable() {
+                        /**
+                         * This will scrape all the cards in the
+                         * final Expansion exp. It also adds data to
+                         * the output files for MKM name and TCG
+                         * name
+                         */
+                        @Override
+                        public void run() {
+                            try {
+                                ArrayList<CardGS> cards = GathererScraper.scrapeExpansion(exp, GathererScraperUi.this, mAllMultiverseIds);
+                                writeJsonPatchFile(exp, cards);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                            incrementExpansionsProcessed();
+                        }
+                    });
+                    mNumExpansions++;
                 }
 
                 mExpansionProgressBar.setValue(0);

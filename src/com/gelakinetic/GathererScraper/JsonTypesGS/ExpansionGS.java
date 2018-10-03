@@ -1,5 +1,7 @@
 package com.gelakinetic.GathererScraper.JsonTypesGS;
 
+import java.util.ArrayList;
+
 import com.gelakinetic.GathererChecker.RssEntry;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 
@@ -14,6 +16,8 @@ public class ExpansionGS extends Expansion implements Comparable<ExpansionGS> {
      * To scrape, or not to scrape ?
      */
     public transient Boolean mChecked = false;
+    
+    public transient ArrayList<String> allSets = new ArrayList<String>();
 
     /**
      * The most basic constructor for an expansion. Only sets the gatherer name
@@ -22,6 +26,7 @@ public class ExpansionGS extends Expansion implements Comparable<ExpansionGS> {
      */
     public ExpansionGS(String name_gatherer) {
         mName_gatherer = name_gatherer;
+        allSets.add(mName_gatherer);
     }
 
 
@@ -33,9 +38,9 @@ public class ExpansionGS extends Expansion implements Comparable<ExpansionGS> {
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof ExpansionGS) {
-            return this.mName_gatherer.equals(((ExpansionGS) obj).mName_gatherer);
+            return this.mCode_gatherer.equals(((ExpansionGS) obj).mCode_gatherer);
         } else if (obj instanceof RssEntry) {
-            return this.mName_gatherer.equals(((RssEntry) obj).mTitle);
+            return this.mCode_gatherer.equals(((RssEntry) obj).mTitle);
         }
         return false;
     }

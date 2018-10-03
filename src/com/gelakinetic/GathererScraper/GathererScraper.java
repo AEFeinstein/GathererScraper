@@ -115,14 +115,27 @@ public class GathererScraper {
         boolean loop = true;
         while (loop) {
 
-            String tmpName = exp.mName_gatherer;
-            /* Un-ascii Conspiracy */
-            if (tmpName.equals("Magic: The Gathering-Conspiracy")) {
-                tmpName = "Magic: The Gathering—Conspiracy";
-            }
-            String urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
-                    + "&output=compact&action=advanced&set=%5b%22"
-                    + (new PercentEscaper("", true)).escape(tmpName) + "%22%5d&special=true";
+        	String urlStr;
+        	if(exp.allSets.size() > 1) {
+        		urlStr = null;
+        		String oredSets = "";
+        		for(String expName : exp.allSets) {
+        			oredSets += ("|[\"" + (new PercentEscaper("", true)).escape(expName) + "\"]");
+        		}
+                urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
+                        + "&output=compact&action=advanced&set="
+                        + oredSets + "%22%5d&special=true";
+        	} else {
+                String tmpName = exp.mName_gatherer;
+                /* Un-ascii Conspiracy */
+                if (tmpName.equals("Magic: The Gathering-Conspiracy")) {
+                    tmpName = "Magic: The Gathering—Conspiracy";
+                }
+                urlStr = "http://gatherer.wizards.com/Pages/Search/Default.aspx?page=" + pageNum
+                        + "&output=compact&action=advanced&set=%5b%22"
+                        + (new PercentEscaper("", true)).escape(tmpName) + "%22%5d&special=true";
+        		
+        	}
 
             Document individualExpansion = ConnectWithRetries(urlStr);
 

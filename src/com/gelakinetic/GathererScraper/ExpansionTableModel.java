@@ -312,21 +312,27 @@ public class ExpansionTableModel extends AbstractTableModel {
 
         Manifest manifest = new Manifest();
         manifest.mTimestamp = getTodayTimestamp();
-
+        ArrayList<String> setCodesAdded = new ArrayList<>();
+        
         /* Build an array of patches */
         for (ExpansionGS exp : mExpansions) {
             /*
              * Note, new fields cannot be added to this JSON object. It breaks
              * old updaters
              */
-            if (exp.isScraped()) {
+            if (exp.isScraped() && !setCodesAdded.contains(exp.mCode_gatherer)) {
                 ManifestEntry entry = manifest.new ManifestEntry();
-                entry.mName = exp.mName_gatherer;
+                if(containsMultipleCodes(mExpansions, exp.mCode_gatherer)) {
+                	entry.mName = exp.mName_tcgp;
+                } else {
+                	entry.mName = exp.mName_gatherer;
+                }
                 entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/" + exp.mCode_gatherer
                         + ".json.gzip";
                 entry.mCode = exp.mCode_gatherer;
                 entry.mDigest = exp.mDigest;
                 manifest.mPatches.add(entry);
+                setCodesAdded.add(exp.mCode_gatherer);
             }
         }
 
@@ -334,6 +340,20 @@ public class ExpansionTableModel extends AbstractTableModel {
         Collections.sort(manifest.mPatches);
         GathererScraper.writeFile(manifest, outFile, false);
     }
+
+	private boolean containsMultipleCodes(ArrayList<ExpansionGS> mExpansions2, String mCode_gatherer) {
+		int matches = 0;
+		for(ExpansionGS exp : mExpansions2) {
+			if(exp.mCode_gatherer.equals(mCode_gatherer)) {
+				matches++;
+				if(matches > 1) {
+					return true;
+				}
+			}
+		}
+		// TODO Auto-generated method stub
+		return false;
+	}
 
 }
 
