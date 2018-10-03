@@ -120,18 +120,6 @@
     "digest": "2170370454ea70e62777b7d622195449"
   },
   {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "isOnlineOnly": false,
-    "borderColor": "White",
-    "digest": "9cf67a9642dfef0bd5ab93be639e770c"
-  },
-  {
     "name_gatherer": "Battle for Zendikar",
     "code_gatherer": "BFZ",
     "code_mtgi": "BFZ",
@@ -142,6 +130,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "a2341ad607ac48c32a1d5ebdcba76e97"
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "White",
+    "digest": "9cf67a9642dfef0bd5ab93be639e770c"
   },
   {
     "name_gatherer": "Battlebond",
@@ -1042,6 +1042,66 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "5204cb929accbcc6b24313f0f1d3eb8f"
+  },
+  {
+    "name_gatherer": "Guild Kit: Boros",
+    "code_gatherer": "GK1",
+    "code_mtgi": "GK1",
+    "name_tcgp": "Guilds of Ravnica: Guild Kits",
+    "name_mkm": "Guilds of Ravnica: Guild Kits",
+    "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "0dba1213eb49ba4ce6005e76af3bd648"
+  },
+  {
+    "name_gatherer": "Guild Kit: Dimir",
+    "code_gatherer": "GK1",
+    "code_mtgi": "GK1",
+    "name_tcgp": "Guilds of Ravnica: Guild Kits",
+    "name_mkm": "Guilds of Ravnica: Guild Kits",
+    "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Guild Kit: Golgari",
+    "code_gatherer": "GK1",
+    "code_mtgi": "GK1",
+    "name_tcgp": "Guilds of Ravnica: Guild Kits",
+    "name_mkm": "Guilds of Ravnica: Guild Kits",
+    "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Guild Kit: Izzet",
+    "code_gatherer": "GK1",
+    "code_mtgi": "GK1",
+    "name_tcgp": "Guilds of Ravnica: Guild Kits",
+    "name_mkm": "Guilds of Ravnica: Guild Kits",
+    "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Guild Kit: Selesnya",
+    "code_gatherer": "GK1",
+    "code_mtgi": "GK1",
+    "name_tcgp": "Guilds of Ravnica: Guild Kits",
+    "name_mkm": "Guilds of Ravnica: Guild Kits",
+    "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
   },
   {
     "name_gatherer": "Guildpact",
