@@ -354,6 +354,7 @@
         "DOM",
         "GRN",
         "M19",
+        "M19GP",
         "RIX",
         "XLN"
       ],
@@ -368,6 +369,7 @@
         "DOM",
         "GRN",
         "M19",
+        "M19GP",
         "RIX",
         "XLN"
       ],
@@ -420,6 +422,7 @@
         "M14",
         "M15",
         "M19",
+        "M19GP",
         "MBS",
         "MM2",
         "MM3",
@@ -1176,14 +1179,6 @@
       ]
     },
     {
-      "name": "Block",
-      "sets": [
-        "GRN"
-      ],
-      "restrictedlist": [],
-      "banlist": []
-    },
-    {
       "name": "Pauper",
       "sets": [
         "10E",
@@ -1628,5 +1623,5 @@
       ]
     }
   ],
-  "timestamp": 1538245642
+  "timestamp": 1541597352
 }

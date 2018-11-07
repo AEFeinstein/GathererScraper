@@ -1020,6 +1020,18 @@
     "digest": "ecf679a08c9e534a1058da74a5ab9db4"
   },
   {
+    "name_gatherer": "Game Night",
+    "code_gatherer": "GNT",
+    "code_mtgi": "GNT",
+    "name_tcgp": "Magic Game Night",
+    "name_mkm": "Magic Game Night",
+    "releaseTimestamp": 1541044800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "1f23320a07802e9f61d4f2ed1218a800"
+  },
+  {
     "name_gatherer": "Gatecrash",
     "code_gatherer": "GTC",
     "code_mtgi": "GTC",
@@ -1030,6 +1042,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "70764a6cd0a4512340f9b0eb2c885e20"
+  },
+  {
+    "name_gatherer": "Gift Pack",
+    "code_gatherer": "M19GP",
+    "code_mtgi": "M19GP",
+    "name_tcgp": "Gift Boxes and Promos",
+    "name_mkm": "Core 2019: Promos",
+    "releaseTimestamp": 1541044800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "70039bc10ca4b2902e43d41c007bb31a"
   },
   {
     "name_gatherer": "Global Series: Jiang Yanggu and Mu Yanling",

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1538568805,
+  "timestamp": 1541597168,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -512,10 +512,22 @@
       "digest": "ecf679a08c9e534a1058da74a5ab9db4"
     },
     {
+      "name": "Game Night",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GNT.json.gzip",
+      "code": "GNT",
+      "digest": "1f23320a07802e9f61d4f2ed1218a800"
+    },
+    {
       "name": "Gatecrash",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GTC.json.gzip",
       "code": "GTC",
       "digest": "70764a6cd0a4512340f9b0eb2c885e20"
+    },
+    {
+      "name": "Gift Pack",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M19GP.json.gzip",
+      "code": "M19GP",
+      "digest": "70039bc10ca4b2902e43d41c007bb31a"
     },
     {
       "name": "Global Series: Jiang Yanggu and Mu Yanling",
