@@ -120,18 +120,6 @@
     "digest": "2170370454ea70e62777b7d622195449"
   },
   {
-    "name_gatherer": "Battle for Zendikar",
-    "code_gatherer": "BFZ",
-    "code_mtgi": "BFZ",
-    "name_tcgp": "Battle for Zendikar",
-    "name_mkm": "Battle for Zendikar",
-    "releaseTimestamp": 1441058400,
-    "canBeFoil": true,
-    "isOnlineOnly": false,
-    "borderColor": "Black",
-    "digest": "a2341ad607ac48c32a1d5ebdcba76e97"
-  },
-  {
     "name_gatherer": "Battle Royale Box Set",
     "code_gatherer": "BR",
     "code_mtgi": "BR",
@@ -142,6 +130,18 @@
     "isOnlineOnly": false,
     "borderColor": "White",
     "digest": "9cf67a9642dfef0bd5ab93be639e770c"
+  },
+  {
+    "name_gatherer": "Battle for Zendikar",
+    "code_gatherer": "BFZ",
+    "code_mtgi": "BFZ",
+    "name_tcgp": "Battle for Zendikar",
+    "name_mkm": "Battle for Zendikar",
+    "releaseTimestamp": 1441058400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "a2341ad607ac48c32a1d5ebdcba76e97"
   },
   {
     "name_gatherer": "Battlebond",
@@ -1150,6 +1150,18 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "a05d88b38c8beb5ce544743f6e5dbad2"
+  },
+  {
+    "name_gatherer": "Guilds of Ravnica Mythic Edition",
+    "code_gatherer": "GRNMED",
+    "code_mtgi": "GRNMED",
+    "name_tcgp": "Guilds of Ravnica: Mythic Edition",
+    "name_mkm": "Guilds of Ravnica: Mythic Edition",
+    "releaseTimestamp": 1541044800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "3a5ac0d8e9c08e5475cbaffa308e5267"
   },
   {
     "name_gatherer": "Homelands",

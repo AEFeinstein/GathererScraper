@@ -1,5 +1,5 @@
 {
-  "timestamp": 1541597168,
+  "timestamp": 1542210846,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -546,6 +546,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GRN.json.gzip",
       "code": "GRN",
       "digest": "a05d88b38c8beb5ce544743f6e5dbad2"
+    },
+    {
+      "name": "Guilds of Ravnica Mythic Edition",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GRNMED.json.gzip",
+      "code": "GRNMED",
+      "digest": "3a5ac0d8e9c08e5475cbaffa308e5267"
     },
     {
       "name": "Guilds of Ravnica: Guild Kits",
