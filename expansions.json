@@ -2184,6 +2184,30 @@
     "digest": "97e6f5197524f22b3de1e633df97ab7e"
   },
   {
+    "name_gatherer": "Ultimate Box Toppers",
+    "code_gatherer": "PUMA",
+    "code_mtgi": "PUMA",
+    "name_tcgp": "Ultimate Masters: Box Toppers",
+    "name_mkm": "Ultimate Masters: Box Toppers",
+    "releaseTimestamp": 1543640400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "769f171e069211885b5a20c9329ad607"
+  },
+  {
+    "name_gatherer": "Ultimate Masters",
+    "code_gatherer": "UMA",
+    "code_mtgi": "UMA",
+    "name_tcgp": "Ultimate Masters",
+    "name_mkm": "Ultimate Masters",
+    "releaseTimestamp": 1543640400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "8a9e3f8343271fb72b77cfa24cf070d2"
+  },
+  {
     "name_gatherer": "Unglued",
     "code_gatherer": "UG",
     "code_mtgi": "UG",

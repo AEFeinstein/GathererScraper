@@ -1,5 +1,5 @@
 {
-  "timestamp": 1542210846,
+  "timestamp": 1543412935,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1068,6 +1068,18 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UFP.json.gzip",
       "code": "UFP",
       "digest": "97e6f5197524f22b3de1e633df97ab7e"
+    },
+    {
+      "name": "Ultimate Box Toppers",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PUMA.json.gzip",
+      "code": "PUMA",
+      "digest": "769f171e069211885b5a20c9329ad607"
+    },
+    {
+      "name": "Ultimate Masters",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UMA.json.gzip",
+      "code": "UMA",
+      "digest": "8a9e3f8343271fb72b77cfa24cf070d2"
     },
     {
       "name": "Unglued",
