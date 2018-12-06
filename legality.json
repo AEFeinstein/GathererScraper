@@ -408,7 +408,6 @@
         "FUT",
         "GP",
         "GRN",
-        "GRNMED",
         "GTC",
         "HOU",
         "ISD",
@@ -1625,5 +1624,5 @@
       ]
     }
   ],
-  "timestamp": 1543412946
+  "timestamp": 1544072374
 }
