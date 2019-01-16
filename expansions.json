@@ -1884,6 +1884,30 @@
     "digest": "32fa51a09d90932dfaf99ab45ef4b0de"
   },
   {
+    "name_gatherer": "Ravnica Allegiance",
+    "code_gatherer": "RNA",
+    "code_mtgi": "RNA",
+    "name_tcgp": "Ravnica Allegiance",
+    "name_mkm": "Ravnica Allegiance",
+    "releaseTimestamp": 1546318800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "5e6e24823cad7c323f844debfc70fa69"
+  },
+  {
+    "name_gatherer": "Ravnica Allegiance Mythic Edition",
+    "code_gatherer": "RNAMED",
+    "code_mtgi": "RNAMED",
+    "name_tcgp": "Ravnica Allegiance: Mythic Edition",
+    "name_mkm": "Ravnica Allegiance: Mythic Edition",
+    "releaseTimestamp": 1546318800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "2b6d15ea4b8f66d1b23132a5429add57"
+  },
+  {
     "name_gatherer": "Ravnica: City of Guilds",
     "code_gatherer": "RAV",
     "code_mtgi": "RAV",

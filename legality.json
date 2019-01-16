@@ -356,6 +356,7 @@
         "M19",
         "M19GP",
         "RIX",
+        "RNA",
         "XLN"
       ],
       "restrictedlist": [],
@@ -371,6 +372,7 @@
         "M19",
         "M19GP",
         "RIX",
+        "RNA",
         "XLN"
       ],
       "restrictedlist": [],
@@ -435,6 +437,7 @@
         "PLC",
         "RAV",
         "RIX",
+        "RNA",
         "ROE",
         "RTR",
         "SHM",
@@ -1283,6 +1286,7 @@
         "RIX",
         "RLC",
         "RLM",
+        "RNA",
         "ROE",
         "RTR",
         "SC",
@@ -1624,5 +1628,5 @@
       ]
     }
   ],
-  "timestamp": 1544072374
+  "timestamp": 1547650646
 }

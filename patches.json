@@ -1,5 +1,5 @@
 {
-  "timestamp": 1543412935,
+  "timestamp": 1547650460,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -918,6 +918,18 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PY.json.gzip",
       "code": "PY",
       "digest": "32fa51a09d90932dfaf99ab45ef4b0de"
+    },
+    {
+      "name": "Ravnica Allegiance",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RNA.json.gzip",
+      "code": "RNA",
+      "digest": "5e6e24823cad7c323f844debfc70fa69"
+    },
+    {
+      "name": "Ravnica Allegiance Mythic Edition",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RNAMED.json.gzip",
+      "code": "RNAMED",
+      "digest": "2b6d15ea4b8f66d1b23132a5429add57"
     },
     {
       "name": "Ravnica: City of Guilds",
