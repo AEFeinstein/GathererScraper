@@ -1,4 +1,4 @@
-2018-09-04
+2019-00-23
 
 RULES_VERYLONGSTRINGOFLETTERSUNLIKELYTOBEFOUNDINTHEACTUALRULES
 1. Game Concepts
@@ -219,7 +219,7 @@ Example: A card reads "Each player sacrifices a creature." First, the active pla
 
 106.3. Mana is produced by the effects of mana abilities (see rule 605). It may also be produced by the effects of spells, as well as by the effects of abilities that aren't mana abilities. A spell or ability that produces mana instructs a player to add that mana.
 
-106.4. When an effect instructs a player to add mana, that mana goes into a player's mana pool. From there, it can be used to pay costs immediately, or it can stay in the player's mana pool as unspent mana. Each player's mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the Oracle(TM) card reference to no longer explicitly refer to the mana pool.
+106.4. When an effect instructs a player to add mana, that mana goes into a player's mana pool. From there, it can be used to pay costs immediately, or it can stay in the player's mana pool as unspent mana. Each player's mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the Oracle(tm) card reference to no longer explicitly refer to the mana pool.
 
 106.4a If any mana remains in a player's mana pool after mana is spent to pay a cost, that player announces what mana is still there.
 
@@ -321,9 +321,9 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 
 107.8b "{LEVEL N3+} [Abilities] [P/T]" means "As long as this creature has N3 or more level counters on it, it has base power and toughness [P/T] and has [abilities]."
 
-107.9. A tombstone icon appears to the left of the name of many Odyssey(TM) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
+107.9. A tombstone icon appears to the left of the name of many Odyssey(tm) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
 
-107.10. A type icon appears in the upper left corner of each card from the Future Sight(R) set printed with an alternate "timeshifted" frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that's indicated by a black and white cross. This icon has no effect on game play.
+107.10. A type icon appears in the upper left corner of each card from the Future Sight(r) set printed with an alternate "timeshifted" frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that's indicated by a black and white cross. This icon has no effect on game play.
 
 107.11. The Planeswalker symbol is {PW}. It appears on one face of the planar die used in the Planechase casual variant. See rule 901, "Planechase."
 
@@ -575,7 +575,7 @@ Example: A sorcery card has the ability "When you cycle this card, target creatu
 
 114.5. A spell or ability on the stack is an illegal target for itself.
 
-114.6. Spells and abilities that can have zero or more targets are targeted only if one or more targets have been chosen for them.
+114.6. A spell or ability that requires targets may allow zero targets to be chosen. Such a spell or ability is still said to require targets, but that spell or ability is targeted only if one or more targets have been chosen for it.
 
 114.7. Some effects allow a player to change the target(s) of a spell or ability, and other effects allow a player to choose new targets for a spell or ability.
 
@@ -1058,7 +1058,7 @@ Example: An ability reads, "All lands are 1/1 creatures that are still lands." I
 
 206.1. The expansion symbol indicates which Magic set a card is from. It's a small icon normally printed below the right edge of the illustration. It has no effect on game play.
 
-206.2. The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral(R) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus(TM) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
+206.2. The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral(r) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus(tm) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
 
 206.3. Previously, a spell or ability that affected cards from a particular set checked for that set's expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards "with a name originally printed" in a particular set. See rule 700.8 for details.
 
@@ -1076,9 +1076,9 @@ Example: An ability reads, "All lands are 1/1 creatures that are still lands." I
 
 207.2b Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
-207.2c An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council's dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.
+207.2c An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are addendum, battalion, bloodrush, channel, chroma, cohort, constellation, converge, council's dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.
 
-207.3. Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many cards associated with the guilds of Ravnica, and a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
+207.3. Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many cards associated with the guilds of Ravnica, and a faction icon appears in the text box of most Scars of Mirrodin(tm) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
 
 207.4. The chaos symbol {CHAOS} appears in the text box of each plane card to the left of a triggered ability that triggers whenever {CHAOS} is rolled on the planar die. The symbol itself has no special rules meaning.
 
@@ -2006,7 +2006,7 @@ Example: An ability that triggers on damage being dealt won't trigger if all the
 
 603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
 
-603.3c If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode can be chosen, the ability is removed from the stack. (See rule 700.2.)
+603.3c If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode is chosen, the ability is removed from the stack. (See rule 700.2.)
 
 603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c-d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
 
@@ -2097,9 +2097,9 @@ Example: Heart-Piercer Manticore has an ability that reads "When Heart-Piercer M
 
 605.1. Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules. Only abilities that meet either of the following two sets of criteria are mana abilities, regardless of what other effects they may generate or what timing restrictions (such as "Activate this ability only any time you could cast an instant") they may have.
 
-605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 114.6), it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
 
-605.1b A triggered ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.
+605.1b A triggered ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 114.6), it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.
 
 605.2. A mana ability remains a mana ability even if the game state doesn't allow it to produce mana.
 Example: A permanent has an ability that reads "{T}: Add {G} for each creature you control." The ability is still a mana ability even if you control no creatures or if the permanent is already tapped.
@@ -2534,11 +2534,11 @@ Example: One effect reads "If you would gain life, draw that many cards instead,
 700.1. Anything that happens in a game is an event. Multiple events may take place during the resolution of a spell or ability. The text of triggered abilities and replacement effects defines the event they're looking for. One "happening" may be treated as a single event by one ability and as multiple events by another.
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
-700.2. A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as "Choose one -." Each of those options is a mode. Modal cards printed prior to the Khans of Tarkir set didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.
+700.2. A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as "Choose one -." Each of those options is a mode. Modal cards printed prior to the Khans of Tarkir(r) set didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.
 
 700.2a The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
 
-700.2b The controller of a modal triggered ability chooses the mode(s) as part of putting that ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode can be chosen, the ability is removed from the stack. (See rule 603.3c.)
+700.2b The controller of a modal triggered ability chooses the mode(s) as part of putting that ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode is chosen, the ability is removed from the stack. (See rule 603.3c.)
 
 700.2c If a spell or ability targets one or more targets only if a particular mode is chosen for it, its controller will need to choose those targets only if they chose that mode. Otherwise, the spell or ability is treated as though it did not have those targets. (See rule 601.2c.)
 
@@ -2572,11 +2572,11 @@ Example: An ability reads "Target creature gets +2/+2 until end of turn. Destroy
 
 700.8. Some cards refer to cards with a name originally printed in a particular set.
 
-700.8a One card (City in a Bottle) refers to permanents and cards with a name originally printed in the Arabian Nights(TM) expansion. Those names are Abu Ja'far, Aladdin, Aladdin's Lamp, Aladdin's Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dandan, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El-Hajjaj, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazban Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh-Biff Efreet, Island Fish Jasconius, Island of Wak-Wak, Jandor's Ring, Jandor's Saddlebags, Jeweled Bird, Jihad, Junun Efreet, Juzam Djinn, Khabal Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma'ruf, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone-Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.
+700.8a One card (City in a Bottle) refers to permanents and cards with a name originally printed in the Arabian Nights(tm) expansion. Those names are Abu Ja'far, Aladdin, Aladdin's Lamp, Aladdin's Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dandan, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El-Hajjaj, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazban Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh-Biff Efreet, Island Fish Jasconius, Island of Wak-Wak, Jandor's Ring, Jandor's Saddlebags, Jeweled Bird, Jihad, Junun Efreet, Juzam Djinn, Khabal Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma'ruf, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone-Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.
 
-700.8b One card (Golgothian Sylex) refers to permanents with a name originally printed in the Antiquities(TM) expansion. Those names are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod's Altar, Ashnod's Battle Gear, Ashnod's Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna's Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon's Cane, Gaea's Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl's Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra's Factory, Mishra's War Machine, Mishra's Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat-Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su-Chi, Tablet of Epityr, Tawnos's Coffin, Tawnos's Wand, Tawnos's Weaponry, Tetravus, Titania's Song, Transmute Artifact, Triskelion, Urza's Avenger, Urza's Chalice, Urza's Mine, Urza's Miter, Urza's Power Plant, Urza's Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.
+700.8b One card (Golgothian Sylex) refers to permanents with a name originally printed in the Antiquities(tm) expansion. Those names are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod's Altar, Ashnod's Battle Gear, Ashnod's Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna's Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon's Cane, Gaea's Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl's Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra's Factory, Mishra's War Machine, Mishra's Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat-Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su-Chi, Tablet of Epityr, Tawnos's Coffin, Tawnos's Wand, Tawnos's Weaponry, Tetravus, Titania's Song, Transmute Artifact, Triskelion, Urza's Avenger, Urza's Chalice, Urza's Mine, Urza's Miter, Urza's Power Plant, Urza's Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.
 
-700.8c One card (Apocalypse Chime) refers to permanents with a name originally printed in the Homelands(TM) expansion. Those names are Abbey Gargoyles; Abbey Matron; Aether Storm; Aliban's Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An-Havva Constable; An-Havva Inn; An-Havva Township; An-Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki's Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz's Ban; Folk of An-Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan's Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven's Ferrets; Joven's Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards' School.
+700.8c One card (Apocalypse Chime) refers to permanents with a name originally printed in the Homelands(tm) expansion. Those names are Abbey Gargoyles; Abbey Matron; Aether Storm; Aliban's Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An-Havva Constable; An-Havva Inn; An-Havva Township; An-Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki's Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz's Ban; Folk of An-Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan's Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven's Ferrets; Joven's Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards' School.
 
 701. Keyword Actions
 
@@ -2919,6 +2919,10 @@ Example: A player owns and controls Midnight Scavengers and a token that's a cop
 701.41a To "surveil N" means to look at the top N cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.
 
 701.41b If an effect allows you to look at additional cards while you surveil, those cards are included among the cards you may put into your graveyard and on top of your library in any order.
+
+701.42. Adapt
+
+701.42a "Adapt N" means "If this permanent has no +1/+1 counters on it, put N +1/+1 counters on it."
 
 702. Keyword Abilities
 
@@ -3970,6 +3974,22 @@ Example: Aether Storm is an enchantment with the ability "Creature spells can't 
 
 702.133b If a creature has multiple instances of mentor, each triggers separately.
 
+702.134. Afterlife
+
+702.134a Afterlife is a triggered ability. "Afterlife N" means "When this permanent is put into a graveyard from the battlefield, create N 1/1 white and black Spirit creature tokens with flying."
+
+702.134b If a permanent has multiple instances of afterlife, each triggers separately.
+
+702.135. Riot
+
+702.135a Riot is a static ability. "Riot" means "You may have this permanent enter the battlefield with an additional +1/+1 counter on it. If you don't, it gains haste."
+
+702.135b If a permanent has multiple instances of riot, each works separately.
+
+702.136. Spectacle
+
+702.136a Spectacle is a static ability that functions on the stack. "Spectacle [cost]" means "You may pay [cost] rather than pay this spell's mana cost if an opponent lost life this turn." Paying a spell's spectacle cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
+
 703. Turn-Based Actions
 
 703.1. Turn-based actions are game actions that happen automatically when certain steps or phases begin, or when each step and phase ends. Turn-based actions don't use the stack.
@@ -4095,7 +4115,7 @@ Example: Clone enters the battlefield as a copy of a face-down Grinning Demon (a
 
 706.2a A copy acquires the color of the object it's copying because that value is derived from its mana cost or color indicator. A copy acquires the abilities of the object it's copying because those values are derived from its rules text. A copy doesn't wind up with two values of each ability (that is, it doesn't copy the object's abilities and its rules text, then have that rules text define a new set of abilities).
 
-706.2b Once an object has been copied, changing the copiable values of the original object won't cause the copy to change, 
+706.2b Once an object has been copied, changing the copiable values of the original object won't cause the copy to change.
 
 706.2c If a static ability generates a continuous effect that's a copy effect, the copiable values that effect grants are determined only at the time that effect first starts to apply.
 
@@ -4247,7 +4267,7 @@ Example: Akki Lavarunner is a nonlegendary creature that flips into a legendary 
 
 711.1. A double-faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. Each face may have abilities that allow the card to "transform," or turn over to its other face. Tokens and cards with a Magic card back can't transform. (See rule 701.27, "Transform.")
 
-711.1a A double-faced card's front face is marked by a front-face symbol in its upper left corner. On Magic Origins and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan cards, the front-face symbol is a compass rose.
+711.1a A double-faced card's front face is marked by a front-face symbol in its upper left corner. On Magic Origins(r) and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad(tm) block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon(tm) set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan(tm) cards, the front-face symbol is a compass rose.
 
 711.1b A double-faced card's back face is marked by a back-face symbol in its upper left corner. On Magic Origins and Core Set 2019 double-faced cards, the back-face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back-face symbol is a crescent moon. On other Eldritch Moon double-faced cards, the back-face symbol is a stylized image of Emrakul. On Ixalan cards, the back-face symbol is a land icon.
 
@@ -5092,11 +5112,13 @@ Example: Wort, the Raidmother's color identity is red and green. A Wort Commande
 
 903.11d A player's deck must contain exactly 60 cards, including its commander.
 
-903.11e In a two-player Brawl game, each player's starting life total is 25. In a multiplayer Brawl game, each player's starting life total is 30.
+903.11e If a player's commander has no colors in its color identity, that player's deck may contain any number of basic lands of one basic land type of their choice. This is an exception to rule 903.5d.
 
-903.11f In any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards they as had before. Subsequent hands decrease by one card as normal.
+903.11f In a two-player Brawl game, each player's starting life total is 25. In a multiplayer Brawl game, each player's starting life total is 30.
 
-903.11g Brawl games do not use the state-based action described in rule 704.5v, which causes a player to lose the game if they've been dealt 21 or more combat damage by a commander.
+903.11g In any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards as they had before. Subsequent hands decrease by one card as normal.
+
+903.11h Brawl games do not use the state-based action described in rule 704.5v, which causes a player to lose the game if they've been dealt 21 or more combat damage by a commander.
 
 904. Archenemy
 
@@ -5136,7 +5158,7 @@ Example: Wort, the Raidmother's color identity is red and green. A Wort Commande
 
 905. Conspiracy Draft
 
-905.1. The Conspiracy Draft variant consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Conspiracy Draft variant uses Magic: The Gathering-Conspiracy(TM) and/or Conspiracy: Take the Crown(TM) booster packs by default.
+905.1. The Conspiracy Draft variant consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Conspiracy Draft variant uses Magic: The Gathering-Conspiracy(tm) and/or Conspiracy: Take the Crown(tm) booster packs by default.
 
 905.1a A draft typically consists of three draft rounds. In each draft round, each player opens a booster pack, drafts one card by placing that card in a face-down pile in front of the player, then passes the remaining cards to the next player. Each player then drafts a card from the booster pack passed to them and passes the remaining cards. This procedure continues until all cards in that draft round have been drafted.
 
@@ -5198,6 +5220,9 @@ A system that determines the order by which players make choices if multiple pla
 Active Team
 The team whose turn it is in a game using the shared team turns option. See rule 805.4a.
 
+Adapt
+A keyword action that puts +1/+1 counters on a creature that doesn't have any yet. See rule 701.42, "Adapt."
+
 Additional Cost
 A cost a spell may have that its controller may pay (or, in some cases, must pay) in addition to its mana cost to cast that spell. See rule 117, "Costs," and rule 601, "Casting Spells."
 
@@ -5206,6 +5231,9 @@ A keyword ability that reduces how much mana you need to spend to cast a spell. 
 
 Afflict
 A keyword ability that makes the defending player lose life for blocking. See rule 702.129, "Afflict."
+
+Afterlife
+A keyword ability that leaves behind Spirit creature tokens when certain creatures die. See rule 702.134, "Afterlife."
 
 Aftermath
 A keyword ability that lets a player cast one half of a split card only from their graveyard. See rule 702.126, "Aftermath."
@@ -6455,6 +6483,9 @@ A keyword ability that lets a player cast a card from their graveyard. See rule 
 Reveal
 To show a card to all players for a brief time. See rule 701.15, "Reveal."
 
+Riot
+A keyword ability that lets a player choose whether certain creatures enter the battlefield with haste or with a +1/+1 counter. See rule 702.135, "Riot."
+
 Ripple
 A keyword ability that may let a player cast extra cards from their library for no cost. See rule 702.59, "Ripple."
 
@@ -6544,6 +6575,9 @@ The object that dealt that damage. See rule 609.7.
 
 Special Action
 An action a player may take that doesn't use the stack. See rule 115, "Special Actions."
+
+Spectacle
+A keyword ability that allows certain spells to be cast for an alternative cost if an opponent has lost life. See rule 702.136, "Spectacle."
 
 Spell
 A card on the stack. Also a copy (of either a card or another spell) on the stack. See rule 111, "Spells."
