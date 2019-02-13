@@ -1,5 +1,5 @@
 {
-  "timestamp": 1547650460,
+  "timestamp": 1550089650,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -930,6 +930,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RNAMED.json.gzip",
       "code": "RNAMED",
       "digest": "2b6d15ea4b8f66d1b23132a5429add57"
+    },
+    {
+      "name": "Ravnica Allegiance: Guild Kits",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GK2.json.gzip",
+      "code": "GK2",
+      "digest": "2a67eb55a9c4acb9489a6db8dc32c7e4"
     },
     {
       "name": "Ravnica: City of Guilds",

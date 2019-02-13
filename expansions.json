@@ -1068,6 +1068,18 @@
     "digest": "5204cb929accbcc6b24313f0f1d3eb8f"
   },
   {
+    "name_gatherer": "Guild Kit: Azorius",
+    "code_gatherer": "GK2",
+    "code_mtgi": "GK2",
+    "name_tcgp": "Ravnica Allegiance: Guild Kits",
+    "name_mkm": "Ravnica Allegiance: Guild Kits",
+    "releaseTimestamp": 1548997200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "2a67eb55a9c4acb9489a6db8dc32c7e4"
+  },
+  {
     "name_gatherer": "Guild Kit: Boros",
     "code_gatherer": "GK1",
     "code_mtgi": "GK1",
@@ -1104,6 +1116,18 @@
     "digest": ""
   },
   {
+    "name_gatherer": "Guild Kit: Gruul",
+    "code_gatherer": "GK2",
+    "code_mtgi": "GK2",
+    "name_tcgp": "Ravnica Allegiance: Guild Kits",
+    "name_mkm": "Ravnica Allegiance: Guild Kits",
+    "releaseTimestamp": 1548997200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
     "name_gatherer": "Guild Kit: Izzet",
     "code_gatherer": "GK1",
     "code_mtgi": "GK1",
@@ -1116,12 +1140,48 @@
     "digest": ""
   },
   {
+    "name_gatherer": "Guild Kit: Orzhov",
+    "code_gatherer": "GK2",
+    "code_mtgi": "GK2",
+    "name_tcgp": "Ravnica Allegiance: Guild Kits",
+    "name_mkm": "Ravnica Allegiance: Guild Kits",
+    "releaseTimestamp": 1548997200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Guild Kit: Rakdos",
+    "code_gatherer": "GK2",
+    "code_mtgi": "GK2",
+    "name_tcgp": "Ravnica Allegiance: Guild Kits",
+    "name_mkm": "Ravnica Allegiance: Guild Kits",
+    "releaseTimestamp": 1548997200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
     "name_gatherer": "Guild Kit: Selesnya",
     "code_gatherer": "GK1",
     "code_mtgi": "GK1",
     "name_tcgp": "Guilds of Ravnica: Guild Kits",
     "name_mkm": "Guilds of Ravnica: Guild Kits",
     "releaseTimestamp": 1538366400,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": ""
+  },
+  {
+    "name_gatherer": "Guild Kit: Simic",
+    "code_gatherer": "GK2",
+    "code_mtgi": "GK2",
+    "name_tcgp": "Ravnica Allegiance: Guild Kits",
+    "name_mkm": "Ravnica Allegiance: Guild Kits",
+    "releaseTimestamp": 1548997200,
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
