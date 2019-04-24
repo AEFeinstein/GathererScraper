@@ -357,6 +357,7 @@
         "M19GP",
         "RIX",
         "RNA",
+        "WAR",
         "XLN"
       ],
       "restrictedlist": [],
@@ -373,6 +374,7 @@
         "M19GP",
         "RIX",
         "RNA",
+        "WAR",
         "XLN"
       ],
       "restrictedlist": [],
@@ -449,6 +451,7 @@
         "TSP",
         "W16",
         "W17",
+        "WAR",
         "WWK",
         "XLN",
         "ZEN"
@@ -1318,6 +1321,7 @@
         "VVK",
         "W16",
         "W17",
+        "WAR",
         "WL",
         "WWK",
         "XLN",
@@ -1629,5 +1633,5 @@
       ]
     }
   ],
-  "timestamp": 1548087239
+  "timestamp": 1556078852
 }

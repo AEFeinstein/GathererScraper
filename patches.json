@@ -1,5 +1,5 @@
 {
-  "timestamp": 1550089650,
+  "timestamp": 1556078822,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1158,6 +1158,18 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VI.json.gzip",
       "code": "VI",
       "digest": "a72296e1569f10b6a0031a64816b7b3a"
+    },
+    {
+      "name": "War of the Spark",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WAR.json.gzip",
+      "code": "WAR",
+      "digest": "a48a0c210b521c9215f33fb526f5ef71"
+    },
+    {
+      "name": "War of the Spark Mythic Edition",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WARMED.json.gzip",
+      "code": "WARMED",
+      "digest": "1ef1753bce01cb3061252cc6d907ce39"
     },
     {
       "name": "Weatherlight",

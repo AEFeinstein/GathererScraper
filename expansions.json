@@ -2412,6 +2412,30 @@
     "digest": "a72296e1569f10b6a0031a64816b7b3a"
   },
   {
+    "name_gatherer": "War of the Spark",
+    "code_gatherer": "WAR",
+    "code_mtgi": "WAR",
+    "name_tcgp": "War of the Spark",
+    "name_mkm": "War of the Spark",
+    "releaseTimestamp": 1554091200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "a48a0c210b521c9215f33fb526f5ef71"
+  },
+  {
+    "name_gatherer": "War of the Spark Mythic Edition",
+    "code_gatherer": "WARMED",
+    "code_mtgi": "WARMED",
+    "name_tcgp": "War of the Spark: Mythic Edition",
+    "name_mkm": "War of the Spark: Mythic Edition",
+    "releaseTimestamp": 1554091200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "1ef1753bce01cb3061252cc6d907ce39"
+  },
+  {
     "name_gatherer": "Weatherlight",
     "code_gatherer": "WL",
     "code_mtgi": "WL",
