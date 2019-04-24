@@ -17,8 +17,12 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -41,6 +45,7 @@ public class GathererScraper {
 
     public static final String PATCH_DIR = "patches-v2";
     private static final Pattern BATTLEBOND_PATTERN = Pattern.compile("Partner with ([^\\(<]+)\\s*[\\(<]");
+	private static final String SYMBOL_DIR = "symbols";
     
     /**
      * This function scrapes a list of all expansions from Gatherer
@@ -683,6 +688,37 @@ public class GathererScraper {
 
                 card.clearNulls();
                 scrapedCards.add(card);
+                
+				/* Download the expansion symbol, maybe */
+				try {
+					// Get the element with this card's expansion symbol
+					Element ele = cardPage.getElementsByAttributeValueContaining("id", id + "currentSetSymbol").first()
+							.getElementsByAttribute("src").first();
+
+					// Build the URL to the expansion symbol
+					String imgUrlStr = ele.attr("src");
+					imgUrlStr = imgUrlStr.replaceAll("small", "large");
+					imgUrlStr = imgUrlStr.replaceAll("\\.\\./\\.\\./", "https://gatherer.wizards.com/");
+					URL imgUrl = new URL(imgUrlStr);
+
+					// Build the saved image name
+					String imgTitle = ele.attr("title");
+					int rarityIdx = (imgTitle.indexOf("(") + 1);
+					char rarityChar = imgTitle.toUpperCase().charAt(rarityIdx);
+					// Treat lands as common
+					if('L' == rarityChar) {
+						rarityChar = 'C';
+					}
+					String imageName = SYMBOL_DIR + "/" + exp.mCode_gatherer + "_" + rarityChar + ".png";
+
+					// If the saved image doesn't exist yet, save it
+					if (!(new File(imageName).exists())) {
+						System.out.println("Download " + imgUrl.toString() + " to " + imageName);
+						Files.copy(imgUrl.openStream(), Paths.get(imageName), StandardCopyOption.REPLACE_EXISTING);
+					}
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
             }
             
             /*
