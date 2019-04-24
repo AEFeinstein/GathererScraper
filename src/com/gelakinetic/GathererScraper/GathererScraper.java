@@ -21,6 +21,7 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.security.MessageDigest;
@@ -29,10 +30,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
+
+import javax.imageio.ImageIO;
+import javax.imageio.ImageReader;
+import javax.imageio.stream.ImageInputStream;
 
 /**
  * This class is filled with static functions which do the actual scraping from
@@ -695,12 +701,6 @@ public class GathererScraper {
 					Element ele = cardPage.getElementsByAttributeValueContaining("id", id + "currentSetSymbol").first()
 							.getElementsByAttribute("src").first();
 
-					// Build the URL to the expansion symbol
-					String imgUrlStr = ele.attr("src");
-					imgUrlStr = imgUrlStr.replaceAll("small", "large");
-					imgUrlStr = imgUrlStr.replaceAll("\\.\\./\\.\\./", "https://gatherer.wizards.com/");
-					URL imgUrl = new URL(imgUrlStr);
-
 					// Build the saved image name
 					String imgTitle = ele.attr("title");
 					int rarityIdx = (imgTitle.indexOf("(") + 1);
@@ -709,12 +709,34 @@ public class GathererScraper {
 					if('L' == rarityChar) {
 						rarityChar = 'C';
 					}
-					String imageName = SYMBOL_DIR + "/" + exp.mCode_gatherer + "_" + rarityChar + ".png";
+					// TODO use my rarity instead of gatherers?
+					String imageName = exp.mCode_gatherer + "_" + rarityChar;
 
 					// If the saved image doesn't exist yet, save it
-					if (!(new File(imageName).exists())) {
-						System.out.println("Download " + imgUrl.toString() + " to " + imageName);
-						Files.copy(imgUrl.openStream(), Paths.get(imageName), StandardCopyOption.REPLACE_EXISTING);
+					if (!isExpansionSymbolSaved(imageName)) {
+
+						// Build the URL to the expansion symbol
+						String imgUrlStr = ele.attr("src");
+						imgUrlStr = imgUrlStr.replaceAll("small", "large");
+						imgUrlStr = imgUrlStr.replaceAll("\\.\\./\\.\\./", "https://gatherer.wizards.com/");
+						URL imgUrl = new URL(imgUrlStr);
+						
+						Files.copy(imgUrl.openStream(), Paths.get(SYMBOL_DIR + "/" + imageName), StandardCopyOption.REPLACE_EXISTING);
+						File imgFile = new File(SYMBOL_DIR + "/" + imageName);
+						if(0 == imgFile.length()) {
+							imgFile.delete();
+						}
+						else {
+				            // Find the actual file type
+							ImageInputStream iis = ImageIO.createImageInputStream(imgFile);
+				            Iterator<ImageReader> iter = ImageIO.getImageReaders(iis);
+				            ImageReader reader = iter.next();
+				            String formatName = reader.getFormatName();
+				            iis.close();
+				            
+				            // Rename the file with the actual file type
+				            Files.move(Paths.get(imgFile.getAbsolutePath()), Paths.get(SYMBOL_DIR + "/" + imageName + "." + formatName), StandardCopyOption.REPLACE_EXISTING);
+						}
 					}
 				} catch (IOException e1) {
 					e1.printStackTrace();
@@ -770,7 +792,23 @@ public class GathererScraper {
         return scrapedCardsAllPages;
     }
 
-    /**
+	/**
+	 * Check if an expansion symbol is already downloaded, ignoring the file type
+	 * postfix
+	 * 
+	 * @param imageName The prefix for an expansion symbol
+	 * @return true if it exists, false if it does not
+	 */
+	private static boolean isExpansionSymbolSaved(String imageName) {
+		for (File f : (new File(SYMBOL_DIR)).listFiles()) {
+			if (f.getName().startsWith(imageName)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
      * Given a string power, toughness, or loyalty, convert it into a float
      * 
      * @param value The string value to convert
