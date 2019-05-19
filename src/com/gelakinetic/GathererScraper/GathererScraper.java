@@ -870,6 +870,7 @@ public class GathererScraper {
         int pageNum = 0;
         boolean foreignPrintingAdded = true;
         boolean hasMultiplePages = true;
+        ArrayList<Integer> multiverseIDs = new ArrayList<>();
 
         while (foreignPrintingAdded && hasMultiplePages) {
             Document page = ConnectWithRetries(CardGS.getLanguageUrl(englishMultiverseId, pageNum));
@@ -885,8 +886,20 @@ public class GathererScraper {
     
             /* Try to add each element */
             for (Element elt : languageElements) {
+            	
+            	/* First check the multiverse ID to see if the page is a duplicate */
+                int mMultiverseId = Integer.parseInt(elt.child(0).child(0).attr("href").split("=")[1]);
+                if(multiverseIDs.contains(mMultiverseId)) {
+                	/* Duplicate, which means WotC served the same page twice and we're done */
+                    foreignPrintingAdded = false;
+                    break;
+                } else {
+                	/* Note this ID */
+                	multiverseIDs.add(mMultiverseId);
+                }
+                
                 ForeignPrinting fp = (new Card()).new ForeignPrinting();
-
+                fp.mName = elt.child(0).text();
                 String language = elt.child(1).html();
                 switch (language) {
                     case "English":
@@ -926,15 +939,9 @@ public class GathererScraper {
                         System.err.println(errLabel + " Unknown language: " + language);
                         continue;
                 }
-
-                fp.mName = elt.child(0).text();
-                fp.mMultiverseId = Integer.parseInt(elt.child(0).child(0).attr("href").split("=")[1]);
+                
                 if (!foreignPrintings.contains(fp)) {
                     foreignPrintings.add(fp);
-                } else {
-                    /* Duplicate, which means WotC served the same page twice and we're done */
-                    foreignPrintingAdded = false;
-                    break;
                 }
             }
             pageNum++;
