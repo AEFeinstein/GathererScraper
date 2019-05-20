@@ -11,34 +11,30 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.imgscalr.Scalr;
+import org.imgscalr.Scalr.Method;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
 import javax.imageio.ImageIO;
-import javax.imageio.ImageReader;
-import javax.imageio.stream.ImageInputStream;
 
 /**
  * This class is filled with static functions which do the actual scraping from
@@ -697,23 +693,14 @@ public class GathererScraper {
                 
 				/* Download the expansion symbol, maybe */
 				try {
-					// Get the element with this card's expansion symbol
-					Element ele = cardPage.getElementsByAttributeValueContaining("id", id + "currentSetSymbol").first()
-							.getElementsByAttribute("src").first();
-
 					// Build the saved image name
-					String imgTitle = ele.attr("title");
-					int rarityIdx = (imgTitle.indexOf("(") + 1);
-					char rarityChar = imgTitle.toUpperCase().charAt(rarityIdx);
-					// Treat lands as common
-					if('L' == rarityChar) {
-						rarityChar = 'C';
-					}
-					// TODO use my rarity instead of gatherers?
-					String imageName = exp.mCode_gatherer + "_" + rarityChar;
+					File expansionSymbolFile = new File(SYMBOL_DIR, exp.mCode_gatherer + "_" + card.mRarity + ".png");
 
 					// If the saved image doesn't exist yet, save it
-					if (!isExpansionSymbolSaved(imageName)) {
+					if (!expansionSymbolFile.exists()) {
+						// Get the element with this card's expansion symbol
+						Element ele = cardPage.getElementsByAttributeValueContaining("id", id + "currentSetSymbol").first()
+								.getElementsByAttribute("src").first();
 
 						// Build the URL to the expansion symbol
 						String imgUrlStr = ele.attr("src");
@@ -721,21 +708,56 @@ public class GathererScraper {
 						imgUrlStr = imgUrlStr.replaceAll("\\.\\./\\.\\./", "https://gatherer.wizards.com/");
 						URL imgUrl = new URL(imgUrlStr);
 						
-						Files.copy(imgUrl.openStream(), Paths.get(SYMBOL_DIR + "/" + imageName), StandardCopyOption.REPLACE_EXISTING);
-						File imgFile = new File(SYMBOL_DIR + "/" + imageName);
-						if(0 == imgFile.length()) {
-							imgFile.delete();
-						}
-						else {
-				            // Find the actual file type
-							ImageInputStream iis = ImageIO.createImageInputStream(imgFile);
-				            Iterator<ImageReader> iter = ImageIO.getImageReaders(iis);
-				            ImageReader reader = iter.next();
-				            String formatName = reader.getFormatName();
-				            iis.close();
+						// Download the image to RAM
+						InputStream is = imgUrl.openStream();
+						BufferedImage expansionSymbol = ImageIO.read(is);
+						is.close();
+						
+						// Make sure it downloaded
+						if(null != expansionSymbol) {
+				            // Clip the transparent pixels
+				            int minX = Integer.MAX_VALUE;
+				            int maxX = 0;
+				            int minY = Integer.MAX_VALUE;
+				            int maxY = 0;				            
+				            for(int x = 0; x < expansionSymbol.getWidth(); x++) {
+				            	for(int y = 0; y < expansionSymbol.getHeight(); y++) {
+				            		if( ((expansionSymbol.getRGB(x, y) >> 24) & 0xFF) != 0) {
+				            			if(x < minX) {
+				            				minX = x;
+				            			}
+				            			if (x > maxX) {
+				            				maxX = x;
+				            			}
+				            			if(y < minY) {
+				            				minY = y;
+				            			}
+				            			if (y > maxY) {
+				            				maxY = y;
+				            			}
+				            		}
+				            	}
+				            }
+				            expansionSymbol = expansionSymbol.getSubimage(minX, minY, maxX - minX + 1, maxY - minY + 1);
 				            
-				            // Rename the file with the actual file type
-				            Files.move(Paths.get(imgFile.getAbsolutePath()), Paths.get(SYMBOL_DIR + "/" + imageName + "." + formatName), StandardCopyOption.REPLACE_EXISTING);
+				            // Scale the image to 72px high, at most
+				            if(expansionSymbol.getHeight() > 72) {
+				            	double scale = 72.0 / expansionSymbol.getHeight();
+				            	expansionSymbol = Scalr.resize(expansionSymbol,
+				            			Method.ULTRA_QUALITY,
+				            			(int)Math.round(scale * expansionSymbol.getWidth()),
+				            			(int)Math.round(scale * expansionSymbol.getHeight()));
+				            }
+				            
+				            // Write the edited image
+				            FileOutputStream fos = new FileOutputStream(expansionSymbolFile);
+				            ImageIO.write(expansionSymbol, "png", fos);
+				            fos.close();
+				            
+				            // If nothing was actually written, delete the file
+							if(0 == expansionSymbolFile.length()) {
+								expansionSymbolFile.delete();
+							}
 						}
 					}
 				} catch (IOException e1) {
@@ -791,22 +813,6 @@ public class GathererScraper {
         }
         return scrapedCardsAllPages;
     }
-
-	/**
-	 * Check if an expansion symbol is already downloaded, ignoring the file type
-	 * postfix
-	 * 
-	 * @param imageName The prefix for an expansion symbol
-	 * @return true if it exists, false if it does not
-	 */
-	private static boolean isExpansionSymbolSaved(String imageName) {
-		for (File f : (new File(SYMBOL_DIR)).listFiles()) {
-			if (f.getName().startsWith(imageName)) {
-				return true;
-			}
-		}
-		return false;
-	}
 
 	/**
      * Given a string power, toughness, or loyalty, convert it into a float
