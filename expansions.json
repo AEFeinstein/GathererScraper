@@ -45,7 +45,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "89322850d0703b8c56b875324c759446"
+    "digest": "5e76ec1c2ed64f05d06ae8dd0b295b24"
   },
   {
     "name_gatherer": "Antiquities",
@@ -117,7 +117,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "cc3a5320a3eb6bb36e83725fa5d9a5bc"
+    "digest": "10c3b48ed4940e05159890afe9a852c2"
   },
   {
     "name_gatherer": "Battle Royale Box Set",
@@ -141,7 +141,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "58ff68995a5c42148e09547bafd34ccc"
+    "digest": "8617e074a0b5e0228545b728e20dda69"
   },
   {
     "name_gatherer": "Battlebond",
@@ -177,7 +177,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d10d6b8c947e0c27bfdc72dafce934a3"
+    "digest": "f3443d6b4d499220990732ce7e4733a1"
   },
   {
     "name_gatherer": "Born of the Gods",
@@ -381,7 +381,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "eb2b44ab26a78a18b3958daebf320323"
+    "digest": "5c5ff5c96bb88caedc303b42f2a7379a"
   },
   {
     "name_gatherer": "Dark Ascension",
@@ -429,7 +429,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7966fe5856812143aadb96b3e9024121"
+    "digest": "ae363385f9df9bfd2875bbadf9e930b1"
   },
   {
     "name_gatherer": "Dragon's Maze",
@@ -453,7 +453,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "efd82b27dd0c79d9b4d52bf920c3fe02"
+    "digest": "c61c95fd0006017270ea0e1fb746aa42"
   },
   {
     "name_gatherer": "Duel Decks Anthology, Divine vs. Demonic",
@@ -1245,7 +1245,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "48b72d17c6d5f03df2915c7a3a041e63"
+    "digest": "dfc551c6607a4a00399854dcadba4b8f"
   },
   {
     "name_gatherer": "Ice Age",
@@ -1305,7 +1305,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0cfc9f960b3f1bc285eea827886c550a"
+    "digest": "01e888fa27085d847677b9b459a4b5eb"
   },
   {
     "name_gatherer": "Journey into Nyx",
@@ -1341,7 +1341,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a1ceec978867cdd59f3fe10ce628f090"
+    "digest": "e153a714d45c8ba198fffb3574c06ca5"
   },
   {
     "name_gatherer": "Khans of Tarkir",
@@ -1353,7 +1353,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2c2cdf86bc8586ac581596c9d6c96b23"
+    "digest": "c9112c586579e7fbdaf43bf5d7c5f3e0"
   },
   {
     "name_gatherer": "Legends",
@@ -1413,7 +1413,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4a335f6819af51507c624e135f89dd82"
+    "digest": "0b13edb72be639deb23abd8dfe1b4268"
   },
   {
     "name_gatherer": "Magic 2010",
@@ -1425,7 +1425,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "799bdc09f5ee3594d45d736bc8f73aca"
+    "digest": "95b5f5da6a0534119956446f6d2bc6ae"
   },
   {
     "name_gatherer": "Magic 2011",
@@ -1437,7 +1437,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "53c65d2b817a07760fe6858e23057786"
+    "digest": "5dbc060bc9fceeaa488be24ee6898e30"
   },
   {
     "name_gatherer": "Magic 2012",
@@ -1449,7 +1449,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e9d4256b9fe7cfcaad98b8dff45ff7e1"
+    "digest": "fbfd9595dda1bfa46d313c717c91e58e"
   },
   {
     "name_gatherer": "Magic 2013",
@@ -1461,7 +1461,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a64c4b685e2c75599a61d773ea28a064"
+    "digest": "2225668b6ce0c29574751aac4162619f"
   },
   {
     "name_gatherer": "Magic 2014 Core Set",
@@ -1473,7 +1473,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5fe08ef2bfc0b1b278ccd49d74a40c19"
+    "digest": "c0e19b3464a6b3508dbd584f25f13c26"
   },
   {
     "name_gatherer": "Magic 2015 Core Set",
@@ -1485,7 +1485,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d003c8b076ade25b87cdc103334132fa"
+    "digest": "c81469c779d1ada61dd89ccc9dfb7016"
   },
   {
     "name_gatherer": "Magic Origins",
@@ -1497,7 +1497,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3caccb9651bf5a60048abea421b4a5d8"
+    "digest": "b2bc8d6953a2ce3207ff27f1a4fa196c"
   },
   {
     "name_gatherer": "Magic: The Gathering-Commander",
@@ -1749,7 +1749,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "90e566d40d937ea9de42b422d4d1ea05"
+    "digest": "13ad21d555368fd0af9e463b18ff7bb1"
   },
   {
     "name_gatherer": "Oath of the Gatewatch",
@@ -1977,7 +1977,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ef6da814110adddc2eb99862e4f058d6"
+    "digest": "1a3b35233d4d21b70356bf55398ca95a"
   },
   {
     "name_gatherer": "Return to Ravnica",
@@ -1989,7 +1989,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9c08e76912a061b53bb7cece13682623"
+    "digest": "fbad25b0062c8b51c3637c575f89b99d"
   },
   {
     "name_gatherer": "Revised Edition",
@@ -2013,7 +2013,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7fc16546d27b5a194d6914099d7725ae"
+    "digest": "20001a5cd3fd565b11855796700ecece"
   },
   {
     "name_gatherer": "Rivals of Ixalan",
@@ -2049,7 +2049,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "148d178a27563086598bda1e356aa5f8"
+    "digest": "fd2ec31836d51d33113539e12b7e6054"
   },
   {
     "name_gatherer": "Scourge",
@@ -2085,7 +2085,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "063ca2bd689a786e78ac301b97d34f06"
+    "digest": "d6fc18aa30f6196d6b2cbd794ac5f0ed"
   },
   {
     "name_gatherer": "Shadows over Innistrad",
@@ -2217,7 +2217,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "052c0ab2612df7cb400b654978bf9cc9"
+    "digest": "42200bc2754353cf00f7e6f8d5a13430"
   },
   {
     "name_gatherer": "Time Spiral",
@@ -2229,7 +2229,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "cfa95dc5fa182f453e3fa8899ac7221e"
+    "digest": "c65669d3614ca10091cf6a0f6c0bda39"
   },
   {
     "name_gatherer": "Time Spiral \"Timeshifted\"",
@@ -2385,7 +2385,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4be1dabcf8253e41a11c376c2d60e6a4"
+    "digest": "bea565f8080309f6d78efdccee0c1f90"
   },
   {
     "name_gatherer": "Vintage Masters",
@@ -2421,7 +2421,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8ae2e2c5d691d17896912e403ef9e49e"
+    "digest": "3b4d24372373338ef36b467c9cd527be"
   },
   {
     "name_gatherer": "War of the Spark Mythic Edition",
