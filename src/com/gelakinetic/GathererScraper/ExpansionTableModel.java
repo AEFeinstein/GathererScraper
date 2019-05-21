@@ -331,6 +331,7 @@ public class ExpansionTableModel extends AbstractTableModel {
                         + ".json.gzip";
                 entry.mCode = exp.mCode_gatherer;
                 entry.mDigest = exp.mDigest;
+                entry.mExpansionImageURLs.addAll(exp.mExpansionImageURLs);
                 manifest.mPatches.add(entry);
                 setCodesAdded.add(exp.mCode_gatherer);
             }

@@ -343,7 +343,7 @@ public class GathererScraper {
      * @return An array list of scraped cards
      * @throws IOException Thrown if the Internet breaks
      */
-    private static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
+    static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
                                                 HashMap<String, Integer> multiverseMap,
                                                 HashMap<String, String> cachedCollectorsNumbers) {
     	/* Keep track of a letter for multiple printings with the same name */
@@ -695,6 +695,7 @@ public class GathererScraper {
 				try {
 					// Build the saved image name
 					File expansionSymbolFile = new File(SYMBOL_DIR, exp.mCode_gatherer + "_" + card.mRarity + ".png");
+					String expansionSymbolURL = "https://github.com/AEFeinstein/GathererScraper/blob/master/symbols/" + expansionSymbolFile.getName() + "?raw=true";
 
 					// If the saved image doesn't exist yet, save it
 					if (!expansionSymbolFile.exists()) {
@@ -759,6 +760,9 @@ public class GathererScraper {
 								expansionSymbolFile.delete();
 							}
 						}
+					}
+					if(!exp.mExpansionImageURLs.contains(expansionSymbolURL)) {
+						exp.mExpansionImageURLs.add(expansionSymbolURL);
 					}
 				} catch (IOException e1) {
 					e1.printStackTrace();
