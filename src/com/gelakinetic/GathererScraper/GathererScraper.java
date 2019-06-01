@@ -695,7 +695,7 @@ public class GathererScraper {
 				try {
 					// Build the saved image name
 					File expansionSymbolFile = new File(SYMBOL_DIR, exp.mCode_gatherer + "_" + card.mRarity + ".png");
-					String expansionSymbolURL = "https://github.com/AEFeinstein/GathererScraper/blob/master/symbols/" + expansionSymbolFile.getName() + "?raw=true";
+					String expansionSymbolURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/" + expansionSymbolFile.getName();
 
 					// If the saved image doesn't exist yet, save it
 					if (!expansionSymbolFile.exists()) {
