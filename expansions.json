@@ -1668,6 +1668,18 @@
     "digest": "b76a00269f07c1127a427372d6e7f2bb"
   },
   {
+    "name_gatherer": "Modern Horizons",
+    "code_gatherer": "MH1",
+    "code_mtgi": "MH1",
+    "name_tcgp": "Modern Horizons",
+    "name_mkm": "Modern Horizons",
+    "releaseTimestamp": 1559361600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "e7e471d5872ab1977f39afb98f79df11"
+  },
+  {
     "name_gatherer": "Modern Masters",
     "code_gatherer": "MMA",
     "code_mtgi": "MMA",

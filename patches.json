@@ -1,5 +1,5 @@
 {
-  "timestamp": 1556078822,
+  "timestamp": 1559765169,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -780,6 +780,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MD1.json.gzip",
       "code": "MD1",
       "digest": "b76a00269f07c1127a427372d6e7f2bb"
+    },
+    {
+      "name": "Modern Horizons",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MH1.json.gzip",
+      "code": "MH1",
+      "digest": "e7e471d5872ab1977f39afb98f79df11"
     },
     {
       "name": "Modern Masters",
