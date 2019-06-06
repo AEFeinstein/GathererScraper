@@ -695,7 +695,7 @@ public class GathererScraper {
 				try {
 					// Build the saved image name
 					File expansionSymbolFile = new File(SYMBOL_DIR, exp.mCode_gatherer + "_" + card.mRarity + ".png");
-					String expansionSymbolURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/" + expansionSymbolFile.getName();
+					String expansionSymbolURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/" + getGitBranch() + "/symbols/" + expansionSymbolFile.getName();
 
 					// If the saved image doesn't exist yet, save it
 					if (!expansionSymbolFile.exists()) {
@@ -1329,5 +1329,22 @@ public class GathererScraper {
 
         osw.flush();
         osw.close();
+    }
+
+    public static String getGitBranch() {
+        Process process;
+        try {
+            process = Runtime.getRuntime().exec("git rev-parse --abbrev-ref HEAD");
+            process.waitFor();
+
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+
+            return reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "master";
     }
 }

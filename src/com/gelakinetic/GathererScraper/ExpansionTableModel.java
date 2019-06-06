@@ -343,7 +343,7 @@ public class ExpansionTableModel extends AbstractTableModel {
                 } else {
                 	entry.mName = exp.mName_gatherer;
                 }
-                entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/" + exp.mCode_gatherer
+                entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/" + GathererScraper.getGitBranch() + "/patches-v2/" + exp.mCode_gatherer
                         + ".json.gzip";
                 entry.mCode = exp.mCode_gatherer;
                 entry.mDigest = exp.mDigest;
