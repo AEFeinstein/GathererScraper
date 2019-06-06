@@ -66,7 +66,7 @@ public class JudgeDocScraper {
     private void ScrapeDocument(String docType, String ouputName, boolean removeLinks) {
 
         mUi.appendText("Processing " + docType);
-
+        
         HashSet<String> pagesToScrape = new HashSet<>();
         Document mainPage = GathererScraper.ConnectWithRetries("https://blogs.magicjudges.org/rules/" + docType + "/");
 
@@ -76,6 +76,11 @@ public class JudgeDocScraper {
         for (Element link : mainPage.getElementsByAttributeValue("class", "entry-content").first().getElementsByTag("a")) {
             String linkHref = link.attr("href");
             if (linkHref.contains("/" + docType)) {
+				if (linkHref.contains("mtr-4-8")) {
+					linkHref = linkHref.replaceAll("mtr-4-8", "mtr4-8");
+					linkHref = linkHref.replaceAll("https", "http");
+					linkHref = linkHref + '/';
+				}
                 pagesToScrape.add(linkHref);
             }
         }
@@ -140,7 +145,10 @@ public class JudgeDocScraper {
 		for (Element link : html.getElementsByTag("a")) {
 			try {
 				String linkDestination = link.attr("href");
-				if (linkIds.contains(getLastPathSegment(linkDestination))) {
+				if(getLastPathSegment(linkDestination).contains("mtr-4-8")) {
+					link.attr("href", "#" + "mtr4-8");
+				}
+				else if (linkIds.contains(getLastPathSegment(linkDestination))) {
 					link.attr("href", "#" + getLastPathSegment(linkDestination));
 				}
 				else if (linkDestination.contains("cardfinder")) {
@@ -153,8 +161,13 @@ public class JudgeDocScraper {
 					}
 				}
 				else if (removeLinks && linkDestination.contains("magicjudges")) {
-					mUi.appendText("Link removed: " + linkDestination);
-					link.unwrap();
+					if(linkDestination.equals("https://blogs.magicjudges.org/rules/mtr-4-8")) {
+						
+					}
+					else {
+						mUi.appendText("Link removed: " + linkDestination);
+						link.unwrap();
+					}
 				}
 			}
 			catch (URISyntaxException e) {

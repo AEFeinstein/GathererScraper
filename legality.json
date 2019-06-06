@@ -428,6 +428,7 @@
         "M19",
         "M19GP",
         "MBS",
+        "MH1",
         "MM2",
         "MM3",
         "MMA",
@@ -1265,6 +1266,7 @@
         "ME3",
         "ME4",
         "MED",
+        "MH1",
         "MI",
         "MM",
         "MM2",
@@ -1377,6 +1379,7 @@
         "Dance, Pathetic Marionette",
         "Darkpact",
         "Dauntless Escort Avatar",
+        "Daze",
         "Delight in the Hunt",
         "Demonic Attorney",
         "Diamond Faerie Avatar",
@@ -1411,6 +1414,7 @@
         "Furnace Layer",
         "Gavony",
         "Gerrard",
+        "Gitaxian Probe",
         "Gix",
         "Glen Elendra",
         "Glimmervoid Basin",
@@ -1422,6 +1426,7 @@
         "Grinning Demon Avatar",
         "Grixis",
         "Grove of the Dreampods",
+        "Gush",
         "Haakon, Stromgald Scourge Avatar",
         "Hanna",
         "Heartwood Storyteller Avatar",
@@ -1633,5 +1638,5 @@
       ]
     }
   ],
-  "timestamp": 1558393476
+  "timestamp": 1559765249
 }
