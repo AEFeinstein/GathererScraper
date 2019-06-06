@@ -2428,8 +2428,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e7e471d5872ab1977f39afb98f79df11",
-    "expansionImageURLs": []
+    "digest": "1d46baa3879f4212a16fe2b27e963f29",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MH1_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MH1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MH1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MH1_M.png"
+    ]
   },
   {
     "name_gatherer": "Modern Masters",
