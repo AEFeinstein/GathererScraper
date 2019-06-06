@@ -29,7 +29,7 @@ import java.awt.event.ActionEvent;
  */
 public class GathererScraperUi {
 
-    private static final String PATCH_FILE_NAME = "patches.json";
+    static final String PATCH_FILE_NAME = "patches.json";
     private static final String EXPANSION_FILE_NAME = "expansions.json";
     public static final String LEGAL_FILE_NAME = "legality.json";
     private static final String APPMAP_FILE_NAME = "appmap-com.gelakinetic.mtgfam.xml";

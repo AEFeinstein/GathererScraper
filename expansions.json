@@ -9,7 +9,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a0d581c9987bf2b267e628361a3d73d5"
+    "digest": "a0d581c9987bf2b267e628361a3d73d5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AER_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AER_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AER_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AER_M.png"
+    ]
   },
   {
     "name_gatherer": "Alara Reborn",
@@ -21,7 +27,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "16c2e0ffc77c6f34aae1be1388e6172a"
+    "digest": "16c2e0ffc77c6f34aae1be1388e6172a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARB_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARB_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARB_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARB_M.png"
+    ]
   },
   {
     "name_gatherer": "Alliances",
@@ -33,7 +45,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dc0b1d07dc7790a89a7b7c758a7cf110"
+    "digest": "dc0b1d07dc7790a89a7b7c758a7cf110",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AL_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AL_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AL_U.png"
+    ]
   },
   {
     "name_gatherer": "Amonkhet",
@@ -45,7 +62,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5e76ec1c2ed64f05d06ae8dd0b295b24"
+    "digest": "5e76ec1c2ed64f05d06ae8dd0b295b24",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AKH_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AKH_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AKH_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AKH_R.png"
+    ]
   },
   {
     "name_gatherer": "Antiquities",
@@ -57,7 +80,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6744c360d63f80a26ac0a776fb022e5b"
+    "digest": "6744c360d63f80a26ac0a776fb022e5b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AQ_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AQ_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AQ_U.png"
+    ]
   },
   {
     "name_gatherer": "Apocalypse",
@@ -69,7 +97,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0e9c1bfbf4974abbb76bdbfb2d014f15"
+    "digest": "0e9c1bfbf4974abbb76bdbfb2d014f15",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AP_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AP_R.png"
+    ]
   },
   {
     "name_gatherer": "Arabian Nights",
@@ -81,7 +114,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f4cdc5101ca60c374a2c6246931381b4"
+    "digest": "f4cdc5101ca60c374a2c6246931381b4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AN_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AN_C.png"
+    ]
   },
   {
     "name_gatherer": "Archenemy",
@@ -93,7 +131,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "cf5d4aa7874394c6fa0ace84e81f27ac"
+    "digest": "cf5d4aa7874394c6fa0ace84e81f27ac",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ARC_R.png"
+    ]
   },
   {
     "name_gatherer": "Archenemy: Nicol Bolas",
@@ -105,7 +148,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "406e39f4ac3efe969240d6a558bd578a"
+    "digest": "406e39f4ac3efe969240d6a558bd578a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E01_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E01_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E01_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E01_M.png"
+    ]
   },
   {
     "name_gatherer": "Avacyn Restored",
@@ -117,19 +166,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "10c3b48ed4940e05159890afe9a852c2"
-  },
-  {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "isOnlineOnly": false,
-    "borderColor": "White",
-    "digest": "9cf67a9642dfef0bd5ab93be639e770c"
+    "digest": "10c3b48ed4940e05159890afe9a852c2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVR_M.png"
+    ]
   },
   {
     "name_gatherer": "Battle for Zendikar",
@@ -141,7 +184,30 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8617e074a0b5e0228545b728e20dda69"
+    "digest": "8617e074a0b5e0228545b728e20dda69",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BFZ_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BFZ_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BFZ_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BFZ_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "White",
+    "digest": "9cf67a9642dfef0bd5ab93be639e770c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BR_R.png"
+    ]
   },
   {
     "name_gatherer": "Battlebond",
@@ -153,7 +219,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "135bceedde506ea4b51492ca9aed48ea"
+    "digest": "135bceedde506ea4b51492ca9aed48ea",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BBD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BBD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BBD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BBD_M.png"
+    ]
   },
   {
     "name_gatherer": "Beatdown Box Set",
@@ -165,7 +237,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "d544822d200815c47df6d552df435d3c"
+    "digest": "d544822d200815c47df6d552df435d3c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BD_C.png"
+    ]
   },
   {
     "name_gatherer": "Betrayers of Kamigawa",
@@ -177,7 +254,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f3443d6b4d499220990732ce7e4733a1"
+    "digest": "f3443d6b4d499220990732ce7e4733a1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BOK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BOK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BOK_R.png"
+    ]
   },
   {
     "name_gatherer": "Born of the Gods",
@@ -189,7 +271,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d332f48cebd5d9dc1d15900f16d109ca"
+    "digest": "d332f48cebd5d9dc1d15900f16d109ca",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BNG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BNG_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BNG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/BNG_M.png"
+    ]
   },
   {
     "name_gatherer": "Champions of Kamigawa",
@@ -201,7 +289,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "81aad9ad70d237d628cf7aa75aa9470b"
+    "digest": "81aad9ad70d237d628cf7aa75aa9470b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CHK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CHK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CHK_R.png"
+    ]
   },
   {
     "name_gatherer": "Chronicles",
@@ -213,7 +306,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "c9204e8ab065a471f6e71080f2209932"
+    "digest": "c9204e8ab065a471f6e71080f2209932",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CH_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CH_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CH_R.png"
+    ]
   },
   {
     "name_gatherer": "Classic Sixth Edition",
@@ -225,7 +323,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "2342302f91c0dcdd2ff21ddb15e3d32d"
+    "digest": "2342302f91c0dcdd2ff21ddb15e3d32d",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/6E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/6E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/6E_C.png"
+    ]
   },
   {
     "name_gatherer": "Coldsnap",
@@ -237,7 +340,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a29a651b48f2fd76d278038b0958e97e"
+    "digest": "a29a651b48f2fd76d278038b0958e97e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CS_C.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2013 Edition",
@@ -249,7 +357,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a06c68253c4af10cc7ad43ac84a08bb6"
+    "digest": "a06c68253c4af10cc7ad43ac84a08bb6",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C13_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C13_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C13_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C13_M.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2014",
@@ -261,7 +375,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5510b8ff83873633c78cabbc77884334"
+    "digest": "5510b8ff83873633c78cabbc77884334",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C14_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C14_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C14_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C14_C.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2015",
@@ -273,7 +393,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6630d268d302b6242bc03e6a04e9ad04"
+    "digest": "6630d268d302b6242bc03e6a04e9ad04",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C15_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C15_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C15_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C15_M.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2016",
@@ -285,7 +411,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "098aa6147d69699d350208a7593fcca8"
+    "digest": "098aa6147d69699d350208a7593fcca8",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C16_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C16_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C16_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C16_M.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2017",
@@ -297,7 +429,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "96b85b404f98d79d44100c763a34d5c7"
+    "digest": "96b85b404f98d79d44100c763a34d5c7",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C17_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C17_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C17_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C17_C.png"
+    ]
   },
   {
     "name_gatherer": "Commander 2018",
@@ -309,7 +447,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "104dd431ae111c69388ba7b8ea5dd3c5"
+    "digest": "104dd431ae111c69388ba7b8ea5dd3c5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C18_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C18_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C18_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/C18_C.png"
+    ]
   },
   {
     "name_gatherer": "Commander Anthology",
@@ -321,7 +465,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "efe30000c2567b395896702ebbe2972d"
+    "digest": "efe30000c2567b395896702ebbe2972d",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Commander Anthology 2018",
@@ -333,7 +483,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0988eecc6e16362c053908022c472883"
+    "digest": "0988eecc6e16362c053908022c472883",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CM2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CM2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CM2_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CM2_C.png"
+    ]
   },
   {
     "name_gatherer": "Commander's Arsenal",
@@ -345,7 +501,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6d5e0115af275a1a39798ff2c108e4d5"
+    "digest": "6d5e0115af275a1a39798ff2c108e4d5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CRS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CRS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CRS_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CRS_U.png"
+    ]
   },
   {
     "name_gatherer": "Conflux",
@@ -357,7 +519,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3072f8af3c7ede334c5e230d5a8a9af2"
+    "digest": "3072f8af3c7ede334c5e230d5a8a9af2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CFX_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CFX_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CFX_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CFX_R.png"
+    ]
   },
   {
     "name_gatherer": "Conspiracy: Take the Crown",
@@ -369,7 +537,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d4c0678e5855cb7c2807ebbe459d8e8a"
+    "digest": "d4c0678e5855cb7c2807ebbe459d8e8a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CN2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CN2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CN2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CN2_M.png"
+    ]
   },
   {
     "name_gatherer": "Core Set 2019",
@@ -381,7 +555,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5c5ff5c96bb88caedc303b42f2a7379a"
+    "digest": "5c5ff5c96bb88caedc303b42f2a7379a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M19_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M19_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M19_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M19_M.png"
+    ]
   },
   {
     "name_gatherer": "Dark Ascension",
@@ -393,7 +573,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "00936d82e2d5076791fc8e6041c10c00"
+    "digest": "00936d82e2d5076791fc8e6041c10c00",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DKA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DKA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DKA_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DKA_C.png"
+    ]
   },
   {
     "name_gatherer": "Darksteel",
@@ -405,7 +591,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "756708d4aa95320dda53b5edb25b5dfb"
+    "digest": "756708d4aa95320dda53b5edb25b5dfb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DS_C.png"
+    ]
   },
   {
     "name_gatherer": "Dissension",
@@ -417,7 +608,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "620012925724488f002110ffb80bc129"
+    "digest": "620012925724488f002110ffb80bc129",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DIS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DIS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DIS_U.png"
+    ]
   },
   {
     "name_gatherer": "Dominaria",
@@ -429,7 +625,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ae363385f9df9bfd2875bbadf9e930b1"
+    "digest": "ae363385f9df9bfd2875bbadf9e930b1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DOM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DOM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DOM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DOM_M.png"
+    ]
   },
   {
     "name_gatherer": "Dragon's Maze",
@@ -441,7 +643,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ce3a6345d0f278f079facebe77ec1c45"
+    "digest": "ce3a6345d0f278f079facebe77ec1c45",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DGM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DGM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DGM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DGM_M.png"
+    ]
   },
   {
     "name_gatherer": "Dragons of Tarkir",
@@ -453,7 +661,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c61c95fd0006017270ea0e1fb746aa42"
+    "digest": "c61c95fd0006017270ea0e1fb746aa42",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DTK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DTK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DTK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DTK_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks Anthology, Divine vs. Demonic",
@@ -465,7 +679,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4a6eb06075036bf1e5cb4c0d735761d2"
+    "digest": "4a6eb06075036bf1e5cb4c0d735761d2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3DVD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3DVD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3DVD_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3DVD_R.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks Anthology, Elves vs. Goblins",
@@ -477,7 +697,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3d093e1e00d17ef4be8db46f25461cc4"
+    "digest": "3d093e1e00d17ef4be8db46f25461cc4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3EVG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3EVG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3EVG_C.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks Anthology, Garruk vs. Liliana",
@@ -489,7 +714,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "58e7c9dd30f9578ea4b7d950ecc57f1c"
+    "digest": "58e7c9dd30f9578ea4b7d950ecc57f1c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3GVL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3GVL_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3GVL_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3GVL_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks Anthology, Jace vs. Chandra",
@@ -501,7 +732,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "64833d384ccf4d5e818bd8f61b653e44"
+    "digest": "64833d384ccf4d5e818bd8f61b653e44",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3JVC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3JVC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3JVC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DD3JVC_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Ajani vs. Nicol Bolas",
@@ -513,7 +750,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7ef241105c231e6a4b976e4663b0b822"
+    "digest": "7ef241105c231e6a4b976e4663b0b822",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVB_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVB_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVB_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/AVB_U.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Blessed vs. Cursed",
@@ -525,7 +768,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7344ae3eec26be00996e6d929684f9f5"
+    "digest": "7344ae3eec26be00996e6d929684f9f5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDQ_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDQ_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDQ_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDQ_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Divine vs. Demonic",
@@ -537,7 +786,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9635fe38ebc735aad692a0c656eaa82b"
+    "digest": "9635fe38ebc735aad692a0c656eaa82b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DVD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DVD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DVD_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DVD_R.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Kiora",
@@ -549,7 +804,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4115b25594f9eceb23199e11dad56e30"
+    "digest": "4115b25594f9eceb23199e11dad56e30",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDO_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDO_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDO_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDO_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Elspeth vs. Tezzeret",
@@ -561,7 +822,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "124e982795899f27efcdd51dd0c679d3"
+    "digest": "124e982795899f27efcdd51dd0c679d3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVT_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVT_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Elves vs. Goblins",
@@ -573,7 +840,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "304d4f6ed332857b86a87d4cdeb8ae7f"
+    "digest": "304d4f6ed332857b86a87d4cdeb8ae7f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVG_C.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Elves vs. Inventors",
@@ -585,7 +857,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "236193082fbce0d1ba0e0c757a72b496"
+    "digest": "236193082fbce0d1ba0e0c757a72b496",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDU_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDU_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDU_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDU_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Garruk vs. Liliana",
@@ -597,7 +875,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6704412a798e04c1b1bf5a731bbe6e65"
+    "digest": "6704412a798e04c1b1bf5a731bbe6e65",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GVL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GVL_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GVL_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GVL_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Heroes vs. Monsters",
@@ -609,7 +893,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7b9cc1a6d559c2a8fb3ba0ca558f5f48"
+    "digest": "7b9cc1a6d559c2a8fb3ba0ca558f5f48",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HVM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HVM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HVM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HVM_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Izzet vs. Golgari",
@@ -621,7 +911,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "30aa47b8e237c11c219462851f4791be"
+    "digest": "30aa47b8e237c11c219462851f4791be",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IVG_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IVG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IVG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IVG_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Chandra",
@@ -633,7 +929,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c979e45300868a4064279af3e50c86e2"
+    "digest": "c979e45300868a4064279af3e50c86e2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JVC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JVC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JVC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JVC_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Jace vs. Vraska",
@@ -645,7 +947,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5b8c5361fefaee270df4556f50c51f7f"
+    "digest": "5b8c5361fefaee270df4556f50c51f7f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDM_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Knights vs. Dragons",
@@ -657,7 +965,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "473197be93f903bb3f56a91884db7d20"
+    "digest": "473197be93f903bb3f56a91884db7d20",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KVD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KVD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KVD_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KVD_R.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Merfolk vs. Goblins",
@@ -669,7 +983,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d69ae93ca0b9bd5795bbfba7af0abb56"
+    "digest": "d69ae93ca0b9bd5795bbfba7af0abb56",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDT_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDT_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Mind vs. Might",
@@ -681,7 +1001,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a70607b88d8b73d8573eb58cdd693e37"
+    "digest": "a70607b88d8b73d8573eb58cdd693e37",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDS_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
@@ -693,7 +1019,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "39072a89bc5f6372f7b32fa7a8363183"
+    "digest": "39072a89bc5f6372f7b32fa7a8363183",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDR_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Phyrexia vs. the Coalition",
@@ -705,7 +1037,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1c847701efae50bdf96001763173fe6a"
+    "digest": "1c847701efae50bdf96001763173fe6a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PVC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PVC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PVC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PVC_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Sorin vs. Tibalt",
@@ -717,7 +1055,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f60fb32210e79f5c9124a10d9db8e34d"
+    "digest": "f60fb32210e79f5c9124a10d9db8e34d",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SVT_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SVT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SVT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SVT_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Speed vs. Cunning",
@@ -729,7 +1073,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "82a5250ca59473a1ff1e53be10749f85"
+    "digest": "82a5250ca59473a1ff1e53be10749f85",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDN_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDN_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDN_R.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Venser vs. Koth",
@@ -741,7 +1091,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "51d45270f52c50509108cae9f0669cf1"
+    "digest": "51d45270f52c50509108cae9f0669cf1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VVK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VVK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VVK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VVK_M.png"
+    ]
   },
   {
     "name_gatherer": "Duel Decks: Zendikar vs. Eldrazi",
@@ -753,7 +1109,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8550c7d663c2ad64064fe75ff44fcd69"
+    "digest": "8550c7d663c2ad64064fe75ff44fcd69",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDP_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDP_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DDP_R.png"
+    ]
   },
   {
     "name_gatherer": "Eighth Edition",
@@ -765,7 +1127,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "abf25a62751b7fc02bb7285e7b0b1e29"
+    "digest": "abf25a62751b7fc02bb7285e7b0b1e29",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/8E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/8E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/8E_C.png"
+    ]
   },
   {
     "name_gatherer": "Eldritch Moon",
@@ -777,7 +1144,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fc803a4d8dee44a600c7eadbdf5ae0c6"
+    "digest": "fc803a4d8dee44a600c7eadbdf5ae0c6",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMN_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMN_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMN_M.png"
+    ]
   },
   {
     "name_gatherer": "Eternal Masters",
@@ -789,7 +1162,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5f7dbfd21604f48bffcbeb60a1b976b3"
+    "digest": "5f7dbfd21604f48bffcbeb60a1b976b3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Eventide",
@@ -801,7 +1180,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "93a36f8a878f0bef9619580ddfaa2409"
+    "digest": "93a36f8a878f0bef9619580ddfaa2409",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVE_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVE_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EVE_U.png"
+    ]
   },
   {
     "name_gatherer": "Exodus",
@@ -813,7 +1197,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "64b0031981b3dcf50aa563433c36b328"
+    "digest": "64b0031981b3dcf50aa563433c36b328",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EX_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EX_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EX_R.png"
+    ]
   },
   {
     "name_gatherer": "Explorers of Ixalan",
@@ -825,7 +1214,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "41a289ae7462dda36f4ad935f1ff1687"
+    "digest": "41a289ae7462dda36f4ad935f1ff1687",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E02_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E02_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E02_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/E02_M.png"
+    ]
   },
   {
     "name_gatherer": "Fallen Empires",
@@ -837,7 +1232,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ad4509b214ab86f2ee9bc0ebf0bbd3d1"
+    "digest": "ad4509b214ab86f2ee9bc0ebf0bbd3d1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FE_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FE_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FE_U.png"
+    ]
   },
   {
     "name_gatherer": "Fate Reforged",
@@ -849,7 +1249,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c486ee6124500245261cb44e44ffb4de"
+    "digest": "c486ee6124500245261cb44e44ffb4de",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FRF_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FRF_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FRF_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FRF_M.png"
+    ]
   },
   {
     "name_gatherer": "Fifth Dawn",
@@ -861,7 +1267,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bc347ec80aba5aea34c89b023b9c0856"
+    "digest": "bc347ec80aba5aea34c89b023b9c0856",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FD_U.png"
+    ]
   },
   {
     "name_gatherer": "Fifth Edition",
@@ -873,7 +1284,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "10c10116c94fb98f89810d79b04de51b"
+    "digest": "10c10116c94fb98f89810d79b04de51b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/5E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/5E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/5E_C.png"
+    ]
   },
   {
     "name_gatherer": "Fourth Edition",
@@ -885,7 +1301,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "36cb715af99768ee2c56861c3b13d12b"
+    "digest": "36cb715af99768ee2c56861c3b13d12b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/4E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/4E_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/4E_R.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Angels",
@@ -897,7 +1318,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "48c2c9b72504cf215927c5de4efe9e33"
+    "digest": "48c2c9b72504cf215927c5de4efe9e33",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/V15_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Annihilation (2014)",
@@ -909,7 +1333,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "beb3112fa6f48303e64fe9bf22dc7da5"
+    "digest": "beb3112fa6f48303e64fe9bf22dc7da5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/V14_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Dragons",
@@ -921,7 +1348,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a310f470ce29b4f187f7d3430f2c21fb"
+    "digest": "a310f470ce29b4f187f7d3430f2c21fb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DRG_R.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Exiled",
@@ -933,7 +1363,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "08516e87a601547c7852f55dead2e264"
+    "digest": "08516e87a601547c7852f55dead2e264",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EXL_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Legends",
@@ -945,7 +1378,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "691277397363b6d3db4a5ab8a99148f5"
+    "digest": "691277397363b6d3db4a5ab8a99148f5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LEG_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Lore",
@@ -957,7 +1393,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f03d7c798b0d8f5f8c0601014e9eac5a"
+    "digest": "f03d7c798b0d8f5f8c0601014e9eac5a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/V16_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Realms",
@@ -969,7 +1408,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "551d7698b160ebf60ae482a301abfc8e"
+    "digest": "551d7698b160ebf60ae482a301abfc8e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RLM_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Relics",
@@ -981,7 +1423,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "875d97122ef47ea90a0a289eaa2d27f6"
+    "digest": "875d97122ef47ea90a0a289eaa2d27f6",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RLC_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Transform",
@@ -993,7 +1438,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4791d79b343f893ec4d46fc19698c204"
+    "digest": "4791d79b343f893ec4d46fc19698c204",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/V17_M.png"
+    ]
   },
   {
     "name_gatherer": "From the Vault: Twenty",
@@ -1005,7 +1453,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "236a71b1b52b8f68e67412a1448c7054"
+    "digest": "236a71b1b52b8f68e67412a1448c7054",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/V13_M.png"
+    ]
   },
   {
     "name_gatherer": "Future Sight",
@@ -1017,7 +1468,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "958f7c9a8397cd8995311b9912734efb"
+    "digest": "958f7c9a8397cd8995311b9912734efb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FUT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FUT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FUT_C.png"
+    ]
   },
   {
     "name_gatherer": "Game Night",
@@ -1029,7 +1485,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "43c7e4ab69ca1700ff9f342688a04e27"
+    "digest": "43c7e4ab69ca1700ff9f342688a04e27",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GNT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GNT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GNT_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GNT_C.png"
+    ]
   },
   {
     "name_gatherer": "Gatecrash",
@@ -1041,7 +1503,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c3f4eabc2dd43ef7f2250ae6f21b8398"
+    "digest": "c3f4eabc2dd43ef7f2250ae6f21b8398",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GTC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GTC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GTC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GTC_M.png"
+    ]
   },
   {
     "name_gatherer": "Gift Pack",
@@ -1053,7 +1521,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "70039bc10ca4b2902e43d41c007bb31a"
+    "digest": "70039bc10ca4b2902e43d41c007bb31a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M19GP_R.png"
+    ]
   },
   {
     "name_gatherer": "Global Series: Jiang Yanggu and Mu Yanling",
@@ -1065,7 +1536,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "48257139a86b6662de5fadf647bed61a"
+    "digest": "48257139a86b6662de5fadf647bed61a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GS1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GS1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GS1_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GS1_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Azorius",
@@ -1077,7 +1554,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a028eec91dba118f92ad99b92e709373"
+    "digest": "a028eec91dba118f92ad99b92e709373",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Boros",
@@ -1089,7 +1572,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "89631e47b526f5ccd8e42f3f3ec31875"
+    "digest": "89631e47b526f5ccd8e42f3f3ec31875",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Dimir",
@@ -1101,7 +1590,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Golgari",
@@ -1113,7 +1608,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Gruul",
@@ -1125,7 +1626,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Izzet",
@@ -1137,7 +1644,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Orzhov",
@@ -1149,7 +1662,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Rakdos",
@@ -1161,7 +1680,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Selesnya",
@@ -1173,7 +1698,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Simic",
@@ -1185,7 +1716,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": ""
+    "digest": "",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guildpact",
@@ -1197,7 +1734,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d8dce9d8478cc18dceda5f69918d248b"
+    "digest": "d8dce9d8478cc18dceda5f69918d248b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GP_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GP_U.png"
+    ]
   },
   {
     "name_gatherer": "Guilds of Ravnica",
@@ -1209,7 +1751,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0647d1c71d72281a38c46ed87b635294"
+    "digest": "0647d1c71d72281a38c46ed87b635294",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRN_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRN_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRN_R.png"
+    ]
   },
   {
     "name_gatherer": "Guilds of Ravnica Mythic Edition",
@@ -1221,7 +1769,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3a5ac0d8e9c08e5475cbaffa308e5267"
+    "digest": "3a5ac0d8e9c08e5475cbaffa308e5267",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRNMED_M.png"
+    ]
   },
   {
     "name_gatherer": "Homelands",
@@ -1233,7 +1784,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "648140a0244ef3c228e44b57edda2873"
+    "digest": "648140a0244ef3c228e44b57edda2873",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HL_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HL_R.png"
+    ]
   },
   {
     "name_gatherer": "Hour of Devastation",
@@ -1245,7 +1801,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dfc551c6607a4a00399854dcadba4b8f"
+    "digest": "dfc551c6607a4a00399854dcadba4b8f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HOU_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HOU_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HOU_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/HOU_M.png"
+    ]
   },
   {
     "name_gatherer": "Ice Age",
@@ -1257,7 +1819,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "de68dc90d25943864c35c2cf8e155f83"
+    "digest": "de68dc90d25943864c35c2cf8e155f83",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IA_R.png"
+    ]
   },
   {
     "name_gatherer": "Iconic Masters",
@@ -1269,7 +1836,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5d599890aec50dc17f699ec444219fe4"
+    "digest": "5d599890aec50dc17f699ec444219fe4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Innistrad",
@@ -1281,7 +1854,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "775757fcae48b599d911c2fca28a7534"
+    "digest": "775757fcae48b599d911c2fca28a7534",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ISD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ISD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ISD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ISD_M.png"
+    ]
   },
   {
     "name_gatherer": "Invasion",
@@ -1293,7 +1872,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f89de65ec0a16be5d634386f0cdecba5"
+    "digest": "f89de65ec0a16be5d634386f0cdecba5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IN_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/IN_C.png"
+    ]
   },
   {
     "name_gatherer": "Ixalan",
@@ -1305,7 +1889,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "01e888fa27085d847677b9b459a4b5eb"
+    "digest": "01e888fa27085d847677b9b459a4b5eb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/XLN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/XLN_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/XLN_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/XLN_C.png"
+    ]
   },
   {
     "name_gatherer": "Journey into Nyx",
@@ -1317,7 +1907,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7ea3198814e39d63b0135ebc3587e831"
+    "digest": "7ea3198814e39d63b0135ebc3587e831",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JOU_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JOU_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JOU_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JOU_M.png"
+    ]
   },
   {
     "name_gatherer": "Judgment",
@@ -1329,7 +1925,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "12046ab152abb230fae2fcabf5c81a5b"
+    "digest": "12046ab152abb230fae2fcabf5c81a5b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JU_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JU_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/JU_R.png"
+    ]
   },
   {
     "name_gatherer": "Kaladesh",
@@ -1341,7 +1942,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e153a714d45c8ba198fffb3574c06ca5"
+    "digest": "e153a714d45c8ba198fffb3574c06ca5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KLD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KLD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KLD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KLD_M.png"
+    ]
   },
   {
     "name_gatherer": "Khans of Tarkir",
@@ -1353,7 +1960,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c9112c586579e7fbdaf43bf5d7c5f3e0"
+    "digest": "c9112c586579e7fbdaf43bf5d7c5f3e0",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KTK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KTK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KTK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/KTK_M.png"
+    ]
   },
   {
     "name_gatherer": "Legends",
@@ -1365,7 +1978,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dc99dc797bd72cc0c3be5f8b9bace8b7"
+    "digest": "dc99dc797bd72cc0c3be5f8b9bace8b7",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LG_C.png"
+    ]
   },
   {
     "name_gatherer": "Legions",
@@ -1377,7 +1995,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d2bfd83a58ab1aa7ade84226d03065e1"
+    "digest": "d2bfd83a58ab1aa7ade84226d03065e1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LE_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LE_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LE_C.png"
+    ]
   },
   {
     "name_gatherer": "Limited Edition Alpha",
@@ -1389,7 +2012,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f8e198772af2888b0a1098e79bb363d3"
+    "digest": "f8e198772af2888b0a1098e79bb363d3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A_C.png"
+    ]
   },
   {
     "name_gatherer": "Limited Edition Beta",
@@ -1401,7 +2029,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ac0317cfa9ef76241fe4665462a9b44a"
+    "digest": "ac0317cfa9ef76241fe4665462a9b44a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/B_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/B_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/B_C.png"
+    ]
   },
   {
     "name_gatherer": "Lorwyn",
@@ -1413,7 +2046,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0b13edb72be639deb23abd8dfe1b4268"
+    "digest": "0b13edb72be639deb23abd8dfe1b4268",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LRW_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LRW_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/LRW_U.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2010",
@@ -1425,7 +2063,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "95b5f5da6a0534119956446f6d2bc6ae"
+    "digest": "95b5f5da6a0534119956446f6d2bc6ae",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M10_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M10_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M10_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M10_R.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2011",
@@ -1437,7 +2081,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5dbc060bc9fceeaa488be24ee6898e30"
+    "digest": "5dbc060bc9fceeaa488be24ee6898e30",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M11_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M11_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M11_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M11_R.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2012",
@@ -1449,7 +2099,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fbfd9595dda1bfa46d313c717c91e58e"
+    "digest": "fbfd9595dda1bfa46d313c717c91e58e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M12_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M12_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M12_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M12_M.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2013",
@@ -1461,7 +2117,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2225668b6ce0c29574751aac4162619f"
+    "digest": "2225668b6ce0c29574751aac4162619f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M13_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M13_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M13_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M13_R.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2014 Core Set",
@@ -1473,7 +2135,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c0e19b3464a6b3508dbd584f25f13c26"
+    "digest": "c0e19b3464a6b3508dbd584f25f13c26",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M14_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M14_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M14_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M14_R.png"
+    ]
   },
   {
     "name_gatherer": "Magic 2015 Core Set",
@@ -1485,7 +2153,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c81469c779d1ada61dd89ccc9dfb7016"
+    "digest": "c81469c779d1ada61dd89ccc9dfb7016",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M15_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M15_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M15_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M15_M.png"
+    ]
   },
   {
     "name_gatherer": "Magic Origins",
@@ -1497,7 +2171,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b2bc8d6953a2ce3207ff27f1a4fa196c"
+    "digest": "b2bc8d6953a2ce3207ff27f1a4fa196c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ORI_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ORI_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ORI_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ORI_M.png"
+    ]
   },
   {
     "name_gatherer": "Magic: The Gathering-Commander",
@@ -1509,7 +2189,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b25ac749378c57a7c27d04de58d58237"
+    "digest": "b25ac749378c57a7c27d04de58d58237",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CMD_M.png"
+    ]
   },
   {
     "name_gatherer": "Magic: The Gathering-Conspiracy",
@@ -1521,7 +2207,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ea25b01d8e9873946b5c0906ef4c5e83"
+    "digest": "ea25b01d8e9873946b5c0906ef4c5e83",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CNS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CNS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CNS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/CNS_M.png"
+    ]
   },
   {
     "name_gatherer": "Masterpiece Series: Amonkhet Invocations",
@@ -1533,7 +2225,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6a2e102fdfafb082957b935827751c58"
+    "digest": "6a2e102fdfafb082957b935827751c58",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MPSAKH_R.png"
+    ]
   },
   {
     "name_gatherer": "Masterpiece Series: Kaladesh Inventions",
@@ -1545,7 +2240,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "974dcd98042457a3a890964fefd8276f"
+    "digest": "974dcd98042457a3a890964fefd8276f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MPSKLD_R.png"
+    ]
   },
   {
     "name_gatherer": "Masters 25",
@@ -1557,7 +2255,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0b1300cd821de41196d31ec8a6980e11"
+    "digest": "0b1300cd821de41196d31ec8a6980e11",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A25_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A25_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A25_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/A25_U.png"
+    ]
   },
   {
     "name_gatherer": "Masters Edition",
@@ -1569,7 +2273,12 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "c88947fbff9711f6fb9e5eb81a33c54c"
+    "digest": "c88947fbff9711f6fb9e5eb81a33c54c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MED_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MED_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MED_C.png"
+    ]
   },
   {
     "name_gatherer": "Masters Edition II",
@@ -1581,7 +2290,12 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "90339a7cca581b82f558efd77494f321"
+    "digest": "90339a7cca581b82f558efd77494f321",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME2_R.png"
+    ]
   },
   {
     "name_gatherer": "Masters Edition III",
@@ -1593,7 +2307,12 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "7b19e849d52ee362ea2abe1656dc9a0c"
+    "digest": "7b19e849d52ee362ea2abe1656dc9a0c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME3_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME3_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME3_C.png"
+    ]
   },
   {
     "name_gatherer": "Masters Edition IV",
@@ -1605,7 +2324,12 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "bccb526a2e778558ba502046fcb5703b"
+    "digest": "bccb526a2e778558ba502046fcb5703b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME4_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME4_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ME4_U.png"
+    ]
   },
   {
     "name_gatherer": "Mercadian Masques",
@@ -1617,7 +2341,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2f17f44fbde1cabec1d4c08383da3e27"
+    "digest": "2f17f44fbde1cabec1d4c08383da3e27",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM_C.png"
+    ]
   },
   {
     "name_gatherer": "Mirage",
@@ -1629,7 +2358,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "94947f06334fa5602102165de984c132"
+    "digest": "94947f06334fa5602102165de984c132",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MI_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MI_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MI_C.png"
+    ]
   },
   {
     "name_gatherer": "Mirrodin",
@@ -1641,7 +2375,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "cfc4168d0066a3466e8858e83950666f"
+    "digest": "cfc4168d0066a3466e8858e83950666f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MR_U.png"
+    ]
   },
   {
     "name_gatherer": "Mirrodin Besieged",
@@ -1653,7 +2392,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "febd4590169428b09615743d132f178f"
+    "digest": "febd4590169428b09615743d132f178f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MBS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MBS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MBS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MBS_M.png"
+    ]
   },
   {
     "name_gatherer": "Modern Event Deck 2014",
@@ -1665,7 +2410,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b76a00269f07c1127a427372d6e7f2bb"
+    "digest": "b76a00269f07c1127a427372d6e7f2bb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MD1_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MD1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MD1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MD1_M.png"
+    ]
   },
   {
     "name_gatherer": "Modern Horizons",
@@ -1677,7 +2428,8 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e7e471d5872ab1977f39afb98f79df11"
+    "digest": "e7e471d5872ab1977f39afb98f79df11",
+    "expansionImageURLs": []
   },
   {
     "name_gatherer": "Modern Masters",
@@ -1689,7 +2441,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "131d89590c78977fa9a4b5f1c6ef73d9"
+    "digest": "131d89590c78977fa9a4b5f1c6ef73d9",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Modern Masters 2015 Edition",
@@ -1701,7 +2459,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c9ef476458d8a170f839b45e8b331461"
+    "digest": "c9ef476458d8a170f839b45e8b331461",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM2_M.png"
+    ]
   },
   {
     "name_gatherer": "Modern Masters 2017 Edition",
@@ -1713,7 +2477,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c29b406091cea831093ca96b8d02d99f"
+    "digest": "c29b406091cea831093ca96b8d02d99f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM3_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM3_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM3_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MM3_M.png"
+    ]
   },
   {
     "name_gatherer": "Morningtide",
@@ -1725,7 +2495,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "032b86dba28579e8baa44cff4063b890"
+    "digest": "032b86dba28579e8baa44cff4063b890",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MOR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MOR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MOR_U.png"
+    ]
   },
   {
     "name_gatherer": "Nemesis",
@@ -1737,7 +2512,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7f0c1551be4ef28d18251808b93181f0"
+    "digest": "7f0c1551be4ef28d18251808b93181f0",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NE_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NE_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NE_U.png"
+    ]
   },
   {
     "name_gatherer": "New Phyrexia",
@@ -1749,7 +2529,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2e20f61f0b2888294565a5a1313f0021"
+    "digest": "2e20f61f0b2888294565a5a1313f0021",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NPH_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NPH_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NPH_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/NPH_R.png"
+    ]
   },
   {
     "name_gatherer": "Ninth Edition",
@@ -1761,7 +2547,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "13ad21d555368fd0af9e463b18ff7bb1"
+    "digest": "13ad21d555368fd0af9e463b18ff7bb1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/9E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/9E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/9E_C.png"
+    ]
   },
   {
     "name_gatherer": "Oath of the Gatewatch",
@@ -1773,7 +2564,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "dd30b0508d238635c801ded4f6b27709"
+    "digest": "dd30b0508d238635c801ded4f6b27709",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OGW_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OGW_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OGW_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OGW_M.png"
+    ]
   },
   {
     "name_gatherer": "Odyssey",
@@ -1785,7 +2582,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "666e3cf2b41ecb295d8019910a01aac1"
+    "digest": "666e3cf2b41ecb295d8019910a01aac1",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OD_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/OD_U.png"
+    ]
   },
   {
     "name_gatherer": "Onslaught",
@@ -1797,7 +2599,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8a160790d27d2f51dcffabc3d4a24900"
+    "digest": "8a160790d27d2f51dcffabc3d4a24900",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ON_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ON_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ON_R.png"
+    ]
   },
   {
     "name_gatherer": "Planar Chaos",
@@ -1809,7 +2616,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "17756029075cba74bbaf70dfbc936616"
+    "digest": "17756029075cba74bbaf70dfbc936616",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PLC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PLC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PLC_C.png"
+    ]
   },
   {
     "name_gatherer": "Planechase",
@@ -1821,7 +2633,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b64c23f4dde640e2cf94e858f86e0c9c"
+    "digest": "b64c23f4dde640e2cf94e858f86e0c9c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCH_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCH_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCH_U.png"
+    ]
   },
   {
     "name_gatherer": "Planechase 2012 Edition",
@@ -1833,7 +2650,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "512746171f3ee02ec4d79b54e1973541"
+    "digest": "512746171f3ee02ec4d79b54e1973541",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PC2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PC2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PC2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PC2_M.png"
+    ]
   },
   {
     "name_gatherer": "Planechase Anthology",
@@ -1845,7 +2668,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "74503dfa6d9d54fa203a400e4be323ec"
+    "digest": "74503dfa6d9d54fa203a400e4be323ec",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PCA_M.png"
+    ]
   },
   {
     "name_gatherer": "Planeshift",
@@ -1857,7 +2686,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "76ce0dcaa13c3feceac328f95a1ba4b4"
+    "digest": "76ce0dcaa13c3feceac328f95a1ba4b4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PS_R.png"
+    ]
   },
   {
     "name_gatherer": "Portal",
@@ -1869,7 +2703,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "92d6f2d656f4960f6f9f05221e26eace"
+    "digest": "92d6f2d656f4960f6f9f05221e26eace",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PT_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PT_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PT_C.png"
+    ]
   },
   {
     "name_gatherer": "Portal Second Age",
@@ -1881,7 +2720,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7030b0399c6d29357f800d9ccaa4c6de"
+    "digest": "7030b0399c6d29357f800d9ccaa4c6de",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P2_R.png"
+    ]
   },
   {
     "name_gatherer": "Portal Three Kingdoms",
@@ -1893,7 +2737,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "20eadde1a4218c6240a9a8894f6f612b"
+    "digest": "20eadde1a4218c6240a9a8894f6f612b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P3_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P3_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/P3_C.png"
+    ]
   },
   {
     "name_gatherer": "Premium Deck Series: Fire and Lightning",
@@ -1905,7 +2754,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d817d9ab8068c6301130f28ab978a7d8"
+    "digest": "d817d9ab8068c6301130f28ab978a7d8",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FAL_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FAL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/FAL_C.png"
+    ]
   },
   {
     "name_gatherer": "Premium Deck Series: Graveborn",
@@ -1917,7 +2771,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "505f2433e9d5679793c4ffeb45b140cb"
+    "digest": "505f2433e9d5679793c4ffeb45b140cb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRV_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRV_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRV_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/GRV_M.png"
+    ]
   },
   {
     "name_gatherer": "Premium Deck Series: Slivers",
@@ -1929,7 +2789,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0e8270cd8ece6c152379d000929e5900"
+    "digest": "0e8270cd8ece6c152379d000929e5900",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SLI_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SLI_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SLI_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SLI_M.png"
+    ]
   },
   {
     "name_gatherer": "Promo set for Gatherer",
@@ -1941,7 +2807,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a58bdabbe8108904977382af12a04169"
+    "digest": "a58bdabbe8108904977382af12a04169",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/MBP_R.png"
+    ]
   },
   {
     "name_gatherer": "Prophecy",
@@ -1953,7 +2822,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "32fa51a09d90932dfaf99ab45ef4b0de"
+    "digest": "32fa51a09d90932dfaf99ab45ef4b0de",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PY_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PY_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PY_R.png"
+    ]
   },
   {
     "name_gatherer": "Ravnica Allegiance",
@@ -1965,7 +2839,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2a23cb7b23cd48013a6ac2851e2ac3e0"
+    "digest": "2a23cb7b23cd48013a6ac2851e2ac3e0",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RNA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RNA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RNA_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RNA_U.png"
+    ]
   },
   {
     "name_gatherer": "Ravnica Allegiance Mythic Edition",
@@ -1977,7 +2857,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2b6d15ea4b8f66d1b23132a5429add57"
+    "digest": "2b6d15ea4b8f66d1b23132a5429add57",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RNAMED_M.png"
+    ]
   },
   {
     "name_gatherer": "Ravnica: City of Guilds",
@@ -1989,7 +2872,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1a3b35233d4d21b70356bf55398ca95a"
+    "digest": "1a3b35233d4d21b70356bf55398ca95a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RAV_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RAV_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RAV_C.png"
+    ]
   },
   {
     "name_gatherer": "Return to Ravnica",
@@ -2001,7 +2889,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fbad25b0062c8b51c3637c575f89b99d"
+    "digest": "fbad25b0062c8b51c3637c575f89b99d",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RTR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RTR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RTR_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RTR_U.png"
+    ]
   },
   {
     "name_gatherer": "Revised Edition",
@@ -2013,7 +2907,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "304076e193a9506ddc3f2ba3997f69fb"
+    "digest": "304076e193a9506ddc3f2ba3997f69fb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/R_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/R_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/R_C.png"
+    ]
   },
   {
     "name_gatherer": "Rise of the Eldrazi",
@@ -2025,7 +2924,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "20001a5cd3fd565b11855796700ecece"
+    "digest": "20001a5cd3fd565b11855796700ecece",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ROE_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ROE_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ROE_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ROE_R.png"
+    ]
   },
   {
     "name_gatherer": "Rivals of Ixalan",
@@ -2037,7 +2942,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f27b6a8511f759befd33a6fccdbd69f7"
+    "digest": "f27b6a8511f759befd33a6fccdbd69f7",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RIX_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RIX_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RIX_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/RIX_U.png"
+    ]
   },
   {
     "name_gatherer": "Saviors of Kamigawa",
@@ -2049,7 +2960,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9b3665f68a3ef3624bcb12486b38a072"
+    "digest": "9b3665f68a3ef3624bcb12486b38a072",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOK_C.png"
+    ]
   },
   {
     "name_gatherer": "Scars of Mirrodin",
@@ -2061,7 +2977,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fd2ec31836d51d33113539e12b7e6054"
+    "digest": "fd2ec31836d51d33113539e12b7e6054",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOM_M.png"
+    ]
   },
   {
     "name_gatherer": "Scourge",
@@ -2073,7 +2995,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6047dda8ac3d18c349f1438e3e783bd2"
+    "digest": "6047dda8ac3d18c349f1438e3e783bd2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SC_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SC_U.png"
+    ]
   },
   {
     "name_gatherer": "Seventh Edition",
@@ -2085,7 +3012,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "46925af53e25ca3b2b4dd3f9c19f4527"
+    "digest": "46925af53e25ca3b2b4dd3f9c19f4527",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/7E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/7E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/7E_C.png"
+    ]
   },
   {
     "name_gatherer": "Shadowmoor",
@@ -2097,7 +3029,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d6fc18aa30f6196d6b2cbd794ac5f0ed"
+    "digest": "d6fc18aa30f6196d6b2cbd794ac5f0ed",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SHM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SHM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SHM_R.png"
+    ]
   },
   {
     "name_gatherer": "Shadows over Innistrad",
@@ -2109,7 +3046,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d951960ed7d3ea3f283f6928a662375e"
+    "digest": "d951960ed7d3ea3f283f6928a662375e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOI_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOI_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOI_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SOI_M.png"
+    ]
   },
   {
     "name_gatherer": "Shards of Alara",
@@ -2121,7 +3064,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9d6ad0ed9a45dbb21c5fb777e4278ccb"
+    "digest": "9d6ad0ed9a45dbb21c5fb777e4278ccb",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ALA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ALA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ALA_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ALA_U.png"
+    ]
   },
   {
     "name_gatherer": "Signature Spellbook: Jace",
@@ -2133,7 +3082,11 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d62bc2beef8b94eda8df6ff9e192fc92"
+    "digest": "d62bc2beef8b94eda8df6ff9e192fc92",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SS1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SS1_M.png"
+    ]
   },
   {
     "name_gatherer": "Starter 1999",
@@ -2145,7 +3098,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "245d1226d18535bc3659d927838aade0"
+    "digest": "245d1226d18535bc3659d927838aade0",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ST_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ST_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ST_C.png"
+    ]
   },
   {
     "name_gatherer": "Starter 2000",
@@ -2157,7 +3115,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "c82dd379e3f7fcbd0fdde5874cde5ba7"
+    "digest": "c82dd379e3f7fcbd0fdde5874cde5ba7",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/S2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/S2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/S2_R.png"
+    ]
   },
   {
     "name_gatherer": "Stronghold",
@@ -2169,7 +3132,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "57b0e6b3a4e12e8065cdbb07b5279b0e"
+    "digest": "57b0e6b3a4e12e8065cdbb07b5279b0e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SH_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SH_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/SH_C.png"
+    ]
   },
   {
     "name_gatherer": "Tempest",
@@ -2181,7 +3149,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ba13a2ee01923706d114f14fa67d8b6f"
+    "digest": "ba13a2ee01923706d114f14fa67d8b6f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TE_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TE_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TE_R.png"
+    ]
   },
   {
     "name_gatherer": "Tempest Remastered",
@@ -2193,7 +3166,13 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "24dd206ecc9aa88c8c5d387309726c50"
+    "digest": "24dd206ecc9aa88c8c5d387309726c50",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TPR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TPR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TPR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TPR_M.png"
+    ]
   },
   {
     "name_gatherer": "Tenth Edition",
@@ -2205,7 +3184,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "9056578d64ebc8885e5728968deb27dd"
+    "digest": "9056578d64ebc8885e5728968deb27dd",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/10E_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/10E_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/10E_C.png"
+    ]
   },
   {
     "name_gatherer": "The Dark",
@@ -2217,7 +3201,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8a3140e21f0b524aafd9815044ff2c27"
+    "digest": "8a3140e21f0b524aafd9815044ff2c27",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DK_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/DK_C.png"
+    ]
   },
   {
     "name_gatherer": "Theros",
@@ -2229,7 +3218,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "42200bc2754353cf00f7e6f8d5a13430"
+    "digest": "42200bc2754353cf00f7e6f8d5a13430",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/THS_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/THS_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/THS_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/THS_M.png"
+    ]
   },
   {
     "name_gatherer": "Time Spiral",
@@ -2241,7 +3236,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c65669d3614ca10091cf6a0f6c0bda39"
+    "digest": "c65669d3614ca10091cf6a0f6c0bda39",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TSP_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TSP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TSP_U.png"
+    ]
   },
   {
     "name_gatherer": "Time Spiral \"Timeshifted\"",
@@ -2253,7 +3253,10 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f30196ab75b822b008767a9e6a8964dc"
+    "digest": "f30196ab75b822b008767a9e6a8964dc",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TSB_T.png"
+    ]
   },
   {
     "name_gatherer": "Torment",
@@ -2265,7 +3268,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "943fb38ad982465fe4c400a288a5ebf0"
+    "digest": "943fb38ad982465fe4c400a288a5ebf0",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TO_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TO_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/TO_U.png"
+    ]
   },
   {
     "name_gatherer": "Ugin's Fate promos",
@@ -2277,7 +3285,13 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a4a37eb7cf0ea574c2ddda759c3f9739"
+    "digest": "a4a37eb7cf0ea574c2ddda759c3f9739",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UFP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UFP_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UFP_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UFP_M.png"
+    ]
   },
   {
     "name_gatherer": "Ultimate Box Toppers",
@@ -2289,7 +3303,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "769f171e069211885b5a20c9329ad607"
+    "digest": "769f171e069211885b5a20c9329ad607",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/PUMA_R.png"
+    ]
   },
   {
     "name_gatherer": "Ultimate Masters",
@@ -2301,7 +3318,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fe4d0767dff8947f819469f26a636eef"
+    "digest": "fe4d0767dff8947f819469f26a636eef",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Unglued",
@@ -2313,7 +3336,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "ae22239ba733c61e7f7c866a3aca1fd3"
+    "digest": "ae22239ba733c61e7f7c866a3aca1fd3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UG_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UG_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UG_C.png"
+    ]
   },
   {
     "name_gatherer": "Unhinged",
@@ -2325,7 +3353,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "bcc8e9ebc1a19d809f6c88f2bc94ea8d"
+    "digest": "bcc8e9ebc1a19d809f6c88f2bc94ea8d",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UNH_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UNH_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UNH_C.png"
+    ]
   },
   {
     "name_gatherer": "Unlimited Edition",
@@ -2337,7 +3370,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "2391ac9acc72b9cae63775eb0d2597ca"
+    "digest": "2391ac9acc72b9cae63775eb0d2597ca",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/U_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/U_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/U_C.png"
+    ]
   },
   {
     "name_gatherer": "Unstable",
@@ -2349,7 +3387,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "fe2c6e34538be50f2f9051f6369e0f7e"
+    "digest": "fe2c6e34538be50f2f9051f6369e0f7e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UST_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UST_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UST_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UST_M.png"
+    ]
   },
   {
     "name_gatherer": "Urza's Destiny",
@@ -2361,7 +3405,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7c69b15044aa691b4259fe87d34b024a"
+    "digest": "7c69b15044aa691b4259fe87d34b024a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UD_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UD_C.png"
+    ]
   },
   {
     "name_gatherer": "Urza's Legacy",
@@ -2373,7 +3422,12 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "901e60c51e221fd274925e3d93b44e37"
+    "digest": "901e60c51e221fd274925e3d93b44e37",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UL_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/UL_R.png"
+    ]
   },
   {
     "name_gatherer": "Urza's Saga",
@@ -2385,7 +3439,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1b540baac8c6e37da1b39619d08dccb4"
+    "digest": "1b540baac8c6e37da1b39619d08dccb4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/US_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/US_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/US_C.png"
+    ]
   },
   {
     "name_gatherer": "Vanguard",
@@ -2397,7 +3456,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bea565f8080309f6d78efdccee0c1f90"
+    "digest": "bea565f8080309f6d78efdccee0c1f90",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VNG_R.png"
+    ]
   },
   {
     "name_gatherer": "Vintage Masters",
@@ -2409,7 +3471,13 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "95359853d33d8640ea3aca64eb8a8c01"
+    "digest": "95359853d33d8640ea3aca64eb8a8c01",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VMA_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VMA_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VMA_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VMA_M.png"
+    ]
   },
   {
     "name_gatherer": "Visions",
@@ -2421,7 +3489,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a72296e1569f10b6a0031a64816b7b3a"
+    "digest": "a72296e1569f10b6a0031a64816b7b3a",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VI_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VI_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/VI_C.png"
+    ]
   },
   {
     "name_gatherer": "War of the Spark",
@@ -2433,7 +3506,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3b4d24372373338ef36b467c9cd527be"
+    "digest": "3b4d24372373338ef36b467c9cd527be",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WAR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WAR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WAR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WAR_M.png"
+    ]
   },
   {
     "name_gatherer": "War of the Spark Mythic Edition",
@@ -2445,7 +3524,10 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1ef1753bce01cb3061252cc6d907ce39"
+    "digest": "1ef1753bce01cb3061252cc6d907ce39",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WARMED_M.png"
+    ]
   },
   {
     "name_gatherer": "Weatherlight",
@@ -2457,7 +3539,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "06e10af7d0417c10515446e51d95e446"
+    "digest": "06e10af7d0417c10515446e51d95e446",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WL_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WL_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WL_C.png"
+    ]
   },
   {
     "name_gatherer": "Welcome Deck 2016",
@@ -2469,7 +3556,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "35afcbd04acf49248f322fc0e79ab54b"
+    "digest": "35afcbd04acf49248f322fc0e79ab54b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W16_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W16_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W16_C.png"
+    ]
   },
   {
     "name_gatherer": "Welcome Deck 2017",
@@ -2481,7 +3573,12 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a1a1f1e714b3ce64f2407f2f3f9da89c"
+    "digest": "a1a1f1e714b3ce64f2407f2f3f9da89c",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W17_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W17_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/W17_R.png"
+    ]
   },
   {
     "name_gatherer": "Worldwake",
@@ -2493,7 +3590,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2a92313f8e2c62b2c62b6f7fc395b1b5"
+    "digest": "2a92313f8e2c62b2c62b6f7fc395b1b5",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WWK_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WWK_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WWK_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/WWK_U.png"
+    ]
   },
   {
     "name_gatherer": "Zendikar",
@@ -2505,7 +3608,13 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "92cb1cd63160b2dac51e91eb4e0b22dc"
+    "digest": "92cb1cd63160b2dac51e91eb4e0b22dc",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ZEN_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ZEN_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ZEN_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/ZEN_M.png"
+    ]
   },
   {
     "name_gatherer": "Zendikar Expeditions",
@@ -2517,6 +3626,9 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d75f9e68ba2c5bc70f284ac5920e7ecd"
+    "digest": "d75f9e68ba2c5bc70f284ac5920e7ecd",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/EXP_M.png"
+    ]
   }
 ]
