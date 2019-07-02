@@ -384,6 +384,18 @@
     "digest": "fc5bc644dc3526f3988935c6572cf580"
   },
   {
+    "name_gatherer": "Core Set 2020",
+    "code_gatherer": "M20",
+    "code_mtgi": "M20",
+    "name_tcgp": "Core Set 2020",
+    "name_mkm": "Core Set 2020",
+    "releaseTimestamp": 1561953600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "c4efbe232fb381f31942ea1ef55912b8"
+  },
+  {
     "name_gatherer": "Dark Ascension",
     "code_gatherer": "DKA",
     "code_mtgi": "DKA",

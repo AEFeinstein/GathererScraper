@@ -1,5 +1,5 @@
 {
-  "timestamp": 1559765169,
+  "timestamp": 1562107673,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -192,6 +192,12 @@
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M19.json.gzip",
       "code": "M19",
       "digest": "fc5bc644dc3526f3988935c6572cf580"
+    },
+    {
+      "name": "Core Set 2020",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M20.json.gzip",
+      "code": "M20",
+      "digest": "c4efbe232fb381f31942ea1ef55912b8"
     },
     {
       "name": "Dark Ascension",
