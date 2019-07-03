@@ -3,12 +3,14 @@ package com.gelakinetic.GathererScraper;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
 import com.gelakinetic.GathererScraper.JsonTypes.Manifest;
 import com.gelakinetic.GathererScraper.JsonTypes.Manifest.ManifestEntry;
+import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.google.gson.Gson;
 
 import javax.swing.table.AbstractTableModel;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -252,6 +254,8 @@ public class ExpansionTableModel extends AbstractTableModel {
         String jsonContent = new String(Files.readAllBytes(Paths.get(JsonExpansions.getPath())));
         Expansion[] expansions = gson.fromJson(jsonContent, Expansion[].class);
 
+        Manifest manifest = gson.fromJson(new FileReader(new File(GathererScraperUi.PATCH_FILE_NAME)), Manifest.class);
+        
         for (Expansion e : expansions) {
             for (ExpansionGS existing : mExpansions) {
                 if (GathererScraper.removeNonAscii(existing.mName_gatherer).equals(GathererScraper.removeNonAscii(e.mName_gatherer))) {
@@ -265,6 +269,18 @@ public class ExpansionTableModel extends AbstractTableModel {
                     existing.mCanBeFoil = e.mCanBeFoil;
                     existing.mBorderColor = e.mBorderColor;
                     existing.mIsOnlineOnly = e.mIsOnlineOnly;
+                    
+                    existing.mExpansionImageURLs.addAll(e.mExpansionImageURLs);
+                    if(existing.mExpansionImageURLs.isEmpty()) {
+                        for(ManifestEntry manifestEntry : manifest.mPatches) {
+                            if(manifestEntry.mCode.equals(existing.mCode_gatherer) &&
+                                  null != existing.mExpansionImageURLs &&
+                                  null != manifestEntry.mExpansionImageURLs) {
+                                existing.mExpansionImageURLs.addAll(manifestEntry.mExpansionImageURLs);
+                                break;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -327,10 +343,11 @@ public class ExpansionTableModel extends AbstractTableModel {
                 } else {
                 	entry.mName = exp.mName_gatherer;
                 }
-                entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/" + exp.mCode_gatherer
+                entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/" + GathererScraper.getGitBranch() + "/patches-v2/" + exp.mCode_gatherer
                         + ".json.gzip";
                 entry.mCode = exp.mCode_gatherer;
                 entry.mDigest = exp.mDigest;
+                entry.mExpansionImageURLs.addAll(exp.mExpansionImageURLs);
                 manifest.mPatches.add(entry);
                 setCodesAdded.add(exp.mCode_gatherer);
             }
