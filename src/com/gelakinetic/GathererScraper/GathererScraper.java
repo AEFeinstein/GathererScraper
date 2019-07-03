@@ -1332,19 +1332,19 @@ public class GathererScraper {
     }
 
     public static String getGitBranch() {
-//        Process process;
-//        try {
-//            process = Runtime.getRuntime().exec("git rev-parse --abbrev-ref HEAD");
-//            process.waitFor();
-//
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//
-//            return reader.readLine();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        Process process;
+        try {
+            process = Runtime.getRuntime().exec("git rev-parse --abbrev-ref HEAD");
+            process.waitFor();
+
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+
+            return reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return "master";
     }
 }
