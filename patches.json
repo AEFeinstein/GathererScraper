@@ -374,6 +374,18 @@
       ]
     },
     {
+      "name": "Core Set 2020",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/patches-v2/M20.json.gzip",
+      "code": "M20",
+      "digest": "2da243a65feda21fd7c03a12cec91428",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M20_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M20_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M20_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/symbols/M20_M.png"
+      ]
+    },
+    {
       "name": "Dark Ascension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/no-foreign-mid/patches-v2/DKA.json.gzip",
       "code": "DKA",
