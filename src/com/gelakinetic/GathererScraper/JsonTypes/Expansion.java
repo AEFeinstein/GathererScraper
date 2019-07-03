@@ -41,5 +41,5 @@ public class Expansion {
     public String mDigest = "";
     
     // List of image URLs
-    public transient ArrayList<String> mExpansionImageURLs = new ArrayList<>();
+    public ArrayList<String> mExpansionImageURLs = new ArrayList<>();
 }
