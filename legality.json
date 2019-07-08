@@ -465,6 +465,7 @@
         "Ancient Den",
         "Birthing Pod",
         "Blazing Shoal",
+        "Bridge from Below",
         "Chrome Mox",
         "Cloudpost",
         "Dark Depths",
@@ -979,6 +980,7 @@
         "Interplanar Tunnel",
         "Into the Earthen Maw",
         "Introductions Are in Order",
+        "Iona, Shield of Emeria",
         "Isle of Vesuva",
         "Iterative Analysis",
         "Izzet Steam Maze",
@@ -1062,9 +1064,9 @@
         "Orochi Colony",
         "Orzhova",
         "Otaria",
-        "Painter's Servant",
         "Panoptic Mirror",
         "Panopticon",
+        "Paradox Engine",
         "Pay Tribute to Me",
         "Peacekeeper Avatar",
         "Phage the Untouchable Avatar",
@@ -1642,5 +1644,5 @@
       ]
     }
   ],
-  "timestamp": 1562107948
+  "timestamp": 1562600609
 }
