@@ -1277,7 +1277,8 @@ public class GathererScraper {
                         {"æ", "ae"},
                         {"©", "(C)"},
                         {"•", "*"},
-                        {"…", "..."}};
+                        {"…", "..."},
+                        {"ò", "o"}};
              /* Loop through all the known replacements and perform them */
         for (String[] replaceSet : replacements) {
             line = line.replaceAll(replaceSet[0], replaceSet[1]);
