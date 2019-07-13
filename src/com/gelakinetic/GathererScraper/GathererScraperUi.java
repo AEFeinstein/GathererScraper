@@ -2,6 +2,7 @@ package com.gelakinetic.GathererScraper;
 
 import com.camick.TableColumnAdjuster;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.Card.ForeignPrinting;
 import com.gelakinetic.GathererScraper.JsonTypesGS.CardGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.ExpansionGS;
 import com.gelakinetic.GathererScraper.JsonTypesGS.PatchGS;
@@ -28,7 +29,7 @@ import java.awt.event.ActionEvent;
  */
 public class GathererScraperUi {
 
-    private static final String PATCH_FILE_NAME = "patches.json";
+    static final String PATCH_FILE_NAME = "patches.json";
     private static final String EXPANSION_FILE_NAME = "expansions.json";
     public static final String LEGAL_FILE_NAME = "legality.json";
     private static final String APPMAP_FILE_NAME = "appmap-com.gelakinetic.mtgfam.xml";
@@ -315,8 +316,9 @@ public class GathererScraperUi {
                  * Make a thread pool to scrape each set in it's own
                  * thread
                  */
-                ExecutorService threadPool = Executors.newFixedThreadPool(Runtime.getRuntime()
-                        .availableProcessors());
+//                ExecutorService threadPool = Executors.newFixedThreadPool(Runtime.getRuntime()
+//                        .availableProcessors());
+                ExecutorService threadPool = Executors.newFixedThreadPool(1);
                 mNumExpansions = 0;
                 mExpansionsProcessed = 0;
 
@@ -332,6 +334,34 @@ public class GathererScraperUi {
                     }
                 }
 
+//				threadPool.submit(new Runnable() {
+//					@Override
+//					public void run() {
+//						int basicMids[] = { 195183, 201962, 201964, 201967, 195179, 201972, 201977, 201978 };
+//						ExpansionGS exp = new ExpansionGS("Zendikar");
+//						exp.mCode_gatherer = "ZEN";
+//
+//						while (true) {
+//							for (int mId : basicMids) {
+//								ArrayList<CardGS> test = GathererScraper.scrapePage(
+//										"https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=" + mId, exp,
+//										null, null);
+//								for (CardGS card : test) {
+//									if (card.mForeignPrintings.size() != 8) {
+//										System.out.println(card.mMultiverseId);
+//										for (ForeignPrinting fp : card.mForeignPrintings) {
+//											System.out.println(fp.mLanguageCode);
+//										}
+//										return;
+//									}
+//								}
+//								System.out.println(mId + " good");
+//							}
+//							System.out.println("All good for now");
+//						}
+//					}
+//				});
+                
                 for (final ExpansionGS exp : toScrape) {
                     threadPool.submit(new Runnable() {
                         /**
