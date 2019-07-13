@@ -1,5 +1,7 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
+import java.util.ArrayList;
+
 /*
  * This class contains all information about an expansion to be parsed
  *
@@ -37,4 +39,7 @@ public class Expansion {
 
     // MD5 digest for scraped cards, to see when things change
     public String mDigest = "";
+    
+    // List of image URLs
+    public ArrayList<String> mExpansionImageURLs = new ArrayList<>();
 }
