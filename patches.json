@@ -1,5 +1,5 @@
 {
-  "timestamp": 1562212274,
+  "timestamp": 1563965929,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1931,6 +1931,16 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_U.png"
+      ]
+    },
+    {
+      "name": "Signature Spellbook: Gideon",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SS2.json.gzip",
+      "code": "SS2",
+      "digest": "41ee04e71804b47054105e81f6eb4113",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS2_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS2_M.png"
       ]
     },
     {

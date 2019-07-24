@@ -1609,7 +1609,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Golgari",
@@ -1622,7 +1627,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Gruul",
@@ -1635,7 +1645,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Izzet",
@@ -1648,7 +1663,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Orzhov",
@@ -1661,7 +1681,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Rakdos",
@@ -1674,7 +1699,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Selesnya",
@@ -1687,7 +1717,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_U.png"
+    ]
   },
   {
     "name_gatherer": "Guild Kit: Simic",
@@ -1700,7 +1735,12 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "digest": "",
-    "expansionImageURLs": []
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_M.png"
+    ]
   },
   {
     "name_gatherer": "Guildpact",
@@ -3053,6 +3093,22 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_U.png"
+    ]
+  },
+  {
+    "name_gatherer": "Signature Spellbook: Gideon",
+    "code_gatherer": "SS2",
+    "code_mtgi": "SS2",
+    "name_tcgp": "Signature Spellbook: Gideon",
+    "name_mkm": "Signature Spellbook: Gideon",
+    "releaseTimestamp": 1559361600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "41ee04e71804b47054105e81f6eb4113",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS2_M.png"
     ]
   },
   {
