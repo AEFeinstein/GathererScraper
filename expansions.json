@@ -456,6 +456,24 @@
     ]
   },
   {
+    "name_gatherer": "Commander 2019",
+    "code_gatherer": "C19",
+    "code_mtgi": "C19",
+    "name_tcgp": "Commander 2019",
+    "name_mkm": "Commander 2019",
+    "releaseTimestamp": 1564632000,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "6a5eb5fef5d9d755ece2d18158bdd3a3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_M.png"
+    ]
+  },
+  {
     "name_gatherer": "Commander Anthology",
     "code_gatherer": "CMA",
     "code_mtgi": "CMA",

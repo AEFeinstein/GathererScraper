@@ -1,5 +1,5 @@
 {
-  "timestamp": 1563965929,
+  "timestamp": 1566396108,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -299,6 +299,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_C.png"
+      ]
+    },
+    {
+      "name": "Commander 2019",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C19.json.gzip",
+      "code": "C19",
+      "digest": "6a5eb5fef5d9d755ece2d18158bdd3a3",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_M.png"
       ]
     },
     {
