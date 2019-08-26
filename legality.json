@@ -13,11 +13,12 @@
         "Demonic Consultation",
         "Demonic Tutor",
         "Dig Through Time",
-        "Fastbond",
         "Flash",
         "Gitaxian Probe",
+        "Golgari Grave-Troll",
         "Gush",
         "Imperial Seal",
+        "Karn, the Great Creator",
         "Library of Alexandria",
         "Lion's Eye Diamond",
         "Lodestone Golem",
@@ -25,6 +26,7 @@
         "Mana Crypt",
         "Mana Vault",
         "Memory Jar",
+        "Mental Misstep",
         "Merchant Scroll",
         "Mind's Desire",
         "Monastery Mentor",
@@ -33,6 +35,7 @@
         "Mox Pearl",
         "Mox Ruby",
         "Mox Sapphire",
+        "Mystic Forge",
         "Mystical Tutor",
         "Necropotence",
         "Ponder",
@@ -362,9 +365,7 @@
         "XLN"
       ],
       "restrictedlist": [],
-      "banlist": [
-        "Rampaging Ferocidon"
-      ]
+      "banlist": []
     },
     {
       "name": "Brawl",
@@ -473,11 +474,13 @@
         "Dig Through Time",
         "Dread Return",
         "Eye of Ugin",
+        "Faithless Looting",
         "Gitaxian Probe",
         "Glimpse of Nature",
         "Golgari Grave-Troll",
         "Great Furnace",
         "Green Sun's Zenith",
+        "Hogaak, Arisen Necropolis",
         "Hypergenesis",
         "Krark-Clan Ironworks",
         "Mental Misstep",
@@ -491,7 +494,6 @@
         "Sensei's Divining Top",
         "Skullclamp",
         "Splinter Twin",
-        "Stoneforge Mystic",
         "Summer Bloom",
         "Treasure Cruise",
         "Tree of Tales",
@@ -1506,5 +1508,5 @@
       ]
     }
   ],
-  "timestamp": 1562600610
+  "timestamp": 1566842608
 }
