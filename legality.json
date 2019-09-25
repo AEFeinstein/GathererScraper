@@ -354,15 +354,11 @@
     {
       "name": "Standard",
       "sets": [
-        "DOM",
+        "ELD",
         "GRN",
-        "M19",
-        "M19GP",
         "M20",
-        "RIX",
         "RNA",
-        "WAR",
-        "XLN"
+        "WAR"
       ],
       "restrictedlist": [],
       "banlist": []
@@ -370,15 +366,11 @@
     {
       "name": "Brawl",
       "sets": [
-        "DOM",
+        "ELD",
         "GRN",
-        "M19",
-        "M19GP",
         "M20",
-        "RIX",
         "RNA",
-        "WAR",
-        "XLN"
+        "WAR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -408,6 +400,7 @@
         "DOM",
         "DS",
         "DTK",
+        "ELD",
         "EMN",
         "EVE",
         "FD",
@@ -1508,5 +1501,5 @@
       ]
     }
   ],
-  "timestamp": 1566842608
+  "timestamp": 1569415146
 }

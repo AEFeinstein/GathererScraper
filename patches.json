@@ -1,5 +1,5 @@
 {
-  "timestamp": 1566396108,
+  "timestamp": 1569415105,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -2053,6 +2053,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_M.png"
+      ]
+    },
+    {
+      "name": "Throne of Eldraine",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ELD.json.gzip",
+      "code": "ELD",
+      "digest": "9a7299e8c74f65964e2dc5874c030b6e",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_C.png"
       ]
     },
     {
