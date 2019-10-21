@@ -361,7 +361,9 @@
         "WAR"
       ],
       "restrictedlist": [],
-      "banlist": []
+      "banlist": [
+        "Field of the Dead"
+      ]
     },
     {
       "name": "Brawl",
@@ -1205,6 +1207,7 @@
         "Approach My Molten Realm",
         "Arcanis, the Omnipotent Avatar",
         "Arcbound Overseer Avatar",
+        "Arcum's Astrolabe",
         "Aretopolis",
         "Ashling the Pilgrim Avatar",
         "Ashling, the Extinguisher Avatar",
@@ -1501,5 +1504,5 @@
       ]
     }
   ],
-  "timestamp": 1569415146
+  "timestamp": 1571679195
 }
