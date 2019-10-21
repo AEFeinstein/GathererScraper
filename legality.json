@@ -366,6 +366,48 @@
       ]
     },
     {
+      "name": "Pioneer",
+      "sets": [
+        "AER",
+        "AKH",
+        "BFZ",
+        "BNG",
+        "DGM",
+        "DOM",
+        "DTK",
+        "ELD",
+        "EMN",
+        "FRF",
+        "GRN",
+        "GTC",
+        "HOU",
+        "JOU",
+        "KLD",
+        "KTK",
+        "M14",
+        "M15",
+        "M19",
+        "M20",
+        "OGW",
+        "ORI",
+        "RIX",
+        "RNA",
+        "RTR",
+        "SOI",
+        "THS",
+        "WAR",
+        "XLN"
+      ],
+      "restrictedlist": [],
+      "banlist": [
+        "Bloodstained Mire",
+        "Flooded Strand",
+        "Polluted Delta",
+        "Windswept Heath",
+        "Wooded Foothills"
+      ]
+    },
+    {
       "name": "Brawl",
       "sets": [
         "ELD",
@@ -1504,5 +1546,5 @@
       ]
     }
   ],
-  "timestamp": 1571679195
+  "timestamp": 1571680386
 }
