@@ -401,7 +401,10 @@
       "restrictedlist": [],
       "banlist": [
         "Bloodstained Mire",
+        "Felidar Guardian",
         "Flooded Strand",
+        "Leyline of Abundance",
+        "Oath of Nissa",
         "Polluted Delta",
         "Windswept Heath",
         "Wooded Foothills"
@@ -1546,5 +1549,5 @@
       ]
     }
   ],
-  "timestamp": 1571680386
+  "timestamp": 1572910020
 }
