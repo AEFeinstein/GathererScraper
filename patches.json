@@ -1,5 +1,5 @@
 {
-  "timestamp": 1569415105,
+  "timestamp": 1573659115,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1001,6 +1001,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_C.png"
+      ]
+    },
+    {
+      "name": "Game Night 2019",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GN2.json.gzip",
+      "code": "GN2",
+      "digest": "41374a349c3298a927d276f75d62df63",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_M.png"
       ]
     },
     {

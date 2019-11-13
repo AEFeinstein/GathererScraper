@@ -175,23 +175,6 @@
     ]
   },
   {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "isOnlineOnly": false,
-    "borderColor": "White",
-    "digest": "528e1b8cafe41095c2d047e39f6d7187",
-    "expansionImageURLs": [
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
-    ]
-  },
-  {
     "name_gatherer": "Battle for Zendikar",
     "code_gatherer": "BFZ",
     "code_mtgi": "BFZ",
@@ -207,6 +190,23 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "White",
+    "digest": "528e1b8cafe41095c2d047e39f6d7187",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
     ]
   },
   {
@@ -1527,6 +1527,24 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GNT_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Game Night 2019",
+    "code_gatherer": "GN2",
+    "code_mtgi": "GN2",
+    "name_tcgp": "Magic Game Night 2019",
+    "name_mkm": "Magic Game Night 2019",
+    "releaseTimestamp": 1572580800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "41374a349c3298a927d276f75d62df63",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_M.png"
     ]
   },
   {
