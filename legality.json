@@ -37,6 +37,7 @@
         "Mox Sapphire",
         "Mystic Forge",
         "Mystical Tutor",
+        "Narset, Parter of Veils",
         "Necropotence",
         "Ponder",
         "Sol Ring",
@@ -362,7 +363,10 @@
       ],
       "restrictedlist": [],
       "banlist": [
-        "Field of the Dead"
+        "Field of the Dead",
+        "Oko, Thief of Crowns",
+        "Once Upon a Time",
+        "Veil of Summer"
       ]
     },
     {
@@ -887,6 +891,7 @@
         "Windfall",
         "Windriddle Palaces",
         "Worldknit",
+        "Wrenn and Six",
         "Xantcha",
         "Yawgmoth's Bargain",
         "Yawgmoth's Will",
@@ -1551,5 +1556,5 @@
       ]
     }
   ],
-  "timestamp": 1573570867
+  "timestamp": 1574092204
 }
