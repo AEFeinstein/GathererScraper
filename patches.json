@@ -1,5 +1,5 @@
 {
-  "timestamp": 1573659115,
+  "timestamp": 1574302803,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1571,6 +1571,15 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_U.png"
+      ]
+    },
+    {
+      "name": "Mystery Booster",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MB1.json.gzip",
+      "code": "MB1",
+      "digest": "7808a1d735e37f3d291ca7ae0c3aab52",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MB1_C.png"
       ]
     },
     {

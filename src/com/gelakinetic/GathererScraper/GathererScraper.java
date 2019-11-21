@@ -474,9 +474,12 @@ public class GathererScraper {
                     card.mToughness = CardDbAdapter.NO_ONE_CARES;
                     card.mLoyalty = CardDbAdapter.NO_ONE_CARES;
                 } else {
-
                     if (pt != null) {
-                        if (pt.contains("/")) {
+                    	if("Ral's Vanguard".equals(card.mName))
+                    	{
+                    		card.mText = card.mText + "<br><br>" + pt;
+                    	}
+                    	else if (pt.contains("/")) {
                         	if(card.mName.equals("Rhino-")) {
                         		pt = "+1 / +4";
                         	}
@@ -484,11 +487,17 @@ public class GathererScraper {
                         		pt = "+3 / +3";                        		
                         	}
                             String power = pt.replace("{1/2}", ".5").replace("½", ".5").split("/")[0].trim();
-                            card.mPower = PTLstringToFloat(power, errLabel);
+							card.mPower = PTLstringToFloat(power, errLabel);
      
                             String toughness = pt.replace("{1/2}", ".5").replace("½", ".5").split("/")[1].trim();
                             card.mToughness = PTLstringToFloat(toughness, errLabel);
                         } else if ("Urza, Academy Headmaster".equals(card.mName)){
+                            card.mLoyalty = 4;
+                        } else if ("Abian, Luvion Usurper".equals(card.mName)){
+                            card.mLoyalty = 5;
+                        } else if ("Kaya, Ghost Haunter".equals(card.mName)){
+                            card.mLoyalty = 3;
+                        } else if ("Tibalt the Chaotic".equals(card.mName)){
                             card.mLoyalty = 4;
                         } else {
                             card.mLoyalty = (int) PTLstringToFloat(pt.trim(), errLabel);
@@ -830,6 +839,7 @@ public class GathererScraper {
 			case "*": {
 				return CardDbAdapter.STAR;
 			}
+			case "*+1":
 			case "1+*": {
 				return CardDbAdapter.ONE_PLUS_STAR;
 			}
