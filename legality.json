@@ -406,10 +406,13 @@
       "banlist": [
         "Bloodstained Mire",
         "Felidar Guardian",
+        "Field of the Dead",
         "Flooded Strand",
         "Leyline of Abundance",
         "Oath of Nissa",
+        "Once Upon a Time",
         "Polluted Delta",
+        "Smuggler's Copter",
         "Veil of Summer",
         "Windswept Heath",
         "Wooded Foothills"
@@ -1556,5 +1559,5 @@
       ]
     }
   ],
-  "timestamp": 1574092204
+  "timestamp": 1575385095
 }
