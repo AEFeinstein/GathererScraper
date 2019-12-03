@@ -175,6 +175,23 @@
     ]
   },
   {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "White",
+    "digest": "528e1b8cafe41095c2d047e39f6d7187",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
+    ]
+  },
+  {
     "name_gatherer": "Battle for Zendikar",
     "code_gatherer": "BFZ",
     "code_mtgi": "BFZ",
@@ -190,23 +207,6 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_C.png"
-    ]
-  },
-  {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "isOnlineOnly": false,
-    "borderColor": "White",
-    "digest": "528e1b8cafe41095c2d047e39f6d7187",
-    "expansionImageURLs": [
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
     ]
   },
   {
@@ -2559,6 +2559,21 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_U.png"
+    ]
+  },
+  {
+    "name_gatherer": "Mystery Booster",
+    "code_gatherer": "MB1",
+    "code_mtgi": "MB1",
+    "name_tcgp": "Mystery Booster: Convention Edition Exclusives",
+    "name_mkm": "Mystery Booster",
+    "releaseTimestamp": 1572580800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Silver",
+    "digest": "7808a1d735e37f3d291ca7ae0c3aab52",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MB1_C.png"
     ]
   },
   {
