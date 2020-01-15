@@ -1,5 +1,5 @@
 {
-  "timestamp": 1574302803,
+  "timestamp": 1579098798,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -2074,6 +2074,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_M.png"
+      ]
+    },
+    {
+      "name": "Theros Beyond Death",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/THB.json.gzip",
+      "code": "THB",
+      "digest": "48f774c54cd7b37620cc836e10cb9d70",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_M.png"
       ]
     },
     {

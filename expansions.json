@@ -3317,6 +3317,24 @@
     ]
   },
   {
+    "name_gatherer": "Theros Beyond Death",
+    "code_gatherer": "THB",
+    "code_mtgi": "THB",
+    "name_tcgp": "Theros Beyond Death",
+    "name_mkm": "Theros Beyond Death",
+    "releaseTimestamp": 1577854800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "48f774c54cd7b37620cc836e10cb9d70",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_M.png"
+    ]
+  },
+  {
     "name_gatherer": "Throne of Eldraine",
     "code_gatherer": "ELD",
     "code_mtgi": "ELD",
