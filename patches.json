@@ -1,11 +1,11 @@
 {
-  "timestamp": 1579098798,
+  "timestamp": 1579994330,
   "patches": [
     {
       "name": "Aether Revolt",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AER.json.gzip",
       "code": "AER",
-      "digest": "af145f6f0020e8f5b7465b3d3f518e8b",
+      "digest": "44ebc66c0a117d2d90e5f773b7d30f5e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AER_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AER_U.png",
@@ -40,7 +40,7 @@
       "name": "Amonkhet",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AKH.json.gzip",
       "code": "AKH",
-      "digest": "9fdb0f22367608b0a461044dda271988",
+      "digest": "3565a968b4955200ea0864f48b4673bd",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AKH_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AKH_C.png",
@@ -63,7 +63,7 @@
       "name": "Apocalypse",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AP.json.gzip",
       "code": "AP",
-      "digest": "4ee072c92dd616926baa845c26768c45",
+      "digest": "11930c92f85f24cd37cdb1df4dcd3d61",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AP_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AP_C.png",
@@ -74,7 +74,7 @@
       "name": "Arabian Nights",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AN.json.gzip",
       "code": "AN",
-      "digest": "1587295e4fddc43398054c9e19fb5a0f",
+      "digest": "81daf183f76280f5401fd3ebbeab89c9",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AN_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AN_R.png",
@@ -85,7 +85,7 @@
       "name": "Archenemy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ARC.json.gzip",
       "code": "ARC",
-      "digest": "72e9e7e5b6b57acc239dc211faf6120a",
+      "digest": "fd0da23ff68f1ab20aca55daf91475cf",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARC_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARC_U.png",
@@ -131,7 +131,7 @@
       "name": "Battle for Zendikar",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BFZ.json.gzip",
       "code": "BFZ",
-      "digest": "2dc41882717a54ec8ebb3bf99ef19fcb",
+      "digest": "4aea7370f65252ad681f6a5c2d39797f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_M.png",
@@ -166,7 +166,7 @@
       "name": "Betrayers of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BOK.json.gzip",
       "code": "BOK",
-      "digest": "06ac325c4343a4044166a7b41948eb28",
+      "digest": "396612f7fa6fe8d7b8e2d41b44e41c33",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BOK_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BOK_U.png",
@@ -177,7 +177,7 @@
       "name": "Born of the Gods",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/BNG.json.gzip",
       "code": "BNG",
-      "digest": "eb44c343727697f9adb608994bbf967e",
+      "digest": "a8e1e9c0f70d0e58e3c3115a01d4af00",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BNG_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BNG_C.png",
@@ -189,7 +189,7 @@
       "name": "Champions of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CHK.json.gzip",
       "code": "CHK",
-      "digest": "521367fdcce968ace2905738ac01d201",
+      "digest": "8261b767499bad34181c61ee56aa14ba",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CHK_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CHK_U.png",
@@ -211,7 +211,7 @@
       "name": "Classic Sixth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/6E.json.gzip",
       "code": "6E",
-      "digest": "2203bc2b73e543c92661d25276d36e49",
+      "digest": "8f57c2c0e4c03eb0dcdee74437c89161",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/6E_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/6E_R.png",
@@ -222,7 +222,7 @@
       "name": "Coldsnap",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CS.json.gzip",
       "code": "CS",
-      "digest": "7f82f2bcd4b955b765470f728808fee9",
+      "digest": "39ed0bb66d3e044bb9e6798f1af2c0ce",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CS_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CS_U.png",
@@ -233,7 +233,7 @@
       "name": "Commander 2013 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C13.json.gzip",
       "code": "C13",
-      "digest": "ca675ebae14413ad3c4de6d1d3a3fa6b",
+      "digest": "d8571da28e6a26e7479b4928808cccb9",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C13_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C13_R.png",
@@ -257,7 +257,7 @@
       "name": "Commander 2015",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C15.json.gzip",
       "code": "C15",
-      "digest": "5be17b2ba91ad770668697e998dcd42a",
+      "digest": "76e54a119c9a71c908484ee367349b99",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C15_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C15_R.png",
@@ -269,7 +269,7 @@
       "name": "Commander 2016",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C16.json.gzip",
       "code": "C16",
-      "digest": "bebbe01c5caf0b1ffe193dbe255d990b",
+      "digest": "682b45931a26bb0cd876f82d7b0c3bcd",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C16_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C16_R.png",
@@ -281,7 +281,7 @@
       "name": "Commander 2017",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C17.json.gzip",
       "code": "C17",
-      "digest": "385ae00e680b8ec2a83c444a92d0fb8f",
+      "digest": "fafc828404d27055373bae0ab337abda",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C17_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C17_U.png",
@@ -293,7 +293,7 @@
       "name": "Commander 2018",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C18.json.gzip",
       "code": "C18",
-      "digest": "c8398f67ba39aa57b083c995b6251bb6",
+      "digest": "4b3b01e249d2adcb4271737bb7cc7e59",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_R.png",
@@ -317,7 +317,7 @@
       "name": "Commander Anthology",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMA.json.gzip",
       "code": "CMA",
-      "digest": "71c341fd42066761936df4f16091b91f",
+      "digest": "e6183a0ac990fc63441096a1760ecb7f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMA_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMA_R.png",
@@ -353,7 +353,7 @@
       "name": "Conflux",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CFX.json.gzip",
       "code": "CFX",
-      "digest": "904ca8031f9b72cb1de7f639e4f438ac",
+      "digest": "900d9475c3112cdc6def209e9fe35c8c",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CFX_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CFX_U.png",
@@ -377,7 +377,7 @@
       "name": "Core Set 2019",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M19.json.gzip",
       "code": "M19",
-      "digest": "4696c731709672bd4180f09b6f95c928",
+      "digest": "cb27b4202d6277f40915cbdf7bb68897",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M19_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M19_U.png",
@@ -401,7 +401,7 @@
       "name": "Dark Ascension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DKA.json.gzip",
       "code": "DKA",
-      "digest": "c93142ca538b9d3914efc78fc420bd77",
+      "digest": "127f076dfbc985df792019b16255c7d1",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DKA_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DKA_R.png",
@@ -424,7 +424,7 @@
       "name": "Dissension",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DIS.json.gzip",
       "code": "DIS",
-      "digest": "69040e447de04b4e7e4a751f3f36a005",
+      "digest": "1b3bbee5e8c0a830e89d424c76949629",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DIS_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DIS_C.png",
@@ -435,7 +435,7 @@
       "name": "Dominaria",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DOM.json.gzip",
       "code": "DOM",
-      "digest": "1235185b1693a52ea0150cfc4b54b431",
+      "digest": "227bcf871d4d1ac4ec37b51b33203ffa",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_U.png",
@@ -518,7 +518,7 @@
       "name": "Duel Decks: Ajani vs. Nicol Bolas",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/AVB.json.gzip",
       "code": "AVB",
-      "digest": "2ebbba5f0bb78058df4553be3910d4df",
+      "digest": "3e6b6d3dcb82b7a417c8db91cf60d230",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVB_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVB_C.png",
@@ -530,7 +530,7 @@
       "name": "Duel Decks: Blessed vs. Cursed",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDQ.json.gzip",
       "code": "DDQ",
-      "digest": "cb6e329d1c1dec59a04e5b3ea847539e",
+      "digest": "afa4998ac5e024ddea785d27cea1a164",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDQ_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDQ_C.png",
@@ -589,7 +589,7 @@
       "name": "Duel Decks: Elves vs. Inventors",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDU.json.gzip",
       "code": "DDU",
-      "digest": "d67d060ce232af070fe9924cd3e54e00",
+      "digest": "e3f5e31c52a7635722bb0b110069db73",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDU_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDU_U.png",
@@ -625,7 +625,7 @@
       "name": "Duel Decks: Izzet vs. Golgari",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IVG.json.gzip",
       "code": "IVG",
-      "digest": "0d281c3d89aaab50e1659a4456f21fa5",
+      "digest": "23ecf7ab9e6a686e3355c3c481885181",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IVG_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IVG_U.png",
@@ -661,7 +661,7 @@
       "name": "Duel Decks: Knights vs. Dragons",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KVD.json.gzip",
       "code": "KVD",
-      "digest": "6f08e233205f3cc9f0dcb9659d5e7d32",
+      "digest": "7bf5616dd01d1a101325ea2ca0b41e9c",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KVD_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KVD_C.png",
@@ -673,7 +673,7 @@
       "name": "Duel Decks: Merfolk vs. Goblins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/DDT.json.gzip",
       "code": "DDT",
-      "digest": "f137993a881392e035c42fce8007b02b",
+      "digest": "0e13c2e07628788a7a496547dcacec09",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDT_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDT_U.png",
@@ -721,7 +721,7 @@
       "name": "Duel Decks: Sorin vs. Tibalt",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SVT.json.gzip",
       "code": "SVT",
-      "digest": "0c387ab7201c84abe5e0ba1c4df31569",
+      "digest": "e44f17a1970c56cc9e297ca02a8e42d8",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SVT_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SVT_U.png",
@@ -745,7 +745,7 @@
       "name": "Duel Decks: Venser vs. Koth",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VVK.json.gzip",
       "code": "VVK",
-      "digest": "1b1dd38767a82a9b71c96fea37dd57c2",
+      "digest": "0b246c082c81e33885a616c7a8f9e5b5",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VVK_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VVK_C.png",
@@ -769,7 +769,7 @@
       "name": "Eighth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/8E.json.gzip",
       "code": "8E",
-      "digest": "af2cdbf582231f57c939ff4e8cc233dd",
+      "digest": "9d189d6e0c87091a962995e1f36e172f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/8E_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/8E_R.png",
@@ -792,7 +792,7 @@
       "name": "Eternal Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EMA.json.gzip",
       "code": "EMA",
-      "digest": "2dae8532e8102900ab9038f0666fb9a7",
+      "digest": "c3d4fe3f5d3b2a5b6fcf31622903266e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMA_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMA_U.png",
@@ -804,7 +804,7 @@
       "name": "Eventide",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/EVE.json.gzip",
       "code": "EVE",
-      "digest": "4e4cff58ce7044d7763bb05cfce0f0c3",
+      "digest": "8fc6f2219c5c1a5711f95beb8d1f5390",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EVE_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EVE_R.png",
@@ -826,7 +826,7 @@
       "name": "Explorers of Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/E02.json.gzip",
       "code": "E02",
-      "digest": "14a69a3b35decb7520d45b21418a6105",
+      "digest": "8124097480ebe6a69a91e53260a94259",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/E02_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/E02_U.png",
@@ -872,7 +872,7 @@
       "name": "Fifth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/5E.json.gzip",
       "code": "5E",
-      "digest": "9ab85fdd26352375891ca94278d48fcf",
+      "digest": "5c01baf47efe2b0e2c984845ee115061",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/5E_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/5E_R.png",
@@ -883,7 +883,7 @@
       "name": "Fourth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/4E.json.gzip",
       "code": "4E",
-      "digest": "fd1eec105124809141f8d2148cae84e5",
+      "digest": "d69590e5942e21d5636ffbfdafcf0266",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/4E_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/4E_C.png",
@@ -903,7 +903,7 @@
       "name": "From the Vault: Annihilation (2014)",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/V14.json.gzip",
       "code": "V14",
-      "digest": "634767bc0189e69172e58b1f4427d6d3",
+      "digest": "887f7f91995da7923bbe22b3b51ce908",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/V14_M.png"
       ]
@@ -984,7 +984,7 @@
       "name": "Future Sight",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/FUT.json.gzip",
       "code": "FUT",
-      "digest": "1c06d19e7d485a48d0245ace055b10f8",
+      "digest": "8cedfa6ec8d6660e9d88929ad9082a4a",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FUT_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FUT_U.png",
@@ -1052,7 +1052,7 @@
       "name": "Guildpact",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GP.json.gzip",
       "code": "GP",
-      "digest": "b6bd87490a300863389e45e51c173074",
+      "digest": "ad7c549e0d762a4ef54b652685068440",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GP_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GP_R.png",
@@ -1084,7 +1084,7 @@
       "name": "Guilds of Ravnica: Guild Kits",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GK1.json.gzip",
       "code": "GK1",
-      "digest": "785169e751ba3a25e2c9a27460e40948",
+      "digest": "a4f9a35f0c84eb79935eebf462ba688e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
@@ -1096,7 +1096,7 @@
       "name": "Homelands",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/HL.json.gzip",
       "code": "HL",
-      "digest": "d27414b854143a9074f2741049ee5dc5",
+      "digest": "5a19995ffd2627e79d47f6989cb065e6",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HL_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HL_C.png",
@@ -1142,7 +1142,7 @@
       "name": "Innistrad",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ISD.json.gzip",
       "code": "ISD",
-      "digest": "f53b92f285addedcdd3e65c63a11faa8",
+      "digest": "def7bc347fe61647fe8e231595ee927d",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ISD_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ISD_C.png",
@@ -1154,7 +1154,7 @@
       "name": "Invasion",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IN.json.gzip",
       "code": "IN",
-      "digest": "1d676cd1f67f7a3ce720d8a06d759bcb",
+      "digest": "c77942bea7f08b02deb9ee6acb800287",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IN_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IN_U.png",
@@ -1165,7 +1165,7 @@
       "name": "Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/XLN.json.gzip",
       "code": "XLN",
-      "digest": "abf21467aa583ff30482d2462db53b5a",
+      "digest": "0d1919a98526378158ba59c13d5cbafd",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/XLN_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/XLN_R.png",
@@ -1177,7 +1177,7 @@
       "name": "Journey into Nyx",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JOU.json.gzip",
       "code": "JOU",
-      "digest": "07384e1c5148c0c48662c0c2df8f2438",
+      "digest": "39089f720b45a3db8b1f2eda7e918681",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JOU_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JOU_C.png",
@@ -1212,7 +1212,7 @@
       "name": "Khans of Tarkir",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KTK.json.gzip",
       "code": "KTK",
-      "digest": "74afb550759f97fe70f82967417c4b0e",
+      "digest": "597b5de39c674453693ac1ef0f0466e1",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KTK_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KTK_R.png",
@@ -1224,7 +1224,7 @@
       "name": "Legends",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LG.json.gzip",
       "code": "LG",
-      "digest": "eee8353a67aee0e9ab5f9b654328013d",
+      "digest": "3b2eb5074e3aab47dd0e277a8509fa14",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_R.png",
@@ -1246,7 +1246,7 @@
       "name": "Limited Edition Alpha",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/A.json.gzip",
       "code": "A",
-      "digest": "6c06bc481f810ba79b8cc1437bf40750",
+      "digest": "aa4470c717d9e7adae6045447d869f80",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/A_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/A_R.png",
@@ -1257,7 +1257,7 @@
       "name": "Limited Edition Beta",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/B.json.gzip",
       "code": "B",
-      "digest": "ef43172b0f219442d4846bdcc56e5542",
+      "digest": "6df87b46606f27b4da88511fe4f9a45d",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/B_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/B_R.png",
@@ -1279,7 +1279,7 @@
       "name": "Magic 2010",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M10.json.gzip",
       "code": "M10",
-      "digest": "1c6d272222fd59a9a8ee12d6cf1890e7",
+      "digest": "d327fb123e4d3c8b012b571781c75879",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M10_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M10_C.png",
@@ -1291,7 +1291,7 @@
       "name": "Magic 2011",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M11.json.gzip",
       "code": "M11",
-      "digest": "d23a017485de45d94102e265cba2693c",
+      "digest": "62438ff4b809f80fe2396aff29a5ea00",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M11_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M11_C.png",
@@ -1303,7 +1303,7 @@
       "name": "Magic 2012",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M12.json.gzip",
       "code": "M12",
-      "digest": "b5edaccbe123abaa7bf2b17839e1f40b",
+      "digest": "187e42ba7e1577c35ef93bda1aa3df9b",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M12_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M12_C.png",
@@ -1327,7 +1327,7 @@
       "name": "Magic 2014 Core Set",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M14.json.gzip",
       "code": "M14",
-      "digest": "0178d3bf7a3d89b62497a249971b01cc",
+      "digest": "7d77fba8e2bcddf8f54f64e98ac604ed",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M14_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M14_U.png",
@@ -1351,7 +1351,7 @@
       "name": "Magic Origins",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ORI.json.gzip",
       "code": "ORI",
-      "digest": "8b7f59f174df03f3f7decfdc6586986b",
+      "digest": "1e58e385354363af7a7999ee5e8110ee",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ORI_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ORI_U.png",
@@ -1363,7 +1363,7 @@
       "name": "Magic: The Gathering-Commander",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMD.json.gzip",
       "code": "CMD",
-      "digest": "f7fbd42473c5053dc4d377b7a77b51c6",
+      "digest": "4fc7e31ceaf83ab8e3174da2d5ab403d",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMD_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMD_R.png",
@@ -1375,7 +1375,7 @@
       "name": "Magic: The Gathering-Conspiracy",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CNS.json.gzip",
       "code": "CNS",
-      "digest": "59fe3106d49b663d70bc41832452374c",
+      "digest": "ac86cf0f13e9b87eb53d1f7ba9ddde7d",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CNS_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CNS_U.png",
@@ -1417,7 +1417,7 @@
       "name": "Masters Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MED.json.gzip",
       "code": "MED",
-      "digest": "cbe4a08a611c56b0940a681f1e1bddb8",
+      "digest": "d6674946114a1e4e7b8c5d1cff128141",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MED_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MED_U.png",
@@ -1439,7 +1439,7 @@
       "name": "Masters Edition III",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ME3.json.gzip",
       "code": "ME3",
-      "digest": "459bb2c4bd24cdaa2633f8e1367406d0",
+      "digest": "2891ffe35ba8b24c030d986b3e2bd49f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME3_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME3_R.png",
@@ -1530,7 +1530,7 @@
       "name": "Modern Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MMA.json.gzip",
       "code": "MMA",
-      "digest": "96bd5734e9bc45d9c044da03536c70f1",
+      "digest": "ae91bdec0c459c85a8094a0ccf60684e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MMA_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MMA_R.png",
@@ -1542,7 +1542,7 @@
       "name": "Modern Masters 2015 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM2.json.gzip",
       "code": "MM2",
-      "digest": "354a2af0d01888ee275520fea3fc1032",
+      "digest": "6a044cba84540a7ebe5c8d8b137ddc5b",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM2_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM2_U.png",
@@ -1554,7 +1554,7 @@
       "name": "Modern Masters 2017 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MM3.json.gzip",
       "code": "MM3",
-      "digest": "375405656e5e74f649af8716c74624ca",
+      "digest": "10a8fecf2673eb563e552175ecbff498",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM3_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM3_U.png",
@@ -1566,7 +1566,7 @@
       "name": "Morningtide",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/MOR.json.gzip",
       "code": "MOR",
-      "digest": "90bd940ac7ec33a2f2f0d5feeb948edb",
+      "digest": "7465552f0465958f0a95aef9b1cc84fd",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_R.png",
@@ -1586,7 +1586,7 @@
       "name": "Nemesis",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NE.json.gzip",
       "code": "NE",
-      "digest": "2dc37c93766681c841f5899aa612e5fb",
+      "digest": "05fb4de5c13d6fdd8adcf287d0c6d86c",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NE_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NE_R.png",
@@ -1597,7 +1597,7 @@
       "name": "New Phyrexia",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/NPH.json.gzip",
       "code": "NPH",
-      "digest": "5b51dae2b672238bfc8d794532f18244",
+      "digest": "bbd1fafdbf15c65955d76fc023954440",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NPH_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NPH_C.png",
@@ -1609,7 +1609,7 @@
       "name": "Ninth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/9E.json.gzip",
       "code": "9E",
-      "digest": "386655a80ce2615240fd758bbc516807",
+      "digest": "73e7cb1975d3a8c82afab2fccc397a7e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/9E_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/9E_U.png",
@@ -1620,7 +1620,7 @@
       "name": "Oath of the Gatewatch",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OGW.json.gzip",
       "code": "OGW",
-      "digest": "97264804c434644b003c3a891b16cb03",
+      "digest": "c8558b8cfcc9779b56fa07ffef42835e",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OGW_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OGW_U.png",
@@ -1632,7 +1632,7 @@
       "name": "Odyssey",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/OD.json.gzip",
       "code": "OD",
-      "digest": "5c0eda8834e39d253cc8e59a38d4c891",
+      "digest": "b6f04c4b22b7bbd71e9e759e47e55705",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OD_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OD_R.png",
@@ -1654,7 +1654,7 @@
       "name": "Planar Chaos",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PLC.json.gzip",
       "code": "PLC",
-      "digest": "f8224bbe3b71b4bbe23ea45cc552f604",
+      "digest": "c57863070959ff25f4028fcc63b4d571",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PLC_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PLC_U.png",
@@ -1665,7 +1665,7 @@
       "name": "Planechase",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCH.json.gzip",
       "code": "PCH",
-      "digest": "67e687ee431c87d7ea031f8b5c544ff2",
+      "digest": "3868d5694ba3e0b7737a43ec9c924875",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCH_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCH_R.png",
@@ -1676,7 +1676,7 @@
       "name": "Planechase 2012 Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PC2.json.gzip",
       "code": "PC2",
-      "digest": "e2b5b06273c2bf80eb39d89d53275c4e",
+      "digest": "05d3e12ecf55f7a846bca6b809b561d6",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PC2_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PC2_U.png",
@@ -1688,7 +1688,7 @@
       "name": "Planechase Anthology",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/PCA.json.gzip",
       "code": "PCA",
-      "digest": "838ec32a764bcbdede61d7904eb44443",
+      "digest": "b10eba08870f3ba2c563af4dc2cccece",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCA_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCA_U.png",
@@ -1799,7 +1799,7 @@
       "name": "Ravnica Allegiance",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RNA.json.gzip",
       "code": "RNA",
-      "digest": "e095a94b26cc1cb3942287fe298ed13a",
+      "digest": "7edd68efc4684ed073340858484b453f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RNA_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RNA_C.png",
@@ -1820,7 +1820,7 @@
       "name": "Ravnica Allegiance: Guild Kits",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/GK2.json.gzip",
       "code": "GK2",
-      "digest": "aace3b136f2a43a58001abc43510729e",
+      "digest": "798b86db838e9c99df6fabd47803a27f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK2_C.png",
@@ -1832,7 +1832,7 @@
       "name": "Ravnica: City of Guilds",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RAV.json.gzip",
       "code": "RAV",
-      "digest": "6a48995d10d45fc3b71905e73a31494f",
+      "digest": "dab63c107fffda74b6a6e054c7f26653",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RAV_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RAV_U.png",
@@ -1855,7 +1855,7 @@
       "name": "Revised Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/R.json.gzip",
       "code": "R",
-      "digest": "1942f06b23ad025b01437d32a7dd2524",
+      "digest": "e40766053ee79461434ab105965f0238",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/R_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/R_R.png",
@@ -1866,7 +1866,7 @@
       "name": "Rise of the Eldrazi",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ROE.json.gzip",
       "code": "ROE",
-      "digest": "abd829f0e205ceb25bb4466eb9af7039",
+      "digest": "db11a3c84bf0cfae32247c8dcb95f8b8",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ROE_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ROE_M.png",
@@ -1878,7 +1878,7 @@
       "name": "Rivals of Ixalan",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/RIX.json.gzip",
       "code": "RIX",
-      "digest": "54d90ba55ec26fb8f08305a9a0b1526b",
+      "digest": "d0185e0f3311e1ca8fd5de0757c420ec",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RIX_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RIX_C.png",
@@ -1890,7 +1890,7 @@
       "name": "Saviors of Kamigawa",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOK.json.gzip",
       "code": "SOK",
-      "digest": "c78d4cbc14b62a41a8c66045c87cb6fa",
+      "digest": "189245ff0d1b12775ec871827fa33016",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOK_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOK_U.png",
@@ -1901,7 +1901,7 @@
       "name": "Scars of Mirrodin",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOM.json.gzip",
       "code": "SOM",
-      "digest": "57db3165a10a6e7dae9faa2778170e71",
+      "digest": "0116ce95a3828eccd1397e6ea2ff2099",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOM_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOM_C.png",
@@ -1924,7 +1924,7 @@
       "name": "Seventh Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/7E.json.gzip",
       "code": "7E",
-      "digest": "f9b57f1a0b66c2da2172eecc6982bd1b",
+      "digest": "9803cec3bab7ec657894407f8314d602",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/7E_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/7E_U.png",
@@ -1935,7 +1935,7 @@
       "name": "Shadowmoor",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SHM.json.gzip",
       "code": "SHM",
-      "digest": "fc45263b4f6a2658e23842a10dc34ea2",
+      "digest": "62a620acadde9da6a1cf697284d999ed",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SHM_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SHM_C.png",
@@ -1946,7 +1946,7 @@
       "name": "Shadows over Innistrad",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SOI.json.gzip",
       "code": "SOI",
-      "digest": "f753454eb78f3664c5be87f05e85b27b",
+      "digest": "9c50285a207955884ebd6b212e9799e4",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOI_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOI_C.png",
@@ -2012,7 +2012,7 @@
       "name": "Stronghold",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SH.json.gzip",
       "code": "SH",
-      "digest": "167cbc8f7d76e6c746efc05fdb6a3cda",
+      "digest": "ab962b80b9e659d8e4418aeb9e35b89c",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SH_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SH_R.png",
@@ -2023,7 +2023,7 @@
       "name": "Tempest",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TE.json.gzip",
       "code": "TE",
-      "digest": "9b15705dfbf55e02af7cb24cf111245a",
+      "digest": "42521c367bca69e10e5dceb8f2f6b5c0",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TE_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TE_C.png",
@@ -2034,7 +2034,7 @@
       "name": "Tempest Remastered",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TPR.json.gzip",
       "code": "TPR",
-      "digest": "a56534ea76ea95639e958b0ee034c4d2",
+      "digest": "48611e455811e4ec5f64acd272531362",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TPR_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TPR_C.png",
@@ -2046,7 +2046,7 @@
       "name": "Tenth Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/10E.json.gzip",
       "code": "10E",
-      "digest": "a9e85c0235e087f132edb1b3838e39d8",
+      "digest": "d0c2b29178e4cedfb46374a80845f5c4",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/10E_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/10E_U.png",
@@ -2104,7 +2104,7 @@
       "name": "Time Spiral",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TSP.json.gzip",
       "code": "TSP",
-      "digest": "4b9eee041d4b1c1ee3450973a953d84d",
+      "digest": "18013eeecacfaee7319232955db66ef0",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSP_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSP_C.png",
@@ -2124,7 +2124,7 @@
       "name": "Torment",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/TO.json.gzip",
       "code": "TO",
-      "digest": "cedfcf1ad8bfd9df138c534d503c07e4",
+      "digest": "111f5fc3f4c0223330f5699e997bb82d",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TO_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TO_R.png",
@@ -2190,7 +2190,7 @@
       "name": "Unlimited Edition",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/U.json.gzip",
       "code": "U",
-      "digest": "cd68c34d011e7efc96111bba0dfcd926",
+      "digest": "a3d2c0a9b24070957abd9062d3895a39",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/U_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/U_R.png",
@@ -2201,7 +2201,7 @@
       "name": "Unstable",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UST.json.gzip",
       "code": "UST",
-      "digest": "d00e923de23da10684cdfb97122224cb",
+      "digest": "e7dbc6376064d8a9ef9dc445a3ae5d85",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UST_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UST_C.png",
@@ -2246,7 +2246,7 @@
       "name": "Vanguard",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VNG.json.gzip",
       "code": "VNG",
-      "digest": "f2af9ff883707568a0cb5ef10be67b0d",
+      "digest": "fed5134bebcb1e96c6ddc089e14a2713",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VNG_R.png"
       ]
@@ -2255,7 +2255,7 @@
       "name": "Vintage Masters",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/VMA.json.gzip",
       "code": "VMA",
-      "digest": "05b453f5418c60d2a38f1eb67b2a9088",
+      "digest": "5b718b2e174fbe57b49cce9434f59f9b",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VMA_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VMA_C.png",
@@ -2278,7 +2278,7 @@
       "name": "War of the Spark",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/WAR.json.gzip",
       "code": "WAR",
-      "digest": "76d5ae0c876fcabeb47886a088a648f7",
+      "digest": "44bd303b0c80863a3de656f6831133a3",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WAR_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WAR_R.png",
@@ -2344,7 +2344,7 @@
       "name": "Zendikar",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZEN.json.gzip",
       "code": "ZEN",
-      "digest": "b8bb14e6a7c8894c5398fb0d7bba0dd0",
+      "digest": "b33faf1c13bf38d1d1ef8d33949dfdf9",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZEN_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZEN_U.png",
