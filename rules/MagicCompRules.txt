@@ -1,6 +1,16 @@
 2020-00-24
 
 RULES_VERYLONGSTRINGOFLETTERSUNLIKELYTOBEFOUNDINTHEACTUALRULES
+0. Introduction
+
+000. Introduction
+
+000.1. This document is the ultimate authority for Magic: The Gathering(R) competitive game play. It consists of a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. (Note that subrules skip the letters "l" and "o" due to potential confusion with the numbers "1" and "0"; subrule 704.5k is followed by 704.5m, then 704.5n, then 704.5p, for example.)
+
+000.2. Changes may have been made to this document since its publication. You can download the most recent version from the Magic rules website at Magic.Wizards.com/Rules. If you have questions, you can get the answers from us at Support.Wizards.com.
+
+000.3. These rules are effective as of January 24, 2020.
+
 1. Game Concepts
 
 100. General
