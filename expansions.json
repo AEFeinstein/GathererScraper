@@ -3077,6 +3077,23 @@
     ]
   },
   {
+    "name_gatherer": "Secret Lair Drop",
+    "code_gatherer": "SLD",
+    "code_mtgi": "SLD",
+    "name_tcgp": "Secret Lair Drop Series",
+    "name_mkm": "Secret Lair Drop Series",
+    "releaseTimestamp": 1580533200,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "0f68f258065d4838b6fd07f201891b2e",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_C.png"
+    ]
+  },
+  {
     "name_gatherer": "Seventh Edition",
     "code_gatherer": "7E",
     "code_mtgi": "7E",
