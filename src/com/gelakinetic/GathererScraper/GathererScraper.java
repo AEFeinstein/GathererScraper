@@ -441,7 +441,7 @@ public class GathererScraper {
                 card.mText = getTextFromAttribute(cardPage, id + "textRow", "cardtextbox", false, errLabel);
     
                 /* For unglued, fix some symbols */
-                if ((card.mExpansion.equals("UG") || card.mExpansion.equals("UNH")) &&
+                if ((card.mExpansion.equals("UG") || card.mExpansion.equals("UNH") || card.mExpansion.equals("UND")) &&
                         (null != card.mText)) {
                     card.mText = card.mText
                             .replace("oW", "{W}")
@@ -456,19 +456,16 @@ public class GathererScraper {
                             .replace("o3", "{3}")
                             .replace("o4", "{4}")
                             .replace("o7", "{7}");
+                    /* Add the missing acorn */
+                    if(card.mText.toLowerCase().contains("an acorn counter"))
+                    {
+                        if(!card.mText.toLowerCase().contains("{a}"))
+                        {
+                            card.mText = card.mText.replace("you get ", "you get {a}");
+                            card.mText = card.mText.replace("Pay X :", "Pay X {a}:");
+                        }
+                    }
                 }
-                /* Add the missing acorn */
-                if(card.mExpansion.equals("UND"))
-        		{
-                	if(card.mText.toLowerCase().contains("an acorn counter"))
-                	{
-                		if(!card.mText.toLowerCase().contains("{a}"))
-                		{
-                			card.mText = card.mText.replace("you get ", "you get {a}");
-                			card.mText = card.mText.replace("Pay X :", "Pay X {a}:");
-                		}
-                	}
-        		}
                 
                 /* Flavor */
                 card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false, errLabel);
