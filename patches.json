@@ -1,5 +1,5 @@
 {
-  "timestamp": 1581438040,
+  "timestamp": 1582723398,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -2206,6 +2206,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/U_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/U_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/U_C.png"
+      ]
+    },
+    {
+      "name": "Unsanctioned",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/UND.json.gzip",
+      "code": "UND",
+      "digest": "cddaf21ace917d89198a100183461c73",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_M.png"
       ]
     },
     {

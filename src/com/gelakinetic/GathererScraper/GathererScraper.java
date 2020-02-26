@@ -457,6 +457,18 @@ public class GathererScraper {
                             .replace("o4", "{4}")
                             .replace("o7", "{7}");
                 }
+                /* Add the missing acorn */
+                if(card.mExpansion.equals("UND"))
+        		{
+                	if(card.mText.toLowerCase().contains("an acorn counter"))
+                	{
+                		if(!card.mText.toLowerCase().contains("{a}"))
+                		{
+                			card.mText = card.mText.replace("you get ", "you get {a}");
+                			card.mText = card.mText.replace("Pay X :", "Pay X {a}:");
+                		}
+                	}
+        		}
                 
                 /* Flavor */
                 card.mFlavor = getTextFromAttribute(cardPage, id + "FlavorText", "flavortextbox", false, errLabel);
