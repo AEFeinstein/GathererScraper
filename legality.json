@@ -434,6 +434,7 @@
       ],
       "restrictedlist": [],
       "banlist": [
+        "Golos, Tireless Pilgrim",
         "Oko, Thief of Crowns",
         "Sorcerous Spyglass"
       ]
@@ -542,6 +543,7 @@
         "Mox Opal",
         "Mycosynth Lattice",
         "Oko, Thief of Crowns",
+        "Once Upon a Time",
         "Ponder",
         "Preordain",
         "Punishing Fire",
@@ -888,6 +890,7 @@
         "Turri Island",
         "Two-Headed Giant of Foriys Avatar",
         "Undercity Reaches",
+        "Underworld Breach",
         "Unexpected Potential",
         "Urza",
         "Vampire Nocturnus Avatar",
@@ -1568,5 +1571,5 @@
       ]
     }
   ],
-  "timestamp": 1579995880
+  "timestamp": 1583767452
 }
