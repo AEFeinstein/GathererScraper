@@ -435,6 +435,7 @@
       "restrictedlist": [],
       "banlist": [
         "Golos, Tireless Pilgrim",
+        "Lutri, the Spellchaser",
         "Oko, Thief of Crowns",
         "Sorcerous Spyglass"
       ]
@@ -1571,5 +1572,5 @@
       ]
     }
   ],
-  "timestamp": 1583767452
+  "timestamp": 1586796491
 }
