@@ -1,5 +1,5 @@
 {
-  "timestamp": 1582728356,
+  "timestamp": 1586916194,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1136,6 +1136,30 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IMA_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IMA_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IMA_M.png"
+      ]
+    },
+    {
+      "name": "Ikoria Commander",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/C20.json.gzip",
+      "code": "C20",
+      "digest": "0ee9b10a92924fb4b8215eba39f3a7f9",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_C.png"
+      ]
+    },
+    {
+      "name": "Ikoria: Lair of Behemoths",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/IKO.json.gzip",
+      "code": "IKO",
+      "digest": "a84b446964934f9b7ede05ad4529f44b",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_M.png"
       ]
     },
     {

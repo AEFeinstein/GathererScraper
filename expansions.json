@@ -1899,6 +1899,42 @@
     ]
   },
   {
+    "name_gatherer": "Ikoria Commander",
+    "code_gatherer": "C20",
+    "code_mtgi": "C20",
+    "name_tcgp": "Commander 2020",
+    "name_mkm": "Commander 2020",
+    "releaseTimestamp": 1585713600,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "0ee9b10a92924fb4b8215eba39f3a7f9",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Ikoria: Lair of Behemoths",
+    "code_gatherer": "IKO",
+    "code_mtgi": "IKO",
+    "name_tcgp": "Ikoria: Lair of Behemoths",
+    "name_mkm": "Ikoria: Lair of Behemoths",
+    "releaseTimestamp": 1585713600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "a84b446964934f9b7ede05ad4529f44b",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_M.png"
+    ]
+  },
+  {
     "name_gatherer": "Innistrad",
     "code_gatherer": "ISD",
     "code_mtgi": "ISD",
