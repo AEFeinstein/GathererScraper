@@ -189,6 +189,7 @@
         "Llanowar",
         "Look Skyward and Despair",
         "Loxodon Hierarch Avatar",
+        "Lurrus of the Dream-Den",
         "Lyna",
         "Lyzolda, the Blood Witch Avatar",
         "Maelstrom Archangel Avatar",
@@ -437,10 +438,12 @@
       ],
       "restrictedlist": [],
       "banlist": [
+        "Drannith Magistrate",
         "Golos, Tireless Pilgrim",
         "Lutri, the Spellchaser",
         "Oko, Thief of Crowns",
-        "Sorcerous Spyglass"
+        "Sorcerous Spyglass",
+        "Winota, Joiner of Forces"
       ]
     },
     {
@@ -723,6 +726,7 @@
         "Llanowar",
         "Look Skyward and Despair",
         "Loxodon Hierarch Avatar",
+        "Lurrus of the Dream-Den",
         "Lyna",
         "Lyzolda, the Blood Witch Avatar",
         "Maelstrom Archangel Avatar",
@@ -917,7 +921,8 @@
         "Yawgmoth's Will",
         "Your Fate Is Thrice Sealed",
         "Your Puny Minds Cannot Fathom",
-        "Your Will Is Not Your Own"
+        "Your Will Is Not Your Own",
+        "Zirda, the Dawnwaker"
       ]
     },
     {
@@ -1576,5 +1581,5 @@
       ]
     }
   ],
-  "timestamp": 1586916310
+  "timestamp": 1589817468
 }
