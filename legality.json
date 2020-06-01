@@ -366,7 +366,9 @@
       ],
       "restrictedlist": [],
       "banlist": [
+        "Agent of Treachery",
         "Field of the Dead",
+        "Fires of Invention",
         "Oko, Thief of Crowns",
         "Once Upon a Time",
         "Veil of Summer"
@@ -1583,5 +1585,5 @@
       ]
     }
   ],
-  "timestamp": 1590333272
+  "timestamp": 1591025706
 }
