@@ -1,5 +1,5 @@
 {
-  "timestamp": 1587013254,
+  "timestamp": 1591887800,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1248,7 +1248,7 @@
       "name": "Legends",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/LG.json.gzip",
       "code": "LG",
-      "digest": "3b2eb5074e3aab47dd0e277a8509fa14",
+      "digest": "7a426ee0649486f1d36b1f14a739bb4b",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_R.png",
