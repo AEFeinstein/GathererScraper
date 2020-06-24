@@ -1,5 +1,5 @@
 {
-  "timestamp": 1591887800,
+  "timestamp": 1592967634,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -395,6 +395,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M20_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M20_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M20_M.png"
+      ]
+    },
+    {
+      "name": "Core Set 2021",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M21.json.gzip",
+      "code": "M21",
+      "digest": "d532a49d25e48333afba922ed398c5b4",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_M.png"
       ]
     },
     {
@@ -1218,6 +1230,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_R.png"
+      ]
+    },
+    {
+      "name": "Jumpstart",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/JMP.json.gzip",
+      "code": "JMP",
+      "digest": "7e04fa5dd37c01b4cc61dbfc2265b1ab",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_M.png"
       ]
     },
     {

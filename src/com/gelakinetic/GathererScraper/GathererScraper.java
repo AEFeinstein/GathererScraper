@@ -508,6 +508,8 @@ public class GathererScraper {
                             card.mLoyalty = 3;
                         } else if ("Tibalt the Chaotic".equals(card.mName)){
                             card.mLoyalty = 4;
+                        } else if("Teferi, Master of Time".equals(card.mName)) {
+                            card.mLoyalty = 3;
                         } else {
                             card.mLoyalty = (int) PTLstringToFloat(pt.trim(), errLabel);
                         }

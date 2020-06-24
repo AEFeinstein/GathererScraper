@@ -600,6 +600,24 @@
     ]
   },
   {
+    "name_gatherer": "Core Set 2021",
+    "code_gatherer": "M21",
+    "code_mtgi": "M21",
+    "name_tcgp": "Core Set 2021",
+    "name_mkm": "Core Set 2021",
+    "releaseTimestamp": 1590984000,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "d532a49d25e48333afba922ed398c5b4",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_M.png"
+    ]
+  },
+  {
     "name_gatherer": "Dark Ascension",
     "code_gatherer": "DKA",
     "code_mtgi": "DKA",
@@ -2020,6 +2038,24 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_R.png"
+    ]
+  },
+  {
+    "name_gatherer": "Jumpstart",
+    "code_gatherer": "JMP",
+    "code_mtgi": "JMP",
+    "name_tcgp": "Jumpstart",
+    "name_mkm": "Jumpstart",
+    "releaseTimestamp": 1590984000,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "7e04fa5dd37c01b4cc61dbfc2265b1ab",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JMP_M.png"
     ]
   },
   {
