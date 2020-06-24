@@ -27,7 +27,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "34106c36dc405c008fa404543aca8b27",
+    "digest": "a72c5d6c9866a66f0813105c931146e8",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARB_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARB_C.png",
@@ -45,7 +45,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "750aec12662db6cd5619f5ab565a947a",
+    "digest": "de80071f146c474de2a3106cc48fbfc1",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AL_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AL_R.png",
@@ -62,7 +62,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "747ed54f5296c7571b99accbc0e47138",
+    "digest": "a92af70ea8d9f79cbe269cde153840a4",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AKH_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AKH_C.png",
@@ -80,7 +80,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fbfab46b7b26328dad032a5abb5b3d04",
+    "digest": "f16bb9a22bb389b93b9e0c1f2a057341",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AQ_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AQ_R.png",
@@ -131,7 +131,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fd0da23ff68f1ab20aca55daf91475cf",
+    "digest": "af85890539ecee39ddd56214c31ca50c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARC_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ARC_U.png",
@@ -148,7 +148,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "85da8d047dd0db25f42014aa9e5902b4",
+    "digest": "245c381a770586782fd8329fac62e24d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/E01_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/E01_R.png",
@@ -166,7 +166,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "75b37143ea0a4b0c67b0318bf53404fa",
+    "digest": "74f0ea47b7123bebca3b779cab34b28b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVR_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVR_U.png",
@@ -201,7 +201,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4aea7370f65252ad681f6a5c2d39797f",
+    "digest": "dea48bc9a0b2cf458eee076afdeacabf",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_M.png",
@@ -219,7 +219,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f9438b65c811b976afc128c673deefc2",
+    "digest": "aa9d86e51d4946b715bbbcd6e39ff42d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BBD_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BBD_R.png",
@@ -237,7 +237,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "aee593b0369c8396a709b3414e93c363",
+    "digest": "437f1c0d26f83dd9db05a97b81d80ad6",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BD_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BD_R.png",
@@ -254,7 +254,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "22e9e2bea3afcdb2cd42ff30cc959be1",
+    "digest": "d9e56512618427b4e25757caa1705dfe",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BOK_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BOK_U.png",
@@ -271,7 +271,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c8aa43fed9a8e0a47768409fec3bd06a",
+    "digest": "033af63799ef9b717491b387a792940f",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BNG_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BNG_C.png",
@@ -289,7 +289,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d9a732a7e8cb0428d7c2e0f8d4298448",
+    "digest": "e26d8ec8bfbf1a82ff112c8be3c5595a",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CHK_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CHK_U.png",
@@ -323,7 +323,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "8f57c2c0e4c03eb0dcdee74437c89161",
+    "digest": "444d5b488e648fbe0bcd13bb39bc3b2c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/6E_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/6E_R.png",
@@ -375,7 +375,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "29ce77f20714f8290265a510524b7691",
+    "digest": "737c7a21f1e316bfa04bf840b147016c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C14_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C14_R.png",
@@ -393,7 +393,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b1e03a2eba5c776f8882e5b4e4711165",
+    "digest": "877f3192b6770d9257dd52d48a7f8e07",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C15_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C15_R.png",
@@ -411,7 +411,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f4c106928b144a7b376ae5818ee9544c",
+    "digest": "14c9dce1ea9d7307bba8cdf09cdacf95",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C16_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C16_R.png",
@@ -447,7 +447,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "16c53cf6d4868c3993e4ac420604196b",
+    "digest": "3cfc8ed08bfb76b66730956fc61d77bd",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C18_R.png",
@@ -465,7 +465,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ce251a9b4607b86e8c16a40c2a29b8e5",
+    "digest": "f08bebb0eadd11b1dd7313a2b2ab8404",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C19_C.png",
@@ -483,7 +483,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e6183a0ac990fc63441096a1760ecb7f",
+    "digest": "1b30c07c3422105bd8b3152ee258db93",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMA_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMA_R.png",
@@ -501,7 +501,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2b985578809cc3e83fd8dd57f4a51fe5",
+    "digest": "fe07b69dd361a5e39512c6849c24825d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_R.png",
@@ -537,7 +537,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9ee06140228646328b3aec90325d7971",
+    "digest": "df436e505aa6856e737fa3ec0ee56820",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CFX_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CFX_U.png",
@@ -555,7 +555,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ebca142baa3c651fb002abf0b1de43c7",
+    "digest": "ad91afbd321138934c4f08f6be305a3c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CN2_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CN2_R.png",
@@ -573,7 +573,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2a06298fe5a3d4a613bb2ca9e9731a57",
+    "digest": "7da5363d9c5467b82dd994054b0f97bd",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M19_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M19_U.png",
@@ -591,7 +591,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e53f4f4b468d63d831edaec0d825ac8d",
+    "digest": "34c7786b970a5fb325e90e17971a75f6",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M20_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M20_U.png",
@@ -627,7 +627,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "51ca9bd21d77600cd9af60f42ed980f6",
+    "digest": "3e30a73dcdf28c8f612bc4e78d16f72c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DKA_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DKA_R.png",
@@ -662,7 +662,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "1b3bbee5e8c0a830e89d424c76949629",
+    "digest": "9b8f3aebad0f6501c773ffd960efdf21",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DIS_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DIS_C.png",
@@ -679,7 +679,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "864c188d0420b11a4af74c845cf5a0f3",
+    "digest": "b44821e26015f834ff3729fe8de2c214",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_U.png",
@@ -697,7 +697,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "89f3c8445c318711805f17ab831c2c7e",
+    "digest": "ab55c05afff3408c527a361978b7b20c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DGM_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DGM_U.png",
@@ -715,7 +715,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e4facc4504676c458e8aeffa17a1f39d",
+    "digest": "f762a39c0055fcb1227b0d80bc1cc664",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DTK_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DTK_C.png",
@@ -733,7 +733,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "10cf5d60b86d7168e171afea74d41bc8",
+    "digest": "2c579537897081f1fbdd12e1db7d775c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3DVD_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3DVD_U.png",
@@ -768,7 +768,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "703081c675b2b45d86fd219c80b327af",
+    "digest": "e05e872206c9a68765ca36588b3bd0fe",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3GVL_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3GVL_R.png",
@@ -786,7 +786,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a299f13969e98630a749baa3f85fe6ad",
+    "digest": "10b834515df57aa078125e4616f85a51",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3JVC_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DD3JVC_U.png",
@@ -804,7 +804,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3e6b6d3dcb82b7a417c8db91cf60d230",
+    "digest": "537388cd231b66ef10533b6e6ced7c97",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVB_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/AVB_C.png",
@@ -822,7 +822,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "afa4998ac5e024ddea785d27cea1a164",
+    "digest": "adf453f8d31986e31d6e0571a35b7d9b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDQ_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDQ_C.png",
@@ -840,7 +840,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "72656d7988efc6daa071c8359862fbbf",
+    "digest": "34fd8f5e4102066422ced0b37facc7bc",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DVD_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DVD_U.png",
@@ -858,7 +858,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ead09289673861d98df698592e1ba70d",
+    "digest": "19ffc8eb1c187ce91c08d0c77f03287e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDO_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDO_U.png",
@@ -929,7 +929,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6cdbb69e8b2f91fd9988e3f48810c36b",
+    "digest": "c63f0f82f62ded8390966b5c36a8ff82",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GVL_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GVL_R.png",
@@ -965,7 +965,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d3d241afcf7a85375db018fae1e40963",
+    "digest": "36f21b8300288e45334ffe8c26f09327",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IVG_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IVG_U.png",
@@ -983,7 +983,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "30898617a99a8c706f43efda2b20eeb3",
+    "digest": "75e804a354ed580776924e6c0b8b6076",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JVC_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JVC_U.png",
@@ -1001,7 +1001,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7dc541379712e344e1ae54cbd241934a",
+    "digest": "9f7a2fc92c9ab5d33f72cab40eaa8564",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDM_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDM_R.png",
@@ -1073,7 +1073,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "17d4ddb8190c0acfab3c0963f95df71c",
+    "digest": "8ce7188c191bd4ac508910a9b5aeee43",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDR_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDR_C.png",
@@ -1109,7 +1109,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e44f17a1970c56cc9e297ca02a8e42d8",
+    "digest": "cf3ba0b1fc3d01352e2f77c18f07d72d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SVT_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SVT_U.png",
@@ -1145,7 +1145,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0b246c082c81e33885a616c7a8f9e5b5",
+    "digest": "8bc1f5ca636e3828a1deb07e06672a46",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VVK_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VVK_C.png",
@@ -1163,7 +1163,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e9734338e85e6544c2dd93d7a81f7332",
+    "digest": "7d11c4335dc75b54b0a5d336ea7c1f1a",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDP_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DDP_M.png",
@@ -1181,7 +1181,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "9d189d6e0c87091a962995e1f36e172f",
+    "digest": "fc8420d0d5934f0e8581b094763ee18e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/8E_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/8E_R.png",
@@ -1198,7 +1198,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a25e7cd88fcc9111ef4e44a0fcf2aa72",
+    "digest": "7d821abce4f9623ab1213ae4aacebfbe",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMN_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMN_R.png",
@@ -1216,7 +1216,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2525390fba8087a277697c5784183963",
+    "digest": "a94547b61c82097ca995fc5ddd1baf29",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMA_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EMA_U.png",
@@ -1234,7 +1234,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8fc6f2219c5c1a5711f95beb8d1f5390",
+    "digest": "5e807d2aab95c6c950ee7639fba79658",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EVE_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EVE_R.png",
@@ -1251,7 +1251,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7251b410788c0493e8e15654343c6a24",
+    "digest": "96906278c2c99c0daa0baa373f8a73e5",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EX_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EX_U.png",
@@ -1286,7 +1286,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "42cfcc609bd884071b2b5191baf309fb",
+    "digest": "c0d04341206e1594ba121cb949d57fa2",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FE_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FE_C.png",
@@ -1303,7 +1303,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4e56b3120a9822403c0d2f0d8f571a76",
+    "digest": "343553740578d2bf76a8ec5c38d5bed4",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FRF_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FRF_U.png",
@@ -1321,7 +1321,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "064299c273cdc504f02172fd64962477",
+    "digest": "4c3cee81f25f1cfe1a887b205cb2279b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FD_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FD_R.png",
@@ -1338,7 +1338,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "5c01baf47efe2b0e2c984845ee115061",
+    "digest": "4e4f927316ff049f0e7eb818a155ea7d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/5E_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/5E_R.png",
@@ -1355,7 +1355,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "d69590e5942e21d5636ffbfdafcf0266",
+    "digest": "ed91c00975ad7f2a2e49bd0f65762190",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/4E_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/4E_C.png",
@@ -1477,7 +1477,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "85710da7b868abbb66fd14b287e8a112",
+    "digest": "682fb67237fca9b4e0d9b8be9a66f880",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RLC_M.png"
     ]
@@ -1492,7 +1492,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0a972256d35221b692c31b55ce398e99",
+    "digest": "0cc95383233206fc3ace3981e8f528a0",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/V17_M.png"
     ]
@@ -1522,7 +1522,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "feebadfd269ec3f4f4157bafb3cb680f",
+    "digest": "f315143eb106f4e3788f634966222553",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FUT_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/FUT_U.png",
@@ -1557,7 +1557,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "41374a349c3298a927d276f75d62df63",
+    "digest": "267a9c5ba49446ba8ebbcee282ec0a69",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GN2_R.png",
@@ -1575,7 +1575,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "86f3aa39ce231130312830db77632a12",
+    "digest": "833cc945ee4d04c39102d29b1348281e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GTC_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GTC_U.png",
@@ -1608,7 +1608,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2708aa051e0c585bbd0ad60f90a7913a",
+    "digest": "61784aa26e810945d51227cc44e319fc",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GS1_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GS1_R.png",
@@ -1644,7 +1644,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ebefd8ddb656473640be23f9062a4619",
+    "digest": "53fa7d25a76170cd7f80fc5abaf07264",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GK1_M.png",
@@ -1823,7 +1823,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "14fe95119782bc94802312f231aa1dd2",
+    "digest": "d17571c197599867384a83cd1c30315c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GRN_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GRN_M.png",
@@ -1841,7 +1841,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7d11b3cec20effddefcdffc3fe5eb05b",
+    "digest": "0d52c033ff67a6d75d6c99b5f798edb9",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/GRNMED_M.png"
     ]
@@ -1856,7 +1856,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5a19995ffd2627e79d47f6989cb065e6",
+    "digest": "9272db3f828f877d6a07adb28a498f7a",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HL_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HL_C.png",
@@ -1873,7 +1873,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "370d87da403538d7c8215f73794ffa45",
+    "digest": "c33147f15ed753d334c3b4736aa29d28",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HOU_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/HOU_U.png",
@@ -1891,7 +1891,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4c38261142ec74ddef5177cbc6936a39",
+    "digest": "1dee69222f43e445fabb9d60e235a664",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IA_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IA_C.png",
@@ -1908,7 +1908,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6b3b10b03ff41258c7ecfe5dc709a7c0",
+    "digest": "dc317e274e88c8c5eace3b673592f2f6",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IMA_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IMA_U.png",
@@ -1926,7 +1926,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0ee9b10a92924fb4b8215eba39f3a7f9",
+    "digest": "b45f73ff7e6bef1e92e0d21e2ab27db8",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/C20_U.png",
@@ -1944,7 +1944,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a84b446964934f9b7ede05ad4529f44b",
+    "digest": "e96f0743c5db432e9d1ba3735d7aa987",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IKO_U.png",
@@ -1962,7 +1962,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "def7bc347fe61647fe8e231595ee927d",
+    "digest": "91d550ea713abb9a04d465417f8d493c",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ISD_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ISD_C.png",
@@ -1980,7 +1980,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "040703b7f303cc089b948e2c9d74ea89",
+    "digest": "9185f00e41d332150ba0650b1e2d18e4",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IN_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/IN_U.png",
@@ -1997,7 +1997,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "247fbdd16ce1e446d00aa841ad364623",
+    "digest": "0eabdb242a9557275c3f7a4f957127b5",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/XLN_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/XLN_R.png",
@@ -2015,7 +2015,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "2bdf8d0a9d822ea19d66c701f672d034",
+    "digest": "535fca2e732f8358ec54e46c3e2e7ba9",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JOU_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JOU_C.png",
@@ -2033,7 +2033,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bcbfa77485ffa7993344d05451221159",
+    "digest": "09ceb1d5877426f1e369324f81a786be",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/JU_C.png",
@@ -2068,7 +2068,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "79d1b5d1d0b14dae0585d15a8ae1224f",
+    "digest": "10a0d54856366782bff49e47d327c0ed",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KLD_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KLD_U.png",
@@ -2086,7 +2086,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "a3a769d7d78b828d448c61c26dbec21c",
+    "digest": "20778ef88b751af7440452caafc1bdab",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KTK_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KTK_R.png",
@@ -2104,7 +2104,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7a426ee0649486f1d36b1f14a739bb4b",
+    "digest": "84cc961a33ea90a4b609465dc7b78416",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LG_R.png",
@@ -2121,7 +2121,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d5d239cf430e881ed9f304884c9205cf",
+    "digest": "cc2b07803ba502d7c33493225dbd0b9b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LE_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LE_U.png",
@@ -2172,7 +2172,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "11ae367ab937404b19ddbd2c7ccadb4c",
+    "digest": "0ccb13dc2ce54350d1a50f440a5c53d8",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LRW_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/LRW_R.png",
@@ -2189,7 +2189,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d327fb123e4d3c8b012b571781c75879",
+    "digest": "9565aac87ff752b4761e8ffe20dcc775",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M10_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M10_C.png",
@@ -2207,7 +2207,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "62438ff4b809f80fe2396aff29a5ea00",
+    "digest": "3025ed50d031daf0f01d6f9937a251b3",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M11_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M11_C.png",
@@ -2225,7 +2225,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c03edbbd049457244af823d7bf036faf",
+    "digest": "c3e8987f156fdbea1cba40571faa7040",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M12_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M12_C.png",
@@ -2243,7 +2243,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4f7fb9dac6d218cafe2401085e955e22",
+    "digest": "0e8347cd2bbe1df7bb1c17f53ad750ce",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M13_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M13_M.png",
@@ -2261,7 +2261,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "d4379b674056b1095d476e5b42ce5391",
+    "digest": "796f81e9f5d354326f02abbf4e3e23f3",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M14_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M14_U.png",
@@ -2279,7 +2279,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "325b4584f5d25c94b0fb66d044ba7f59",
+    "digest": "571dffd15ed312018650fa9bc2513d88",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M15_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M15_U.png",
@@ -2297,7 +2297,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fa9d915cbcd2bd23d9f99dc094f570b4",
+    "digest": "806bf170b773b12aed5a3218775cab76",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ORI_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ORI_U.png",
@@ -2315,7 +2315,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "acadef151caa56dee964f47affd7e34a",
+    "digest": "46c2aff89558b541cc0b2c5f0d5ed4ab",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMD_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMD_R.png",
@@ -2333,7 +2333,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ac86cf0f13e9b87eb53d1f7ba9ddde7d",
+    "digest": "cf80a408240e4f2affc67b25b927727e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CNS_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CNS_U.png",
@@ -2366,7 +2366,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4b71272ea71cb38151d35179bdfea967",
+    "digest": "0767bdfd9ce1e99f650628c6a940597b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MPSKLD_R.png"
     ]
@@ -2381,7 +2381,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f1bc668bfc08851cbf5559c191dbdb95",
+    "digest": "b2ebae89a8e35c2242ef49c0a5f9bab3",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/A25_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/A25_M.png",
@@ -2399,7 +2399,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "d6674946114a1e4e7b8c5d1cff128141",
+    "digest": "0e9b8f914ea4756d4e39c1db85f71139",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MED_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MED_U.png",
@@ -2416,7 +2416,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "ae48dd704a202c2501190bd5889f0aa2",
+    "digest": "714549ff47b085a4d6e2b14abaed5bf4",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME2_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME2_C.png",
@@ -2433,7 +2433,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "2891ffe35ba8b24c030d986b3e2bd49f",
+    "digest": "3cca9f55c6e07f9540a8c8550016c342",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME3_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ME3_R.png",
@@ -2467,7 +2467,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f65952379ba0cd53955a1f8b258b611c",
+    "digest": "0d32b47cc7549841ce2b9acc3ddff8b1",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM_U.png",
@@ -2501,7 +2501,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b4f6ea71bb0c83e9de78a6e97a37788a",
+    "digest": "88f9b832e767838a16d1066b9a25c73b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MR_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MR_R.png",
@@ -2518,7 +2518,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "61d39d40573dfd8c8613e95afda4c15d",
+    "digest": "2af1fd7d63db0a8949d60f005ddece35",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MBS_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MBS_C.png",
@@ -2554,7 +2554,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7f16cd651277be8f86edd00b2a79a3bf",
+    "digest": "ccef1edb579dc48d0c3f6aaec69e7718",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MH1_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MH1_R.png",
@@ -2572,7 +2572,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "ae91bdec0c459c85a8094a0ccf60684e",
+    "digest": "5bbadb75f8993b4f564f18de1812a992",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MMA_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MMA_R.png",
@@ -2590,7 +2590,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6a044cba84540a7ebe5c8d8b137ddc5b",
+    "digest": "d4c5358d3d93a10c60aec006bb71df7b",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM2_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM2_U.png",
@@ -2608,7 +2608,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "10a8fecf2673eb563e552175ecbff498",
+    "digest": "dd66f1253edfc42a674be4c7188e0efb",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM3_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MM3_U.png",
@@ -2626,7 +2626,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7465552f0465958f0a95aef9b1cc84fd",
+    "digest": "eae77ea46368d51c7bff006d39d5cd14",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MOR_R.png",
@@ -2658,7 +2658,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "05fb4de5c13d6fdd8adcf287d0c6d86c",
+    "digest": "c4aff34492347920e5fb9eef953e9226",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NE_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NE_R.png",
@@ -2675,7 +2675,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bbd1fafdbf15c65955d76fc023954440",
+    "digest": "9d28b03aae20a9c274e9cbe443234e41",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NPH_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/NPH_C.png",
@@ -2693,7 +2693,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "73e7cb1975d3a8c82afab2fccc397a7e",
+    "digest": "b2776d9b0691092eb56123c4628580f7",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/9E_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/9E_U.png",
@@ -2710,7 +2710,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "e33467e8abd69d4d984a73c4f9448142",
+    "digest": "23c1ca55d9b764965cbf872c14430234",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OGW_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OGW_U.png",
@@ -2728,7 +2728,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b6f04c4b22b7bbd71e9e759e47e55705",
+    "digest": "07828bf11fdedd74ba87bf0950cdb0be",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OD_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/OD_R.png",
@@ -2779,7 +2779,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "3868d5694ba3e0b7737a43ec9c924875",
+    "digest": "b3f3fdfdfad1678f56b02da64571474f",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCH_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCH_R.png",
@@ -2796,7 +2796,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "379d7085abc6369946c2ea38113bceee",
+    "digest": "9ec0a85a67179d3eefe29e94be7e1df8",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PC2_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PC2_U.png",
@@ -2814,7 +2814,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "5a3e60116b01eea3113338357fdbbff6",
+    "digest": "252a994d08913d5bbb7d1c80ce8fc07e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCA_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PCA_U.png",
@@ -2832,7 +2832,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "147006a99036e8e12cfb9b9b4b23f70d",
+    "digest": "de6744148a982535948e9ea4a64f09e1",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PS_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PS_C.png",
@@ -2883,7 +2883,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "d39a8ae95a80e6438a921db3512bb0e8",
+    "digest": "ef9f6c14ef762ad34dceabde02346105",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/P3_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/P3_R.png",
@@ -2953,7 +2953,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "52979bea9ae78ba32ecf7be5150c134c",
+    "digest": "857a81ae553c17c7dc796b997fb3d1b7",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/MBP_R.png"
     ]
@@ -2968,7 +2968,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "17b372984e26d134d97fcdb8da1803a9",
+    "digest": "cc6c06edd7019afe5c4126f94632c1d5",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PY_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PY_C.png",
@@ -2985,7 +2985,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "00813a95faef1fce0480c4e472198e56",
+    "digest": "a8c99c7e27e4154dd0a776c23c3ff160",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RNA_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RNA_C.png",
@@ -3018,7 +3018,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b9b6e58bde0e6c5747ff152bf34750a0",
+    "digest": "f1d17f7f70b9fe853546fa041c10e255",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RAV_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RAV_U.png",
@@ -3035,7 +3035,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "6c812cd4033b51d216459af861adcec2",
+    "digest": "8a3a42a9e82c9e11b572b08d0e297953",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RTR_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RTR_C.png",
@@ -3053,7 +3053,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "e40766053ee79461434ab105965f0238",
+    "digest": "13c6976d65a0db3f024d83e45ef76090",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/R_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/R_R.png",
@@ -3070,7 +3070,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "52d9b57a3b8d3a7f26d94c7faddab2ed",
+    "digest": "2247fb870e8c00dd2bdd6012de04e7b2",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ROE_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ROE_M.png",
@@ -3088,7 +3088,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b569b336371fa3b07701b80d948a2ed5",
+    "digest": "49b4d8fccfc90e22f4820cf978e3238d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RIX_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/RIX_C.png",
@@ -3106,7 +3106,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "47b9802450742f46677a820e43c064b4",
+    "digest": "341b78655f1338f4ca8c728367d223be",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOK_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOK_U.png",
@@ -3123,7 +3123,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "0116ce95a3828eccd1397e6ea2ff2099",
+    "digest": "677a8abcb39ab2b3e3c39f7aaaca3ebe",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOM_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOM_C.png",
@@ -3141,7 +3141,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "7abe0e47bc94717366de9adbdcc048f3",
+    "digest": "40201cf2ccac2bad58b250148696d630",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SC_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SC_R.png",
@@ -3158,7 +3158,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f3420beaa340747cc78a597c5e6021fa",
+    "digest": "011d6505326437a55a4e1cd04c23dd37",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_R.png",
@@ -3175,7 +3175,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "9803cec3bab7ec657894407f8314d602",
+    "digest": "f8037fcf9b8e6f4d8154d1bd4412dbdd",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/7E_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/7E_U.png",
@@ -3192,7 +3192,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "62a620acadde9da6a1cf697284d999ed",
+    "digest": "c9e0d1e9943d64044fbea5f6f149c749",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SHM_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SHM_C.png",
@@ -3209,7 +3209,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "bbbc97900b9ec7b0c317e17fd70cfc2f",
+    "digest": "fed59069896b3c7556b4a40d569f7d39",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOI_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SOI_C.png",
@@ -3227,7 +3227,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "af8b131507d53726be18a1f0d9ab761a",
+    "digest": "fc43a3134035c525d59d4c1688067dfc",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ALA_C.png",
@@ -3261,7 +3261,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "4de7869e80277f7380ab2428fc85ad1a",
+    "digest": "551647f1ba855f740ac63ac6963918bb",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS1_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SS1_M.png"
@@ -3277,7 +3277,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "344d8d295cc721a9888a48fe89fd193e",
+    "digest": "d72169c112ca58e62903252b5c1fb050",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ST_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ST_U.png",
@@ -3311,7 +3311,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "8312cf2e8baaf994151b2ec8f52afc14",
+    "digest": "9fdeb3b1bef4615be8e039f6cbeb9885",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SH_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SH_R.png",
@@ -3328,7 +3328,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "42521c367bca69e10e5dceb8f2f6b5c0",
+    "digest": "6e6edb0086c89e001c4dc03a0c018927",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TE_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TE_C.png",
@@ -3345,7 +3345,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "09b434b4099731db00b53ad91a429c33",
+    "digest": "c9c01ea66858c24407beca13a21bfdef",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TPR_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TPR_C.png",
@@ -3363,7 +3363,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "White",
-    "digest": "903da686d6d1bd77e0329da3366f5c66",
+    "digest": "fdb19522590cb5c80b73ed7cece6a360",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/10E_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/10E_U.png",
@@ -3397,7 +3397,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "f606de90da2eb069a02ddeb9f5997919",
+    "digest": "d361d3bdbb048d7ea896805038ec9a69",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THS_C.png",
@@ -3415,7 +3415,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "36c10b26a46a9edb6a73c282b0c1c8ae",
+    "digest": "39d27ef8c179150c543ea36c2cc1d64d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/THB_R.png",
@@ -3433,7 +3433,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9a7299e8c74f65964e2dc5874c030b6e",
+    "digest": "04b32cb652031b6f7c439f05e4a8bf60",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ELD_M.png",
@@ -3451,7 +3451,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "18013eeecacfaee7319232955db66ef0",
+    "digest": "d5d3d880965a0ab302feb2998fb45e17",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSP_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSP_C.png",
@@ -3483,7 +3483,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "111f5fc3f4c0223330f5699e997bb82d",
+    "digest": "a6a07330d135f0ea0ba5551e768bb19e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TO_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TO_R.png",
@@ -3500,7 +3500,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "c8ce5d1feab421b11b92498d8b708230",
+    "digest": "93e93de8acfb7d22836798c87cb59578",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UFP_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UFP_R.png",
@@ -3518,7 +3518,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "de13c077c8602ec4b5d57b18be87c869",
+    "digest": "84cf9a959a6aaee5730ccda36f1afb61",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/PUMA_R.png"
     ]
@@ -3533,7 +3533,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "74d2877c1100e872917d8205dee02db4",
+    "digest": "b0328494a8d5b183cabb68ae14179ba8",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UMA_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UMA_R.png",
@@ -3568,7 +3568,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "2afd3b5bffa802e2f2ea0f35b7331f87",
+    "digest": "362e1c96e32c17dd15c78c42d24a5cbd",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UNH_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UNH_U.png",
@@ -3602,7 +3602,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "7e691a3c375d7fd37a7940c67c92e080",
+    "digest": "0d5368b91424f2f53f4e02213a041019",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UND_R.png",
@@ -3620,7 +3620,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Silver",
-    "digest": "c647b4ec71196e86da0f8fe1d3760c38",
+    "digest": "b92dc638f213c10f2cb1b606181298c2",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UST_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UST_C.png",
@@ -3638,7 +3638,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "149af2a7599b11304d6f44dac580c462",
+    "digest": "db6d7c7bb5a63b7dbb10a908ae919c02",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UD_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/UD_U.png",
@@ -3672,7 +3672,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "fd436033a47b427b761ac9098a437702",
+    "digest": "109cecf263851a61d1ac4f3701d71e29",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/US_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/US_R.png",
@@ -3704,7 +3704,7 @@
     "canBeFoil": true,
     "isOnlineOnly": true,
     "borderColor": "Black",
-    "digest": "bfc78b336e4faded5a1cf1cabd97d551",
+    "digest": "f67d117682ea2063d487e4d14506332d",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VMA_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VMA_C.png",
@@ -3722,7 +3722,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9ad5c7d2ccef0052d47648a4c0dc434b",
+    "digest": "a06d80e416f8e7805496e15c91d2975e",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VI_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/VI_U.png",
@@ -3739,7 +3739,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "9e7ef326fae24c388d3d0297a11aa0b0",
+    "digest": "ce21dd31e55fcdf1653c451b8ee44e07",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WAR_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WAR_R.png",
@@ -3772,7 +3772,7 @@
     "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "b2d7227b01d8ffc4099d8ea00730eda5",
+    "digest": "fff22f933ac881c15d6a115024734111",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WL_U.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WL_R.png",
@@ -3823,7 +3823,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "eed748382b06690b022666f3b6b3fb32",
+    "digest": "c99b237dcd5ddd0f09ebb47565094459",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WWK_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/WWK_C.png",
@@ -3841,7 +3841,7 @@
     "canBeFoil": true,
     "isOnlineOnly": false,
     "borderColor": "Black",
-    "digest": "54c4eee76ad64063f32c843582a6865b",
+    "digest": "2bfa43e9e60fc261b7ead3f3ba9d9db3",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZEN_C.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZEN_U.png",
