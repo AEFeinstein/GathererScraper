@@ -1,5 +1,5 @@
 {
-  "timestamp": 1593009446,
+  "timestamp": 1593783177,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -401,7 +401,7 @@
       "name": "Core Set 2021",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/M21.json.gzip",
       "code": "M21",
-      "digest": "d532a49d25e48333afba922ed398c5b4",
+      "digest": "1b129558872cb11e02a54858d09ac0c6",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_C.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/M21_U.png",
