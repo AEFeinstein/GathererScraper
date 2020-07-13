@@ -426,7 +426,6 @@
         "Flooded Strand",
         "Leyline of Abundance",
         "Nexus of Fate",
-        "Oath of Nissa",
         "Oko, Thief of Crowns",
         "Once Upon a Time",
         "Polluted Delta",
@@ -541,6 +540,7 @@
       "restrictedlist": [],
       "banlist": [
         "Ancient Den",
+        "Arcum's Astrolabe",
         "Birthing Pod",
         "Blazing Shoal",
         "Bridge from Below",
@@ -1373,6 +1373,7 @@
         "Every Hope Shall Vanish",
         "Every Last Vestige Shall Rot",
         "Evil Comes to Fruition",
+        "Expedition Map",
         "Fallen Angel Avatar",
         "Feed the Machine",
         "Feeding Grounds",
@@ -1481,6 +1482,7 @@
         "My Laughter Echoes",
         "My Undead Horde Awakens",
         "My Wish Is Your Command",
+        "Mystic Sanctuary",
         "Naar Isle",
         "Natural Unity",
         "Nature Demands an Offering",
@@ -1617,5 +1619,5 @@
       ]
     }
   ],
-  "timestamp": 1593009764
+  "timestamp": 1594657643
 }
