@@ -688,6 +688,24 @@
     ]
   },
   {
+    "name_gatherer": "Double Masters",
+    "code_gatherer": "2XM",
+    "code_mtgi": "2XM",
+    "name_tcgp": "Double Masters",
+    "name_mkm": "Double Masters",
+    "releaseTimestamp": 1596254400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "a7860cbb5e9265533a8e44fcdda098f3",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_U.png"
+    ]
+  },
+  {
     "name_gatherer": "Dragon's Maze",
     "code_gatherer": "DGM",
     "code_mtgi": "DGM",

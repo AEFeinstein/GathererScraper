@@ -1,5 +1,5 @@
 {
-  "timestamp": 1593783177,
+  "timestamp": 1596596104,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -453,6 +453,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/DOM_M.png"
+      ]
+    },
+    {
+      "name": "Double Masters",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/2XM.json.gzip",
+      "code": "2XM",
+      "digest": "a7860cbb5e9265533a8e44fcdda098f3",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/2XM_U.png"
       ]
     },
     {
