@@ -364,13 +364,10 @@
       "name": "Standard",
       "sets": [
         "ELD",
-        "GRN",
         "IKO",
-        "M20",
         "M21",
-        "RNA",
         "THB",
-        "WAR"
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -420,7 +417,8 @@
         "THB",
         "THS",
         "WAR",
-        "XLN"
+        "XLN",
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -447,13 +445,10 @@
       "name": "Brawl",
       "sets": [
         "ELD",
-        "GRN",
         "IKO",
-        "M20",
         "M21",
-        "RNA",
         "THB",
-        "WAR"
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -544,7 +539,8 @@
         "WAR",
         "WWK",
         "XLN",
-        "ZEN"
+        "ZEN",
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -1628,5 +1624,5 @@
       ]
     }
   ],
-  "timestamp": 1596468036
+  "timestamp": 1600980200
 }

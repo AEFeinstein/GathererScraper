@@ -3881,5 +3881,56 @@
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EXP_M.png"
     ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising",
+    "code_gatherer": "ZNR",
+    "code_mtgi": "ZNR",
+    "name_tcgp": "Zendikar Rising",
+    "name_mkm": "Zendikar Rising",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "da43ded2391251c4105acc19b64ea2ae",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_R.png"
+    ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising Commander",
+    "code_gatherer": "ZNC",
+    "code_mtgi": "ZNC",
+    "name_tcgp": "Commander: Zendikar Rising",
+    "name_mkm": "Commander: Zendikar Rising",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "70ce76031b18012eef3e7c72be898580",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising Expeditions",
+    "code_gatherer": "ZNE",
+    "code_mtgi": "ZNE",
+    "name_tcgp": "Zendikar Rising Expeditions",
+    "name_mkm": "Zendikar Rising Expeditions",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "723c640f2ab953f819fe2d17484cec51",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNE_M.png"
+    ]
   }
 ]
