@@ -52,6 +52,8 @@ public class JudgeDocScraper {
         ScrapeDocument("mtr", "MagicTournamentRules-light.html", true);
         ScrapeDocument("ipg", "InfractionProcedureGuide-light.html", true);
         ScrapeDocument("jar", "JudgingAtRegular-light.html", false);
+        ScrapeDocument("dipg", "DigitalInfractionProcedureGuide-light.html", false);
+        ScrapeDocument("dtr", "DigitalTournamentRules-light.html", false);
 
         mUi.appendText("All done");
 
@@ -77,9 +79,14 @@ public class JudgeDocScraper {
             String linkHref = link.attr("href");
             if (linkHref.contains("/" + docType)) {
                 if(!linkHref.endsWith("/")) {
-                	linkHref += '/';
+                    linkHref += '/';
                 }
-    			linkHref = linkHref.replaceAll("https", "http");
+                linkHref = linkHref.replaceAll("https", "http");
+                
+                // Fix some links
+                linkHref = linkHref.replace("/dipg3/", "/dipg/3-0/");
+                linkHref = linkHref.replace("/dipg3-1/", "/dipg/3-1/");
+
                 pagesToScrape.add(linkHref);
             }
         }
@@ -139,35 +146,35 @@ public class JudgeDocScraper {
             addPageToFile(page, html, linkIds);
         }
 
-		// Now that all sections have been written and all link IDs are known,
-		// replace links with internal ones
-		for (Element link : html.getElementsByTag("a")) {
-			try {
-				String linkDestination = link.attr("href");
-				if (linkIds.contains(getLastPathSegment(linkDestination))) {
-					link.attr("href", "#" + getLastPathSegment(linkDestination));
-				}
-				else if (linkDestination.contains("cardfinder")) {
-					for (NameValuePair param : URLEncodedUtils.parse(new URI(linkDestination),
-							Charset.forName("UTF-8"))) {
-						if (param.getName().equals("find")) {
-							link.attr("href", "http://gatherer.wizards.com/Pages/Card/Details.aspx?name=" +
-									URLEncoder.encode(GathererScraper.removeNonAscii(StringEscapeUtils.unescapeHtml4(param.getValue())), "UTF-8"));
-						}
-					}
-				}
-				else if (removeLinks && linkDestination.contains("magicjudges")) {
-					mUi.appendText("Link removed: " + linkDestination);
-					link.unwrap();
-				}
-			}
-			catch (URISyntaxException e) {
-				e.printStackTrace();
-			}
-			catch (UnsupportedEncodingException e) {
-				e.printStackTrace();
-			}
-		}
+        // Now that all sections have been written and all link IDs are known,
+        // replace links with internal ones
+        for (Element link : html.getElementsByTag("a")) {
+            try {
+                String linkDestination = link.attr("href");
+                if (linkIds.contains(getLastPathSegment(linkDestination))) {
+                    link.attr("href", "#" + getLastPathSegment(linkDestination));
+                }
+                else if (linkDestination.contains("cardfinder")) {
+                    for (NameValuePair param : URLEncodedUtils.parse(new URI(linkDestination),
+                            Charset.forName("UTF-8"))) {
+                        if (param.getName().equals("find")) {
+                            link.attr("href", "http://gatherer.wizards.com/Pages/Card/Details.aspx?name=" +
+                                    URLEncoder.encode(GathererScraper.removeNonAscii(StringEscapeUtils.unescapeHtml4(param.getValue())), "UTF-8"));
+                        }
+                    }
+                }
+                else if (removeLinks && linkDestination.contains("magicjudges")) {
+                    mUi.appendText("Link removed: " + linkDestination);
+                    link.unwrap();
+                }
+            }
+            catch (URISyntaxException e) {
+                e.printStackTrace();
+            }
+            catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
 
         // Write the HTML file
         try (BufferedWriter bw = new BufferedWriter(
@@ -193,6 +200,12 @@ public class JudgeDocScraper {
      */
     private void addPageToFile(String page, Element rootElement, ArrayList<String> linkIds) {
 
+        // Not a real page
+        if(page.contains("/dtr/1-00/"))
+        {
+            return;
+        }
+        
         mUi.appendText("Processing " + page);
 
         // Download the page
