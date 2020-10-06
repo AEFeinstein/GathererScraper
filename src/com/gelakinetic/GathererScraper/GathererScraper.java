@@ -49,6 +49,9 @@ public class GathererScraper {
     private static final Pattern BATTLEBOND_PATTERN = Pattern.compile("Partner with ([^\\(<]+)\\s*[\\(<]");
 	private static final String SYMBOL_DIR = "symbols";
     
+    // Create a Pattern object
+	private static final Pattern MULTIVERSE_ID_PATTERN = Pattern.compile("multiverseid=([0-9]+)\"");
+
     /**
      * This function scrapes a list of all expansions from Gatherer
      *
@@ -165,17 +168,32 @@ public class GathererScraper {
 
         ArrayList<CardGS> scrapedCards = new ArrayList<>(cardsArray.size());
         for (CardGS c : cardsArray) {
-
-            ArrayList<CardGS> tmpScrapedCards = scrapePage(CardGS.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
-
-            if (tmpScrapedCards != null) {
-                for (CardGS tmpCard : tmpScrapedCards) {
-                    if (!scrapedCards.contains(tmpCard)) {
-                        scrapedCards.add(tmpCard);
-                        mAllMultiverseIds.add(tmpCard.mMultiverseId);
-                    }
+            
+            // Check to see if this card was already scraped as part of some other page (DFC, alt-art, whatever)
+            boolean alreadyScraped = false;
+            for(CardGS alreadyScrapedCard : scrapedCards)
+            {
+                if(alreadyScrapedCard.mMultiverseId == c.mMultiverseId)
+                {
+                    alreadyScraped = true;
+                    break;
                 }
-                ui.setLastCardScraped(c.mExpansion + ": " + c.mName);
+            }
+            
+            // If this is a new multiverse ID, scrape it
+            if(!alreadyScraped)
+            {
+                ArrayList<CardGS> tmpScrapedCards = scrapePage(CardGS.getUrl(c.mMultiverseId), exp, multiverseMap, cachedCollectorsNumbers);
+    
+                if (tmpScrapedCards != null) {
+                    for (CardGS tmpCard : tmpScrapedCards) {
+                        if (!scrapedCards.contains(tmpCard)) {
+                            scrapedCards.add(tmpCard);
+                            mAllMultiverseIds.add(tmpCard.mMultiverseId);
+                        }
+                    }
+                    ui.setLastCardScraped(c.mExpansion + ": " + c.mName);
+                }
             }
         }
 
@@ -346,7 +364,7 @@ public class GathererScraper {
     static ArrayList<CardGS> scrapePage(String cardUrl, ExpansionGS exp,
                                                 HashMap<String, Integer> multiverseMap,
                                                 HashMap<String, String> cachedCollectorsNumbers) {
-    	/* Keep track of a letter for multiple printings with the same name */
+        /* Keep track of a letter for multiple printings with the same name */
     	char ustLetter = 'a';
     	
         /* Put all cards from all pages into this ArrayList */
@@ -357,11 +375,19 @@ public class GathererScraper {
         cardPages.add(ConnectWithRetries(cardUrl));
 
         /* Get all cards on this page */
-        int numNames = getCardIds(cardPages.get(0), "[" + exp.mCode_gatherer + "] ").keySet().size();
+        HashMap<String, String> idsOnPage = getCardIds(cardPages.get(0), "[" + exp.mCode_gatherer + "] ");
+        int numNames = idsOnPage.keySet().size();
         
         /* Get all the multiverse IDs of all printings */
-        ArrayList<Integer> mIds = getPrintingMultiverseIds(cardPages.get(0));
-        
+        ArrayList<Integer> mIds = new ArrayList<Integer>();
+        for(String idKey : idsOnPage.keySet())
+        {
+            ArrayList<Integer> ids = getPrintingMultiverseIds(cardPages.get(0), idsOnPage.get(idKey));
+            if(null != ids)
+            {
+                mIds.addAll(ids);
+            }
+        }
         
         if(!(("IN".equals(exp.mCode_gatherer) || "AP".equals(exp.mCode_gatherer)) &&
                 numNames > 1)) {
@@ -395,19 +421,43 @@ public class GathererScraper {
 
                 String errLabel = "[" + exp.mCode_gatherer + "] " + name;
 
+                /* Get the ID for this card's information */
+                String id = ids.get(name);
+                
                 /* Sea Eagle was never printed in 9E, but Gatherer returns it... */
                 if("Sea Eagle".equals(name) && "9E".equals(exp.mCode_gatherer)) {
                     /* Return the empty set */
                     return scrapedCardsAllPages;
                 }
                 
+                /* Attempt to get the multiverse ID from the page itself */
+                int scrapedMultiverseId = -1;
+                try {
+                    Element ele = cardPage.getElementsByAttributeValueContaining("id", id + "currentSetSymbol").first();
+                    Element ele2 = ele.getElementsByAttributeValueContaining("href", "multiverseid").first();
+                    String html = ele2.outerHtml();
+                    Matcher m = MULTIVERSE_ID_PATTERN.matcher(html);
+                    if (m.find( )) {
+                        scrapedMultiverseId = Integer.parseInt(m.group(1));
+                    }                    
+                } catch (NullPointerException | IndexOutOfBoundsException | NumberFormatException e) {
+                    return null;
+                }
+                
                 CardGS card;
-                if (cardPages.size() > 1) {
-                    /* Pick the multiverseID out of the URL */
-                    card = new CardGS(name, exp.mCode_gatherer, mId);
-                } else {
-                    /* Pick the multiverseID out of the hashmap built from the card list */
-                    card = new CardGS(name, exp.mCode_gatherer, multiverseMap.get(name));
+                if(-1 != scrapedMultiverseId)
+                {
+                    card = new CardGS(name, exp.mCode_gatherer, scrapedMultiverseId);                    
+                }
+                else
+                {
+                    if (cardPages.size() > 1) {
+                        /* Pick the multiverseID out of the URL */
+                        card = new CardGS(name, exp.mCode_gatherer, mId);
+                    } else {
+                        /* Pick the multiverseID out of the hashmap built from the card list */
+                        card = new CardGS(name, exp.mCode_gatherer, multiverseMap.get(name));
+                    }
                 }
                 
                 // Special handling for Battlebond Alt-Art planeswalkers
@@ -421,9 +471,6 @@ public class GathererScraper {
                 	}
                 }
                 
-                /* Get the ID for this card's information */
-                String id = ids.get(name);
-    
                 /* Mana Cost */
                 card.mManaCost = getTextFromAttribute(cardPage, id + "manaRow", "value", true, errLabel);
     
@@ -1093,12 +1140,13 @@ public class GathererScraper {
      * TODO
      *
      * @param cardPage
+     * @param idKey 
      * @return
      */
-    private static ArrayList<Integer> getPrintingMultiverseIds(Document cardPage) {
+    private static ArrayList<Integer> getPrintingMultiverseIds(Document cardPage, String idKey) {
         ArrayList<Integer> multiverseIds = new ArrayList<>();
         try {
-            Element ele = cardPage.getElementsByAttributeValueContaining("id", "VariationLinks").first();// get(position);
+            Element ele = cardPage.getElementsByAttributeValueContaining("id", idKey + "VariationLinks").first();
             Elements ele2 = ele.getElementsByAttributeValueContaining("class", "VariationLink");
 
             for (Element e : ele2) {

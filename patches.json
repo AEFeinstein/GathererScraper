@@ -1,5 +1,5 @@
 {
-  "timestamp": 1596596104,
+  "timestamp": 1600992377,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -2442,6 +2442,39 @@
       "digest": "a8a44819dd040154cc5c7208c68ccc8f",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EXP_M.png"
+      ]
+    },
+    {
+      "name": "Zendikar Rising",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZNR.json.gzip",
+      "code": "ZNR",
+      "digest": "159e8eefebda1591b62c8a877d14e1d2",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_R.png"
+      ]
+    },
+    {
+      "name": "Zendikar Rising Commander",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZNC.json.gzip",
+      "code": "ZNC",
+      "digest": "70ce76031b18012eef3e7c72be898580",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_C.png"
+      ]
+    },
+    {
+      "name": "Zendikar Rising Expeditions",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZNE.json.gzip",
+      "code": "ZNE",
+      "digest": "723c640f2ab953f819fe2d17484cec51",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNE_M.png"
       ]
     }
   ]

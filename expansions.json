@@ -175,23 +175,6 @@
     ]
   },
   {
-    "name_gatherer": "Battle Royale Box Set",
-    "code_gatherer": "BR",
-    "code_mtgi": "BR",
-    "name_tcgp": "Battle Royale Box Set",
-    "name_mkm": "Battle Royale",
-    "releaseTimestamp": 941410800,
-    "canBeFoil": false,
-    "isOnlineOnly": false,
-    "borderColor": "White",
-    "digest": "528e1b8cafe41095c2d047e39f6d7187",
-    "expansionImageURLs": [
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
-      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
-    ]
-  },
-  {
     "name_gatherer": "Battle for Zendikar",
     "code_gatherer": "BFZ",
     "code_mtgi": "BFZ",
@@ -207,6 +190,23 @@
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_M.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_R.png",
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BFZ_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Battle Royale Box Set",
+    "code_gatherer": "BR",
+    "code_mtgi": "BR",
+    "name_tcgp": "Battle Royale Box Set",
+    "name_mkm": "Battle Royale",
+    "releaseTimestamp": 941410800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "White",
+    "digest": "528e1b8cafe41095c2d047e39f6d7187",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/BR_R.png"
     ]
   },
   {
@@ -3880,6 +3880,57 @@
     "digest": "a8a44819dd040154cc5c7208c68ccc8f",
     "expansionImageURLs": [
       "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/EXP_M.png"
+    ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising",
+    "code_gatherer": "ZNR",
+    "code_mtgi": "ZNR",
+    "name_tcgp": "Zendikar Rising",
+    "name_mkm": "Zendikar Rising",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "159e8eefebda1591b62c8a877d14e1d2",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_R.png"
+    ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising Commander",
+    "code_gatherer": "ZNC",
+    "code_mtgi": "ZNC",
+    "name_tcgp": "Commander: Zendikar Rising",
+    "name_mkm": "Commander: Zendikar Rising",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "70ce76031b18012eef3e7c72be898580",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_C.png"
+    ]
+  },
+  {
+    "name_gatherer": "Zendikar Rising Expeditions",
+    "code_gatherer": "ZNE",
+    "code_mtgi": "ZNE",
+    "name_tcgp": "Zendikar Rising Expeditions",
+    "name_mkm": "Zendikar Rising Expeditions",
+    "releaseTimestamp": 1598932800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "723c640f2ab953f819fe2d17484cec51",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNE_M.png"
     ]
   }
 ]

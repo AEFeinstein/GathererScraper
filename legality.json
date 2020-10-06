@@ -364,13 +364,10 @@
       "name": "Standard",
       "sets": [
         "ELD",
-        "GRN",
         "IKO",
-        "M20",
         "M21",
-        "RNA",
         "THB",
-        "WAR"
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -382,6 +379,7 @@
         "Oko, Thief of Crowns",
         "Once Upon a Time",
         "Teferi, Time Raveler",
+        "Uro, Titan of Nature's Wrath",
         "Veil of Summer",
         "Wilderness Reclamation"
       ]
@@ -420,7 +418,8 @@
         "THB",
         "THS",
         "WAR",
-        "XLN"
+        "XLN",
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -447,13 +446,10 @@
       "name": "Brawl",
       "sets": [
         "ELD",
-        "GRN",
         "IKO",
-        "M20",
         "M21",
-        "RNA",
         "THB",
-        "WAR"
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -544,7 +540,8 @@
         "WAR",
         "WWK",
         "XLN",
-        "ZEN"
+        "ZEN",
+        "ZNR"
       ],
       "restrictedlist": [],
       "banlist": [
@@ -1628,5 +1625,5 @@
       ]
     }
   ],
-  "timestamp": 1596468036
+  "timestamp": 1601319972
 }
