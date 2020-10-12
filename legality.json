@@ -373,10 +373,13 @@
       "banlist": [
         "Agent of Treachery",
         "Cauldron Familiar",
+        "Escape to the Wilds",
         "Field of the Dead",
         "Fires of Invention",
         "Growth Spiral",
+        "Lucky Clover",
         "Oko, Thief of Crowns",
+        "Omnath, Locus of Creation",
         "Once Upon a Time",
         "Teferi, Time Raveler",
         "Uro, Titan of Nature's Wrath",
@@ -457,6 +460,7 @@
         "Golos, Tireless Pilgrim",
         "Lutri, the Spellchaser",
         "Oko, Thief of Crowns",
+        "Omnath, Locus of Creation",
         "Sorcerous Spyglass",
         "Teferi, Time Raveler",
         "Winota, Joiner of Forces"
@@ -1625,5 +1629,5 @@
       ]
     }
   ],
-  "timestamp": 1601319972
+  "timestamp": 1602516327
 }
