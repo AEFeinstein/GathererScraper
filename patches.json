@@ -1,5 +1,5 @@
 {
-  "timestamp": 1600992377,
+  "timestamp": 1605197648,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1984,7 +1984,7 @@
       "name": "Secret Lair Drop",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/SLD.json.gzip",
       "code": "SLD",
-      "digest": "011d6505326437a55a4e1cd04c23dd37",
+      "digest": "c0e56776e002a4aa5baf0e918c66a350",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/SLD_R.png",
