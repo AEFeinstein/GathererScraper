@@ -1,5 +1,5 @@
 {
-  "timestamp": 1605197648,
+  "timestamp": 1605797468,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -335,6 +335,18 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_C.png"
+      ]
+    },
+    {
+      "name": "Commander Legends",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CMR.json.gzip",
+      "code": "CMR",
+      "digest": "00976315e6a8f828243ef144e9c2fed8",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_C.png"
       ]
     },
     {

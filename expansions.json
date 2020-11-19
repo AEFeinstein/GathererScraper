@@ -510,6 +510,24 @@
     ]
   },
   {
+    "name_gatherer": "Commander Legends",
+    "code_gatherer": "CMR",
+    "code_mtgi": "CMR",
+    "name_tcgp": "Commander Legends",
+    "name_mkm": "Commander Legends",
+    "releaseTimestamp": 1604203200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "00976315e6a8f828243ef144e9c2fed8",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CMR_C.png"
+    ]
+  },
+  {
     "name_gatherer": "Commander's Arsenal",
     "code_gatherer": "CRS",
     "code_mtgi": "CMA",
