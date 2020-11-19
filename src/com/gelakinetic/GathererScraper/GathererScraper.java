@@ -1380,7 +1380,7 @@ public class GathererScraper {
      * @throws IOException Thrown if the write fails
      */
     static void writeFile(Object object, File outFile, boolean shouldZip) throws IOException {
-        System.setProperty("line.separator", "\n");
+        System.setProperty("line.separator", "\r\n");
         OutputStream fos;
 
         if (shouldZip) {
@@ -1392,9 +1392,9 @@ public class GathererScraper {
         OutputStreamWriter osw = new OutputStreamWriter(fos, Charset.forName("UTF-8"));
 
         if (object instanceof String) {
-            osw.write(((String) object).replace("\r", ""));
+            osw.write(((String) object));
         } else {
-            osw.write(GathererScraper.getGson().toJson(object).replace("\r", ""));
+            osw.write(GathererScraper.getGson().toJson(object));
         }
 
         osw.flush();
