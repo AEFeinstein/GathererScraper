@@ -1,5 +1,5 @@
 {
-  "timestamp": 1611639059,
+  "timestamp": 1611639777,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -2484,7 +2484,7 @@
       "name": "Zendikar Rising",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZNR.json.gzip",
       "code": "ZNR",
-      "digest": "159e8eefebda1591b62c8a877d14e1d2",
+      "digest": "9745f623e6140cca87ad0376463e6ee4",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNR_C.png",
