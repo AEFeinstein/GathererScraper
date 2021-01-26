@@ -271,11 +271,18 @@ public class GathererScraper {
         Collections.sort(scrapedCards);
         for (int i = 0; i < scrapedCards.size() - 1; i++) {
             if (scrapedCards.get(i).mNumber.equals(scrapedCards.get(i + 1).mNumber)) {
-                System.err.println(String.format("[%3s]\t%s & %s\t%s",
-                        scrapedCards.get(i).mExpansion,
-                        scrapedCards.get(i).mName,
-                        scrapedCards.get(i + 1).mName,
-                        scrapedCards.get(i).mNumber));
+                
+                if(!attemptRenumber(scrapedCards, i))
+                {
+                    if(!attemptRenumber(scrapedCards, i+1))
+                    {
+                        System.err.println(String.format("[%3s]\t%s & %s\t%s",
+                                scrapedCards.get(i).mExpansion,
+                                scrapedCards.get(i).mName,
+                                scrapedCards.get(i + 1).mName,
+                                scrapedCards.get(i).mNumber));                        
+                    }
+                }
             }
         }
 
@@ -294,6 +301,20 @@ public class GathererScraper {
         exp.mDigest = sb.toString();
 
         return scrapedCards;
+    }
+
+    private static boolean attemptRenumber(ArrayList<CardGS> scrapedCards, int i) {
+        CardGS card       = scrapedCards.get(i);
+        String suffixChar = Character.toString(card.mNumber.charAt(card.mNumber.length() - 1));
+
+        for (CardGS scraped : scrapedCards) {
+            if (card != scraped && card.mName.equals(scraped.mName) && !scraped.mNumber.endsWith(suffixChar)) {
+                String newSuffixChar = Character.toString(scraped.mNumber.charAt(scraped.mNumber.length() - 1));
+                scraped.mNumber = scraped.mNumber.replace(suffixChar, newSuffixChar);
+                return true;
+            }
+        }
+        return false;
     }
 
     /**
