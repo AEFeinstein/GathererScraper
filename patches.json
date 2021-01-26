@@ -1,5 +1,5 @@
 {
-  "timestamp": 1611636647,
+  "timestamp": 1611639059,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1284,7 +1284,7 @@
       "name": "Kaldheim",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KHM.json.gzip",
       "code": "KHM",
-      "digest": "ceacb5efefb7e8be704d1055e21f9d78",
+      "digest": "efcc6eb2afc0cf104cead2c41689a507",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_C.png",
@@ -2496,7 +2496,7 @@
       "name": "Zendikar Rising Commander",
       "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/ZNC.json.gzip",
       "code": "ZNC",
-      "digest": "70ce76031b18012eef3e7c72be898580",
+      "digest": "7934b3035103ca8af37fdf7abb05116c",
       "expansionImageURLs": [
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/ZNC_U.png",
