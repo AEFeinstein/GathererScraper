@@ -1,5 +1,5 @@
 {
-  "timestamp": 1605797468,
+  "timestamp": 1611636647,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -1278,6 +1278,30 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KLD_U.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KLD_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KLD_M.png"
+      ]
+    },
+    {
+      "name": "Kaldheim",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KHM.json.gzip",
+      "code": "KHM",
+      "digest": "ceacb5efefb7e8be704d1055e21f9d78",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_C.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_R.png"
+      ]
+    },
+    {
+      "name": "Kaldheim Commander",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/KHC.json.gzip",
+      "code": "KHC",
+      "digest": "d6680f6d49822882a8117796040f9b20",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_U.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_M.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_C.png"
       ]
     },
     {

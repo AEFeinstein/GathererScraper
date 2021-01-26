@@ -2113,6 +2113,42 @@
     ]
   },
   {
+    "name_gatherer": "Kaldheim",
+    "code_gatherer": "KHM",
+    "code_mtgi": "KHC",
+    "name_tcgp": "Kaldheim",
+    "name_mkm": "Kaldheim",
+    "releaseTimestamp": 1577854800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "ceacb5efefb7e8be704d1055e21f9d78",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHM_R.png"
+    ]
+  },
+  {
+    "name_gatherer": "Kaldheim Commander",
+    "code_gatherer": "KHC",
+    "code_mtgi": "KHC",
+    "name_tcgp": "Commander: Kaldheim",
+    "name_mkm": "Commander: Kaldheim",
+    "releaseTimestamp": 1577854800,
+    "canBeFoil": false,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "d6680f6d49822882a8117796040f9b20",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_U.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/KHC_C.png"
+    ]
+  },
+  {
     "name_gatherer": "Khans of Tarkir",
     "code_gatherer": "KTK",
     "code_mtgi": "KTK",
