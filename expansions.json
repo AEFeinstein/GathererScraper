@@ -510,6 +510,22 @@
     ]
   },
   {
+    "name_gatherer": "Commander Collection: Green",
+    "code_gatherer": "CC1",
+    "code_mtgi": "CC1",
+    "name_tcgp": "Commander Collection: Green",
+    "name_mkm": "Commander Collection: Green",
+    "releaseTimestamp": 1580533200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "ad1d1cc7748ef996edebc33a42499671",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CC1_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CC1_M.png"
+    ]
+  },
+  {
     "name_gatherer": "Commander Legends",
     "code_gatherer": "CMR",
     "code_mtgi": "CMR",

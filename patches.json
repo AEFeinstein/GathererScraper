@@ -1,5 +1,5 @@
 {
-  "timestamp": 1611639777,
+  "timestamp": 1612881590,
   "patches": [
     {
       "name": "Aether Revolt",
@@ -335,6 +335,16 @@
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_R.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_M.png",
         "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CM2_C.png"
+      ]
+    },
+    {
+      "name": "Commander Collection: Green",
+      "uRL": "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/patches-v2/CC1.json.gzip",
+      "code": "CC1",
+      "digest": "ad1d1cc7748ef996edebc33a42499671",
+      "expansionImageURLs": [
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CC1_R.png",
+        "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/CC1_M.png"
       ]
     },
     {
