@@ -3562,6 +3562,24 @@
     ]
   },
   {
+    "name_gatherer": "Time Spiral Remastered",
+    "code_gatherer": "TSR",
+    "code_mtgi": "TSR",
+    "name_tcgp": "Time Spiral: Remastered",
+    "name_mkm": "Time Spiral: Remastered",
+    "releaseTimestamp": 1614574800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "digest": "2f7de955a2669575b522cea7c48b538f",
+    "expansionImageURLs": [
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSR_M.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSR_R.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSR_C.png",
+      "https://raw.githubusercontent.com/AEFeinstein/GathererScraper/master/symbols/TSR_U.png"
+    ]
+  },
+  {
     "name_gatherer": "Torment",
     "code_gatherer": "TO",
     "code_mtgi": "TR",
